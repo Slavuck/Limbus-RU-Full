@@ -1,0 +1,373 @@
+{
+  "dataList": [
+    {
+      "id": 9102701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прокус",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Штурм",
+          "desc": "Сила парирований +1 против целей с 6-ью и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлестания",
+          "desc": "Сила парирований +1 против целей с 6-ью и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[StartBattle] При 33% здоровья и менее обращает все монеты этого навыка в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">вечные</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрезы и кромсание",
+          "desc": "Сила парирований +1 против целей с 6-ью и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[StartBattle] При 33% здоровья и менее обращает последнюю монету этого навыка в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">вечную</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прорезание жизни",
+          "desc": "Итоговая сила +1 за каждые 6 единиц <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 3-х)\n[StartBattle] При 50% здоровья и менее обращает все монеты этого навыка в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">вечные</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Беснования",
+          "desc": "Итоговая сила +1 за каждые 6 единиц <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 3-х)\n[StartBattle] При 50% здоровья и менее обращает все монеты этого навыка в <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">вечные</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жатва питательных веществ",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Глубокий укус",
+          "desc": "Итоговая сила +1 за каждые 6 единиц <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Непрерывное пожирание",
+          "desc": "Итоговая сила +1 за каждые 6 единиц <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прокол жизни",
+          "desc": "Итоговая сила +1 за каждые 6 единиц <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на основной цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выплеск",
+          "desc": "Итоговая сила +1 за каждые 6 единиц <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на основной цели (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

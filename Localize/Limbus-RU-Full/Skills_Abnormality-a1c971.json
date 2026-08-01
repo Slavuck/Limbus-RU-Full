@@ -1,0 +1,689 @@
+{
+  "dataList": [
+    {
+      "id": 108001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Камнепад",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 5 и более [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сбор камней",
+          "desc": "[WinDuel] Базовая сила +2, если на цели есть [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Восходящая леность",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 [Vibration] на цели (До 3)\n[WinDuel] Количество целей +1 за каждые 5 [Vibration] на главной цели (До 2 дополнительных целей)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration] в [VibrationEcho]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] [VibrationExplosion] 1 раз за каждые 2 единицы счётчика [Vibration] цели (До 2), после чего понижает счётчик [Vibration] цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита",
+          "desc": "Наносит 2 [Vibration] атаковавшему при получении удара, пока остаётся щит\n[WhenUse] Получает 3 Защищённости",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Коллизия распада",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking] и повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вихрь",
+          "desc": "[WhenUse] Базовая сила +2 против целей с [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking] и повышает счётчик [Sinking] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking] и повышает счётчик [Sinking] на 2 двум случайным противникам"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Каскад уныния",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 [Sinking] на цели (До 3)\n[WinDuel] Количество целей +1 за каждые 5 [Sinking] на главной цели (До 2 дополнительных целей)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking] и повышает счётчик [Sinking] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Сила следующей монеты повышается 1 за каждые 3 [Sinking] на цели (До 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Провоцирует [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Цель теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Откидывание",
+          "desc": "[WhenUse] Поглощает до 20 [BloodDinner] и получает 1 [BloodArmor] за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Сила монет +1 за каждые 10 [BloodArmor] (До 2)\n[WhenUse] Сила монет +1 за каждые 15 [Laceration] на себе (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ранение",
+          "desc": "[WhenUse] Поглощает до 20 [BloodDinner] и получает 1 [BloodArmor] за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Сила монет +1 за каждые 10 [BloodArmor] (До 2)\n[WhenUse] Сила монет +1 за каждые 15 [Laceration] на себе (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вариант искусства застывшей крови Дон Кихота 4 - Рассечение",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]\n[WinDuel] Наносит на 20% больше урона за каждую фазу [BloodArmor] (До 60%)\n[DefeatDuel] Теряет 4 [BloodArmor]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вариант искусства застывшей крови Дон Кихота 11 - Пронзание",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 [Laceration] на цели (До 3)\n[WinDuel] Наносит на 20% больше урона за каждую фазу [BloodArmor] (До 60%)\n[DefeatDuel] Теряет 4 [BloodArmor]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели (Счётчик [Laceration] цели - 1) раз и опускает его счётчик на столько же"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вариант стиля Дон Кихота: Искусство Санчо 4 - Следование",
+          "desc": "Приоритет ставит цели с наибольшим [Laceration]\n[BeforeAttack] вес атаки +1 за каждую 10 [BloodArmor] на себе (максимум 3)\n[WhenUse] сила в столкновении +1 за каждую 5 [Laceration] по цели (максимум 3)\n[WhenUse] Потреблять до 30 [BloodDinner]: получать 1 [BloodArmor] и +1 силы монет за каждое 15 [BloodDinner] (максимум 2)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 10 [Laceration] и активируйте [Laceration] немедленно. Потерять 1 [Laceration] счёт\n[EndSkill] Увеличение [BloodDinner] равно нанесённому урону этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход\n- Если удалось поглотить 30 [BloodDinner], наносит ещё 2 [Binding]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вариант стиля Дон Кихота: Искусство Санчо 3 - Засада",
+          "desc": "Приоритет ставит цели с наибольшим [Laceration]\n[BeforeAttack] вес атаки +1 за каждую 10 [BloodArmor] на себе (максимум 2)\n[WhenUse] сила в столкновении +1 за каждую 5 [Laceration] по цели (максимум 3)\n[WhenUse] Потреблять до 30 [BloodDinner]: получать 1 [BloodArmor] и +1 силы монет за каждое 15 [BloodDinner] (максимум 2)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 10 [Laceration] и активируйте [Laceration] немедленно. Потерять 1 [Laceration] счёт\n[EndSkill] Увеличение [BloodDinner] равно нанесённому урону этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход\n- Если удалось поглотить 50 [BloodDinner], наносит ещё 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вариант стиля Дон Кихота: Искусство Санчо 2 - Кровавая броня",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\n[StartBattle] получает 1 [SwirlingBlood]\n[StartBattle] Потреблять 100 [BloodDinner]; Получайте 1 [BloodArmor] и 20 ОЗ Щита за каждое потраченное 10 [BloodDinner]\n- Если у этого подразделения недостаточно [BloodDinner], наберите 50 [Laceration] и активируйте его немедленно. Потеряй 2 [Laceration] счёт. Получайте 200 щита ОЗ (этот урон не снижает ОЗ юнита до 0)\n[DefeatDuel] Пока ОЗ Щита от этого Навыка остаётся, получайте 3 [Vulnerable]\n[DefeatDuel] Этот навык наносит -50% урона\n[EndSkill] Фаза окончания боя",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration] и повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Авентура Ха Терминадо",
+          "desc": "Наносит на (Сила [Laceration] цели × 10)% больше урона (До 200%)\nУрон повышается ещё на 10% за каждые 3 [BloodArmor] (До 100%)\n[StartBattle] Поглощает (45 - текущая СД) [BloodDinner] и восстанавливает СД до 45\n- Если не удалось поглотить [BloodDinner], то получает 20 [Laceration] и восстанавливает СД до 45\n- Получает ОЗ Щита в количестве оставшегося [BloodDinner] (До 100)\n[WinDuel] Наносит цели 10 [Laceration]\n[EndSkill] Увеличивает [BloodDinner] на количество нанесённого урона\n[EndSkill] Если цель побеждена, увеличивает [BloodDinner] на значение максимальных ОЗ цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Laceration] и повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 5 [Laceration] и 3 к счётчику [Laceration] на всех противников, кроме цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 107909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Авентура Ха Терминадо...",
+          "desc": "Наносит на 40% больше урона за каждые 10 единиц в сумме силы [Laceration] на всех целях (До 200%)\nУрон повышается ещё на 10% за каждую единицу поглощённого [BloodDinner] (До 100%)\n[StartBattle] Поглощает (45 - текущая СД) [BloodDinner] и восстанавливает СД до 45\n- Если не удалось поглотить [BloodDinner], получает 20 [Laceration] и восстанавливает СД до 45\n- Получает ОЗ Щита в количестве оставшегося [BloodDinner] (До 100)\n[WinDuel] Наносит цели 10 [Laceration]\n[EndSkill] Увеличивает [BloodDinner] на количество нанесённого урона\n[EndSkill] Если цель побеждена, увеличивает [BloodDinner] на значение максимальных ОЗ цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Наносит 10 [Laceration] и повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сжатие",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [Breath] (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Демонтаж",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 [Breath] (До 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Триггер [VibrationExplosion]. Когда [VibrationExplosion] активируется на цели, уменьшите количество [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проведение анализа",
+          "desc": "[WhenUse] Если имеется 10 и более [Breath], тратит до 6 [Breath] для получения +2 к Итоговой силе за каждые 3 потраченного [Breath] (До +4 к Итоговой силе)\n- Тратит по 3 дополнительного [Breath] за каждую полученную единицу Итоговой силы от этого эффекта",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 5+ [Vibration] счётчик, активируйте [VibrationExplosion]. Когда [VibrationExplosion] активируется на цели, уменьшите количество [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Триггер [VibrationExplosion] дважды. Когда [VibrationExplosion] активируется на цели, уменьшите [Vibration] счётчик цели на 1 (аннулировать 1 случае уменьшения [Vibration] счётчик, если этот юнит выиграл столкновение)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Инициирующая последовательность вымирания",
+          "desc": "[WhenUse] Тратит половину силы и счётчика своего [Breath]:\n- Получает +(Сумма потраченных силы и счётчика [Breath] / 2) к Итоговой силе (До 20)\n- Наносит на (Сумма потраченных силы и счётчика [Breath] × 2)% больше урона (До 50%)\n- Наносит на (Сумма потраченных силы и счётчика [Breath] × 4)% больше урона при критическом попадании (До 100%)\n[DefeatDuel] Теряет половину оставшегося счётчика [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "• Если не было получено урона по ОЗ в прошлом ходе, то этот удар становится критическим"
+                },
+                {
+                  "desc": "• Если в прошлом ходе был получен урон, то урон наоборот понижается на 80% и удар не становится критическим"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Триггер [VibrationExplosion] трижды. Когда [VibrationExplosion] активируется на цели, уменьшите [Vibration] счётчик цели на 3 (максимальное снижение 9 [Vibration] счётчик)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 108205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Созерцание",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 [Breath] (До 5)\n[WhenUse] Получает 4 [Breath]\n Если имеется щит, то повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сжатие",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [Breath] (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 3 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Демонтаж",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 [Breath] (До 5)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если значение [ObservedPerson] на цели равно 20 и более, монета этого навыка становится [SuperCoin]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проведение анализа",
+          "desc": "[WhenUse] Если имеется 10 и более [Breath], тратит до 6 [Breath] для получения +2 к Итоговой силе за каждые 3 потраченного [Breath] (До +4 к Итоговой силе)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Vibration] цели равен 5 и более, [VibrationExplosion] и понижает счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Дважды активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Инициирующая последовательность угасания",
+          "desc": "[WhenUse] Потреблять половину [Breath] Силы и полагаться на себя\n- Усиление (сумма потраченного [Breath] Мощности и Счёта / 2) Конечная сила (максимальная 20)\n- Наносить +(сумма потраченного [Breath] Силы и Счёт x 2)% урона (максимальный 50%)\n- +(сумма потраченного [Breath] Силы и Счёта x 4)% урона при критическом ударе (максимальный 100%)\n[DefeatDuel] Сократить оставшийся [Breath] Счёт вдвое",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "• Если не было получено урона по ОЗ в прошлом ходе, то этот удар становится критическим"
+                },
+                {
+                  "desc": "• Если в прошлом ходе был получен урон, то урон наоборот понижается на 80% и удар не становится критическим"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Триггер [VibrationExplosion] трижды; затем уменьшите [Vibration] целевой счёт на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 137805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Созерцание",
+          "desc": "[CanDuelGuard]\n[WhenUse] Итоговая сила +1 за каждые 3 [Breath] (До 5)\n[WhenUse] Получает 4 [Breath]\n Если имеется щит, то повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

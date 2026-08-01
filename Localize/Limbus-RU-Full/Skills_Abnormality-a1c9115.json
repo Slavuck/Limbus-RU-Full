@@ -1,0 +1,223 @@
+{
+  "dataList": [
+    {
+      "id": 112204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Низвержение",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath] на 3\nНавык теряет по 10 Итоговой силы при атаке за каждую расколотую в столкновении Вечную монету монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Получает 3 Дыхания и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath] и 1 к счётчику [Breath]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести +1 [Laceration] граф"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Получает 2 Повышения Рубящего урона на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] получает 2 [SlashDamageUp] следующем ходу"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 2 [SlashResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Наносит 5 Кровотечения и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 5 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 2 [Paralysis] следующий ход"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести +3 [Laceration] граф"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы разрубить кости",
+          "desc": "[StartBattle] Получает 100 ОЗ Щита\n[WhenUse] Сила в столкновении +5, если полученный щит не был снят\nНавык теряет по 20 Итоговой силы при атаке за каждую расколотую в столкновении Вечную монету монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Наносит 3 Понижения сопротивления к Рубящему урону"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 3 [SlashResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " На 100% больше критического урона"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 Кровотечения и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 10 [Laceration] и 2 к счётчику [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Если полученный щит не был снят, разделяет Растущую горечь(#4b679d) между целями атаки фиксированным уроном"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если Щит не исчерпан полностью, делит значение [Grudge] на вес атаки и наносит результат в виде фиксированного урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы разрубить кости",
+          "desc": "[StartBattle] Получает 250 ОЗ Щита\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[WhenUse] Сила в столкновении +10, если полученный щит не был снят\nНавык теряет по 23 Итоговой силы при атаке за каждую расколотую в столкновении Вечную монету монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Наносит 3 Понижения сопротивления к Рубящему урону"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести 3 [SlashResistDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " На 100% больше критического урона"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 Параличей на следующий ход"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 5 [Paralysis] следующий ход"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 10 [Laceration] и 2 к счётчику [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Если полученный щит не был снят, разделяет Растущую горечь(#4b679d) между целями атаки фиксированным уроном"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если Щит не исчерпан полностью, делит значение [Grudge] на вес атаки и наносит результат в виде фиксированного урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы разрубить кости",
+          "desc": "[CantChangeTarget]\nНацеливается на противника с наименьшими текущими ОЗ\n[EnemyKill] Удваивает [Grudge](#4b679d)\n[EnemyKill] Восстанавливает себе ОЗ на количество [Grudge](#4b679d)\nНавык теряет по 25 Итоговой силы при атаке за каждую расколотую в столкновении Вечную монету монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Если эта монета расколота, теряет 25 итоговой силы"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Если эта монета расколота, теряет 25 итоговой силы"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": " Наносит фиксированный урон в количестве своей Растущей горечи(#4b679d)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносить фиксированный урон, равный [Grudge] значению."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

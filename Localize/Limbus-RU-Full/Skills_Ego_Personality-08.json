@@ -1,0 +1,1090 @@
+{
+  "dataList": [
+    {
+      "id": 2080511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[EndSkill] Восстанавливает 15 СД 4-м союзникам с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Даёт 1 Дыхание случайному союзнику"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[EndSkill] Восстанавливает 20 CД 4-м союзникам с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Даёт 1 Дыхание случайному союзнику"
+                },
+                {
+                  "desc": "[EndSkillHead] Даёт 1 Повышение силы колющей атаки и 1 Повышение урона 4-ём союзникам с наибольшей СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[EndSkill] Восстанавливает 25 СД 4-м союзникам с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 6"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Даёт 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> случайному союзнику"
+                },
+                {
+                  "desc": "[EndSkill] Даёт 2 <sprite name=\"PenetrateResultUp\"><color=#f8c200><u><link=\"PenetrateResultUp\">Повышения силы колющей атаки</link></u></color> и 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> 4-ём союзникам с наибольшей СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"IndigoTakeDamageUp\"><color=#e30000><u><link=\"IndigoTakeDamageUp\">Уязвимости к Гордыне</link></u></color> на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает 3% от максимальных ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"IndigoTakeDamageUp\"><color=#e30000><u><link=\"IndigoTakeDamageUp\">Уязвимости к Гордыне</link></u></color> на этот и следующий ход"
+                },
+                {
+                  "desc": "[EndSkillTail] Даёт 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> 4-ём союзникам с наименьшей СД на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 3% от максимальных ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Дыхание и повышает его счётчик на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"IndigoTakeDamageUp\"><color=#e30000><u><link=\"IndigoTakeDamageUp\">Уязвимости к Гордыне</link></u></color> на этот и следующий ход"
+                },
+                {
+                  "desc": "[EndSkill] Даёт 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> 4-ём союзникам с наименьшей СД на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 15% от максимальных ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4~8% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "Если восстановление превышает необходимое число ОЗ для максимального значения, переносит число восстановленных ОЗ на союзника с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">18</style>% от максимальных ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">6~10</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "Если восстановление превышает необходимое число ОЗ для максимального значения, переносит число восстановленных ОЗ на союзника с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">20</style>%  от максимальных ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Теряет 1~2 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Подкидывает эту монету ещё раз (До 5 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает <style=\"highlight\">8~12</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ShamrockTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~<style=\"highlight\">4</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым низким здоровьем\n[BeforeAttack] До 5-и случайных союзников (кроме Измаил) теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников.\n- Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> при нанесении урона союзникам.\n(Активируется раз за ход. Может нанести урон по щиту. Может убить союзников.)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает 10% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит 1~4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым низким здоровьем\n<style=\"highlight\">[BeforeAttack] Тяжесть атаки +(Наибольший резонанс - 2) (До 1)</style>\n[BeforeAttack] До 5-и случайных союзников (кроме Измаил) теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников.\n- Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> при нанесении урона союзникам.\n(Активируется раз за ход. Может нанести урон по щиту. Может убить союзников.)\n<style=\"highlight\">[EndSkill] Если восстановление от эффекта этого навыка превышает необходимое число ОЗ для максимального значения, Измаил получает (превышенное восстановление ÷ максимальные ОЗ) × 10 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> на следующий ход. (До 3-х раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает <style=\"highlight\">15</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">2~5</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взмах крыльев",
+          "abName": "Фестиваль фей",
+          "desc": "[CantIdentify]\nВыбирает цель с самым низким здоровьем\n[BeforeAttack] Тяжесть атаки +(Наибольший резонанс - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] До 5-и случайных союзников (кроме Измаил) теряют 5% от максимальных ОЗ\n- Восстанавливает свои ОЗ за счёт потерянных ОЗ союзников.\n- Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> при нанесении урона союзникам.\n(Активируется раз за ход. Может нанести урон по щиту. Может убить союзников.)\n[EndSkill] Если восстановление от эффекта этого навыка превышает необходимое число ОЗ для максимального значения, Измаил получает (превышенное восстановление ÷ максимальные ОЗ) × 10 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышений уровня атаки</link></u></color> на следующий ход. (До <style=\"highlight\">6-и</style> раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] Восстанавливает <style=\"highlight\">20</style>% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Наносит <style=\"highlight\">3~6</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 1 [Enhancement] на следующий ход (До 3-х раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе\n[EndSkill] Восстанавливает (5 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и его счётчика на основной цели) ÷ 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе\n<style=\"highlight\">- Тяжесть атаки +1, если наибольший резонанс — резонанс Уныния</style>\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и его счётчика на основной цели) ÷ 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при 4 и более грехов в наибольшем резонансе\n- Тяжесть атаки +1, если наибольший резонанс — резонанс Уныния\n[EndSkill] Восстанавливает (10 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и его счётчика на основной цели) ÷ 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до <style=\"highlight\">20</style>%)\n<style=\"highlight\">- При 4 и более грехах в наибольшем резонансе Уныния дополнительно восстанавливает 10% от максимальных ОЗ</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 4 греха Уныния, наносит 1 [AzureTakeDamageUp]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружением</link></u></color>\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (5 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и его счётчика на основной цели) ÷ 3)% от максимальных ОЗ трём союзникам с самым низким здоровьем на момент окончания навыка (Кроме себя, до 10%)\n- Если в резонансе 4 и более греха, +1 цель восстановления",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружением</link></u></color>\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (<style=\"highlight\">10</style> + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и его счётчика на основной цели) ÷ 3)% от максимальных ОЗ трём союзникам с самым низким здоровьем на момент окончания навыка (Кроме себя, до  <style=\"highlight\">15</style>%)\n- Если в резонансе 4 и более греха, +1 цель восстановления",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если в резонансе 3 и более греха Уныния, получает 1 [AzureTakeDamageUp]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эха особняка</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружением</link></u></color>\n[BeforeAttack] Тратит 10% от максимальных ОЗ (Этот эффект не оглушает Измаил)\n[EndSkill] Восстанавливает (10 + (Сумма <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и его счётчика на основной цели) ÷ 3)% от максимальных ОЗ двум союзникам с самым низким здоровьем на момент окончания навыка (Восстанавливает до 15%)\n- Если в резонансе 4 и более греха, +1 цель восстановления\n<style=\"highlight\">- Если это резонанс Уныния, повышает восстановление ОЗ на 5%</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AzureTakeDamageUp] <style=\"highlight\">за каждые 3</style> греха Погружения в резонансе <style=\"highlight\">(До 2)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"UninvitedGuestPersonality\"><color=#e30000><u><link=\"UninvitedGuestPersonality\">Незваных гостя</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эха особняка</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[BeforeAttack] Измаил повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (наибольший резонанс + 5) (До 10-и)\n[EndSkill] Если цель оглушена, в состоянии пониженного духа или срыва, Измаил восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "<style=\"highlight\">Если СД цели ниже 0, +1% к урону за каждую единицу СД до 0 (До 45%)</style>\n[BeforeAttack] Измаил повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (наибольший резонанс + 5) (До 10-и)\n[EndSkill] Если цель оглушена, в состоянии пониженного духа или срыва, Измаил восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "Если СД цели ниже 0, +1% к урону за каждую единицу СД цели до 0 (До 45%)\n[BeforeAttack] Измаил повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (наибольший резонанс + 5) (До 10-и)\n[EndSkill] Если цель оглушена, в состоянии пониженного духа или срыва, Измаил восстанавливает 10 СД<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, <style=\"highlight\">дважды</style> <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Измаил повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (наибольший резонанс + 5) (До 10-и)\n[BeforeAttack] Измаил восстанавливает 10 ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Базовая сила +1, если основная цель атаки оглушена, в состоянии пониженного духа или срыва</style>\n[BeforeAttack] Измаил повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (наибольший резонанс + 5) (До 10-и)\n[BeforeAttack] Измаил восстанавливает 10 ОЗ\n<style=\"highlight\">[EndSkill] Измаил восстанавливает 5 СД за каждого противника в состоянии оглушения, пониженного духа или срыва</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\nБазовая сила +<style=\"highlight\">2</style>, если основная цель атаки оглушена, в состоянии пониженного духа или срыва\n[BeforeAttack] Измаил повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (наибольший резонанс + 5) (До 10-и)\n[BeforeAttack] Измаил восстанавливает 10 ОЗ\n[EndSkill] Измаил восстанавливает 5 СД за каждого противника в состоянии оглушения, пониженного духа или срыва<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель <b>не</b> оглушена, в состоянии пониженного духа или срыва, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смертоносная сколопендра",
+          "abName": "Апостол сколопендр",
+          "desc": "[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До 5-и)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4-х и более грехах Чревоугодия или Уныния в резонансе наносит [CentipedePoison], равный числу грехов в данном резонансе (До 4-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Смертоносная сколопендра",
+          "abName": "Апостол сколопендр",
+          "desc": "[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До <style=\"highlight\">8-и</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4-х и более грехах Чревоугодия или Уныния в резонансе наносит [CentipedePoison], равный числу грехов в данном резонансе (До 4-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Смертоносная сколопендра",
+          "abName": "Апостол сколопендр",
+          "desc": "[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До <style=\"highlight\">10-и</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4-х и более грехах Чревоугодия или Уныния в резонансе наносит [CentipedePoison], равный числу грехов в данном резонансе (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2080921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смертоносная сколопендра",
+          "abName": "Апостол сколопендр",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До 8-и)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4-х и более грехах Чревоугодия или Уныния в резонансе наносит [CentipedePoison], равный числу грехов в данном резонансе (До 4-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Смертоносная сколопендра",
+          "abName": "Апостол сколопендр",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До <style=\"highlight\">10-и</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4-х и более грехах Чревоугодия или Уныния в резонансе наносит [CentipedePoison], равный числу грехов в данном резонансе (До 4-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Смертоносная сколопендра",
+          "abName": "Апостол сколопендр",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Измаил наносит [CentipedePoison], равный сумме негативных эффектов на себе и основной цели (До 10-и<style=\"highlight\"></style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4-х и более грехах Чревоугодия или Уныния в резонансе наносит [CentipedePoison], равный числу грехов в данном резонансе (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2081011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "Если Измаил выбрала только одну цель (в направляемых битвах ядро с частями считается за одну цель), +100% к урону и +2 к силе монет\n[WhenUse] Сила парирований +1, если на основной цели 4 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[BeforeAttack] Если у основной цели сопротивление к Унынию выше x1,0, +2% к урону за каждый 0,1 после x1,0 в сопротивлении (До 10%)\n[BeforeAttack] Если в резонансе более 2-х грехов Уныния, +5% к урону за каждый грех Уныния в резонансе (До 20%)\n[EndSkill] При убийстве одной цели и более наносит (потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> всех целей ÷ 2) урона Унынием двум случайным противникам (До 15-и; в приоритете цели с наибольшим потенциалом <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> случайному противнику, не являющемуся целью атаки (Раз за ход; в направляемых битвах целью считается часть)"
+                },
+                {
+                  "desc": "- Если цель атаки лишь одна, взамен наносит [Sinking] трём случайным противникам"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "Если Измаил выбрала только одну цель (в направляемых битвах ядро с частями считается за одну цель), +100% к урону и +2 к силе монет\n[WhenUse] Сила парирований +1, если на основной цели 4 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[BeforeAttack] Если у основной цели сопротивление к Унынию выше x1,0, +<style=\"highlight\">3</style>% к урону за каждый 0,1 после x1,0 в сопротивлении (До <style=\"highlight\">15</style>%)\n[BeforeAttack] Если в резонансе более 2-х грехов Уныния, +<style=\"highlight\">8</style>% к урону за каждый грех Уныния в резонансе (До <style=\"highlight\">32</style>%)\n[EndSkill] При убийстве одной цели и более наносит (потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> всех целей ÷ 2) урона Унынием двум случайным противникам (До 15-и; в приоритете цели с наибольшим потенциалом <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> случайному противнику, не являющемуся целью атаки (Раз за ход; в направляемых битвах целью считается часть)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если цель атаки лишь одна, взамен наносит [Sinking] трём случайным противникам<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "Если Измаил выбрала только одну цель (в направляемых битвах ядро с частями считается за одну цель), +100% к урону и +2 к силе монет\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на основной цели (До 2-х)</style>\n[BeforeAttack] Если у основной цели сопротивление к Унынию выше x1,0, +<style=\"highlight\">5</style>% за каждый 0,1 после x1,0 в сопротивлении (До <style=\"highlight\">20</style>%)\n[BeforeAttack] Если в резонансе более 2-х грехов Уныния, +<style=\"highlight\">10</style>% к урону за каждый грех Уныния в резонансе (До <style=\"highlight\">40</style>%)\n[EndSkill] При убийстве одной цели и более наносит (потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> всех целей ÷ 2) урона Унынием двум случайным противникам (До 15-и; в приоритете цели с наибольшим потенциалом <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> случайному противнику, не являющемуся целью атаки (Раз за ход; в направляемых битвах целью считается часть)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- Если цель атаки лишь одна, взамен наносит [Sinking] трём случайным противникам<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2081021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Сила парирований +1, если на основной цели 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[BeforeAttack] За каждые 3 греха в наибольшем резонансе Измаил для этого навыка получает:\n- +1 к тяжести атаки (До 2-х)\n- +15% к наносимому урону (До 30%)\n[EndSkill] Измаил даёт 1 [HitDamageUp] случайным союзникам в количестве, равном числу грехов в наибольшем резонансе (Включая саму Измаил; до 4-х человек; раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на основной цели (До 2-х)</style>\n[BeforeAttack] За каждые 3 греха в наибольшем резонансе Измаил для этого навыка получает:\n- +1 к тяжести атаки (До 2-х)\n- +15% к наносимому урону (До 30%)\n[EndSkill] Измаил даёт 1 [HitDamageUp] случайным союзникам в количестве, равном числу грехов в наибольшем резонансе (Включая саму Измаил; до 4-х человек; раз за ход)\n<style=\"highlight\">- Если грехом резонанса оказалось Уныние, или он оказался абсолютом, дополнительно даёт 1 [AzureDamageUp]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 1 [AzureTakeDamageUp] случайному противнику, не являющемуся целью атаки, на следующий ход (Раз за ход; в направляемых битвах целью считается часть)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Элегия волн",
+          "abName": "Скади",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Сила парирований +1 за каждые 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на основной цели (До <style=\"highlight\">3-х</style>)\n[BeforeAttack] За каждые 3 греха в наибольшем резонансе <style=\"highlight\">(или 2, если это резонанс Уныния)</style> Измаил для этого навыка получает: \n- +1 к тяжести атаки (До 2-х)\n- +15% к наносимому урону (До 30%)\n[EndSkill] Измаил даёт 1 [HitDamageUp] случайным союзникам в количестве, равном числу грехов в наибольшем резонансе (Включая саму Измаил; до 4-х человек; раз за ход)\n- Если грехом резонанса оказалось Уныние, или он оказался абсолютом, дополнительно даёт 1 [AzureDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если одна из целей оглушена, повреждена или убита, Измаил наносит 1 [AzureTakeDamageUp] случайному противнику, не являющемуся целью атаки, на следующий ход (Раз за ход; в направляемых битвах целью считается часть)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

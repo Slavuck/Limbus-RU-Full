@@ -1,0 +1,1155 @@
+{
+  "dataList": [
+    {
+      "id": 2060411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkillHead] Восстанавливает 10 ОЗ 2 союзникам с наименьшим процентом ОЗ"
+                },
+                {
+                  "desc": "[EndSkillTail] Восстанавливает 10 СД 2 союзникам с наименьшей СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkillHead] Восстанавливает 12 ОЗ 2 союзникам с наименьшим процентом ОЗ"
+                },
+                {
+                  "desc": "[EndSkillTail] Восстанавливает 12 СД 2 союзникам с наименьшей СД"
+                },
+                {
+                  "desc": "[CriticalEndSkill] Восстанавливает 6 ОЗ союзнику с наименьшим процентом ОЗ; восстанавливает 6 СД союзнику с наименьшей СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkillHead] Восстанавливает 15 ОЗ 2 союзникам с наименьшим процентом ОЗ"
+                },
+                {
+                  "desc": "[EndSkillTail] Восстанавливает 15 СД 2 союзникам с наименьшей СД"
+                },
+                {
+                  "desc": "[CriticalEndSkill] Восстанавливает 8 ОЗ союзнику с наименьшим процентом ОЗ; восстанавливает 8 СД союзнику с наименьшей СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060421,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify] Выбирает целью участника боя с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify] Выбирает целью участника боя с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Сковывание на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify] Выбирает целью участника боя с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бурлящая коррозия",
+          "abName": "Ступающая жемчужина",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (резонанс Чревоугодия/2) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Бурлящая коррозия",
+          "abName": "Ступающая жемчужина",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (резонанс Чревоугодия/2) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"ShamrockTakeDamageUp\"><color=#e30000><u><link=\"ShamrockTakeDamageUp\">Уязвимости к Чревоугодию</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Бурлящая коррозия",
+          "abName": "Ступающая жемчужина",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (резонанс Чревоугодия/2) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"ShamrockTakeDamageUp\"><color=#e30000><u><link=\"ShamrockTakeDamageUp\">Уязвимости к Чревоугодию</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бурлящая коррозия",
+          "abName": "Ступающая жемчужина",
+          "desc": "[CantIdentify]\nАтакует цели с самым низким здоровьем",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на (резонанс Чревоугодия/3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 20% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Бурлящая коррозия",
+          "abName": "Ступающая жемчужина",
+          "desc": "[CantIdentify]\nАтакует цели с самым низким здоровьем\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на (резонанс Чревоугодия/3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Бурлящая коррозия",
+          "abName": "Ступающая жемчужина",
+          "desc": "[CantIdentify]\nАтакует цели с самым низким здоровьем\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на (резонанс Чревоугодия/3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 50% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "Если на цели есть Тремор, урон +(сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/2)% (До 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "Если на цели есть Тремор, урон +(сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/2)% (До <style=\"highlight\">25%</style>)\n<style=\"highlight\">- Если наибольший резонанс равен 4 и более, вместо этого урон +(5 + (сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели/2))% (До 35%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и <style=\"highlight\">повышает его счётчик на 2</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели в [VibrationEcho]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "Если на цели есть Тремор, урон +(<style=\"highlight\">5</style> + сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/2)% (До <style=\"highlight\">30%</style>)\n- Если наибольший резонанс равен 4 и более, вместо этого урон +(<style=\"highlight\">7,5</style> + (сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели/<style=\"highlight\">1,5</style>))% (До <style=\"highlight\">40%</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели в [VibrationEcho]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли на цели есть Тремор, урон +(сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/2)% (До 25%)\n- Если наибольший резонанс равен 4 и более, повышает границу урона до +35%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли на цели есть Тремор, урон +(сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/2)% (До <style=\"highlight\">30%</style>)\n- Если наибольший резонанс равен 4 и более, <style=\"highlight\">вместо этого урон +(5 + сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/2)% (До 40%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели в [VibrationEcho]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1.<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Гулкий плач",
+          "abName": "Плачущая жаба",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли на цели есть Тремор, урон +(<style=\"highlight\">5</style> + сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/2)% (До <style=\"highlight\">40%</style>)\n- Если наибольший резонанс равен 4 и более, вместо этого урон +(<style=\"highlight\">7,5</style> + сумма потенциала и счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>/<style=\"highlight\">1,5</style>)% (До <style=\"highlight\">50%</style>)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">6</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на <style=\"highlight\">6</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Преобразует амплитуду</link></u></color> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели в [VibrationEcho]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "<style=\"highlight\">Сила монет +1 при 6 и более в сумме скорости Хун Лу и его цели</style>\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хун Лу ÷ 2) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями этого навыка (До 3)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет (скорость Хун Лу ÷ 2) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> между целями этого навыка (До 3)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "Сила монет +1 при 6 и более в сумме скорости Хун Лу и его цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Ослабления лечения здоровья</link></u></color></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет [Laceration], равное скорости Хун Лу, между целями этого навыка (До 7)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Случайным образом разделяет <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>, равные скорости Хун Лу, между целями этого навыка (До 7)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +1% к урону за каждое [Laceration] на цели (До 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +1% к урону за каждый [Burst] на цели (До 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Сила монет +1 при 6 и более в сумме скорости Хун Лу и его цели</style>\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n<style=\"highlight\">[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +1% к урону за каждое [Laceration] на цели <style=\"highlight\">(До 30%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +1% к урону за каждый [Burst] на цели <style=\"highlight\">(До 30%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Силки",
+          "abName": "Охотник роз",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила монет +1 при 6 и более в сумме скорости Хун Лу и его цели\nСила монет +1 за каждые 7 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход\n<style=\"highlight\">[BeforeAttack] Если резонанс состоит из 4 и более грехов Чревоугодия или Похоти, тяжесть атаки +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Snare\"><color=#e30000><u><link=\"Snare\">Силков</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Ослабления лечения здоровья</link></u></color></style></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +1% к урону за каждое [Laceration] на цели (До 30%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +1% к урону за каждый [Burst] на цели (До 30%)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пролитые слёзы порченой крови: Зарождение",
+          "abName": "Инлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки цели\nДанный навык <b>не наносит урон</b> противникам\n[EndSkill] Хун Лу получает [DragonLance]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Хун Лу получает фиксированный урон, равный итоговой силе данного навыка\n- При получении урона от этого навыка он не может быть оглушён, и здоровье Хун Лу не падает ниже 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пролитые слёзы порченой крови: Зарождение",
+          "abName": "Инлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки цели\nДанный навык <b>не наносит урон</b> противникам\n[EndSkill] Хун Лу получает [DragonLance]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Хун Лу получает фиксированный урон, равный итоговой силе данного навыка\n- При получении урона от этого навыка он не может быть оглушён, и здоровье Хун Лу не падает ниже 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пролитые слёзы порченой крови: Зарождение",
+          "abName": "Инлун",
+          "desc": "[CantDuel]\nИгнорирует защитные навыки цели\nДанный навык <b>не наносит урон</b> противникам\n[EndSkill] Хун Лу получает [DragonLance]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Хун Лу получает фиксированный урон, равный итоговой силе данного навыка\n- При получении урона от этого навыка он не может быть оглушён, и здоровье Хун Лу не падает ниже 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060812,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пролитые слёзы порченой крови: Кончина",
+          "abName": "Инлун",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n+2% к наносимому урону за каждый [DragonLance] на Хун Лу (До 6%)\n+4% к наносимому урону за каждую единицу <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу (До 20%)\n[WhenUse] Сила монет +1, если на основной цели 5 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу\n[EndSkill] Хун Лу теряет <sprite name=\"DragonLance\"><color=#f8c200><u><link=\"DragonLance\">Клинья для погребения цветов</link></u></color> и всю <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивую кровь</link></u></color>, а затем <b>умирает</b>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пролитые слёзы порченой крови: Кончина",
+          "abName": "Инлун",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n<style=\"highlight\">+3%</style> к наносимому урону за каждый [DragonLance] на Хун Лу (До <style=\"highlight\">9%</style>)\n<style=\"highlight\">+6%</style> к наносимому урону за каждую единицу <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу (До <style=\"highlight\">30%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на основной цели (До 2-х)</style>\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу\n<style=\"highlight\">- При 4-х и более единицах взамен итоговая сила +2 и тяжесть атаки +2</style>\n[EndSkill] Хун Лу теряет <sprite name=\"DragonLance\"><color=#f8c200><u><link=\"DragonLance\">Клинья для погребения цветов</link></u></color> и всю <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивую кровь</link></u></color>, а затем <b>умирает</b>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 3<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пролитые слёзы порченой крови: Кончина",
+          "abName": "Инлун",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n+3% к наносимому урону за каждый [DragonLance] на Хун Лу (До 9%)\n+6% к наносимому урону за каждую единицу <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу (До 30%)\n[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на основной цели (До <style=\"highlight\">3-х</style>)\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу\n- При 4-х и более единицах взамен итоговая сила +2 и тяжесть атаки +2\n<style=\"highlight\">- При 5-и и более единицах взамен итоговая сила +3 и тяжесть атаки +3</style>\n[EndSkill] Хун Лу теряет <sprite name=\"DragonLance\"><color=#f8c200><u><link=\"DragonLance\">Клинья для погребения цветов</link></u></color> и всю <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивую кровь</link></u></color>, а затем <b>умирает</b>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 3<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пролитые слёзы порченой крови: Зарождение",
+          "abName": "Инлун",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Базовая сила каждой треснувшей монеты -2 (До -8-и)\n[EndSkill] Хун Лу получает [DragonLance]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пролитые слёзы порченой крови: Зарождение",
+          "abName": "Инлун",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехах в наибольшем резонансе\n[BeforeAttack] Базовая сила каждой треснувшей монеты -2 (До -8-и)\n[EndSkill] Хун Лу получает [DragonLance]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пролитые слёзы порченой крови: Зарождение",
+          "abName": "Инлун",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4 и более грехах в наибольшем резонансе\n<style=\"highlight\">- При 6-и и более грехах в наибольшем резонансе взамен тяжесть атаки +2</style>\n[BeforeAttack] Базовая сила каждой треснувшей монеты -2 (До -8-и)\n[EndSkill] Хун Лу получает [DragonLance]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы остаться собой",
+          "abName": "Лин",
+          "desc": "[WhenUse] Хун Лу получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[BeforeAttack] Итоговая сила +1, если сумма потенциала и счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу равна 5-и и более\n[BeforeAttack] +15% к урону c <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении\n[BeforeAttack] +27% к урону со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении\n[EndSkill] Хун Лу получает 5 <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосков</link></u></color>\n- Если в его распоряжении уже есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшие Отголоски</link></u></color>, он теряет их все, чтобы получить 5 <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старших Отголосков</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+(потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу ÷ 2)% к критическому урону с <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении (До 15%)"
+                },
+                {
+                  "desc": "+((потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>) Хун Лу ÷ 2)% к критическому урону со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Дабы остаться собой",
+          "abName": "Лин",
+          "desc": "[WhenUse] Хун Лу получает <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[BeforeAttack] Итоговая сила +1 <style=\"highlight\">за каждые 5 единиц в сумме потенциала и счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу (До 2-х)</style>\n[BeforeAttack] +15% к урону <style=\"highlight\">и +1 к тяжести атаки</style> c <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении\n[BeforeAttack] +27% к урону <style=\"highlight\">и +2 к тяжести атаки</style> со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении\n[EndSkill] Хун Лу получает 5 <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосков</link></u></color>\n- Если в его распоряжении уже есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшие Отголоски</link></u></color>, он теряет их все, чтобы получить 5 <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старших Отголосков</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+(потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу ÷ 2)% к критическому урону с <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении (До <style=\"highlight\">20%</style>)"
+                },
+                {
+                  "desc": "+((потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>) Хун Лу ÷ 2)% к критическому урону со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Дабы остаться собой",
+          "abName": "Лин",
+          "desc": "[WhenUse] Хун Лу получает <style=\"highlight\">4</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[BeforeAttack] Итоговая сила +1 за каждые 5 единиц в сумме потенциала и счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу (До <style=\"highlight\">3-х</style>)\n<style=\"highlight\">[BeforeAttack] Пока в распоряжении Хун Лу нет <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосков</link></u></color> или их <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">старших версий</link></u></color>, он возвращает половину затраченных ЭГО-ресурсов и силы духа (Десятичные опускаются)</style>\n[BeforeAttack] <style=\"highlight\">+25%</style> к урону и +1 к тяжести атаки c <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении\n[BeforeAttack] <style=\"highlight\">+45%</style> к урону и +2 к тяжести атаки со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении\n[EndSkill] Хун Лу получает 5 <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосков</link></u></color>\n- Если в его распоряжении уже есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшие Отголоски</link></u></color>, он теряет их все, чтобы получить 5 <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старших Отголосков</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+(<style=\"highlight\">потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу</style>)% к критическому урону с <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении (До 20%)"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу</style>)% к критическому урону со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении (До 40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2060921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы остаться собой",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Хун Лу получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2\n[BeforeAttack] Сила монет +1, если в распоряжении Хун Лу есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или их <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">старшие формы</link></u></color>\n[EndSkill] Хун Лу получает 5 <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосков</link></u></color>\n- Если в его распоряжении уже есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшие Отголоски</link></u></color>, он теряет их все, чтобы получить 5 <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старших Отголосков</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10% прошедшего урона в качестве урона Гордыней (До 10-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15% прошедшего урона в качестве урона Гордыней (До 15-и)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "+(потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу ÷ 2)% к критическому урону с <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении (До 20%)"
+                },
+                {
+                  "desc": "+((потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>) Хун Лу ÷ 2)% к критическому урону со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении (До 40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 25% прошедшего урона в качестве урона Гордыней (До 25-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Дабы остаться собой",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Хун Лу получает <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на <style=\"highlight\">3</style>\n[BeforeAttack] <style=\"highlight\">Тяжесть атаки +1, базовая сила +1 и</style> сила монет +1, если в распоряжении Хун Лу есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или их <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">старшие формы</link></u></color>\n[EndSkill] Хун Лу получает 5 <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосков</link></u></color>\n- Если в его распоряжении уже есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшие Отголоски</link></u></color>, он теряет их все, чтобы получить 5 <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старших Отголосков</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10% прошедшего урона в качестве урона Гордыней (До 10-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15% прошедшего урона в качестве урона Гордыней (До 15-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+(потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу ÷ 2)% к критическому урону с <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении (До <style=\"highlight\">30%</style>)"
+                },
+                {
+                  "desc": "+((потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>) Хун Лу ÷ 2)% к критическому урону со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении (До <style=\"highlight\">60%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 25% прошедшего урона в качестве урона Гордыней (До 25-и)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Дабы остаться собой",
+          "abName": "Лин",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Хун Лу получает <style=\"highlight\">4</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на <style=\"highlight\">4</style>\n[BeforeAttack] Тяжесть атаки <style=\"highlight\">+2</style>, базовая сила <style=\"highlight\">+2</style> и сила монет <style=\"highlight\">+2</style>, если в распоряжении Хун Лу есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или их <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">старшие формы</link></u></color>\n[EndSkill] Хун Лу получает 5 <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосков</link></u></color>\n- Если в его распоряжении уже есть <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголоски</link></u></color> или <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшие Отголоски</link></u></color>, он теряет их все, чтобы получить 5 <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старших Отголосков</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10% прошедшего урона в качестве урона Гордыней (До 10-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15% прошедшего урона в качестве урона Гордыней (До 15-и)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу</style>)% к критическому урону с <sprite name=\"Cianjing\"><color=#f8c200><u><link=\"Cianjing\">Отголосками</link></u></color> в распоряжении (До 30%)"
+                },
+                {
+                  "desc": "+(<style=\"highlight\">потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Хун Лу</style>)% к критическому урону со <sprite name=\"SeniorCianjing\"><color=#f8c200><u><link=\"SeniorCianjing\">Старшими Отголосками</link></u></color> в распоряжении (До 60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> <style=\"highlight\">и повышает его счётчик на 2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 25% прошедшего урона в качестве урона Гордыней (До 25-и)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

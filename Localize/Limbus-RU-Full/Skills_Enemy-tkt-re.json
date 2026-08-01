@@ -1,0 +1,228 @@
+{
+  "dataList": [
+    {
+      "id": 9102401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Совсем совести нет?",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration] на 2\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "И правда бессовестные",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration] на 2\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сможешь их уберечь?",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration] на 2\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration] равен 10 и более, то [VibrationExplosion] и понижает счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если сила [Vibration] цели равна 15 и более, то [VibrationExplosion] ещё раз и понижает счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Что, оружие бесполезно?",
+          "desc": "[WhenUse] Повышает свой счётчик [Vibration] на 3\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration] равен 5 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] [Switch_Vibration] в [VibrationCollapse]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Готовы для взбучки?",
+          "desc": "Приоритизирует цели с [VibrationCollapse]\n[WhenUse] Применить [Vibration] Счёт, равное [Vibration] Рассчитывать на себя ко всем остальным союзникам\n[WhenUse] активирует [Switch_Vibration] на всех союзниках (включая этот юнит), чтобы их [Vibration] превратились в [VibrationDistribution]\n[DefeatDuel] Нанести -80% урон и урон этого навыка не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [FusionVibration] с [VibrationEcho]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[StartBattle] Получает (Свой счётчик [Vibration] × 5) ОЗ Щита (До 60)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9102407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сбор ради общего дела",
+          "desc": "[CantDuel]\n[StartBattle] Нарисовать всех остальных союзников [Vibration] счётчик к себе; [Vibration] на всех союзниках истекают\n[StartBattle] Получать 1 [AttackUp] за каждую 3 [Vibration] Рассчитывать на себя\n[WhenUse] получает 10 [Vibration] счётчик",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Счётчик своего [Vibration] × 20)% дополнительного урона Леностью"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] цели на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Счётчик своего [Vibration] × 20)% дополнительного урона Леностью"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Расходует 1 счётчика [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Расходует 1 счётчика [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Расходует 1 счётчика [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

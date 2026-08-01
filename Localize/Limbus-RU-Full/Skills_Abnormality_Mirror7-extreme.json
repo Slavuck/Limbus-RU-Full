@@ -1,0 +1,2880 @@
+{
+  "dataList": [
+    {
+      "id": 139001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлобысь",
+          "desc": "[WhenUse] Базовая сила +2 против целей с [Combustion] или [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлобысь",
+          "desc": "[WhenUse] Базовая сила +2 против целей с [Combustion] или [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Встряска",
+          "desc": "[WhenUse] Сила в столкновении +3 против целей с [Combustion] или [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жертвенный ритуал",
+          "desc": "[WhenUse] Сила в столкновении +3 против целей с [Combustion] или [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3 в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вселенная в огне",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крепкий жертвенник",
+          "desc": "[StartBattle] Повышает счётчик [Combustion] на 3 всем противникам, которые уже имеют [Combustion]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вселенная в огне",
+          "desc": "[CantDuel]\nНацеливается на Терракотовых кукол",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рывок",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждую другую живую Терракотовую куклу судного дня",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Когти",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждую другую живую Терракотовую куклу судного дня",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Извержение огня",
+          "desc": "[WhenUse] Сила в столкновении +2 за каждую другую живую Терракотовую куклу судного дня",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [Laceration], наносит ей 5 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Болезненный рывок",
+          "desc": "[WhenUse] Сила в столкновении +2 за каждую другую живую Терракотовую куклу судного дня",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Болезненные когти",
+          "desc": "[WhenUse] Сила в столкновении +2 за каждую другую живую Терракотовую куклу судного дня",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [Laceration], наносит ей 5 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6463",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPastMirror]\n[WhenUse] Базовая сила +1 за каждые 10 единиц в сумме силы и счётчика [Vibration] на цели (не более 3)\n[WhenUse] Если значение [AccumulatedPastMirror] нечётное, этот навык наносит на 30% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6753",
+          "desc": "Наносит на 10% больше урона за каждые 50 [AccumulatedPastMirror]\n[WhenUse] Базовая сила +1 за каждые 10 единиц в сумме силы и счётчика [Vibration] на цели (не более 3)\n[WhenUse] Если значение [AccumulatedPastMirror] чётное, получает 3 [Protection] (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "853",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 [Breath] (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает границу выносливости на 50% нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит на 1% больше урона за каждый [AccumulatedPastMirror] (не более 50%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "5384",
+          "desc": "[WhenUse] Сила в столкновении +2 за каждые 10 единиц в сумме силы и счётчика [Vibration] на цели (До 4)\n[WhenUse] Все свои Части получают 3 [Breath] и повышают счётчик [Breath] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на текущую силу своего [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] На 20% больше урона за каждые 3 [Breath] (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Все свои Части получают 4 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6475384",
+          "desc": "Сила монет +1 при 7 и более [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 5 и более [Breath] поднимает границу выносливости цели на 50% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Все свои Части получают 8 [Breath] и повышают счётчик [Breath] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "974569A",
+          "desc": "Сила навыка +2 при 10 и более [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит на 1% больше урона за каждый [AccumulatedPastMirror] (не более 200%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion] за каждые 50 [AccumulatedPastMirror]; затем снижает счётчик [Vibration] цели на 1 (до 5 раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "К-ко!",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждого живого Сырого цыплёнка\n[WhenUse] Наносит на 1 негативные эффекты больше за каждых двух живых Сырых цыплят",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кху",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждого живого Сырого цыплёнка\n[WhenUse] Наносит на 1 негативные эффекты больше за каждых двух живых Сырых цыплят",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] и повышает счётчик [Vibration] на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кудах!",
+          "desc": "Нацеливается на противника с наименьшей СД\n[OnSucceedAttack] Призывает Сырого цыплёнка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 7 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цели теряют 10 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кудах...",
+          "desc": "[StartBattle] Получает (Живых Сырых цыплят × 100) ОЗ Щита",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кооо-ко",
+          "desc": "Нацеливается на противников с наименьшими текущими ОЗ\n[WhenUse] Если медленнее цели, то Сила в столкновении повышается на свою текущую скорость (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ко-ко-ко",
+          "desc": "Нацеливается на противников с наименьшими текущими ОЗ\n[WhenUse] Если медленнее цели, то Сила в столкновении повышается на свою текущую скорость (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 7 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кух",
+          "desc": "[OnSucceedEvade] Цель теряет 15 СД",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кух-кудах!",
+          "desc": "Если не было получено урона в предыдущем ходе, Сила монет +3\n[WhenUse] Если медленнее цели, то Сила в столкновении повышается на свою текущую скорость (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Agility] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кудах-тах!",
+          "desc": "Если не было получено урона в предыдущем ходе, Сила монет +3\n[WhenUse] Если медленнее цели, то Сила в столкновении повышается на свою текущую скорость (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 7 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ко!",
+          "desc": "[OnSucceedEvade] Цель теряет 15 СД",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кух",
+          "desc": "Нацеливается на противников с наибольшими текущими ОЗ\n[WhenUse] Если медленнее цели, то Сила в столкновении повышается на свою текущую скорость (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кудаааах",
+          "desc": "Нацеливается на противников с наибольшими текущими ОЗ\n[WhenUse] Если медленнее цели, то Сила в столкновении повышается на свою текущую скорость (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 7 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] и 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кху!",
+          "desc": "[OnSucceedEvade] Цель теряет 15 СД",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Плачущий шлепок",
+          "desc": "[WhenUse] Цель теряет 15 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking] и повышает счётчик [Sinking] на 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Печальный шлепок",
+          "desc": "[StartDuel] Цель восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[AlwaysUse] Наносит урон по СД, равный половине от нанесённого урона"
+                },
+                {
+                  "desc": "[AlwaysUse] Не наносит урон по ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Расплавленный глаз",
+          "desc": "[WhenUse] Цель теряет 10 СД\nНаносит на 50% больше урона, если СД цели ниже 0",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве силы [Sinking] цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве силы [Sinking] цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Льющаяся печаль",
+          "desc": "[WhenUse] Цель теряет 5 СД\nНацеливается на противника с наибольшей силой [Sinking]\nНаносит на 30% больше урона, если СД цели ниже 0",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве силы [Sinking] цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве силы [Sinking] цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Глазная тяжесть",
+          "desc": "[DefeatDuel] Отменяет все навыки\n[DefeatDuel] Получает 3 [Vulnerable]\nЕсли у цели меньше 0 СД, наносит на 100% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Удваивает силу [Sinking] и счётчик [Sinking] на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Квак-плак",
+          "desc": "[StartBattle] Получает 2 [Protection]",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 139901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлоп",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мощный хлопок",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлёст хвостом",
+          "desc": "[DefeatDuel] Отменяет все навыки\n[DefeatDuel] Получает 3 [Vulnerable]\nЕсли у цели меньше 0 СД, наносит на 100% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мешочный пресс",
+          "desc": "[DefeatDuel] Отменяет все навыки\n[DefeatDuel] Получает 3 [Vulnerable]\nЕсли у цели меньше 0 СД, наносит на 100% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровавый выстрел",
+          "desc": "[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На 50% больше урона, если цель имеет негативные эффекты"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 20 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 139906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свёртывание крови",
+          "desc": "[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На 100% больше урона, если цель имеет негативные эффекты"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 30 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Когти",
+          "desc": "Сила монет +2 за каждую [DogThunder] (До 6)\n[WhenUse] Наносит на 20% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 80%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Непрерывное напряжение",
+          "desc": "Сила монет +2 за каждую [DogThunder] (До 6)\n[WhenUse] Наносит на 20% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 80%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поток электродвижения",
+          "desc": "Сила монет +1 за каждую [DogThunder] (До 3)\n[WhenUse] Наносит на 15% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 60%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 4 в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вой",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Disarming]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электризованный вой",
+          "desc": "[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Burst] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Молниеотвод",
+          "desc": "Сила монет +1 за каждую [DogThunder] (До 3)\n[WhenUse] Наносит на 20% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 80%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst] и повышает счётчик [Burst] на 2 в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Красные молнии",
+          "desc": "[WhenUse] Наносит на 15% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 60%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Burst] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2 в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140008,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вой",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Disarming]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жуткие глаза",
+          "desc": "[WhenUse] Базовая сила +2 против целей, чья СД ниже 0\n[WhenUse] Полуачет 1 [Aggressive]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет 7 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет 7 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Несовершенная имитация",
+          "desc": "Имитирует силу и количество монет навыка, от которого получил урон\n[WhenUse] Наносит 10 урона по СД цели\n[WhenUse] Получает 2 [Aggressive]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Адаптированная оболочка",
+          "desc": "[WhenUse] Базовая сила +2 против целей, чья СД ниже 0\n[WhenUse] Получает 5 [Aggressive]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет 7 СД"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает себе 10% ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Костный взрыв",
+          "desc": "[WhenUse] Базовая сила +2 против целей, чья СД ниже 0\n[WhenUse] Получает 1 [Aggressive]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жуткие глаза",
+          "desc": "[WhenUse] Базовая сила +2 против целей, чья СД ниже 0\n[WhenUse] Получает 1 [Aggressive]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Несовершенная имитация",
+          "desc": "Имитирует силу и количество монет навыка, от которого получил урон\n[WhenUse] Наносит 10 урона по СД цели\n[WhenUse] Получает 2 [Aggressive]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Адаптированная оболочка",
+          "desc": "[WhenUse] Базовая сила +2 против целей, чья СД ниже 0\n[WhenUse] Получает 5 [Aggressive]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает себе 10% ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Костный взрыв",
+          "desc": "[WhenUse] Базовая сила +2 против целей, чья СД ниже 0\n[WhenUse] Получает 1 [Aggressive]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свирепая царапина",
+          "desc": "[WhenUse] Сила монет +1 против целей с 3 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бешеный таран",
+          "desc": "Нацеливается на противника с наименьшими текущими ОЗ\n[WhenUse] Сила монет +1 против целей с 3 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разорвать на части",
+          "desc": "Нацеливается на противника с наименьшими текущими ОЗ\n[WhenUse] Сила монет +1 против целей с 3 и более [Laceration]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Vulnerable] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Яростный набег",
+          "desc": "Нацеливается на противника с наименьшими текущими ОЗ\n[WhenUse] Базовая сила +2 за каждые 3 [Laceration] на цели (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 6"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst] и повышает счётчик [Burst] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Навострённая бдительность",
+          "desc": "[OnSucceedEvade] Получает 1 [Aggressive]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Извивающиеся руки",
+          "desc": "[WhenUse] Базовая сила +2 против целей, которые имеют 2 и более типа негативных эффектов",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свернуться",
+          "desc": "[WhenUse] Сила монет +2 против целей, которые имеют 2 и более типа негативных эффектов\n[DefeatDuel] Теряет 1 [Aggressive]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 20 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Покачивающиеся руки",
+          "desc": "Базовая сила -1 за каждую повреждённую Руку\n[WhenUse] Сила в столкновении +2 против целей, которые имеют 2 и более типа негативных эффектов",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Избивающие руки",
+          "desc": "[WhenUse] Базовая сила +2 против целей, которые имеют 2 и более типа негативных эффектов\n[DefeatDuel] Теряет 1 [Aggressive]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 10"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Затаить дыхание",
+          "desc": "[StartBattle] Получает 5 [Aggressive]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мучения от боли",
+          "desc": "[WhenUse] Базовая сила +3 против целей, которые имеют негативные эффекты\n[WhenUse] Теряет 12 ОЗ и получает 5 [Laceration] на следующий ход\n[DefeatDuel] Базовая сила -5\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Яда"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Яда"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Яда"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Агония от боли",
+          "desc": "[WhenUse] Базовая сила +4 против целей, которые имеют негативные эффекты\n[WhenUse] Теряет 12 ОЗ\n Свой счётчик [Laceration] повышается на 3 в следующем ходе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Преклонитесь передо мной",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жалкие людишки",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ступайте вон... Вон!..",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более [Laceration]\n[WhenUse] Наносит на (Счётчик [Laceration] цели × 5)% больше урона (До 20%)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration] и повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Принц парада",
+          "desc": "[StartBattle] Количество целей повышается на число противников с [Laceration] (До 5 дополнительных целей)\n[WhenUse] Базовая сила +1, если главная цель имеет 4 и более [Laceration]\n[WhenUse] Сила монет +1, если счётчик  [Laceration] главной цели равен 3 и более\n[DefeatDuel] Теряет 1 [KeptBlood]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [KeptBlood]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровь... Крови... Крови!..",
+          "desc": "[WhenUse] Сила монет +1 против целей с 8 и более [Laceration]\n[DefeatDuel] Теряет 1 [KeptBlood]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration] и повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 10 и более [Laceration], то следующая монета нанесёт на 20% больше урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [KeptBlood]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оставьте меня!..",
+          "desc": "[WhenUseEvade] Базовая сила +1 за каждые 4 единицы счётчика [Laceration] на атакующем (До 4)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я же... принц... сего шествия!..",
+          "desc": "[CantDuel]\n[WhenUse] получает 4 [Paralysis]\n[WhenUse] Двойной эффект исцеления Хардблада [TabExplain] Глефа\n[WhenUse] Сбросить СД на 0\n[EndSkill] получает [KeptBlood] 10\nВ этом ходу не получает оглушения; заканчивает ход после использования этого навыка.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я не вернусь... во веки веков!..",
+          "desc": "[WhenUse] сила в столкновении +1 за каждый 5 [Laceration] по основной цели (максимум 3)\n[WhenUse] На 4+ [Laceration] Рассчитывайте на основную цель — сила монеты +1\n[WhenUse] Наносить +5% урона за каждую [Laceration] Счёт основной цели (максимальный 20%)\n[WinDuel] Двойной эффект исцеления Хардблада [TabExplain] Глефа\n[DefeatDuel] Эффект лечения Твёрдой Крови[TabExplain] глефы не активируется\n[DefeatDuel] Нанести -80% урон и урон этого навыка не может оглушить цель\n[EndSkill] получает [KeptBlood] 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запуск протеза",
+          "desc": "[WhenUse] При 10+ к счётчику [Charge] расходует 3 к счётчику [Charge], чтобы получить +1 к Силе монет\n[WhenUse] При 15+ к счётчику [Charge] дополнительно расходует 3 к счётчику [Charge], чтобы нанести на 20% больше урона\n[WhenUse] При счётчике [Charge] ниже 5 теряет 10% ОЗ и получает 9 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратное течение крови",
+          "desc": "[WhenUse] При 10+ к счётчику [Charge] расходует 3 к счётчику [Charge], чтобы получить +1 к Силе монет\n[WhenUse] При 15+ к счётчику [Charge] дополнительно расходует 3 к счётчику [Charge], чтобы нанести на 20% больше урона\n[WhenUse] При счётчике [Charge] ниже 5 теряет 10% ОЗ и получает 9 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заряд переменной энергии",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы своего счётчика [Laceration] (До 2)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перемещение крови",
+          "desc": "[WhenUse] При 10+ к счётчику [Charge] расходует 3 к счётчику [Charge], чтобы получить +1 к Силе монет\n[WhenUse] При 15+ к счётчику [Charge] дополнительно расходует 3 к счётчику [Charge], чтобы нанести на 20% больше урона\n[WhenUse] При счётчике [Charge] ниже 5 теряет 10% ОЗ и получает 9 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перезарядка переменной энергии существа",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пойманная наживка",
+          "desc": "[CantDuel] \nКоличество целей +1 за каждый ход с живой Феей\nНацеливается на [FairyCharm] противников",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 15 ОЗ Ядру и Телу"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Роющие корни",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растущие корни",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Покушающиеся стебли",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит на 5% больше урона за каждую единицу [Burst] на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Незакрытая бездна",
+          "desc": "Наносит на 100% больше урона целям с 5 и более [Burst]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Беглые раны",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [Laceration], наносит ей 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration] цели равен 2 и более, наносит ей ещё 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тянущаяся травма",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [Laceration], наносит ей 1 [Binding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Измазанное тело",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [Laceration], восстанавливает себе 20 ОЗ"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration] цели равен 2 и более, наносит ей ещё 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отбрасывающий тень",
+          "desc": "[WhenUse] Призывает Гигантский клевер в следующем ходе\n[DefeatDuel] Гигантский клевер призывается с 70% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Тратит всё [Laceration] цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поглощение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 1% ОЗ за каждые 3 [Laceration] на цели (До 30%)\n Тратит всё [Laceration] цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хочешь выпить?",
+          "desc": " Даёт 1 [Exalted]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выпьем вместе!",
+          "desc": " Даёт 1 [Exalted]\n[WhenUse] Восстанавливает 5% ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "На этом у меня всё!",
+          "desc": "Нацеливается на противников с [Vibration]\n Даёт 2 [Exalted]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Триггер [VibrationExplosion] равен [Vibration] Счёт на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возьму-ка это!",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nВ приоритете противники с [Exalted]\nЕсли у цели нет [Tipsiness], Сила навыка +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted], наносите +10% урона за каждый [Exalted]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели есть [Tipsiness], то не наносит ей урон и сам теряет 50 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снимает всё [Exalted] или [Tipsiness] с цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возьму-ка это!",
+          "desc": "В приоритете противники с [Exalted]\nЕсли у цели нет [Tipsiness], Сила в столкновении +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если у цели есть [Exalted], наносите +100% урона за каждый [Exalted]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели есть [Tipsiness], то не наносит ей урон и сам теряет 50 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снимает всё [Exalted] или [Tipsiness] с цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не в этот раз!",
+          "desc": "Приоритет на Вино феи",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если атакует Вино фей, то восстанавливает 10% ОЗ и в следующем ходе и получает 2 [Enhancement], 2 [Agility] и 2 [Protection]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 140907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нравится это пойло?",
+          "desc": "[WhenUse] Получает 1 [Binding] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлоп",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мощный хлопок",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлёст хвостом",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мешочный пресс",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровавый выстрел",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет негативные эффекты, на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 20 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свёртывание крови",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет негативные эффекты, на 100% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлоп",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мощный хлопок",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлёст хвостом",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking] и 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мешочный пресс",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровавый выстрел",
+          "desc": "[WhenUse] Если главная цель имеет негативные эффекты, Сила в столкновении +5\n Если главная цель не имеет негативных эффектов, Сила в столкновении -5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет негативные эффекты, на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 20 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свёртывание крови",
+          "desc": "[WhenUse] Если главная цель имеет негативные эффекты, Сила в столкновении +5\n Если главная цель не имеет негативных эффектов, Сила в столкновении -5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет негативные эффекты, на 100% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлоп",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 6)\n[WhenUse] Если цель имеет [PlayingWithWaterTogetherMirror], Сила в столкновении -3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мощный хлопок",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 6)\n[WhenUse] Если цель имеет [PlayingWithWaterTogetherMirror], Сила в столкновении -3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration] и 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлёст хвостом",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 3)\n[WhenUse] Если цель имеет [PlayingWithWaterTogetherMirror], Сила в столкновении -2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking] и 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мешочный пресс",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 5 единиц в сумме силы [Laceration], [Vibration] и [Sinking] на цели (До 6)\n[WhenUse] Если цель имеет [PlayingWithWaterTogetherMirror], Сила в столкновении -2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровавый выстрел",
+          "desc": "[WhenUse] Если главная цель имеет негативные эффекты, Сила в столкновении +10\n Если главная цель не имеет негативных эффектов, Сила в столкновении -10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет негативные эффекты, на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 20 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свёртывание крови",
+          "desc": "[WhenUse] Если главная цель имеет негативные эффекты, Сила в столкновении +10\n Если главная цель не имеет негативных эффектов, Сила в столкновении -10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Если цель имеет негативные эффекты, на 100% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 30 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] цели 3 раза и понижает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

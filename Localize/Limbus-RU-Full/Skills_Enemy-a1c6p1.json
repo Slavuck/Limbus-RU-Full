@@ -1,0 +1,1631 @@
+{
+  "dataList": [
+    {
+      "id": 9011401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ой-ой-ой",
+          "desc": "[WhenUse] Сила монет +1 против целей с [Paralysis]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Будет жалить!",
+          "desc": "[WhenUse] Сила монет +1 против целей с [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration] и повышает счётчик [Vibration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нашёл брешь!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]"
+                },
+                {
+                  "desc": "Если цель оглушена после [VibrationExplosion], вновь подкидывает монету 1 раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не останавливайся",
+          "desc": "[WhenUse] Сила монет +1 против целей с [Paralysis]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Закружило, а?!",
+          "desc": "[WhenUse] Сила монет +1 против целей с [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Всё вверх дном!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]"
+                },
+                {
+                  "desc": "Если цель оглушена после [VibrationExplosion], вновь подкидывает монету 1 раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Б-больно",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...Разр...",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слабость...",
+          "desc": "[WhenUse] Если у цели есть [Burst], базовая сила +1 на каждую 3 [Burst] Потенции на цели (максимальная 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок...",
+          "desc": " Если остался щит, получает 1 [AttackUp] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Продолж...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Б-броня рр-",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более единицами счётчика [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Порежу тебя...",
+          "desc": "[WhenUse] Если у цели есть [Burst], базовая сила +1 на каждый 2 [Burst] Счёт на цели (максимальный 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...рд...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у этого юнита остались ОЗ щита на конце хода, получайте 1 [AttackUp] следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Беру на...",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удал...ени...",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сдержать... их...",
+          "desc": "[WhenUse] Нанести 3 СД урон\n[WhenUse] Если у цели есть [Burst], базовая сила +1 на каждую 4 [Burst] Потенции на цели (максимальная 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контр...",
+          "desc": "Итоговая сила +1 против целей с [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Д...вижение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Убирайся... из моего...",
+          "desc": "[WhenUse] Базовая сила +1 против целей с 3 и более единицами счётчика [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прорыв...насквозь",
+          "desc": "[WhenUse] Нанести 3 СД урон\n[WhenUse] Если у цели есть [Burst], базовая сила +1 на каждый 3 [Burst] Счёт на цели (максимальный 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...атака...",
+          "desc": "Итоговая сила +1 против целей с [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Техника нейтрализации защиты",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [DefenseDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Найдена уязвимость",
+          "desc": "[WhenUse] Если быстрее цели, восстанавливает 3 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разлом брони",
+          "desc": "[WhenUse] Если быстрее цели, наносит ей 1 [SlashResistDown]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Восстанавливает 3 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [AttackDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Техника нейтрализации",
+          "desc": "[WhenUse] Если быстрее цели, восстанавливает 3 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обездвиживание",
+          "desc": "[WhenUse] Если быстрее цели, наносит ей 1 [SlashResistDown]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Восстанавливает 3 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Парирование",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подавление",
+          "desc": "[WhenUse] Если быстрее цели, восстанавливает 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Agility] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искусство сдерживания",
+          "desc": "[WhenUse] Если быстрее цели, наносит ей 2 [SlashResistDown]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 3 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Agility] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [SlashResistDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уборка",
+          "desc": "[WhenUse] Сила в столкновении +3 против более медленных целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15 [Laceration] и повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если своя скорость выше скорости цели на 3 и более, повторно использует атаку (Единожды)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Восстанавливает 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крысолов",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скручивание",
+          "desc": "[WinDuel] Если у цели 100% ОЗ, наносит на 30% больше урона\n[DefeatDuel] Получает 3 [DefenseDown]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration], наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усугубление раны",
+          "desc": "[WinDuel] Получает 1 [SlashResultUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 7 и более [Laceration], наносит ещё 20% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 7 и более [Laceration], наносит ещё 20% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Восстанавливает 3 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассечение нервов",
+          "desc": "[WinDuel] Наносит 1 [SlashResultUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 7 и более [Laceration], наносит ещё 20% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 7 и более [Laceration], наносит ещё 20% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ловля крыс",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Охота за крысами",
+          "desc": "[WinDuel] Если у цели 80% ОЗ и более, наносит на 50% больше урона\n[DefeatDuel] Получает 2 [DefenseDown]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration], наносит ещё 20% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Изгнание чужака",
+          "desc": "[WhenUse] Если своя скорость выше скорости цели на 3 и более, заново использует атаку (Единожды)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на количество [Laceration] цели"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 12 и более [Laceration], наносит 3 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 15 и более [Laceration], наносит 2 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приём чемоданом",
+          "desc": "[WhenUse] Если своя скорость выше скорости цели на 3 и более, Сила в столкновении +2\n[WinDuel] Восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Восстанавливает 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Начало уборки",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приём незваных гостей",
+          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp]\n[DefeatDuel] Получает 3 [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Этика приёма гостей, 2-ая церемония: Связывание",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 [Sinking] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели 8 и более [Sinking], вновь подкидывает монету 1 раз"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [DefenseDown] и 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита",
+          "desc": " Если щит остался, снижает свою границу выносливости на 10\n- Если же щит истощён, последний атаковавший восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приступить к уборке",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ответ чужака",
+          "desc": "[WinDuel] Получает 1 [PlusCoinValueUp]\n[DefeatDuel] Получает 3 [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Этика приёма гостей, 2-ая церемония: Опрокидывание",
+          "desc": "Базовая сила +1 за каждые 5 [Sinking] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если у цели 4 и более единицы счётчика [Sinking], вновь подкидывает монету 1 раз"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 [AttackDown] и 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9012704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Страж",
+          "desc": " Если щит остался, снижает свою границу выносливости на 10\n- Если же щит истощён, последний атаковавший восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стук",
+          "desc": "[WhenUse] Наносит 1 [AttackDown] целям с 5 и более [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время убраться!",
+          "desc": "[WhenUse] Наносит 2 [AttackDown], если у цели 10 СД и менее\n[WinDuel] Наносит 1 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Ослабление положительной монеты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Как пожелаете, миледи...!",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 [Sinking] на цели (До 3)\n[WinDuel] Все союзники восстанавливают 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [EchoOfMansion] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ни пылинки не останется!",
+          "desc": "[StartBattle] Даёт 3 [AttackUp] и восстанавливает 15 СД всем союзникам включая себя\n[StartBattle] Наносит 1 [Vulnerable] всем союзникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking] на цели и понижает счётчик [Sinking] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking] на цели и понижает счётчик [Sinking] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием в количестве [Sinking] на цели и понижает счётчик [Sinking] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели 3 и более единицы счётчика [Sinking], вновь подкидывает монету (До 2 раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скользкая крыса!",
+          "desc": " Если щит остался, снижает свою границу выносливости на 50\n- Если же щит истощён, последний атаковавший восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9011404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1950 @@
+{
+  "dataList": [
+    {
+      "id": 810001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Всеобщее рассеяние",
+          "desc": "В приоритете Помеченные противники",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон по СД в количестве зажжённых свечей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон по СД в количестве зажжённых свечей"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тоска...",
+          "desc": "В приоритете Помеченные противники",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Гневу на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Combustion], наносит 4 Огня"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Гневу на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Combustion], наносит 4 Огня"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "9:2",
+          "desc": "Гасит все Свечи в следующем ходе\nПри попадании по [AaCePcBa] целям, они теряют ещё 5% от максимальных ОЗ\n[DefeatDuel] Наносит 10 Огня и Помечает цель в следующем ходе\n[EndBattle] Все Свечи восстанавливаются до максимальных ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Максимальные ОЗ цели снижаются на 10%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 Огня и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Максимальные ОЗ цели снижаются на 10%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 Огня и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "6:5",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nСам получает урон вместо цели и оглушается в следующем ходе\n[AaCePcBa] случайного противника без этого эффекта\n[EndBattle] Все Свечи восстанавливаются до максимальных ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Максимальные ОЗ Пророка Кожи снижаются на 10%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 10 Огня"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Максимальные ОЗ Пророка Кожи снижаются на 10%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 10 Огня"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Всё будет раскрыто",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Гневу"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Всё сгорит",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Combustion], наносит 3 Огня"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искрящееся пламя",
+          "desc": "В приоритете [AaCePcBa] противники",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 Огня и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чтобы всё сгорело",
+          "desc": "[StartBattle] Получает 20 ОЗ Щита\nГасит все свечи в следующем ходе и затем щит спадает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Огонь и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Токсичная жидкость",
+          "desc": "[StartBattle] Поглощает 1 Зелёную слизь(#689f35)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Яда"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Яда"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Коррозийная жидкость",
+          "desc": "[StartBattle] Поглощает 1 Зелёную слизь(#689f35)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Понижения уровня защиты в количестве [Poison] на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Личинку"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Понижения уровня защиты в количестве [Poison] на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Личинку"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Паралитическая жидкость",
+          "desc": "[StartBattle] Поглощает 1 Зелёную слизь(#689f35)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Poison], наносит 1 Паралич"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Личинки"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Poison], наносит 1 Паралич"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Личинки"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пожирающая жидкость",
+          "desc": "[StartBattle] Поглощает 2 Зелёные слизи(#689f35)\n[WhenUse] Наносит 3 Личинки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Яда"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Паралич на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Яда"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Паралич на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пузырящаяся зелёная слизь",
+          "desc": "[StartBattle] Количество целей повышается на имеющуюся [AaCePcBh](#689f35)\n[StartBattle] Получает 10 [AaCePcBh](#689f35)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 Яда"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет 7 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Личинки"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Паралич и 3 Понижения уровня защиты на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хищничество",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на Зелёную слизь и поглощает её при атаке",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[TargetKill] Получает 3 [AaCePcBh](#689f35)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Переполняющий яд",
+          "desc": "[OnSucceedEvade] Наносит 5 Яда атакующему",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прямой удар",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Утопания"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сотрясение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сдавливание",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 2, если у цели есть [AaCePcBb](#00c6b6)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 2, если у цели есть [AaCePcBb](#00c6b6)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ослепление",
+          "desc": "[DefeatDuel] Часть «Флуоресцентные лампы» теряет 34% от максимальных ОЗ\n[DefeatDuel] Получает 1 Слепую одержимость(#298e86)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 Утопания"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 Утопания"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Утопания"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 Утопания"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Провоцирует Шквал Утопания"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обрушивающийся илистый поток",
+          "desc": "[CantDuel]\n[StartBattle] Изменяет окружение",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Утопания и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Получает -2 к Эффективности потери СД на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Утопания и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блуждающая слепая одержимость",
+          "desc": "[CantDuel]\n[CantChangeTarget] Нацеливается на Расколотые обломки\n[EndSkill] Часть «Флуоресцентные лампы» теряет 34% от максимальных ОЗ\n[EndBattle] Получает 1 Слепую одержимость(#298e86)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Уничтожает Расколотые обломки"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмах",
+          "desc": "[EndBattle] На поле боя появляются Дрейфующие обломки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Утопания"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 2, если у цели есть [AaCePcBb](#00c6b6)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Утопания"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Утопания на 2, если у цели есть [AaCePcBb](#00c6b6)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Холодный поток",
+          "desc": "[StartBattle] Теряет всю Слепую одержимость(#298e86)\n[StartBattle] Уничтожает все Дрейфующие и Расколотые обломки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Утопания"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прокол",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 4 Кровотечения"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усугубление раны",
+          "desc": "[WinDuel] Восстанавливает 5 СД\n+5% к урону за каждое [Laceration] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Кровотечения"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Кровотечения"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Кровотечения"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защитим наш городок!",
+          "desc": "[WhenUse] Получает 5 Дыхания",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Опутывающее копьё",
+          "desc": "[WhenUse] Получает 5 Дыхания и повышает его счётчик на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Опутывание"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "При получении урона, пока имеется щит, получает 1 Повышение уровня атаки на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Быстрые уколы",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик Кровотечения на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит +1 счётчик Кровотечение"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Усугубление ранения",
+          "desc": "[WinDuel] Восстанавливает 5 СД\n+5% к урону за каждое [Laceration] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защитим наш городок!",
+          "desc": "[WhenUse] Получает 5 Дыхания",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик Дыхания на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Копьё захвата",
+          "desc": "[WhenUse] Получает 5 Дыхания и повышает его счётчик на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Захват"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Получает 1 Повышение уровня атаки на следующий ход (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Начало охоты",
+          "desc": "[StartBattle] Призывает 4 союзников в следующем ходе\n[WhenUse] Накладывает Метку добычи на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гарпунирование",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронзающий гарпун",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Понижения уровня атаки"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 Кровотечения"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Глубокий вдох",
+          "desc": "[StartBattle] Получает 10 Дыхания и повышает его счётчик на 10\nКритические удары этого навыка не расходуют счётчик Дыхания\n Получает 1 [PlusCoinValueUp] на следующий ход за каждого живого союзника",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "Критические удары этого навыка не расходуют счётчик Дыхания",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слежка за добычей",
+          "desc": "Наносит на 30% больше урона при критических попаданиях навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает первую границу выносливости цели на 50% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 Кровотечения"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перерезать горло",
+          "desc": "Критические удары этого навыка не расходуют счётчик Дыхания\nНаносит на (Сила [Laceration] цели × 5)% больше урона\n[WhenUse] Оглушается в конце хода, если не остаётся Дыхания",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 50% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Оглушает цель в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Глубокое дыхание",
+          "desc": "[StartBattle] Получает 3 Дыхания и повышает его счётчик на 5\nВо время этого хода получает Итоговую силу навыков, равную силе своего Дыхания, но также теряет 1 единицу счётчика Дыхания при получении удара",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810309,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чтобы выжить",
+          "desc": "Наносит на 30% больше урона при критических попаданиях навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ Ядра и Частей на 50% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ Ядра и Частей на 50% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ Ядра и Частей на 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810310,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Должна... защитить",
+          "desc": "[TurnStartBattle] При использовании этого навыка, если больше 0 Барьера поддержки, активирует Защитную поддержку\n[StartBattle] Получает 10% от максимальных ОЗ в виде Барьера поддержки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Упорный гарпун",
+          "desc": "Итоговая сила +1 при атаке той же цели, что и Старбак",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ Ядра и Частей на 50% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Опутывание"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ Ядра и Частей на 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810312,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Охота должна завершиться...",
+          "desc": "Критические удары этого навыка не расходуют счётчик Дыхания\nНаносит на (Сила [Laceration] цели × 5)% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 50% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Оглушает цель в следующем ходе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронзание",
+          "desc": "[WhenUse] Повышает свой счётчик Дыхания на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронзание",
+          "desc": "[WhenUse] Получает 5 Дыхания",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Понижения уровня защиты на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Вновь подкидывает монету (До 3 раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я следую приказам...",
+          "desc": "[TurnStartBattle] Если Барьер поддержки Квикег больше нуля, активирует Вспомогательную атаку",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Налёт",
+          "desc": "Наносит на 50% больше урона при критических попаданиях навыком\nНаносит на (Сила [Laceration] цели × 5)% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает первую границу выносливости цели на 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Испуганный вздох",
+          "desc": "[WhenUse] Повышает свой счётчик Дыхания на 6",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Решительный гарпун",
+          "desc": "Итоговая сила +2 при атаке той же цели, что и Квикег",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Захват"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 Понижений уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] Вновь подкидывает монету (До 3 раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Спастись...",
+          "desc": "Наносит на 100% больше урона при критических попаданиях навыком\nНаносит на (Сила [Laceration] цели × 5)% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает первую границу выносливости цели на 50% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подчинись моим приказам",
+          "desc": "[WhenUse] Восстанавливает 10 СД себе и союзнику с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ко мне!",
+          "desc": "[StartBattle] Приказывает Квикег активировать Защитную поддержку в следующем ходе (Приказ отменяется, если Ахав оказывается оглушена)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выследить их до конца!",
+          "desc": "[StartBattle] Приказывает Старбаку активировать Вспомогательную атаку в следующем ходе (Приказ отменяется, если Ахав оказывается оглушена)\n[WhenUse] Накладывает Метку добычи на цель в следующем ходе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гарпун ветерана",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Кровотечения"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Кровотечения"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пылающий гарпун",
+          "desc": "Итоговая сила +1 за каждый негативный эффект на главной цели\n(До 5)\nНаносит на (Сила [Laceration] цели × 5)% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Кровотечения"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Кровотечения"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит Огонь в количестве Кровотечения на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Безрассудство!",
+          "desc": "[WhenUse] Восстанавливает 5 СД\n[OnSucceedEvade] Атакующий теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выдох!",
+          "desc": "[WhenUse] Накладывает Метку добычи на цель в следующем ходе\n[WinDuel] Получает 4 Дыхания",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Даёт 4 Дыхания союзникам\n Если других союзников нет, вместо этого повышает свой счётчик Дыхания на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Будь бесстрашным!",
+          "desc": "[WhenUse] Восстанавливает 10 СД, а другой союзник с наибольшей СД теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Огня на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич одному из союзников на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Огня на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич одному из союзников на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Огня на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич одному из союзников на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810509,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смертельная закалка",
+          "desc": "[WhenUse] Отдаёт Неоспоримый приказ(#d61c00) союзнику с наименьшей СД\n[DefeatDuel] Повышает гранцу выносливости на 20 союзнику с наименьшей СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Уязвимости"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сокрушительный раскол!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Кровотечения"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Кровотечения"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смертельный удар",
+          "desc": "Нацеливается на противника с наименьшими максимальными ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 Понижений уровня атаки"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бессмертная душа",
+          "desc": "[OnDefeatEvade] Заново использует навык уворота в этом ходе (До 2 раз)\n Теряет 2 Эго Пипа(#d1dbdc)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мутная невинность",
+          "desc": "[DefeatDuel] Получает 2 Понижения силы защиты и теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Бледный шум"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Паралич"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Бледный шум"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тяжесть вины",
+          "desc": "Нацеливается на троих противников с наименьшими максимальными ОЗ\n[StartBattle] Базовая сила +2 и Количество целей +1 за каждые 5 Эго Пипа(#d1dbdc)\n[WhenUse] Теряет 3 Эго Пипа(#d1dbdc)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Бледный шум"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 30"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Цель теряет 10 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "사용하지않는스킬(번역x)",
+          "desc": "",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Окутанный страх",
+          "desc": "[WhenUse] Накладывает Метку добычи на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Бледный шум"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 Кровотечения и повышает его счётчик на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проколотая слабость",
+          "desc": "[WhenUse] Накладывает Метку добычи на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Бледный шум"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Понижение силы атаки на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Эхо крика",
+          "desc": "Наносит на (Сила Кровотечения цели × 5)% больше урона\nСила монет +1, если у цели нет Метки добычи\n[DefeatDuel] Теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 3 случайных противника теряют 3 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 3 случайных противника теряют 3 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 3 случайных противника теряют 3 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 3 случайных противника теряют 3 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 3 случайных противника теряют 3 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вновь подкидывает монету за каждые 10 Эго Старбака(#d0e0cc)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Затуманенный путь",
+          "desc": "[WhenUse] Накладывает Метку добычи на цель в следующем ходе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Понижения урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик Кровотечения на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Бледный шум"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 Кровотечения"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отбеленное искупление",
+          "desc": "[WhenUse] Тратит 5 Эго Квикег(#d9d1e0)\n[WinDuel] Получает 6 Повышений уровня защиты\n[DefeatDuel] Теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 Бледных шума"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Оглушает цель"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810612,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Коварное обледнение",
+          "desc": "[StartBattle] Получает щит, равный 10% от максимальных ОЗ; за каждое Эго Квикег(#d9d1e0) получает ещё 0.5% от максимальных ОЗ в виде щита\nАтакующий теряет 5 СД при попадании по щиту\nИспользует контратаку ещё один раз в этом ходе за каждые 10 Эго Квикег(#d9d1e0)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Кровотечение"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 810007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не пренебрегай пророчеством",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion] и повышает счётчик [Combustion] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

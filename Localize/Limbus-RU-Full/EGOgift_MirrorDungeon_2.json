@@ -1,0 +1,364 @@
+{
+  "dataList": [
+    {
+      "id": 9156,
+      "name": "Неугасаемый очаг",
+      "desc": "В конце хода активирует [Combustion] на тех, у кого счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> больше 3-х. (Затем понижает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1)",
+      "simpleDesc": [
+        {
+          "abilityID": 9156,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9158,
+      "name": "Украденное пламя",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особый) [Combustion]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\nПри попадании по противнику с 3 единицами счётчика <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и более, активирует [Combustion]. (Действует и на ЭГО-навыки; единожды за навык, затем понижает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1)\n\nВ конце хода активирует [Combustion] на тех, у кого счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> больше 3-х. (Затем понижает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1)\n\nПри смерти противника (если аномалия, то при повреждении тела) с <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color>, передаёт половину его потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> к противнику с наименьшим потенциалом <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> в начале следующего хода.\n\nВ начале хода накладывает 4 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> на противников с <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color>.\n\nПри смерти противника с <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color>, накладывает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> в следующий ход на (потенциал <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> с убитого противника ÷ 15) союзников с навыками, наносящими (Особый) [Combustion]. (Раз за ход)",
+      "simpleDesc": [
+        {
+          "abilityID": 9158,
+          "simpleDesc": "Активирует [Combustion]"
+        },
+        {
+          "abilityID": 91581,
+          "simpleDesc": "Активирует [Combustion] ещё один раз"
+        },
+        {
+          "abilityID": 91582,
+          "simpleDesc": "Наносит (Сила [Combustion] побеждённого противника) [Combustion]"
+        },
+        {
+          "abilityID": 91583,
+          "simpleDesc": "Наносит 4 [AttackDown]"
+        },
+        {
+          "abilityID": 91583,
+          "simpleDesc": "Даёт 2 [AttackDmgUp]"
+        }
+      ]
+    },
+    {
+      "id": 9160,
+      "name": "Вспоротый кровяной мешок",
+      "desc": "При победе в поединке, единожды активирует [Laceration] противника. (Трижды за ход)",
+      "simpleDesc": [
+        {
+          "abilityID": 9160,
+          "simpleDesc": "Активирует Кровотечение"
+        }
+      ]
+    },
+    {
+      "id": 9162,
+      "name": "Геморрагический шок",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особое) [Laceration]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\nПри победе в поединке, единожды активирует [Laceration] противника. (Раз за ход для каждого союзника)\n\nПозволяет <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> оглушать противника во время поединка. Если противник оказался оглушён от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> во время поединка, активирует [Laceration] противника (число оставшихся монет противника) раз.\n\nПонижает уровень защиты на 2 всем противникам, если у каждого противника есть [Laceration]. В конце хода накладывает (количество активаций <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> × 2) <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color> на следующий ход. (До 20)\n\nПри нанесении (Особого) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, дополнительно накладывает 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и повышает его счётчик на 1.",
+      "simpleDesc": [
+        {
+          "abilityID": 9162,
+          "simpleDesc": "При победе в столкновении активирует Кровотечение на цели"
+        },
+        {
+          "abilityID": 91621,
+          "simpleDesc": "После поединка активирует [Laceration] противника столько раз, сколько у персонажа осталось монет, и уменьшает счётчик [Laceration] на число активаций [Laceration]."
+        },
+        {
+          "abilityID": 91622,
+          "simpleDesc": "Наложить (# [Laceration] активаций x 2) [DefenseDown] (максимум 20)"
+        },
+        {
+          "abilityID": 91623,
+          "simpleDesc": "Наносит 3 Кровотечения и повышает его счётчик на 1"
+        }
+      ]
+    },
+    {
+      "id": 9163,
+      "name": "Колебания самоцвета",
+      "desc": "При победе в поединке навыком, тратящим счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2. (Действует на противников без <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>)\n\nЕсли данный атакующий навык в резонансе Лености равный 3-м и более, эффект Дара усиливается, повышая счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3.",
+      "simpleDesc": [
+        {
+          "abilityID": 9163,
+          "simpleDesc": "При победе в поединке навыком, потратившим счётчик [Vibration], повышает счётчик [Vibration] цели на 2."
+        },
+        {
+          "abilityID": 91631,
+          "simpleDesc": "При победе в Столкновении с навыком, который потратил [Vibration] счётчик и является частью 3+ Леньного Резона: наносить +3 [Vibration] счётчик"
+        }
+      ]
+    },
+    {
+      "id": 9164,
+      "name": "Шатающаяся бочка",
+      "desc": "В начале хода повышает силу парирований на 1 союзникам с 8 единицами счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и более.\n\nПри убийстве или оглушении противника навыком, тратящим счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> союзника на (потраченный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> ÷ 4). (Раз за навык)",
+      "simpleDesc": [
+        {
+          "abilityID": 9164,
+          "simpleDesc": "Сила в столкновении +1"
+        },
+        {
+          "abilityID": 91641,
+          "simpleDesc": "При победе в Поединке навыком, расходующим счётчик [Vibration], получает счётчик [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9166,
+      "name": "Эпицентр",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особый) [Vibration]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются; эффект Дара не работает на союзников с навыками, наносящими [Vibration] только на себя)\n\nПри победе в поединке навыком, тратящим счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3. (Действует на противников без <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>)\n\nВ начале хода повышает силу парирований на (единиц счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике ÷ 5). (До 3)\n\nПри убийстве или оглушении противника навыком, тратящим счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> союзника на (потраченный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> ÷ 2). (Раз за навык)",
+      "simpleDesc": [
+        {
+          "abilityID": 9166,
+          "simpleDesc": "При победе в поединке навыком, потратившим собственный счётчик [Vibration]: если у цели нет [Vibration], накладывает на неё 3 единицы счётчика [Vibration]."
+        },
+        {
+          "abilityID": 91661,
+          "simpleDesc": "Старт хода: усиление ([Vibration] Расчёт на себя / 5) Сила столкновения"
+        },
+        {
+          "abilityID": 91662,
+          "simpleDesc": "При победе в Поединке навыком, расходующим счётчик [Vibration], получает счётчик [Vibration]"
+        }
+      ]
+    },
+    {
+      "id": 9167,
+      "name": "Колокол, вечно бьющий во все стороны",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особый) [Vibration]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются; эффект Дара не работает на союзников с навыками, наносящими [Vibration] только на себя)\n\nПри победе в поединке навыком, тратящим счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике или наносящим [Vibration], повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3. (Действует на противников без <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>)\n\nВ начале хода накладывает (единиц счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике ÷ 5) <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы в поединке</link></u></color>. (До 3)\n\nПри убийстве или оглушении противника навыком, тратящим счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> союзника на (потраченный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> ÷ 2). (Раз за навык)\n\nПри использовании навыка, тратящего счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике, повышает наносимый урон на (потраченный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на союзнике + единиц потенциала <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на противнике + 5)%. (До 50%; не действует на ЭГО-навыки)",
+      "simpleDesc": [
+        {
+          "abilityID": 9167,
+          "simpleDesc": "Наносит [Vibration] или повышает его счётчик при победе в столкновении"
+        },
+        {
+          "abilityID": 91671,
+          "simpleDesc": "Даёт Повышение силы в столкновении в зависимости от своего счётчика Тремора"
+        },
+        {
+          "abilityID": 91672,
+          "simpleDesc": "При победе в Поединке навыком, расходующим счётчик [Vibration], получает счётчик [Vibration]"
+        },
+        {
+          "abilityID": 91673,
+          "simpleDesc": "Навыки, которые тратят собственный счётчик [Tremor], наносят больше урона."
+        },
+        {
+          "abilityID": 91674,
+          "simpleDesc": "Продлевает Дрожь — Суперпозицию на цели в конце поворота до следующего хода"
+        }
+      ]
+    },
+    {
+      "id": 9168,
+      "name": "Осколки судного дня",
+      "desc": "Если на противнике менее 15 единиц потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при использовании навыка, наносящего [Burst], повышает наносимый потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 1.",
+      "simpleDesc": [
+        {
+          "abilityID": 9168,
+          "simpleDesc": "Наносит [Burst]"
+        }
+      ]
+    },
+    {
+      "id": 9170,
+      "name": "Уродливая статуя",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особый) [Burst]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\n[Burst] наносит на 100% больше урона по щитам противника\n\nЕсли на противнике менее 15 единиц потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при использовании навыка, наносящего [Burst], повышает наносимый потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2.\n\nЕсли эффекты навыков не позволяют нанести [Burst], повышает силу монеты на 1.",
+      "simpleDesc": [
+        {
+          "abilityID": 9170,
+          "simpleDesc": "Разрыв наносит на 100% больше урона против щита противников"
+        },
+        {
+          "abilityID": 91701,
+          "simpleDesc": "Наносит ещё 2 [Burst]"
+        },
+        {
+          "abilityID": 91702,
+          "simpleDesc": "Если эффект навыка не может наложить [Burst], вместо этого повышает силу монеты или базовую силу."
+        }
+      ]
+    },
+    {
+      "id": 9171,
+      "name": "Разрушение",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особый) [Burst]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\n[Burst] наносит на 150% больше урона по щитам противника\n\nВ начале хода понижает уровень защиты и уровень атаки на ((единиц потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на противнике) + 3) противникам с Разрывом. (До 6; если аномалия, то на части)\n\nПри попадании навыками, наносящими [Burst], дополнительно накладывает 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и повышает его счётчик на 1. Если на противнике менее 15 единиц потенциала <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> при использовании навыка, наносящего [Burst], повышает наносимый потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на 2.\n\nЕсли эффекты навыков не позволяют нанести [Burst], повышает силу монеты на (4 ÷ число монет).",
+      "simpleDesc": [
+        {
+          "abilityID": 9171,
+          "simpleDesc": "[Burst] наносит на 150% больше урона против щита противников."
+        },
+        {
+          "abilityID": 91711,
+          "simpleDesc": "Противники с [Burst] теряют Уровни защиты и атаки"
+        },
+        {
+          "abilityID": 91712,
+          "simpleDesc": "Когда эффект навыка накладывает силу [Burst], дополнительно накладывает 2 силы [Burst] и +1 к счётчику [Burst]."
+        },
+        {
+          "abilityID": 91713,
+          "simpleDesc": "+(4 / количество монет) к Силе монет"
+        }
+      ]
+    },
+    {
+      "id": 9172,
+      "name": "Кантабиле",
+      "desc": "При попадании по противнику с 5 единицами <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и более, восстанавливает союзнику (единиц потенциала <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на противнике ÷ 10) СД. (До 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9172,
+          "simpleDesc": "Восстанавливает СД"
+        }
+      ]
+    },
+    {
+      "id": 9173,
+      "name": "Потускневшее пальто",
+      "desc": "Если в конце хода более 3-х противников с -45 СД, накладывает 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на всех союзников в следующий ход.",
+      "simpleDesc": [
+        {
+          "abilityID": 9173,
+          "simpleDesc": "Все союзники получают 2 [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9175,
+      "name": "Шторм в стеклянном шаре",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особое) [Sinking]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\nПри попадании по противнику с 5 единицами <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и более, восстанавливает союзнику (единиц потенциала <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на противнике ÷ 10) СД. (До 3)\n\nЕсли в конце хода более 3-х противников с -45 СД, накладывает 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на всех союзников в следующий ход. (До 3)\n\nНакладывает [AttackUp] на всех союзников в следующий ход, в зависимости от числа противников с -45 СД в конце хода. (До 3)",
+      "simpleDesc": [
+        {
+          "abilityID": 9175,
+          "simpleDesc": "Восстанавливает СД"
+        },
+        {
+          "abilityID": 91751,
+          "simpleDesc": "Все союзники получают [AttackUp]"
+        }
+      ]
+    },
+    {
+      "id": 9176,
+      "name": "Надвигающаяся волна",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими (Особое) [Sinking]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\nПри использовании навыка, наносящего урон по ОЗ и наносящего (Особое) [Sinking], накладывает 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и повышает его счётчик на 3 в конце хода. (Раз за ход для каждого противника)\nПри активации абсолюта Уныния в начале боевой фазы накладывает на всех противников 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и повышает его счётчик на 3. (Если аномалия, то на случайную часть)\n\nПри попадании по противнику с 10 единицами <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и более, восстанавливает союзнику (единиц потенциала <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на противнике ÷ 10) СД и накладывает (число восстановленного СД) <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>. (До 5; активируется на противнике единожды за ход)\n\nНакладывает [AttackUp] на всех союзников в следующий ход, в зависимости от числа противников с -45 СД или без СД в конце хода. (До 3)\n\nПри активации (Особого) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на противнике навыками, наносящими (Особое) [Sinking], восстанавливает союзнику 5 СД в конце хода. (Дважды за ход для каждого союзника)\nЕсли у союзника 45 СД в начале хода, эффект Дара меняется, повышая счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3 при активации (Особого) <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на противнике навыками, наносящими (Особое) [Sinking]. (Дважды за ход для каждого союзника)",
+      "simpleDesc": [
+        {
+          "abilityID": 9176,
+          "simpleDesc": "Наносит Утопание и повышает его счётчик"
+        },
+        {
+          "abilityID": 91761,
+          "simpleDesc": "Наносит Понижение уровня защиты"
+        },
+        {
+          "abilityID": 91762,
+          "simpleDesc": "Даёт Повышение уровня атаки"
+        },
+        {
+          "abilityID": 91763,
+          "simpleDesc": "Повышает счётчик Утопания"
+        },
+        {
+          "abilityID": 91764,
+          "simpleDesc": "Причиняющее затопление"
+        },
+        {
+          "abilityID": 91765,
+          "simpleDesc": "Получает силу монет"
+        },
+        {
+          "abilityID": 91766,
+          "simpleDesc": "Получает Базовую силу"
+        },
+        {
+          "abilityID": 91767,
+          "simpleDesc": "Накладывает Отток"
+        },
+        {
+          "abilityID": 91768,
+          "simpleDesc": "Накладывает Отток"
+        }
+      ]
+    },
+    {
+      "id": 9178,
+      "name": "Разрез ангела",
+      "desc": "Если на всех союзниках больше 20 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> в конце хода, меняет единицу потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>.",
+      "simpleDesc": [
+        {
+          "abilityID": 9178,
+          "simpleDesc": "Повышает счётчик Дыхания"
+        }
+      ]
+    },
+    {
+      "id": 9180,
+      "name": "Бочка эссенции",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими [Breath]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\nЕсли на всех союзниках больше 20 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> в конце хода, меняет единицу потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>.\n\nCоюзник с наибольшим потенциалом <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и союзник с наибольшим счётчиком <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> в конце хода получают по 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышению уровню атаки</link></u></color> на следующий ход. (Может дважды применить на одного союзника)\n\nКогда союзник получает потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> от эффектов навыков, дополнительно накладывает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2. Если сумма счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и его потенциала меньше 20 единиц, эффект дара усиливается, накладывая 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышая его счётчик на 3.\n\nПри более 40 единицах потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на союзнике в конце хода, снимает с него 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбрасывает</link></u></color> навыки наименьшего ранга во всех его ячейках. (Раз за ход для каждого союзника)",
+      "simpleDesc": [
+        {
+          "abilityID": 9180,
+          "simpleDesc": "Повышает счётчик Дыхания"
+        },
+        {
+          "abilityID": 91801,
+          "simpleDesc": "Даёт 2 Спешки и 1 Повышение уровня атаки"
+        },
+        {
+          "abilityID": 91802,
+          "simpleDesc": "Даёт дополнительное [Breath]"
+        },
+        {
+          "abilityID": 91803,
+          "simpleDesc": "Сбрасывает навык низшего ранга во всех своюих слотах навыков"
+        }
+      ]
+    },
+    {
+      "id": 9181,
+      "name": "Миниатюрный телефонный столб",
+      "desc": "При убийстве противника навыком, тратящим 7 единиц из счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> и более, возвращают союзнику (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> данным навыком ÷ 4) единиц в счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>.",
+      "simpleDesc": [
+        {
+          "abilityID": 9181,
+          "simpleDesc": "Получает счётчик [Charge] в зависимости от израсходованного счётчика [Charge]"
+        }
+      ]
+    },
+    {
+      "id": 9183,
+      "name": "Изолятор",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, повышающими счётчик (Особого) <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\nПри убийстве противника навыком, тратящим 7 единиц из счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> и более, возвращает союзнику (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> данным навыком ÷ 3) единиц в счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>.\n\nЕсли у союзника в начале хода счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> меньше 3, повышает его счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3. В ином случае накладывает 1 [AttackDmgUp] в начале хода.",
+      "simpleDesc": [
+        {
+          "abilityID": 9183,
+          "simpleDesc": "Получает счётчик [Charge] в зависимости от израсходованного счётчика [Charge]"
+        },
+        {
+          "abilityID": 91831,
+          "simpleDesc": "Получает 1 [AttackDmgUp] или счётчик [Charge] в зависимости от значения счётчика [Charge]"
+        }
+      ]
+    },
+    {
+      "id": 9184,
+      "name": "Вечный двигатель пятого типа",
+      "desc": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, повышающими счётчик (Особого) <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\nЕсли у союзника в начале хода счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> меньше 3, повышает его счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5. В ином случае накладывает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color>, 1 [Enhancement] и повышает скорость на 2 в начале хода.\n\nПри убийстве противника навыком, тратящим счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, возвращает союзнику (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> данным навыком ÷ 3) единиц в счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> и накладывает 1 [PlusCoinValueUp] в начале следующего хода. (Раз за ход для каждого союзника)\n\nЕсли союзник при использовании навыка 3-го ранга убивает противника или имеет 3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> и более после использования данного навыка, то добавляет навык 3-го ранга в список навыков на следующий ход. (Раз за ход для каждого союзника; применяется только к навыкам, тратящим счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; особый [Charge] не учитывается)",
+      "simpleDesc": [
+        {
+          "abilityID": 9184,
+          "simpleDesc": "Получает 1 [AttackDmgUp] или счётчик [Charge] в зависимости от значения счётчика [Charge]"
+        },
+        {
+          "abilityID": 91841,
+          "simpleDesc": "Получает счётчик [Charge] в зависимости от потраченного счётчика [Charge]. На следующий ход получает [PlusCoinValueUp]"
+        },
+        {
+          "abilityID": 91842,
+          "simpleDesc": "После атаки третьим навыком, потратившим счётчик [Charge], добавляет один третий навык в очередь навыков"
+        }
+      ]
+    }
+  ]
+}

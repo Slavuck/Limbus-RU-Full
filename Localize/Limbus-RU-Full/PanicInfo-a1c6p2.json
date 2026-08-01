@@ -1,0 +1,22 @@
+{
+  "dataList": [
+    {
+      "id": 1019,
+      "panicName": "Искажённая картина",
+      "lowMoraleDescription": "Получает 1 [Enhancement] и 1 [Vulnerable]",
+      "panicDescription": "Получает 1 [PlusCoinValueUp] и 3 [Vulnerable]"
+    },
+    {
+      "id": 1021,
+      "panicName": "Отмщение",
+      "lowMoraleDescription": "Получает 3 [DefenseDown] и 3 [AttackDmgUp]",
+      "panicDescription": "Получает 6 [DefenseDown] и 5 [AttackDmgUp]"
+    },
+    {
+      "id": 1022,
+      "panicName": "Ненависть",
+      "lowMoraleDescription": "- При победе в столкновении получает 1 [AttackUp] на следующий ход (До 3 раз за ход)\n- При проигрыше в столкновении получает 1 [DefenseUp] (До 3 раз за ход)",
+      "panicDescription": "- При победе в столкновении получает 1 [AttackUp] на этот и следующий ход (До 3 раз за ход)\n- При проигрыше в столкновении получает 1 [DefenseUp] (До 3 раз за ход)\n- В конце хода получает 2 [Agility] на следующий ход"
+    }
+  ]
+}

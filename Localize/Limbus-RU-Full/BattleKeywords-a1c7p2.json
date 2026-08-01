@@ -1,0 +1,130 @@
+{
+  "dataList": [
+    {
+      "id": "BloodyHand",
+      "name": "Обагрённая кровью рука",
+      "desc": "- Верхняя граница: 10.\n- Нижняя граница: 0.\n- При 10-и единиц эффекта во время атаки своими навыками дополнительно наносит 1 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color>.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThorns",
+      "name": "Цветущие тернии",
+      "desc": "- Верхняя граница: 10.\n- При получении урона наносит на атакующего <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, равное половине числа эффекта, и понижает число эффекта на 1. (Округляется в бо́льшую сторону)",
+      "summary": "Наносит на атакующего половину числа <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThorns_2nd",
+      "name": "Сплетённые кровью тернии",
+      "desc": "- При наличии этого эффекта число получаемых  「<sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущих терний</link></u></color>」 заменяется на 「<sprite name=\"BloomingThorns_2nd\"><color=#f8c200><u><link=\"BloomingThorns_2nd\">Сплетённые кровью тернии</link></u></color>」.\n- Верхняя граница: 10.\n- В начале хода Дульсинея получает по 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышению уровня атаки</link></u></color> за каждые 3 единицы эффекта. (До 3)\n- При получении урона Дульсинея наносит на атакующего <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, равное числу эффекта, и понижает число эффекта на 1. (Округляется в бо́льшую сторону)\n- При ударе навыками, наносящими <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, его потенциал и счётчик +1.\n- Когда союзник (кроме Дульсинеи) получает <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> или <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color> с помощью эффектов монет, Дульсинея также даёт им 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы парирований</link></u></color> на следующий ход.\n- Сила монет +1 для навыков, потребляющих <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>.",
+      "summary": "Наносит на атакующего число эффекта <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\nНаносимые потенциал и счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> +1.\nДаёт союзникам 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы парирований</link></u></color>.\nСила монет +1 для навыков, потребляющих <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>.",
+      "undefined": "-"
+    },
+    {
+      "id": "BloomingThorns_3rd",
+      "name": "<sprite name=\"BloomingThorns_3rd\"><color=#f8c200><u><link=\"BloomingThorns_3rd\">Тернии крови</link></u></color>",
+      "desc": "- При наличии этого эффекта число получаемых  「<sprite name=\"BloomingThorns\"><color=#f8c200><u><link=\"BloomingThorns\">Цветущих терний</link></u></color>」 заменяется на 「<sprite name=\"BloomingThorns_3rd\"><color=#f8c200><u><link=\"BloomingThorns_3rd\">Тернии крови</link></u></color>」.\n- Верхняя граница: 10.\n- В начале хода Дульсинея получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> за каждые 2 единицы этого эффекта. (До 5)\n- При получении урона наносит на атакующего <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, равное числу эффекта, и понижает число эффекта на 1. (Округляется в бо́льшую сторону)\n- При ударе навыками, наносящими <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, его потенциал и счётчик +2.\n- Когда союзник (кроме Дульсинеи) получает <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> или <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color> с помощью эффектов монет, Дульсинея также даёт им 2 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы парирований</link></u></color> на следующий ход.\n- +50% к урону и сила монет +2 для навыков, потребляющих <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>.\n- При использовании навыка 「Парада судьба — идти век без конца」 вместо здоровья Дульсинея восстанавливает силу духа.",
+      "summary": "Наносит на атакующего число эффекта <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\nНаносимые потенциал и счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> +2.\nДаёт союзникам 2 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы парирований</link></u></color>.\n+50% к урону и сила монет +2 для навыков, потребляющих <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>.",
+      "undefined": "-"
+    },
+    {
+      "id": "FestivalFever",
+      "name": "Карнавальный пыл",
+      "desc": "- Верхняя граница: 10.\n- В начале хода получает по 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышению уровня атаки</link></u></color> за каждые 3 единицы эффекта. (До 3)\n- Необходим для особых навыков.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "IncompleteParade",
+      "name": "Несовершенный парад",
+      "desc": "- Верхняя граница: 50.\n- При смерти кровесосуда Дульсинея получает 2 единицы эффекта.\n- При смерти кроваггела Дульсинея получает 3 единицы эффекта.\n- В начале хода Дульсинея получает по 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> за каждые 5 потраченных единицы.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBloodDolci_LowMorale",
+      "name": "Узда тщетности",
+      "desc": "- Падение духа.\n- В начале хода получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>.\n- В конце хода теряет 5 СД.",
+      "summary": "Дульсинея получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>.",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBloodDolci_Panic",
+      "name": "Узда тщетности",
+      "desc": "- Срыв.\n- В начале хода получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>.\n- В конце хода восстанавливает 10 СД.",
+      "summary": "Дульсинея получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>.",
+      "undefined": "-"
+    },
+    {
+      "id": "StarvingDolcineaOne",
+      "name": "Бессилие",
+      "desc": "- <i>Сколько лет не могла почуять и капли крови.</i>\n- Уровень атаки -35.\n- Уровень защиты -35.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StarvingDolcineaServant",
+      "name": "Бессилие",
+      "desc": "- <i>Сколько лет Семья не могла почуять и капли крови.</i>\n- Уровень атаки -15.\n- Уровень защиты -15.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "ThornyFall_LowMorale",
+      "name": "Тёрн",
+      "desc": "При победе в поединке получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color>.",
+      "summary": "При победе в поединке получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color>.",
+      "undefined": "-"
+    },
+    {
+      "id": "ThornyFall_Panic",
+      "name": "Тёрн",
+      "desc": "При победе в поединке получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color>.\nВ начале хода получает 2 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы парирований</link></u></color> на следующий ход.",
+      "summary": "При победе в поединке получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color>.",
+      "undefined": "-"
+    },
+    {
+      "id": "HonorableDuel_Don",
+      "name": "Славная дуэль",
+      "desc": "Память о некогда восхитительных приключениях.\nЗначительно усиливает навыки Дон Кихот.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "HonorableDuel_Knight",
+      "name": "Славная дуэль",
+      "desc": "Память о некогда восхитительных приключениях.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "StarvingPriestOne",
+      "name": "Бессилие",
+      "desc": "- <i>Сколько лет не мог почуять и капли крови.</i>\n- Уровень атаки -15.\n- Уровень защиты -15.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBloodPriestServant_LowMorale",
+      "name": "Голод",
+      "desc": "- Падение духа.\n- В начале хода получает 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы парирований</link></u></color> и 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>.\n- В конце хода теряет 5 СД.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "FamineBloodPriestServant_Panic",
+      "name": "Голод",
+      "desc": "- Срыв.\n- В начале хода получает 2 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышения силы парирований</link></u></color> и 6 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>.\n- В конце хода восстанавливает 10 СД.",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "UnstoppableFunny",
+      "name": "Непрекращающийся восторг",
+      "desc": "При смерти:\n- Даёт 1 грех к 3-м наименьшим ЭГО-ресурсам.\n- Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на противника на 3 (в приоритете убивший носителя).\n- Все союзники с 5 и более единицами 「<sprite name=\"FestivalFever\"><color=#f8c200><u><link=\"FestivalFever\">Карнавального пыла</link></u></color>」 получают 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход.\n- Все союзники без 「<sprite name=\"FestivalFever\"><color=#f8c200><u><link=\"FestivalFever\">Карнавального пыла</link></u></color>」 получают 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы парирований</link></u></color> на следующий ход.",
+      "summary": "Даёт грехи 3-х наименьших ЭГО-ресурса.\nПовышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3.",
+      "undefined": "-"
+    }
+  ]
+}

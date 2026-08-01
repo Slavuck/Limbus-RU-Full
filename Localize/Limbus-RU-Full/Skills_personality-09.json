@@ -1,0 +1,3599 @@
+{
+  "dataList": [
+    {
+      "id": 1090701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Озари незнание своё",
+          "desc": "Получает щит, равный (Откровение × 3% максимальных ОЗ)при сбросе этого навыка",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Озари незнание своё",
+          "desc": "Получает щит, равный (Откровение × 4% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] Если у грешницы 2 и более Откровение, сила монет +(Откровение - 1)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Озари незнание своё",
+          "desc": "Получает щит, равный (Откровение × 5% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] Если у грешницы 2 и более <sprite name=\"KnowledgeExplored\"><color=#9f6a3a><u><link=\"KnowledgeExplored\">Откровений</link></u></color>, сила монет +(Откровение - 1)",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тяжесть знаний",
+          "desc": "Получает щит, равный (Откровение × 5% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 2 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Тяжесть знаний",
+          "desc": "Получает щит, равный (Откровение × 8% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Тяжесть знаний",
+          "desc": "Получает щит, равный (Откровение × 10% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 5 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WhenUse] Сила столкновения +2 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Болезненное просвещение",
+          "desc": "Получает щит, равный (Откровение × 15% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 навыка низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 4"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Болезненное просвещение",
+          "desc": "Получает щит, равный (Откровение × 20% максимальных ОЗ)при сбросе этого навыка\n[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color>*] 2 навыка низшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 5 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход\n[WhenUse] Сила монет +1 против целей с 7 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 4"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090704,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Погружённость в познания",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык высшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 2 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Погружённость в познания",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык высшего ранга во всех ячейках навыков грешницы\n[WhenUse] Эта ячейка получает 5 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удары огнём",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Удары огнём",
+          "desc": "Сила монет +1 против целей с 3 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Удары огнём",
+          "desc": "Сила монет +1 за каждые 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пламенная тегатана — Всполохи",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели равен 6 и более, наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 2-м противникам с наименьшим счётчиком <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пламенная тегатана — Всполохи",
+          "desc": "Сила монет +1 против целей с 6-ю и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели равен 6 и более, наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 2-м противникам с наименьшим счётчиком <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пламенная тегатана — Всполохи",
+          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели равен 6 и более, наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 2-м противникам с наименьшим счётчиком <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Молниеносное пронзание",
+          "desc": "+30% к урону против целей, чей Огонь и счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> равен 6 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит половину потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели уроном Гневом.(До 20) Понижает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Молниеносное пронзание",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-ю и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color></style>\n+30% к урону против целей, чей Огонь и счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> равен 6 и более",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит потенциал <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели уроном Гневом.(До 30) Понижает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Контратака",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Готовность взимать",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Готовность взимать",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6-ю и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Готовность взимать",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WhenUse]Сила парирований +1 <style=\"highlight\">за каждые 6 единиц <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рукопашное подавление Корп. T",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Рукопашное подавление Корп. T",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 6-ю и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[WinDuelAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2</style>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рукопашное подавление Корп. T",
+          "desc": "<style=\"highlight\">+5 урона за каждую единицу <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на цели (До 15%)</style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2\n[WhenUse] Сила парирований +1 <style=\"highlight\">за каждые 6 единиц <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Binding] на следующий ход</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, наносит 1 [Binding] на следующий ход</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Исполнение взысканий",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 8 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Сила монет +1 при трате 8 единиц из своего счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если Родя <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">одолжила время</link></u></color> наносит 2 <sprite name=\"TimeSuspend\"><color=#e30000><u><link=\"TimeSuspend\">Временных моратория</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Исполнение взысканий",
+          "desc": "<style=\"highlight\">+5 урона за каждую единицу <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на цели (До 20%)</style>\n[WhenUse] Сила парирований +<style=\"highlight\">2</style> против целей с 8 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Сила монет +1 при трате 8 единиц из своего счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если этот навык понизил счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> Роди, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если Родя <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">одолжила время</link></u></color> наносит 2 <sprite name=\"TimeSuspend\"><color=#e30000><u><link=\"TimeSuspend\">Временных моратория</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1090904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Одолженное время",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[StartBattle] Если у Роди нет <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color>, в конце хода получает 3 единицы <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color> (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на атакующего (Дважды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Одолженное время",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[StartBattle] Если у Роди нет <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color>, в конце хода получает 3 единицы <sprite name=\"TimeRentalTwoPersonality\"><color=#f8c200><u><link=\"TimeRentalTwoPersonality\">Одолженного времени</link></u></color> (Раз за ход)\n[WhenUse] Если принимает атаку противника, наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на атакующего (До <style=\"highlight\">6-и</style>раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Курьерская сумка: Разлагающее лезвие",
+          "desc": "[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, Родя не наносит [Burst] этим навыком, но и не тратит счётчик этого эффекта при атаке",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Курьерская сумка: Разлагающее лезвие",
+          "desc": "<style=\"highlight\">Сила монет +1 при 10 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> или 6 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели</style>\n[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, Родя не наносит [Burst] этим навыком, но и не тратит счётчик этого эффекта при атаке",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 1\n<style=\"highlight\">- Если у Роди менее 15 на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, дополнительно повышает её число на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Курьерская сумка: Разлагающее лезвие",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 10 единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> Роди или 6 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)</style>\n[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, Родя не наносит [Burst] этим навыком, но и не тратит счётчик этого эффекта при атаке",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 1\n- Если у Роди менее 15 на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, дополнительно повышает её число на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Курьерская сумка: Выпуск гаджетов",
+          "desc": "Сила монет +1 при 10 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> или 6 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели\n[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, этот навык не тратит счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> при ударе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход (Раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит по 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижению уровня защиты</link></u></color> за каждые 10 единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> или 5 <style=\"highlight\">3</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> на цели (До 2, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Курьерская сумка: Выпуск гаджетов",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 10 единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> Роди или 6 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)</style>\n[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, этот навык не тратит счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> при ударе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 1\n<style=\"highlight\">- Если у Роди менее 15 на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, дополнительно повышает её число на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход (Раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит по 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижению уровня защиты</link></u></color> за каждые  <style=\"highlight\">5</style> единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> или 5 <style=\"highlight\">3</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> на цели (До <style=\"highlight\">4</style>, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Курьерская сумка: Выпуск гаджетов",
+          "desc": "<style=\"highlight\">+2% к урону за каждую единицу на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> (До 40%)</style>\nСила монет +1 за каждые 10 единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> Роди или 6 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)\n[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, этот навык не тратит счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> при ударе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 1\n- Если у Роди 15- на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, она дополнительно повышает число эффекта на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход (Раз за ход)\n<style=\"highlight\">- Если у Роди 15 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, она дополнительно получает ещё 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит по 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижению уровня защиты</link></u></color> за каждые 5 единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> или 5 <style=\"highlight\">3</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> на цели (До <style=\"highlight\">6</style>, единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Давай, Полуденька!",
+          "desc": "+2% к урону за каждую единицу на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> (До 40%)\nСила монет +1 при 10 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> или 6 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели\n[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, не тратит счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и снова подкидывает монету",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 3 (Раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] +15% к урону при 15 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>"
+                },
+                {
+                  "desc": "[EndSkill] При оглушении или убийстве цели получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Давай, Полуденька!",
+          "desc": "<style=\"highlight\">+4%</style> урона за каждую единицу на урона при 15 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>(До <style=\"highlight\">80%</style>)\n<style=\"highlight\">Сила монет +1 за каждые 10 единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> Роди или 6 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели (До 2)</style>\n[WhenUse] Если на цели более 15-и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> и 3-х единиц на счётчике этого эффекта, не тратит счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и снова подкидывает монету",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 3 (Раз за ход)\n<style=\"highlight\">- Дополнительно повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 10 единиц на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> (До 2)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">+25%</style> урона при 15 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>"
+                },
+                {
+                  "desc": "[EndSkill] При оглушении или убийстве цели получает <style=\"highlight\">2</style> <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Помощь в доставке и последовательный контроль",
+          "desc": "[StartBattle] При 15 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Раз за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Раз за ход)\n[WhenUse] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 2 (Раз за ход)\n- Если у Роди менее 15 на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, дополнительно повышает её число на 1",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Помощь в доставке и последовательный контроль",
+          "desc": "[StartBattle] При 15 и более на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color> заменяет навык на 「Это... Всего лишь тактическая пауза!」 (Раз за ход)\n[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Раз за ход)\n[WhenUse] Повышает число <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумки</link></u></color> на 2 (Раз за ход)\n- Если у Роди менее 15 на <sprite name=\"DevyatDimensionalSack\"><color=#9f6a3a><u><link=\"DevyatDimensionalSack\">Курьерской сумке</link></u></color>, дополнительно повышает её число на 1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Это... Всего лишь тактическая пауза!",
+          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на ([DevyatDimensionalSack]/2)% от максимальных ОЗ (До 15%, Раз за ход)\n[EndBattle] <sprite name=\"Retreat\"><color=#9f6a3a><u><link=\"Retreat\">Тактически отступает</link></u></color>",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Это... Всего лишь тактическая пауза!",
+          "desc": "[StartBattle] Перед использованием этого навыка Родя получает щит на <style=\"highlight\">([DevyatDimensionalSack])%</style> от максимальных ОЗ (До <style=\"highlight\">25%</style>, Раз за ход)\n[EndBattle] <sprite name=\"Retreat\"><color=#9f6a3a><u><link=\"Retreat\">Тактически отступает</link></u></color>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прочь с пути моего…",
+          "desc": "[StartBattle] Испивает до 20 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> для того, чтобы дать по одному <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущему тёрну</link></u></color> себе и союзнику с самым высоким здоровьем  за каждые 10 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущий тёрн</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Родя получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Прочь с пути моего…",
+          "desc": "[StartBattle] Испивает до 20 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> для того, чтобы дать по одному <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущему тёрну</link></u></color> себе и союзнику с самым высоким здоровьем  за каждые 10 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущий тёрн</link></u></color>\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Родя получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прочь с пути моего…",
+          "desc": "[StartBattle] Испивает до 20 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> для того, чтобы дать по одному <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущему тёрну</link></u></color> себе и союзнику с самым высоким здоровьем  за каждые 10 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>. (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущий тёрн</link></u></color>.\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Родя получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>.\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2)</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разлетись по ветру",
+          "desc": "[StartBattle] Испивает до 30 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 испитых долей даёт по 1 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущему тёрну</link></u></color> и, независимо от долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Пиршества</link></u></color>, 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущей тернии</link></u></color>.\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Родя получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Разлетись по ветру",
+          "desc": "[StartBattle] Испивает до 30 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 испитых долей даёт по 1 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущему тёрну</link></u></color> и, независимо от долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Пиршества</link></u></color>, 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущей тернии</link></u></color>.\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Родя получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>.\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разлетись по ветру",
+          "desc": "[StartBattle] Испивает до 30 долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> и за каждые 10 испитых долей даёт по 1 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущему тёрну</link></u></color> и, независимо от долей <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Пиршества</link></u></color>, 1 [Enhancement] себе и союзнику с самым низким здоровьем (До 2-х раз за ход)\n- Среди союзников приоритезирует <b>кроваггелов</b>.\n- Если выбранный союзник — <b>кроваггел</b>, даёт ему ещё 1 [Enhancement] и 2 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущей тернии</link></u></color>.\n- При невозможности испить из <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Родя получает 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>.\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пора закончить этот карнавал",
+          "desc": "[BeforeUse] При достижении 25 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущих терний</link></u></color> и выше использует навык 「Высшее искусство кристаллизации крови Дон Кихота: Финал」\n[WhenUse] Даёт себе и (наибольший резонанс) союзникам (3 + (1 за каждые 50 долей <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color>)) <sprite name=\"FestivalFeverRodion\"><color=#f8c200><u><link=\"FestivalFeverRodion\">Карнавальных пыла</link></u></color> на этот и следующий ходы (До 10-и)\n[WhenUse] Родя даёт себе и (наибольший резонанс) 3 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущие тернии</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пора закончить этот карнавал",
+          "desc": "[BeforeUse] При достижении 25 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущих терний</link></u></color> и выше использует навык 「Высшее искусство кристаллизации крови Дон Кихота: Финал」\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>\n[WhenUse] Даёт себе и (наибольший резонанс) союзникам (3 + (1 за каждые 50 долей <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color>)) <sprite name=\"FestivalFeverRodion\"><color=#f8c200><u><link=\"FestivalFeverRodion\">Карнавальных пыла</link></u></color> на этот и следующий ходы (До 10-и)\n[WhenUse] Родя даёт себе и (наибольший резонанс) 3 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущие тернии</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Парасоль",
+          "desc": "[DuelCounter]\n[WhenUse] Понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3 2-м союзникам (кроме себя) с наибольшим ([Laceration] × счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>) и наполняет [BloodDinner] на ([Laceration] × счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> до понижения)\n - Если при понижении счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> достигает 0, [Laceration] прекращает действие\n[WinDuel] Родя получает 4 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущие тернии</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Искусство кристаллизации крови Дон Кихота, 15-й стиль: Парасоль",
+          "desc": "[DuelCounter]\n[WhenUse] Понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3 2-м союзникам (кроме себя) с наибольшим ([Laceration] × счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>) и наполняет [BloodDinner] на ([Laceration] × счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> до понижения)\n - Если при понижении счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> достигает 0, [Laceration] прекращает действие\n<style=\"highlight\"> - Если выбранный союзник — <b>кроваггел</b>, дополнительно снимает ещё 2 единицы со счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>\n[WinDuel] Родя получает 4 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущие тернии</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Высшее искусство кристаллизации крови Дон Кихота: Финал",
+          "desc": "[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color>)) <sprite name=\"FestivalFeverRodion\"><color=#f8c200><u><link=\"FestivalFeverRodion\">Карнавального пыла</link></u></color> на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущих терний</link></u></color>\n[WhenUse] Родя получает +1% к урону за каждые 5 долей <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Высшее искусство кристаллизации крови Дон Кихота: Финал",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6-ю и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>\n[WhenUse] Родя даёт себе и (наибольший резонанс) союзникам (5 + (1 за каждые 50 <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color>)) <sprite name=\"FestivalFeverRodion\"><color=#f8c200><u><link=\"FestivalFeverRodion\">Карнавального пыла</link></u></color> на этот и следующий ходы (До 10-и)\n[WhenUse] Также Родя даёт себе и (наибольший резонанс) союзникам 5 <sprite name=\"BloomingThornsRodionFirst\"><color=#f8c200><u><link=\"BloomingThornsRodionFirst\">Цветущих терний</link></u></color>\n[WhenUse] Родя получает +1% к урону за каждые 5 долей <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До 50%)\n[EndSkill] Родя тратит все [BloomingThornsRodionFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Змеиный перелив",
+          "desc": "[WhenUse] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Змеиный перелив",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма потенциалов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Роди и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели равно 10-и и более</style>\n[WhenUse] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Если Родя развернула свои [SnakeStance], она наносит 1 [Burst] на цель</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Змеиный перелив",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Роди и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели (До 2-х)</style>\n[WhenUse] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Если Родя развернула свои [SnakeStance], она наносит <style=\"highlight\">2</style> <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на цель"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Змеиные клыки",
+          "desc": "[WinDuel] Родя повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2\n[WinDuel] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Змеиные клыки",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1, если сумма потенциалов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Роди и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели равно 10-и и более</style>\n[WinDuel] Родя повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2\n[WinDuel] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на <style=\"highlight\">2</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у Роди 30 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, она тратит 10 единиц, чтобы вновь подкинуть эту монету (Раз за навык)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Змеиные клыки",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Роди и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели (До 2-х)</style>\n[WinDuel] Родя повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2\n[WinDuel] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если у Роди 30 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, она тратит 10 единиц, чтобы вновь подкинуть эту монету (Раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя наносит [BurstPoison] на цель<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Родя разворачивает свои [SnakeStance]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Смертоносная хаотичность змей",
+          "desc": "[WideAreaRampage]\n[WhenUse] Сила монет +1, если сумма потенциалов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Роди и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели данного навыка равен 10-и и более единиц\n[WhenUse] Родя повышает силу парирований на число <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Усилений змееподобных рук</link></u></color> на себе\n[WhenUse] Родя получает 3 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Усиления змееподобных рук</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> всех целей на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Родя снимает 1 [BurstPoison] с цели"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает эту монету (До 2-х раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Смертоносная хаотичность змей",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 10 единиц в сумме потенциалов <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Роди и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели данного навыка (До 2-х)</style>\n[WhenUse] Родя повышает силу парирований на число <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Усилений змееподобных рук</link></u></color> на себе\n[WhenUse] Родя получает 3 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Усиления змееподобных рук</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> всех целей на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Родя снимает 1 [BurstPoison] с цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает эту монету (До 2-х раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратный толчок",
+          "desc": "[CanDuelGuard]\n[StartBattle] Родя получает 3 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Усиления змееподобных рук</link></u></color> на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обратный толчок",
+          "desc": "[CanDuelGuard]\n[StartBattle] Родя получает 3 <sprite name=\"SnakeStance\"><color=#f8c200><u><link=\"SnakeStance\">Усиления змееподобных рук</link></u></color> на следующий ход\n<style=\"highlight\">[WhenUse] Сила монет +1 при 10 и более единицах <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> у Роди</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Покровительство рыцаря",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Покровительство рыцаря",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-ю и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Покровительство рыцаря",
+          "desc": "Сила монет +1 против целей с 6-ю и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n<style=\"highlight\">Сила парирований +1 при 3-х и более <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающих рапирах</link></u></color></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color><style=\"highlight\">\n- Также она получает по дополнительной <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрной слезе</link></u></color> за каждые 2 <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающие рапиры</link></u></color> (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С силой справедливости",
+          "desc": "[WhenUse] При 15-и и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> тратит 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color> для получения +15% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "С силой справедливости",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6-ю и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color></style>\n[WhenUse] При 15-и и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> тратит 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color> для получения +15% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>\n<style=\"highlight\">- Также она получает по дополнительной <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрной слезе</link></u></color> за каждые 2 <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающие рапиры</link></u></color> (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С силой справедливости",
+          "desc": "Сила монет +1 против целей с 6-ю и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n<style=\"highlight\">Сила парирований +1 за каждые 2 <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающие рапиры</link></u></color> (До 2-х)</style>\n[WhenUse] При 15-и и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> тратит 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color> для получения +15% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>\n- Также она получает дополнительные [BlackTearsAlly] <style=\"highlight\">по числу</style> <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающих рапир</link></u></color> (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пронзание Арканы",
+          "desc": "Сила монет +1 против целей с 6-ю и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\nСила парирований +1 за каждые 2 <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающие рапиры</link></u></color> (До 2-х)\n[WhenUse] При 10 и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> расходует до 20-и <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color>\n- +(Потраченные [BlackTearsAlly] × 1,5)% к урону после действия выше\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слёз</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Sinking], равное числу <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающих рапир</link></u></color> (До 3-х)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Аркана Пирс",
+          "desc": "Сила монет +1 против целей с 6-ю и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\nСила парирований +1 <style=\"highlight\">за каждую</style> <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающую рапиру</link></u></color> (До <style=\"highlight\">5-и</style>)\n[WhenUse] При 10 и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> расходует до 20-и <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color>\n- +(Потраченные [BlackTearsAlly] × 1,5)% к урону после действия выше\n<style=\"highlight\">- Базовая сила +1 за каждые 5 потраченных <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color></style>\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слёз</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на <style=\"highlight\">3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+20% к урону при наличии или трате данной монетой силы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточки слезами</link></u></color></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Sinking], равное числу <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающих рапир</link></u></color> (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вера рыцаря",
+          "desc": "[CanDuelGuard]\n[StartBattle] Родя получает щит на (сила духа ÷ 5)% здоровья (Раз за ход)\n[WhenUse] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color> (Дважды за ход)\n[EndBattle] При менее 3-й силы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточки слезами</link></u></color> грешница тратит 15 СД, дабы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточить меч собственными слезами</link></u></color> (Раз за ход)\n- Если в Роде уже есть <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточенные мечи</link></u></color>, она теряет ещё (сила <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточки</link></u></color> × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вера рыцаря",
+          "desc": "[CanDuelGuard]\n<style=\"highlight\">[StartBattle] Сила монет +1 за каждые 2 <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающие рапиры</link></u></color> (До 2-х)</style>\n[StartBattle] Родя получает щит на (сила духа ÷ <style=\"highlight\">3</style>)% здоровья (Раз за ход)\n[WhenUse] Родя получает <style=\"highlight\">5</style> <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слёз</link></u></color> (Дважды за ход)\n[EndBattle] При менее 3-й силы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточки слезами</link></u></color> грешница тратит 15 СД, дабы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточить меч собственными слезами</link></u></color> (Раз за ход)\n- Если в Роде уже есть <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточенные мечи</link></u></color>, она теряет ещё (сила <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточки</link></u></color> × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Увядшая вера",
+          "desc": "[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Увядшая вера",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2-х)</style>\n[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Увядшая вера",
+          "desc": "Итоговая сила +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До <style=\"highlight\">3</style>-х)\n[WhenUse] Теряет 7 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 2 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color><style=\"highlight\">\n- В начале боевой фазы грешница получает по дополнительной <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрной слезе</link></u></color> за каждые 2 <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающие рапиры</link></u></color> с собой (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С точёным слезами мечом",
+          "desc": "[WhenUse] Теряет 10 СД\n[WhenUse] При 15-и и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> тратит 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color> для получения +20% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "С точёным слезами мечом",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2-х)</style>\n[WhenUse] Теряет 10 СД\n[WhenUse] При 15-и и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> тратит 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color> для получения +20% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>\n<style=\"highlight\">- В начале боевой фазы грешница получает по дополнительной <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрной слезе</link></u></color> за каждые 2 <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающие рапиры</link></u></color> с собой (До 2-х)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "С точёным слезами мечом",
+          "desc": "Итоговая сила +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До <style=\"highlight\">3</style>-х)\n[WhenUse] Теряет 10 СД\n[WhenUse] При 15-и и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> тратит 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color> для получения +20% к наносимому урону",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <style=\"highlight\">Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>,</style> Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color>\n- Также она получает дополнительные [BlackTearsAlly] <style=\"highlight\">по числу</style> <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающих рапир</link></u></color> (До <style=\"highlight\">5-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091307,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Разрыв и пронзание Арканы",
+          "desc": "Итоговая сила +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2-х)\n[WhenUse] Теряет 15 СД\n[WhenUse] При 10 и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> расходует до 20-и <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color>\n- +(Потраченные [BlackTearsAlly] × 3)% к урону после действия выше\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слёз</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> (Раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если этот навык потратил <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточку слезами</link></u></color>, Родя вновь подкидывает эту монету (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрыв и пронзание Арканы",
+          "desc": "Итоговая сила +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До <style=\"highlight\">4-х</style>)\n[WhenUse] Теряет 15 СД\n[WhenUse] При 10 и более <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слезах</link></u></color> расходует до 20-и <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color>\n- +(Потраченные [BlackTearsAlly] × 3)% к урону после действия выше\n<style=\"highlight\">- Базовая сила +1 за каждые 5 потраченных <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Слёз</link></u></color></style>\n[EndSkill] При смерти цели Родя получает половину от потраченных на навык <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слёз</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на <style=\"highlight\">4</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">5</style><sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> (Раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если этот навык потратил <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточку слезами</link></u></color>, Родя вновь подкидывает эту монету (Раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Измождённая гордость",
+          "desc": "[DuelCounter]\n[WhenUse] Родя получает 3 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрные слезы</link></u></color> (Дважды за ход)\n[EndBattle] При менее 3-й силы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточки слезами</link></u></color> грешница тратит 15 СД, дабы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточить меч собственными слезами</link></u></color> (Раз за ход)\n- Если в Роде уже есть <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточенные мечи</link></u></color>, она теряет ещё (сила <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточки</link></u></color> × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Измождённая гордость",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Итоговая сила +1 за каждые две <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающие рапиры</link></u></color> (До 2-х)</style>\n[WhenUse] Родя получает <style=\"highlight\">5</style> <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слёз</link></u></color> (Дважды за ход)\n[EndBattle] При менее 3-й силы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточки слезами</link></u></color> грешница тратит 15 СД, дабы <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточить меч собственными слезами</link></u></color> (Раз за ход)\n- Если в Роде уже есть <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">Заточенные мечи</link></u></color>, она теряет ещё (сила <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">заточки</link></u></color> × 15) СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Энергетический удар - \"Вот что вы получаете за наши праздничные смены!\"",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Энергетический удар - \"Вот что вы получаете за наши праздничные смены!\"",
+          "desc": "<style=\"highlight\">Сила монет +1, если свой счётчик [Charge] равен 5 и более\n[DefeatDuel] Получает 4 [Sinking] и повышает свой счётчик [Charge] на 3</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge] на 2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge] на 2</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Энергетический удар - \"Вот что вы получаете за наши праздничные смены!\"",
+          "desc": "<style=\"highlight\">Наносит на 12.5% больше урона за каждую единицу силы [Charge] (До 50%)</style>\n<style=\"highlight\">Сила монет +1, если сила своего [Charge] равна 2 и более</style>\nСила монет +1, если счётчик своего [Charge] равен 5 и более\n[DefeatDuel] Получает 4 [Sinking] и повышает свой счётчик [Charge] <style=\"highlight\">на 4</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] <style=\"highlight\">на 3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 к счётчику [Charge]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Концентрация - \"Взрывайся и расцветай рождественскими красками!\"",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking] и повышает счётчик [Sinking] на 1"
+                },
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Концентрация - \"Взрывайся и расцветай рождественскими красками!\"",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 5 единиц счётчика [Charge] (До 2)\n[DefeatDuel] Получает 5 [Sinking] и повышает свой счётчик [Charge] на 2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Sinking] и повышает счётчик [Sinking] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает свой счётчик [Charge] на 3</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При менее чем 8 [Charge] Счёта получайте 5 [Sinking] и +4 [Charge] Счёт (один раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Концентрация - \"Взрывайся и расцветай рождественскими красками!\"",
+          "desc": "<style=\"highlight\">Наносит на 15% больше урона за каждую единицу силы [Charge] (До 60%)</style>\nСила монет +1 за каждые 5 единиц счётчика [Charge] (До 2)\n[DefeatDuel] Получает 5 [Sinking] и повышает свой счётчик [Charge] <style=\"highlight\">на 5</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Нанести 2 [Sinking] и +2 [Sinking] считать<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] <style=\"highlight\">на 6</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При меньшем 8 [Charge] счёта получайте 5 [Sinking] и +4 [Charge] счёт (один раз за ход)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 8+ [Charge] счётчик поглощайте 4 [Charge] счётчик и наносите 1 [HitTakeDamageUp] следующий ход (один раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Хлыст разума - \"Ахаха... Смотрите, все! Мы прямо как фейерверки на это рождество!\"",
+          "desc": "Наносить +5% урона за каждую [Charge] (максимум 20%)\n[WhenUse] На 5~9 [Charge] Счёт:\n- Счёт 5 [Sinking] и +5 [Charge]\n- Этот навык получает следующие характеристики: [CantIdentify], [WideAreaRampage] и вес атаки +1\n- [BeforeUse] На 3+ [Charge] этот навык не получает [CantIdentify] эффекта\n[WhenUse] При 10+ [Charge] счётчик поглотите все [Charge] счётчик, чтобы получить следующие эффекты:\n- сила монеты +1\n- Наносить +6% урона за каждую 1 избыточную [Charge] Счёт потраченного после 10 (максимальный 30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5% от нанесённого урона"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Хлыст разума - \"Ахаха... Смотрите, все! Мы прямо как фейерверки на это рождество!\"",
+          "desc": "Наносить <style=\"highlight\">+10%</style> урона за каждую [Charge] (максимальный <style=\"highlight\">40%</style>)\n[WhenUse] На 5~9 [Charge] Счёт:\n- Счёт 5 [Sinking] и +5 [Charge]\n- Этот навык получает следующие характеристики: [CantIdentify], [WideAreaRampage] и вес атаки +1\n- [BeforeUse] На 3+ [Charge] этот навык не получает [CantIdentify] эффекта\n[WhenUse] При 10+ [Charge] счётчик поглотите все [Charge] счётчик, чтобы получить следующие эффекты:\n- Количество монет +<style=\"highlight\">2</style>\n- Наносить +<style=\"highlight\">12</style>% урона за каждую 1 избыточную [Charge] Количество потраченных после 10 (максимальное <style=\"highlight\">60</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Нанести +3 [Sinking] счётчик<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- Если сила своего [Charge] равна 3 и более, то поднимает границу выносливости цели на 20% от нанесённого урона вместо этого</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 5% от нанесённого урона<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конденсация энергии - \"Хаха! Все искрятся и сверкают!\"",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge] на 3 (Единожды за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Конденсация энергии - \"Хаха! Все искрятся и сверкают!\"",
+          "desc": "<style=\"highlight\">[WhenUse] Базовая сила +2, если свой счётчик [Charge] равен 5 и более</style>\n[WhenUse] Повышает свой счётчик [Charge] на 3 (До 2 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовое перекрашивание",
+          "desc": "Наносит на 20% больше урона целям, имеющим [IntenseColorsRodion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Неистовое перекрашивание",
+          "desc": "Наносит на 20% больше урона целям, имеющим [IntenseColorsRodion]\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Неистовое перекрашивание",
+          "desc": "<style=\"highlight\">Наносит на 5% больше урона за каждый тип негативных эффектов на цели (До 15%)</style>\nНаносит на 20% больше урона целям, имеющим [IntenseColorsRodion]\n[WhenUse] <style=\"highlight\">Сила в столкновении +1 и</style> Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Если цель имеет 4 и более типа негативных эффектов, вновь подкидывает эту монету 1 раз</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 к счётчику [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести 1 [BearClawWoundAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выражение основных цветов",
+          "desc": "Наносит на 20% больше урона целям, имеющим [IntenseColorsRodion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [EagleClawWoundAlly](;EagleClawWound)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 6 и более типов негативных эффектов, наносит ей 1 [BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Выражение основных цветов",
+          "desc": "Наносит на 20% больше урона целям, имеющим [IntenseColorsRodion]\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [EagleClawWoundAlly](;EagleClawWound)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 6 и более типов негативных эффектов, наносит ей 1 [BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выражение основных цветов",
+          "desc": "<style=\"highlight\">Наносит на 20% больше урона за каждый тип негативных эффектов на цели (До 60%)</style>\nНаносит на 20% больше урона целям, имеющим [IntenseColorsRodion]\n<style=\"highlight\">Наносит на 20% больше урона целям, имеющимх 2 и более типа негативных эффектов</style>\n[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 2)\n<style=\"highlight\">[WhenUse] Сила монет +2 за каждые 2 типа негативных эффектов на цели (До 3)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести 3 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет <style=\"highlight\">5</style> и более типов негативных эффектов, наносит ей 1 [BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Фовизм - Жестокое высвобождение",
+          "desc": "Наносит на 20% больше урона целям, имеющим [IntenseColorsRodion]\n[BeforeUse] Если цель имеет 6 и более типов негативных эффектов, использует альтернативный третий навык 「Вспыхни пульсирующим багрянцем под своей кожей」 вместо этого (Единожды за ход)\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [EagleClawWoundAlly](;EagleClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фовизм - Жестокое высвобождение",
+          "desc": "<style=\"highlight\">Наносит на 20% больше урона за каждый тип негативных эффектов на цели (До 60%)</style>\nНаносит на 20% больше урона целям, имеющим [IntenseColorsRodion]\n[BeforeUse] Если цель имеет 6 и более типов негативных эффектов, использует альтернативный третий навык 「Вспыхни пульсирующим багрянцем под своей кожей」 вместо этого (Единожды за ход)\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [EagleClawWoundAlly](;EagleClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель имеет 5 и более типов негативных эффектов, наносит ей 1 [BoldBrushstrokesRodion] на следующий ход</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести 1 [BoldBrushstrokesRodion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обрезка середины",
+          "desc": "[DuelCounter]\nНаносит на 20% больше урона целям, имеющим [IntenseColorsRodion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [EagleClawWoundAlly](;EagleClawWound)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Обрезка середины",
+          "desc": "[DuelCounter]\nНаносит на 20% больше урона целям, имеющим [IntenseColorsRodion]\n<style=\"highlight\">[BeforeUse] Если нет [TestWaitDocentRodion], а цель имеет 3 и более типа негативных эффектов, то использует альтернативный защитный навык 「Критика」 вместо этого\n[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                },
+                {
+                  "desc": "<style=\"highlight\"> — Если у цели нет [BearClawWoundAlly], нанесите 1 дополнительные [BearClawWoundAlly]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести 1 [EagleClawWoundAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\"> — Если у цели нет [EagleClawWoundAlly], нанесите 1 дополнительные [EagleClawWoundAlly]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091505,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Вспыхни пульсирующим багрянцем под своей кожей",
+          "desc": "[WideAreaRampage]\nНаносит на 40% больше урона целям, имеющим [IntenseColorsRodion]\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на главной цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [EagleClawWoundAlly](;EagleClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета попадает по всем целям навыка независимо от эффекта Нефокусированного залпа"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вспыхни пульсирующим багрянцем под своей кожей",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Наносит на 15% больше урона за каждый тип негативных эффектов на цели (До 90%)</style>\nНаносит на 40% больше урона целям, имеющим [IntenseColorsRodion]\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на главной цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [EagleClawWoundAlly](;EagleClawWound)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета попадает по всем целям навыка независимо от эффекта Нефокусированного залпа"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BoldBrushstrokesRodion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091506,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Критика",
+          "desc": "[DuelCounter]\nНаносит на 8% больше урона за каждый тип негативных эффектов на цели (До 40%)\nНаносит на 30% больше урона целям, имеющим [IntenseColorsRodion]\n[WhenUse] Если цель имеет [IntenseColorsRodion], получает 2 [ParryingResultUp]\n[WhenUse] Итоговая сила +3 против целей с 4 и более единицами в сумме силы [Laceration] и [Sinking]\n[EndSkillAll] Получает 2 [TestWaitDocentRodion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету за каждые 3 типа негативных эффектов на цели (До 2 раз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] (Единожды за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking] (Единожды за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Случайным образом наносит 1 [BearClawWoundAlly](;BearClawWound) или 1 [EagleClawWoundAlly](;EagleClawWound)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [BoldBrushstrokesRodion], если эта монета подкидывается в третий раз"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Критика",
+          "desc": "[DuelCounter]\nНаносит на <style=\"highlight\">10%</style> больше урона за каждый тип негативных эффектов на цели (До 40%)\nНаносит на 30% больше урона целям, имеющим [IntenseColorsRodion]\n[WhenUse] Если цель имеет [IntenseColorsRodion], получает 2 [ParryingResultUp]\n[WhenUse] Итоговая сила +3 против целей с 4 и более единицами в сумме силы [Laceration] и [Sinking]\n<style=\"highlight\">[WhenUse] Сила в столкновении +2 за каждые 2 типа негативных эффектов на цели (До 6)</style>\n[EndSkillAll] Получает 2 [TestWaitDocentRodion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Вновь подкидывает эту монету за каждые 3 типа негативных эффектов на цели (До 2 раз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] (Единожды за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking] (Единожды за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Случайным образом наносит 1 [BearClawWoundAlly](;BearClawWound) или 1 [EagleClawWoundAlly](;EagleClawWound)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [BoldBrushstrokesRodion], если эта монета подкидывается в третий раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Режущий удар",
+          "desc": "[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion] и наносит на (Потерянное значение × 5)% больше урона (До 10%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Режущий удар",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 при 6 и более [Breath]</style>\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion] и наносит на (Потерянное значение × 5)% больше урона (До 10%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Режущий удар",
+          "desc": "[WhenUse] Итоговая сила +1 при 6 и более [Breath]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Vibration] на цели (До 2)</style>\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion] и наносит на (Потерянное значение × 5)% больше урона (До 10%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я с радостью проделаю в тебе дыру",
+          "desc": " Если [AccelBullet] кончились, то заменяется на альтернативный второй навык 「Разделка оленя」\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration] и повышает счётчик [Vibration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Я с радостью проделаю в тебе дыру",
+          "desc": " Если [AccelBullet] кончились, то заменяется на альтернативный второй навык 「Разделка оленя」\n<style=\"highlight\">[WhenUse] Итоговая сила +1 при 6 и более [Breath]</style>\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration] и повышает счётчик [Vibration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я с радостью проделаю в тебе дыру",
+          "desc": " Если [AccelBullet] кончились, то заменяется на альтернативный второй навык 「Разделка оленя」\n[WhenUse] Итоговая сила +1 при 6 и более [Breath]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Vibration] на цели (До 2)</style>\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) [FutureEyeOnRodion] и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration] и повышает счётчик [Vibration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделка слона",
+          "desc": "[WhenUse] Итоговая сила +1 при 6 и более [Breath]\n[BeforeAttack] Теряет 10 [FutureEyeOnRodion] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разделка слона",
+          "desc": "[WhenUse] Итоговая сила +1 при 6 и более [Breath]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Vibration] на цели (До 2)</style>\n[BeforeAttack] Теряет 10 [FutureEyeOnRodion] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] активирует [VibrationExplosion]; затем уменьшите [Vibration] целевой счёт на 1\n<style=\"highlight\"> — Активируйте вышеуказанный эффект ещё раз за каждую потраченную [AccelBullet] этим навыком (максимум 2 раз)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Съеби!",
+          "desc": "[DuelCounter]\n[WhenUse] Потерять 3 [FutureEyeOnRodion] на себе\n[EndBattle] Если у этого устройства меньше 5 [AccelBullet], перезарядьте [TabExplain] [AccelBullet] до 5 (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Съеби!",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[WhenUse] итоговая сила +1 за каждую 4 ([Combustion] + [Vibration]) по цели (максимальный 2)</style>\n[WhenUse] Потерять <style=\"highlight\">4</style> [FutureEyeOnRodion] на себе\n[EndBattle] Если у этого устройства меньше 5 [AccelBullet], перезарядьте [TabExplain] [AccelBullet] до 5 (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделка кролика",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\nВнешние эффекты не могут вызвать повторное использование этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Разделка кролика",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\nВнешние эффекты не могут вызвать повторное использование этого навыка\n<style=\"highlight\">[WhenUse] Итоговая сила +1 при 6 и более [Breath]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разделка кролика",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\nВнешние эффекты не могут вызвать повторное использование этого навыка\n[WhenUse] Итоговая сила +1 при 6 и более [Breath]\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделка оленя",
+          "desc": "[WhenUse] Если [FutureEyeOnRodion] в состоянии [FutureEyeOffRodion], то все монеты этого навыка становятся [SuperCoin]\n[WhenUse] Повышает свой счётчик [Breath] на 4\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) Глаза предвидения и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Разделка оленя",
+          "desc": "[WhenUse] Если [FutureEyeOnRodion] в состоянии [FutureEyeOffRodion], то все монеты этого навыка становятся [SuperCoin]<style=\"highlight\">, а его Итоговая сила повышается на 2</style>\n[WhenUse] Повышает свой счётчик [Breath] на 4\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) Глаза предвидения и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разделка оленя",
+          "desc": "[WhenUse] Если [FutureEyeOnRodion] в состоянии [FutureEyeOffRodion], то все монеты этого навыка становятся [SuperCoin], а его Итоговая сила повышается на 2\n[WhenUse] Повышает свой счётчик [Breath] на 4\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Vibration] на цели (До 2)</style>\n[WinDuel] Теряет (Количество оставшихся после столкновения монет) Глаза предвидения и наносит на (Потерянное значение × 5)% больше урона (До 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на цели 10 и более [Vibration], то ещё раз [VibrationExplosion] и понижает счётчик [Vibration] на 1</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Утилизация",
+          "desc": "Если ОЗ цели ниже 50%, то наносит ей на 50% больше урона\nСила монет +1, если атакует [TeachersPreyRodion]\n[WhenUse] Сила монет +1, если есть хотя бы 1 [AccelBullet]\n[EnemyKill] Если убитым противником была [TeachersPreyRodion], то этот же навык добавляется в список предстоящих навыков в следующем ходе (Не активируется при убийстве [TeachersPreyRodion] таким добавленным навыком)\n[EnemyKill] [FullReload] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит до 5 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] активирует [VibrationExplosion]; затем уменьшите [Vibration] целевой счёт на 1\n- Активировать вышеуказанный эффект ещё раз за каждые потраченное [AccelBullet] (максимум 2 раз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Утилизация",
+          "desc": "Если ОЗ цели ниже 50%, то наносит ей на 50% больше урона\nСила монет +1, если атакует [TeachersPreyRodion]\n[WhenUse] Сила монет +1, если есть хотя бы 1 [AccelBullet]\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 5)</style>\n[EnemyKill] Если убитым противником была [TeachersPreyRodion], то этот же навык добавляется в список предстоящих навыков в следующем ходе (Не активируется при убийстве [TeachersPreyRodion] таким добавленным навыком)\n[EnemyKill] [FullReload] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит до 5 [AccelBullet] и наносит на 10% больше урона за каждый потраченный [AccelBullet] (До 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] активирует [VibrationExplosion]; затем уменьшите [Vibration] целевой счёт на 1\n- Активировать вышеуказанный эффект ещё раз за каждые потраченное [AccelBullet] (максимум <style=\"highlight\">3</style> раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предвидение",
+          "desc": "После успешного уклонения от всех монет на навыке используйте «Разделка кролика» как беспрепятственную атаку против атакующего (один раз за ход)\nСила монет +1 за каждую 2 [FutureEyeOnRodion] Накапливается на себя (максимум 4)\nБазовая сила +1 за каждые 2 избыток [FutureEyeOnRodion] Стеков на себе после 10 Стеков (максимум 4)\n[WhenUse] Прирост +3 [Breath] Счёт (один раз за ход)\n[OnSucceedEvade] Усиление 2 [Breath] (2 раз за ход)\n[EndSkillAll] Потерять 2 [FutureEyeOnRodion] на себе",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Предвидение",
+          "desc": "После успешного уклонения от всех монет на навыке используйте «Разделка кролика» как беспрепятственную атаку против атакующего (один раз за ход)\nСила монет +1 за каждую 2 [FutureEyeOnRodion] Накапливается на себя (максимум 4)\nБазовая сила +1 за каждые 2 избыток [FutureEyeOnRodion] Стеков на себе после 10 Стеков (максимум 4)\n[WhenUse] Прирост +3 [Breath] Счёт (один раз за ход)\n[OnSucceedEvade] Усиление 2 [Breath] (2 раз за ход)\n<style=\"highlight\">[OnSucceedEvade] Лечить 3 СД (2 раза за ход)</style>\n[EndSkillAll] Потерять 2 [FutureEyeOnRodion] на себе",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "dataList": [
+    {
+      "id": 130501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запуск протеза",
+          "desc": "[WhenUse] При 10+ к счётчику [Charge] расходует 3 к счётчику [Charge], чтобы получить +1 к Силе монет\n[WhenUse] При 15+ к счётчику [Charge] дополнительно расходует 3 к счётчику [Charge], чтобы нанести на 20% больше урона\n[WhenUse] При счётчике [Charge] ниже 5 теряет 10% ОЗ и получает 9 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратное течение крови",
+          "desc": "[WhenUse] При 10+ к счётчику [Charge] расходует 3 к счётчику [Charge], чтобы получить +1 к Силе монет\n[WhenUse] При 15+ к счётчику [Charge] дополнительно расходует 3 к счётчику [Charge], чтобы нанести на 20% больше урона\n[WhenUse] При счётчике [Charge] ниже 5 теряет 10% ОЗ и получает 9 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заряд переменной энергии",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 единицы своего счётчика [Laceration] (До 2)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перемещение крови",
+          "desc": "[WhenUse] При 10+ к счётчику [Charge] расходует 3 к счётчику [Charge], чтобы получить +1 к Силе монет\n[WhenUse] При 15+ к счётчику [Charge] дополнительно расходует 3 к счётчику [Charge], чтобы нанести на 20% больше урона\n[WhenUse] При счётчике [Charge] ниже 5 теряет 10% ОЗ и получает 9 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перезарядка переменной энергии существа",
+          "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [AttackDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Принц парада",
+          "desc": "[StartBattle] Количество целей повышается на число противников с [Laceration] (До 5 дополнительных целей)\n[WhenUse] Базовая сила +1 против целей с 4 и более [Laceration]\n[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика [Laceration]\n[DefeatDuel] Теряет 1 [KeptBlood]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [KeptBlood]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я же... принц... сего шествия!..",
+          "desc": "[CantDuel]\n[WhenUse] получает 4 [Paralysis]\n[WhenUse] Двойной эффект исцеления Хардблада [TabExplain] Глефа\n[WhenUse] Сбросить СД на 0\n[EndSkill] получает [KeptBlood] 10\nВ этом ходу не получает оглушения; заканчивает ход после использования этого навыка.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я не вернусь... во веки веков!..",
+          "desc": "[WhenUse] сила в столкновении +1 за каждый 5 [Laceration] по основной цели (максимум 3)\n[WhenUse] На 4+ [Laceration] Рассчитывайте на основную цель — сила монеты +1\n[WhenUse] Наносить +5% урона за каждую [Laceration] Счёт основной цели (максимальный 20%)\n[WinDuel] Двойной эффект исцеления Хардблада [TabExplain] Глефа\n[DefeatDuel] Эффект лечения Твёрдой Крови[TabExplain] глефы не активируется\n[DefeatDuel] Нанести -80% урон и урон этого навыка не может оглушить цель\n[EndSkill] получает [KeptBlood] 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

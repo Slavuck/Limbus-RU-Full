@@ -1,0 +1,141 @@
+{
+  "dataList": [
+    {
+      "id": 811301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Будьте радостны",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Будьте спокойны",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает +3 к счётчику [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath] и повышает его счётчик на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] получает [Breath] равен [Breath] на себя"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вот подарок!",
+          "desc": "Если быстрее цели и на ней при этом есть [Binding], то Сила в столкновении повышается на разницу в скорости",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Цель теряет 5 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath] и повышает счётчик [Breath] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возьмёмся за упаковку",
+          "desc": "Если есть [AaCeSeBa], то наносит 1 [Paralysis] на следующий ход каждой монетой этого навыка\nНацеливается на противника с наименьшей скоростью\n[EndBattle] Теряет весь счётчик [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве силы своего [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath] и повышает счётчик [Breath] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Случайно накладывает 3 [Protection], [Enhancement], [Vulnerable] или [Paralysis] на цель"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон по СД, равный счётчику своего [Charge]"
+                },
+                {
+                  "desc": "[EnemyKill] Все противники теряют 10 СД"
+                },
+                {
+                  "desc": "[EnemyKillFail] Получает 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 811305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время упаковываться",
+          "desc": " Если щит истощён, оглушается в следующем ходе\n Если щит остался цел, получает 2 [Enhancement] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    }
+  ]
+}

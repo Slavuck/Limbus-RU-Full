@@ -1,0 +1,22 @@
+{
+  "dataList": [
+    {
+      "id": 1061,
+      "panicName": "Добрая душа",
+      "lowMoraleDescription": "- +(<sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color> на цели ÷ 2)% к наносимому урону (До 15%).\nВ начале хода получает 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> и 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>.",
+      "panicDescription": "- +(<sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color> на цели)% к наносимому урону (До 30%).\n- В начале хода получает ц <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>."
+    },
+    {
+      "id": 1062,
+      "panicName": "Кровный зов",
+      "lowMoraleDescription": "В конце хода теряет 3% здоровья и дарует всем союзникам (включая себя) 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход.",
+      "panicDescription": "В конце хода теряет 5% здоровья и дарует всем союзникам (включая себя) 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход."
+    },
+    {
+      "id": 1064,
+      "panicName": "Коллективный разум",
+      "lowMoraleDescription": "Все сопротивления становятся <b>Нейтральными</b>.",
+      "panicDescription": "Все сопротивления становятся <b>Нейтральными</b>.\nУдваивает получаемые единицы потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, получаемых эффектами навыков."
+    }
+  ]
+}
