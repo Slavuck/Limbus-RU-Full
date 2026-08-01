@@ -1,0 +1,432 @@
+{
+  "dataList": [
+    {
+      "id": 838101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Идти с грацией...",
+          "desc": "Нацеливается в первую очередь на союзника без оглушения и не наносит ему урона\nСила в столкновении +1 за каждые 3 [Laceration] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]\nЕсли целью является союзник, даёт ему 3 [AttackUp] вместо этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двигаться с красотой...",
+          "desc": "Нацеливается в первую очередь на союзника без оглушения и не наносит ему урона\nСила в столкновении +1 за каждые 3 [Laceration] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3\nЕсли целью является союзник, даёт ему 3 [DefenseUp] вместо этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поманить публику сюда...",
+          "desc": "[WhenUse] итоговая сила +1 для каждого 5 [FestivalFever] на себе или на каждый 6 [Laceration] на цели (максимум 4)\n[WhenUse] При менее чем 15 [BloodDinner] набрать 15 [Laceration] и сразу активировать его один раз, затем уменьшить [Laceration] счётчик на 1 (при менее чем 10% ОЗ, активировать только ту часть эффекта, где единица получает [Laceration] сила и счётчик)\n[EndSkill] Потреблять 15 [BloodDinner]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackUp] и 1 [DefenseUp] за каждые 6 [Laceration] на цели (До 3 каждого)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Laceration] на 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [BloomingThorns]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Парад чудес",
+          "desc": "[CantIdentify]\nПриоритет — врагов для основной цели, а союзников — для подцелей. Если цель — союзник, +10 сила в столкновении и всегда исправляйте урон 0.\n[WhenUse] сила в столкновении +1 за каждую 20 [BloodDinner_Accumulation] этой единицы (максимум 10)\n[WhenUse] При менее чем 25 [BloodDinner] набрать 25 [Laceration], сразу активировать один раз, затем потерять 1 [Laceration] счётчик (менее 10% ОЗ, активируйте только ту часть эффекта, где единица получает [Laceration] сила и счётчик)\n[EndSkill] Потреблять 25 [BloodDinner]\n[EndBattle] Потреблять всё [FestivalFever]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложите 1 [AttackUp] и [DefenseUp] до следующего хода в зависимости от [FestivalFever] (1 на 3 [FestivalFever], максимум 3 каждого)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3\nЕсли целью является союзник, даёт ему 5 [BloomingThorns] вместо этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вечный парад",
+          "desc": "[WhenUse] сила в столкновении +1 за каждую 20 [BloodDinner_Accumulation] этой единицы (максимум 10)\n[WhenUse] При менее чем 50 [BloodDinner] усиление 25 [Laceration], +2 [Laceration] Счёт немедленно активируется дважды, затем уменьшаем [Laceration] Счёт на 2 (при менее чем 10% ОЗ, активируйте только ту часть эффекта, где единица приобретает [Laceration] Силу и Счёт)\n[WhenUse] Потреблять половину [BloodDinner]\n[EndBattle] Потреблять всё [IncompleteParade]\n[EndBattle] получает 10 [FestivalFever]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 25% от нанесённого урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 50% от нанесённого урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration] и 5 [Burst]"
+                },
+                {
+                  "desc": "[EndCoin] Получает 1 [BloomingThorns] за каждые 10 [BloodDinner], поглощённого при использовании (До 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "И это всё, что нужно...",
+          "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +3 при 5 и более [FestivalFever]\n[StartBattle] Получает 5 [BloomingThorns]\n[DefeatDuel] Теряет 5 [BloomingThorns]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Финал",
+          "desc": "[WhenUse] Поглощает половину всего [BloodDinner]\n[WinDuel] Наносит на (Поглощённое атакой [BloodDinner])% больше урона (До 150%)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить целей\n[EndSkill] СД падает до -45",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 6 [Burst]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик [Burst] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[EndCoin] Получает 1 [BloomingThorns] за каждые 10 [BloodDinner], поглощённого при использовании (До 10)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Весенний дракон",
+          "desc": "[WhenUse] Получает 2 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Осенний лотос",
+          "desc": "[WhenUse] Получает 2 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слабый след",
+          "desc": "[WhenUse] Получает 3 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [SlashTakeDamageUp]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бледный след",
+          "desc": "Если своя скорость выше скорости цели на 5 или более, Сила в столкновении +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 100 дополнительного урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Красная стрела",
+          "desc": "[WhenUse] Получает 2 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 50 дополнительного урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 50 дополнительного урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чёрная стрела",
+          "desc": "[WhenUse] Получает 2 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MentalCrack]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [MentalCrack]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Водное зеркало",
+          "desc": "[CanDuelGuard]\n[WhenUse] Получает 3 [Protection]\n[WinDuel] Наносит урон по ОЗ, равный Итоговой силе этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Активация рельсотронного-ускорителя электронов",
+          "desc": "[StartBattle] Получает 10 [Enhancement] и 10 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 838909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стрела",
+          "desc": "[WhenUse] Получает 5 [PenetrateDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

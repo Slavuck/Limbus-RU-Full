@@ -1,0 +1,1038 @@
+{
+  "dataList": [
+    {
+      "id": 2050511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[BeforeAttack] Снимает с себя 1 случайный снимаемый негативный эффект",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2;\nДополнительно повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (Абсолют Гнева /3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[BeforeAttack] Снимает с себя 1 случайный снимаемый негативный эффект",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; Дополнительно повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (Абсолют Гнева /3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nЕсли после провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цель не имеет границ выносливости,\nНаносит (6 + 2x(Абсолют Гнева.))% последней поднятой черты оглушения уроном Гнева"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[BeforeAttack] Снимает с себя 2 случайных снимаемых негативных эффекта",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; Дополнительно повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на (Абсолют Гнева /3)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nЕсли после провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цель не имеет границ выносливости,\nНаносит (12 + 3x(Абсолют Гнева.))% последней поднятой черты оглушения уроном Гнева"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Если на грешнике есть негативные эффекты, количество целей +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>.\nПри провокации тремора дополнительно повышает черты оглушения на 30% <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели.\nПонижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
+                },
+                {
+                  "desc": "[EndSkill] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> и 1 Повышение силы дробящей атаки на следующий ход."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Если на грешнике есть негативные эффекты, количество целей +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации тремора дополнительно повышает черты оглушения на 40% <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели.\nЕсли после провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цель не имеет границ выносливости,\nНаносит (6 + 2x(Абсолют Гнева.))% последней поднятой черты оглушения уроном Гнева\nПонижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
+                },
+                {
+                  "desc": "[EndSkill] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> и 1 Повышение силы дробящей атаки на следующий ход."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сожаление",
+          "abName": "Брошенный убийца",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Если на грешнике есть негативные эффекты, количество целей +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации тремора дополнительно повышает черты оглушения на 50% <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на цели.\nЕсли после провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цель не имеет границ выносливости,\nНаносит (12 + 3x(Абсолют Гнева.))% последней поднятой черты оглушения уроном Гнева\nПонижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
+                },
+                {
+                  "desc": "[EndSkill] Получает 3 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> и 1 Повышение силы дробящей атаки на следующий ход."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8\n[EndSkill] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> союзника с наименьшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (кроме себя) на 8\n- Повышает число целей, получающих эффект, на (верхняя граница в резонансе Зависти - 2) (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8\n[EndSkill] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> союзника с наименьшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (кроме себя) на 8\n- Повышает число целей, получающих эффект, на (верхняя граница в резонансе Зависти - 2) (До 4)\n- При резонансе Зависти, равном 4 и более, даёт целям-союзникам 1 [VioletDamageUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 12\n[EndSkill] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> союзника с наименьшим счётчиком <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (кроме себя) на 8\n- Повышает число целей, получающих эффект, на (верхняя граница в резонансе Зависти - 2) (До <style=\"highlight\">5</style>)\n- При резонансе Зависти, равном 4 и более, даёт целям-союзникам 1 [VioletDamageUp]\n<style=\"highlight\">- При резонансе Зависти, равном 6 и более, даёт себе и целям-союзникам 1 дополнительное [VioletDamageUp]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До 2)\n[BeforeAttack] При 10 и более единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит до 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +2% к урону за единицу потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 40%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] При 10 и более единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит до 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +<style=\"highlight\">2,5</style>% к урону за единицу потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">50</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Электрическое блеяние",
+          "abName": "Снящаяся электроовца",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс Зависти - 2) (До 3)\n<style=\"highlight\">[BeforeAttack] При 10 и более единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 8\n[EndSkill] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, удваивает эффекты, наносимые монетами.</style>\n[BeforeAttack] При 10 и более единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит до 20 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +<style=\"highlight\">3</style>% к урону за единицу потраченного <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">60</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Разово активирует [Laceration] на цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели понижается на 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели <style=\"highlight\">1 + (число грехов в наибольшем резонансе ÷ 2) раз. (До 3-х раз. Каждая активация понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2)</style>\n[EndSkill] В конце последующих 3-х ходов теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели понижается на 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 4 и более грехов в наибольшем резонансе разово активирует [Laceration] на цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели понижается на 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели <style=\"highlight\">1 + (число грехов в наибольшем резонансе ÷ 2) раз. (До 3-х раз. Каждая активация понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1-го)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse] Тратит 10% от максимальных ОЗ для нанесения (потраченные ОЗ ÷ 2) урона всем врагам и союзникам\n- При менее 50% ОЗ Мерсо наносит на всех союзников 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и разово активирует его (Понижая счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> союзников на 1). Урон, нанесённый союзникам, восполняет ОЗ Мерсо",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 1"
+                },
+                {
+                  "desc": "- При атаке цели без <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color>, наносит 4 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа роз</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Разово активирует [Laceration] на цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели понижается на 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Сила монет +1 при 6 и более в сумме <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> у Мерсо и его цели</style>\n[WhenUse] Тратит 10% от максимальных ОЗ для нанесения (потраченные ОЗ ÷ 2) урона всем врагам и союзникам\n- При менее 50% ОЗ Мерсо наносит на всех союзников 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и разово активирует его (Понижая счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> союзников на 1). Урон, нанесённый союзникам, восполняет ОЗ Мерсо",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> себе и цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- При атаке цели без <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color>, наносит 4 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа роз</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели <style=\"highlight\">1 + (число грехов в наибольшем резонансе ÷ 2) раз. (До 3-х раз. Каждая активация понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Влечение: Миркалла",
+          "abName": "Роза четырёхсот бутонов",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели <style=\"highlight\">(До 3)</style>\n[WhenUse] Тратит 10% от максимальных ОЗ для нанесения (потраченные ОЗ ÷ 2) урона всем врагам и союзникам\n- При менее 50% ОЗ Мерсо наносит на всех союзников 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и разово активирует его (Понижая счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> союзников на 1). Урон, нанесённый союзникам, восполняет ОЗ Мерсо",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> себе и цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Разово активирует [Laceration] на себе и цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> Мерсо и цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> себе и цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Разово активирует [Laceration] на себе и цели (Счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> Мерсо и цели понижается на 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color> на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "- При атаке цели без <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипов роз</link></u></color></u></color>, наносит 4 <sprite name=\"RoseWedge\"><color=#e30000><u><link=\"RoseWedge\">Шипа роз</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Активирует [Laceration] на цели 1 + (число грехов в наибольшем резонансе ÷ 2) раз. (До 3-х раз. Каждая активация понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EnemyKill] При превышении ОЗ цели, дополнительный урон фиксированно разделяется между всеми противниками. (От 1-го)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[EndSkill] В течение последующих 3-х ходов Мерсо теряет по 10 СД\n[EndSkill] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, Мерсо восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на половину резонанса Лености (До 3-х)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">наложение амплитуд</link></u></color> текущего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели (До 50%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки +1 при ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на цели равны 30-и и более</style>\n[EndSkill] В течение последующих 3-х ходов Мерсо теряет по 10 СД\n[EndSkill] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, Мерсо восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на половину резонанса Лености (До 3-х)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">наложение амплитуд</link></u></color> текущего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели (До 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на основной цели (До 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на цели равны 30-и и более\n<style=\"highlight\">- Если сумма равна 100-м и более, взамен тяжесть атаки +3</style>\n<style=\"highlight\">[BeforeAttack] Наносит по 1 единице <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> всем целям за каждые 2 греха в наибольшем резонансе</style>\n[EndSkill] В течение последующих 3-х ходов Мерсо теряет по 10 СД\n<style=\"highlight\">[EndSkill] Мерсо восстанавливает ([AccumulatedPastSinner] × 2)% здоровья</style>\n[EndSkill] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, Мерсо восстанавливает 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на половину резонанса Лености (До 3-х)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">наложение амплитуд</link></u></color> текущего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели (До 50%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на основной цели (До 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При достижении более +50% к наносимому данной монетой урону <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[CantIdentify]\nСлучайные цели\n+10% к наносимому урону за каждый грех в наибольшем резонансе (До 100%)\n- Если грех резонанса — <b>Леность</b>, взамен +20% к наносимому урону (До 100%)\n[BeforeAttack] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, +12% к наносимому урону",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на резонанс Лености (До 6-и)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">наложение амплитуд</link></u></color> текущего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[CantIdentify]\nСлучайные цели\n+10% к наносимому урону за каждый грех в наибольшем резонансе (До 100%)\n- Если грех резонанса — <b>Леность</b>, взамен +20% к наносимому урону (До 100%)\n<style=\"highlight\">[BeforeAttack] Тяжесть атаки +2 при ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на цели равны 30-и и более</style>\n[BeforeAttack] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, +12% к наносимому урону",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] +1% к урону данной монеты за каждую единицу ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на основной цели (До 100%)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на резонанс Лености (До 6-и)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">наложение амплитуд</link></u></color> текущего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Прошлое, что обратится в прах",
+          "abName": "Паровая транспортировочная машина",
+          "desc": "[CantIdentify]\nСлучайные цели\n+10% к наносимому урону за каждый грех в наибольшем резонансе (До 100%)\n- Если грех резонанса — <b>Леность</b>, взамен +20% к наносимому урону (До 100%)\n[BeforeAttack] Тяжесть атаки +2 при ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на цели равны 30-и и более\n[BeforeAttack] Если в чётный ход резонанс Лености состоит из чётного числа грехов, или в нечётный ход — нечётного, +12% к наносимому урону\n<style=\"highlight\">[EndSkill] Мерсо восстанавливает ([AccumulatedPastSinner] × 3)% здоровья</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] <style=\"highlight\">+2%</style> к урону данной монеты за каждую единицу ([Vibration] + счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>) на основной цели (До 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и повышает его счётчик на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на резонанс Лености (До 6-и)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит <sprite name=\"FusionVibration\"><color=#9f6a3a><u><link=\"FusionVibration\">наложение амплитуд</link></u></color> текущего <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При достижении более +100% к наносимому данной монетой урону дважды <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 2<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Окутанный тенью опеватель меча【着影揮刀】",
+          "abName": "Гусундае",
+          "desc": "При первом использовании в Встрече потребляйте 15 меньше СД\n- Если наставник по линии клинка Мерсо использовал этот навык, он также потребляет 1 меньше ресурсов Гнева, Гордости и Зависти ЭГО.\n\nсила в столкновении +1 и наносит +6% урона за каждый 4 [Breath] по себе (максимальный 4, максимум 12% соответственно).\n\nЕсли этот юнит набрал [AlcoholKimPersonal] во время этой встречи, нанеси +60% урона основной цели\n- Наставник Родословная клинка Мёрсо наносит +120% урона основной цели\n\n[BeforeAttack] Прирост +(максимальный резон / 2) Вес атаки (максимальный 2, округлен вниз)\n[BeforeAttack] (3 + самый высокий Ресон) союзники с самыми ранними приказами о развертывании получают +4 [Breath] счётчик\n[EndSkill] 4 других союзных идентичностей родословной клинка, у которых наименьшее СД лечения 10 СД\n[EndSkill] получает 4 [AlcoholKimPersonal] следующем ходу",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Окутанный тенью опеватель меча【着影揮刀】",
+          "abName": "Гусундае",
+          "desc": "При первом использовании в Встрече потребляйте 15 меньше СД\n- Если наставник по линии клинка Мерсо использовал этот навык, он также потребляет 1 меньше ресурсов Гнева, Гордости и Зависти ЭГО.\n\nСтолкновение силы +1 и наносит +6% урона за каждую 4 [Breath] по себе (максимальный <style=\"highlight\">6</style>, максимум <style=\"highlight\">24</style>% соответственно)\n\nЕсли эта единица получила [AlcoholKimPersonal] во время этой встречи, нанесите +<style=\"highlight\">80</style>% урона основной цели\n- Наставник по линии клинка Мёрсо наносит +<style=\"highlight\">160</style>% урона основной цели\n\n[BeforeAttack] Прирост +(максимальный резон / 2) Вес атаки (максимальный 2, округлен вниз)\n[BeforeAttack] (3 + самый высокий Ресон) союзники с самыми ранними приказами о развертывании получают +4 [Breath] счётчик\n[EndSkill] 4 других союзных идентичностей родословной клинка, у которых наименьшее СД лечения 10 СД\n[EndSkill] получает 4 [AlcoholKimPersonal] следующем ходу",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Окутанный тенью опеватель меча【着影揮刀】",
+          "abName": "Кысындэ",
+          "desc": "При первом использовании в Встрече потребляйте 15 меньше СД\n- Если наставник по линии клинка Мерсо использовал этот навык, он также потребляет 1 меньше ресурсов Гнева, Гордости и Зависти ЭГО.\n\nСтолкновение силы +1 и наносит +6% урона за каждую 4 [Breath] по себе (максимальный <style=\"highlight\">8</style>, максимум <style=\"highlight\">30</style>% соответственно)\n\nЕсли эта единица получила [AlcoholKimPersonal] во время этой встречи, нанесите +<style=\"highlight\">100</style>% урона основной цели\n- Наставник по линии клинка Мёрсо наносит +<style=\"highlight\">200</style>% урона основной цели\n\n[BeforeAttack] Прирост +(максимальный резон / 2) Вес атаки (максимальный 2, округлен вниз)\n[BeforeAttack] (3 + самый высокий Ресон) союзники с самыми ранними приказами о развертывании получают +4 [Breath] счётчик\n[EndSkill] 4 других союзных идентичностей родословной клинка, у которых наименьшее СД лечения 10 СД\n[EndSkill] получает 4 [AlcoholKimPersonal] следующем ходу",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2050921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Окутанный тенью опеватель меча【着影揮刀】",
+          "abName": "Кысындэ",
+          "desc": "[CantIdentify]\nЦели случайным образом\n\nсила в столкновении +2 и наносит +6% урона за каждый 4 [Breath] по себе (максимальный 8, максимум 12% соответственно).\n\nЕсли этот юнит набрал [AlcoholKimPersonal] во время этой встречи, нанеси +60% урона основной цели\n- Наставник по линии клинка Мёрсо наносит +120% урон главной цели\n\n[BeforeAttack] -2 базовой силы для каждой Треснувшие монеты (максимум -8)\n[BeforeAttack] Все враги и союзники получают +4 [Breath] счётчик, 1 [SlashDamageUp] и 1 [SlashTakeDamageUp]\n\n[EndSkill] 4 других союзных идентичностей родословной клинка, у которых наименьшее СД лечения 10 СД\n[EndSkill] получает 4 [AlcoholKimPersonal] следующем ходу",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Окутанный тенью опеватель меча【着影揮刀】",
+          "abName": "Кысындэ",
+          "desc": "[CantIdentify]\nЦели случайным образом\n\nСтолкновение силы +2 и наносит +6% урона за каждую 4 [Breath] по себе (максимальный <style=\"highlight\">12</style>, максимум <style=\"highlight\">24</style>% соответственно)\n\nЕсли эта единица получила [AlcoholKimPersonal] во время этой встречи, нанесите +<style=\"highlight\">80</style>% урона основной цели\n- Наставник Родословная клинка Мёрсо наносит +<style=\"highlight\">160</style>% урона основной цели\n\n[BeforeAttack] -2 базовой силы для каждой Треснувшие монеты (максимум -8)\n[BeforeAttack] Все враги и союзники получают +4 [Breath] счётчик, 1 [SlashDamageUp] и 1 [SlashTakeDamageUp]\n\n[EndSkill] 4 других союзных идентичностей родословной клинка, у которых наименьшее СД лечения 10 СД\n[EndSkill] получает 4 [AlcoholKimPersonal] следующем ходу",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Окутанный тенью опеватель меча【着影揮刀】",
+          "abName": "Кысындэ",
+          "desc": "[CantIdentify]\nЦели случайным образом\n\nСтолкновение силы +2 и наносит +6% урона за каждую 4 [Breath] по себе (максимальный <style=\"highlight\">16</style>, максимум <style=\"highlight\">30</style>% соответственно)\n\nЕсли эта единица получила [AlcoholKimPersonal] во время этой встречи, нанесите +<style=\"highlight\">100</style>% урона основной цели\n- Наставник Родословная клинка Мёрсо наносит +<style=\"highlight\">200</style>% урона основной цели\n\n[BeforeAttack] -2 базовой силы для каждой Треснувшие монеты (максимум -8)\n[BeforeAttack] Все враги и союзники получают +4 [Breath] счётчик, 1 [SlashDamageUp] и 1 [SlashTakeDamageUp]\n\n[EndSkill] 4 других союзных идентичностей родословной клинка, у которых наименьшее СД лечения 10 СД\n[EndSkill] получает 4 [AlcoholKimPersonal] следующем ходу",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

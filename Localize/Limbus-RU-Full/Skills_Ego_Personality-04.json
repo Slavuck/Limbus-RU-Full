@@ -1,0 +1,783 @@
+{
+  "dataList": [
+    {
+      "id": 2040511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 3 ЭГО-ресурса случайного Греха, имеющегося на данный момент"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 3 ЭГО-ресурса случайного Греха, имеющегося на данный момент; все союзники восстанавливают 3 СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Получает 3 ЭГО-ресурса случайного Греха, имеющегося на данный момент; все союзники восстанавливают 3 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[EndSkill] Все союзники получают 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Множитель ЭГО-ресурсов</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[EndSkill] Все союзники получают 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Множитель ЭГО-ресурсов</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Газировка",
+          "abName": "Wellcheers",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[EndSkill] Все союзники получают 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Множитель ЭГО-ресурсов</link></u></color>, даёт 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[BeforeAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[BeforeAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[EndBattle] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> за каждого противника, побеждённого этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[BeforeAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[EndBattle] Получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> за каждого противника, побеждённого этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>. Тратит 2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для получения 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 10-и)\n[EndBattle] Получает 4 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> за каждого противника, побеждённого этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>. Тратит 2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для получения 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 10-и)\n[EndBattle] Получает 4 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> за каждого противника, побеждённого этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ослепление",
+          "abName": "Мутный поток,\n<cspace=-1px>пожирающий сновидения</cspace>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>. Тратит 2 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для получения 1 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 10-и)\n[EndBattle] Получает 4 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> за каждого противника, побеждённого этим навыком",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Критический урон +30% при счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> 10 и больше"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До 2)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В течение последующих 2-х ходов Рёшу теряет по 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] В равном количестве распределяет 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями атаки"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До <style=\"highlight\">4</style>)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В течение последующих 2-х ходов Рёшу теряет по 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] В равном количестве распределяет <style=\"highlight\">15</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями атаки"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До <style=\"highlight\">6</style>)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> <style=\"highlight\">на этот и следующий ход</style> (До 7)\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>\n[EndSkill] В течение последующих 2-х ходов Рёшу теряет по 10 СД",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] В равном количестве распределяет 15 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> между целями атаки<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Рёшу получает 7 <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели)% к урону (До 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (1 + число грехов в наибольшем резонансе × 1,5) <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 10, округление в меньшую сторону)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Рёшу получает 7 <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели)% к урону (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">(3 + число грехов в наибольшем резонансе × 2)</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До <style=\"highlight\">15</style>, округление в меньшую сторону)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на <style=\"highlight\">3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Презрение, трепет",
+          "abName": "Спираль презрения",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Рёшу получает 7 <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color>\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [Laceration], +(сумма потенциала и счётчика <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели)% к урону (До <style=\"highlight\">60%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">(10 + число грехов в наибольшем резонансе × 2,5)</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До <style=\"highlight\">25</style>, округление в меньшую сторону)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на <style=\"highlight\">5</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[BeforeAttack] Рёшу получает (наибольший резонанс) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 4-х)\n- При 15 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу взамен получает (Итоговая сила + наибольший резонанс) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 4-х)\n[BeforeAttack] Также она повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на (наибольший резонанс ÷ 2) (До 2-х)\n- [Breath] При 5 и более единицах на счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу взамен повышает его на (сила монет + (наибольший резонанс ÷ 2)) (До 2-х)\n[TargetKill] Рёшу получает 1 [HoldingBreath] на следующий ход (До 2-х раз за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[BeforeAttack] Рёшу получает (наибольший резонанс) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До <style=\"highlight\">6-и</style>)\n- При 15 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу взамен получает (Итоговая сила + наибольший резонанс) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До <style=\"highlight\">6-и</style>)\n[BeforeAttack] Также она повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на (наибольший резонанс ÷ 2) (До 2-х)\n- [Breath] При 5 и более единицах на счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу взамен повышает его на (сила монет + (наибольший резонанс ÷ 2)) (До 2-х)\n[TargetKill] Рёшу получает <style=\"highlight\">2</style> <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (До <style=\"highlight\">4-х</style> раз за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+ (потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>)% к критическому урону (До 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> (Раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[BeforeAttack] Рёшу получает (наибольший резонанс) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 6-и)\n- При 15 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу взамен получает (Итоговая сила + наибольший резонанс) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 6-и)\n[BeforeAttack] Также она повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на (наибольший резонанс ÷ 2) (До <style=\"highlight\">3</style>)\n- [Breath] При 5 и более единицах на счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу взамен повышает его на (сила монет + (наибольший резонанс ÷ 2)) (До <style=\"highlight\">3-х</style>)\n[TargetKill] Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (До <style=\"highlight\">6-и</style> раз за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+ (потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>)% к критическому урону (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу получает <style=\"highlight\">4</style><sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу тратит 10% для получения 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышения его счётчика на 5\n- Этот эффект не может оглушить или убить её\n\n[EndSkill] При убийстве цели Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Рёшу получает 4 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу тратит 10% для получения 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышения его счётчика на 5\n- Этот эффект не может оглушить или убить её\n<style=\"highlight\">- Рёшу получает 1 [Breath] за каждого союзника в целях (До 2-х)</style>\n\n[EndSkill] При убийстве цели Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают <style=\"highlight\">4</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на 2\n<style=\"highlight\">- Это ЭГО восстанавливает половину затраченной силы духа Рёшу</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">+ (потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>)% к критическому урону (До 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу получает 4 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> (Раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торакалгия",
+          "abName": "Спальный мешок ушедших дней",
+          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу тратит 10% для получения 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышения его счётчика на 5\n- Этот эффект не может оглушить или убить её\n- Рёшу получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> за каждого союзника в целях (До <style=\"highlight\">4-х</style>)\n\n[EndSkill] При убийстве цели Рёшу получает 3 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на <style=\"highlight\">4</style>\n<style=\"highlight\">- Это ЭГО восстанавливает затраченную силу духа Рёшу и даёт 1 ЭГО-ресурс для всех грехов</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "+ (потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> + счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>)% к критическому урону (До <style=\"highlight\">40%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Рёшу получает <style=\"highlight\">7</style> <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдохов</link></u></color> (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath] (До 7)\n\n[EndSkill] Получает 1 [RyoshuEGOPF]\n[EndSkill] Теряет 10 СД в конце последующих 3-ёх ходов ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На 30% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До 100%)",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[BeforeAttack] получает (высший резон). [Breath] (макс 7)\n<style=\"highlight\">[BeforeAttack] Усиление +2 [Breath] счётчик</style>\n\n[EndSkill] получает 1 [RyoshuEGOPF]\n[EndSkill] Теряю 10 СД на конце поворота 3 ходов",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Binding] на следующий ход</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Сила последней монеты +3 (Единожды за навык)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% к критическому урону<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "\n<style=\"highlight\">[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До 30%)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Сила этой монеты +1 за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До 3)</style>\n"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До 100%)\n- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в 1.5 раза (В фокусированных битвах лишь Ядро и его Части считается за одну цель)",
+                  "summary": "<style=\"highlight\">[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[BeforeAttack] получает (высший резон). [Breath] (макс 7)\n[BeforeAttack] получает <style=\"highlight\">+3</style> [Breath] счётчик\n\n[EndSkill] получает 1 [RyoshuEGOPF]\n[EndSkill] Теряю 10 СД на конце поворота 3 ходов",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Сила последней монеты <style=\"highlight\">+5</style> (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% к критическому урону<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "\n[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До <style=\"highlight\">50%</style>)"
+                },
+                {
+                  "desc": "[OnStartCoin] Сила этой монеты +1 за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До <style=\"highlight\">5</style>)\n"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До <style=\"highlight\">198%</style>)\n- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в <style=\"highlight\">2</style> раза (В фокусированных битвах лишь Ядро и его Части считается за одну цель)",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на 3\n[BeforeAttack] Базовая сила +1 при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую в столкновении Вечную монету\n\n[EndSkill] Получает 10 [RyoshuEGOPF]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На 30% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До 100%)",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на 3\n[BeforeAttack] Базовая сила <style=\"highlight\">+2</style> при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую в столкновении Вечную монету\n\n[EndSkill] Получает <style=\"highlight\">20</style> [RyoshuEGOPF]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Binding] на следующий ход</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Урон последней монеты повышается на 30% (Единожды за навык)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% к критическому урону<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "\n<style=\"highlight\">[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До 30%)</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Итоговая сила этой монеты +1 за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До 3)</style>\n"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До 100%)\n<style=\"highlight\">- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в 1.5 раза (В фокусированных битвах лишь Ядро и его Части считается за одну цель)</style>",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
+          "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
+          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на <style=\"highlight\">5</style>\n[BeforeAttack] Базовая сила <style=\"highlight\">+3</style> при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую в столкновении Вечную монету\n\n[EndSkill] Получает <style=\"highlight\">33</style> [RyoshuEGOPF]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Урон последней монеты повышается на <style=\"highlight\">50%</style> (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "+30% к критическому урону<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "\n[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До <style=\"highlight\">50%</style>)"
+                },
+                {
+                  "desc": "[OnStartCoin] Итоговая сила этой монеты +1 за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До <style=\"highlight\">5</style>)\n"
+                },
+                {
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на <style=\"highlight\">1.25%</style> больше урона за каждые 5 потраченной [RyoshuEGOPF] (До <style=\"highlight\">248%</style>)\n- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в <style=\"highlight\">2</style> раза (В фокусированных битвах лишь Ядро и его Части считается за одну цель)",
+                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

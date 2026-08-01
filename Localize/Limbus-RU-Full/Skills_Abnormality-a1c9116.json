@@ -1,0 +1,249 @@
+{
+  "dataList": [
+    {
+      "id": 112701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Никаких больше тестов",
+          "desc": "[WhenUse] Получает 3 [HitDamageUp] на следующий ход\n[WhenUse] Если на цели 3 и более [MiddleFingerBook], все монеты этого навыка становятся [SuperCoin]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обещанные страдания",
+          "desc": "Нацеливается на противников с наибольшим количеством [MiddleFingerBook]\n[WhenUse] Если на цели 3 и более [MiddleFingerBook], все монеты этого навыка становятся [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на этот и следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Количество [MiddleFingerBook] на цели × 3) дополнительного Дробящего урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снимает все [MiddleFingerBook] с цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Довольно игр",
+          "desc": "[StartBattle] Восстанавливает 10 СД всем союзникам\n[EndBattle] Союзники в панике выходят из неё в следующем ходе и сбрасывают свою СД до 0\n[EndBattle] Даёт 1 [HitResultUp] на следующий ход себе и всем союзникам",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "ПОЛНОЕ И ТОТАЛЬНОЕ УНИЧТОЖЕНИЕ!!!!",
+          "desc": "Можно столкнуться независимо от скорости\n\nИтоговая сила +5, если на главной цели 5 и более [MiddleFingerBook]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей\n[EndSkill] Снимает все [MiddleFingerBook] с противников, по которым попал этой атакой",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Количество [MiddleFingerBook] на цели × 10) дополнительного Дробящего урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поражающий удар",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заказное убийство",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 5 и более [Burst]\n[WhenUse] Получает 3 [LegStrength]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цель наложен [BurstAgility], получает 1 [Agility] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гравировочный удар",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает [BurstAgility]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Исписанный проклятиями клинок - Мгновение",
+          "desc": "В первую очередь выбирает цели с [BurstAgility]\nНаносит на 15% больше урона за каждые 2 единицы разницы между своей Скоростью и Скоростью цели (до 60%)\n[WhenUse] Сила монет +1 за каждые 5 [Burst] на цели (до 2)\n[WhenUse] Базовая сила +1 за каждые 2 единицы счётчика [Burst] на цели (до 3)\n[EndSkill] При Скорости 10+ и гибели цели повторно использует этот навык против случайного противника (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На 50% больше урона, если на цель наложен [BurstAgility]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 112605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Проклятие",
+          "desc": "[DuelCounter]\n[WhenUse] Если на цель наложен [BurstAgility], повышает счётчик [Burst] ещё на 1 монетами этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

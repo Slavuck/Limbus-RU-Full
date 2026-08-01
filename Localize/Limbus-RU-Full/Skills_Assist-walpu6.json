@@ -1,0 +1,183 @@
+{
+  "dataList": [
+    {
+      "id": 40000301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С любовью!",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 единиц в сумме силы [Burst] и [Sinking] на цели (До 2)\n[WhenUse] Повышает свой счётчик [PowerOfLoveAndJustice] на 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Во имя справедливости!",
+          "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Burst] и [Sinking] на цели (До 2)\n[WhenUse] Повышает свой счётчик [PowerOfLoveAndJustice] на 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если сумма силы [Burst] и [Sinking] цели равна 10 и более, наносит ей 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удары Арканы",
+          "desc": "Выбирает главной целью Рыцаря отчаяния\n\nДополнительными целями становятся Грешники с наибольшим количеством [ColdBlackTear] или наименьшими ОЗ\n- Не наносит урона Грешникам и не активирует эффекты [Sinking] или [ColdBlackTear] на них при попадании\n\n[WinDuel] Убирает 1 [ColdBlackTear] с Грешников, которые были дополнительными целями",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 5 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 5 СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если целью является противник, наносит ему 1 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если целью является союзник, восстанавливает ему 5 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Похоже, мне придётся использовать эту силу!",
+          "desc": "[StartBattle] Начинает готовить [ChasingArcana]\n[StartBattle] Получает 50 ОЗ Щита\n[StartBattle] Получает 20 [Aggro] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заклинаю: Аркана Слэйв",
+          "desc": "[StartBattle] Получает 50 ОЗ Щита\n[StartBattle] Получает 20 [Aggro] на следующий ход\n[EndBattle] Если ОЗ Щита истощены, отступает с поля боя",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "РАБЫНЯ АРКАНЫ",
+          "desc": "[CantDuel]\nНе наносит урон Мечам забытого рыцаря\nЗаканчивает ход после попадания по Рыцарю отчаяния в [WornOutKnight]\n[EndBattle] [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Опускает ОЗ Рыцаря отчаяния до (100 - (Значение [CollapsedPride] Рыцаря отчаяния × 33))%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "РАБЫНЯ АРКАНЫ",
+          "desc": "[CantDuel]\nНаносит урон только эффектом монеты\nНе наносит урона Мечам забытого рыцаря\nЗаканчивает этот ход при попадании по Рыцарю отчания, если она в [WornOutKnight] и её ОЗ равны или менее 600\n[EndBattle] [UsedTooMuchPower]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит (Значение [CollapsedPride] Рыцаря отчаяния × 200) фиксированного урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Похоже, мне придётся использовать эту силу!",
+          "desc": "[StartBattle] Начинает готовить [ChasingArcanahard]\n[StartBattle] Получает 50 ОЗ Щита\n[StartBattle] Получает 20 [Aggro] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

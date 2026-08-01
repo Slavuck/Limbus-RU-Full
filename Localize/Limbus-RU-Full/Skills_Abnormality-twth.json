@@ -1,0 +1,467 @@
+{
+  "dataList": [
+    {
+      "id": 142201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выражение основных цветов",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовое перекрашивание",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фовизм — Жестокое высвобождение",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 3)\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект [Sinking] при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking] и повышает счётчик [Sinking] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Критика",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Сила столкновения +2 <color=#ff6000><mark=#ff000040><b><u>для любого типа негативного эффекта</u></b></mark></color> по цели (максимальный 12)\n- <color=#ff6000><mark=#ff000040><b><u>Если у цели есть [IntenseColors], </u></b></mark></color>сила в столкновении +6 и нанесите +100% урон\n· <color=#ff6000><mark=#ff000040><b><u>Если цель оснащена</u></b></mark></color> Защитными навыками, имея [IntenseColors], +6 Силы Столкновения и наносит -90% урон вместо этого\n[DefeatDuel]\n- Урон от этого навыка не оглушает цель\n- При попадании не вызывает [Sinking] эффектов на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель не имеет экипированных защитных навыков, то вновь подкидывает эту монету (До 2 раз за навык)\n- Если проиграла в столкновении, то подкидывает эту монету вновь всего 1 раз вместо 2-ух"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking] и повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выражение основных цветов",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 2)\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект [Sinking] при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [EagleClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовое перекрашивание",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 3)\n[DefeatDuel]\n- Не может оглушить цель\n- Не может активировать эффект [Sinking] при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [BearClawWound]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фовизм — Жестокое высвобождение",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 4)\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если цель имеет 3 и более типа негативных эффектов</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]\n[DefeatDuel]\n- Наносит на 75% меньше урона\n- Не может оглушить цель\n- Не может активировать эффект [Sinking] при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [BearClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [EagleClawWound]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Трепет вдохновения",
+          "desc": "Можно столкнуться независимо от скорости\n[WhenUse] Итоговая сила +1 и на 10% больше урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативных эффектов на главной цели</u></b></mark></color> (До +6 к Силе в столкновении и до +60% к урону)\n[WinDuel]\n- Наносит каждой цели на 10% больше урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативных эффектов</u></b></mark></color> на ней (До 60%)\n[DefeatDuel]\n- Наносит на 75% меньше урона\n- Наносимое этим навыком значение [BearClawWound] и [EagleClawWound] снижается на 2 и на 3 соответственно (Округляется вниз)\n- Не может оглушить цель\n- Не может активировать эффект [Sinking] при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking] и повышает счётчик [Sinking] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 9 [BearClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 9 [EagleClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 142305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспыхни пульсирующим багрянцем под своей кожей",
+          "desc": "[WideAreaRampage]\nПриоритет ставит цели с [IntenseColors]\nЭтот навык не активирует Защитные навыки (за исключением Столкновения Стража).\nМожет сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Финальная +1 <color=#ff6000><mark=#ff000040><b><u>Силы для любого типа негативного воздействия</u></b></mark></color> на основную цель (максимальная 6)\n- <color=#ff6000><mark=#ff000040><b><u>Если у основной цели есть [IntenseColors],</u></b></mark></color> сила в столкновении +6\n- <color=#ff6000><mark=#ff000040><b><u>Если цель имеет [IntenseColors],</u></b></mark></color> наносить +100% урона (каждой цели отдельно)\n· <color=#ff6000><mark=#ff000040><b><u>Если цель оснащена Защитными навыками</u></b></mark></color> при наличии [IntenseColors], наносит -90% урон вместо этого\n[WinDuel]\n- Наносить +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта на цель</u></b></mark></color> (максимальный 60%, по каждой цели отдельно)\n[DefeatDuel]\n- Усиление 5 [AttackDmgDown] и 5 [Paralysis]\n- Урон от этого навыка не оглушает цель\n- При попадании не вызывает [Sinking] эффектов на цели\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Эта монета попадает по всем целям навыка независимо от эффекта Нефокусированного залпа</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Критика",
+          "desc": "[CantChangeTarget]\n[WhenUse]\n- Сила столкновения +2 <color=#ff6000><mark=#ff000040><b><u>для любого типа негативного эффекта</u></b></mark></color> по цели (максимальный 12)\n- Наносить +12.5% урона <color=#ff6000><mark=#ff000040><b><u>за каждого союзного Фавистского Студента Кольца,</u></b></mark></color> на поле (максимум 50%)\n- <color=#ff6000><mark=#ff000040><b><u>Если у цели есть [IntenseColors], </u></b></mark></color>сила в столкновении +6 и нанесите +200% урон\n· <color=#ff6000><mark=#ff000040><b><u>Если цель оснащена</u></b></mark></color> Защитными навыками, имея [IntenseColors], +6 Силы Столкновения и наносит -90% урона; вместо этого. Урон от этого навыка не оглушает цель; При попадании не вызывает [Sinking] эффектов на цель\n[DefeatDuel]\n- Урон от этого навыка не оглушает цель\n- При попадании не вызывает [Sinking] эффектов на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель не имеет экипированных защитных навыков, то вновь подкидывает эту монету (До 2 раз за навык)\n- Если проиграла в столкновении, то подкидывает эту монету вновь всего 1 раз вместо 2-ух"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking] и повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Трепет вдохновения",
+          "desc": "Можно столкнуться независимо от скорости\n[WhenUse] Итоговая сила +1 и на 10% больше урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативных эффектов на главной цели</u></b></mark></color> (До +6 к Силе в столкновении и до +60% к урону)\n[WinDuel]\n- Наносит каждой цели на 10% больше урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативных эффектов</u></b></mark></color> на ней (До 60%)\n[DefeatDuel]\n- Наносит на 75% меньше урона\n- Наносимое этим навыком значение [BearClawWound] и [EagleClawWound] снижается на 2 и на 3 соответственно (Округляется вниз)\n- Не может оглушить цель\n- Не может активировать эффект [Sinking] при попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking] и повышает счётчик [Sinking] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 9 [BearClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 9 [EagleClawWound]</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 500705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспыхни пульсирующим багрянцем под своей кожей",
+          "desc": "[WideAreaRampage]\nПриоритет ставит цели с [IntenseColors]\nЭтот навык не активирует Защитные навыки (за исключением Столкновения Стража).\nМожет сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Финальная +1 <color=#ff6000><mark=#ff000040><b><u>Силы для любого типа негативного воздействия</u></b></mark></color> на основную цель (максимальная 6)\n- <color=#ff6000><mark=#ff000040><b><u>Если у основной цели есть [IntenseColors],</u></b></mark></color> сила в столкновении +6\n- <color=#ff6000><mark=#ff000040><b><u>Если цель имеет [IntenseColors],</u></b></mark></color> наносить +200% урона (каждой цели отдельно)\n· <color=#ff6000><mark=#ff000040><b><u>Если цель оснащена Защитными навыками</u></b></mark></color> при наличии [IntenseColors], наносит -90% урон вместо этого\n[WinDuel]\n- Наносить +10% урона <color=#ff6000><mark=#ff000040><b><u>за каждый тип негативного эффекта на цель</u></b></mark></color> (максимальный 60%, по каждой цели отдельно)\n[DefeatDuel]\n- Усиление 5 [AttackDmgDown] и 5 [Paralysis]\n- Урон от этого навыка не оглушает цель\n- При попадании не вызывает [Sinking] эффектов на цели\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Эта монета попадает по всем целям навыка независимо от эффекта Нефокусированного залпа</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

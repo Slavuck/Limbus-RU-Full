@@ -1,0 +1,3499 @@
+{
+  "dataList": [
+    {
+      "id": 1020501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Патрулирование",
+          "desc": "[DefeatDuel] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Патрулирование",
+          "desc": "[DefeatDuel] Получает 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Патрулирование",
+          "desc": "[WhenUse] Эта ячейка получает 2 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[DefeatDuel] Получает 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Охрана клиента",
+          "desc": "[WhenUse] Даёт 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> союзнику с самым низким процентом ОЗ (3 раза за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Охрана клиента",
+          "desc": "[WhenUse] Даёт 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> союзнику с самым низким процентом ОЗ (3 раза за ход)\nПри 5 и более <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>, сила столкновения +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Охрана клиента",
+          "desc": "[WhenUse] Даёт 4 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> союзнику с самым низким процентом ОЗ (3 раза за ход)\nПри 5 и более <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>, сила столкновения +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение уровня защиты на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Закон и порядок",
+          "desc": "Сила монет +1 при 5 и более <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>\n[WinDuel] Восстанавливает 2 ОЗ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Даёт 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> союзнику с самым низким процентом ОЗ на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Закон и порядок",
+          "desc": "Сила монет +1 при 5 и более <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениях уровня защиты</link></u></color>\n[WinDuel] Восстанавливает 4 ОЗ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Даёт 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> союзнику с самым низким процентом ОЗ на следующий ход"
+                },
+                {
+                  "desc": "Если союзник — корректировщик ассоциации «Цвай», даёт дополнительные 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>, 1 Повышение уровня защиты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Блок",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блок",
+          "desc": "[WhenUse] Эта ячейка получает 3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ужимающая смирительная рубашка",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ужимающая смирительная рубашка",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ужимающая смирительная рубашка",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3\n[DefeatDuel] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Металлический звон",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Понижение уровня атаки на следующий ход"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Металлический звон",
+          "desc": "[StartBattle] Понижает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить тяжесть этого навыка на 1\n[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 Понижение уровня атаки на следующий ход"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [PlusCoinValueDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Металлический звон",
+          "desc": "[StartBattle] Понижает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить тяжесть этого навыка на 1.\n[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Понижение уровня атаки на следующий ход"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [PlusCoinValueDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Высвобожденная ярость",
+          "desc": "[StartBattle] Понижает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить тяжесть этого навыка на 1 (До 2 раз)\n[DefeatDuel] Теряет 20 СД\nНаносит на 3% больше урона за каждый тип негативного эффекта на цели (До 15%)\n[EnemyKill] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>,\nПосле наносит урон Гневом на 20% от повышения последней черты оглушения <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокацией Тремора</link></u></color> (До 13)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>,\nПосле наносит урон Гневом на 20% от повышения последней черты оглушения <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокацией Тремора</link></u></color> (До 13)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>,\nПосле наносит урон Гневом на 20% от повышения последней черты оглушения <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокацией Тремора</link></u></color>. (До 13)\nПонижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Высвобожденная ярость",
+          "desc": "[StartBattle] Понижает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 5, чтобы увеличить тяжесть этого навыка на 1 (До 2 раз)\n[DefeatDuel] Теряет 20 СД\nНаносит на 6% больше урона за каждый тип негативного эффекта на цели (До 30%)\n[EnemyKill] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>,\nПосле наносит урон Гневом на 30% от повышения последней черты оглушения <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокацией Тремора</link></u></color>. (Max 20)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>,\nПосле наносит урон Гневом на 30% от повышения последней черты оглушения <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокацией Тремора</link></u></color>. (Max 20)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>,\nПосле наносит урон Гневом на 30% от повышения последней черты оглушения <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокацией Тремора</link></u></color>. (Max 20)\nПонижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Накапливающаяся злоба",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Накапливающаяся злоба",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 6",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Танец с мечами под луной",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красный лепесток сливы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Танец с мечами под луной",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 Дыхание"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красный лепесток сливы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Танец с мечами под луной",
+          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color></style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 Дыхание"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красный лепесток сливы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Иглоукалывание",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красных лепестка сливы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Иглоукалывание",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+                },
+                {
+                  "desc": "Критический урон +30%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красных лепестка сливы</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Иглоукалывание",
+          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n</style>[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2"
+                },
+                {
+                  "desc": "Критический урон +30%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Сковывание на следующий ход"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красных лепестка сливы</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Разлетающиеся лепестки красной сливы",
+          "desc": "Урон +3% за каждый <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красный лепесток сливы</link></u></color> на цели\n[WinDuel] Тратит половину счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и получает Дыхание, равное потраченному числу на его счётчике. (До 10-и)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 5 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красных лепестков сливы</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 5 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красных лепестков сливы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разлетающиеся лепестки красной сливы",
+          "desc": "Урон +3% за каждый <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красный лепесток сливы</link></u></color> на цели\n<style=\"highlight\">Сила монет +1 за каждые 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 3)</style>\n[WinDuel] Тратит половину счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и получает Дыхание, равное потраченному числу на его счётчике. (До 10-и)\n<style=\"highlight\">Этот навык не тратит Красные лепестки сливы во время критических ударов.</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 5 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красных лепестков сливы</link></u></color>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 Уязвимость к рубящему урону целям с 10 и более <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красными лепестками сливы</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 5 <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красных лепестков сливы</link></u></color>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 Уязвимость к рубящему урону целям с 10 и более <sprite name=\"RedApricotBlossom\"><color=#e30000><u><link=\"RedApricotBlossom\">Красными лепестками сливы</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отражение удара",
+          "desc": "[WhenUse]Итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 3)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отражение удара",
+          "desc": "[WhenUse]Итоговая сила +1 за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 5)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конфискация",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Конфискация",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Конфискация",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Приём незваных гостей",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Приём незваных гостей",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Приём незваных гостей",
+          "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[WhenUse] Сила монет +1 против целей с 3 и более на счётчике <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Этика приёма гостей, 4-я церемония: Печать на сердце",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эха особняка</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели с <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эхом особняка</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Этика приёма гостей, 4-я церемония: Печать на сердце",
+          "desc": "[WhenUse] Сила монет +2 против целей с 5 и более на счётчике <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3"
+                }
+              ]
+            },
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эха особняка</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели с <sprite name=\"EchoOfMansion\"><color=#e30000><u><link=\"EchoOfMansion\">Эхом особняка</link></u></color> на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1020904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подготовка к охоте",
+          "desc": "[WhenUse] Сила монет +3 против целей с 10 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подготовка к охоте",
+          "desc": "[WhenUse] Сила монет +7 против целей с 10 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запуск 40Y-3",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Запуск 40Y-3",
+          "desc": "[WhenUse] Сила монет +1 при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на <style=\"highlight\">3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Запуск 40Y-3",
+          "desc": "[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 5 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обратный заряженный поток",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 × (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Если резонанс с этим навыком состоит из 3-х грехов, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +([Charge])% к урону за каждую единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, потраченную этим навыком (До 60%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Обратный заряженный поток",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 × (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет +1 при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Если резонанс с этим навыком состоит из 3-х грехов, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +<style=\"highlight\">([Charge] + 3)% к урону за каждую единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, потраченную этим навыком (До 120%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Обратный заряженный поток",
+          "desc": "[WhenUse] При 5~9 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит (2 × (10 - текущий счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>))% от максимальных ОЗ для повышения своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "Если резонанс с этим навыком состоит из 3-х грехов, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +<style=\"highlight\">([Charge] + 4)% к урону за каждую единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, потраченную этим навыком (До 180%)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Заряд 40Y-3",
+          "desc": "Сила монет +2 при 2 и более <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядах</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] +4)] (До 7)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] +4)] (До 7)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "При 3 и более <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> получает +4% к урону за каждый счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Заряд 40Y-3",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждую единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 4)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] + <style=\"highlight\">5</style>)(До <style=\"highlight\">8</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] + <style=\"highlight\">5</style>)(До <style=\"highlight\">8</style>)"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": " Если сила своего [Charge] равна 3 и более, наносит на (Сила своего [Charge] × <style=\"highlight\">8</style>)% больше урона этой монетой (До <style=\"highlight\">40%</style>)\n Наносит 1 Уязвимость к Зависти на следующий ход"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести 1 [VioletTakeDamageUp] следующий ход\n- При 2+ [Charge] наложить 1 дополнительные [VioletTakeDamageUp]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подзарядка",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2 (Дважды за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подзарядка",
+          "desc": "[WhenUse] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на <style=\"highlight\">4</style> (Дважды за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возгорание",
+          "desc": "[WhenUse] +10% к урону при 10 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст\n[WhenUse] Фауст получает 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Возгорание",
+          "desc": "[WhenUse] +10% к урону при 10 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст\n[WhenUse] Фауст получает 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 1\n[WhenUse] Сила монет +1 при 10 и более ([Combustion] на Фауст + [Combustion] на цели)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Фауст дополнительно наносит 1 [Combustion] при 10 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на себе</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Возгорание",
+          "desc": "[WhenUse] +10% к урону при 10 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст\n[WhenUse] Фауст получает 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 1\n[WhenUse] Сила монет +1 за каждые 10 ([Combustion] Фауст + [Combustion] цели) (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Фауст дополнительно наносит <style=\"highlight\">3</style> <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> при 10 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на себе"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспышка алых лепестков, раскрытие ЭГО",
+          "desc": "[WhenUse] +10% к урону при 10 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Вспышка алых лепестков, раскрытие ЭГО",
+          "desc": "[WhenUse] +10% к урону за каждые 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст (До 20%)\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 4\n[WhenUse] Сила монет +1 при 4 и более ([Combustion] на Фауст + [Combustion] на цели)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вспышка алых лепестков, раскрытие ЭГО",
+          "desc": "[WhenUse] +10% к урону за каждые 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст (До 20%)\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 4\n[WhenUse] Сила монет +1 за каждые 4 единицы ([Combustion] на Фауст + [Combustion] на цели) (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 15 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на цели повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Всей душой тянусь к огню",
+          "desc": "[StartBattle] Получает 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 1\n[BeforeUse] При 30 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> Фауст взамен использует навык 「Максимальное влияние Вспышки алых лепестков 【Пламенный распад】」\n[WhenUse] +7,5% к урону за каждые 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более ([Combustion] на Фауст + [Combustion] на цели)\n[WhenUse] Сила монет +1 при потере 30%+ ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Всей душой тянусь к огню",
+          "desc": "[StartBattle] Получает 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и повышает его счётчик на 1\n[BeforeUse] При 30 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> Фауст взамен использует навык 「Максимальное влияние Вспышки алых лепестков 【Пламенный распад】」\n[WhenUse] +12,5% к урону за каждые 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст (До 50%)\n[WhenUse] Базовая сила +1 за каждые 10 ([Combustion] на Фауст + [Combustion] на цели) (До 2-х)\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я повышу влияние Вспышки алых лепестков через резонанс.",
+          "desc": "[WhenUse] Фауст теряет 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> (Раз за ход)\n[OnSucceedEvade] Фауст теряет 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> (Раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я повышу влияние Вспышки алых лепестков через резонанс.",
+          "desc": "[WhenUse] Сила монет +3 при 10 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст\n[WhenUse] Фауст теряет 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> (Раз за ход)\n[OnSucceedEvade] Фауст теряет 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> (Раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Максимальное влияние Вспышки алых лепестков 【Пламенный распад】",
+          "desc": "В конце этого навыка Фауст умирает.\n- При использовании этого навыка ОЗ Фауст не могут опуститься ниже 1.\n[WhenUse] +7,5% к урону за каждые 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст (До 30%)\n[WhenUse] Базовая сила +1 при 10 и более ([Combustion] на Фауст + [Combustion] на цели)\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До 2-х)\n[BeforeAttack] Итоговая сила +1 за каждые 20% потерянных ОЗ (До 2-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +10% к урону за каждые 20% потерянных Фауст ОЗ (До 30%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Максимальное влияние Вспышки алых лепестков 【Пламенный распад】",
+          "desc": "В конце этого навыка Фауст умирает.\n- При использовании этого навыка ОЗ Фауст не могут опуститься ниже 1.\n[WhenUse] +12,5% к урону за каждые 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на Фауст (До 50%)\n[WhenUse] Базовая сила +1 за каждые 10 ([Combustion] на Фауст + [Combustion] на цели) (До 2-х)\n[WhenUse] Сила монет +1 за каждые 30% потерянных ОЗ (До 3-х)\n[BeforeAttack] Итоговая сила +1 за каждые 20% потерянных ОЗ (До 4-х)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] +10% к урону за каждые 20% потерянных Фауст ОЗ (До 30%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Молниеносная поступь",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6-ю и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Молниеносная поступь",
+          "desc": "[WhenUse] Сила монет +1 против целей с <style=\"highlight\">4-мя</style> и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n<style=\"highlight\">[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Раз за навык)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Молниеносная поступь",
+          "desc": "<style=\"highlight\">Если Фауст быстрее своей цели, сила монет +1 за каждые 3 единицы разницы в скорости</style>\n[WhenUse] Сила монет +1 против целей с 4-мя и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я проложу вам путь, мой лорд.",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4-мя и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+30% к урону против целей с <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчей 【Спешка】</link></u></color> или <sprite name=\"BurstZilu\"><color=#e30000><u><link=\"BurstZilu\">Порчей 【Расщелина】</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Я проложу вам путь, мой лорд.",
+          "desc": "[WhenUse] Сила монет +1 против целей с 4-мя и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n<style=\"highlight\">[WhenUse] Фауст получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход (Раз за ход)</style>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "+30% к урону против целей с <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчей 【Спешка】</link></u></color> или <sprite name=\"BurstZilu\"><color=#e30000><u><link=\"BurstZilu\">Порчей 【Расщелина】</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я проложу вам путь, мой лорд.",
+          "desc": "<style=\"highlight\">Если Фауст быстрее своей цели, +(разница в скорости × <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усиление клинка Всепроникающей звезды</link></u></color> на себе)% к урону по цели (До 50%)</style>\n<style=\"highlight\">Если Фауст быстрее своей цели, сила монет +1 за каждые 3 единицы разницы в скорости\n[WhenUse] Сила монет +1 против целей с 4-мя и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color></style>\n[WhenUse] Фауст получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход (Раз за ход)\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Burst]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">+50%</style> к урону против целей с <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчей 【Спешка】</link></u></color> или <sprite name=\"BurstZilu\"><color=#e30000><u><link=\"BurstZilu\">Порчей 【Расщелина】</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021203,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Не поспеешь ни взглядом, ни ухом.",
+          "desc": "Если Фауст быстрее своей цели, +(разница в скорости × потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели)% к урону по цели (До 50%)\nЕсли разница в скорости равна 2 и более единиц, сила монет +1\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (Раз за ход)\n[BeforeUse] При 10-и и более <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилениях клинка Всепроникающей звезды</link></u></color> вместо этого навыка использует 「Высшее искусство Мао из «Хэйшоу»: Разрубание небес」\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Фауст наносит <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчу 【Спешка】</link></u></color> на цель"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если скорость Фауст равна 10-и и выше, +30% к урону"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Раз за навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Не поспеешь ни взглядом, ни ухом.",
+          "desc": "Если Фауст быстрее своей цели, +(разница в скорости × потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели)% к урону по цели (До 50%)\n<style=\"highlight\">Если Фауст быстрее своей цели,сила монет +1 за каждые 2 единицы разницы в скорости (До 2-х)</style>\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (Раз за ход)\n[BeforeUse] При 10-и и более <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилениях клинка Всепроникающей звезды</link></u></color> вместо этого навыка использует 「Высшее искусство Мао из «Хэйшоу»: Разрубание небес」\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 15-ю и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color></style>\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Фауст наносит <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчу 【Спешка】</link></u></color> на цель<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если скорость Фауст равна 10-и и выше, +30% к урону<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Фауст наносит <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчу 【Спешка】</link></u></color> на цель</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слушаюсь, мой лорд.",
+          "desc": "[DuelCounter]\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (Раз за ход)\n[WhenUse] За каждые 10% потерянного Фауст здоровья уровень атаки данного навыка +1 (До 6-и; Считается потеря здоровья от использования навыка)\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Слушаюсь, мой лорд.",
+          "desc": "[DuelCounter]\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (Раз за ход)\n[WhenUse] За каждые 10% потерянного Фауст здоровья уровень атаки данного навыка +1 (До 6-и; Считается потеря здоровья от использования навыка)\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>\n<style=\"highlight\">[WhenUse] Если Фауст быстрее своей цели, базовая сила +1 за каждые 2 единицы разницы в скорости (До 2-х)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021205,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Высшее искусство Мао из «Хэйшоу»: Разрубание небес",
+          "desc": "Если Фауст быстрее своей цели, +(разница в скорости × потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели)% к урону по цели (До 50%)\nСила монет +1, если Фауст быстрее цели на 2 и более единиц\n[WhenUse] Сила монет +1 против целей с 15-ю и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WhenUse] Если скорость Фауст равна 10-и и выше, она получает 20 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, и, если его счётчик ниже 4-х, повышает его на 4\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2\n[EndSkill] Фауст тратит 10 <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилений клинка Всепроникающей звезды</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Фауст наносит <sprite name=\"BurstZilu\"><color=#e30000><u><link=\"BurstZilu\">Порчу 【Расщелина】</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Фауст наносит <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчу 【Спешка】</link></u></color> на цель"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если скорость Фауст равна 10-и и выше, +30% к урону"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Раз за навык)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Фауст наносит <sprite name=\"BurstZilu\"><color=#e30000><u><link=\"BurstZilu\">Порчу 【Расщелина】</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Высшее искусство Мао из «Хэйшоу»: Разрубание небес",
+          "desc": "Если Фауст быстрее своей цели, +(разница в скорости × потенциал <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели)% к урону по цели (До 50%)\n<style=\"highlight\">Если Фауст быстрее своей цели,сила монет +1 за каждые 2 единицы разницы в скорости (До 2-х)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 10-ю и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color> (До 2-х)</style>\n[WhenUse] Если скорость Фауст равна 10-и и выше, она получает 20 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, и, если его счётчик ниже 4-х, повышает его на 4\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2\n[EndSkill] Фауст тратит 10 <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилений клинка Всепроникающей звезды</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Фауст наносит <sprite name=\"BurstZilu\"><color=#e30000><u><link=\"BurstZilu\">Порчу 【Расщелина】</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Фауст наносит <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчу 【Спешка】</link></u></color> на цель<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если скорость Фауст равна 10-и и выше, +30% к урону<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если скорость Фауст равна 10-и и выше, она вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Фауст наносит <sprite name=\"BurstZilu\"><color=#e30000><u><link=\"BurstZilu\">Порчу 【Расщелина】</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Фауст наносит <sprite name=\"BurstAgility\"><color=#e30000><u><link=\"BurstAgility\">Порчу 【Спешка】</link></u></color> на цель</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Молниеносная защита",
+          "desc": "[CanDuelGuard]\nОсобый навык, использующийся в режиме <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> \n[BeforeUse] При 10-и и более <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилениях клинка Всепроникающей звезды</link></u></color> вместо этого навыка использует 「Высшее искусство Мао из «Хэйшоу»: Разрубание небес」\n[WhenUse] За каждые 10% потерянного Фауст здоровья уровень защиты данного навыка +1 (До 6-и; Считается потеря здоровья от использования навыка)\n[WhenUse] До завершения данного навыка данная грешница не может быть оглушена\n[WhenUse] Фауст получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Молниеносная защита",
+          "desc": "[CanDuelGuard]\nОсобый навык, использующийся в режиме <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> \n[BeforeUse] При 10-и и более <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилениях клинка Всепроникающей звезды</link></u></color> вместо этого навыка использует 「Высшее искусство Мао из «Хэйшоу»: Разрубание небес」\n[WhenUse] За каждые 10% потерянного Фауст здоровья уровень защиты данного навыка +1 (До 6-и; Считается потеря здоровья от использования навыка)\n[WhenUse] До завершения данного навыка данная грешница не может быть оглушена\n[WhenUse] Фауст получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отсечение",
+          "desc": "[WhenUse] Фауст получает 1 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Отсечение",
+          "desc": "<style=\"highlight\">[WhenUse] Сила монет +1 при 4-х и более единицах в сумме <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели</style>\n[WhenUse] Фауст получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отсечение",
+          "desc": "[WhenUse] Сила монет +1 при 4-х и более единицах в сумме <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели\n[WhenUse] Фауст получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color><style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сохранение дистанции",
+          "desc": "[WhenUse] +11% к урону за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст (До 44%)\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Сохранение дистанции",
+          "desc": "<style=\"highlight\">[WhenUse] Сила парирований +1 за каждые 4 единицы в сумме <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели (До 2-х)</style>\n[WhenUse] +11% к урону за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст (До 44%)\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сохранение дистанции",
+          "desc": "[WhenUse] Сила парирований +1 за каждые 4 единицы в сумме <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели (До <style=\"highlight\">4-х</style>)\n[WhenUse] +11% к урону за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст (До 44%)\n<style=\"highlight\">[WhenUse] +11% к урону за каждую затраченную <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрелу</link></u></color> Фауст (До 44%)</style>\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на <style=\"highlight\">2</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color><style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021303,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Блеснувший лук",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 единицы в сумме <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели (До 2-х)\n[WhenUse] +11% к урону за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст (До 44%)\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает 1 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [DefenseDown] на следующий ход (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блеснувший лук",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 единицы в сумме <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст и <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели (До 2-х)\n[WhenUse] +11% к урону за каждые 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст (До 44%)\n<style=\"highlight\">[WhenUse] +11% к урону за каждую затраченную <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрелу</link></u></color> Фауст (До 44%)</style>\n[WhenUse] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Фауст повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Фауст повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Повышения уровня защиты</link></u></color> на следующий ход (Раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Развёртка тетивы клинкового лука",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Развёртка тетивы клинкового лука",
+          "desc": "<style=\"highlight\">При отсутствии  <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрел: Си</link></u></color> навык меняется на 「Уворот」\n\n[StartBattle] Если в этом ходу Фауст использует 「Блеск лука」, навык меняется на 「Уворот」\n[StartBattle] В <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойке</link></u></color> Фауст получает (36 ÷ [AimForTheGoal]) щита на время хода (Раз за ход)\n\n[EndBattle] Пока Фауст в <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойке</link></u></color>, если во время хода она не использовала атакующие навыки, она повышает уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> на 1 (Раз за ход)\n[EndBattle] Если Фауст не в <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойке</link></u></color> при наличии 1-й и более <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрел: Си</link></u></color>, она повышает уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> на 1 и становится в <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">стойку</link></u></color> на следующий ход (Раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Развёртка тетивы клинкового лука",
+          "desc": "При отсутствии  <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрел: Си</link></u></color> навык меняется на 「Уворот」\n\n[StartBattle] Если в этом ходу Фауст использует 「Блеск лука」, навык меняется на 「Уворот」\n[StartBattle] В <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойке</link></u></color> Фауст получает (<style=\"highlight\">60</style> ÷ [AimForTheGoal]) щита на время хода (Раз за ход)\n\n[EndBattle] Пока Фауст в <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойке</link></u></color>, если во время хода она не использовала атакующие навыки, она повышает уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> на 1 (Раз за ход)\n[EndBattle] Если Фауст не в <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойке</link></u></color> при наличии 1-й и более <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрел: Си</link></u></color>, она повышает уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> на 1 и становится в <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">стойку</link></u></color> на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021305,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Блеск лука",
+          "desc": "[CantDuel]\nДанный навык невозможно использовать повторно через внешние факторы\n+24% к урону за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> (До 72%)\n+24% к критическому урону за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> (До 72%)\n- На 4-м уровне  <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> Фауст получает +444% к критическому урону; данный эффект заменяет два указанных выше\n[WhenUse] Базовая сила +2 при 4-х <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст\n[WhenUse] Сила монет +2 за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> (До 4-х)\n[WhenUse] Фауст получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color>\n[EndSkill] Фауст теряет (уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> × 5) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[EndSkill] Фауст теряет все уровни <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> и выходит из <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойки</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"ArrowInTheEyeFau\"><color=#e30000><u><link=\"ArrowInTheEyeFau\">Вонзает</link></u></color> 1-у стрелу, после чего Фауст теряет <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрелу: Си</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Фауст <sprite name=\"AStrokeOfDeath\"><color=#f8c200><u><link=\"AStrokeOfDeath\">вычёркивает цель</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Блеск лука",
+          "desc": "[CantDuel]\nДанный навык невозможно использовать повторно через внешние факторы\n+<style=\"highlight\">48</style>% к урону за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> (До <style=\"highlight\">144</style>%)\n+<style=\"highlight\">48</style>% к критическому урону за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> (До <style=\"highlight\">144</style>%)\n- На 4-м уровне  <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> Фауст получает +444% к критическому урону; данный эффект заменяет два указанных выше\n[WhenUse] Базовая сила +2 <style=\"highlight\">за каждые</style> 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Фауст <style=\"highlight\">(До 10-и)</style>\n[WhenUse] Сила монет +<style=\"highlight\">4</style> за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> (До <style=\"highlight\">10-и</style>)\n[WhenUse] Фауст получает 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> за каждый уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color>\n[EndSkill] Фауст теряет (<style=\"highlight\">(уровень <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> - 1)</style> × 5) <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[EndSkill] Фауст теряет все уровни <sprite name=\"AimForTheGoal\"><color=#f8c200><u><link=\"AimForTheGoal\">прицеливания</link></u></color> и выходит из <sprite name=\"SnipingArrowMode\"><color=#f8c200><u><link=\"SnipingArrowMode\">прицельной стойки</link></u></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"ArrowInTheEyeFau\"><color=#e30000><u><link=\"ArrowInTheEyeFau\">Вонзает</link></u></color> 1-у стрелу, после чего Фауст теряет <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрелу: Си</link></u></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Фауст <sprite name=\"AStrokeOfDeath\"><color=#f8c200><u><link=\"AStrokeOfDeath\">вычёркивает цель</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "<style=\"highlight\">Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 4</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1 (Дважды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Уворот",
+          "desc": "[OnSucceedEvade] Фауст повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 1 (Трижды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Безошибочно, как того требует предписание",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], наносит им на 10% больше урона\n[WhenUse] Повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Безошибочно, как того требует предписание",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], наносит им на 10% больше урона\n<style=\"highlight\">Если сумма силы своего [Breath] и [Sinking] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Безошибочно, как того требует предписание",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">он получает +1 к Силе в столкновении +1 и</style> и наносит на <style=\"highlight\">20%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath] и [Sinking] на цели (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Наносит ещё 1 [Sinking]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Исполнить предписание, исполнить вновь",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], он получает +1 к Силе в столкновении\n[WhenUse] Получает 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Исполнить предписание, исполнить вновь",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], он получает +1 к Силе в столкновении\n<style=\"highlight\">Если сумма силы своего [Breath] и [Sinking] на цели равна 6 и более, Сила монет +1</style>\n[WhenUse] Получает 3 [Breath] <style=\"highlight\">и повышает счётчик [Breath] на 1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Sinking]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Исполнить предписание, исполнить вновь",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], он получает +1 к <style=\"highlight\">Итоговой силе</style>\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath] и [Sinking] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Получает 3 [Breath] и повышает счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Повышает счётчик [Sinking] на 2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021403,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Как того требует предписание, вы будете устранены.",
+          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], наносит им на 20% больше урона при критических попаданиях\nЕсли сумма силы своего [Breath] и [Sinking] на цели равна 6 и более, Сила монет +1\n[StartBattle] При 6 и более [BlessingOfIndexPrescriptAlly] все монеты этого навыка становятся [SuperCoin]\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит на (Значение [BlessingOfIndexPrescriptAlly] × 2.5%) больше урона (До 20%)\n- При 9 [BlessingOfIndexPrescriptAlly] наносит на 30% больше урона вместо этого"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Как того требует предписание, вы будете устранены.",
+          "desc": "Если этот навык отмечен [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">Итоговая сила +1</style> и при критическом попадании наносит на <style=\"highlight\">30%</style> больше урона\n<style=\"highlight\">Сила монет +1 за каждые 6 единиц суммы [Breath] на себе и [Sinking] на цели (до 2)</style>\n[StartBattle] При 6+ [BlessingOfIndexPrescriptAlly] преобразует все монеты этого навыка в [SuperCoin] и <style=\"highlight\">наносит на 30% больше урона</style>\n[WhenUse] Получает 3 к счётчику [Breath]\n<style=\"highlight\">- Получает [Breath] в размере ([BlessingOfIndexPrescriptAlly] / 3) (округляется вниз)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит на (Значение [BlessingOfIndexPrescriptAlly] × <style=\"highlight\">5%</style>) больше урона (До <style=\"highlight\">40%</style>)\n- При 9 [BlessingOfIndexPrescriptAlly] наносит на <style=\"highlight\">60%</style> больше урона вместо этого"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Sinking] <style=\"highlight\">на 3</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ткань, сотканая и изготовленная по предписанию",
+          "desc": "Итоговая сила +1 за каждые 3 [BlessingOfIndexPrescriptAlly] (До 3)\n[StartBattle] Получает ОЗ Щита в размере 10% от своих максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на 1% за каждые 5 [KarmaOfIndexAlly] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly])\n[WhenUse] Получает 2 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ткань, сотканая и изготовленная по предписанию",
+          "desc": "Итоговая сила +1 <style=\"highlight\">и на 10% больше наносимого урона</style> за каждые 3 [BlessingOfIndexPrescriptAlly] (До +3 к Итоговой силе<style=\"highlight\">; до +30% к урону</style>)\n[StartBattle] Получает ОЗ Щита в размере <style=\"highlight\">15%</style> от своих максимальных ОЗ (Единожды за ход)\n- Размер получаемых ОЗ Щита снижается на <style=\"highlight\">1.5%</style> за каждые 5 [KarmaOfIndexAlly] (Не получает ОЗ Щита вовсе при 50 и более [KarmaOfIndexAlly])\n[WhenUse] Получает 2 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мясник - Рёбра",
+          "desc": "Навык фазы [IronMaidenPersonality]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Мясник - Рёбра",
+          "desc": "Навык фазы [IronMaidenPersonality]\n[WhenUse] Сила в столкновении +1 за каждый тип негативных эффектов на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Мясник - Рёбра",
+          "desc": "Навык фазы [IronMaidenPersonality]\n[WhenUse] Сила в столкновении +1 за каждый тип негативных эффектов на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фасция голодает",
+          "desc": "[IronMaidenPersonality] эксклюзивный навык\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Фасция голодает",
+          "desc": "[IronMaidenPersonality] эксклюзивный навык\n<style=\"highlight\">[WhenUse] сила в столкновении +1 для любого типа негативного эффекта на цель (максимальный 2)</style>\n<style=\"highlight\">[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по цели (максимальный 2)</style>\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фасция голодает",
+          "desc": "[IronMaidenPersonality] эксклюзивный навык\n[WhenUse] сила в столкновении +1 для любого типа негативного эффекта на цель (максимум 2)\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] в цель (максимум <style=\"highlight\">4</style>)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Подавленная плоть",
+          "desc": "[IronMaidenPersonality] эксклюзивный навык\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по цели (максимальный 2)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте до 20 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- Финальная степень +2\n- Наносить +3% урона за каждый потраченный [ChargeBodyArt] счётчик",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 5% больше урона за каждый тип негативных эффектов на цели (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подавленная плоть",
+          "desc": "[IronMaidenPersonality] эксклюзивный навык\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по цели (максимальный 3)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте до 20 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- Финальная степень +2\n- Наносить +3% урона за каждый потраченный [ChargeBodyArt] счётчик",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 5% больше урона за каждый тип негативных эффектов на цели (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Расстановка выставки",
+          "desc": "[CanDuelGuard]\nНавык фазы [IronMaidenPersonality]\n[WinDuel] Повышает счётчик [Laceration] атаковавшего на 1 (До 2 раз за ход)\n[WinDuel] Наносит атаковавшему Пронзающий урон, равный силе его [Laceration] (До 20)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Расстановка выставки",
+          "desc": "[CanDuelGuard]\nНавык фазы [IronMaidenPersonality]\n[WinDuel] Повышает счётчик [Laceration] атаковавшего на <style=\"highlight\">2</style> (До 2 раз за ход)\n[WinDuel] Наносит атаковавшему Пронзающий урон, равный <style=\"highlight\">(</style>Сила его [Laceration] × 2) (До 30)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мясник - Рёбра",
+          "desc": "Навык фазы [SilverOpportunity]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Мясник - Рёбра",
+          "desc": "Навык фазы [SilverOpportunity]\nНаносит на 5% больше урона за каждый тип негативных эффектов на цели (До 20%)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Мясник - Рёбра",
+          "desc": "Навык фазы [SilverOpportunity]\nНаносит на 10% больше урона за каждый тип негативных эффектов на цели (До 30%)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [DefenseUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пора кушать, Фасция",
+          "desc": "[SilverOpportunity] эксклюзивный навык\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пора кушать, Фасция",
+          "desc": "[SilverOpportunity] эксклюзивный навык\n<style=\"highlight\">наносит +5% урон для любого негативного эффекта на цель (максимальный 20%)</style>\n<style=\"highlight\">[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по цели (максимальный 2)</style>\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пора кушать, Фасция",
+          "desc": "[SilverOpportunity] эксклюзивный навык\nНаносить +<style=\"highlight\">10</style>% урона за любой тип негативного эффекта цели (максимум <style=\"highlight\">30</style>%)\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] в цель (максимум <style=\"highlight\">4</style>)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021507,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Освобождение подавленной плоти",
+          "desc": "[SilverOpportunity] эксклюзивный навык\n[WhenUse] Наносить +30% урона за каждый избыточный вес атаки, сверх # реальных целей (в Сфокусированных Столкновениях, Часть).\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по основной цели (максимум 2)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик, потребляйте до 20 [ChargeBodyArt] счётчик и получаете следующие эффекты:\n- Финальная степень +2\n- Наносить +1% урона за каждый потраченный [ChargeBodyArt] счётчик\n- При 3+/5+ [ChargeBodyArt] прирост +1/+2 веса атаки\n- Конвертировать все монеты на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [SlashDamageUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 5% больше урона за каждый тип негативных эффектов на цели (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Освобождение подавленной плоти",
+          "desc": "[SilverOpportunity] эксклюзивный навык\n[WhenUse] Наносить +30% урона за каждый избыточный вес атаки, сверх # реальных целей (в Сфокусированных Столкновениях, Часть).\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по основной цели (максимум 3)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик, потребляйте до 20 [ChargeBodyArt] счётчик и получаете следующие эффекты:\n- Финальная степень +2\n- Наносить +1% урона за каждый потраченный [ChargeBodyArt] счётчик\n- При 3+/5+ [ChargeBodyArt] прирост +1/+2 веса атаки\n- Конвертировать все монеты на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход (Единожды за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [SlashDamageUp] на следующий ход (Единожды за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 5% больше урона за каждый тип негативных эффектов на цели (До 30%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выставка начинается",
+          "desc": "[SilverOpportunity] эксклюзивный навык\n[StartBattle] Получить 1 [SupportProtect] (один раз за ход)\n[OnSucceedEvade] Наносить 1 [Binding] следующий ход атакующему (один раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выставка начинается",
+          "desc": "[SilverOpportunity] эксклюзивный навык\n[StartBattle] Получить 1 [SupportProtect] (один раз за ход)\n[OnSucceedEvade] Наносить 1 [Binding] следующий ход атакующему (один раз за ход)\n[OnSucceedEvade] Получить 1 [Agility] следующий ход (один раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021509,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Акты вандализма запрещены.",
+          "desc": "[DuelCounter]\n[SilverOpportunity] эксклюзивный навык\n[SupportProtect] эксклюзивный навык\nНаносите +5% урон при любом негативном эффекте цели (максимальный 20%)\n[WhenUse] Если цель имеет 6+ [Laceration], сила монеты +1\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Акты вандализма запрещены.",
+          "desc": "[DuelCounter]\n[SilverOpportunity] эксклюзивный навык\n[SupportProtect] эксклюзивный навык\nНаносить +<style=\"highlight\">10</style>% урона за любой тип негативного эффекта цели (максимум <style=\"highlight\">30</style>%)\n[WhenUse] <style=\"highlight\">сила монеты сила +1 для каждого 6 [Laceration] по цели (максимальный 2)</style>\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспышка восхода",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (До 2)\n[WhenUse] Вновь подкидывает последнюю монету 1 раз при 20 и более [StigmaWorkshopCelloCaseOne]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Вспышка восхода",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (До 2)\n[WhenUse] Вновь подкидывает последнюю монету 1 раз при 20 и более [StigmaWorkshopCelloCaseOne]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вспышка восхода",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До <style=\"highlight\">3</style>)\n<style=\"highlight\">[WhenUse] Повышает значение [StigmaWorkshopCelloCaseOne] на 4</style>\n[WhenUse] Сила в столкновении +1 за каждые 10 [StigmaWorkshopCelloCaseOne] (До <style=\"highlight\">3</style>)\n[WhenUse] Вновь подкидывает последнюю монету 1 раз при 20 и более [StigmaWorkshopCelloCaseOne]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion] <style=\"highlight\">и повышает счётчик [Combustion] на 1</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрез бабочки",
+          "desc": "[WhenUse] За каждые 10 [StigmaWorkshopCelloCaseOne]:\n- Сила в столкновении +1 (До 2)\n- Вновь подкидывает последнюю монету (До 2 раз)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] активирует [VibrationExplosion]; затем уменьшите количество [Vibration] цели на 1 (один раз за навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Разрез бабочки",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)\n[WhenUse] Повышает значение [StigmaWorkshopCelloCaseOne] на 3</style>\n[WhenUse] За каждые 10 [StigmaWorkshopCelloCaseOne]:\n- Сила в столкновении +1 (До 2)\n- Вновь подкидывает последнюю монету (До 2 раз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Combustion] и [Vibration] на 1 при 10 и более [StigmaWorkshopCelloCaseOne]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Накладывает 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (раз за навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Разрез бабочки",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До <style=\"highlight\">3</style>)\n[WhenUse] Повышает значение [StigmaWorkshopCelloCaseOne] на <style=\"highlight\">6</style>\n[WhenUse] За каждые 10 [StigmaWorkshopCelloCaseOne]:\n- Сила в столкновении +1 (До <style=\"highlight\">3</style>)\n- Вновь подкидывает последнюю монету (До 2 раз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] и [Vibration] на 1 <style=\"highlight\">за каждые 10</style> [StigmaWorkshopCelloCaseOne] (До 2 каждого)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Накладывает 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (раз за навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Выпуск",
+          "desc": "[BeforeUse] Использует альтернативный третий навык 「Выпуск - Полдень[TabExplain]」 вместо этого при максимальном значении [StigmaWorkshopCelloCaseOne] (Единожды за ход)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion] и [Vibration]\n[WhenUse] Повышает значение [StigmaWorkshopCelloCaseOne] на 5\n[WhenUse] За каждые 10 [StigmaWorkshopCelloCaseOne]:\n- Сила в столкновении +1 (До 2)\n- Повышает счётчик [Combustion] и [Vibration] цели на 1 (До 2 каждого)\n- Вновь подкидывает последнюю монету (До 2 раз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (2 раза за навык)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выпуск",
+          "desc": "[BeforeUse] Использует альтернативный третий навык 「Выпуск - Полдень[TabExplain]」 вместо этого при максимальном значении [StigmaWorkshopCelloCaseOne] (Единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Combustion] и [Vibration] на цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Повышает значение [StigmaWorkshopCelloCaseOne] на <style=\"highlight\">8</style>\n[WhenUse] За каждые 10 [StigmaWorkshopCelloCaseOne]:\n- Сила в столкновении +1 (До <style=\"highlight\">3</style>)\n- Повышает счётчик [Combustion] и [Vibration] цели на 1 (До <style=\"highlight\">3</style> каждого)\n- Вновь подкидывает последнюю монету (До 2 раз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Преобразует [Switch_Vibration] в [VibrationIgnition]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (<style=\"highlight\">3</style> раза за навык)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Накладывает 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Клеймо",
+          "desc": "[DuelCounter]\n[WhenUse] Сила монет +1 при 5 и более [Combustion] на себе\n[WhenUse] Понижает свою силу [Combustion] на 5 (Единожды за ход)\n[WinDuel] Понижает свою силу [Combustion] ещё на 3 (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion] (До 2 раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration] (До 2 раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Клеймо",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] На 30 [StigmaWorkshopCelloCaseOne] активируйте «Расчленение на высоком полудень[TabExplain]» (один раз за ход)\n- Если у этого устройства есть [CaseOverheating], указанный эффект не активируется\n[WhenUse] На 5+ [Combustion] сила монеты +1</style>\n[WhenUse] Проигрывать 5 [Combustion] (один раз за ход)\n[WinDuel] Проигрывать 3 [Combustion] (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Combustion] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Vibration] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Клеймо",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[StartBattle] Получить 6 [StigmaWorkshopCelloCaseOne] (один раз за встречу)</style>\n[BeforeUse] На 30 [StigmaWorkshopCelloCaseOne] активируйте «Расчленение на высоком полудень[TabExplain]» (один раз за ход)\n- Если у этого устройства есть [CaseOverheating], указанный эффект не активируется\n[WhenUse] <style=\"highlight\">сила монеты сила +1 на каждый 5 [Combustion] на себе (максимальный 2)</style>\n[WhenUse] Проигрывать 5 [Combustion] (один раз за ход)\n[WinDuel] Проигрывать 3 [Combustion] (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Combustion] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Vibration] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021605,
+      "levelList": [
+        {
+          "level": 2,
+          "name": "Поддерживающее наступление",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 1 (До 2 раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1 (До 2 раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Поддерживающее наступление",
+          "desc": "<style=\"highlight\">[WhenUse] Наносит на (Текущее значение [StigmaWorkshopCelloCaseOne])% больше урона (До 30%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 к счётчику [Vibration] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 к счётчику [Combustion] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Поддерживающее наступление",
+          "desc": "[WhenUse] В зависимости от значения [StigmaWorkshopCelloCaseOne]:\n- Наносит на <style=\"highlight\">2%</style> больше урона за каждую единицу (До 60%)\n- Итоговая сила +1 за каждые 10 единиц (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 к счётчику [Vibration] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 к счётчику [Combustion] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Выпуск - Полдень",
+          "desc": "[WideAreaRampage]\nАктивируйте следующие эффекты по цели при каждом попадании этого навыка:\n- Навести 1 [Combustion] или 1 [Vibration]\n- Если у цели нет [VibrationIgnition], триггер [Switch_Vibration] в [VibrationIgnition] (один раз на цель)\n[WhenUse]\n- сила в столкновении +3\n- Если у основной цели есть 6+ ([Combustion] + [Vibration]), +1 силы монет и силы столкновения +2\n- Нанести +2 [Combustion] Считать все цели\n- Нанести +2 [Vibration] Считать все цели\n[EndSkill]\n- Нанести 1 [ResultReduction] следующий ход на все поражённые цели (один раз за ход)\n- получает 1 [Firstlight]\n- получает 1 [CaseOverheating]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Вновь подкидывает эту монету ещё 2 раза"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (2 раза за навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выпуск - Полдень",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">наносит +([Combustion] на себя + [Combustion] по цели)% урона (максимальный 20%, считается на цель)</style>\nАктивируйте следующие эффекты по цели при каждом попадании этого навыка:\n- Навести 1 [Combustion] или 1 [Vibration]\n- Если у цели нет [VibrationIgnition], триггер [Switch_Vibration] в [VibrationIgnition] (один раз на цель)\n[WhenUse]\n- сила в столкновении +3\n<style=\"highlight\">- +2 +1 силы монет и силы столкновения  за каждую 6 ([Combustion] + [Vibration]) по основной цели (максимальные 2 и 4 соответственно)</style>\n- Нанести +<style=\"highlight\">3</style> [Combustion] Считать по всем целям\n- Нанести +<style=\"highlight\">3</style> [Vibration] Считать по всем целям\n[EndSkill]\n- Нанести 1 [ResultReduction] следующий ход на все поражённые цели (один раз за ход)\n- получает 1 [Firstlight]\n- получает 1 [CaseOverheating]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Повторно использует эту монету (до 2 раз)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Если уже есть [Firstlight], то на (Сила [Combustion] на цели / 2)% больше урона (До 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (<style=\"highlight\">3</style> раза за навык)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1021607,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Полуденное расчленение",
+          "desc": "[WideAreaRampage]\nНаносить +(не хватает ОЗ процента по себе / 2)% урона (максимальный 25%)\nАктивируйте следующие эффекты по цели при каждом попадании этого навыка:\n- Навести 1 [Combustion] или 1 [Vibration]\n- Если у цели нет [VibrationIgnition], триггер [Switch_Vibration] в [VibrationIgnition] (один раз на цель)\n[WhenUse]\n- сила в столкновении +3\n- Если у основной цели есть 6+ ([Combustion] + [Vibration]), +1 силы монет и силы столкновения +2\n- Нанести +2 [Combustion] Считать все цели\n- Нанести +2 [Vibration] Считать все цели\n[EndSkill]\n- Потреблять до 30 [Combustion] на себе и исцелять (5 + [Combustion] расходуется) % ОЗ (максимум 35%)\n- Потреблять всё [StigmaWorkshopCelloCaseOne] на себе\n- получает 3 [Firstlight]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Вновь подкидывает эту монету ещё 2 раза"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (2 раза за навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Полуденное расчленение",
+          "desc": "[WideAreaRampage]\nНаносить +(<style=\"highlight\">отсутствует ОЗ процент на себя</style>)% урона (максимальный <style=\"highlight\">50%</style>)\n<style=\"highlight\">Раздать +([Combustion] Эффективность по цели)% урона (максимальный 20%, считается на цель)></style>\nАктивируйте следующие эффекты по цели при каждом попадании этого навыка:\n- Наносить 1 [Combustion] или 1 [Vibration]\n- Если у цели нет [VibrationIgnition], триггер [Switch_Vibration] в [VibrationIgnition] (один раз на цель)\n[WhenUse]\n- сила в столкновении +3\n- <style=\"highlight\">Монетная сила +1 и Сила Столкновения +2 за каждую 6 ([Combustion] + [Vibration]) на основной цели (максимальные 2 и 4 соответственно)</style>\n- Нанести +<style=\"highlight\">3</style> [Combustion] Считать всех целей\n- Нанести +<style=\"highlight\">3</style> [Vibration] Считать всех целей\n[EndSkill]\n- Потреблять до 30 [Combustion] на себе и исцелять (<style=\"highlight\">20</style> + [Combustion] потребляется) % ОЗ (максимальное <style=\"highlight\">50%</style>)\n- Потреблять всё [StigmaWorkshopCelloCaseOne] на себе\n- Усиление 3 [Firstlight]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Повторно использует эту монету (до 2 раз)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Если уже есть [Firstlight], то на (Сила [Combustion] на цели / 2)% больше урона (До 20%)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (<style=\"highlight\">3</style> раза за навык)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

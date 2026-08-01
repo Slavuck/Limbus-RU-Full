@@ -1,0 +1,67 @@
+{
+  "dataList": [
+    {
+      "id": 40000501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Багровое рассечение",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 3 [Burst] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Laceration] <nobr>на 2</nobr>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [DefenseDown]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] <nobr>на 2</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40000502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пьяный сон, безудержная рябь",
+          "desc": "Может перехватить любые атаки независимо от скорости\n[WhenUse] Базовая сила +1 за каждые 3 [Breath] (До 3)\n[WhenUse] Базовая сила +3 за каждый тип негативных эффектов на цели (До 9)\n[WhenUse] Получает 5 [Agility] на следующий ход (Единожды за ход)\n[WhenUse] Получает 10 [Breath] и повышает счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Нанести 7 [Laceration] и +2 [Laceration] счётчик"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести 3 [Paralysis] следующий ход"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит на 300% больше урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

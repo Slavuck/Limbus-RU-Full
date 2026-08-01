@@ -1,0 +1,246 @@
+{
+  "dataList": [
+    {
+      "id": 9018101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "От■■сь",
+          "desc": "[WhenUse] Сила монет +1 против целей, которые не имеют [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 урона по СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "■ав■■ ■■ть!",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 урона по СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на количество нанесённого урона (До 20)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Э■о г■■ ■■■ть ■ту!!",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 [Burst] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на количество нанесённого урона (До 20)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При ОЗ ниже 50% повторно использует монету один раз"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на количество нанесённого урона (До 20)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "З■щ■■■",
+          "desc": "[WhenUse] Получает 5 ОЗ Щита за каждый [Burst] на атакующем\n[EndBattle] Восстанавливает себе ОЗ на количество оставшегося щита",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "За■■■ть",
+          "desc": "[WhenUse] Сила монет +1 против целей, которые не имеют [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 урона по СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Раз■■в",
+          "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Burst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 урона по СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ на количество нанесённого урона (До 20)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В■мя е■■ь!",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 [Burst] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на количество нанесённого урона (До 20)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При ОЗ ниже 50% повторно использует монету один раз"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе ОЗ на количество нанесённого урона (До 20)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9018204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "■■щит■",
+          "desc": "[WhenUse] Получает 5 ОЗ Щита за каждый [Burst] на атакующем\n[EndBattle] Восстанавливает себе ОЗ на количество оставшегося щита",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

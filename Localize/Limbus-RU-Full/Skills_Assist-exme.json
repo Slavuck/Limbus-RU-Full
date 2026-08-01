@@ -1,0 +1,474 @@
+{
+  "dataList": [
+    {
+      "id": 40003801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искусство раздирания",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)\n[WhenUse] Базовая сила +2 при 3 и более [Agility]\n[WhenUse] Повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Иглоукалывание",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)\n[WhenUse] Базовая сила +2 при 3 и более [Agility]\n[WhenUse] Повышает свой счётчик [Breath] на 2\n[WinDuel] Повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 2 [Agility] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Светящееся колеблющееся пламя",
+          "desc": "Наносит на 0.5% больше урона за каждый 1% потерянных ОЗ (До 25%)\nНаносит на 25% больше урона за каждую имеющуюся [Agility] (До 150%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin] при 5 и более [WindBlade]\n[WinDuel] Получает 5 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 1 [WindBlade]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 1 [WindBlade]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Получает 1 [WindBlade]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уравновесить баланс - Светящееся колеблющееся пламя",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков\n\nНаносит на 0.5% больше урона за каждый 1% потерянных ОЗ (До 25%)\nНаносит на 25% больше урона за каждую имеющуюся [Agility] (До 100%)\n\n[EndSkill] Теряет всё имеющееся значение [WindBlade]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает эту монету 1 раз при 5 и более [Agility]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы разрубить кости",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на 0.5% больше урона за каждый 1% своих потерянных ОЗ (До 25%)\nНаносит на 10% больше урона при критических попаданиях за каждую имеющуюся [Agility] (До 50%)\n[WhenUse] Базовая сила +1 за каждые 4 единицы в сумме силы своего [Breath] и [Laceration] на цели (До 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я буду освещать путь вперёд",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [SupportProtect]\n[WhenUse] Получает 5 [Breath]\n[WinDuel] Повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассматривая камни на доске",
+          "desc": "[CanDuelGuard]\nСпециальный навык для [SupportProtect]\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Если сила своего [Breath] выше 25 [Breath], то тратит 5 [Breath], чтобы получить 3 [WindBlade]\n[WinDuel] Повышает свой счётчик Дыхания на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обнажение меча",
+          "desc": "[WhenUse] Сила монет +1 при 5 и более [Breath]\n[WhenUse] Повышает свой счётчик [Breath] на 2\n[WinDuel] Получает 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Иглоукалывание",
+          "desc": "[WhenUse] Сила монет +1 при 7 и более [Breath]\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[WinDuel] Получает 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 20% больше урона при критическом попадани"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 40% больше урона при критическом попадани"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Низвержение",
+          "desc": "[DuelCounter]\n[StartBattle] Получает 2 [SlashDamageUp] на этот и следующий ход\n[WhenUse] Сила монет +1 при 8 и более [Breath]\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[WinDuel] Получает 4 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 80% больше урона при критическом попадани"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 8 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уступлю плоть",
+          "desc": "Нацеливается на навык противника, имеющий наибольшую максимальную Силу\n\n[WhenUse] До окончания использования этого навыка или во время принятия урона после поражения в столкновении:\n- Своя Сила в столкновении понижается на силу своего [Breath] (До -30)\n- Получает на (Сила своего [Breath] × 2)% меньше урона (До 80%) и не может быть оглушён\n[WinDuel] Получает 5 [Breath]\n[DefeatDuel] Использует свой альтернативный защитный навык 「Дабы забрать их кости」 после принятия атаки\n[EndBattle] Не может использовать навык 「Дабы забрать их кости」 до конца этого хода",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 150% больше урона при критическом попадани"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [SlashResistDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [DefenseDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дабы разрубить кости",
+          "desc": "[WhenUse] Сила монет +1 при 10 и более [Breath]\n[WhenUse] Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 40)% больше урона\n[WhenUse] Повышает свой счётчик [Breath] на 4\n[EndSkill] Теряет всё [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Итоговая сила последней монеты +2 (Единожды за монету)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Laceration] и повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ателье ЮРии - Режим тотальной атаки.. Мк. 17!",
+          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +3 против целей с 6 и более [Vibration]",
+          "flavor": "Особый топор ручной работы для золотистого ретривера",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и понижает счётчик [Laceration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40003902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я тебя прикрою! Встань за мной!",
+          "desc": "[CanDuelGuard]\nСпециальный навык для [SupportProtect]\n[WinDuel] Восстанавливает 4 СД всем союзникам включая себя\n- Восстанавливает на 4 СД больше союзникам из LCD",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

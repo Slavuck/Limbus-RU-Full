@@ -1,0 +1,169 @@
+{
+  "dataList": [
+    {
+      "id": "ColdBlackTear",
+      "name": "Холодные чёрные слёзы",
+      "desc": "- Верхняя граница: 5.\n- В начале хода даёт 1 <sprite name=\"ParryingResultDown\"><color=#e30000><u><link=\"ParryingResultDown\">Понижение силы парирований</link></u></color>.\n- При принятии атак с данным эффектом носитель теряет (число <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Слёз</link></u></color> × 2) СД. (Раз за ход, не активируется при получении урона треснувшей монетой)\n- При понижении числа эффекта Королевой ненависти носитель восстанавливает 5 СД.\n- При понижении данным эффектом сила духа не падает ниже -40.",
+      "summary": ""
+    },
+    {
+      "id": "HelplessTear",
+      "name": "Слёзы беспомощности",
+      "desc": "- Верхняя граница: 1.\n- +3 уровня атаки.\n- -6 уровней защиты.\n- +1 тяжесть атаки для всех навыков.\n- Все монеты навыков становятся <sprite name=\"SuperCoin\"><color=#9f6a3a><u><link=\"SuperCoin\">вечными</link></u></color>.\n- +1 к наносимым потенциалу и счётчику <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>.",
+      "summary": ""
+    },
+    {
+      "id": "WornOutKnight",
+      "name": "Измождённый рыцарь",
+      "desc": "+100% к получаемому урону в течение хода.<i>\n\n<color=#2e72b9>Рыцарь, желавший искупить свою вину спасением других, ныне позорно зовётся Рыцарем Отчаяния; она забыта всеми, подобно прочим.</color></i>",
+      "summary": "",
+      "flavor": "<color=#2e72b9>Рыцарь, хотевшая искупить свою вину, спасая других, ныне была уничижительно прозвана Рыцарем Отчаяния. Она была стёрта в памяти людей, как и другие.</color>"
+    },
+    {
+      "id": "SignOfDespair",
+      "name": "Благословение отчаянием",
+      "desc": "При наличии на поле боя противников без <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодных чёрных слёз</link></u></color> в конце атаки, данный эффект прекращает действие на следующий ход.\n\nДаёт 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение урона</link></u></color> и 1 <sprite name=\"ParryingResultUp\"><color=#f8c200><u><link=\"ParryingResultUp\">Повышение силы парирований</link></u></color>.\n+1 к наносимым <sprite name=\"ColdBlackTear\"><color=#e30000><u><link=\"ColdBlackTear\">Холодным чёрным слезам</link></u></color>.",
+      "summary": ""
+    },
+    {
+      "id": "CollapsedPride",
+      "name": "Падшая гордость",
+      "desc": "<i><color=#2e72b9>И в конце осталась лишь бесславная гордость измождённого рыцаря.</color></i>",
+      "summary": "",
+      "flavor": "<color=#2e72b9>Осталась лишь пустая гордость видавшего виды рыцаря.</color>"
+    },
+    {
+      "id": "FailedToAssistQueen",
+      "name": "В чём… смысл мне… быть?",
+      "desc": "- Верхняя граница: 1.\n- -3 уровня атаки.\n- -3 уровня защиты.",
+      "summary": ""
+    },
+    {
+      "id": "UsedTooMuchPower",
+      "name": "Я истощила свои силы",
+      "desc": "- Верхняя граница: 1.\n- Покидает поле битвы на следующий ход.\n\n<i><color=#ff3d8f>Слишком истощена, чтобы двигаться.</color></i>",
+      "summary": "",
+      "flavor": "<color=#ff3d8f>Истощена и неспособна сражаться</color>"
+    },
+    {
+      "id": "ChasingArcana",
+      "name": "Заклинаю: Аркана Слэйв",
+      "desc": "- Верхняя граница: 3.\n- В начале хода повышается на 1.\n- При достижении 3-х единиц на следующий ход фиксирует скорость на 20-и и использует 「Аркана Слэйв」.",
+      "summary": ""
+    },
+    {
+      "id": "PowerOfLoveAndJustice",
+      "name": "Любовь и справедливость",
+      "desc": "- +(потенциал эффекта) к наносимому потенциалу <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>.",
+      "summary": ""
+    },
+    {
+      "id": "CentralCommandTeamCaptain",
+      "name": "Капитан Центральной команды контроля",
+      "desc": "- Грешник с данным эффектом получает +1 ячейку навыков.\n- Также он получает дополнительный 3-й атакующий навык, но теряет 1-й атакующий навык.\n- При использовании навыков грешник наносит +1 потенциал <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> или <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>. (Включая их особые вариации)\n- При повышении потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> или счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> дополнительно повышает их на 1.\n- Не поддаётся срыву и коррозии, на следующий ход обнуляет значение силы духа. (Раз за битву)\n- +30% к урону, наносимому навыками с тяжестью атаки 2 и более.\n- При убийстве противника +2 к ЭГО-ресурсу  греха использованного навыка, +1 к остальным ЭГО-ресурсам",
+      "summary": ""
+    },
+    {
+      "id": "BestWelfareTeamMember",
+      "name": "Мировой сотрудник отдела Благосостояния",
+      "desc": "- При использовании навыков грешник наносит +1 потенциал <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> или <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>. (Включая их особые вариации)\n- Не поддаётся срыву и коррозии, на следующий ход обнуляет значение силы духа. (Раз за битву)\n- Если мировой — Родя в 『ЭГО «Лоботомии»::Точёный слезами меч』, в течение каждого хода она получает 1 <sprite name=\"PenetrateDamageUp\"><color=#f8c200><u><link=\"PenetrateDamageUp\">Повышение колющего урона</link></u></color>.",
+      "summary": ""
+    },
+    {
+      "id": "ChasingArcanahard",
+      "name": "Заклинаю: Аркана Слэйв",
+      "desc": "- Верхняя граница: 3.\n- В начале хода повышается на 1.\n- При достижении 3-х единиц на следующий ход фиксирует скорость на 20-и и использует 「Аркана Слэйв」.",
+      "summary": ""
+    },
+    {
+      "id": "HystericGauge",
+      "name": "Истерия",
+      "desc": "- Базовая граница: 0.\n- Верхняя граница: 3.\n- <b>В конце хода:</b>\n· Пока СД выше 0, понижается на 1.\n· При понижении СД ниже 0 поднимается на 1.",
+      "summary": ""
+    },
+    {
+      "id": "MagicalGirlAppear",
+      "name": "На сцену выходит девочка-волшебница!",
+      "desc": "- В течение хода выбранные атакующие навыки используют положительные монеты.\n\n- +3% к наносимому базовыми навыками за каждую единицу <sprite name=\"ThePowerOfLoveAndHate\"><color=#f8c200><u><link=\"ThePowerOfLoveAndHate\">Любви и ненависти</link></u></color> на Дон Кихот. (До 15%)",
+      "summary": ""
+    },
+    {
+      "id": "NoVillain",
+      "name": "Реверсивная регрессия",
+      "desc": "- В течение хода выбранные атакующие навыки используют отрицательные монеты.",
+      "summary": ""
+    },
+    {
+      "id": "VillainMark",
+      "name": "Метка лиходея",
+      "desc": "- +10% к урону, наносимому атаками Дон Кихот.\n\n- Данную метку на время хода получает только первый принимающий атаки Дон Кихот.",
+      "summary": ""
+    },
+    {
+      "id": "ArcanaQueenOfHate",
+      "name": "Магическая Аркана",
+      "desc": "- Верхняя граница: 3.\n- + (число Арканы × 5)% к урону, наносимому базовыми навыками Дон Кихот.\n- При достижении 3-х в конце хода, Дон Кихот, если её СД была выше -25, теряет СД до -25.",
+      "summary": ""
+    },
+    {
+      "id": "ThePowerOfLoveAndHate",
+      "name": "Любовь и ненависть",
+      "desc": "- Верхняя граница счётчика: 20.\n- Особый <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color>.\n- Расходуется на усиление некоторых навыков. Счётчик поднимается до 20-и. В конце хода счётчик эффекта понижается на 1.\n(Эффект повышается и понижается подобно обычному <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряду</link></u></color>)",
+      "summary": ""
+    },
+    {
+      "id": "MagicalGirlResponse",
+      "name": "Заклинания девочки-волшебницы",
+      "desc": "- Верхняя граница: 2\n- С данным эффектом союзник Дон Кихот получает 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 1 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышение атаки</link></u></color>.\n- +10% к урону и +1 к итоговой силе атакующих навыков, что повышают и расходуют счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>.\n- В конце хода число эффекта понижается на 1.",
+      "summary": ""
+    },
+    {
+      "id": "BlessingAlly",
+      "name": "Благословение",
+      "desc": "- Получает по <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">Оберегающей рапире</link></u></color> за каждые 8 СД в начале хода. (До 5-и)\n- В конце поединка цель благословлённой получает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>. (Раз за ход)\n- При успешной атаке наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цель. (Раз за ход)\n- +1 к наносимому потенциалу <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> описанными выше эффектами за каждые 20 СД. (До 2-х)\n- Пока длится <sprite name=\"BlessingAlly\"><color=#f8c200><u><link=\"BlessingAlly\">Благословение</link></u></color>, атакующие навыки используют положительные монеты.",
+      "summary": ""
+    },
+    {
+      "id": "ProtectiveSword",
+      "name": "Оберегающая рапира",
+      "desc": "- В начале хода получает 1 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color> за каждую <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">рапиру</link></u></color>. (До 5-и)\n- В начале хода самая левая ячейка навыка получает (число <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">рапир</link></u></color> × 3) <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color>. (До 15-и)\n- Верхняя граница : 5\n- В конце хода <sprite name=\"ProtectiveSword\"><color=#f8c200><u><link=\"ProtectiveSword\">рапиры</link></u></color> исчезают.",
+      "summary": ""
+    },
+    {
+      "id": "DespairAlly",
+      "name": "Отчаяние",
+      "desc": "- Получает по <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">Пронзающей рапире</link></u></color> за каждые -8 СД в начале хода.  (До 5-и)\n- В конце поединка цель отчаявшейся повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 1 (Раз за ход).\n- При успешной атаке первой монетой навыка повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели на 1. (Раз за ход)\n- +1 к наносимому счётчику <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> описанными выше эффектами за каждые -20 СД. (До 2-х)\n- Пока длится <sprite name=\"DespairAlly\"><color=#f8c200><u><link=\"DespairAlly\">Отчаяние</link></u></color>, атакующие навыки используют отрицательные монеты.",
+      "summary": ""
+    },
+    {
+      "id": "PenetratingSword",
+      "name": "Пронзающая рапира",
+      "desc": "- В начале хода получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> за каждую <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">рапиру</link></u></color>. (До 5-и)\n- В начале хода понижает возможность <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> всех ячеек навыков отчаявшейся на (число <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">рапир</link></u></color> × 0,15) (До 0,75)\n- Верхняя граница : 5\n- В конце хода все <sprite name=\"PenetratingSword\"><color=#f8c200><u><link=\"PenetratingSword\">рапиры</link></u></color> исчезают.",
+      "summary": ""
+    },
+    {
+      "id": "SwordCutwithTear",
+      "name": "Заточка слезами",
+      "desc": "- В начале хода Родя получает 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">Чёрных слёз</link></u></color>.\n· При 3-м <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">силе заточки</link></u></color> получает ещё 5 <sprite name=\"BlackTearsAlly\"><color=#f8c200><u><link=\"BlackTearsAlly\">cлёз</link></u></color>.\n- В конце хода Родя теряет (<sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">сила заточки</link></u></color> × 15) СД.\n- +(<sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">сила заточки</link></u></color> × 10)% к урону базовых навыков Роди. (До 30%)\n- Пока Родя <sprite name=\"BlessingAlly\"><color=#f8c200><u><link=\"BlessingAlly\">благословлена</link></u></color>, она получает [Повышение силы парирований, равное <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">силе заточки</link></u></color>.\n- Если Родя поддалась <sprite name=\"DespairAlly\"><color=#f8c200><u><link=\"DespairAlly\">отчаянию</link></u></color>, она получает <sprite name=\"PenetrateResultUp\"><color=#f8c200><u><link=\"PenetrateResultUp\">Повышение силы колющих атак</link></u></color>, равное <sprite name=\"SwordCutwithTear\"><color=#f8c200><u><link=\"SwordCutwithTear\">силе заточки</link></u></color>.\n- Верхняя граница: 3.",
+      "summary": ""
+    },
+    {
+      "id": "BlackTearsAlly",
+      "name": "Чёрные слёзы",
+      "desc": "- Особый <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряд</link></u></color>. (Фиксированный потенциал)\n- Расходуется на усиление некоторых навыков.\n- Верхняя граница : 20.",
+      "summary": ""
+    },
+    {
+      "id": "KnightBless",
+      "name": "Благословение",
+      "desc": "- В начале хода получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>.\n- Сопротивления слабее 1,0 фиксируются на 1,0. (Не влияет на состояние оглушения)",
+      "summary": ""
+    },
+    {
+      "id": "TraumaShield",
+      "name": "Щит травмы",
+      "desc": "- -80% к урону по силе духа от противников.\n- -80% к урону <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружением</link></u></color>.\n- В конце хода число эффекта понижается на 1.",
+      "summary": ""
+    }
+  ]
+}

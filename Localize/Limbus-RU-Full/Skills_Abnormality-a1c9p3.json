@@ -1,0 +1,4077 @@
+{
+  "dataList": [
+    {
+      "id": 131401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Режущий удар",
+          "desc": "Сила монет +1 при 6 и более [Breath]\nСила в столкновении +1 против целей с 6 и более [Vibration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion] на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Колющий удар",
+          "desc": "Сила монет +1 при 6 и более [Breath]\n[WhenUse] Базовая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделка кролика",
+          "desc": "Сила монет +1 при 6 и более [Breath]\n[WhenUse] Базовая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion] и повышает счётчик [Combustion] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration] и повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion] на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделка оленя",
+          "desc": "Сила монет +1 при 6 и более [Breath]\nСила монет +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)\n[WhenUse] Если своя СД выше 0, создаёт 1 Ман (望): получает +4 к Базовой силе\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[WinDuel] Получает 5 [Breath]\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration] и повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дважды активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я с радостью проделаю в тебе дыру",
+          "desc": "Сила монет +1 при 6 и более [Breath]\nСила монет +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion] на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделка слона",
+          "desc": "Сила монет +1 при 6 и более [Breath]\nСила монет +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[DefeatDuel] Наносит на 50% меньше урона, а также не может попасть критически или оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [AccelBullet]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Преобразует [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон Гневом, равный силе [Combustion] на цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Дважды активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Утилизация",
+          "desc": "[CantChangeTarget]\nНе может быть оглушена до использования этого навыка\n\n<color=#ff6000><mark color=#ff000040><b><u>Получает +1 к Базовой силе и +10% к наносимому урону за каждую единицу значения [FutureEyeOn](#f8c200)</color></mark></b></u>\n[WhenUse] Если ОЗ цели ниже 50%, наносит ей на 100% больше урона\n[WhenUse] Если своя СД выше 0, создаёт 1 Ман (望): получает +4 к Базовой силе\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[WinDuel] Получает 5 [Breath]\n[DefeatDuel] Наносит на 50% меньше урона, а также не может попасть критически или оглушить цель\n[EnemyKill] Случайный Грешник становится [TeachersPrey] в следующем ходе\n[EndSkill] [FullReload]\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 6"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит все оставшиеся [AccelBullet]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Трижды активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Дважды активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 131408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предвидение",
+          "desc": "После успешного уклонения от всех монет на навыке используйте «Разделка кролика» как беспрепятственную атаку на атакующего\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>базовая сила +1 для каждого 2 [FutureEyeOn] заряд</u></b></mark></color>\n[WhenUse] [FullReload] (один раз за ход)\n[OnSucceedEvade] Усиление 3 [Breath] (2 раз за ход)\n[OnSucceedEvade] восстанавливает 2 СД (5 раза за ход)\n[OnDefeatEvade] Потерять 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 130606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я защищу.",
+          "desc": "[CanDuelGuard]\nСпециальный навык для [SupportProtect]\n[WhenUse] Восстанавливает 8 СД себе и Валенсине\n[DefeatDuel] Получает 1 [Vulnerable] на следующий ход\n Получает на 20% меньше урона за каждую единицу имеющейся [SupportProtect]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Инсталляция №3: Импровизированная грудная клетка",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных навыков цели\n[WhenUse] Сила монет +1 за каждые 8 [Laceration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон по СД вместо ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 15 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Оглушает цель и превращает её в [LivingSpecimenTheRings] в следующем ходу</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Анатомировать",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит ещё 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сбор ингредиентов - Окровавленный объект",
+          "desc": "Нацеливается на Телесные театры\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] ещё на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
+          "desc": "В течение хода этот отряд получает этот навык, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при попадании атакующих навыков</u></b></mark></color> (один раз за навык; максимум 3 раза за ход)\nНельзя оглушить до использования этого навыка\nПри убийстве с этим навыком: лечите 15 СД за каждую убитую цель\n[StartBattle] получает 4 [Protection]\n[WhenUse] Наносить +3% урона за каждую 6 ([Laceration] по основной цели + [Laceration] по субмишену) (максимальный 30%)\n[DefeatDuel] наносить -60% урон и урон этого навыка не может оглушить цель\n[EndSkill] [MineTheRings] истекает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "О, как мы любим плоть и кровь",
+          "desc": "Нацеливается на Ученицу Безымянного - Альбину\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 4 [AttackDmgDown]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Не наносит урона по ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если итоговой целью является противник, повышает ему счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": " Если итоговой целью является Альбина, даёт ей 6 [AttackUp] вместо этого"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Курирование выставки",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 2 [SupportProtect]</u></b></mark></color>\n[WhenUse] Атакующий не будет терять счётчик [Laceration] во время этого уворота",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пожалуйста. Вандализм запрещён.",
+          "desc": "[DuelCounter]\nСпециальный навык для [SupportProtect]\nНе может быть оглушён до использования этого навыка\n[WhenUse] Получает 1 [Protection]\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время закрытия - Инсталляция №1: Ваша плоть и кости в качестве мест галереи",
+          "desc": "[CantDuel]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных навыков цели\n[WhenUse] Сила монет +1 за каждые 8 [Laceration] на главной цели (До 2)\n[EndSkill] Заканчивает этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если свои ОЗ ниже 60%, наносит урон по СД вместо ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Оглушает цель и превращает её в [LivingSpecimenTheRings] в следующем ходу</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мясник - Рёбра",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вращающееся крушение",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрыв сухожилия",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пора кушать, Фасция",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 10 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [HumanFleshTheRings]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Освобождение подавленной плоти",
+          "desc": "В течение хода этот отряд получает этот навык, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при попадании атакующих навыков</u></b></mark></color> (один раз за навык; максимум 3 раза за ход)\nНельзя оглушить до использования этого навыка\nПри убийстве с этим навыком: лечите 15 СД за каждую убитую цель\n[StartBattle] получает 4 [Protection]\n[WhenUse] Наносить +3% урона за каждую 6 ([Laceration] по основной цели + [Laceration] по субмишену) (максимальный 30%)\n[DefeatDuel] наносить -60% урон и урон этого навыка не может оглушить цель\n[EndSkill] [BoneBladeTheRings] истекает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выставка начинается",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [SupportProtect]</u></b></mark></color>\n[StartBattle] Получает 1 [Agility] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ты. Вандализм запрещён.",
+          "desc": "[DuelCounter]\nСпециальный навык для [SupportProtect]\nНе может быть оглушена до использования этого навыка\n[WhenUse] Получает 1 [Protection]\n[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растаптывание",
+          "desc": "Сила монет +1 против целей с 4 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пинок",
+          "desc": "Сила монет +1 против целей с 4 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Печать мести",
+          "desc": "Базовая сила +1 за каждые 3 [Laceration] на цели (До 3)\n[EndSkill] Теряет всю [ResentmentSpider] и получает 1 [DaughterEducationSpider]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не дай какой-то фигне сломить тебя!",
+          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 5 дополнительного Дробящего урона при попадании монетами этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нарушение правил",
+          "desc": "Если при получении удара есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider] `], повторно использует этот навык во время хода\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Придётся снять слой обёртки!",
+          "desc": "[CantChangeTarget]\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[EndSkill] Снимает с [MiddleFatherSwordOne] его [MiddleFatherSwordTwo]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растаптывание",
+          "desc": "Сила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[DefeatDuel] Получает 1 [ParryingResultUp] на следующий ход (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пинок",
+          "desc": "Сила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[DefeatDuel] Получает 1 [VioletDamageUp] на следующий ход (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 10"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Печать мести",
+          "desc": "Базовая сила +1 за каждые 3 [Laceration] на цели (До 3)\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[EndSkill] Теряет всю [ResentmentSpider] и получает 1 [DaughterEducationSpider]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Чуешь жар?!",
+          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нарушение правил",
+          "desc": "Если при получении удара есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider] `], <color=#ff6000><mark=#ff000040><b><u>повторно использует этот навык во время хода</u></b></mark></color>\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Похоже, мне придётся снять и второй слой.",
+          "desc": "[CantChangeTarget]\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[EndSkill] Снимает с [MiddleFatherSwordTwo] его [MiddleFatherSwordThree]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время размяться!",
+          "desc": "Базовая сила +2 против целей с 5 и более [Laceration]\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дополнительно наносит +3 единицы дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дополнительно наносит +3 единицы дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 дополнительного Дробящего урона"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpiderDaughter], наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тотально крутое надирание задниц",
+          "desc": "Базовая сила +2 против целей с 5 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughter], наносит 2 [Laceration] при попадании монетами этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вновь подкидывает эту монету 3 раза при 4 и более [GotACompliment]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Потрошение Корректировщика!",
+          "desc": "Навык [HeatingWireOnSpider](#f8c200)\n\nСила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughter], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[EndSkill] При 2 и более [GotACompliment] получает 1 [VioletDamageUp] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перекрёстный вихрь!",
+          "desc": "Навык [HeatingWireOnSpider](#f8c200)\n\nСила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughter], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 дополнительного Дробящего урона"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpiderDaughter], наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фиолетовый~ Сокрушительный удар!",
+          "desc": "Навык [HeatingWireOnSpider](#f8c200)\n\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughter], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[WhenUse] Наносит на 60% больше урона при ОЗ ниже 40%\n[WhenUse] При 5 и более [GotACompliment] с шансом 50% наносит 1 [Paralysis] при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Теряет всю [ResentmentSpiderDaughter] и получает 1 [GotACompliment]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 дополнительного Дробящего урона"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я тебе за это отплачу...!",
+          "desc": "<b>Навык [HeatingWireOnSpider](#f8c200)</b>\n\nЕсли при получении удара есть [ReinforcedTattooSpiderDaughter], <color=#ff6000><mark=#ff000040><u>повторно использует этот навык во время хода за каждое их значение</u></mark></color> (До 2 дополнительных раз)\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughter], наносит 1 [Laceration] при попадании монетами этого навыка\n[WhenUse] Наносит на 40% больше урона при ОЗ ниже 40%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Растаптывание!",
+          "desc": "Сила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[DefeatDuel] Получает 1 [SkillPowerUp] на следующий ход (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пинок!",
+          "desc": "Сила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[DefeatDuel] Получает 1 [VioletDamageUp] на следующий ход (До 2 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 15"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 15"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Печать полного и тотального уничтожения!",
+          "desc": "Базовый +1 мощности на каждый 3 [Laceration] по цели (максимум 3)\n[WhenUse] Если у этого юнита есть [ReinforcedTattooSpider], нанеси 1 [Laceration] При монета попадание\n[EndSkill] Потреблять всё [ResentmentSpider] на себе и получать 1 [DaughterEducationSpider]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пора бы уже растаять и умереть",
+          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Рубящего урона при попадании монетами этого навыка\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 15 дополнительного Рубящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нарушение правил!",
+          "desc": "Если при получении удара есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider] `], <color=#ff6000><mark=#ff000040><b><u>повторно использует этот навык во время хода</u></b></mark></color>\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Леватэйн - Давненько мне не приходилось высвобождать всё целиком!",
+          "desc": "[CantChangeTarget]\n[WhenUse] Если у этого бойца есть [ReinforcedTattooSpider], при попадании монетой наносит 10 дополнительного Рубящего урона\n[EndSkill] [MiddleFatherSwordThree] превращается в [MiddleFatherSwordFour]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я выпотрошу тебя как рыбу",
+          "desc": "[BeforeUse] Теряет 10 СД\n[DefeatDuel] Не может оглушить цель\n[DefeatDuel] Получает 1 [SkillPowerUp] на следующий ход (До 2 раз за ход)\n[BeforeAttack] Получает (Количество монет этого навыка × 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion] и повышает счётчик [Combustion] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар в кишки<nobr>【Леватэйн】</nobr>",
+          "desc": "[BeforeUse] Теряет 10 СД\n[DefeatDuel] Не может оглушить цель\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%\n[BeforeAttack] Получает (Количество монет этого навыка × 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 [Combustion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...Полное и тотальное уничтожение!<nobr>【Леватэйн】</nobr>",
+          "desc": "[BeforeUse] Теряет 10 СД\n[DefeatDuel] Не может оглушить цель\n[BeforeAttack] Наносит на 60% больше урона при ОЗ ниже 50%\n[BeforeAttack] Получает (Количество монет этого навыка × 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Рубящего урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Пронзающего урона"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 10 дополнительного Дробящего урона"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 5 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нарушение правил!!",
+          "desc": "Если при получении удара есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider] `], повторно использует этот навык во время хода\n[BeforeUse] Теряет 10 СД\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%\n[BeforeAttack] Получает (Количество монет этого навыка × 2) [Combustion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кулак императора",
+          "desc": "Наносит на 20% больше урона за каждый тип негативных эффектов на цели (До 100%)\nНаносит на 10% больше урона за каждых 2 [OffenseBug] на цели (До 250%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Плеть и кулак императора",
+          "desc": "Наносит на 20% больше урона за каждый тип негативных эффектов на цели (До 100%)\nНаносит на 10% больше урона за каждых 2 [OffenseBug] на цели (До 250%)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 5 [Breath] и повышает счётчик [Breath] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пожирание императора",
+          "desc": "[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Базовая сила +10 на каждый [SuperCoin] навыка</color></mark></b></u> с которым этот юнит столкнулся",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поглощает с цели все положительные эффекты"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark color=#ff000040><b><u>Уменьшает вдвое значение [OffenseBug] на цели</color></mark></b></u> (Округляется вниз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Поглощает с цели все негативные эффекты\n- Если не имеет [DefenseBug] после активации этого эффекта, получает 2 [ResultReduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бичевание императора",
+          "desc": "Наносит на 20% больше урона за каждый тип негативных эффектов на цели (До 100%)\nНаносит на 10% больше урона за каждых 2 [OffenseBug] на цели (До 250%)\n[WhenUse] Повышает свой счётчик [Charge] на 10\n[StartDuel] Теряет 5 единиц счётчика [Charge]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Потреблять всех [Charge] Считать себя и наносить +([Charge] Количество поглощённого x 20) урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Марш тараканов",
+          "desc": "Наносит на 10% больше урона за каждых 2 [OffenseBug] на цели (До 250%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [OffenseBug]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [OffenseBug]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [OffenseBug]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дрожь императора",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Производит [Switch_Vibration] в случайный Особый [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Высечение императора",
+          "desc": "Наносите +20% урон за любой тип негативного эффекта цели (максимальный 100%)\nНаносите +10% урона за каждый 2 [OffenseBug] по цели\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Базовая сила +20 на каждый [SuperCoin] навыка</color></mark></b></u> с которым этот юнит столкнулся\n[DefeatDuel] наносить -80% урон и урон этого навыка не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пир императора",
+          "desc": "Наносите +20% урон за любой тип негативного эффекта цели (максимальный 100%)\nНаносите +10% урона за каждый 2 [OffenseBug] по цели\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Базовая сила +20 на каждый [SuperCoin] навыка</color></mark></b></u> с которым этот юнит столкнулся\n[DefeatDuel] наносить -80% урон и урон этого навыка не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Уничтожает ОЗ Щита цели"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ExtractCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстанавливает 25% от максимальных ОЗ Ядру и Телу"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "«Сынок, не забудь целиться в сердце.»",
+          "desc": "[CantChangeTarget]\n[WhenUse] Получает 10 [Breath] и повышает счётчик [Breath] на 4\n[WinDuel] Получает ещё 10 [Breath]\n[DefeatDuel] Наносит на 80% меньше урона, а также не может попасть критически или оглушить цель\n[DefeatDuel] Получает 5 [Vulnerable] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 (Одного из следующих эффектов: [Combustion], [Laceration], [Vibration], [Burst] или [Sinking]) и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит урон Гордыней, равный 25% от максимальных ОЗ цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133910,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Щит императора",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Получает на 50% меньше урона от противника, на которого нацелен своими атакующими навыками</u></b></mark></color>\n[WinDuel] Наносит 3 [Binding] на следующий ход\n[DefeatDuel] Атаковавший восстанавливает 15 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Анатомировать",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сбор ингредиентов - Окровавленный объект",
+          "desc": "[WhenUse] Сила монет +1 против целей с 6 и более [Laceration]\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] ещё на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
+          "desc": "[CantChangeTarget]\nВ течение хода этот отряд получает этот навык, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при попадании атакующих навыков</u></b></mark></color> (один раз за навык; максимум 3 раза за ход)\nНельзя оглушить до использования этого навыка\nПри убийстве с этим навыком: лечите 15 СД за каждую убитую цель\n[StartBattle] получает 4 [Protection]\n[WhenUse] Наносить +3% урона за каждую 6 ([Laceration] по основной цели + [Laceration] по субмишену) (максимальный 30%)\n[DefeatDuel] наносить -60% урон и урон этого навыка не может оглушить цель\n[DefeatDuel] [MineTheRings] истекает\n[EndSkill] [MineTheRings] истекает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134508,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Время закрытия - Инсталляция №1: Ваша плоть и кости в качестве мест галереи",
+          "desc": "[CantDuel]\nНацеливается на противника с наибольшим уровнем\nНе вызывает активацию защитных навыков цели\n[WhenUse] Сила монет +1 за каждые 8 [Laceration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если свои ОЗ ниже 60%, наносит урон по СД вместо ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Оглушение и преврати цель в [LivingSpecimenTheRings]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Освобождение сдерживаемой плоти",
+          "desc": "[CantChangeTarget]\nВ течение хода этот отряд получает этот навык, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при попадании атакующих навыков</u></b></mark></color> (один раз за навык; максимум 3 раза за ход)\nНельзя оглушить до использования этого навыка\nПри убийстве с этим навыком: лечите 15 СД за каждую убитую цель\n[StartBattle] получает 4 [Protection]\n[WhenUse] Наносить +3% урона за каждую 6 ([Laceration] по основной цели + [Laceration] по субмишену) (максимальный 30%)\n[DefeatDuel] наносить -60% урон и урон этого навыка не может оглушить цель\n[DefeatDuel] [BoneBladeTheRings] истекает\n[EndSkill] [BoneBladeTheRings] истекает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Совершеннейший пространственный разрез - Разрыв нити<nobr>【空間斬 - 絕緣】</nobr>",
+          "desc": "Можно столкнуться независимо от скорости\nНе может быть оглушена до конца использования этого навыка\n\n[WhenUse] Если своя СД равна 20 и выше, создаёт 3 <nobr>Ман (望)</nobr>: получает +10 к Итоговой силе\n[WinDuel] Получает 2 [SlashDamageUp]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n[EndSkill] Если этим навыком удалось создать Ман (望), теряет 20 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На 100% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Расходует весь [PhantomIncision] на цели</u></b></mark></color> и наносит каждой поражённой цели урон ОЗ в размере (расходованный [PhantomIncision])%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предназначенный противник",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Только имеющие соответствующий эффект противники могут столкнуться с нацеленным на них навыком навыком</u></b></mark></color>: [SojiAbiBuffOne], [SojiAbiBuffTwo], [SojiAbiBuffThree]\n\nНе вызывает активацию защитных навыков цели\n[DefeatDuel] Получает 1 [Vulnerable]\n[DefeatDuel] [SojiAbiBuffOne], [SojiAbiBuffTwo] и [SojiAbiBuffThree] исчезает с цели\n\n[OnDirectAttack] Итоговая сила +10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132212,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ты не смогла остановить будущее - Разрез шрамового образа<nobr>【殘痕斬】</nobr>",
+          "desc": "Можно столкнуться независимо от скорости\nНе может быть оглушена до конци использования этого навыка\n\n[StartBattle] Получает 1 [AttackDmgDown] за каждого противника, использовавшего защитный навык (До 5)\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет <color=#ff6000><mark=#ff000040><b><u>[SojiAbiBuffOne], [SojiAbiBuffTwo] или [SojiAbiBuffThree],</u></b></mark></color> наносят (последнюю силу монеты x 5) урон по гордости цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132213,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойной разрез - Эхо<nobr>【二連 - 殘】</nobr>",
+          "desc": "[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttackHead] Вновь подкидывает эту монету один раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132214,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неизбежное уничтожение<nobr>【必然殺】</nobr>",
+          "desc": "[EndSkill] Если цель оглушена или убита этим навыком, использует его вновь (До 3 дополнительных раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132215,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "132215",
+          "desc": "UNUSED SKILL",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пусть эти руки будут проводником...",
+          "desc": "Итоговая сила +1 за каждые 6 единиц в сумме силы своего [Breath] и [Sinking] на цели (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 2\n[EndSkill] Теряет 3 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспороть, выпотрошить...",
+          "desc": "Финальный +1 силы на каждый 6 ([Breath] на себе + [Sinking] на цели) (максимальный 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>если у этого устройства есть [PressureOfPrescript], или если у цели есть [IndexPrescriptTargetToPersonality]</u></b></mark></color>, конвертировать финальную монету в [SuperCoin]\n[DefeatDuel] Наносить -50% урон; При попадании не ошеломляет цель; При попадании не активирует [Sinking] по цели\n[WhenUse] получает 2 [Breath]\n[EndSkill] Потерять 3 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Посредничество: высекание",
+          "desc": "Сила монет +1 на каждую 6 ([Breath] на себе + [Sinking] по цели) (максимальный 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у этого юнита есть [PressureOfPrescript], или если цель имеет [IndexPrescriptTargetToPersonality]</u></b></mark></color>, конвертируйте все монеты этого навыка в [SuperCoin]s\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>Если у цели есть [IndexPrescriptTargetToPersonality], наносите +50% урон</u></b></mark></color>\n[WhenUse] Счёт 3 [Breath] и +3 [Breath]\n[DefeatDuel] Наносить -80% урон; При попадании не ошеломляет цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Потерять 6 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] <nobr>на 3</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Посредничество: уничтожение",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Может конфликтовать с этим Умением независимо от Скорости</u></b></mark>></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если у цели есть [IndexPrescriptTargetToPersonality], наносите +100% урон</u></b></mark></color>\n[DefeatDuel] Приобрести 3 [ResultReduction] и 4 [Paralysis]\n[DefeatDuel] Наносить -90% урон; При попадании не ошеломляет цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Потерять 15 СД\n[EndSkill] Поглощай всё [PressureOfPrescript]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Посредничество: уничтожение - Ман неизбежного стремления<nobr>【本望】</nobr>",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>При 0+ СД, получает 1 Манг</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>Наносить +20% урона, Финальная сила +2, Монетная сила +2</u></b></mark></color>\n[EndSkill] Потерять 15 СД\n[EndSkill] Если этот навык генерировал 1 Манг, потерять 20 СД\n[EndSkill] Поглощай всё [PressureOfPrescript]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слышать всё. Надеяться на всё. Этими руками, всё будет....",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>цели Рёшу и не может изменить цель </u></b></mark></color>\n[WhenUse]<color=#ff6000><mark=#ff000040><b><u>создаёт 1 Mang</u></b></mark></color>\n- <color=#ff6000><mark=#ff000040><b><u>наносит +20% урона, итоговая сила +2, сила монеты +2</u></b></mark></color>\n[EndSkill] Потерять 15 СД\n[EndSkill] Если этот навык генерировал 1 Манг, теряйте 20 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита<nobr>【守】<nobr>",
+          "desc": "[CanDuelGuard]\n[StartBattle] Повышает свой счётчик [Breath] на 4\n- Если этот слот навыков является главной целью атакующего навыка Грешника, получает на 2 единицы счётчика [Breath] меньше\n[WinDuel] Повышает свой счётчик [Breath] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отражение<nobr>【反】<nobr>",
+          "desc": "[DuelCounter]\n[DefeatDuel] Свой счётчик [Breath] понижается <nobr>на 1</nobr>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Безымянный разрез<nobr>【無名閃】<nobr>",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 50% больше урона при критическом попадании"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цепной разрез<nobr>【連鎖斬】<nobr>",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [SlashTakeDamageUp] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойной удар<nobr>【二擊】<nobr>",
+          "desc": "[WinDuel] Получает 1 [DicipleLittleFinger]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тройной удар<nobr>【三擊】<nobr>",
+          "desc": "[WinDuel] Получает 1 [DicipleLittleFinger]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 30% больше урона при критическом попадании"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрубание падающей звезды<nobr>【落星一殺】<nobr>",
+          "desc": "Можно столкнуться независимо от скорости\nНаносит на (Текущее значение [DicipleLittleFinger])% больше урона\n[WhenUse] Сила монеты +1 за каждые 10 [DicipleLittleFinger]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На 50% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительный Рубящий урон, равный итоговому урону этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 133808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пространственный разрез - Лазурь<nobr>【空間斬 - 靑】<nobr>",
+          "desc": "Наносит на (Текущее значение [DicipleLittleFinger])% больше урона\n[WhenUse] Сила монет +1 за каждые 10 [DicipleLittleFinger]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ударить весом, опрокинуть тело",
+          "desc": "Урон монет зависит от выпадающего им типа оружия:\n- Дробящее наносит на 20% больше урона, остальные типы на 10% меньше\n\nИтоговая сила +1 за каждую стадию [UnlockBuff_Base] (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Положить конец вертикально, вонзить до фитиля",
+          "desc": "Урон монет зависит от выпадающего им типа оружия:\n- Пронзающее наносит на 20% больше урона, остальные типы на 10% меньше\n\nИтоговая сила +1 за каждую стадию [UnlockBuff_Base] (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Положить клинок на бок, резануть как оборванное дыхание",
+          "desc": "Урон монет зависит от выпадающего им типа оружия:\n- Рубящее наносит на 20% больше урона, остальные типы на 10% меньше\n\nИтоговая сила +1 за каждую стадию [UnlockBuff_Base] (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмахнуть, чтобы сразить, заставить встретиться с землёй",
+          "desc": "Финальный +1 Мощности для каждого [UnlockBuff_Base] уровня (максимум 2)\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Тупое оружие наносит +30% урон\n- Нетупое оружие наносит -15% урон\n[StartBattle] Получите следующие эффекты (эффекты накапливаются)\n- В [UnlockBuff_Rien2] конвертировать последнюю монету в [SuperCoin]\n- На [UnlockBuff_Rien3], при столкновение победа с этим навыком, понижайте порог оглушения пользователя на 10\n[WhenUse] получает 2 [Breath]",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нацелиться в точку, позволить эху раздаться внутри",
+          "desc": "Финальный +1 Мощности для каждого [UnlockBuff_Base] уровня (максимум 2)\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Пронзающее оружие наносит +30% урон\n- Непробивающее оружие наносит -15% урон\n[StartBattle] Получите следующие эффекты (эффекты накапливаются)\n- В [UnlockBuff_Rien2] конвертировать последнюю монету в [SuperCoin]\n- На [UnlockBuff_Rien3], при выигривании столкновение с этим умением, наложите 1 [ResultReduction] следующий ход\n[WhenUse] получает 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вырезать под низким углом, снять то, что осталось",
+          "desc": "Финальный +1 Мощности для каждого [UnlockBuff_Base] уровня (максимум 2)\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Рубящее оружие наносит +30% урон\n- Оружие, не наносящее слэш, наносит -15% урон\n[StartBattle] Получите следующие эффекты (эффекты накапливаются)\n- В [UnlockBuff_Rien2] конвертировать последнюю монету в [SuperCoin]\n- На [UnlockBuff_Rien3], при столкновении победы с этим умением, получайте 1 [ResultEnhancement] следующий ход\n[WhenUse] получает 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уничтожить звук, раздавить мысль",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Тупое оружие наносит +50% урон\n- Нетупое оружие наносит -25% урон\n[StartBattle] Получите следующие эффекты (эффекты накапливаются)\n- В [UnlockBuff_Rien2] конвертировать монеты 3rd и 4th в [SuperCoin]\n- На [UnlockBuff_Rien3], при столкновение победа с этим навыком, повышайте порог оглушения цели на 15\n[WhenUse] Счёт 2 [Breath] и +2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Раздавить сердце тишины, проткнуть память",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Пронзающее оружие наносит +50% урон\n- Непробивающее оружие наносит -25% урон\n[StartBattle] Получите следующие эффекты (эффекты накапливаются)\n- В [UnlockBuff_Rien2] конвертировать монеты 3rd и 4th в [SuperCoin]\n- На [UnlockBuff_Rien3], при столкновении победы с этим умением, получайте 1 [AttackDmgUp] следующий ход\n[WhenUse] Счёт 2 [Breath] и +2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С закалённым секретом, отсечь форму",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Рубящее оружие наносит +50% урон\n- Оружие, не наносящее слэш, наносит -25% урон\n[StartBattle] Получите следующие эффекты (эффекты накапливаются)\n- В [UnlockBuff_Rien2] конвертировать последнюю монету в [SuperCoin]\n- В [UnlockBuff_Rien3], в столкновение победа этим навыком, итоговая сила +2\n[WhenUse] Счёт 2 [Breath] и +2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заполнить трижды то, чего недостаёт",
+          "desc": "[DuelCounter]\n[BeforeUse] Использует один из своих 9 атакующих навыков вместо этого (В приоритете ещё не использованные в текущем цикле повышения значения Посредничества 【Гермес】 навыки)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фуриозо - Реплика",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот навык не активирует защитные навыки цели</u></b></mark>></color>\nМожет сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Счёт 3 [Breath] и +3 [Breath]\n- Сила Столкновения +5 (<color=#ff6000><mark=#ff000040><b><u>Сила Столкновения уменьшается на 1 за каждую 10 [KarmaOfIndexRien] на себе, вплоть до 0</u></b></mark></color>)\n[WhenUse] При 0+ СД, генерировать 1 Манг\n- Наносить +40% урон; Финальная +4 Силы\n\n[WinDuel]\n- Счёт 3 [Breath] и +3 [Breath]\n- конец атаки: нанести 3 [Laceration], 1 [Binding]и 1 [Vulnerable] следующий ход всем целям, поражённым этим подразделением\n[DefeatDuel]\n- Усиление 4 [AttackDmgDown] и 9 [Paralysis]\n- Урон, нанесённый этим навыком, не может оглушить цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Если этот навык сгенерировал Манг, потерять 20 СД\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 9 раз по итогу)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ударить весом, опрокинуть тело",
+          "desc": "Дробящее оружие появляется чаще для этого навыка\n- Шанс появления снижается при 75+ [KarmaOfIndexRien_2Phase]\n- Шанс появления снижается ещё сильнее при 150+ [KarmaOfIndexRien_2Phase]\n\nУрон монет зависит от выпадающего им типа оружия:\n- Дробящее наносит на 30% больше урона, остальные типы на 15% меньше\n\n[WhenUse] Получает 1 [Breath] и повышает счётчик [Breath] на 1",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Положить конец вертикально, вонзить до фитиля",
+          "desc": "Пронзающее оружие появляется чаще для этого навыка\n- Шанс появления снижается при 75+ [KarmaOfIndexRien_2Phase]\n- Шанс появления снижается ещё сильнее при 150+ [KarmaOfIndexRien_2Phase]\n\nУрон монет зависит от выпадающего им типа оружия:\n- Пронзающее наносит на 30% больше урона, остальные типы на 15% меньше\n\n[WhenUse] Получает 1 [Breath] и повышает счётчик [Breath] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Положить клинок на бок, резануть как оборванное дыхание",
+          "desc": "Рубящее оружие появляется чаще для этого навыка\n- Шанс появления снижается при 75+ [KarmaOfIndexRien_2Phase]\n- Шанс появления снижается ещё сильнее при 150+ [KarmaOfIndexRien_2Phase]\n\nУрон монет зависит от выпадающего им типа оружия:\n- Рубящее наносят на 30% больше урона, остальные типы на 15% меньше\n\n[WhenUse] Получает 1 [Breath] и повышает счётчик [Breath] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмахнуть, чтобы сразить, заставить встретиться с землёй",
+          "desc": "Дробящее оружие появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] Дробящее оружие появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] Дробящее оружие появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Дробящее оружие наносит на 40% больше урона\n- Оружие не Дробящего типа наносит на 20% меньше урона\n[WhenUse] Получает 2 [Breath] и 1 к счётчику [Breath]\n[WinDuel] Снижает границу выносливости использующего навык бойца на 15\n- При 75+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нацелиться в точку, позволить эху раздаться внутри",
+          "desc": "Оружие с пронзанием появляется чаще\n- На 75+ [KarmaOfIndexRien_2Phase] оружие колющий появляется реже\n- На 150+ [KarmaOfIndexRien_2Phase] оружие колющий появляется ещё реже\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Пронзающее оружие наносит +40% урон\n- Непробивающее оружие наносит -20% урон\n[WhenUse] Счёт 2 [Breath] и +1 [Breath]\n[WinDuel] Нанести 2 [ResultReduction] следующий ход\n- На 75+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вырезать под низким углом, снять то, что осталось",
+          "desc": "Рубящее оружие появляется чаще\n- На 75+ [KarmaOfIndexRien_2Phase] оружие появляется реже\n- На 150+ [KarmaOfIndexRien_2Phase] оружие появляется ещё реже\nФинальный +1 Мощности для каждого [UnlockBuff_Base] уровня (максимум 3)\nСледующие эффекты активируются в зависимости от типа атаки оружия\n- Пронзающее оружие наносит +40% урон\n- Непробивающее оружие наносит -20% урон\n[WhenUse] Счёт 2 [Breath] и +1 [Breath]\n[WinDuel] получает 2 [ResultEnhancement] следующем ходу\n- На 75+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уничтожить звук, раздавить мысль",
+          "desc": "Может вступать в Поединок этим навыком независимо от Скорости\nЕсли у бойца есть [BlackNightmare]:\n- Преобразует все монеты в [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>При Поединке с навыком не Дробящего типа или бойцом, который не является Рёшу</u></b></mark></color>: Сила монет +2; наносит на 50% больше урона\n- При поражении в Поединке навыку Дробящего типа или Рёшу:\n  - Сила монет -2; наносит на 50% меньше урона\n  - Урон этого навыка не может Оглушить цель; при попадании не активирует [Sinking] на цели\n\nОружие Дробящего типа появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] оружие Дробящего типа появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] оружие Дробящего типа появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Оружие Дробящего типа наносит на 60% больше урона\n- Оружие не Дробящего типа наносит на 30% меньше урона\n[WhenUse] Получает 3 [Breath] и 2 к счётчику [Breath]\n[WinDuel] Повышает границу выносливости цели на 25\n- При 150+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] <nobr>на 2</nobr>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134808,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Раздавить сердце тишины, проткнуть память",
+          "desc": "Может вступать в Поединок этим навыком независимо от Скорости\nЕсли у бойца есть [BlackNightmare]:\n- Преобразует все монеты в [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>При Поединке с навыком не Пронзающего типа или бойцом, который не является Рёшу</u></b></mark></color>: Сила монет +2; наносит на 50% больше урона\n- При поражении в Поединке навыку Пронзающего типа или Рёшу:\n  - Сила монет -2; наносит на 50% меньше урона\n  - Урон этого навыка не может Оглушить цель; при попадании не активирует [Sinking] на цели\n\nОружие Пронзающего типа появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] оружие Пронзающего типа появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] оружие Пронзающего типа появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Оружие Пронзающего типа наносит на 60% больше урона\n- Оружие не Пронзающего типа наносит на 30% меньше урона\n[WhenUse] Получает 3 [Breath] и 2 к счётчику [Breath]\n[WinDuel] Получает 2 [AttackDmgUp] на следующий ход\n- При 150+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134809,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С закалённым секретом, отсечь форму",
+          "desc": "Может вступать в Поединок этим навыком независимо от Скорости\nЕсли у бойца есть [BlackNightmare]:\n- Преобразует все монеты в [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>При Поединке с навыком не Рубящего типа или бойцом, который не является Рёшу</u></b></mark></color>: Сила монет +2; наносит на 50% больше урона\n- При поражении в Поединке навыку Рубящего типа или Рёшу:\n  - Сила монет -2; наносит на 50% меньше урона\n  - Урон этого навыка не может Оглушить цель; при попадании не активирует [Sinking] на цели\n\nОружие Рубящего типа появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] оружие Рубящего типа появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] оружие Рубящего типа появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Оружие Рубящего типа наносит на 60% больше урона\n- Оружие не Рубящего типа наносит на 30% меньше урона\n[WhenUse] Получает 3 [Breath] и 2 к счётчику [Breath]\n[WinDuel] Итоговая сила +3\n- При 150+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134810,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Помнишь это, милая? Только ты можешь сразиться с этим приёмом.",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Только Рёшу может столкнуться с этим навыком (Даже независимо от скорости)</u></b></mark></color>\n Наносит на 50% больше урона и получает +2 к Силе монет\n\n[DefeatDuel] Получает -2 к Силе монет и наносит на 50% меньше урона, а также не может оглушить цель или активировать эффект [Sinking] при попадании\n\n[EndBattle] <color=#ff6000><mark=#ff000040><b><u>Если проиграл в столкновении этим навыком, значение 1 [BurningWoundRien] повышается на 1</u></b></mark></color>\n- Значение [BurningWoundRien] повышается ещё на 1, если Риен проиграл в столкновениях всеми использованными во время хода навыками, которые связаны с [BlackNightmare] (「Уничтожить звук, раздавить мысль」 / 「Пронзить сердце тишины, пронзить память」 / 「С закалённым секретом, отсечь форму」)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] <nobr>на 2</nobr>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фуриозо [Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот навык не активирует защитные навыки цели</u></b></mark>></color>\nМожет сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Счёт 6 [Breath] и +6 [Breath]\n- Сила Столкновения +10 (<color=#ff6000><mark=#ff000040><b><u>Сила Столкновения уменьшается на 1 за каждую 20 [KarmaOfIndexRien_2Phase] на себя</u></b></mark></color>)\n[WhenUse] При 0+ СД, генерировать 2 Манг\n- Наносить +70% урон; Финальная +6 Силы\n\n[WinDuel]\n- конец атаки: нанести 4 [Laceration], 2 [Binding]и 2 [Vulnerable] следующий ход всем целям, поражённым этим подразделением\n[DefeatDuel]\n- Усиление 6 [AttackDmgDown] и 9 [Paralysis]\n- Урон, нанесённый этим навыком, не может оглушить цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Если этот навык сгенерировал Манг, потерять 25 СД\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 134812,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фуриозо<nobr>【Лакримоза-Крещендо】</nobr>",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот Навык не активирует Навыки Защиты</u></b></mark></color>\nМожет сталкиваться с этим навыком независимо от скорости\n<color=#ff6000><mark=#ff000040><b><u>- При столкновении с базовым ЭГО. Рёсю, сила в столкновении -20</u></b></mark></color>\n\n[WhenUse]\n- Счёт 9 [Breath] и +9 [Breath]\n- Сила Столкновения +15 (Сила Столкновения уменьшается на 1 за каждый 20 [KarmaOfIndexRien_2Phase] на себе)\n[WhenUse] При 0+ СД генерируйте 3 Манги\n- Наносить +100% урон; Последний +12 Силы\n\n[WinDuel]\n- конец атаки: нанести 5 [Laceration], 3 [Binding] и 3 [Vulnerable] следующий ход всем целям, по которым это подразделение поражает\n[DefeatDuel]\n- Усиление 8 [AttackDmgDown] и 9 [Paralysis]\n- Урон, нанесённый этим навыком, не может оглушить цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Если этот Навык сгенерировал Манг, теряю 30 СД\n[EndSkill] Конец этого хода",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132216,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обида<nobr>【怨望】</nobr>",
+          "desc": "[StartBattle] Если этот слот навыков является главной целью атакующего навыка Грешника, теряет 10 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132217,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тщетность<nobr>【非望】</nobr>",
+          "desc": "[StartBattle] Если этот слот навыков является главной целью атакующего навыка Грешника, теряет 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132218,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смятение<nobr>【落望】</nobr>",
+          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 3 [Reduction]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 132219,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я так обижена на тебя. Но...",
+          "desc": "[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 2 [Vulnerable]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

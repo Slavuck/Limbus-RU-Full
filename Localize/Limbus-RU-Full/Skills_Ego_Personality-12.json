@@ -1,0 +1,884 @@
+{
+  "dataList": [
+    {
+      "id": 2120511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Терновый сад",
+          "abName": "Знак с розами",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при 3 и более грехов в резонансе\n[WhenUse] Даёт (наибольшее число грехов резонанса) союзникам 1 「Повышение[TabExplain] урона *грехом резонанса*」 и 1 「Повышение[TabExplain] силы *греха резонанса*」\n- Если в резонансе 4 и более грехов, дополнительно даёт ещё 1 「Повышение[TabExplain] урона *грехом резонанса*」",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Восстанавливает союзнику 15% от максимальных ОЗ\n- Восстанавливает ОЗ ещё (наибольшее число грехов резонанса - 2) союзников (До 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Терновый сад",
+          "abName": "Знак с розами",
+          "desc": "[BeforeAttack] Тяжесть атаки +(наибольшее число грехов резонанса - 2) (До 2)\n[WhenUse] Даёт (2 + наибольшее число грехов резонанса) союзникам 1 「Повышение[TabExplain] урона *грехом резонанса*」 и 1 「Повышение[TabExplain] силы *греха резонанса*」\n- Если в резонансе 4 и более грехов, дополнительно даёт ещё 1 「Повышение[TabExplain] урона *грехом резонанса*」\n- Если в резонансе 5 и более грехов, дополнительно даёт ещё 1 「Повышение[TabExplain] силы *греха резонанса*」",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Восстанавливает союзнику 18% от максимальных ОЗ\n- Восстанавливает ОЗ ещё (наибольшее число грехов резонанса - 2) союзников (До 3)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Терновый сад",
+          "abName": "Знак с розами",
+          "desc": "[BeforeAttack] Тяжесть атаки +(наибольшее число грехов резонанса - 2) (До 3)\n[WhenUse] Даёт (4 + наибольшее число грехов резонанса) союзникам 1 「Повышение[TabExplain] урона *грехом резонанса*」 и 1 「Повышение[TabExplain] силы *греха резонанса*」\n- Если в резонансе 4 и более грехов, дополнительно даёт ещё 1 「Повышение[TabExplain] урона *грехом резонанса*」\n- Если в резонансе 5 и более грехов, дополнительно даёт ещё 1 「Повышение[TabExplain] силы *греха резонанса*」\n- Если в абсолюте 6 и более грехов, даёт эти эффекты и на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] Восстанавливает союзнику 22% от максимальных ОЗ\n- Восстанавливает ОЗ ещё (наибольшее число грехов резонанса - 2) союзников (До 3)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Терновый сад",
+          "abName": "Знак с розами",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 3 и более грехов в резонансе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Понижение урона. Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 「Понижение[TabExplain] силы *греха резонанса*」 и 1 「Уязвимость[TabExplain] к *греху резонанса*」\n- Если в резонансе 4 и более грехов, дополнительно даёт ещё 1 「Понижение[TabExplain] силы *греха резонанса*」"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Терновый сад",
+          "abName": "Знак с розами",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольшее число грехов резонанса - 2) (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Понижение урона. Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 「Понижение[TabExplain] силы *греха резонанса*」 и 1 「Уязвимость[TabExplain] к *греху резонанса*」(Учитывается наибольший резонанс грехов)\n- Если в резонансе 4 и более грехов, дополнительно даёт ещё 1 「Понижение[TabExplain] силы *греха резонанса*」\n- Если в резонансе 5 и более грехов, дополнительно даёт ещё 1 「Уязвимость[TabExplain] к *греху резонанса*」"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Терновый сад",
+          "abName": "Знак с розами",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольшее число грехов резонанса - 2) (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 Понижение урона. Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 「Понижение[TabExplain] силы *греха резонанса*」 и 1 「Уязвимость[TabExplain] к *греху резонанса*」\n- Если в резонансе 4 и более грехов, дополнительно даёт ещё 1 「Понижение[TabExplain] силы *греха резонанса*」\n- Если в резонансе 5 и более грехов, дополнительно даёт ещё 1 「Уязвимость[TabExplain] к *греху резонанса*」\n- Если в абсолюте 6 и более грехов, наносит эти эффекты и на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[EndSkill] Восстанавливает 10 СД себе и 2-м союзникам с наименьшей СД\n- Если цель осталась в живых, тратит 5 единиц счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели и восстанавливает потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели в качестве СД себе и 2-м союзникам (До 20 СД)\n- При смерти цели наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> 2-м случайным противникам (В направляемых битвах — случайным частям)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[EndSkill] Восстанавливает <style=\"highlight\">12</style> СД себе и 2-м союзникам с наименьшей СД\n- Если цель осталась в живых, тратит 5 единиц счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели и восстанавливает потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели в качестве СД себе и 2-м союзникам (До 20 СД)\n- При смерти цели наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> <style=\"highlight\">и 1 [Curse]</style> 2-м случайным противникам (В направляемых битвах — случайным частям)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[EndSkill] Восстанавливает <style=\"highlight\">15</style> СД себе и 2-м союзникам с наименьшей СД\n- Если цель осталась в живых, тратит <style=\"highlight\">3</style> единицы счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели и восстанавливает потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> цели в качестве СД себе и 2-м союзникам (До 20 СД)\n- При смерти цели наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 1 [Curse] <style=\"highlight\">3-ём</style>случайным противникам (В направляемых битвах — случайным частям)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимости к Унынию</link></u></color>. Дополнительно наносит 1 Уязвимость к Унынию при резонансе Уныния, равном 3 и более"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Curse]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nСлучайная цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимости к Унынию</link></u></color>. Дополнительно наносит 1 Уязвимость к Унынию за каждые 3 греха в резонансе Уныния (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Минувшие дни",
+          "abName": "Портрет того дня",
+          "desc": "[CantIdentify]\nСлучайная цель\n+50% к урону если на цели есть [Curse]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AzureTakeDamageUp\"><color=#e30000><u><link=\"AzureTakeDamageUp\">Уязвимости к Унынию</link></u></color>. Дополнительно наносит 1 Уязвимость к Унынию за каждые 2 греха в резонансе Уныния (До 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Curse\"><color=#e30000><u><link=\"Curse\">Проклятия</link></u></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "При подкидывании монеты атакует случайную цель.\n- Первой монетой Грегор всегда атакует основную цель.\n- Все эффекты монеты относятся только к цели, атакуемой на момент её подкидывания..\nВ момент нанесения <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек</link></u></color> монетами этого ЭГО-навыка, Грегор наносит бабочек Почивших с шансом выпадения орла. Если же Грегор не смог нанести бабочек Почивших, наносит бабочек Живых. (Каждая <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочка</link></u></color> просчитывается отдельно)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~2 случайных [SinkingWhite]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Теряет 2~6 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Пока СД выше 0, Грегор вновь подкидывает монету (До 5-и раз за ЭГО-навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "При подкидывании монеты атакует случайную цель.\n- Первой монетой Грегор всегда атакует основную цель.\n- Все эффекты монеты относятся только к цели, атакуемой на момент её подкидывания..\nВ момент нанесения <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек</link></u></color> монетами этого ЭГО-навыка, Грегор наносит бабочек Почивших с шансом выпадения орла. Если же Грегор не смог нанести бабочек Почивших, наносит бабочек Живых. (Каждая <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочка</link></u></color> просчитывается отдельно)\n<style=\"highlight\">[EndSkill] Восстанавливает (2 × число попаданий 3-й монеты) СД</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~2 случайных [SinkingWhite]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Теряет 2~6 СД<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Пока СД выше 0, Грегор вновь подкидывает монету (До 5-и раз за ЭГО-навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "При подкидывании монеты атакует случайную цель.\n- Первой монетой Грегор всегда атакует основную цель.\n- Все эффекты монеты относятся только к цели, атакуемой на момент её подкидывания..\nВ момент нанесения <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек</link></u></color> монетами этого ЭГО-навыка, Грегор наносит бабочек Почивших с шансом выпадения орла. Если же Грегор не смог нанести бабочек Почивших, наносит бабочек Живых. (Каждая <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочка</link></u></color> просчитывается отдельно)\n[EndSkill] Восстанавливает <style=\"highlight\">(3 × число попаданий 3-й монеты)</style>СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 случайную <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочку</link></u></color>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1~2 случайных [SinkingWhite]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Теряет 2~6 СД<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Пока СД выше 0, Грегор вновь подкидывает монету (До 5-и раз за ЭГО-навык)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли СД цели ниже 0, чем ниже СД цели, тем выше процент урона (До 45%)\nЕсли у цели нет СД, +1% к урону за каждые 2 единицы <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 45%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Живых</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Почивших</link></u></color>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли СД цели ниже 0, чем ниже СД цели, тем выше процент урона (До 45%)\nЕсли у цели нет СД, +1% к урону за каждые 2 единицы <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 45%)\n<style=\"highlight\">[EnemyKill] Восстанавливает 5 СД</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Живых</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочки Почивших</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Торжественный траур",
+          "abName": "Похороны мёртвых бабочек",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли СД цели ниже 0, чем ниже СД цели, тем выше процент урона (До 45%)\nЕсли у цели нет СД, +1% к урону за каждые 2 единицы <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 45%)\n[EnemyKill] Восстанавливает 5 СД<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек Живых</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочек Почивших</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если у цели менее 50% ОЗ, наносит урон Унынием, равный всем <sprite name=\"SinkingWhite\"><color=#e30000><u><link=\"SinkingWhite\">Бабочкам</link></u></color> на цели\n- Считается сумма бабочек Живых и Почивших на цели</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[EndSkill] При максимальном здоровье в конце хода Грегор восстанавливает 10 СД и получает 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, в состоянии пониженного духа или срыва, Грегор наносит 1 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "<style=\"highlight\">Если СД цели ниже 0, +1% к урону за каждую единицу СД до 0 (До 45%)</style>\n[EndSkill] При максимальном здоровье в конце хода Грегор восстанавливает 10 СД и получает 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если здоровье Грегора не полное, он восстанавливает (2 + наибольший резонанс)% ОЗ (До 30% за ЭГО-навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, в состоянии пониженного духа или срыва, Грегор наносит 1 [Reduction] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "Если СД цели ниже 0, +1% к урону за каждую единицу СД до 0 (До 45%)\n[EndSkill] При максимальном здоровье в конце хода Грегор восстанавливает <style=\"highlight\">15</style> СД и получает 1 [Enhancement] на следующий ход<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если здоровье Грегора не полное, он восстанавливает ( <style=\"highlight\">3</style>  + наибольший резонанс)% ОЗ (До 30% за ЭГО-навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, в состоянии пониженного духа или срыва, Грегор наносит 1 [Reduction] и <style=\"highlight\">1 「Уязвимость[TabExplain] к *греху резонанса*」</style> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Грегор восстанавливает 10 ОЗ\n[EndSkill] При максимальном здоровье в конце хода Грегор восстанавливает 10 СД и получает 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, в состоянии пониженного духа или срыва, Грегор наносит 1 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Если СД цели ниже 0, +1% к урону за каждую единицу СД до 0 (До 45%)</style>\n[BeforeAttack] Грегор восстанавливает 10 ОЗ\n[EndSkill] При максимальном здоровье в конце хода Грегор восстанавливает <style=\"highlight\">15</style> СД и получает 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если здоровье Грегора не полное, он восстанавливает (2 + наибольший резонанс)% ОЗ (До 30% за ЭГО-навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, в состоянии пониженного духа или срыва, Грегор наносит 1 [Reduction] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Рождественский кошмар",
+          "abName": "Уютная кроватка",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли СД цели ниже 0, +1% к урону за каждую единицу СД до 0 (До 45%)\n[BeforeAttack] Грегор восстанавливает 10 ОЗ\n[EndSkill] При максимальном здоровье в конце хода Грегор восстанавливает <style=\"highlight\">20</style> СД и получает 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если здоровье Грегора не полное, он восстанавливает ( <style=\"highlight\">3</style>  + наибольший резонанс)% ОЗ (До 30% за ЭГО-навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель оглушена, в состоянии пониженного духа или срыва, Грегор наносит 1 [Reduction] и <style=\"highlight\">2「Уязвимости к *греху резонанса*」</style> на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120911,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неослепляющая слава: Поток",
+          "abName": "Млынар",
+          "desc": "[CantDuel]\nПри первом использовании этого ЭГО-навыка в битве Грегору необходимо на 1 Гнев, 2 Лености и 1 Гордыню меньше\nПри наличии хотя бы 1-й единицы <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> Грегор взамен использует навык 「Неослепляющая слава: Лучезарность」\nДанный навык не наносит урон по противникам, не вызывает реакцию защитных навыков и не может быть использован повторно через внешние факторы\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndSkill] Также он восстанавливает 25 СД\n[EndSkill] Кроме того, Грегор получает 1 [AttackUp] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Неослепляющая слава: Поток",
+          "abName": "Млынар",
+          "desc": "[CantDuel]\nПри первом использовании этого ЭГО-навыка в битве Грегору необходимо на 1 Гнев, 2 Лености и 1 Гордыню меньше\nПри наличии хотя бы 1-й единицы <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> Грегор взамен использует навык 「Неослепляющая слава: Лучезарность」\nДанный навык не наносит урон по противникам, не вызывает реакцию защитных навыков и не может быть использован повторно через внешние факторы\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndSkill] Также он восстанавливает 25 СД\n[EndSkill] Кроме того, Грегор получает <style=\"highlight\">2</style> <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Неослепляющая слава: Поток",
+          "abName": "Млынар",
+          "desc": "[CantDuel]\nПри первом использовании этого ЭГО-навыка в битве Грегору необходимо на 1 Гнев, 2 Лености и 1 Гордыню меньше\nПри наличии хотя бы 1-й единицы <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> Грегор взамен использует навык 「Неослепляющая слава: Лучезарность」\nДанный навык не наносит урон по противникам, не вызывает реакцию защитных навыков и не может быть использован повторно через внешние факторы\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndSkill] Также он восстанавливает 25 СД\n[EndSkill] Кроме того, Грегор получает 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> <style=\"highlight\">и 1 [AttackDmgUp]</style> на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120912,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неослепляющая слава: Лучезарность",
+          "abName": "Млынар",
+          "desc": "[CantDuel]\n<b>Данный навык невозможно использовать повторно через внешние факторы.</b>\nПри 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> во время использования навыка можно совершить поединок\n[WhenUse] Также при 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> до окончания навыка Грегор не может быть оглушён и он получает +20 к силе парирований\n\n[BeforeAttack] <b>[BeforeAttack] Грегор теряет значение <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> и получает следующие эффекты (их десятичные опускаются):</b>\n- Возвращает 1 затраченный ЭГО-ресурс за каждые (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 20) единицы (Сначала Гордыня, после Гнев);\n- +(Затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) к тяжести атаки (До 4-х);\n- Грегор получает (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color> (Раз за ход);\n- При трате 40-а единиц, +50% к урону четвёртой монетой и он также получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)\n\n[BeforeAttack] +5% к урону за каждые 8 единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели (До 25%)\n[EndSkill] За каждую оглушённую или убитую данным навыком цель Грегор восстанавливает 5 СД (До 25-и)\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndBattle] Если этот навык не затратил 40 единиц <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>, самая левая ячейка навыков Грегора на панели управления получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Грегор вновь подкидывает эту монету ((затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) - 1) раз (До 3-х раз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта монета — последняя, и в потенциале <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели 15 и более единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта монета была подкинута 4 раза, Грегор наносит ([Vibration] на цели) урона Леностью (До 5-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Неослепляющая слава: Лучезарность",
+          "abName": "Млынар",
+          "desc": "[CantDuel]\n<b>Данный навык невозможно использовать повторно через внешние факторы.</b>\nПри 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> во время использования навыка можно совершить поединок\n[WhenUse] Также при 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> до окончания навыка Грегор не может быть оглушён и он получает +20 к силе парирований\n\n[BeforeAttack] <b>[BeforeAttack] Грегор теряет значение <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> и получает следующие эффекты (их десятичные опускаются):</b>\n- Возвращает 1 затраченный ЭГО-ресурс за каждые (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 20) единицы (Сначала Гордыня, после Гнев);\n- +(Затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) к тяжести атаки (До 4-х);\n- Грегор получает (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color> (Раз за ход);\n- При трате 40-а единиц, +<style=\"highlight\">80</style>% к урону четвёртой монетой и он также получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)\n\n[BeforeAttack] +5% к урону за каждые 8 единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели (До 25%)\n[EndSkill] За каждую оглушённую или убитую данным навыком цель Грегор восстанавливает 5 СД (До 25-и)\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndBattle] Если этот навык не затратил 40 единиц <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>, самая левая ячейка навыков Грегора на панели управления получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Грегор вновь подкидывает эту монету ((затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) - 1) раз (До 3-х раз)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Если эта монета не треснула, и у атаки три и более целей, +10% к урону последней использованной монетой (В направляемых битвах целью считается часть)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта монета — последняя, и в потенциале <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели 15 и более единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта монета была подкинута 4 раза, Грегор наносит ([Vibration] на цели) урона Леностью (До 5-и)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Неослепляющая слава: Лучезарность",
+          "abName": "Млынар",
+          "desc": "[CantDuel]\n<b>Данный навык невозможно использовать повторно через внешние факторы.</b>\nПри 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> во время использования навыка можно совершить поединок\n[WhenUse] Также при 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> до окончания навыка Грегор не может быть оглушён и он получает +20 к силе парирований\n\n[BeforeAttack] <b>[BeforeAttack] Грегор теряет значение <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> и получает следующие эффекты (их десятичные опускаются):</b>\n- Возвращает 1 затраченный ЭГО-ресурс за каждые (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 20) единицы (Сначала Гордыня, после Гнев);\n- +(Затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) к тяжести атаки (До 4-х);\n- Грегор получает (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color> (Раз за ход);\n- При трате 40-а единиц, +<style=\"highlight\">100</style>% к урону четвёртой монетой и он также получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)\n\n[BeforeAttack] +5% к урону за каждые 8 единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели (До 25%)\n[EndSkill] За каждую оглушённую или убитую данным навыком цель Грегор восстанавливает 5 СД (До 25-и)\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndBattle] Если этот навык не затратил 40 единиц <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>, самая левая ячейка навыков Грегора на панели управления получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Грегор вновь подкидывает эту монету ((затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) - 1) раз (До 3-х раз)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Если эта монета не треснула, и у атаки три и более целей, +<style=\"highlight\">20</style>% к урону последней использованной монетой (В направляемых битвах целью считается часть)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта монета — последняя, и в потенциале <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели 15 и более единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если эта монета была подкинута 4 раза, Грегор наносит ([Vibration] на цели) урона Леностью (До <style=\"highlight\">10-и</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2120921,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неослепляющая слава: Поток",
+          "abName": "Млынар",
+          "desc": "[CantIdentify]\nСлучайные цели\n[WhenUse]Базовая сила +1 при 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n\n[BeforeAttack] <b>[BeforeAttack] Грегор теряет значение <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> и получает следующие эффекты (их десятичные опускаются):</b>\n- Грегор получает (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color> (Раз за ход);\n- При трате 40-а единиц, +110% к урону последней монетой и он также получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)\n\n[BeforeAttack] +3% к урону за каждые 6 единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели (До 15%)\n[BeforeAttack] Базовая сила треснувшей монеты -4 (До -16-и)\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndBattle] Если этот навык затратил 40 единиц <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>, самая левая ячейка навыков Грегора на панели управления получает 8 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если в потенциале <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели 15 и более единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Неослепляющая слава: Поток",
+          "abName": "Млынар",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Если при атаке трёх и более целей первые три монеты не треснули, +25% к урону последней монетой (Раз за монету; в направляемых битвах целью считается часть)</style>\n[WhenUse]Базовая сила +1 при 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n\n[BeforeAttack] <b>[BeforeAttack] Грегор теряет значение <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> и получает следующие эффекты (их десятичные опускаются):</b>\n- Грегор получает (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color> (Раз за ход);\n- При трате 40-а единиц, +<style=\"highlight\">130</style>% к урону последней монетой и он также получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)\n\n[BeforeAttack]+3% к урону за каждые 6 единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели (До 15%)\n[BeforeAttack] Базовая сила треснувшей монеты -4 (До -16-и)\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndBattle] Если этот навык затратил 40 единиц <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>, самая левая ячейка навыков Грегора на панели управления получает 8 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если в потенциале <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели 15 и более единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Неослепляющая слава: Поток",
+          "abName": "Млынар",
+          "desc": "[CantIdentify]\nСлучайные цели\nЕсли при атаке трёх и более целей первые три монеты не треснули, +<style=\"highlight\">30</style>% к урону последней монетой (Раз за монету; в направляемых битвах целью считается часть)\n[WhenUse]Базовая сила +1 при 40-а и более единицах <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n\n[BeforeAttack] <b>[BeforeAttack] Грегор теряет значение <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> и получает следующие эффекты (их десятичные опускаются):</b>\n- Грегор получает (затраченное число <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color> ÷ 10) <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышений уровня защиты</link></u></color> (Раз за ход);\n- При трате 40-а единиц, +<style=\"highlight\">160</style>% к урону последней монетой и он также получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)\n\n[BeforeAttack] +3% к урону за каждые 6 единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> основной цели (До 15%)\n[BeforeAttack] Базовая сила треснувшей монеты -4 (До -16-и)\n[EndSkill] Грегор получает 1 единицу <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>\n[EndBattle] Если этот навык затратил 40 единиц <sprite name=\"MlynarWaiting\"><color=#f8c200><u><link=\"MlynarWaiting\">Человека в ножнах</link></u></color>, самая левая ячейка навыков Грегора на панели управления получает 8 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход (Раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color><style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если в потенциале <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели 15 и более единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

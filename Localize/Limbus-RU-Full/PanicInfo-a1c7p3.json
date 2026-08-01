@@ -1,0 +1,34 @@
+{
+  "dataList": [
+    {
+      "id": 1029,
+      "panicName": "Сознание вины",
+      "lowMoraleDescription": "Получает 1 [Vulnerable] и 1 [MentalIncreaseDown] на следующий ход",
+      "panicDescription": "Получает 2 [Vulnerable] и 2 [MentalIncreaseDown] на следующий ход"
+    },
+    {
+      "id": 1031,
+      "panicName": "Насыщение кровью",
+      "lowMoraleDescription": "- Сила в столкновении -1 против целей без [Laceration]\n- При попадании восстанавливает ОЗ на количество [Laceration] цели",
+      "panicDescription": "Если у цели есть [Laceration], сила в поединке +2; если у цели нет [Laceration], сила в поединке −2. При попадании восстанавливает ОЗ в количестве, равном силе [Laceration] на цели."
+    },
+    {
+      "id": 1032,
+      "panicName": "Сознание вины",
+      "lowMoraleDescription": "Получает 1 [Vulnerable] и 1 [MentalIncreaseDown] на следующий ход",
+      "panicDescription": "Получает 2 [Vulnerable] и 2 [MentalIncreaseDown] на следующий ход"
+    },
+    {
+      "id": 1034,
+      "panicName": "Бремя Ответственности",
+      "lowMoraleDescription": "- Получает 2 [Enhancement] и 1 [Vulnerable]\n- Максимальная скорость повышается на 2\n- Восстановление ОЗ увеличивается на 30%\n- Если к концу хода значение [RegainedStrength] меньше того, что было в начале хода, получает 2 [AttackUp] и 2 [DefenseDown] на следующий ход",
+      "panicDescription": "- Получает 2 [Enhancement], 2 Спешки и 2 Уязвимости\n- Восстановление ОЗ увеличивается на 50%\n- Если к концу хода значение [RegainedStrength] меньше того, что было в начале хода, получает 3 [AttackUp] и 5 [DefenseDown] на следующий ход"
+    },
+    {
+      "id": 1033,
+      "panicName": "Пробуждённое рвение к резне",
+      "lowMoraleDescription": "Начало каждого хода: получает 2 [AttackUp]; эффективность СД +2.",
+      "panicDescription": "- Получает 6 [DefenseUp] на этот ход\n- Получает 3 [AttackUp] на следующий ход"
+    }
+  ]
+}

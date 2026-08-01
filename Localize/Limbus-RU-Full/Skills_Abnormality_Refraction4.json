@@ -1,0 +1,604 @@
+{
+  "dataList": [
+    {
+      "id": 860501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прочь отсюда",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 4 и более [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не делай такое лицо",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более единицами счётчика [Sinking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кто же вы такой?",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest]\nЕсли цель является [UninvitedGuest], увеличивает наносимые этой атакой силу и счётчик [Sinking] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest], наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Так вы.. незваный гость?",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest]\nЕсли цель является [UninvitedGuest], увеличивает наносимые этой атакой силу и счётчик [Sinking] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest], наносит 2 [Paralysis] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прочь, незваный гость",
+          "desc": "Нацеливается в первую очередь на [UninvitedGuest]\nКоличество целей повышается на количество противников с эффектом [UninvitedGuest]\n[WhenUse] Получает силу столкновения, равную количеству противников с [UninvitedGuest]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мой господин",
+          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыков",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мой трагичный господин",
+          "desc": "[DefeatDuel] Открывает Портрет, прикреплённый к этому слоту навыков",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Господин...?",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уворот",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рогатый натиск",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Таранный натиск",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Нанести 1 [AttackDown] следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Нанести 2 [AttackDown] следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Плач агнца",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Управление молнией",
+          "desc": "[WhenUse] Повышает свой счётчик [Charge] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическое блеяние",
+          "desc": "[WhenUse] Количество целей +1 за каждые 4 счётчика своего [Charge] (До 5)\n[WhenUse] Сила в столкновении +3 за каждые 5 счётчика своего [Charge] (До 4)\n[WhenUse] Получает 1 [VioletDamageUp] за каждые 6 счётчика своего [Charge] (До 3)\n[EndBattle] Тратит весь свой счётчик [Charge] и всё [ConnectedPlug]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [DefenseDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [AttackDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическое блеяние",
+          "desc": "[CantDuel]\n[WhenUse] Получает 10 [Protection]\n[WhenUse] Количество целей +1 за каждые 4 счётчика своего [Charge] (До 5)\n[WhenUse] Сила в столкновении +3 за каждые 5 счётчика своего [Charge] (До 4)\n[WhenUse] Получает 1 [VioletDamageUp] за каждые 6 счётчика своего [Charge] (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отказ от заземления",
+          "desc": "Выбирает цели с [AntiSheepGround]\nСила в столкновении +1 за каждое [ConnectedPlug]\n[StartBattle] Получает (2 × (3 - количество [ConnectedPlug]))[Protection]\n[WhenUse] Повышает свой счётчик [Charge] на 1\n[DefeatDuel] Если у цели есть [AntiSheepGround], получает 1 [ConnectedPlug]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выпуск избыточного заряда",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Всепоглощающая покорность",
+          "desc": "Сила монет +1 против целей с 6 и более [Sinking]\n[WinDuel] Повышает счётчик [Sinking] цели на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удушающее отчаяние",
+          "desc": "Сила монет +1 за каждые 6 [Sinking] на цели (До 2)\n[WinDuel] Повышает счётчик [Sinking] цели на 3\n[DefeatDuel] Уменьшает счётчик [Sinking] на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрушение цепей",
+          "desc": "Сила в столкновения +1 против целей со [Binding]\n[WinDuel] Повышает счётчик [Sinking] цели на 4\n[DefeatDuel] Уменьшает силу [Sinking] на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сковывающие цепи",
+          "desc": "Сила монет +1 за каждые 6 [Sinking] у цели (До 2)\n[DefeatDuel] Уменьшает счётчик [Sinking] на 2\n[DefeatDuel] Накладывает [BandageOfTheBoundKing]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Binding] на следующий ход\n[OnSucceedAttack] Наносит [Vibration] в количестве [Sinking] цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ты сгинешь",
+          "desc": "Сила в столкновения +1 против целей со [Binding]\n[WinDuel] Повышает счётчик [Sinking] цели на 2\n[DefeatDuel] Уменьшает силу [Sinking] на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Провоцирует [SinkingSurge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 862906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предстань пред королём",
+          "desc": "[CantDuel]\n[StartBattle] Получает 5 [Binding], 1 [ComeForwardToTheKing] и 2 [Enhancement] на следующий ход\n[WhenUse] Цели с [BandageOfTheBoundKing] получают 300 щита",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Удалось нанести урон цели, наносит [Vibration] в количестве [Sinking] цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Провоцирует [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 860602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Портрет господина",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

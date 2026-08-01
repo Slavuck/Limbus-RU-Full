@@ -1,0 +1,354 @@
+{
+  "dataList": [
+    {
+      "id": 9010101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Человек-омы!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Захват добычи",
+          "desc": "[WinDuel] Восстанавливает 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Получает 1 к счётчику [Breath]"
+                },
+                {
+                  "desc": "Критический урон +40%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Омы, омы!!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "На 30% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "На 30% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свежее мясо-омы",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath] и повышает счётчик [Breath] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бодрость духа",
+          "desc": "[WinDuel] Восстанавливает 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Счёт 2 [Breath] и +2 [Breath]"
+                },
+                {
+                  "desc": "Критический урон +40%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бесполезно!",
+          "desc": "[EndBattle] Если ещё остались ОЗ Щита, получает 1 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Превращу тебя в мебель-омы!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Paralysis]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Движение вперёд",
+          "desc": "[WinDuel] Восстанавливает 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 к счётчику [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath] и повышает его счётчик на 2"
+                },
+                {
+                  "desc": "Критический урон +40%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хум-хум~",
+          "desc": "[OnSucceedEvade] получает 5 [Breath] и +2 [Breath] счётчик.\n[OnDefeatEvade] Повысить порог оглушения на 10",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я достану тебя-омы",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Золотая жила",
+          "desc": "[WinDuel] Восстанавливает 5 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath] и 3 к счётчику [Breath]"
+                },
+                {
+                  "desc": "+50% урон при критическом ударе"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath] и 1 к счётчику [Breath]"
+                },
+                {
+                  "desc": " Получает 3 Дыхания и повышает его счётчик на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Местные сырьевые материалы!",
+          "desc": "[WinDuel] Получает 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] На 20% больше урона последней монетой"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] На 20% больше урона последней монетой"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Не тратит счётчик [Breath] и наносит дополнительный Дробящий урон в количестве силы своего [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9010404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бесполезно!",
+          "desc": "[EndBattle] Если ещё остались ОЗ Щита, получает 2 [Enhancement] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

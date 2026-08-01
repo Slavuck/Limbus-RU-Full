@@ -1,0 +1,680 @@
+{
+  "dataList": [
+    {
+      "id": 863001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тыловой огонь",
+          "desc": "Наносит на 10% больше урона при критическом попадании\n[WhenUse] Базовая сила +1 при 10 и более [Breath]\n[WhenUse] Получает 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фронтовой огонь",
+          "desc": "Наносит на 10% больше урона при критическом попадании\n[WhenUse] Базовая сила +1 при 10 и более [Breath]\n[WhenUse] Повышает счётчик [Breath] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пробитие",
+          "desc": "[WhenUse] Получает 2 [Breath]\n[WhenUse] Базовая сила +1 при 10 и более [Breath]\n[WhenUse] Сила монет +1 за каждые 5 единиц своего счётчика [Breath] (До 2)\n[WinDuel] Наносит на 50% больше урона при критическом попадании",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 к счётчику [Breath]"
+                },
+                {
+                  "desc": "Эта монета наносит урон только основной цели."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета наносит урон только дополнительным целям\nЕсли первая монета не убила союзника, или же цель не была оглушена, 1 случайная дополнительная цель получает урон"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перезарядка, огонь",
+          "desc": "Наносит на 50% больше урона при критическом попадании\n[WhenUse] Сила монет +1 за каждые 5 единиц счётчика [Breath] (До 3)\n[WhenUse] Получает 3 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Вновь подкидывает монету 1 раз"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Осознание ахиллесовой пяты",
+          "desc": "[DefeatDuel] Теряет половину своего [Breath], а всё полученное в этом ходе [Breath] также сокращается вдвое\n Получает 4 [Paralysis] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прицельный огонь",
+          "desc": "Атакует цель с [FellBulletMark]\nСила монет +1 за каждые 5 [Breath] на себе (до 2)\nБазовая сила +1 за каждые 3 единицы счётчика [Breath] на себе (до 3)\n[WhenUse] Если на основной цели нет [FellBulletMark], получает 1 [Paralysis] и 3 [Vulnerable]\n[EndSkill] Если цель погибла, получает 10 [Breath] и снижает СД всех противников на 15",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета наносит урон только основной цели."
+                },
+                {
+                  "desc": "Если цель [FellBulletMark], урон повышается на 100%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель [FellBulletMark], получает 10 [Breath] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета наносит урон только дополнительным целям\nЕсли первой монете не удалось убить цель, 2 случайные дополнительные цели получают урон"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Sinking] и 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Регулируемый огонь по цели",
+          "desc": "[CantIdentify]\n[CantChangeTarget]\nПриоритет ставит цель с помощью [FellBulletMark]\nЕсли этот юнит не смог атаковать стигматизированную цель, отменить этот навык.\nСила монет +1 на каждый 5 [Breath] на себе (максимум 2)\nБазовая +1 силы на каждый 3 [Breath] Рассчитывать на себя (максимум 3)\n[EndSkill] Если цель побеждена, получайте 10 [Breath] и снижайте СД каждого врага на 15",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Данная монета наносит урон лишь основной цели"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если цель [FellBulletMark], убивает её"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 10 [Breath] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета наносит урон только дополнительным целям\nЕсли первой монете не удалось убить цель, 1 случайная дополнительная цель получает урон"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Sinking] и 5 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искалечить",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Опустошить",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Затруднённое дыхание",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 8 [Breath] (До 5)\n[WhenUse] Сила монет +1 за каждые 8 единиц счётчика [Breath] (До 5)\n[DefeatDuel] Теряет половину своего [Breath]\n[EndSkill] Теряет половину своего [Breath] и его счётчика",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "На (Сила своего [Breath])% больше урона при критическом попадании"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Присесть",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)\n[WhenUse] Получает 4 [Breath]\n Если текущие ОЗ ниже 50%, повышает свой счётчик [Breath] на 4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863212,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Это... МОЁ!!",
+          "desc": "[CantChangeTarget]\n[WhenUse] Сила в столкновении +1 за каждые 4 [Breath] (До 3)\n[WhenUse] Сила в столкновении +1 за каждые 4 единицы счётчика [Breath] (До 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Поглощает силу [Breath] и счётчик [Breath] цели (До 6 каждого)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Поглощает 1/3 силы [Breath] и счётчика [Breath] цели (До 2 каждого)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863213,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделить страдание",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 8 [Breath] (До 5)\n[WhenUse] Сила монет +1 за каждые 8 единиц счётчика [Breath] (До 5)\n[DefeatDuel] Наносит на 75% меньше урона и не может оглушить целей\n[EndSkill] Теряет половину своего [Breath] и его счётчика",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 2 [Vulnerable]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Наносите +([Breath] Сила + [Breath] Счёт) урон при критическом ударе"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863221,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Освобождение от жизни в страданиях",
+          "desc": "[StartBattle] Получает 2 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тяжкая рана",
+          "desc": "Наносит на 1 силу и счётчик [Laceration] больше целям с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прорезать",
+          "desc": "Наносит на 1 силу и счётчик [Laceration] больше целям с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сжимающие терновые лозы",
+          "desc": "Наносит на 1 силу и счётчик [Laceration] больше целям с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863311,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Полидипсические лепестки",
+          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика [Laceration]\n[WhenUse] Итоговая сила +2 против целей с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScarletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863312,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рвущие лепестки",
+          "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика [Laceration]\n[WhenUse] Итоговая сила +2 против целей с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ScarletTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активировать все [Laceration] на цели (полностью сократить [Laceration] счётчик)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863313,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Град шипов",
+          "desc": "[WhenUse] Итоговая сила +2 против целей с 6 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863314,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жаждущий шип",
+          "desc": "[StartBattle] Получает 3 [AttackDmgUp] и 2 [Vulnerable]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863315,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бесконечный поток крови",
+          "desc": "[DuelCounter]\n[WhenUse] Противник, который сталкивается с этой атакой, не теряет счётчик [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Один раз активирует [Laceration] на цели и сразу расходует [BloodDinner], созданный уроном [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Один раз активирует [Laceration] на цели и сразу расходует [BloodDinner], созданный уроном [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Один раз активирует [Laceration] на цели и сразу расходует [BloodDinner], созданный уроном [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863316,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жажда",
+          "desc": "Активируется при 100 и более [BloodDinner]:\n[EndBattle] Поглощает до 100 [BloodDinner] для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое [BloodDinner]\n- Получает 1 [AttackUp] на следующий ход за каждые 20 поглощённого [BloodDinner]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 863317,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тоскующая терновая лоза",
+          "desc": "[WhenUse] Поглощает до 100 [BloodDinner] для активации эффектов:\n- Восстанавливает ОЗ Ядра и Тела на поглощённое [BloodDinner]\n- Итоговая сила +1 за каждые 20 поглощённого [BloodDinner]\n[DefeatDuel] Итоговая сила -5\n[EndSkill] Если эта атака поглотила менее 30 [BloodDinner], получает 2 [Vulnerable] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

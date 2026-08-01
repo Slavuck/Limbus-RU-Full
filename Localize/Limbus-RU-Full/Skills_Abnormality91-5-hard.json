@@ -1,0 +1,58 @@
+{
+  "dataList": [
+    {
+      "id": 107804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возьмёмся за упаковку",
+          "desc": "Если есть [AaCeSeBa], наносит каждой монетой 1 [Paralysis] на следующий ход\nНацеливается на самого медленного противника\n[EndBattle] Тратит весь счётчик [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве своего [Breath]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath] и повышает счётчик [Breath] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Случайно накладывает 1 [Protection], [Enhancement], [Vulnerable] или [Paralysis]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон по СД в количестве своего счётчика [Charge]"
+                },
+                {
+                  "desc": "[EnemyKill] Все противники теряют 10 СД"
+                },
+                {
+                  "desc": "[EnemyKillFail] Получает 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

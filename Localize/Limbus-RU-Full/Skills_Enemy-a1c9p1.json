@@ -1,0 +1,364 @@
+{
+  "dataList": [
+    {
+      "id": 9103601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Колющий",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрыв плоти",
+          "desc": "Базовая сила +1 против целей с 5 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик [Laceration] ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик [Laceration] ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Произведение искусства: Освобождение костей в зависимости от сердечного ритма",
+          "desc": "Базовая сила +1 за каждые 20% потерянных ОЗ Ядра (До 4)\nСила монет +1 за каждые 3 [Laceration] на цели (До 2)\n[WinDuel] Повышает счётчик [Vibration] цели на 2\n[DefeatDuel] Получает 1 [Paralysis] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Теряет 30% от своих текущих ОЗ (Не может оглушиться от этого)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит [Switch_Vibration] в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мышечное сокращение",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получить 1 [MuscleContraction] следующий ход. При попадании получайте 1 дополнительный [MuscleContraction] (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрыв сосуда",
+          "desc": "Базовая сила +1 против целей с 5 и более [Laceration]\nНаносит на 30% больше урона целям с 3 и более типами негативных эффектов",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Произведение искусства: Освобождение костей в зависимости от сердечного ритма",
+          "desc": "Базовая сила +1 за каждые 20% потерянных ОЗ Ядра (До 4)\nСила монет +1 за каждые 3 [Laceration] на цели (До 2)\n[WinDuel] Повышает счётчик [Vibration] цели на 2\n[DefeatDuel] Получает 1 [Paralysis] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Теряет 30% от своих текущих ОЗ (Не может оглушиться от этого)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит [Switch_Vibration] в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мышечное сокращение",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получить 1 [MuscleContraction] следующий ход. При попадании получайте 1 дополнительный [MuscleContraction] (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Связанные мышцы",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Desire] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрывать и раздирать",
+          "desc": "Базовая сила +1 против целей с 5 и более [Laceration]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик [Laceration] ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Desire] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2\n- Если цель имеет 3 и более типа негативных эффектов, повышает счётчик [Laceration] ещё на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Наносит 1 [Desire] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Произведение искусства, украшенное желанием",
+          "desc": "Базовая сила +1 за каждые 20% потерянных ОЗ Ядра (До 4)\nСила монет +1 за каждые 3 [Laceration] на цели (До 2)\n[WinDuel] Повышает счётчик [Vibration] цели на 2\n[DefeatDuel] Получает 1 [Paralysis] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Теряет 30% от своих текущих ОЗ (Не может оглушиться от этого)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 5 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Desire] на следующий ход"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Производит [Switch_Vibration] в [VibrationBleeding]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9103805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Затягивающиеся ленты",
+          "desc": "[CanDuelGuard]\nПри попадании нанесите 1 [PinkRibbon_Ishmael] атакующему (один раз за Навык)\n[StartBattle] Получить 1 [MuscleContraction] следующий ход. При попадании получайте 1 дополнительный [MuscleContraction] (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

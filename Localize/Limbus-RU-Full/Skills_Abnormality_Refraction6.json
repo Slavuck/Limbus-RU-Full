@@ -1,0 +1,1804 @@
+{
+  "dataList": [
+    {
+      "id": 956301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Порхающий хаос",
+          "desc": "[WhenUse]\n- Сила в столкновении +1 за каждые 8 единиц в сумме силы [Combustion] и [Laceration] на цели (До 3)\n- Наносит на 5% больше урона за каждые 6 [Breath] (До 20%)\n- Получает 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Распыление",
+          "desc": "[WhenUse]\n- Сила в столкновении +1 за каждые 8 единиц в сумме силы [Combustion] и [Laceration] на цели (До 3)\n- Наносит на 5% больше урона за каждые 6 [Breath] (До 20%)\n- Получает 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оживление",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНе наносит урона\n\n[WhenUse] Не может получить урон до конца хода\n[EndSkill] Заканчивает битву",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запутанная жизнь - Регрессия",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Прошлое\n- Противники второй секции получат 2 [HeatedWingScalesExplain](;HeatedWingScales)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запутанная жизнь - Проявление",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Настоящее\n- Противники третьей секции получат 3 [TransparentWingScalesExplain](;TransparentWingScales)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Запутанная жизнь - Пришествие",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Будущее\n- Противники четвёртой секции получат 4 [RustedWingScalesExplain](;RustedWingScales)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вылупление",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНе наносит урона\n\n[EndSkill] Завершает битву\n- Если полученный в начале битвы щит был истощён, то сначала происходит переход на следующий ход и появляется <color=#ff6000><mark=#ff000040><b><u>особое событие выбора</u></b></mark></color>, только после которого битва действительно завершается",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вылупление",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНе наносит урона\n\n[EndSkill] Завершает битву\n- Если полученный в начале битвы щит был истощён, то сначала происходит переход на следующий ход и появляется <color=#ff6000><mark=#ff000040><b><u>особое событие выбора</u></b></mark></color>, только после которого битва действительно завершается",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вылупление",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНе наносит урона\n\n[EndSkill] Завершает битву\n- Если полученный в начале битвы щит был истощён, то сначала происходит переход на следующий ход и появляется <color=#ff6000><mark=#ff000040><b><u>особое событие выбора</u></b></mark></color>, только после которого битва действительно завершается",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Порхающий хаос",
+          "desc": "[WhenUse]\n- Сила в столкновении +1 за каждые 8 единиц в сумме силы [Combustion] и [Laceration] на цели (До 3)\n- Наносит на 10% больше урона за каждые 8 [Breath] (До 30%)\n- Получает 2 [Breath]\n- Последняя монета этого навыка становится [SuperCoin], если текущие ОЗ ниже 66%\n- Все монеты этого навыка становятся [SuperCoin], если текущие ОЗ ниже 33%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Распыление",
+          "desc": "[WhenUse]\n- Сила в столкновении +1 за каждые 8 единиц в сумме силы [Combustion] и [Laceration] на цели (До 3)\n- Наносит на 10% больше урона за каждые 8 [Breath] (До 30%)\n- Повышает свой счётчик [Breath] на 2\n- Последняя монета этого навыка становится [SuperCoin], если текущие ОЗ ниже 66%\n- Все монеты этого навыка становятся [SuperCoin], если текущие ОЗ ниже 33%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хаотическое смятение",
+          "desc": "[WhenUse]\n- сила в столкновении +1 за каждую 6 ([Combustion] + [Laceration]) по цели (максимальный 6)\n- сила в столкновении +1 для каждого 6 [Breath] на себе (максимум 3)\n[DefeatDuel]\nПриобрести <color=#ff6000><mark=#ff000040><b><u>2 [ResultReduction] и 2[AttackDmgDown]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Вновь подкидывает эту монету за каждые 33% потерянных ОЗ (До 2 раз)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Формирование и создание",
+          "desc": "С этим навыком можно столкнуться независимо от скорости\n\n[WhenUse]\n- Сила в столкновении +1 за каждые 6 [Combustion] на цели (До 6)\n- Вторая монета этого навыка становится [SuperCoin], если текущие ОЗ ниже 66%\n- Все монеты этого навыка становятся [SuperCoin], если текущие ОЗ ниже 33%\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion] и повышает счётчик [Combustion] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует [Combustion]</u></b></mark></color> на цели и понижает счётчик [Combustion] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сожжение",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- сила в столкновении +1 за каждую 6 [Combustion] по основной цели (максимальный 6)\n- <color=#ff6000><mark=#ff000040><b><u>Наносить +([StackPastActivate] x 2)% урона</u></b></mark></color> (максимальный 60%)\n- При меньшей мере 66% ОЗ, преобразуем вторую монету в [SuperCoin]\n- При менее чем 33% ОЗ, конвертируйте все монеты в [SuperCoin]s\n[DefeatDuel] Цель нельзя оглушать до окончания атаки этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует [Combustion]</u></b></mark></color> на цели дважды и понижает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Если текущие ОЗ ниже 33%, то <color=#ff6000><mark=#ff000040><b><u>активирует [Combustion]</u></b></mark></color> на цели единожды и понижает счётчик [Combustion] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Огонь в конце Кальпы【Kalpāgni】",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Конечный +1 Степени для каждого 6 [Combustion] по основной цели (максимальный 6)\n- <color=#ff6000><mark=#ff000040><b><u>Наносить +([StackPastActivate] x 4)% урона</u></b></mark></color> (максимальный 120%)\n[WinDuel] получает 5 [StackPastActivate]\n[DefeatDuel]\n- Половинка [StackPastActivate] (округленная вниз)\n- Усиление 2 [AttackDmgDown] и 4 [Paralysis]\n- Цель нельзя оглушать до окончания атаки этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion] и повышает счётчик [Combustion] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion] и повышает счётчик [Combustion] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует [Combustion]</u></b></mark></color> на цели и понижает счётчик [Combustion] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует [Combustion]</u></b></mark></color> на цели дважды и понижает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Если текущие ОЗ ниже 33%, то <color=#ff6000><mark=#ff000040><b><u>активирует [Combustion]</u></b></mark></color> на цели единожды и понижает счётчик [Combustion] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Непостоянство【Anitya】",
+          "desc": "Может вступать в Поединок этим навыком независимо от Скорости\n[WhenUse]\n- Сила в столкновении +1 и наносит на 10% больше урона за каждые 6 [Breath] на себе (максимум +6 и +60% соответственно)\n- При ОЗ ниже 66% преобразует вторую монету в [SuperCoin]\n- При ОЗ ниже 33% преобразует все монеты в [SuperCoin]\n[BeforeAttack] Получает 2 [Breath] и 2 к счётчику [Breath]\n[DefeatDuel] Цель не может быть Оглушена до конца атаки этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath] и повышает счётчик [Breath] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит (Сила своего [Breath] / 2) <color=#ff6000><mark=#ff000040><b><u>дополнительного урона Гордыней</u></b></mark></color> (Округляется вниз), понижая свой счётчик [Breath] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронзание неба",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- сила в столкновении +1 и наносит +10% урон за каждый 6 [Breath] по себе (максимальный 6 и 60%соответственно)\n- <color=#ff6000><mark=#ff000040><b><u>Наносить +([StackPresentActivate] x 2)% урона</u></b></mark></color> (максимальный 60%)\n- При меньшей мере 66% ОЗ, преобразуем вторую монету в [SuperCoin]\n- При менее чем 33% ОЗ, конвертируйте все монеты в [SuperCoin]s\n[BeforeAttack] Счёт 3 [Breath] и +2 [Breath]\n[DefeatDuel] Цель нельзя оглушать до окончания атаки этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>наносит +([Breath] Считать на собственный)% урон </u></b></mark></color> (максимальный 50%)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>При меньшем 33% ОЗ, наносит +([Breath] Рассчитывать на само)% урона</u></b></mark></color> (максимальный 30%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносить +([Breath] на себя x 2)% урона</u></b></mark></color> (максимальный 100%)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack]\n<color=#ff6000><mark=#ff000040><b><u>При менее чем 33% ОЗ, наносит +([Breath] на себе)% урона</u></b></mark></color> (максимальный 50%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956709,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поражение нечестивого",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Финальная сила +1 и наносит +20% урон за каждую 6 [Breath] по себе (максимальный 6 и 120% соответственно)\n- Счёт 4 [Breath] и +4 [Breath]\n- <color=#ff6000><mark=#ff000040><b><u>наносит +([StackPresentActivate] x 4)% урона (максимальный 120%)</u></b></mark></color>\n[BeforeAttack] Если у этого юнита 20+ [Breath] Потенция, потребляйте до 20 излишка [Breath] Силы сверх 20, чтобы нанести +([Breath] потраченного x 5)% урона (максимальный 100%)\n- В столкновение теряет этот эффект не активируется\n[WinDuel] получает 5 [StackPresentActivate]\n[DefeatDuel]\n- Половинка [StackPresentActivate] (округлена вниз)\n- Усиление 2 [AttackDmgDown] и 1 [Paralysis]\n- Цель нельзя оглушать до окончания атаки этого навыка\n[EndSkill] Если цель убита, повторно используйте этот навык на цели с самым высоким ОЗ (один раз за ход)\n- В столкновение теряет этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>На время этой атаки ослабляет сопротивление цели к Пронзающему урону</u></b></mark></color> до \"Уязвимого\" (x1.5), если оно сильнее этого значения (Не активируется при поражении в столкновении)"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Если текущие ОЗ ниже 33%, то <color=#ff6000><mark=#ff000040><b><u>наносит дополнительный Пронзающий урон</u></b></mark></color>, равный половине итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956710,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Коррозионный распад",
+          "desc": "С этим навыком можно столкнуться независимо от скорости\n\n[WhenUse]\n- Сила в столкновении +1 за каждые 6 [Laceration] на цели (До 6)\n- Вторая монета этого навыка становится [SuperCoin], если текущие ОЗ ниже 66%\n- Все монеты этого навыка становятся [SuperCoin], если текущие ОЗ ниже 33%\n[DefeatDuel] Не может оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] и повышает счётчик [Laceration] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует [Laceration] на цели</u></b></mark></color> и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гниющее уничтожение",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\nПри столкновении с этим навыком <color=#ff6000><mark=#ff000040><b><u>[Laceration] счётчик основной цели не падает ниже 1</u></b></mark></color>\n[WhenUse]\n- сила в столкновении +1 за каждую 6 [Laceration] по основной цели (максимальный 6)\n- Наносить +([StackFutureActivate] x 2)% урона (максимальный 60%)\n- При меньшей мере 66% ОЗ, преобразуем вторую монету в [SuperCoin]\n- При менее чем 33% ОЗ, конвертируйте все монеты в [SuperCoin]s\n[DefeatDuel] Цель нельзя оглушать до окончания атаки этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует [Laceration]</u></b></mark></color> на цели дважды и понижает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Если текущие ОЗ ниже 33%, то <color=#ff6000><mark=#ff000040><b><u>активирует [Laceration]</u></b></mark></color> на цели единожды и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956712,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кровавый цветок",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\nПри столкновении с этим навыком <color=#ff6000><mark=#ff000040><b><u>[Laceration] счётчик основной цели не падает ниже 1</u></b></mark></color>\n[WhenUse]\n- Конечный +1 Степени для каждого 6 [Laceration] по основной цели (максимальный 6)\n- Наносить +([StackFutureActivate] x 4)% урона (максимальный 120%)\n[WinDuel] получает 5 [StackFutureActivate]\n[DefeatDuel]\n- Половинка [StackFutureActivate] (округленная вниз)\n- Усиление 2 [AttackDmgDown] и 2 [Paralysis]\n- Цель нельзя оглушать до окончания атаки этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Laceration] и повышает счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Активирует [Laceration]</u></b></mark></color> на цели дважды и понижает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Если текущие ОЗ ниже 33%, то <color=#ff6000><mark=#ff000040><b><u>активирует [Laceration]</u></b></mark></color> на цели единожды и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гнев вывернутой чешуи【逆鱗之禍】",
+          "desc": "Этот навык активируется только тогда<color=#ff6000><mark=#ff000040><b><u>часть «Инвертированная чешуя» попадает в основную цель</u></b></mark></color>\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Потреблять все [YesdragonSelfRefraction]</u></b></mark></color> на себе и использовать последнюю монету (# потраченных стеков) раз (максимум 5 раз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[EnemyKill] Если убивает главную цель, то этот навык приобретает эффект [WideAreaRampage] и продолжает наносить урон остальным целям второй монетой"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета наносит урон только главной цели (Если этот навык приобрёл эффект [WideAreaRampage] из первой монеты, то урон наносится оставшимся целям соответственно этому эффекту)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспышка молнии【閃雷】",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рык дракона【龍聲】",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нисходящая игла【落針】",
+          "desc": "[WhenUse] Базовая Сила +1 <color=#ff6000><mark=#ff000040><b><u>для каждого 2 [YesdragonSelfRefraction]</u></b></mark></color> себя\n[WhenUse] Если у цели есть [Binding] или [Paralysis], базовая сила +2\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Спаун «Булавка для захоронения цветов» в следующем ходу</u></b></mark></color>\n[DefeatDuel] восстанавливает 5 СД в цель\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Не вызывает появления «Цветочного зарывающего значка»</u></b></mark></color>, а голова получает <color=#ff6000><mark=#ff000040><b><u>фиксированный урон</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst] и повышает счётчик [Burst] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вихрь дракона【龍卷】",
+          "desc": "[WhenUse] Сила монет +1, если главная цель имеет [Binding] или [Paralysis]\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Цель получает [YesdragonWind]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Надвигающийся дождь【積雨】",
+          "desc": "[WhenUse] Базовая сила повышается <color=#ff6000><mark=#ff000040><b><u>на текущее значение</u></b></mark></color> [YesdragonSelfRefraction] (До 10)\n[WhenUse] Сила монет +1 и Количество целей +1 <color=#ff6000><mark=#ff000040><b><u>при 5 и более</u></b></mark></color> [YesdragonSelfRefraction]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если значение [YesdragonSelfRefraction] равно 5 и более, <color=#ff6000><mark=#ff000040><b><u>то вновь подкидывает эту монету</u></b></mark></color> 1 раз"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Burst] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар молнии【落雷】",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на <b>Иглу для похорон цветов</b>; <color=#ff6000><mark=#ff000040><u>этот навык отменяется при её преждевременном уничтожении</u></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst] и повышает счётчик [Burst] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход с шансом 50%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Клин дракона【龍之櫼】",
+          "desc": "[CanDuelGuard]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 1 [DragonLanceRefraction]</u></b></mark></color> на следующий ход\n[DefeatDuel] Получает 3 [Endurance] на следующий ход вместо 1 Клина для похорон цветов от эффекта выше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Гнев вывернутой чешуи【逆鱗之禍】",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Полностью тратит имеющееся значение [YesdragonSelfRefraction]</u></b></mark></color>, чтобы вновь подкинуть последнюю монету ещё (Потраченное значение) раз (До 5 раз)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[EnemyKill] Если убивает главную цель, то этот навык приобретает эффект [WideAreaRampage] и продолжает наносить урон остальным целям второй монетой"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета наносит урон только главной цели (Если этот навык приобрёл эффект [WideAreaRampage] из первой монеты, то урон наносится оставшимся целям соответственно этому эффекту)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспышка молнии【閃雷】",
+          "desc": "[WhenUse] Базовая сила +1 против целей, чья СД ниже 35\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рык дракона【龍聲】",
+          "desc": "[WhenUse] Сила монет +1, если СД главной цели ниже 35\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нисходящая игла【落針】",
+          "desc": "[WhenUse] Базовая Сила +1 <color=#ff6000><mark=#ff000040><b><u>для каждого 2 [YesdragonSelfRefraction]</u></b></mark></color> себя\n[WhenUse] Если у цели есть [Binding] или [Paralysis], базовая сила +2\n[WhenUse] Если у этого устройства <color=#ff6000><mark=#ff000040><b><u>5+ [YesdragonSelfRefraction]</u></b></mark></color>, сила монеты +1\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Спаун «Булавка для захоронения цветов» в следующем ходу</u></b></mark></color>\n[DefeatDuel]<color=#ff6000><mark=#ff000040><b><u>Не появляется «Булавка для захоронения цветов»</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst] и повышает счётчик [Burst] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вихрь дракона【龍卷】",
+          "desc": "[WhenUse] Сила монет +1, если главная цель имеет [Binding] или [Paralysis]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Надвигающийся дождь【積雨】",
+          "desc": "[WhenUse] Базовая сила повышается <color=#ff6000><mark=#ff000040><b><u>на текущее значение</u></b></mark></color> [YesdragonSelfRefraction] (До 10)\n[WhenUse] Сила монет +1 и Количество целей +1 <color=#ff6000><mark=#ff000040><b><u>при 5 и более</u></b></mark></color> [YesdragonSelfRefraction]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Burst]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если значение [YesdragonSelfRefraction] равно 5 и более, <color=#ff6000><mark=#ff000040><b><u>то вновь подкидывает эту монету</u></b></mark></color> 1 раз"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Burst] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар молнии【落雷】",
+          "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на <b>Иглу для похорон цветов</b>; <color=#ff6000><mark=#ff000040><u>этот навык отменяется при её преждевременном уничтожении</u></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst] и повышает счётчик [Burst] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход с шансом 50%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 956909,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рождённые слезами дракона приливы【龍淚成濤】",
+          "desc": "С этим навыком можно столкнуться независимо от скорости\n\n[WhenUse] Не может быть оглушён от урона до конца использования этого навыка\n[WhenUse] Сила монет и Количество целей повышаются <color=#ff6000><mark=#ff000040><b><u>на текущее значение</u></b></mark></color> [DragonLanceRefraction] (До 10)\n Если значение [DragonLanceRefraction] максимально, то наносит на 100% больше урона\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить целей\n[DefeatDuel] Получает 3 [Vulnerable] до конца следующего хода\n[EndSkillAll] Значение [DragonLanceRefraction] понижается на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [CondensedBloodRefraction] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [CondensedBloodRefraction]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [CondensedBloodRefraction]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 957001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронзить себя, очиститься от скверны【自穿滅汚】",
+          "desc": "[CantIdentify] [CantDuel]\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Если ОЗ Багрового нефрита равны 1, то этот навык не наносит урона</u></b></mark></color> и не активирует эффекты монет\n[EndSkill] Уничтожается",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 957101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Игла, несущая дух дракона",
+          "desc": "[CanDuelGuard]\n[WinDuel] Наносит 1 [Vulnerable] атаковавшему",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955110,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фуриозо - Реплика",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот навык не активирует защитные навыки цели</u></b></mark>></color>\nМожет сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Счёт 3 [Breath] и +3 [Breath]\n- Сила Столкновения +5 (<color=#ff6000><mark=#ff000040><b><u>Сила Столкновения уменьшается на 1 за каждую 8 [KarmaOfIndexRien] на себе, вплоть до 0</u></b></mark></color>)\n[WhenUse] При 0+ СД, генерировать 1 Манг\n- Наносить +20% урон; Финальная +3 Силы\n[WinDuel]\n- Счёт 3 [Breath] и +3 [Breath]\n- конец атаки: нанести 3 [Laceration], 1 [Binding]и 1 [Vulnerable] следующий ход всем целям, поражённым этим подразделением\n[DefeatDuel]\n- Усиление 4 [AttackDmgDown] и 9 [Paralysis]\n- Урон, нанесённый этим навыком, не может оглушить цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Если этот навык сгенерировал Манг, потерять 20 СД\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уничтожить звук, раздавить мысль",
+          "desc": "Может вступать в Поединок этим навыком независимо от Скорости\nЕсли у бойца есть [BlackNightmare]:\n- Преобразует все монеты в [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>При Поединке с навыком не Дробящего типа</u></b></mark></color>: Сила монет +2; наносит на 50% больше урона\n- При поражении в Поединке навыку Дробящего типа:\n  - Сила монет -2; наносит на 50% меньше урона\n  - Урон этого навыка не может Оглушить цель; при попадании не активирует [Sinking] на цели\n\nОружие Дробящего типа появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] оружие Дробящего типа появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] оружие Дробящего типа появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Оружие Дробящего типа наносит на 60% больше урона\n- Оружие не Дробящего типа наносит на 30% меньше урона\n[WhenUse] Получает 3 [Breath] и 2 к счётчику [Breath]\n[WinDuel] Повышает границу выносливости цели на 25\n- При 150+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955208,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Раздавить сердце тишины, проткнуть память",
+          "desc": "Может вступать в Поединок этим навыком независимо от Скорости\nЕсли у бойца есть [BlackNightmare]:\n- Преобразует все монеты в [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>При Поединке с навыком не Пронзающего типа</u></b></mark></color>: Сила монет +2; наносит на 50% больше урона\n- При поражении в Поединке навыку Пронзающего типа:\n  - Сила монет -2; наносит на 50% меньше урона\n  - Урон этого навыка не может Оглушить цель; при попадании не активирует [Sinking] на цели\n\nОружие Пронзающего типа появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] оружие Пронзающего типа появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] оружие Пронзающего типа появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Оружие Пронзающего типа наносит на 60% больше урона\n- Оружие не Пронзающего типа наносит на 30% меньше урона\n[WhenUse] Получает 3 [Breath] и 2 к счётчику [Breath]\n[WinDuel] Получает 2 [AttackDmgUp] на следующий ход\n- При 150+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955209,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С закалённым секретом, отсечь форму",
+          "desc": "Может вступать в Поединок этим навыком независимо от Скорости\nЕсли у бойца есть [BlackNightmare]:\n- Преобразует все монеты в [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>При Поединке с навыком не Рубящего типа</u></b></mark></color>: Сила монет +2; наносит на 50% больше урона\n- При поражении в Поединке навыку Рубящего типа:\n  - Сила монет -2; наносит на 50% меньше урона\n  - Урон этого навыка не может Оглушить цель; при попадании не активирует [Sinking] на цели\n\nОружие Рубящего типа появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] оружие Рубящего типа появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] оружие Рубящего типа появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Оружие Рубящего типа наносит на 60% больше урона\n- Оружие не Рубящего типа наносит на 30% меньше урона\n[WhenUse] Получает 3 [Breath] и 2 к счётчику [Breath]\n[WinDuel] Итоговая сила +3\n- При 150+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает свой счётчик [Breath] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Sinking] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955210,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фуриозо [Crescendo]",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот навык не активирует защитные навыки цели</u></b></mark>></color>\nМожет сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Счёт 6 [Breath] и +6 [Breath]\n- Сила Столкновения +10 (<color=#ff6000><mark=#ff000040><b><u>Сила Столкновения уменьшается на 1 за каждую 8 [KarmaOfIndexRien_2Phase] на себя</u></b></mark></color>)\n[WhenUse] При 0+ СД, генерировать 2 Манг\n- Наносить +40% урон; Финальная +5 Силы\n[WinDuel]\n- конец атаки: нанести 4 [Laceration], 2 [Binding]и 2 [Vulnerable] следующий ход всем целям, поражённым этим подразделением\n[DefeatDuel]\n- Усиление 6 [AttackDmgDown] и 9 [Paralysis]\n- Урон, нанесённый этим навыком, не может оглушить цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Если этот навык сгенерировал Манг, потерять 25 СД\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955211,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фуриозо<nobr>【Лакримоза-Крещендо】</nobr>",
+          "desc": "[WideAreaRampage]\n<color=#ff6000><mark=#ff000040><b><u>Этот Навык не активирует Навыки Защиты</u></b></mark></color>\nМожет сталкиваться с этим навыком независимо от скорости\n[WhenUse]\n- Счёт 9 [Breath] и +9 [Breath]\n- Сила Столкновения +15 (Сила Столкновения уменьшается на 1 за каждый 8 [KarmaOfIndexRien_2Phase] на себе)\n[WhenUse] При 0+ СД генерируйте 3 Манги\n- Наносить +60% урон; Последний +8 Силы\n[WinDuel]\n- конец атаки: нанести 5 [Laceration], 3 [Binding] и 3 [Vulnerable] следующий ход всем целям, по которым это подразделение поражает\n[DefeatDuel]\n- Усиление 8 [AttackDmgDown] и 9 [Paralysis]\n- Урон, нанесённый этим навыком, не может оглушить цель; При попадании не активирует [Sinking] по цели\n[EndSkill] Если этот Навык сгенерировал Манг, теряю 30 СД\n[EndSkill] Конец этого хода",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Вновь подкидывает эту монету (До 7 раз)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не позволяйте им навредить мне",
+          "desc": "[CanDuelGuard]\nИтоговая сила -4 за каждую убитую Пеккатулу Зависти",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поиграй со мной!",
+          "desc": "Итоговая сила +1 и на 5% больше урона за каждую убитую Пеккатулу Зависти\n[DefeatDuel] Базовая сила -7\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хья!",
+          "desc": "Итоговая сила +1 и на 10% больше урона за каждую убитую Пеккатулу Зависти\n[DefeatDuel] Базовая сила -8\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тебе нравятся куклы?",
+          "desc": "Итоговая сила +1 и на 5% больше урона за каждую убитую Пеккатулу Зависти\n[DefeatDuel] Базовая сила -10\n[DefeatDuel] Не может оглушить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [ResultReduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я выберу ножницы. А ты?",
+          "desc": "Если этот навык используется в качестве односторонней атаки или проигрывает в столкновении, <color=#ff6000><mark=#ff000040><b><u>то он наносит на 300% больше урона</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Сила в столкновении +20 против целей, которые имеют [ResultReduction]</u></b></mark></color>\n[WinDuel] Не вызывает активацию защитных навыков целей\n[WinDuel] Отменяет этот навык и использует 「Ты выиграл...」 на цели вместо него",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Laceration] и повышает счётчик [Laceration] на 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ты выиграл...",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков и не наносит удар\n[WhenUse] Даёт цели 2 [AttackUp] на следующий ход\n[EndSkill] Восстанавливает (Итоговая сила монеты навыка × 5) ОЗ двум Грешникам с наименьшими текущими ОЗ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Давайте играть вместе вечно~!",
+          "desc": "С этим навыком можно столкнуться независимо от скорости\n\nНе вызывает активацию защитных навыков\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Наносит на 90% меньше урона против целей, экипировавших защитные навыки</u></b></mark></color>\n[StartDuel] <color=#ff6000><mark=#ff000040><b><u>Итоговая сила +20</u></b></mark></color>\n[WinDuel] Наносит на 100% больше урона\n[DefeatDuel] Наносит на 90% меньше урона и не может оглушить целей\n[DefeatDuel] Оглушается в следующем ходе\n[EndSkill] Заканчивает этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration] и повышает счётчик [Laceration] на 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Инсталляция №3: Импровизированная грудная клетка",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков\nНацеливается на противников с наибольшим уровнем\n[WhenUse] Сила монет +1 за каждые 8 [Laceration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит урон по СД вместо ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 15 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack]\n<color=#ff6000><mark=#ff000040><b><u>Оглушает цель и превращает её в [LivingSpecimenTheRings] в следующем ходу</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
+          "desc": "В течение хода этот отряд получает этот навык, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при попадании атакующих навыков</u></b></mark></color> (один раз за навык; максимум 3 раза за ход)\nНельзя оглушить до использования этого навыка\nПри убийстве с этим умением: лечите 15 СД за каждую убитую цель\n[StartBattle] получает 4 [Protection]\n[WhenUse] Наносить +3% урона за каждую 6 ([Laceration] по основной цели + [Laceration] по субмишену) (максимальный 30%)\n[DefeatDuel] наносить -90% урон и урон этого навыка не может оглушить цель\n[EndSkill] [MineTheRings] истекает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает 5 СД (раз за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Vulnerable] в следующем ходу"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] в следующем ходу (раз за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [AttackDmgDown] в следующем ходу"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] в следующем ходу (раз за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 3 к счётчику [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Смерть【絶命】",
+          "desc": "Не вызывает активацию защитных навыков цели\nВыбирает целью противника с наименьшим процентом текущих ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [PhantomIncision] за каждый 1% потерянных ОЗ цели"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Полностью тратит [PhantomIncision] с цели и наносит ей (Потраченный [PhantomIncision])% урона по ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 955505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Освобождение подавленной плоти",
+          "desc": "В течение хода этот отряд получает этот навык, получает 1 [PlusCoinValueDown] и 1 [ResultReduction] <color=#ff6000><mark=#ff000040><b><u>при попадании атакующих навыков</u></b></mark></color> (один раз за навык; максимум 3 раза за ход)\nНельзя оглушить до использования этого навыка\nПри убийстве с этим умением: лечите 15 СД за каждую убитую цель\n[StartBattle] получает 4 [Protection]\n[WhenUse] Наносить +3% урона за каждую 6 ([Laceration] по основной цели + [Laceration] по субмишену) (максимальный 30%)\n[DefeatDuel] наносить -90% урон и урон этого навыка не может оглушить цель\n[EndSkill] [BoneBladeTheRings] истекает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 5 СД (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [Protection] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [AttackDmgDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 1 [AttackDmgUp] на следующий ход (Единожды за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
