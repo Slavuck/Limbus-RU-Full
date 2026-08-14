@@ -874,6 +874,184 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2031011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Поиграешь со мной?",
+          "desc": "[WinDuelEndSkill] Восстанавливает по 2% ОЗ и 5 СД (2 + резонанс Зависти / 2) союзникам с самым низким текущим процентом ОЗ (до 3 бойцов)\n[DefeatDuel] Получает (резонанс Зависти × 5) ОЗ щита (до 20)\n[DefeatDuel] Наносит основной цели на 100% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 1 [ResultReduction] на следующий ход (один раз за ход для каждой цели)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Поиграешь со мной?",
+          "desc": "[WinDuelEndSkill] Восстанавливает по <style=\"highlight\">4</style>% ОЗ и 5 СД (2 + резонанс Зависти / 2) союзникам с самым низким текущим процентом ОЗ (до <style=\"highlight\">4</style> бойцов)\n[DefeatDuel] Получает (резонанс Зависти × 5) ОЗ щита (до <style=\"highlight\">25</style>)\n[DefeatDuel] Наносит основной цели на <style=\"highlight\">150</style>% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 1 [ResultReduction] на следующий ход (один раз за ход для каждой цели)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Поиграешь со мной?",
+          "desc": "[WinDuelEndSkill] Восстанавливает по <style=\"highlight\">6</style>% ОЗ и 5 СД (2 + резонанс Зависти / 2) союзникам с самым низким текущим процентом ОЗ (до 4 бойцов)\n[DefeatDuel] Получает (резонанс Зависти × 5) ОЗ щита (до <style=\"highlight\">30</style>)\n[DefeatDuel] Наносит основной цели на <style=\"highlight\">200</style>% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[WinDuelAttack] Наносит 1 [ResultReduction] на следующий ход (один раз за ход для каждой цели)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2031021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Поиграешь со мной?",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nПри резонансе Зависти 2 и более итоговая сила +1\n[WinDuel] Наносит основной цели на 60% больше урона\n[DefeatDuel] Получает (резонанс Зависти × 5) ОЗ щита (до 20)\n[DefeatDuel] Этот навык наносит на 1 [ResultReduction] больше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход (один раз за ход для каждой цели)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Поиграешь со мной?",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nИтоговая сила +1 <style=\"highlight\">за каждые 2 резонанса Зависти (до 2)</style>\n[WinDuel] Наносит основной цели на <style=\"highlight\">80</style>% больше урона\n[DefeatDuel] Получает (резонанс Зависти × 5) ОЗ щита (до <style=\"highlight\">25</style>)\n[DefeatDuel] Этот навык наносит на 1 [ResultReduction] больше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход (один раз за ход для каждой цели)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я выберу ножницы. А ты?",
+          "abName": "Поиграешь со мной?",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nИтоговая сила +1 за каждые 2 резонанса Зависти (до <style=\"highlight\">3</style>)\n[WinDuel] Наносит основной цели на <style=\"highlight\">100</style>% больше урона\n[DefeatDuel] Получает (резонанс Зависти × 5) ОЗ щита (до <style=\"highlight\">30</style>)\n[DefeatDuel] Этот навык наносит на 1 [ResultReduction] больше",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [ResultReduction] на следующий ход (один раз за ход для каждой цели)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
