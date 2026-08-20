@@ -648,6 +648,377 @@
           ]
         }
       ]
+    },
+    {
+      "id": 501901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойное рассечение",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тройное рассечение",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем понижает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойной разрез: Треск [爆]",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тройной раскол: Треск [爆]",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion] и повышает счётчик [Combustion] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Дважды активирует [VibrationExplosion], затем понижает счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подрывной сокрущающий разрез [爆碎斬]",
+          "desc": "В приоритете цели с [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\nСила монет +1 за каждые 6 единиц в сумме потенциалов [Combustion] и [Vibration] на цели (До 3)\n[DefeatDuel] Теряет 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Vibration] и повышает счётчик [Vibration] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Превращает [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Если эффект этой монеты потратил [BulletPropellant], она наносит на 50% больше урона</u></b></mark></color>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion] и повышает счётчик [Combustion] на 3"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Дважды активирует [VibrationExplosion], затем понижает счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рубим Гордиев узел [快刀亂麻]",
+          "desc": "В приоритете цели с [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости; этот боец не может быть оглушён до использования этого навыка</u></b></mark></color>\n[WhenUse] Тратит всё значение [BattleSense]. В зависимости от потраченного значения:\n- ... 10 и более: Тяжесть атаки +1 за каждые 10 потраченных единиц (До 2)\n- ... ровно 25: Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на главной цели (До 5)\n[DefeatDuel] Получает 1 [Paralysis]\n[DefeatDuel] Наносит на 80% меньше урона; урон этого навыка не может оглушить цель; <color=#ff6000><mark=#ff000040><b><u>потенциал и счётчик [Combustion] и [Vibration], наносимые этим навыком, уменьшаются вдвое</u></b></mark></color> (За исключением повышения другими эффектами)\n[EndSkill] [FullReload] (Единожды за ход)\n- Если боец имеет [BulletPropellantSpecial], вместо этого активирует [ReloadKeepAmmo] (Единожды за ход)\n[EndSkill] Заканчивает текущий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит все [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит [Combustion] и повышает счётчик [Combustion], наносит [Vibration] и повышает счётчик [Vibration] — каждое значение на число потраченных [BulletPropellant]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Превращает [Switch_Vibration] в [VibrationIgnition]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Трижды активирует [VibrationExplosion], затем понижает счётчик [Vibration] цели на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хаотично-убойные разрезы убийцы ужасных тигров [超絕猛虎殺擊亂斬]",
+          "desc": "В приоритете цели с [Prey_leiheng]\n<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости; этот боец не может быть оглушён до использования этого навыка</u></b></mark></color>\n[WhenUse] Тратит всё значение [BattleSense]. В зависимости от потраченного значения:\n- ... 10 и более: Тяжесть атаки +1 за каждые 10 потраченных единиц (До 4)\n- ... 25 и более: Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на главной цели (До 6)\n- ... ровно 50: Сила монет +1 и урон +50%\n[DefeatDuel] Получает 6 [Paralysis]\n[DefeatDuel] Наносит на 80% меньше урона; урон этого навыка не может оглушить цель; <color=#ff6000><mark=#ff000040><b><u>потенциал и счётчик [Combustion] и [Vibration], наносимые этим навыком, уменьшаются вдвое</u></b></mark></color> (За исключением повышения другими эффектами)\n[EndSkill] [FullReload] (Единожды за ход)\n- Если боец имеет [BulletPropellantSpecial], вместо этого активирует [ReloadKeepAmmo] (Единожды за ход)\n[EndSkill] Заканчивает текущий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 6 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Превращает [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack]</u></b></mark></color> Пять раз активирует [VibrationExplosion], затем понижает счётчик [Vibration] цели на 5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 501908,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перезарядка Клинка звезды Тяньтуй",
+          "desc": "[DuelCounter]\n[DefeatDuel] Теряет 1 [BulletPropellant]\n[EndBattle] [FullReload] (Единожды за ход)\n- Если боец имеет [BulletPropellantSpecial], вместо этого активирует [ReloadKeepAmmo] (Единожды за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Тратит 1 [BulletPropellant]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 502001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поддержка убойными патронами «Тигр-марка»",
+          "desc": "[EndBattle] Даёт Лэй Хэну 6 [BulletPropellantSpecial]\n[EndBattle] [DisengageCombat]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
