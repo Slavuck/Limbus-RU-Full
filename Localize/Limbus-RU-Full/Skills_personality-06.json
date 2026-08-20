@@ -3389,6 +3389,263 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Фа Цзинь",
+          "desc": "[WhenUse] Если цель не имеет [DianxueHongLu], сила в столкновении +1\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 3+ [DianxueHongLu], повторно использует эту Монету (раз за навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Фа Цзинь",
+          "desc": "<style=\"highlight\">Если своя скорость выше скорости цели на 2 и более, сила монет +1</style>\n[WhenUse] Если цель не имеет [DianxueHongLu], сила в столкновении +1\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 3+ [DianxueHongLu], повторно использует эту Монету (раз за навык)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Наносит 1 [Combustion]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Фа Цзинь",
+          "desc": "Если своя скорость выше скорости цели на 2 и более, сила монет +1\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 6 ед. в сумме своих [Breath] и [Combustion] на цели (до 2)</style>\n[WhenUse] Если цель не имеет [DianxueHongLu], сила в столкновении +1\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 3+ [DianxueHongLu], повторно использует эту Монету (раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит 1 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ладонь, охваченная языками пламени цвета трав",
+          "desc": "[WinDuel] Получает 3 [Breath]\n- Повышает свой счётчик [Breath] на значение [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 2+ [DianxueHongLu], повторно использует эту Монету (раз за навык)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ладонь, охваченная языками пламени цвета трав",
+          "desc": "<style=\"highlight\">Если своя скорость выше скорости цели, сила монет +1 за каждые 2 ед. разницы в скорости (до 2)</style>\n[WinDuel] Получает 3 [Breath]\n- Повышает свой счётчик [Breath] на значение [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Повышает счётчик [Combustion] на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 2+ [DianxueHongLu], повторно использует эту Монету (раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttack] Наносит цели [DefenseDown] в количестве её [DianxueHongLu] (раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ладонь, охваченная языками пламени цвета трав",
+          "desc": "Если своя скорость выше скорости цели, сила монет +1 за каждые 2 ед. разницы в скорости (до 2)\n<style=\"highlight\">[WhenUse] При сумме своих [Breath] и [Combustion] на цели 6+, итоговая сила +1</style>\n[WinDuel] Получает 3 [Breath]\n- Повышает свой счётчик [Breath] на значение [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Combustion]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет 2+ [DianxueHongLu], повторно использует эту Монету (раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит цели [DefenseDown] в количестве её [DianxueHongLu] (раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Не соблаговолите ли принять мой последний ход?",
+          "desc": "Если своя скорость выше скорости цели на 2 и более, сила монет +1\n[WinDuel] Получает 3 [Breath]\n- Повышает свой счётчик [Breath] на значение [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "При критическом попадании наносит на (свои [Breath] + [Combustion] на цели)% больше урона (до 20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [DefenseDown] (2 раза за ход)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [DianxueHongLu], повторно использует эту Монету (раз за навык)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит дополнительный урон Гневом в размере ([Combustion] на цели × 2)% от итогового урона этой Монеты (до 40%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Не соблаговолите ли принять мой последний ход?",
+          "desc": "Если своя скорость выше скорости цели на 2 и более, сила монет +1\n<style=\"highlight\">[WhenUse] При сумме своих [Breath] и [Combustion] на цели 6+, сила монет +1</style>\n[WinDuel] Получает <style=\"highlight\">5</style> [Breath]\n- Повышает свой счётчик [Breath] на значение [DianxueHongLu] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "При критическом попадании наносит на (свои [Breath] + [Combustion] на цели)% больше урона (до <style=\"highlight\">30</style>%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наносит 2 [DefenseDown] (2 раза за ход)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель имеет [DianxueHongLu], повторно использует эту Монету (раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит дополнительный урон Гневом в размере ([Combustion] на цели × 2)% от итогового урона этой Монеты (до 40%)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Легко, словно облако",
+          "desc": "Если своя скорость выше скорости атакующего на 2 и более, сила монет +1\n[StartBattle] Повышает свой счётчик [Breath] на 2 (раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Легко, словно облако",
+          "desc": "Если своя скорость выше скорости атакующего на 2 и более, сила монет +1\n[StartBattle] Повышает свой счётчик [Breath] на <style=\"highlight\">3</style> (раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
     }
   ]
 }
