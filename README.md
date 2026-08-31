@@ -28,8 +28,8 @@
 
 ## Актуальная версия
 
-* [x] Версия игры: **Ver. 1.112.0**
-* [x] Дата актуальности: **20.08.2026**
+* [x] Версия игры: **Ver. 1.113.0**
+* [x] Дата актуальности: **27.08.2026**
 * [x] Установка без изменения исполняемых файлов игры
 
 Подробный список изменений доступен в [CHANGELOG.md](./CHANGELOG.md).
@@ -38,7 +38,7 @@
 
 ## Статус перевода
 
-Переведён весь текстовый контент, присутствующий в клиенте **Limbus Company Ver. 1.112.0** по состоянию на 20 августа 2026 года.
+Переведён весь текстовый контент, присутствующий в клиенте **Limbus Company Ver. 1.113.0** по состоянию на 27 августа 2026 года.
 
 ### Основной контент
 
@@ -71,7 +71,7 @@
 Пример запуска для нового набора исходных локализаций:
 
 ```text
-python scripts/audit_localization_diff.py --en D:/path/to/input/en --kr D:/path/to/input/kr --ru Localize/Limbus-RU-Full --target-version 1.112.0 --mode diff --report-dir reports/audit-1.112.0 --check
+python scripts/audit_localization_diff.py --en D:/path/to/input/en --kr D:/path/to/input/kr --ru Localize/Limbus-RU-Full --target-version 1.113.0 --mode diff --report-dir reports/audit-1.113.0 --check
 ```
 
 Ключ `--check` возвращает ненулевой код, пока остаются обязательные к исправлению расхождения. Для инкрементального контроля изменений можно дополнительно передать `--baseline-index` и `--prior-queues` от предыдущего проверенного среза.
