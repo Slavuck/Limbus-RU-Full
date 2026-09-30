@@ -1,0 +1,44 @@
+[
+  {
+    "id": 8193,
+    "en": "Palette appears to need the Colorful Skein held by the B2F's Floor Manager. Let's head to the Skein Nest to carry out Palette's request.",
+    "kr": "지하 2층 플로어 매니저로부터 알록달록한 실타래를 얻었다. 이제 염색실로 돌아가서 팔레트에게 알록달록한 실타래를 건네주자.",
+    "ru": "Мы получили Пёстрый моток от управляющего 2-го подземного этажа. Теперь нужно вернуться в красильню и передать его Палитре.",
+    "reason": "EN ошибочно повторяет цель из 8181; KR сообщает получение мотка и возврат к Палитре. Переведено по KR."
+  },
+  {
+    "id": 8198,
+    "en": "Explore 3F",
+    "kr": "지하 3층 둘러보기",
+    "ru": "Осмотреть 3-й подземный этаж",
+    "reason": "В EN пропущено указание на подземный этаж; KR явно 지하 3층. Переведено по KR."
+  },
+  {
+    "id": 9379,
+    "en": "To keep abreast of the latest fashions, we actively encourage the wide variety of shops available at the department store to open and close according to trends. Please take care not to lose your way as you explore the establishment.",
+    "kr": "저희 시지프 백화점은 언제나 유행에 맞춰 다양한 매장들이 입점과 폐점을 권장하고 있습니다. 길을 잃지 않도록 유의해주시기 바라며 1층에 있는 안내 지도는 매듭이 덜 되었으니 참고 부탁드립니다. ",
+    "ru": "Чтобы идти в ногу с модой, универмаг «Сизиф» поощряет открытие и закрытие разнообразных магазинов в соответствии с тенденциями. Пожалуйста, не заблудитесь. Учтите, что схема на 1-м этаже ещё не до конца связана.",
+    "reason": "Актуальный KR_S1000B.json подтверждает дополнительное предупреждение о незавершённой схеме 1-го этажа. Приоритет оригиналу KR."
+  },
+  {
+    "id": 9381,
+    "en": "To prevent hygiene issues, entry to each floor will be limited to customers who have achieved the required Prestige Tier. Please visit our Customer Service Center on the sixth floor for any further queries.",
+    "kr": "오염 방지를 위하여 현재는 한정된 고객님들만 지하 주차장에 출입을 하실 수 있습니다. 주차 등록증 발급이 필요하신 고객님들께서는 5층 고객센터로 방문해 주시기 바랍니다.",
+    "ru": "Для предотвращения загрязнений доступ в подземную парковку сейчас разрешён лишь ограниченному кругу покупателей. Для получения парковочного удостоверения посетите центр обслуживания покупателей на 5-м этаже.",
+    "reason": "Актуальный KR_S1000B.json подтверждает подземную парковку и выдачу удостоверения на 5-м этаже. В EN заменено доступом на этажи и центром на 6-м. Приоритет KR."
+  },
+  {
+    "id": 9382,
+    "en": "Customers are welcome to make physical contact with all Mannequins on display. Conversely, Mannequins are also allowed to make physical contact with all customers. Should you wish to participate, please talk to the sales associate at the relevant shop, who will be delighted to assist you.",
+    "kr": "또한, 전시 중인 마네킹들에 대한 신체적인 접촉은 자유롭게 허용하고 있습니다. 마네킹이 착용한 제품에 대한 문의는 매장에 있는 점원에게 문의를 부탁드리면 친절하게 대응을 도와드리겠습니다.",
+    "ru": "Кроме того, физический контакт с выставленными манекенами свободно разрешён. С вопросами о товарах, надетых на манекены, обращайтесь к продавцам магазина, которые будут рады помочь вам.",
+    "reason": "Актуальный KR_S1000B.json подтверждает только контакт с манекенами и вопросы об одежде. В EN добавлены встречные контакты манекенов с покупателями. Приоритет KR."
+  },
+  {
+    "id": 9841,
+    "en": "3 years ago, the defendant, Meursault, was charged with the murder of a Sisyphean Giant in N Corp.'s employ. As this crime broke N Corp.'s Taboo, it was deemed an offense of aggravated criminal damage, for which he was formally indicted.",
+    "kr": "피고 뫼르소는 3년전, N사의 시지프 거인을 살해한 혐의로, N사의 금기에 의거하여 해당 행위는 중대한 재물손괴죄로 최종 기소되었습니다.",
+    "ru": "3 года назад подсудимый Мерсо был обвинён в убийстве Сизифова великана, служившего корпорации N. В соответствии с Табу корпорации N это деяние было квалифицировано как тяжкое преступное повреждение имущества, по которому ему предъявили окончательное обвинение.",
+    "reason": "KR квалифицирует повреждение имущества в соответствии с Табу N; EN утверждает, что само убийство нарушило Табу. Восстановлен смысл KR."
+  }
+]

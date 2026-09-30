@@ -16,6 +16,38 @@ from scripts.sync_localization_structure import merge_structure
 
 
 class AuditLocalizationDiffTests(unittest.TestCase):
+    def test_korean_only_source_change_needs_review(self) -> None:
+        baseline = {('a.json', '{}', 'desc'): [{
+            'previous_english': 'Gain 1 Haste.', 'previous_korean': '신속 1 획득',
+            'previous_russian': 'Получает 1 Спешку.', 'json_path': '$.desc',
+        }]}
+        auditor = Auditor(baseline, {})
+        auditor.compare_file('A.json', {'desc': 'Gain 1 Haste.'},
+                             {'desc': '다음 턴에 신속 1 획득'}, {'desc': 'Получает 1 Спешку.'})
+        self.assertEqual(len(auditor.state.changed_source), 1)
+        self.assertEqual(auditor.state.changed_source[0]['status'], 'pending')
+
+    def test_review_decision_cannot_hide_missing_placeholder(self) -> None:
+        source = {'desc': 'Gain {0} Haste.'}
+        initial = self.auditor()
+        initial.compare_file('A.json', source, {}, {})
+        queue_id = initial.state.full_review[0]['queue_id']
+        auditor = Auditor({}, {}, decisions={queue_id: {'status': 'reviewed'}})
+        auditor.compare_file('A.json', source, {}, {'desc': 'Получает Спешку.'})
+        self.assertEqual(auditor.state.full_review[0]['status'], 'pending')
+
+    def test_new_id_does_not_inherit_replaced_array_position(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / 'source.jsonl'
+            path.write_text(json.dumps({
+                'normalized_file': 'A.json', 'stable_id': {'id': 1}, 'field': 'name',
+                'json_path': '$.dataList[0].name', 'new_english_value': 'Old item',
+                'current_russian_value': 'Старый предмет',
+            }), encoding='utf-8')
+            auditor = Auditor(baseline_candidates(path), {})
+            auditor.compare_file('A.json', {'dataList': [{'id': 2, 'name': 'New item'}]}, {}, {})
+            self.assertEqual(auditor.state.changed_source, [])
+
     def auditor(self) -> Auditor:
         return Auditor({}, {})
 

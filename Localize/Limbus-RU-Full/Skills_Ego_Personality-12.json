@@ -879,6 +879,196 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2121011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "Получить силу монеты в зависимости от следующих условий (макс. 3):\n- Сила монеты +1 за каждые 6 потенциала [Combustion] на основной цели\n- Получить силу монеты в размере (потенциал [Charge] на себе - 1)\n[BeforeAttack] Этот навык накладывает на (потенциал [Charge] на себе - 1) больше потенциала [Combustion] (макс. 2)\n[BeforeAttack] Получить +(наивысший резонанс + 1) к счётчику [Charge] (макс. 7)\n[BeforeAttack] Потратить до 15 счётчика [Charge] и наносить на 1% больше урона за каждую потраченную единицу счётчика [Charge] (макс. 15%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding], наложить +2 к счётчику [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "Получить силу монеты в зависимости от следующих условий (макс. 3):\n- Сила монеты +1 за каждые 6 потенциала [Combustion] на основной цели\n- Получить силу монеты в размере (потенциал [Charge] на себе - 1)\n[BeforeAttack] Этот навык накладывает на (потенциал [Charge] на себе - 1) больше потенциала [Combustion] (макс. 2)\n[BeforeAttack] Получить +(наивысший резонанс + 1) к счётчику [Charge] (макс. 7)\n<style=\"highlight\">- При счётчике [Charge] 3 или ниже получить ещё 3 счётчика [Charge]</style>\n[BeforeAttack] Потратить до 15 счётчика [Charge] и наносить на <style=\"highlight\">2</style>% больше урона за каждую потраченную единицу счётчика [Charge] (макс. <style=\"highlight\">30</style>%)\n<style=\"highlight\">[EndSkill] Если эффекты перед атакой потратили 15 счётчика [Charge], получить +5 к счётчику [Charge]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding], наложить +2 к счётчику [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получить +2 к счётчику [Charge]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [IDMicroChip]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "Получить силу монеты в зависимости от следующих условий (макс. 3):\n- Сила монеты +1 за каждые 6 потенциала [Combustion] на основной цели\n- Получить силу монеты в размере (потенциал [Charge] на себе - 1)\n[BeforeAttack] Этот навык накладывает на (потенциал [Charge] на себе - 1) больше потенциала [Combustion] (макс. 2)\n[BeforeAttack] Получить +(наивысший резонанс + 1) к счётчику [Charge] (макс. 7)\n- При счётчике [Charge] 3 или ниже получить ещё 3 счётчика [Charge]\n[BeforeAttack] Потратить до 15 счётчика [Charge] и наносить на <style=\"highlight\">3</style>% больше урона за каждую потраченную единицу счётчика [Charge] (макс. <style=\"highlight\">45</style>%)\n[EndSkill] Если эффекты перед атакой потратили 15 счётчика [Charge], получить +5 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">3</style> [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [IDMicroChip] или [Binding], наложить +2 к счётчику [Combustion]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +2 к счётчику [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2121021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nПолучить силу монеты в зависимости от следующих условий (макс. 3):\n- Сила монеты +1 за каждые 6 потенциала [Combustion] на основной цели\n- Получить силу монеты в размере (потенциал [Charge] на себе - 1)\n[BeforeAttack] Получить +(наивысший резонанс + 3) к счётчику [Charge] (макс. 10)\n[BeforeAttack] Наносить на (потенциал + счётчик [Charge] - 1)% больше урона (макс. 20%)\n[EnemyKill] Получить +4 к счётчику [Charge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Combustion]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nПолучить силу монеты в зависимости от следующих условий (макс. 3):\n- Сила монеты +1 за каждые 6 потенциала [Combustion] на основной цели\n- Получить силу монеты в размере (потенциал [Charge] на себе - 1)\n[BeforeAttack] Получить +(наивысший резонанс + 3) к счётчику [Charge] (макс. 10)\n[BeforeAttack] Наносить на ((потенциал + счётчик [Charge] - 1) × <style=\"highlight\">2</style>)% больше урона (макс. <style=\"highlight\">40</style>%)\n[EnemyKill]\n- Получить +4 к счётчику [Charge]\n<style=\"highlight\">- Получить 1 [AttackDmgUp] на следующий ход (один раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Потратить до 8 счётчика [Charge]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если эта монета потратила счётчик [Charge], нанести урон Зависти в размере (потраченный счётчик [Charge] × 5)% итогового урона этой монеты (мин. 5%, макс. 40%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Регистрация заселения",
+          "abName": "Kqe-1j-23",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nПолучить силу монеты в зависимости от следующих условий (макс. 3):\n- Сила монеты +1 за каждые 6 потенциала [Combustion] на основной цели\n- Получить силу монеты в размере (потенциал [Charge] на себе - 1)\n[BeforeAttack] Получить +(наивысший резонанс + 3) к счётчику [Charge] (макс. 10)\n[BeforeAttack] Наносить на ((потенциал + счётчик [Charge] - 1) × <style=\"highlight\">3</style>)% больше урона (макс. <style=\"highlight\">60</style>%)\n[EnemyKill]\n- Получить +4 к счётчику [Charge]\n- Получить 1 [AttackDmgUp] на следующий ход (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">+3</style> к счётчику [Combustion]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [IDMicroChip]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Binding] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnStartCoin] Потратить до 8 счётчика [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если эта монета потратила счётчик [Charge], нанести урон Зависти в размере (потраченный счётчик [Charge] × 5)% итогового урона этой монеты (мин. 5%, макс. 40%)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

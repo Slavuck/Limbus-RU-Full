@@ -83,13 +83,7 @@ def synchronize(en_root: Path, ru_root: Path, apply: bool) -> dict[str, Any]:
             changed.append(relative)
             if apply:
                 write_json(target, merged)
-    return {
-        "english_files": len(en_index),
-        "russian_files_before": len(ru_index),
-        "changed_files": changed,
-        "added_files": added,
-        "applied": apply,
-    }
+    return {"english_files": len(en_index), "russian_files_before": len(ru_index), "changed_files": changed, "added_files": added, "applied": apply}
 
 
 def build_parser() -> argparse.ArgumentParser:

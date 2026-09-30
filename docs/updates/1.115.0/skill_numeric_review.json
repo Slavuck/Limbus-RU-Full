@@ -1,0 +1,34 @@
+[
+  {
+    "id": 8581,
+    "en": "[CantChangeTarget]\nPrioritizes targets that are in Panic\nSinners that have [ReliefSense] can draw this Skill to itself\nThis Skill does not trigger the target's Defense Skill\nCan Clash with this Skill regardless of Speed\n[WhenUse] Gain +3 Atk Weight\n- Reduce Atk Weight gain by 1 for every 1 [ReliefSense] on the main target\n[WhenUse] Gain the following effects:\n- Final Power +1 for every 4 ([Vibration] + [Sinking]) on the main target (max 4)\n- Clash Power +1 for every 3 [Wariness] on the main target (max 3)\n- Deal +([Wariness] on target x 10)% damage (max 100%; calculated separately for each target)\n[DefeatDuel] Gain the following effects:\n- Deal -50% damage\n- Damage dealt by this Skill cannot Stagger the target; On Hit, does not activate [Sinking] effect on target",
+    "kr": "[CantChangeTarget]\n패닉 상태인 대상을 우선으로 지정\n[ReliefSense]를 보유한 수감자일 경우, 대상 변경 가능\n이 스킬은 대상의 수비 스킬을 발동시키지 않음\n속도에 상관없이 이 스킬과 합을 할 수 있음\n[WhenUse] 공격 가중치 +3\n- 메인 타겟의 [ReliefSense] 1당, 증가하는 공격 가중치가 1씩 감소\n[WhenUse] 다음 효과가 적용됨\n- 메인 타겟의 [Vibration]과 [Sinking]의 합 4당, 최종 위력 +1 (최대 4)\n- 메인 타겟의 [Wariness] 3당, 합 위력 +1 (최대 3)\n- 피해량 +(대상의 [Wariness] x 10)% (최대 100%, 타겟별로 적용)\n[DefeatDuel] 다음 효과가 적용됨\n- 피해량 -50%\n- 이 스킬의 피해로 대상이 흐트러지지 않고, 적중 시 대상의 [Sinking] 효과가 발동하지 않음",
+    "ru": "[CantChangeTarget]\nПриоритет — целям в Срыве\nГрешники с [ReliefSense] могут перенаправить этот навык на себя\nЭтот навык не активирует защитный навык цели\nМожно вступить в столкновение с этим навыком независимо от скорости\n[WhenUse] Получить +3 к весу атаки\n- Уменьшить прибавку веса атаки на 1 за каждую единицу [ReliefSense] на основной цели\n[WhenUse] Получить следующие эффекты:\n- Итоговая сила +1 за каждые 4 ([Vibration] + [Sinking]) на основной цели (макс. 4)\n- Сила столкновения +1 за каждые 3 [Wariness] на основной цели (макс. 3)\n- Наносить на ([Wariness] на цели × 10)% больше урона (макс. 100%; рассчитывается отдельно для каждой цели)\n[DefeatDuel] Получить следующие эффекты:\n- Наносить на 50% меньше урона\n- Урон этого навыка не может ошеломить цель; при попадании не активировать эффект [Sinking] на цели",
+    "en_numbers": {
+      "3": 3,
+      "1": 4,
+      "4": 2,
+      "10": 1,
+      "100": 1,
+      "50": 1
+    },
+    "ru_numbers": {
+      "3": 3,
+      "1": 3,
+      "4": 2,
+      "10": 1,
+      "100": 1,
+      "50": 1
+    }
+  },
+  {
+    "id": 8771,
+    "en": "2-needle Bottom Coverstitch Rainbow Overlock",
+    "kr": "삼봉 레인보우 오버로크",
+    "ru": "Двухигольный нижний распошивальный радужный оверлок",
+    "en_numbers": {
+      "2": 1
+    },
+    "ru_numbers": {}
+  }
+]

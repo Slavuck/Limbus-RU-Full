@@ -2772,6 +2772,331 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1081601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ах... Ты ведь не слышишь его?",
+          "desc": "[WhenUse] При ОЗ 80%+ получить +3 к счётчику [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ах... Ты ведь не слышишь его?",
+          "desc": "<style=\"highlight\">При 2+ [ChargeRougeAlly] сила монеты +1</style>\n[WhenUse] При ОЗ 80%+ получить +3 к счётчику [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">3</style> к счётчику [ChargeRougeAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ах... Ты ведь не слышишь его?",
+          "desc": "При 2+ [ChargeRougeAlly] сила монеты +1\n[WhenUse] При ОЗ 80%+ получить +<style=\"highlight\">5</style> к счётчику [ChargeRougeAlly]\n<style=\"highlight\">[WhenUse] Сила столкновения +1 за каждые 3 [Laceration] на цели (макс. 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +3 к счётчику [ChargeRougeAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Воистину, молчание Голоса не означало его отсутствия!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если на этом юните есть [RougeIshmaelEclose], повторно использовать эту монету один раз (один раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстановить (потенциал [ChargeRougeAlly] × 2)% ОЗ (макс. 10%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Воистину, молчание Голоса не означало его отсутствия!",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 2 [ChargeRougeAlly] (макс. 2)\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 10 потратить 3(10 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 10\n[WhenUse] Потратить 10 счётчика [ChargeRougeAlly], чтобы получить +1 к силе монеты\n[WhenUse] Если на цели есть 6+ [Laceration], сила монеты +1\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на 20% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">4</style> к счётчику [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если на этом юните есть [RougeIshmaelEclose], повторно использовать эту монету один раз (один раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 3+ [ChargeRougeAlly] наложить 1 [ScarletTakeDamageUp] на следующий ход (один раз за ход)</style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстановить (потенциал [ChargeRougeAlly] × <style=\"highlight\">3</style>)% ОЗ (макс. <style=\"highlight\">15</style>%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Воистину, молчание Голоса не означало его отсутствия!",
+          "desc": "Итоговая сила +1 за каждые 2 [ChargeRougeAlly] (макс. 2)\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 10 потратить 3(10 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 10\n[WhenUse] Потратить 10 счётчика [ChargeRougeAlly], чтобы получить +1 к силе монеты\n[WhenUse] Если на цели есть 6+ [Laceration], сила монеты +1\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на <style=\"highlight\">40</style>% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +4 к счётчику [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если на этом юните есть [RougeIshmaelEclose], повторно использовать эту монету один раз (один раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При <style=\"highlight\">2</style>+ [ChargeRougeAlly] наложить 1 [ScarletTakeDamageUp] на следующий ход (один раз за ход)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстановить (потенциал [ChargeRougeAlly] × 3)% ОЗ (макс. 15%)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Выскобли, сорви и прибей!",
+          "desc": "Наносить на 5% больше урона за каждую единицу [ChargeRougeAlly] (макс. 25%)\n[StartBattle] При ОЗ ниже 50% или если на этом юните есть [RougeIshmaelEclose], превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 15 потратить 3(15 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 15\n[WhenUse] Потратить 15 счётчика [ChargeRougeAlly], чтобы получить +3 к силе монеты\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на 40% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если на этом юните есть [RougeIshmaelEclose], повторно использовать эту монету один раз (один раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон Похоти в размере (потенциал [ChargeRougeAlly] на себе × 10)% итогового урона этой монеты (макс. 30%)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстановить (потенциал [ChargeRougeAlly] × 4)% ОЗ (макс. 20%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Выскобли, сорви и прибей!",
+          "desc": "Наносить на <style=\"highlight\">10</style>% больше урона за каждую единицу [ChargeRougeAlly] на себе (макс. <style=\"highlight\">50</style>%)\n[StartBattle] При ОЗ ниже 50% или если на этом юните есть [RougeIshmaelEclose], превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 15 потратить 3(15 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 15\n[WhenUse] Потратить 15 счётчика [ChargeRougeAlly], чтобы получить +3 к силе монеты\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на 40% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">4</style> [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если на этом юните есть [RougeIshmaelEclose], повторно использовать эту монету один раз (один раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон Похоти в размере (потенциал [ChargeRougeAlly] на себе × 10)% итогового урона этой монеты (макс. 30%)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Восстановить (потенциал [ChargeRougeAlly] × 4)% ОЗ (макс. 20%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Конечно... В этом мире всё-таки был смысл",
+          "desc": "[DuelCounter]\n[StartBattle] При ОЗ 10% или ниже получить 2 [RougeIshmaelCocoon] и войти в [RougeIshmaelCocoon] (один раз за сражение)\n[StartBattle] Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе и получить +10 [Aggro] для этого слота навыка на следующий ход (один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Конечно... В этом мире всё-таки был смысл",
+          "desc": "[DuelCounter]\n[StartBattle] При ОЗ 10% или ниже получить 2 [RougeIshmaelCocoon] и войти в [RougeIshmaelCocoon] (один раз за сражение)\n[StartBattle] Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе и получить +10 [Aggro] для этого слота навыка на следующий ход (один раз за ход)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 2 потенциала [ChargeRougeAlly] (макс. 2)\n[WhenUse] Наносить на 10% больше урона за каждые 4 [Laceration] на цели (макс. 40%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если на этом юните есть [RougeIshmaelEclose], восстановить 10% ОЗ (один раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1081605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "По велению Голоса я с радостью замыкаюсь в себе",
+          "desc": "Особый навык [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] При 10+ счётчика [ChargeRougeAlly] потратить 10 счётчика [ChargeRougeAlly], чтобы дать 1 [ResultEnhancement] на следующий ход 2 союзникам с самым ранним порядком развёртывания (один раз за ход)\n[StartBattle] Восстановить 50% ОЗ (один раз за ход)\n[WinDuel] Получить +5 к счётчику [ChargeRougeAlly] (4 раза за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "По велению Голоса я с радостью замыкаюсь в себе",
+          "desc": "Особый навык [RougeIshmaelCocoon]\n[CanDuelGuard]\n[StartBattle] При 10+ счётчика [ChargeRougeAlly] потратить 10 счётчика [ChargeRougeAlly], чтобы дать 1 [ResultEnhancement] на следующий ход 2 союзникам с самым ранним порядком развёртывания (один раз за ход)\n<style=\"highlight\">- Если затронутый союзник — идентичность Руж, получить +5 к счётчику [ChargeRougeAlly] на следующий ход и дополнительно дать 1 [AttackDmgUp] этому союзнику</style>\n[StartBattle] Восстановить <style=\"highlight\">100</style>% ОЗ (один раз за ход)\n<style=\"highlight\">[WinDuel] Удалить с себя 1 случайный снимаемый отрицательный эффект (один раз за ход)</style>\n[WinDuel] Получить +5 к счётчику [ChargeRougeAlly] (4 раза за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

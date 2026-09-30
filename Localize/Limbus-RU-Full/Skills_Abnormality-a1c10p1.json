@@ -1,0 +1,2311 @@
+{
+  "dataList": [
+    {
+      "id": 146501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "За рубашками — сюда.",
+          "desc": "[WhenUse] Получить [ChargeNoir]: счётчик +7",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +3 на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Брюки выставлены вот здесь.",
+          "desc": "[WhenUse] Получить [ChargeNoir]: счётчик +4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +3 на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Боюсь, этот товар нельзя примерить, уважаемый покупатель.",
+          "desc": "[CantChangeTarget]\n<color=#ff6000><mark=#ff000040><b><u>Если у цели выбраны защитные навыки, отменить этот навык</u></b></mark></color>\n[WhenUse] Наносить на 10% больше урона за каждую единицу [ChargeNoir] на себе (макс. 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Потратить 5 счётчика [Charge], чтобы вызвать [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Прошу, примерьте что-нибудь, уважаемый покупатель.",
+          "desc": "[CantChangeTarget]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у цели выбраны защитные навыки, превратить все монеты этого навыка в [SuperCoin] и получить +5 к итоговой силе</u></b></mark></color>\n[WhenUse] Наносить на 10% больше урона за каждую единицу [ChargeNoir] на себе (макс. 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Потратить 5 счётчика [Charge], чтобы вызвать [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пожалуйста, не повредите товар.",
+          "desc": "[CantChangeTarget]\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у цели выбраны атакующие навыки, превратить все монеты этого навыка в [SuperCoin] и получить +5 к итоговой силе</u></b></mark></color>\n[WhenUse] Наносить на 10% больше урона за каждую единицу [ChargeNoir] на себе (макс. 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если у цели выбраны атакующие навыки, наложить 1 [NoirNoComply]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Потратить 5 счётчика [ChargeNoir], чтобы вызвать [VibrationExplosion]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Простите! Пожалуйста, не мните одежду!",
+          "desc": "[StartBattle] Если у цели не выбраны защитные навыки, наносить на ([NoirNoComply] на цели × 100)% больше урона соответственно",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели выбраны защитные навыки, цель теряет 1 [NoirNoComply]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146507,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Этого товара вашего размера нет. Позвольте уточнить наличие в головном офисе.",
+          "desc": "[StartBattle] Если слот, использующий этот навык, является основной целью 3 или более навыков, потерять 3 [NoirBindArmor] и получить 2 [Enhancement] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Строчка",
+          "desc": "[WhenUse] Получить [ChargeRouge]: счётчик +6",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Штамповка",
+          "desc": "[WhenUse] Получить [ChargeRouge]: счётчик +4",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тройная строчка",
+          "desc": "[StartBattle] При ОЗ ниже 50% превратить все монеты этого навыка в [SuperCoin]\n[DefeatDuel] Урон этого навыка не может ошеломить цель\n[EndSkill] Потратить 3 счётчика [ChargeRouge] на себе, чтобы восстановить 30 ОЗ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстановить себе ОЗ в размере итогового урона этой монеты"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстановить себе ОЗ в размере итогового урона этой монеты"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстановить себе ОЗ в размере итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Агрессивный маркетинг",
+          "desc": "[StartBattle] При ОЗ ниже 50% превратить все монеты этого навыка в [SuperCoin], получить 3 [DefenseDown] и +6 счётчика [ChargeRouge]\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель\n[WhenUse] Этот навык наносит на 10% больше урона за каждую единицу [ChargeRouge] на себе (макс. 30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 4 [Laceration] и +2 к счётчику [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Восстановить себе ОЗ в размере итогового урона этой монеты (макс. 100 ОЗ за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Потратить 3 счётчика [ChargeRouge] на себе, чтобы повторно использовать эту монету (макс. 3 раза)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Активировать [Laceration] на цели. Цель теряет 1 счётчика [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разделываю мясо, слышишь?",
+          "desc": "[WhenUse] Если на цели есть [SapsareeSpices], итоговая сила +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Режу крупными кусками, слышишь?",
+          "desc": "[WhenUse] Итоговая сила +1 за каждую единицу [SapsareeSpices] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рублю, крошу, режу кубиками, слышишь?",
+          "desc": "[WhenUse] Если на цели есть [SapsareeSpices], сила монеты +1\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Моя фирменная работа ножом, слышишь?",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 2 [SapsareeYammi] на себе\n[WhenUse] Если на основной цели есть [SapsareeSpices], итоговая сила +3\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель\n[EndSkill] Потратить все [SapsareeYammi] на себе",
+          "flavor": "Именно благодаря этой технике она стала су-шефом.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я собираю ингредиенты, слышишь?",
+          "desc": "[CantDuel] [CantChangeTarget]\nПриоритет — союзникам с наибольшим количеством видов эффектов\nНа время использования этого навыка отключить у союзников «Базовые факторы снижения рассудка»",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Убить выбранного союзника</u></b>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Все сюда, сюда, слышишь?",
+          "desc": "[CanDuelGuard]\nПризвать на поле всех доступных Кожаных кошельков",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вкуснотища! Хлебай, слышишь?",
+          "desc": "Основные и дополнительные цели этого навыка — союзники\nПри выборе союзника всегда наносит 0 урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель — враг, наложить 1 [SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель — союзник, дать 2 [AttackUp] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель — враг, наложить 1 [SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель — союзник, дать 2 [DefenseUp] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель — враг, наложить 1 [SapsareeSpices]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель — союзник, дать 1 [ParryingResultUp] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "А-а! У меня обеденный перерыв, слышишь?",
+          "desc": "[CantIdentify]\nЭтот навык не попадает по цели и наносит 0 урона\n[EndSkill] За каждую единицу [SapsareeCooking] на себе восстановить себе 1% ОЗ и получить 1 [SapsareeYammi]\n[EndSkill] За каждую единицу [SapsareeCooking] на себе все остальные союзники восстанавливают 20% ОЗ и получают 1 [SapsareeYammi]\n[EndSkill] Потратить все [SapsareeCooking]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147409,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Готовка!! Дай мне готовить, слышишь?!",
+          "desc": "[CantIdentify]\nПризвать на поле всех доступных Кожаных кошельков\n[EndSkill] Потратить все [SapsareeHungry]; больше не получать [SapsareeHungry] до конца этого хода",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ням-ням",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хрум-хрум",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Буууурп",
+          "desc": "[WhenUse] Итоговая сила +2 за каждые 4 [Laceration] на цели (макс. 4)\n[WhenUse] При 3+ [SapsareeYammi] превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При 5+ [SapsareeYammi] получить +2 к весу атаки\n[WhenUse] Потратить все [SapsareeYammi] на себе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [SapsareeSpices]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Дежурство на фуд-корте",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получить 1 [SapsareeShield]</u></b></mark></color>\n[WhenUse] Получить щит в размере (потенциал [Laceration] на цели × 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 147505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не хочу стать блюдом.",
+          "desc": "Особый навык [SupportProtect]\n[DefeatDuel] Получить 5 [Vulnerable]\n<color=#ff6000><mark=#ff000040><b><u>[EndSkillAll] Если этот юнит жив, су-шеф использует на нём «Я собираю ингредиенты, слышишь?»</u></b></mark></color>\n(Не срабатывает, если су-шеф ошеломлена)",
+          "flavor": "Мясу пора выполнить свою роль.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Буууурп на пустой желудок",
+          "desc": "[WhenUse] Итоговая сила +2 за каждые 4 [Laceration] на цели (макс. 4)\n[WhenUse] При 3+ видах эффектов превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При 5+ видах эффектов получить +2 к весу атаки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Безделье",
+          "desc": "[WhenUse] Получить щит в размере (потенциал [Laceration] на цели × 5)",
+          "flavor": "Пока дел нет, большинство Ле Хаки витает в облаках и ничего не делает.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Объявление для покупателей",
+          "desc": "В столкновении с защитным навыком, способным вступать в столкновения, сила столкновения +20\nЭтот навык не активирует защитный навык цели\nЭтот навык наносит 0 урона\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] Наложить 10 [Wariness] на цель</u></b></mark></color>",
+          "flavor": "Слушай... Услышь Голос...",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack] Удалить все [Wariness] с цели и дать 1 [ReliefSense] (один раз на грешника за ход)</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предупреждающее объявление",
+          "desc": "[CantChangeTarget]\n- Любой грешник с тем же значением [Wariness], что и у выбранного грешника, может перенаправить этот навык на себя независимо от скорости\nПриоритет — целям с наибольшим значением [Wariness]\nЭтот навык не активирует защитный навык цели\n[EndSkill] Потратить все [Wariness] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Нанести (СД цели + 45) урона СД, затем наложить 1 [HorribleTerror] на следующий ход</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Спасибо... за внимание...",
+          "desc": "[CantChangeTarget]\n- Любой грешник с тем же значением [ReliefSense], что и у выбранного грешника, может перенаправить этот навык на себя независимо от скорости\nПриоритет — целям с наибольшим значением [ReliefSense]\n[DefeatDuel] Получить на 150% больше урона от навыка, участвовавшего в столкновении с этим навыком\n[EndSkill] Удалить все [ReliefSense] с цели",
+          "flavor": "Очарование принимает множество обличий: пути и исходы бывают разными. Но само состояние всегда одно — сердце открывается и от этого становится уязвимым.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Натиск",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 ([Vibration] + [Sinking]) на цели (макс. 3)\n[WhenUse] При ОЗ ниже 50% получить следующие эффекты:\n- Этот навык накладывает на 2 больше потенциала и счётчика [Vibration]\n- Превратить последнюю монету в [SuperCoin]; при попадании вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сокрушительный натиск",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 ([Vibration] + [Sinking]) на цели (макс. 3)\n[WhenUse] При ОЗ ниже 50% получить следующие эффекты:\n- Этот навык накладывает на 2 больше потенциала и счётчика [Vibration]\n- Превратить вторую и третью монеты в [SuperCoin]; при попадании второй монетой вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Эхо по всему этажу",
+          "desc": "[CantChangeTarget]\nПриоритет — целям в Срыве\nГрешники с [ReliefSense] могут перенаправить этот навык на себя\n[WhenUse] Если на цели нет [ReliefSense], получить +2 к весу атаки\n[WhenUse] Итоговая сила +1 за каждые 4 ([Vibration] + [Sinking]) на основной цели (макс. 4)\n[DefeatDuel] Получить следующие эффекты:\n- Наносить на 50% меньше урона\n- Урон этого навыка не может ошеломить цель; при попадании не активировать эффект [Sinking] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Sinking]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Sinking] в количестве, равном [UnresolvedFeelings] (макс. 15)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "БУХ! БАХ! БАБАХ!",
+          "desc": "Можно вступить в столкновение с этим навыком независимо от скорости\n[StartBattle] Получить 100 щита\n- Получить ещё 4 щита за каждый 1% недостающих ОЗ (макс. 200)\n- Перед атакой, если щит не пробит, повторно использовать последнюю монету один раз за каждые 100 оставшегося щита (макс. 2 раза)\n[WhenUse] Итоговая сила +1 и сила монеты +1 за каждые 6 ([Vibration] + [Sinking]) на основной цели (макс. 4 к каждой)\n[DefeatDuel] Получить следующие эффекты:\n- Наносить на 75% меньше урона\n- Урон этого навыка не может ошеломить цель; при попадании не активировать эффект [Sinking] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить ([UnresolvedFeelings] / 3) [Sinking] (макс. 10)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Если на цели нет [ReliefSense], наложить 1 [Wariness]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Эхо по всему этажу",
+          "desc": "[CantChangeTarget]\nПриоритет — целям в Срыве\nГрешники с [ReliefSense] могут перенаправить этот навык на себя\nЭтот навык не активирует защитный навык цели\nМожно вступить в столкновение с этим навыком независимо от скорости\n[WhenUse] Получить +3 к весу атаки\n- Уменьшить прибавку веса атаки на 1 за каждую единицу [ReliefSense] на основной цели\n[WhenUse] Получить следующие эффекты:\n- Итоговая сила +1 за каждые 4 ([Vibration] + [Sinking]) на основной цели (макс. 4)\n- Сила столкновения +1 за каждые 3 [Wariness] на основной цели (макс. 3)\n- Наносить на ([Wariness] на цели × 10)% больше урона (макс. 100%; рассчитывается отдельно для каждой цели)\n[DefeatDuel] Получить следующие эффекты:\n- Наносить на 50% меньше урона\n- Урон этого навыка не может ошеломить цель; при попадании не активировать эффект [Sinking] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Sinking]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Sinking] в количестве, равном [UnresolvedFeelings] (макс. 15)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Sinking] в количестве, равном [UnresolvedFeelings] (макс. 15)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "БУХ! БАХ! БАБАХ! БУМ-ТРЕСЬ!",
+          "desc": "Этот навык не активирует защитный навык цели\nМожно вступить в столкновение с этим навыком независимо от скорости\n[StartBattle] Получить 100 щита\n- Получить ещё 4 щита за каждый 1% недостающих ОЗ (макс. 400)\n- Перед атакой, если щит не пробит, повторно использовать последнюю монету один раз за каждые 100 оставшегося щита (макс. 3 раза)\n[WhenUse] Получить следующие эффекты:\n- Итоговая сила +1 и сила монеты +1 за каждые 6 ([Vibration] + [Sinking]) на основной цели (макс. 4 к каждой)\n- Сила столкновения +1 за каждые 2 [Wariness] на основной цели (макс. 5)\n- Наносить на ([Wariness] на цели × 10)% больше урона (макс. 100%; рассчитывается отдельно для каждой цели)\n[DefeatDuel] Получить следующие эффекты:\n- Наносить на 75% меньше урона\n- Урон этого навыка не может ошеломить цель; при попадании не активировать эффект [Sinking] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить ([UnresolvedFeelings] / 2) [Sinking] (макс. 15)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Если на цели нет [ReliefSense], наложить 1 [Wariness]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я слышу... Я слышу его!",
+          "desc": "[WhenUse] Получить [ChargeRouge]: счётчик +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мне дарован ещё один шанс сменить одежду!",
+          "desc": "[WhenUse] Получить [ChargeRouge]: счётчик +5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeRouge]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Моя вера была не напрасна!",
+          "desc": "[WhenUse] Наносить на 10% больше урона за каждую единицу [ChargeRouge] на себе (макс. 50%)\n[WhenUse] Потратить 5 счётчика [ChargeRouge], чтобы получить +2 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Скобли! Свежуй! Сдирай!",
+          "desc": "[StartBattle] При ОЗ ниже 50% превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] Наносить на 10% больше урона за каждую единицу [ChargeRouge] на себе (макс. 50%)\n[WhenUse] Наносить на 3% больше урона за каждую единицу счётчика [ChargeRouge] на себе (макс. 60%)\n\n[BeforeAttack] Базовая сила -2 за каждую треснувшую монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Значит, этот мир всё-таки не был бессмысленным!",
+          "desc": "[StartBattle] Этот навык наносит на 10% меньше урона за каждую цель с выбранными защитными навыками\n[StartBattle] Получить 1 [DefenseDown] на следующий ход за каждую цель с выбранными атакующими навыками\n\n[BeforeAttack] Базовая сила -1 за каждую треснувшую монету",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Голос со мной, я знаю!",
+          "desc": "[OnDirectAttack] Этот навык наносит на 80% меньше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] Восстановить ОЗ в размере итогового урона этого навыка"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 146607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Быть собой... Быть всецело собой...!",
+          "desc": "[DuelCounter]\nОсобый навык [RougeThreeCocoon]\n\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 10+ <color=#ff6000><mark=#ff000040><b><u>[RougeThreeCocoonHit] на себе повторно использовать эту монету (один раз за навык)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack]<color=#ff6000><mark=#ff000040><b><u> При 20+ [RougeThreeCocoonHit] повторно использовать эту монету (один раз за навык)</u></b></mark></color>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Получить [ChargeRouge]: счётчик +1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цок-цок",
+          "desc": "[WhenUse]\n- Итоговая сила +1 за каждые 4 [Vibration] на цели (макс. 3)\n- При 8+ счётчика [ChargeNoir] сила монеты +1\n[WhenUse] При счётчике [ChargeNoir] ниже 15 получить +2 к счётчику [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цок-цок, брык!",
+          "desc": "[WhenUse]\n- Итоговая сила +1 за каждые 4 [Vibration] на цели (макс. 3)\n- При 8+ счётчика [ChargeNoir] сила монеты +1\n[WhenUse]\n- Получить +3 к счётчику [ChargeNoir]\n- При 3+ [ChargeNoir] превратить последнюю монету в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration] и повышает счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 15+ счётчика [ChargeNoir] потратить 3 счётчика [ChargeNoir], чтобы вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пожалуйста, отрежьте их! Умоляю!",
+          "desc": "Можно вступить в столкновение с этим навыком независимо от скорости\n[WhenUse]\n- При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +1 к базовой силе и +1 к силе монеты\n- При счётчике [ChargeNoir] ниже 10 получить +5 к счётчику [ChargeNoir]\n- При 3+ [ChargeNoir] превратить все монеты этого навыка в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если этот навык потратил счётчик [ChargeNoir], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цок-цок, какой ужасный звук...",
+          "desc": "[WideAreaRampage]\nНаносить на 3% больше урона за каждую единицу [ChargeNoir] на себе (макс. 15%)\nПри попадании вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели\n[StartBattle] Получить ([ChargeNoir] на себе - 2) [NoirBindArmor] (макс. 3)\n[WhenUse]\n- Наложить 3 [Vibration] и +3 к счётчику [Vibration] на все цели\n- При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +2 к базовой силе и +2 к силе монеты\n[DefeatDuel]\n- Наносить на 50% меньше урона\n- Урон и эффекты этого навыка не могут ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отвратительная тварь!",
+          "desc": "[WhenUse] При 50+ [NoirSuit] получить 1 повышения уровня защиты\n[WhenUse] Если на этом юните есть [Realisation]:\n- Наносить на (потенциал [ChargeNoir] на себе × 8)% больше урона (макс. 40%)\n- Потратить 4 [Realisation]\n[WhenUse] При 12+ счётчика [ChargeNoir] потратить 2 счётчика [ChargeNoir], чтобы получить +1 к силе столкновения\n[WhenUse] При счётчике [ChargeNoir] ниже 10 получить +2 к счётчику [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration] и повышает счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тебе не стыдно за эту лишнюю ногу?",
+          "desc": "[WhenUse] Если на этом юните есть [NoirSuit]:\n- Получить 1 [DefenseUp] за каждые 40 значения (макс. 2)\n[WhenUse] Если на этом юните есть [Realisation]:\n- Наносить на (потенциал [ChargeNoir] на себе × 6)% больше урона (макс. 30%)\n- Потратить 6 [Realisation]\n[WhenUse] При 12+ счётчика [ChargeNoir] потратить 2 счётчика [ChargeNoir], чтобы получить +1 к итоговой силе\n[WhenUse] При счётчике [ChargeNoir] ниже 15 получить +3 к счётчику [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Vibration] и +2 к счётчику [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 3+ потенциала [ChargeNoir] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я отрежу тебе эту ногу. Считай это милостью.",
+          "flavor": "Интересно, как она отреагирует на встречу с управляющим бренда «Ле Нуар»?",
+          "desc": "Можно вступить в столкновение с этим навыком независимо от скорости\n[WhenUse] Если на этом юните есть [NoirSuit], сила столкновения +1 за каждые 30 значения (макс. 3)\n[WhenUse] Если на этом юните есть [Realisation], наносить на 1% больше урона за каждые 2 значения (макс. 50%)\n[WhenUse]\n- При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +2 к силе монеты\n- При счётчике [ChargeNoir] ниже 10 получить +5 к счётчику [ChargeNoir]\n[DefeatDuel]\n- Наносить на 50% меньше урона\n- Поднять порог ошеломления этого юнита на величину его значения [DefenseUp]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если этот навык потратил счётчик [ChargeNoir], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Один удар",
+          "desc": "[WhenUse] Если на этом юните есть [NoirSuit]:\n- Наносить на 1% больше урона за каждые 3 значения (макс. 30%)\n- Получить 1 [DefenseUp] за каждые 15 значения (макс. 5)\n[WhenUse] При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +2 к силе монеты\n- При ОЗ 50% или ниже дополнительно потратить до 10 оставшегося счётчика [ChargeNoir] и наносить на (дополнительно потраченный счётчик [ChargeNoir] × 2.5)% больше урона (макс. 25%)\n[WhenUse] При 3+/5+ потенциала [ChargeNoir] сила монеты +1/+2\n[DefeatDuel]\n- Наносить на 75% меньше урона\n- Урон и эффекты этого навыка не могут ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Наносить на 5% больше урона за каждую единицу [DefenseUp] на себе (макс. 100%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] При 3+/5+ потенциала [ChargeNoir] вызвать [VibrationExplosion] один/два раза, затем уменьшить счётчик [Vibration] цели на 1/2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Один удар — Множественный шов",
+          "desc": "[WhenUse] Если на этом юните есть [Realisation]:\n- Наносить на 1% больше урона за каждые 2 значения (макс. 50%)\n- Наносить на (потенциал [ChargeNoir] на себе × 6)% больше урона (макс. 30%)\n- Потратить 15 [Realisation]\n[WhenUse] При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +2 к итоговой силе и +1 к силе монеты\n[WhenUse] При 3+/5+ потенциала [ChargeNoir] сила монеты +1/+2\n[DefeatDuel]\n- Наносить на 75% меньше урона\n- Урон и эффекты этого навыка не могут ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] При 3+/5+ потенциала [ChargeNoir] вызвать [VibrationExplosion] один/два раза, затем уменьшить счётчик [Vibration] цели на 1/2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести колющий урон в размере 20% итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бла-бла основа бла",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Болтовня про уток",
+          "desc": "[WideAreaRampage]\n\nНаносить на 5% больше урона за каждую единицу [NiddlePin] на цели (макс. 25%)\n\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [NiddlePin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [NiddlePin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стежков! На! Дюйм!",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Минимум 20 стежков на дюйм!!!",
+          "desc": "[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слишком ровно, говоришь? Это не вспушка, говоришь? Собраться!!!",
+          "desc": "[StartBattle] Призвать 3 Игольников на следующий ход",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 149606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хочешь, чтобы я шил это вручную?! ВРУЧНУЮ???!!!",
+          "desc": "Приоритет — неошеломлённым союзникам; наносит 0 урона\nНе активирует защитный навык цели\n\n[EndSkill] Выбранный Игольник активирует случайный атакующий навык (игнорирует ошеломление)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Дать 1 повышения силы атаки на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двойная строчка за боковым швом? Две иглы! Брак!",
+          "desc": "[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Наносить на 50% больше урона за каждого Игольника на поле\n • Если Игольников на поле нет, отменить этот навык</u></b></mark></color>\n\n[EndSkill] Убить всех Игольников\n • Получить 1 [Enhancement] на следующий ход за каждого Игольника, убитого этим эффектом",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносить на 100% больше урона целям с [NiddlePinned]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пуговицы не пришиты крест-накрест? Брак!",
+          "desc": "[DefeatDuel] Уменьшить [NiddlePin] на цели на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Потратить 1 [NiddlePin] на цели, чтобы нанести 5 фиксированного урона"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Потратить 1 [NiddlePin] на цели, чтобы нанести 5 фиксированного урона"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспушка слишком заметна, говоришь?! Я тебе зад вспушу!",
+          "desc": "[CantDuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наложить 2 [NiddlePinned] на цели с 5+ [NiddlePin]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Просто... Ешь!!",
+          "desc": "Приоритет — врагам с [NiddlePinned]\n- Приоритет — целям с наибольшим значением [NiddlePin]\nЦели со значением [NiddlePin] 5+ не могут перенаправить этот навык на себя\n\nНаносить на 10% больше урона за каждую единицу [NiddlePin] на цели (макс. 50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Если на цели есть [NiddlePinned], нанести фиксированный урон в размере 99% максимальных ОЗ цели</u></b></mark></color>"
+                },
+                {
+                  "desc": "[EnemyKill] Восстановить себе 5% ОЗ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хр-р...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если на цели нет [Laceration], наносить на 80% меньше урона и превратить все монеты этого навыка в [SuperCoin]</u></b></mark></color>\n[WinDuel] Удалить 1 случайный положительный эффект с цели (кроме Заряда и Дыхания), затем получить 1 [Nutrition]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Н-н-гх...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если на цели нет [Laceration], наносить на 80% меньше урона и превратить все монеты этого навыка в [SuperCoin]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Удалить 1 случайный положительный эффект с цели (кроме Заряда и Дыхания), чтобы получить 1 [Nutrition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пф... ф-фе...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на основной цели (макс. 3)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если на основной цели нет [Laceration], наносить на 80% меньше урона и превратить все монеты этого навыка в [SuperCoin]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Удалить 1 случайный положительный эффект с цели (кроме Заряда и Дыхания), чтобы получить 1 [Nutrition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Холодно...",
+          "desc": "Приоритет — целям с наименьшими текущими ОЗ\nНаносить на 5% больше урона за каждый 1% недостающих ОЗ цели (макс. 250%)\n[WhenUse] Итоговая сила +2 за каждые 4 [Laceration] на цели (макс. 4)\n[WhenUse] Если ОЗ цели ниже 50%, базовая сила +3\n[WinDuel] Удалить 1 случайный положительный эффект с цели (кроме Заряда и Дыхания), чтобы получить 2 [Nutrition]\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Больно...! Тело... не слушается...",
+          "desc": "Приоритет при выборе основной цели — целям с наименьшими текущими ОЗ\nНаносить на 5% больше урона за каждые 3% недостающих ОЗ цели (макс. 50%)\n[WhenUse] Итоговая сила +2 за каждые 4 [Laceration] на основной цели (макс. 4)\n[WhenUse] Если ОЗ основной цели ниже 50%, базовая сила +2\n[WinDuel] Удалить 1 случайный положительный эффект с основной цели (кроме Заряда и Дыхания), чтобы получить 2 [Nutrition]\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Голодно... холодно... больно...!",
+          "desc": "Приоритет при выборе основной цели — целям с наименьшими текущими ОЗ\nНаносить на 1% больше урона за каждый 1% недостающих ОЗ цели (макс. 30%)\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на основной цели (макс. 2)\n[WhenUse] Если ОЗ основной цели ниже 50%, базовая сила +2\n[WhenUse] При 10+ счётчика [ChargeRouge] потратить все [ChargeRouge] на себе и получить +2 к силе монеты и +2 к весу атаки\n[DefeatDuel] Наносить на 95% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 6 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчика [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчика [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчика [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148407,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уходи...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WinDuel] Получить +3 к счётчику [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148408,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я... голоден...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WinDuel] Получить +3 к счётчику [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148409,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Что-нибудь... поесть... Что угодно...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на основной цели (макс. 2)\n[WinDuel] Получить +3 к счётчику [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148410,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я слышу... Голос...",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на основной цели (макс. 2)\n[WhenUse] При счётчике [ChargeRouge] ниже 15 увеличить счётчик [ChargeRouge] до 15 и получить 1 [BuffetFailed] на следующий ход за каждые 5 единиц счётчика [ChargeRouge], полученные этим эффектом\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "flavor": "В этом универмаге обитает множество Голосов. Чей же это?",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148411,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не... делай этого...",
+          "desc": "[CanDuelGuard]\nОсобый навык [SupportProtect]\n[WhenUse] Получить щит в размере (счётчик [ChargeRouge] на себе × 10)\n[WinDuel] Получить +3 к счётчику [ChargeRouge]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148412,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я... хочу...",
+          "desc": "При 6+ [Laceration] сила монеты +1\n[WhenUse] Итоговая сила +2 за каждые 4 [Laceration] на основной цели (макс. 4)\n[DefeatDuel] Потерять 2 счётчика [ChargeRouge]\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148413,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Что... я такое?..",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на основной цели (макс. 3)\n[WhenUse] При 10+ счётчика [ChargeRouge] потратить 10 счётчика [ChargeRouge], чтобы получить +2 к силе монеты\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 4 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Слабый зов",
+          "desc": "",
+          "flavor": "...Возьми меня за руку",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucus]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

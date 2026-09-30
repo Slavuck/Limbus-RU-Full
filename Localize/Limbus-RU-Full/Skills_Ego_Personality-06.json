@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "",
           "coinlist": [
             {
@@ -24,7 +24,7 @@
         {
           "level": 3,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "",
           "coinlist": [
             {
@@ -45,7 +45,7 @@
         {
           "level": 4,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "",
           "coinlist": [
             {
@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "[CantIdentify] Выбирает целью участника боя с самым низким здоровьем",
           "coinlist": [
             {
@@ -89,7 +89,7 @@
         {
           "level": 3,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "[CantIdentify] Выбирает целью участника боя с самым низким здоровьем",
           "coinlist": [
             {
@@ -107,7 +107,7 @@
         {
           "level": 4,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "[CantIdentify] Выбирает целью участника боя с самым низким здоровьем",
           "coinlist": [
             {
@@ -1144,6 +1144,166 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 25% прошедшего урона в качестве урона Гордыней (До 25-и)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2061011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[BeforeAttack] Получить +1 к счётчику [Charge]\n[BeforeAttack] Потратить до 6 счётчика [Charge] на себе, затем дать 5 [ChargeForceField] себе и (1 + (потраченный счётчик [Charge] / 2)) случайным другим союзникам (макс. 5 юнитов; с округлением вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [Charge]: счётчик +2"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "<style=\"highlight\">[WhenUse] Получить силу столкновения в размере потенциала [Charge] на себе (макс. 2)</style>\n[BeforeAttack] Получить +<style=\"highlight\">3</style> к счётчику [Charge]\n[BeforeAttack] Потратить до <style=\"highlight\">8</style> счётчика [Charge] на себе, затем дать 5 [ChargeForceField] себе и (1 + (потраченный счётчик [Charge] / 2)) случайным другим союзникам (макс. <style=\"highlight\">6</style> юнитов; с округлением вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [Charge]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 1 [PhotoElectricity]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[WhenUse] Получить силу столкновения в размере потенциала [Charge] на себе (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получить +<style=\"highlight\">5</style> к счётчику [Charge]\n[BeforeAttack] Потратить до <style=\"highlight\">10</style> счётчика [Charge] на себе, затем дать 5 [ChargeForceField] себе и (1 + (потраченный счётчик [Charge] / 2)) случайным другим союзникам (макс. <style=\"highlight\">7</style> юнитов; с округлением вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [Charge]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PhotoElectricity]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2061021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nНаносить на 15% больше урона целям со щитом\n[BeforeAttack] Базовая сила -6 за каждую треснувшую монету (макс. -12)\n[BeforeAttack] Получить +3 к счётчику [Charge]\n[BeforeAttack] Потратить до 6 счётчика [Charge], затем дать 7 [ChargeForceField] себе и (1 + (потраченный счётчик [Charge] / 2)) случайным другим союзникам (макс. 5 юнитов; с округлением вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [Charge]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Потратить до 10 счётчика [Charge], затем получить для этой монеты итоговую силу в размере потраченного счётчика"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nНаносить на <style=\"highlight\">20</style>% больше урона целям со щитом\n[BeforeAttack] Базовая сила -6 за каждую треснувшую монету (макс. -12)\n<style=\"highlight\">[BeforeAttack] Получить итоговую силу в размере потенциала [Charge] на себе (макс. 2)</style>\n[BeforeAttack] Получить +<style=\"highlight\">4</style> к счётчику [Charge]\n[BeforeAttack] Потратить до <style=\"highlight\">8</style> счётчика [Charge] на себе, затем дать 7 [ChargeForceField] себе и (1 + (потраченный счётчик [Charge] / 2)) случайным другим союзникам (макс. <style=\"highlight\">6</style> юнитов; с округлением вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [Charge]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Потратить до 10 счётчика [Charge], затем получить для этой монеты итоговую силу в размере потраченного счётчика"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 1 [PhotoElectricity]</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Отречение",
+          "abName": "Житель Метрополяриса",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nНаносить на <style=\"highlight\">25</style>% больше урона целям со щитом\n[BeforeAttack] Базовая сила -6 за каждую треснувшую монету (макс. -12)\n[BeforeAttack] Получить итоговую силу в размере потенциала [Charge] на себе (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получить +<style=\"highlight\">5</style> к счётчику [Charge]\n[BeforeAttack] Потратить до <style=\"highlight\">10</style> счётчика [Charge] на себе, затем дать 7 [ChargeForceField] себе и (1 + (потраченный счётчик [Charge] / 2)) случайным другим союзникам (макс. <style=\"highlight\">7</style> юнитов; с округлением вниз)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [Charge]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Потратить до 10 счётчика [Charge], затем получить для этой монеты итоговую силу в размере потраченного счётчика"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> [PhotoElectricity]"
                 }
               ]
             }

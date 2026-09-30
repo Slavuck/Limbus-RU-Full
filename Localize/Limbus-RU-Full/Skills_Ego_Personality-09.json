@@ -911,6 +911,268 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2091011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зеркальное прикосновение",
+          "abName": "Блуждающее сердце",
+          "desc": "Сила столкновения +1 за каждые 6 (потенциал [Breath] на себе + потенциал [Vibration] на основной цели) (макс. 2)\n[BeforeAttack] Получить (2 + наивысший резонанс) [Breath] (макс. 8)\n[BeforeAttack] Получить +2 к счётчику [Breath]\n[EndSkill] Случайно распределить между врагами среди целей атаки (1 + наивысший резонанс) [EmpathicDistressAlly], по 1 единице за раз (макс. 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Зеркальное прикосновение",
+          "abName": "Блуждающее сердце",
+          "desc": "Сила столкновения +1 за каждые 6 (потенциал [Breath] на себе + потенциал [Vibration] на основной цели) (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получить (<style=\"highlight\">3</style> + наивысший резонанс) [Breath] (макс. 8)\n[BeforeAttack] Получить +<style=\"highlight\">3</style> к счётчику [Breath]\n[EndSkill] Случайно распределить между врагами среди целей атаки (1 + наивысший резонанс) [EmpathicDistressAlly], по 1 единице за раз (макс. 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +<style=\"highlight\">2</style> к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Зеркальное прикосновение",
+          "abName": "Блуждающее сердце",
+          "desc": "Сила столкновения +1 за каждые 6 (потенциал [Breath] на себе + потенциал [Vibration] на основной цели) (макс. <style=\"highlight\">4</style>)\n[BeforeAttack] Получить (<style=\"highlight\">4</style> + наивысший резонанс) [Breath] (макс. 8)\n[BeforeAttack] Получить +<style=\"highlight\">4</style> к счётчику [Breath]\n[EndSkill] Случайно распределить между врагами среди целей атаки (1 + наивысший резонанс) [EmpathicDistressAlly], по 1 единице за раз (макс. 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">4</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">+3</style> к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2091021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зеркальное прикосновение",
+          "abName": "Блуждающее сердце",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nСила столкновения +1 за каждые 6 (потенциал [Breath] на себе + потенциал [Vibration] на основной цели) (макс. 2)\n[BeforeAttack] Получить (2 + наивысший резонанс) [Breath] (макс. 10)\n[BeforeAttack] Получить +2 к счётчику [Breath]\n[BeforeAttack] Базовая сила -4 за каждую треснувшую монету (макс. -12)\n[BeforeAttack] При 10+ счётчика [Breath] потратить 4 счётчика [Breath] на себе и наносить на 20% больше урона при критическом попадании по основной цели\n[EndSkill] Случайно распределить между врагами среди целей атаки (1 + наивысший резонанс) [EmpathicDistressAlly], по 1 единице за раз (макс. 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 4+ счётчика [Vibration], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 4+ счётчика [Vibration], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [AttackDown]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Зеркальное прикосновение",
+          "abName": "Блуждающее сердце",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nСила столкновения +1 за каждые 6 (потенциал [Breath] на себе + потенциал [Vibration] на основной цели) (макс. <style=\"highlight\">3</style>)\n[BeforeAttack] Получить (<style=\"highlight\">3</style> + наивысший резонанс) [Breath] (макс. 10)\n[BeforeAttack] Получить +<style=\"highlight\">3</style> к счётчику [Breath]\n[BeforeAttack] Базовая сила -4 за каждую треснувшую монету (макс. -12)\n[BeforeAttack] При 10+ счётчика [Breath] потратить 4 счётчика [Breath] на себе и наносить на <style=\"highlight\">30</style>% больше урона при критическом попадании по основной цели\n[EndSkill] Случайно распределить между врагами среди целей атаки (1 + наивысший резонанс) [EmpathicDistressAlly], по 1 единице за раз (макс. 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">4</style> [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 4+ счётчика [Vibration], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 4+ счётчика [Vibration], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить +1 к счётчику [Vibration]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [AttackDown]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Зеркальное прикосновение",
+          "abName": "Блуждающее сердце",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\nСила столкновения +1 за каждые 6 (потенциал [Breath] на себе + потенциал [Vibration] на основной цели) (макс. <style=\"highlight\">4</style>)\n[BeforeAttack] Получить (<style=\"highlight\">4</style> + наивысший резонанс) [Breath] (макс. 10)\n[BeforeAttack] Получить +<style=\"highlight\">4</style> к счётчику [Breath]\n[BeforeAttack] Базовая сила -4 за каждую треснувшую монету (макс. -12)\n[BeforeAttack] При 10+ счётчика [Breath] потратить 4 счётчика [Breath] на себе и наносить на <style=\"highlight\">40</style>% больше урона при критическом попадании по основной цели\n[EndSkill] Случайно распределить между врагами среди целей атаки (1 + наивысший резонанс) [EmpathicDistressAlly], по 1 единице за раз (макс. 5)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">5</style> [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 4+ счётчика [Vibration], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть 4+ счётчика [Vibration], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +<style=\"highlight\">2</style> к счётчику [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [AttackDown]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

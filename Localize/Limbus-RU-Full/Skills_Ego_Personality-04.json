@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "",
           "coinlist": [
             {
@@ -24,7 +24,7 @@
         {
           "level": 3,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "",
           "coinlist": [
             {
@@ -42,7 +42,7 @@
         {
           "level": 4,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "",
           "coinlist": [
             {
@@ -56,6 +56,27 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "Газировка",
+          "abName": "Веллчирс",
+          "desc": "<style=\"highlight\">Если ОЗ цели ниже 25%, наносить на 40% больше урона\n[BeforeAttack] При 4+ наивысшего резонанса получить +1 к весу атаки\n\n[EndSkill] Дать 1 [GainSinStockAdder] на следующий ход (2 + наивысший резонанс) случайным союзникам, включая этого юнита (макс. 7)\n[EndSkill] Если среди целей есть ошеломлённые юниты или юниты в Срыве, получить 1 ресурс Э.Г.О наименее имеющейся склонности; восстановить 3 СД</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 4 [Vibration]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 6 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EnemyKill] Получить 3 ресурса Э.Г.О случайной имеющейся склонности; все союзники восстанавливают 3 СД<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -65,7 +86,7 @@
         {
           "level": 1,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
@@ -83,7 +104,7 @@
         {
           "level": 3,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
@@ -101,7 +122,7 @@
         {
           "level": 4,
           "name": "Газировка",
-          "abName": "Wellcheers",
+          "abName": "Веллчирс",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
@@ -111,6 +132,33 @@
                 },
                 {
                   "desc": "[EndSkill] Все союзники получают 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Множитель ЭГО-ресурсов</link></u></color>, даёт 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Газировка",
+          "abName": "Веллчирс",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\n\n<style=\"highlight\">Если ОЗ цели ниже 25%, наносить на 40% больше урона\n[DefeatDuel] Базовая сила -12\n[BeforeAttack] При 4+ наивысшего резонанса получить +1 к весу атаки\n[EndSkill] Если среди целей есть ошеломлённые юниты или юниты в Срыве, получить 1 ресурс Э.Г.О наименее имеющейся склонности; восстановить 3 СД</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 4 [Vibration]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 6 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndSkill] Все союзники получают 1 [GainSinStockAdder]; дать 1 [Agility] на следующий ход<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndSkillTail] Все союзники получают 1 [GainSinStockAdder] на следующий ход (один раз за ход)</style>"
                 }
               ]
             }

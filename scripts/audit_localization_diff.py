@@ -503,6 +503,10 @@ def choose_baseline(
     exact_path = [row for row in rows if row.get("json_path") == json_path]
     if len(exact_path) == 1:
         return exact_path[0]
+    # A newly inserted object must not inherit the history of an unrelated ID
+    # that used to occupy this array index.
+    if stable_id is not None:
+        return None
     path_rows = candidates.get((normalized, "__PATH__", json_path), [])
     if len(path_rows) == 1:
         return path_rows[0]
@@ -725,7 +729,14 @@ class Auditor:
             json_path,
             semantic,
         )
-        source_changed_at_leaf = baseline is not None and baseline.get("previous_english") != english
+        source_changed_at_leaf = baseline is not None and (
+            baseline.get("previous_english") != english
+            or (
+                isinstance(korean, str)
+                and baseline.get("previous_korean") is not None
+                and baseline["previous_korean"] != korean
+            )
+        )
         previous_english = baseline.get("previous_english") if baseline else None
         source_change_type = "NEW_SOURCE_LEAF" if baseline is None else ("CHANGED_SOURCE" if source_changed_at_leaf else "UNCHANGED")
         ru_value = russian if isinstance(russian, str) else None
@@ -821,7 +832,7 @@ class Auditor:
             status, reason = "intentional", "confirmed_by_prior_queue"
 
         decision = self.decisions.get(queue_id)
-        if decision:
+        if decision and not (placeholder_error or effective_tag_error or markup_error or hangul_error or ru_value is None):
             status = decision["status"]
             reason = decision.get("reason", "recorded_review_decision")
         source_row["review_status"] = status
@@ -843,6 +854,7 @@ class Auditor:
             "review_reason": reason,
             "source_change_type": source_change_type,
             "previous_english": previous_english,
+            "previous_korean": baseline.get("previous_korean") if baseline else None,
             "previous_russian": baseline.get("previous_russian") if baseline else None,
             "placeholders": extract_placeholders(english),
             "game_tags": source_tags,
@@ -909,6 +921,11 @@ def audit(args: argparse.Namespace) -> dict[str, Any]:
     kr_root = args.kr.resolve()
     ru_root = args.ru.resolve()
     report_dir = args.report_dir.resolve()
+    for language, root in (("EN", en_root), ("KR", kr_root), ("RU", ru_root)):
+        if not root.is_dir() or not next(root.rglob("*.json"), None):
+            raise ValueError(f"{language} localization root has no JSON files: {root}")
+        if report_dir == root or root in report_dir.parents:
+            raise ValueError("Reports must be written outside localization roots")
     report_dir.mkdir(parents=True, exist_ok=True)
 
     if args.snapshot_dir:
@@ -999,6 +1016,7 @@ def audit(args: argparse.Namespace) -> dict[str, Any]:
         len(state.missing_structure)
         + statuses.get("pending", 0)
         + len(state.technical_mismatches)
+        + len(en_duplicates) + len(kr_duplicates) + len(ru_duplicates)
     )
     summary = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
