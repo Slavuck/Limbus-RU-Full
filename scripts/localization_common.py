@@ -11,8 +11,25 @@ from typing import Any, Iterable, Iterator
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EN_DIR = ROOT / "input" / "en"
-KR_DIR = ROOT / "input" / "kr"
+INPUT_DIR = ROOT / "input"
+
+
+def source_localize_root() -> Path:
+    """Resolve the current game localization tree from input or its locator file."""
+    if (INPUT_DIR / "en").is_dir() and (INPUT_DIR / "kr").is_dir():
+        return INPUT_DIR
+    locator = INPUT_DIR / "расположение языковых пакетов.txt"
+    if locator.is_file():
+        first_line = locator.read_text(encoding="utf-8-sig").splitlines()[0].strip()
+        candidate = Path(first_line.strip('"'))
+        if (candidate / "en").is_dir() and (candidate / "kr").is_dir():
+            return candidate
+    return INPUT_DIR
+
+
+SOURCE_LOCALIZE_DIR = source_localize_root()
+EN_DIR = SOURCE_LOCALIZE_DIR / "en"
+KR_DIR = SOURCE_LOCALIZE_DIR / "kr"
 CRES_DIR = ROOT / "input" / "ru-CresCorp"
 OUT_DIR = ROOT / "output" / "Limbus-RU-Full"
 WORK_DIR = ROOT / "work"

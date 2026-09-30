@@ -1,0 +1,1910 @@
+{
+  "dataList": [
+    {
+      "id": 150301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Верни...",
+          "desc": "Если у цели выбраны защитные навыки, наносить на 90% меньше урона\nСила столкновения +1 за каждую единицу [HeavyBlackYarn] на себе\n[WhenUse] Базовая сила +1 за каждые 5 [TangleBlackYarn] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [TangleBlackYarn]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [TangleBlackYarn]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отдай...",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\nПолучить силу столкновения в размере [HeavyBlackYarn] на себе\n[WhenUse] Сила столкновения +1 за каждые 3 [TangleBlackYarn] на основной цели (макс. 8)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [TangleBlackYarn]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [TangleBlackYarn]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если на цели <color=#ff6000><mark=#ff000040><b><u>есть 15+ [TangleBlackYarn], ошеломить цель</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не отнимай у меня...",
+          "desc": "Получить силу столкновения в размере [HeavyBlackYarn] на себе\n[WhenUse] Базовая сила +1 за каждые 5 [TangleBlackYarn] на основной цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Burst]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [TangleBlackYarn]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свитое и спутанное",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\nПолучить силу столкновения в размере [HeavyBlackYarn] на себе\n[WhenUse] Сила столкновения +1 за каждые 3 [TangleBlackYarn] на цели (макс. 8)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [TangleBlackYarn]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [TangleBlackYarn]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [TangleBlackYarn]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [TangleBlackYarn]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [TangleBlackYarn]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если на цели <color=#ff6000><mark=#ff000040><b><u>есть 15+ [TangleBlackYarn], ошеломить цель</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Неистовство древнего существа",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\nПотерять силу столкновения в размере [HeavyBlackYarn] на себе\n[WhenUse] Базовая сила +1 за каждые 3 [TangleBlackYarn] на основной цели (макс. 3)\n[WhenUse] Если на основной цели есть 15+ [TangleBlackYarn], базовая сила +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [TangleBlackYarn]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [TangleBlackYarn]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если на цели <color=#ff6000><mark=#ff000040><b><u>есть 15+ [TangleBlackYarn], ошеломить цель</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Опутывание",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\nПотерять силу столкновения в размере [HeavyBlackYarn] на себе\n[WhenUse] Базовая сила +1 за каждые 3 [TangleBlackYarn] на основной цели (макс. 3)\n[WhenUse] Если на основной цели есть 15+ [TangleBlackYarn], базовая сила +3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Burst]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [TangleBlackYarn]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [TangleBlackYarn]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150307,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пасть бездны",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\n[StartBattle] Базовая сила +1 и наносить на 10% больше урона за каждые 2 [TangleBlackYarn] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 5 [TangleBlackYarn]"
+                },
+                {
+                  "desc": "[DefeatDuelAttack] <color=#ff6000><mark=#ff000040><b><u>Удалить 10 [TangleBlackYarn]</u></b></mark></color> с цели"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если цель <color=#ff6000><mark=#ff000040><b><u>ошеломлена</u></b></mark></color> или на цели <color=#ff6000><mark=#ff000040><b><u>есть 20+ [TangleBlackYarn]</u></b></mark></color>, повторно использовать эту монету (один раз за навык)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Нанести фиксированный урон в размере 150% максимальных ОЗ цели</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150308,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Очищение",
+          "desc": "[DuelCounter]\n[WhenUse] Базовая сила +1 за каждые 2 [TangleBlackYarn] на цели\n[WinDuel] <color=#ff6000><mark=#ff000040><b><u>Удалить все [TangleBlackYarn] с цели</u></b></mark></color>, затем удалить все [SickBlackYarn] с части тела, использовавшей этот навык\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Удалить все [TangleBlackYarn] с цели</u></b></mark></color>, затем уменьшить вдвое [SickBlackYarn] на части тела, использовавшей этот навык (с округлением вверх)",
+          "flavor": "Увы, в Эпоху универмага нельзя смыть пережитки древних времён.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Burst]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Зарождение весны",
+          "desc": "[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Цель теряет 5 СД</color></mark></b></u>\n- Кроме целей с [FlowerLaurelWreath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Sinking]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уход осени",
+          "desc": "[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Цель теряет 5 СД</color></mark></b></u>\n- Кроме целей с [FlowerLaurelWreath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кукла, мечтавшая стать человеком",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 (потенциал [Vibration] + потенциал [Sinking]) на цели (макс. 2)\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Цель теряет 10 СД</color></mark></b></u>\n- Не срабатывает для целей с [FlowerLaurelWreath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон СД в размере потенциала [Sinking] на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Человек, мечтавший стать куклой",
+          "desc": "[WideAreaRampage]\n[WhenUse] Итоговая сила +1 за каждые 3 (потенциал [Vibration] + потенциал [Sinking]) на основной цели (макс. 2)\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Все цели теряют 10 СД</color></mark></b></u>\n- Не срабатывает для целей с [FlowerLaurelWreath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [AlriuneSillage]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [AlriuneSillage]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета попадает по всем целям навыка независимо от эффекта Нефокусированного залпа"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ароматный лавровый венок",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</color></mark></b></u>\nЭтот навык не наносит урона и не активирует [Sinking] на цели\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Дать цели [FlowerLaurelWreath] (один раз за ход)</color></mark></b></u>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель восстанавливает 20 СД"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "С надеждой вернуться в прах...",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 3 (потенциал [Vibration] + потенциал [Sinking]) на основной цели (макс. 8)\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Если на основной цели нет [FlowerLaurelWreath], итоговая сила +5</color></mark></b></u>\n[DefeatDuel]\n- Наносить на 80% меньше урона\n- Урон этого навыка не может ошеломить цель\n- Не активировать [Sinking] на цели\n\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Все цели теряют 10 СД</color></mark></b></u>\n- Не срабатывает для целей с [FlowerLaurelWreath]\n[EndSkillAll] Сбросить значение [AlriunePetal] на себе до 0",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить потенциал [Vibration] в размере [AlriuneSillage] на цели (рассчитывается отдельно для каждой цели)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить потенциал [Sinking] в размере [AlriuneSillage] на цели (рассчитывается отдельно для каждой цели)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "...В могилу вернётся вместе со всем, что жаждет жить",
+          "desc": "[CantDuel] [CantChangeTarget]\nЭтот навык не активирует защитный навык цели\nЕсли цель не находится ни в Срыве, ни в Коррозии, отменить эту атаку",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Нанести фиксированный урон в размере 120% максимальных ОЗ цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Когда цветы заменят все желания в сердцах...",
+          "desc": "Можно вступить в столкновение с этим навыком независимо от скорости\nЭтот навык не наносит урона\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>Цель теряет 25 СД</color></mark></b></u>\n- Кроме целей с [FlowerLaurelWreath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 10 [Sinking]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цветочный холм",
+          "desc": "Урон этого навыка фиксирован на 0",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [AlriuneSillage]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [AlriuneSillage]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Трещина в сердце",
+          "desc": "Урон этого навыка фиксирован на 0\n[WhenUse] Итоговая сила +1 за каждые 3 суммарного потенциала отрицательных эффектов на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Опутывающее отчаяние",
+          "desc": "Урон этого навыка фиксирован на 0\n[WhenUse] Итоговая сила +1 за каждые 3 вида отрицательных эффектов на цели (макс. 3)\n[DefeatDuel]\n- Не активировать [Sinking] на цели",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark color=#ff000040><b><u>Нанести урон СД в размере потенциала [Sinking] на цели</color></mark></b></u>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разгон",
+          "desc": "[StartBattle]\n<color=#ff6000><mark color=#ff000040><b><u>- Получить щит в размере 30% максимальных ОЗ этого юнита</color></mark></b></u>\n- Восполнить счётчик [ChargeKhaki] до максимального предела\n- Получить 1 [SpreadingDye] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заправка нити",
+          "desc": "Сила столкновения +1 за каждые 2 потенциала [ChargeKhaki] на себе (макс. 3)\n[WhenUse] Получить 1 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] <color=#ff6000><mark color=#ff000040><b><u>Наложить 1 [Binding] на следующий ход</color></mark></b></u>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Челночный стежок",
+          "desc": "Если скорость этого юнита выше скорости цели, наносить на 20% больше урона\nСила монеты +1 за каждые 2 потенциала [ChargeKhaki] на себе (макс. 2)\n[WhenUse] Потратить 4 счётчика [ChargeKhaki], чтобы получить +2 к силе монеты\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Если скорость этого юнита выше скорости цели или ОЗ этого юнита ниже 50%</color></mark></b></u>:\n- Превратить все монеты в [SuperCoin]\n- Наносить на (разница скоростей × 15)% больше урона (макс. 40%)\n<color=#ff6000><mark color=#ff000040><b><u>[DefeatDuel] Получить 1 [Binding] на следующий ход</color></mark></b></u>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [ThreadDye]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [ThreadDye]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если это [SuperCoin], <color=#ff6000><mark color=#ff000040><b><u>получить +4 к счётчику [ChargeKhaki]</color></mark></b></u>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цепной стежок",
+          "desc": "Если скорость этого юнита выше скорости цели, наносить на 20% больше урона\nСила монеты +1 за каждые 2 потенциала [ChargeKhaki] на себе (макс. 2)\n[WhenUse] Потратить 4 счётчика [ChargeKhaki], чтобы получить +2 к силе монеты\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>Если скорость этого юнита выше скорости цели или ОЗ этого юнита ниже 50%</color></mark></b></u>:\n- Превратить все монеты в [SuperCoin]\n- Наносить на (разница скоростей × 15)% больше урона (макс. 40%)\n[WinDuel] Получить 1 [Agility] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [ThreadDye]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [ThreadDye]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если это [SuperCoin], <color=#ff6000><mark color=#ff000040><b><u>получить +4 к счётчику [ChargeKhaki]</color></mark></b></u>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 151905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двухигольный нижний распошивальный радужный оверлок",
+          "desc": "[WideAreaRampage]\nМожно вступить в столкновение с этим навыком независимо от скорости\nИтоговая сила +1 за каждые 2 потенциала [ChargeKhaki] на себе (макс. 3)\n[WhenUse] Потратить весь счётчик [ChargeKhaki] на себе и наносить на 5% больше урона за каждую потраченную единицу счётчика [ChargeKhaki]\n[WhenUse] Сила монеты +1 за каждые 3 (потенциал [Laceration] + счётчик [Laceration]) на основной цели (макс. 3)\n[DefeatDuel]\n- Получить 10 [AttackDmgDown] и 4 [Paralysis]\n- Этот навык не может ошеломить цель\n[EndSkillAll] <color=#ff6000><mark color=#ff000040><b><u>Завершить этот ход</color></mark></b></u>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета поражает все цели"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз (цель теряет 1 счётчика [Laceration])"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 3 [ThreadDye] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Применить следующее к целям с [Inactible]"
+                },
+                {
+                  "desc": "- Стать ошеломлённым на следующий ход"
+                },
+                {
+                  "desc": "- Получить урон Похоти в размере 20% итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подрезка",
+          "desc": "[WhenUse]\n- При 10+ счётчика [ChargeKhaki] сила монеты +1\n- Если на этом юните есть [LargeTailoringShears], наносить на (значение [LargeTailoringShears] × 10)% больше урона (макс. 30%)\n[WhenUse] При счётчике [ChargeKhaki] ниже 15 получить +2 к счётчику [ChargeKhaki]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeKhaki]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [ScissorsMark]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Раскрой",
+          "desc": "[WhenUse]\n- При 2+ [LargeTailoringShears] получить +1 к весу атаки\n- При 10+ счётчика [ChargeKhaki] сила монеты +1\n[WhenUse] Получить +4 к счётчику [ChargeKhaki]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeKhaki]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [ScissorsMark]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [ScissorsMark]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack] Получить 1 [FinishedFabric] на следующий ход</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] При 12+ счётчика [ChargeKhaki] потратить 4 счётчика [ChargeKhaki], чтобы вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заколоть и подрезать по выкройке",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\n[WhenUse]\n- При 10+ счётчика [ChargeKhaki] потратить 10 счётчика [ChargeKhaki], чтобы получить +2 к силе монеты\n- Потратить до 20 оставшегося счётчика [ChargeKhaki], чтобы наносить на 1% больше урона за каждую потраченную единицу (макс. 20%)\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel]\n- Потерять 3 [FinishedFabric]\n- Наносить на 75% меньше урона\n- Получить 4 [Paralysis]</u></b></mark></color>\n- Урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeKhaki]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [ScissorsMark]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack] Получить 3 [FinishedFabric] на следующий ход</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Купе дан лё бье",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Можно вступить в столкновение с этим навыком независимо от скорости</u></b></mark></color>\n[WhenUse]\n- Получить +(значение [LargeTailoringShears]) к весу атаки (макс. 3)\n- При 10+ счётчика [ChargeKhaki] потратить 10 счётчика [ChargeKhaki], чтобы получить +2 к силе монеты\n- Потратить до 20 оставшегося счётчика [ChargeKhaki], чтобы наносить на 1% больше урона за каждую потраченную единицу (макс. 20%)\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel]\n- Потерять 3 [FinishedFabric]\n- Наносить на 90% меньше урона\n- Получить 4 [Paralysis]</u></b></mark></color>\n- Урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если это основная цель, наложить 5 [ScissorsMark]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[UnBrokenCoinOnSucceedAttack] Получить 1 [FinishedFabric] на следующий ход</u></b></mark></color>"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если это основная цель, вызвать [VibrationExplosion] 2 раза, затем уменьшить счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Построение выкройки",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]\nВыбирает целью [TailoringTarget]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[OnSucceedAttack] Наложить 9 [ScissorsMark]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149506,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Цепная обмётка",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>[CantChangeTarget]\nВыбирает целью [TailoringTarget]</u></b></mark></color>\nИтоговая сила +1 и наносить на 20% больше урона за каждую единицу [LargeTailoringShears] на себе (макс. 3 и 60 соответственно)\nНаносить на 4% больше урона за каждую единицу потенциала [ChargeKhaki] (макс. 20%)\n<color=#ff6000><mark=#ff000040><b><u>[WhenUse] Если выбранный грешник...\n- ...выбрал защитные навыки, получить 4 [Paralysis]; урон этого навыка не может ошеломить цель\n- ...не выбрал защитные навыки, получить 10 [FinishedFabric] на следующий ход</u></b></mark></color>\n[EndSkill]\n- <color=#ff6000><mark=#ff000040><b><u>После столкновения</u></b></mark></color> наложить (итоговая сила столкновения участвовавшего грешника / 2) [DamagedFabric] на цель (макс. 20)\n<color=#ff6000><mark=#ff000040><b><u>- Потратить все [ScissorsMark] на цели</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>[EndBattle] Получить 1 [LargeTailoringShears] на следующий ход</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызвать [VibrationExplosion] 2 раза, затем уменьшить счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Да явится гвоздь",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 3 потенциала [ChargeNoir] на себе (макс. 3)",
+          "flavor": "Гвозди существуют, чтобы молоты вбивали их.\nТо, на что падает молот, — гвозди.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +5"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Да призовётся гвоздь",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 3 потенциала [ChargeNoir] на себе (макс. 3)\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "flavor": "Там, где опускались молоты, есть гвозди.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Постукивание",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 3 потенциала [ChargeNoir] на себе (макс. 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNail]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Внемлите молча",
+          "desc": "[WinDuel] Наложить +3 к счётчику [Vibration]\n[WinDuel] [VibrationExplosion]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vulnerable]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>[DefeatDuelAttack] Наложить 1 [NoirShieldPiece]</u></b></mark></color>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Провозглашение: Святилище Сохранения",
+          "desc": "Можно вступить в столкновение с этим навыком независимо от скорости; до использования этого навыка нельзя ошеломить\n\n[StartBattle] Сила столкновения -2 за каждый выбранный врагами защитный навык (макс. -10)\n\n[WhenUse] Если на основной цели <color=#ff6000><mark=#ff000040><b><u>нет [NoirShieldPiece], итоговая сила этого навыка +5</u></b></mark></color>\n[WhenUse] Потратить весь счётчик [ChargeNoir] на себе\n- Итоговая сила +1 за каждые 3 потраченного счётчика [ChargeNoir]\n- Наносить на (потраченный счётчик [ChargeNoir] × 5)% больше урона\n<color=#ff6000><mark=#ff000040><b><u>- Получить 1 [NoirField]</u></b></mark></color>\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [NoirShieldPiece]:"
+                },
+                {
+                  "desc": "- Цель получает на 95% меньше итогового урона от этой монеты"
+                },
+                {
+                  "desc": "- Урон этой монеты не может ошеломить цель"
+                },
+                {
+                  "desc": "- Удалить [NoirShieldPiece] с цели и дать 2 [VibrationResonance]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion] 3 раза, затем уменьшить счётчик [Vibration] цели на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Поднять порог ошеломления на величину итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Откровения",
+          "desc": "До использования этого навыка нельзя ошеломить\n<color=#ff6000><mark=#ff000040><b><u>[StartBattle] Получить 999 [NoirShieldUp]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Завет",
+          "desc": "[SupportEnemy]\n\n[EndSkill] Если цель — союзник, дать 6 [AttackUp]\n[EndSkill] Выбранный союзник использует случайный атакующий навык\n\n[DefeatDuel] Получить 1 [Vulnerable]\n<color=#ff6000><mark=#ff000040><b><u>[DefeatDuel] Потерять 150 [NoirShieldUp]</u></b></mark></color>",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150608,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я пресекаю твоё пришествие.",
+          "desc": "Можно вступить в столкновение с этим навыком независимо от скорости; до использования этого навыка нельзя ошеломить\n[WhenUse] Итоговая сила +1 за каждые 100 [NoirShieldUp] на себе\n[WhenUse] Если на цели есть [NoirShieldPiece], сила столкновения -5\n[DefeatDuel] Этот навык наносит на 80% меньше урона и не может ошеломить цель своим уроном\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [NoirNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion] ещё 1 раз за каждые 200 [NoirShieldUp] на себе (макс. 4 раза)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызвать [VibrationExplosion] 3 раза"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150609,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Каждым ударом пресекаю твоё пришествие!",
+          "desc": "Можно вступить в столкновение с этим навыком независимо от скорости; до использования этого навыка нельзя ошеломить\n\n[WhenUse] Потратить весь счётчик [ChargeNoir] на себе\n- Итоговая сила -1 за каждые 3 потраченного счётчика [ChargeNoir]\n- Наносить на (потраченный счётчик [ChargeNoir] × 5)% больше урона\n\n[WhenUse] Если на основной цели есть [NoirShieldPiece], сила столкновения -5\n[WhenUse] Если на основной цели нет [NoirShieldPiece], итоговая сила этого навыка +5\n[DefeatDuel] Этот навык наносит на 80% меньше урона и не может ошеломить цель своим уроном\n[EndSkill] Завершить этот ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNail]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [NoirNail]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на цели есть [NoirShieldPiece]:"
+                },
+                {
+                  "desc": "- Цель получает на 95% меньше итогового урона от этой монеты"
+                },
+                {
+                  "desc": "- Урон этой монеты не может ошеломить цель"
+                },
+                {
+                  "desc": "- Удалить [NoirShieldPiece] с цели и дать 2 [VibrationResonance]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150610,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Внемлите зову, о верные",
+          "desc": "[StartBattle] Призвать 5 союзников Ле Нуар на следующий ход (число остальных союзников на поле не может превышать 5)\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предъявите историю покупок, пожалуйста.",
+          "desc": "Наносить на (щит на себе)% больше урона (макс. 20%)\n[WhenUse] Получить +2 к счётчику [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Предъявите право на покупки, пожалуйста.",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 6 (счётчик [ChargeNoir] на себе + потенциал [Vibration] на цели) (макс. 2)\n[WhenUse] Получить +3 к счётчику [ChargeNoir]\n[WinDuel] Получить +2 к счётчику [ChargeNoir]\n[WhenUse] При 3+ потенциала [ChargeNoir] превратить последнюю монету в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Штамповка [Фланель]",
+          "desc": "Наносить на (щит на себе)% больше урона (макс. 50%)\n[WhenUse] Итоговая сила +1 за каждые 6 [Vibration] на цели (макс. 2)\n[WhenUse] Потратить до 15 счётчика [ChargeNoir] на себе и получить щит в размере (потраченный счётчик [ChargeNoir] × 2)% максимальных ОЗ этого юнита; щит от этого эффекта действует до следующего хода\n[WhenUse] Если этот юнит потратил 10+ счётчика [ChargeNoir], сила монеты +2 и превратить все монеты в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получить [ChargeNoir]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [Switch_Vibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1\n- Сработать ещё раз за каждые 2 потенциала [ChargeNoir] на себе (макс. 2)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Укрепление ткани",
+          "desc": "Этот навык используется на союзниках; урон союзникам фиксирован на 0\n[WhenUse] Итоговая сила +2 за каждые 4 [Vibration] на цели (макс. 6)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 [DefenseUp] на этот и следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель получает счётчик [Charge] в размере счётчика [ChargeNoir] на себе\n- Если счётчик [Charge] цели на максимуме, дать 3 [DefenseUp] и 5 [NoirBindArmor] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ради Сохранения",
+          "desc": "Этот навык используется на союзниках; урон союзникам фиксирован на 0\n[WhenUse] Итоговая сила +2 за каждые 4 [Vibration] на цели (макс. 6)\n[WhenUse] При 3+ потенциала [ChargeNoir] превратить все монеты в [SuperCoin]\n[WhenUse] При счётчике [ChargeNoir] ниже 10 увеличить счётчик [ChargeNoir] до 10, затем получить 1 [Vulnerable] за каждые 2 единицы прироста\n[DefeatDuel] Потратить половину счётчика [ChargeNoir] на себе\n[EndSkill] Потратить весь счётчик [ChargeNoir] на себе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [DefenseUp] на этот и следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цель получает счётчик [Charge] в размере счётчика [ChargeNoir] на себе\n- Если счётчик [ChargeNoir] цели на максимуме, дать 3 [DefenseUp] и 5 [NoirBindArmor] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Укажите ваш ценовой диапазон, пожалуйста.",
+          "desc": "[WhenUse] Получить [ChargeNoir]: счётчик +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кругом недопустимые изъяны",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 6 (счётчик [ChargeNoir] на себе + потенциал [Vibration] на цели) (макс. 2)\n[WhenUse] Получить +3 к счётчику [ChargeNoir]\n[WinDuel] Получить +2 к счётчику [ChargeNoir]\n[WhenUse] При 3+ потенциала [ChargeNoir] превратить последнюю монету в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Штамповка [Фетр]",
+          "desc": "Наносить на (щит на себе)% больше урона (макс. 50%)\n[WhenUse] Итоговая сила +1 за каждые 6 [Vibration] на цели (макс. 2)\n[WhenUse] Потратить до 15 счётчика [ChargeNoir] на себе и получить щит в размере (потраченный счётчик [ChargeNoir] × 2)% максимальных ОЗ этого юнита; щит от этого эффекта действует до следующего хода\n[WhenUse] Если этот юнит потратил 10+ счётчика [ChargeNoir], сила монеты +2 и превратить все монеты в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [Switch_Vibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если этот юнит потратил 10+ счётчика [ChargeNoir], вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 150504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Штамповка [Реверберация]",
+          "desc": "При попадании по этому юниту, пока у него есть щит, нанести атакующему (потенциал [ChargeNoir] на себе × значение [NoirBindArmor]) урона\n[WhenUse] Получить +3 к счётчику [ChargeNoir]",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 148801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свежевание",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Burst]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мездрение",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Наносить на 10% больше урона за каждого живого Дублёного узника</u></b></mark></color> на поле\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Burst]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vulnerable] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мозговое дубление",
+          "desc": "Цель фиксирована\nПриоритет — союзникам с наименьшими ОЗ\n\nЕсли этот юнит не смог атаковать выбранного юнита, отменить этот навык",
+          "flavor": "Техника дубления с помощью мозгового жира забитых первородных шкур. Это тайный рецепт 3-го подземного этажа.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Если цель — союзник, применить следующие эффекты:\n- Вставить цель обратно в спину\n- Восстановить 1% ОЗ\n- Восстановить 20 СД\n- Получить 2 [AttackDmgUp] на этот и следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двоение",
+          "desc": "[EndBattle] Призвать до 2 Дублёных узников на следующий ход и дать [B3FreshMob]\n\n- Число призванных Дублёных узников не может превышать 6\n- Потратить 0.5% ОЗ за каждого призванного Дублёного узника\n- <color=#ff6000><mark=#ff000040><b><u>Отключить этот эффект, если выполнено одно из следующих условий:</u></b></mark></color>\n· Слот, использующий этот навык, является основной целью 2+ атакующих навыков\n· На поле есть 6 или более живых Дублёных узников",
+          "flavor": "Обработка, отделяющая Первородный грех от Первородной шкуры",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Массовое двоение",
+          "desc": "[EndBattle] Призвать до 4 Дублёных узников на следующий ход и дать [B3FreshMob]\n\n- Число призванных Дублёных узников не может превышать 6\n- Потратить 0.5% ОЗ за каждого призванного Дублёного узника\n\n[StartBattle] Дать 1 [AttackDmgUp] на следующий ход всем союзникам",
+          "flavor": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Барабанная обработка кожи мозговым жиром: Первородный грех",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Наносить на 10% больше урона за каждого живого Дублёного узника</u></b></mark></color> на поле\n[StartBattle] Дать 2 [Enhancement] всем остальным союзникам\n[WhenUse] Если ОЗ этого юнита ниже 50%, получить +1 к итоговой силе за каждого Дублёного узника на поле\n[DefeatDuel] Наносить на 80% меньше урона; урон этого навыка не может ошеломить цель",
+          "flavor": "Внутри его мозга — мозги грешников. Они перекатываются и смешиваются, дубясь в его мозговой жидкости.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Burst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 148807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Карающая финишная полировка",
+          "desc": "[CantDuel]\nЭтот навык не активирует защитные навыки (включая способные вступать в столкновения)\n\n[EndSkill] Приказать 3 случайным Дублёным узникам использовать случайные навыки против цели (приоритет — неошеломлённым союзникам)",
+          "flavor": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносить на 100% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 10 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Распыление мозгового жира",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Burst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Reduction] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Полировка мозговым жиром",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Burst]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [DefenseDown] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Paralysis] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 149103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искупительное тиснение",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстановить 1% ОЗ частям тела и ядру Надсмотрщика"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстановить 1% ОЗ частям тела и ядру Надсмотрщика"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

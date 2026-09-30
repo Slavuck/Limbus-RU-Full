@@ -1,0 +1,710 @@
+{
+  "dataList": [
+    {
+      "id": 9105901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Колотить",
+          "desc": "Если на цели есть 4+ [Vibration], итоговая сила +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Таран телом",
+          "desc": "Если на цели есть 4+ [Vibration], итоговая сила +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на этом юните есть [Laceration], наложить (потенциал [Laceration] на себе / 2) счётчика [Laceration] на цель (макс. 5; один раз за ход; с округлением вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Припечатать",
+          "desc": "Если на цели есть 4+ [Vibration], итоговая сила +1\n[WhenUse] Наносить на 1% больше урона за каждую единицу [Laceration] на себе (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если на этом юните есть [Laceration], наложить (потенциал [Laceration] на себе) счётчика [Laceration] на цель (макс. 8; один раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9105904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита",
+          "desc": "[StartBattle] Восстановить 5 СД\n[StartBattle] Получить 1 [ResultEnhancement] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар",
+          "desc": "Если на цели есть 4+ [Vibration], итоговая сила +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Толчок телом",
+          "desc": "Если на цели есть 4+ [Vibration], итоговая сила +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на этом юните есть [Laceration], наложить (потенциал [Laceration] на себе / 2) счётчика [Laceration] на цель (макс. 5; один раз за ход; с округлением вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Хлестания",
+          "desc": "Если на цели есть 4+ [Vibration], итоговая сила +1\n[WhenUse] Наносить на 1% больше урона за каждую единицу [Laceration] на себе (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если на этом юните есть [Laceration], наложить (потенциал [Laceration] на себе) счётчика [Laceration] на цель (макс. 8; один раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защита",
+          "desc": "[StartBattle] Восстановить 5 СД\n[StartBattle] Получить 1 [ResultEnhancement] на следующий ход",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не трогай меня...!",
+          "desc": "[WhenUse]\n- Если на цели есть 6+ [Vibration], сила монеты +1\n- При 10+ счётчика [ChargeNoir] сила монеты +1\n\n[WhenUse] Получить +2 к счётчику [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [ChargeNoir]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Убери от меня руки...!",
+          "desc": "[WhenUse]\n- Если на цели есть 6+ [Vibration], сила монеты +1\n- При 10+ счётчика [ChargeNoir] сила монеты +1\n\n[WhenUse] Получить +4 к счётчику [ChargeNoir]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мы не должны ничего делать...!",
+          "desc": "Наносить на 4% больше урона за каждую единицу потенциала [ChargeNoir] на себе (макс. 20%)\n\n[WhenUse] При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +1 к силе монеты и наносить на 20% больше урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рыться",
+          "desc": "Если на цели есть 6+ [Laceration], итоговая сила +1",
+          "flavor": "Здесь должно быть что-то... что-то стоящее...",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Урвать",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration] на цели (макс. 2)",
+          "flavor": "Это моё!",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нашёл!",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration] на цели (макс. 3)\n[WhenUse] При ОЗ ниже 50% или если на цели есть 10+ [Laceration], превратить все монеты в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Критический урон +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нет, мужик! Это моё!",
+          "desc": "[WhenUse] Получить 2 [Breath] за каждые 2 вида эффектов на цели (макс. 5)\n[WhenUse] Если на цели есть 4+ эффекта, получить +1 к счётчику [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рыться",
+          "desc": "Если на цели есть 6+ [Laceration], итоговая сила +1",
+          "flavor": "Здесь должно быть что-то... что-то стоящее...",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Урвать",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration] на цели (макс. 2)",
+          "flavor": "Это моё!",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нашёл!",
+          "desc": "Итоговая сила +1 за каждые 3 [Laceration] на цели (макс. 3)\n[WhenUse] При ОЗ ниже 50% или если на цели есть 10+ [Laceration], превратить все монеты в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Критический урон +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Нет, мужик! Это моё!",
+          "desc": "[WhenUse] Получить 2 [Breath] за каждые 2 вида эффектов на цели (макс. 5)\n[WhenUse] Если на цели есть 4+ эффекта, получить +1 к счётчику [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сметочный стежок — Основа",
+          "desc": "Если на цели есть 4+ [Laceration], итоговая сила +1\n\n[WhenUse] Если на цели есть 6+ [Laceration], превратить все монеты в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [PenetrateResistDown] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Закрепляющий стежок — Основа",
+          "desc": "Если на цели есть 4+ [Laceration], итоговая сила +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стежок назад иголку — Основа",
+          "desc": "Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n\n[WhenUse] Наносить на 1% больше урона за каждую единицу [Laceration] на цели (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает монету 1 раз"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести колющий урон в размере потенциала [Laceration] на цели (макс. 30)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Потайной стежок — Основа",
+          "desc": "[StartBattle] Получить 1 [PenetrateResultUp] на следующий ход",
+          "coinlist": []
+        }
+      ]
+    },
+    {
+      "id": 9106401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сметочный стежок — Уток",
+          "desc": "Если на цели есть 4+ [Laceration], итоговая сила +1\n\n[WhenUse] Если на цели есть 6+ [Laceration], превратить все монеты в [SuperCoin]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [PenetrateTakeDamageUp] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Закрепляющий стежок — Уток",
+          "desc": "Если на цели есть 4+ [Laceration], итоговая сила +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NiddlePin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Binding] на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стежок назад иголку — Уток",
+          "desc": "Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n\n[WhenUse] Наносить на 1% больше урона за каждую единицу [Laceration] на цели (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает монету 1 раз"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести колющий урон в размере потенциала [Laceration] на цели (макс. 30)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [NiddlePin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9106404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Потайной стежок — Уток",
+          "desc": "[StartBattle] Получить 1 [PenetrateResultUp] на следующий ход",
+          "coinlist": []
+        }
+      ]
+    }
+  ]
+}

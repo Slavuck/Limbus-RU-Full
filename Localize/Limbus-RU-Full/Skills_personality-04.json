@@ -3418,6 +3418,379 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1041601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ты, отвратительная тварь.",
+          "desc": "[StartBattle] При 3+ потенциала [ChargeNoirAlly] и 12+ счётчика [ChargeNoirAlly] потратить 6 счётчика [ChargeNoirAlly], чтобы получить щит в размере 5% максимальных ОЗ этого юнита (2 раза за ход)\n[WhenUse] При счётчике [ChargeNoirAlly] ниже 10 получить +1 к счётчику [ChargeNoirAlly]\n[WhenUse] Потратить до 15 [RealisationAlly], чтобы применить следующее:\n- Сила столкновения +1\n- Наносить на (потраченные [RealisationAlly] × 3)% больше урона (макс. 45%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoirAlly]: счётчик +3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ты, отвратительная тварь.",
+          "desc": "[StartBattle] При 3+ потенциала [ChargeNoirAlly] и 12+ счётчика [ChargeNoirAlly] потратить 6 счётчика [ChargeNoirAlly], чтобы получить щит в размере 5% максимальных ОЗ этого юнита (2 раза за ход)\n[WhenUse] При счётчике [ChargeNoirAlly] ниже 10 получить +<style=\"highlight\">2</style> к счётчику [ChargeNoirAlly]\n[WhenUse] Потратить до 15 [RealisationAlly], чтобы применить следующее:\n- Сила столкновения +1\n- Наносить на (потраченные [RealisationAlly] × 3)% больше урона (макс. 45%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">4</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ты, отвратительная тварь.",
+          "desc": "[StartBattle] При 3+ потенциала [ChargeNoirAlly] и 12+ счётчика [ChargeNoirAlly] потратить 6 счётчика [ChargeNoirAlly], чтобы получить щит в размере 5% максимальных ОЗ этого юнита (2 раза за ход)\n[WhenUse] При счётчике [ChargeNoirAlly] ниже <style=\"highlight\">12</style> получить +2 к счётчику [ChargeNoirAlly]\n<style=\"highlight\">[WhenUse] При 50+ [NoirSuitAlly] сила столкновения +1 и наносить на 30% больше урона</style>\n[WhenUse] Потратить до 15 [RealisationAlly], чтобы применить следующее:\n<style=\"highlight\">- Итоговая сила +1</style>\n- Наносить на (потраченные [RealisationAlly] × 3)% больше урона (макс. 45%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">5</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подойди и примерь",
+          "desc": "[WhenUse]\n- При 12+ счётчика [ChargeNoirAlly] потратить 6 счётчика [ChargeNoirAlly], чтобы получить +1 к силе столкновения и наносить на 10% больше урона\n- Получить +2 к счётчику [ChargeNoirAlly]\n[WhenUse] Потратить до 20 [RealisationAlly], чтобы применить следующее:\n- Сила столкновения +1\n- Наносить на (потраченные [RealisationAlly])% больше урона (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +(потенциал [ChargeNoirAlly] + 1) к счётчику [ChargeNoirAlly] (макс. 4)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration] и +1 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Подойди и примерь",
+          "desc": "[WhenUse]\n- При 12+ счётчика [ChargeNoirAlly] потратить 6 счётчика [ChargeNoirAlly], чтобы получить +1 к силе столкновения и наносить на 10% больше урона\n- Получить +2 к счётчику [ChargeNoirAlly]\n[WhenUse] Потратить до 20 [RealisationAlly], чтобы применить следующее:\n- Сила столкновения +1\n- Наносить на (потраченные [RealisationAlly])% больше урона (макс. 20%)<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +(потенциал [ChargeNoirAlly] + 1) к счётчику [ChargeNoirAlly] (макс. <style=\"highlight\">6</style>)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration] и +1 к счётчику [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При 3+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подойди и примерь",
+          "desc": "[WhenUse]\n- При 12+ счётчика [ChargeNoirAlly] потратить 6 счётчика [ChargeNoirAlly], чтобы получить <style=\"highlight\">+1 к итоговой силе</style> и наносить на <style=\"highlight\">20%</style> больше урона\n- Получить +<style=\"highlight\">4</style> к счётчику [ChargeNoirAlly]\n<style=\"highlight\">[WhenUse] При 50+ [NoirSuitAlly] наносить на 15% больше урона</style>\n[WhenUse] Потратить до 20 [RealisationAlly], чтобы применить следующее:\n- <style=\"highlight\">Итоговая сила +1</style>\n- Наносить на (потраченные [RealisationAlly])% больше урона (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +(потенциал [ChargeNoirAlly] + <style=\"highlight\">3</style>) к счётчику [ChargeNoirAlly] (макс. 6)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration] и +<style=\"highlight\">2</style> к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 3+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Тройная штампованная строчка",
+          "desc": "[WhenUse]\n- При 10+ счётчика [ChargeNoirAlly] потратить до 20 счётчика [ChargeNoirAlly], чтобы наносить на (потраченный счётчик [ChargeNoirAlly])% больше урона (макс. 20%)\n- Получить +3 к счётчику [ChargeNoirAlly]\n[WhenUse] За каждые 40 [NoirSuitAlly] сила столкновения +1 и наносить на 10% больше урона (макс. 2 и 20% соответственно)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoirAlly]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 2 [Vibration] и повышает счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносить на (значение [NoirSuitAlly] / 2)% больше урона (макс. 50%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 3+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Тройная штампованная строчка",
+          "desc": "<style=\"highlight\">[StartBattle] Получить 20 [NoirSuitAlly] (один раз за ход)</style>\n[WhenUse]\n- При 10+ счётчика [ChargeNoirAlly] потратить до 20 счётчика [ChargeNoirAlly], чтобы наносить на (потраченный счётчик [ChargeNoirAlly])% больше урона (макс. 20%)\n- Получить +<style=\"highlight\">5</style> к счётчику [ChargeNoirAlly]\n[WhenUse] За каждые <style=\"highlight\">30</style> [NoirSuitAlly] сила столкновения +1 и наносить на <style=\"highlight\">20%</style> больше урона <style=\"highlight\">(макс. 3 и 60% соответственно)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">5</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">3</style> [Vibration] и <style=\"highlight\">+3</style> к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносить на (<style=\"highlight\">значение [NoirSuitAlly]</style>)% больше урона (макс. <style=\"highlight\">100%</style>)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 3+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion] <style=\"highlight\">2 раза</style>, затем уменьшить счётчик [Vibration] цели на <style=\"highlight\">2</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тц. Тупой покупатель. Ты мнёшь товар!",
+          "desc": "[DuelCounter]\n[StartBattle]\n- При 60+ [NoirSuitAlly] преобразовать этот эффект в [RealisationAlly] на следующий ход\n- При [RealisationAlly] ниже 60 преобразовать этот эффект в [NoirSuitAlly] на следующий ход\n[WhenUse] Получить +2 к счётчику [ChargeNoirAlly] (2 раза за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration] (До 2 раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Тц. Тупой покупатель. Ты мнёшь товар!",
+          "desc": "[DuelCounter]\n[StartBattle]\n- При 60+ [NoirSuitAlly] преобразовать этот эффект в [RealisationAlly] на следующий ход\n- При [RealisationAlly] ниже 60 преобразовать этот эффект в [NoirSuitAlly] на следующий ход\n<style=\"highlight\">[BeforeUse] При 60+ [RealisationAlly] активировать как «Один удар — Множественный шов» (один раз за ход)\n- Если указанный эффект сработал, потратить все [RealisationAlly] в конце атаки</style>\n[WhenUse] Получить +2 к счётчику [ChargeNoirAlly] (2 раза за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Vibration] (2 раза за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Тц. Тупой покупатель. Ты мнёшь товар!",
+          "desc": "[DuelCounter]\n[StartBattle]\n- При 60+ [NoirSuitAlly] преобразовать этот эффект в [RealisationAlly] на следующий ход\n- При [RealisationAlly] ниже 60 преобразовать этот эффект в [NoirSuitAlly] на следующий ход\n[BeforeUse] При 60+ [RealisationAlly] активировать как «Один удар — Множественный шов» (один раз за ход)\n- Если указанный эффект сработал, потратить все [RealisationAlly] в конце атаки\n<style=\"highlight\">[WhenUse] При 3+/5+ потенциала [ChargeNoirAlly] сила монеты +1/+2</style>\n[WhenUse] Получить +2 к счётчику [ChargeNoirAlly] (2 раза за ход)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [Vibration] (2 раза за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1041605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Один удар — Множественный шов",
+          "desc": "[WhenUse]\n- Потратить до 20 счётчика [ChargeNoirAlly], чтобы наносить на (потраченный счётчик [ChargeNoirAlly])% больше урона (макс. 20%)\n- Получить +3 к счётчику [ChargeNoirAlly]\n[WhenUse] Потратить до 60 [RealisationAlly], чтобы применить следующее:\n- Если потрачено 60+ [RealisationAlly], итоговая сила +1\n- Наносить на (потраченные [RealisationAlly] / 3)% больше урона (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoirAlly]: счётчик +3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наносит 3 [Vibration] и повышает счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 3+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 2+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 10% итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Один удар — Множественный шов",
+          "desc": "[WhenUse]\n- Потратить до 20 счётчика [ChargeNoirAlly], чтобы наносить на (потраченный счётчик [ChargeNoirAlly])% больше урона (макс. 20%)\n- Получить +<style=\"highlight\">5</style> к счётчику [ChargeNoirAlly]\n[WhenUse] Потратить до 60 [RealisationAlly], чтобы применить следующее:\n- Итоговая сила +1 <style=\"highlight\">за каждые 30</style> потраченных [RealisationAlly] <style=\"highlight\">(макс. 2)</style>\n- Наносить на (потраченные [RealisationAlly] / 3)% больше урона (макс. 20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">5</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration] и +3 к счётчику [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 3+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 2+ потенциала [ChargeNoirAlly] вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести колющий урон в размере 10% итогового урона этой монеты</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере <style=\"highlight\">15</style>% итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

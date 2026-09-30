@@ -3594,6 +3594,296 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1091701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ретушь",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Если цель — союзник, дать +3 к счётчику [Charge] и 1 [AttackUp]\n[EndSkill] Если цель — союзник, активировать следующие эффекты (один раз за ход):\n- Дать щит в размере 5% максимальных ОЗ этого юнита (мин. 1)\n- Дать 1 [NoirScissorShield]\n- Если цель — [PersonalityCharge], дать 1 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ретушь",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Если цель — союзник, дать +<style=\"highlight\">4</style> к счётчику [Charge] и 1 [AttackUp]\n[EndSkill] Если цель — союзник, активировать следующие эффекты (один раз за ход):\n- Дать щит в размере 5% максимальных ОЗ этого юнита (мин. 1)\n- Дать 1 [NoirScissorShield]\n- Если цель — [PersonalityCharge], дать 1 [Enhancement]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ретушь",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[EndSkill] Если цель — союзник, дать +4 к счётчику [Charge] и 1 [AttackUp]\n[EndSkill] Если цель — союзник, активировать следующие эффекты <style=\"highlight\">(2 раза за ход)</style>:\n- Дать щит в размере <style=\"highlight\">10%</style> максимальных ОЗ этого юнита (мин. 1)\n- Дать 1 [NoirScissorShield]\n- Если цель — [PersonalityCharge], дать 2 [Enhancement]",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заколоть и подрезать по выкройке",
+          "desc": "[StartBattle] Дать следующие эффекты 1 другому союзнику с самым ранним порядком развёртывания (приоритет — [PersonalityCharge]; один раз за ход):\n- Дать 2 [AttackUp]\n- Дать щит в размере 5% максимальных ОЗ этого юнита (мин. 1)\n- Если указанная идентичность — [PersonalityCharge], дополнительно дать 1 [AttackUp] и щит в размере 5% максимальных ОЗ этого юнита\n\n[WhenUse] Если на цели есть 6+ потенциала [Vibration], сила монеты +1\n[WhenUse] Потратить 5 счётчика [ChargeKhakiAlly], чтобы получить +2 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeKhakiAlly]: счётчик +6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Заколоть и подрезать по выкройке",
+          "desc": "[StartBattle] Дать следующие эффекты <style=\"highlight\">этому юниту и</style> 1 другому союзнику с самым ранним порядком развёртывания (приоритет — [PersonalityCharge]; один раз за ход):\n- Дать 2 [AttackUp]\n- Дать щит в размере 5% максимальных ОЗ этого юнита (мин. 1)\n- Если указанная идентичность — [PersonalityCharge], дополнительно дать 1 [AttackUp] и щит в размере 5% максимальных ОЗ этого юнита\n\n[WhenUse] Если на цели есть 6+ потенциала [Vibration], сила монеты +1\n[WhenUse] Потратить 5 счётчика [ChargeKhakiAlly], чтобы получить +2 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +6 к счётчику [ChargeKhakiAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Заколоть и подрезать по выкройке",
+          "desc": "[StartBattle] Дать следующие эффекты этому юниту, 1 другому союзнику с самым ранним порядком развёртывания (приоритет — [PersonalityCharge]) <style=\"highlight\">и 1 союзнику с наименьшим текущим процентом ОЗ</style> (один раз за ход):\n- Дать 2 [AttackUp]\n- Дать щит в размере 5% максимальных ОЗ этого юнита (мин. 1)\n- Если указанная идентичность — [PersonalityCharge], дополнительно дать 1 [AttackUp] и щит в размере 5% максимальных ОЗ этого юнита\n\n<style=\"highlight\">[WhenUse] Сила монеты +1 за каждые 6 потенциала [Vibration] на цели (макс. 2)</style>\n[WhenUse] Потратить 5 счётчика [ChargeKhakiAlly], чтобы получить +2 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +6 к счётчику [ChargeKhakiAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [AmberResistDown] (один раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Купе дан лё бье",
+          "desc": "Наносить на 15% больше урона за каждую единицу [NoirScissorCut] на себе (макс. 30%)\n\n[StartBattle] Дать следующие эффекты 1 другому союзнику с самым ранним порядком развёртывания (приоритет — [PersonalityCharge]) и 1 союзнику с наименьшим текущим процентом ОЗ (один раз за ход):\n- Дать 1 [NoirScissorShield]\n- Дать щит в размере 5% максимальных ОЗ этого юнита (мин. 1)\n\n[WhenUse] Если на цели есть 6+ потенциала [Vibration], сила монеты +1\n[WhenUse] Итоговая сила +1 за каждые 3 потенциала [ChargeKhakiAlly] (макс. 2)\n[WhenUse] Потратить 5 счётчика [ChargeKhakiAlly], чтобы получить +2 к итоговой силе\n\n[EndSkill] Получить +5 к счётчику [ChargeKhakiAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirScissorAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirScissorAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 5+ счётчика [ChargeKhakiAlly] потратить 5 счётчика [ChargeKhakiAlly], чтобы вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Купе дан лё бье",
+          "desc": "Наносить на <style=\"highlight\">30%</style> больше урона за каждую единицу [NoirScissorCut] на себе <style=\"highlight\">(макс. 60%)</style>\n\n[StartBattle] Дать следующие эффекты этому юниту, 1 другому союзнику с самым ранним порядком развёртывания (приоритет — [PersonalityCharge]) и 1 союзнику с наименьшим текущим процентом ОЗ (один раз за ход):\n- Дать 1 [NoirScissorShield]\n- Дать щит в размере <style=\"highlight\">10%</style> максимальных ОЗ этого юнита (мин. 1)\n\n<style=\"highlight\">[WhenUse] Сила монеты +1 за каждые 6 потенциала [Vibration] на цели (макс. 2)</style>\n[WhenUse] Итоговая сила +1 за каждые 3 потенциала [ChargeKhakiAlly] (макс. 2)\n[WhenUse] Потратить 5 счётчика [ChargeKhakiAlly], чтобы получить +2 к итоговой силе\n\n[EndSkill] Получить +5 к счётчику [ChargeKhakiAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirScissorAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirScissorAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При 5+ счётчика [ChargeKhakiAlly] потратить 5 счётчика [ChargeKhakiAlly], чтобы вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подрезка",
+          "desc": "[DuelCounter]\n[StartBattle] Получить +5 к счётчику [ChargeKhakiAlly] (2 раза за ход)\n[StartBattle] Дать щит в размере 5% максимальных ОЗ этого юнита ему самому и 2 другим союзникам с наименьшим текущим процентом ОЗ (мин. 1; один раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Подрезка",
+          "desc": "[DuelCounter]\n[StartBattle] Получить +5 к счётчику [ChargeKhakiAlly] (2 раза за ход)\n[StartBattle] Дать щит в размере <style=\"highlight\">10%</style> максимальных ОЗ этого юнита ему самому и 2 другим союзникам с наименьшим текущим процентом ОЗ (мин. 1; один раз за ход)\n\n<style=\"highlight\">[WhenUse] Сила столкновения +1 за каждые 5 счётчика [ChargeKhakiAlly] (макс. 4)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Построение выкройки",
+          "desc": "[CantDuel]\n[WhenUse] Получить +3 к счётчику [ChargeKhakiAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] При 3+ потенциала [ChargeKhakiAlly] повторно использовать эту монету (один раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Vibration]: счётчик +1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirScissorAlly]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1091706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вырезание",
+          "desc": "[CantDuel]\n[WhenUse] Итоговая сила +1 за каждые 3 потенциала [ChargeKhakiAlly] (макс. 2)\n[WhenUse] Получить +5 к счётчику [ChargeKhakiAlly]\n\n[EndSkill] Потратить 2 [NoirScissorAlly] на цели\n[EndSkill] Получить 1 [NoirScissorCut]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

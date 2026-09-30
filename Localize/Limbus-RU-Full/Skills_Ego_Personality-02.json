@@ -53,6 +53,27 @@
               ]
             }
           ]
+        },
+        {
+          "level": 5,
+          "name": "9:2",
+          "abName": "Пророк кожи",
+          "desc": "<style=\"highlight\">Затраты ресурса Э.Г.О Обжорства на этот навык уменьшены на 1</style>\n[BeforeAttack] При 4+ (<style=\"highlight\">наивысшего резонанса</style>) вес атаки +1\nПри 6+ (<style=\"highlight\">наивысшего резонанса</style>) дополнительно вес атаки +1\n\n<style=\"highlight\">[BeforeAttack] Наносить на 5% больше урона за каждую единицу ([Combustion] на всех целях + [Combustion] на себе) (макс. 100%)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 5 [DefenseDown]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Преобразовать 2 [Combustion] на цели в 1 [DefenseDown] (<style=\"highlight\">макс. 5; этот эффект не может снизить потенциал [Combustion] цели ниже 1)\n- Если потенциал [Combustion] цели ниже 10, этот юнит может использовать для указанного эффекта свой потенциал [Combustion] сверх 30</style>"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -114,6 +135,33 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Меняет 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1 Понижение уровня защиты (До 10-и)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "name": "9:2",
+          "abName": "Пророк кожи",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\n<style=\"highlight\">Затраты ресурса Э.Г.О Обжорства на этот навык уменьшены на 1</style>\n[BeforeAttack] При 4+ (<style=\"highlight\">наивысшего резонанса</style>) вес атаки +1\nПри 6+ (<style=\"highlight\">наивысшего резонанса</style>) дополнительно вес атаки +1\n\n<style=\"highlight\">[BeforeAttack] Наносить на 6% больше урона за каждую единицу ([Combustion] на всех целях + [Combustion] на себе) (макс. 120%)\n[DefeatDuel] Базовая сила -10</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[SuperCoin]</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack]</style> Наложить 2 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 4 [Combustion]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 5 [DefenseDown]</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Преобразовать 2 [Combustion] на цели в 1 [DefenseDown] (<style=\"highlight\">макс. 5; этот эффект не может снизить потенциал [Combustion] цели ниже 1)\n- Если потенциал [Combustion] цели ниже 10, этот юнит может использовать для указанного эффекта свой потенциал [Combustion] сверх 30</style>"
                 }
               ]
             }

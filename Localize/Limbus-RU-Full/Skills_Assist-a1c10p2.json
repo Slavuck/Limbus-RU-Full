@@ -1,0 +1,548 @@
+{
+  "dataList": [
+    {
+      "id": 40004101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Багряный гвоздь",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Багряный гвоздь",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly] за каждые 2 потенциала [ChargeRouge] (макс. 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Против юнитов без СД наносить на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цели теряют 10 СД"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Багряный гвоздь",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WhenUse] Если СД этого юнита выше СД цели или у цели нет СД, сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly] за каждые 2 потенциала [ChargeRouge] (макс. 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Против юнитов без СД наносить на 50% больше урона"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Цели теряют 10 СД"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уходи",
+          "desc": "[WhenUse] Сила монет +1 за каждые 4 [Laceration] на цели (До 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Уходи",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WhenUse] Получить +1 к весу атаки за каждые 2 потенциала [ChargeRouge] на себе (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly] за каждые 2 потенциала [ChargeRouge] (макс. 2)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly] за каждые 2 потенциала [ChargeRouge] (макс. 2)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Уходи",
+          "desc": "[WhenUse] Сила монеты +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WhenUse] Получить +1 к весу атаки за каждые 2 потенциала [ChargeRouge] на себе (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly] за каждые 2 потенциала [ChargeRouge] (макс. 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly] за каждые 2 потенциала [ChargeRouge] (макс. 2)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взбодрись",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Дать 1 [ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] Дать 1 [AttackUp] за каждую единицу потенциала [ChargeRouge] на себе (макс. 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Взбодрись",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получить +1 к весу атаки за каждые 2 потенциала [ChargeRouge] на себе (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Дать 1 [ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] Дать 1 [AttackUp] за каждую единицу потенциала [ChargeRouge] на себе (макс. 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Взбодрись",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получить +1 к весу атаки за каждые 2 потенциала [ChargeRouge] на себе (макс. 2)\n[EndSkill] Если на этом юните есть [GourmandiseAlly] и 10+ счётчика [ChargeRouge], потратить до 10 счётчика [ChargeRouge] и дать 1 [SkillPowerUp] всем поражённым целям",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Дать 1 [ParryingResultUp]"
+                },
+                {
+                  "desc": "[EndCoin] Дать 1 [AttackUp] за каждую единицу потенциала [ChargeRouge] на себе (макс. 5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Взбодрись",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получить +1 к весу атаки за каждые 2 потенциала [ChargeRouge] на себе (макс. 2)\n[EndSkill] Если на этом юните есть [GourmandiseAlly] и 10+ счётчика [ChargeRouge], потратить до 10 счётчика [ChargeRouge] и дать 1 [SkillPowerUp] всем поражённым целям",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Дать 1 [SkillPowerUp]"
+                },
+                {
+                  "desc": "[EndCoin] Дать 1 [AttackUp] на этот и следующий ход за каждую единицу потенциала [ChargeRouge] на себе (макс. 5)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Не болей",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстановить цели (итоговая сила навыка × 2) ОЗ\n- Если цель — юнит «Ле Руж», вместо этого потратить её ОЗ и восстановить себе столько же (урон от этого эффекта не ошеломляет цель и не снижает её ОЗ ниже 1)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Не болей",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] При 3+ потенциала [ChargeRouge] получить +2 к весу атаки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстановить цели (итоговая сила навыка × 2) ОЗ\n- Если цель — юнит «Ле Руж», вместо этого потратить её ОЗ и восстановить себе столько же (урон от этого эффекта не ошеломляет цель и не снижает её ОЗ ниже 1)"
+                },
+                {
+                  "desc": "[EndCoin] Восстановить цели СД в размере итоговой силы навыка\n- Если СД цели на максимуме, удалить 1 снимаемый отрицательный эффект с цели"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Не болей",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] При 3+ потенциала [ChargeRouge] получить +4 к весу атаки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Восстановить цели (итоговая сила навыка × 2) ОЗ\n- Дополнительно восстановить цели (потенциал [ChargeRouge] на себе × 2)% ОЗ\n- Если цель — юнит «Ле Руж», вместо этого потратить её ОЗ и восстановить себе столько же (урон от этого эффекта не ошеломляет цель и не снижает её ОЗ ниже 1)"
+                },
+                {
+                  "desc": "[EndCoin] Восстановить цели СД в размере итоговой силы навыка\n- Дополнительно восстановить цели (потенциал [ChargeRouge] на себе × 3) СД\n- Если СД цели на максимуме, удалить 1 снимаемый отрицательный эффект с цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Возьми меня за руку",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получить 5 [Binding] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Вывести цель из ошеломления"
+                },
+                {
+                  "desc": "[EndCoin] Восстановить цели ОЗ в размере итоговой силы этого навыка"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Возьми меня за руку",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Вывести цель из ошеломления"
+                },
+                {
+                  "desc": "[EndCoin] Восстановить цели ОЗ в размере итоговой силы этого навыка"
+                },
+                {
+                  "desc": "[EndCoin] Дать щит на следующий ход в размере 50% максимальных ОЗ цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Крещение багряными гвоздями",
+          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge] потратить до 10 счётчика [ChargeRouge], чтобы получить +2 к весу атаки и +2 к силе монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Крещение багряными гвоздями",
+          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge] потратить до 10 счётчика [ChargeRouge], чтобы получить +2 к весу атаки и +2 к силе монеты\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Крещение багряными гвоздями",
+          "desc": "[WhenUse] При 10+ счётчика [ChargeRouge] потратить до 10 счётчика [ChargeRouge], чтобы получить +2 к весу атаки и +2 к силе монеты\n[WhenUse] Базовая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WhenUse] При 5+ потенциала [ChargeRouge] применить следующие эффекты:\n- Получить +2 к весу атаки\n- Получить +(потенциал [ChargeRouge] на себе - 3) к силе монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BuffetGold]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BloodyMucusAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BuffetGold]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004107,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я закончу это за тебя...",
+          "desc": "[CantDuel]\nНаносить на 0.5% больше урона за каждый 1% недостающих ОЗ цели (макс. 30%)\n[WhenUse] Если на этом юните есть [GourmandiseAlly], получить +1 к весу атаки",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Binding] на следующий ход"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если на этом юните есть [GourmandiseAlly], повторно использовать эту монету (макс. 1 раз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Тошнота",
+          "desc": "[StartBattle] Потратить весь счётчик [ChargeRouge] на себе и восстановить всем союзникам, включая этого юнита, (потраченный счётчик [ChargeRouge])% ОЗ",
+          "flavor": "Неизбежные боли роста для тех, кто становится богом.\n\nЭто ощущение принимает множество форм: головокружение, тошнота, судороги, самообман... а для некоторых — отторжение. Для них мир полон ужаса и отчуждающего хаоса. Чтобы вынести тошноту, защитить тех, кто ещё принадлежит ему, и тех, кто ещё не стал лишним, зарождающийся бог извергает рвоту.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40004202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ле Тру Руж",
+          "desc": "[StartBattle] Получить [ChargeRouge]: счётчик +4",
+          "flavor": "Это багряная пустота.\nПусть она закрыта, бесконечный голод остаётся, жаждая невозможного насыщения.\n\nВедь именно таким другие ждут увидеть это существо. Ведь именно для этого оно родилось.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
