@@ -1033,6 +1033,382 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2051011,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "Если цель побеждена до завершения этого навыка, приоритет отдаётся цели с наименьшими ОЗ (в фокусированных сражениях — часть тела)\n\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. 5)\nСила столкновения +2 за каждое значение [BulletHole] у себя\n\n[BeforeAttack] Получить +3 к счётчику [Breath] и +5 ед. счётчика [Charge]\n[BeforeAttack] Потратить 3(5 - [BulletHole] у себя) СД чтобы довести [BulletHole] до максимума\n\n[EndSkill] Получить 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета поражает только основную цель"
+                },
+                {
+                  "desc": "Потратить 1 [BulletHole]"
+                },
+                {
+                  "desc": "На 10% больше урона при критическом попадании"
+                },
+                {
+                  "desc": "Если это первая монета:\n- Нанести +(счётчик [Charge] x 5)% урона (макс. 100%)\n- Нанести +(потенциал [Breath] x счётчик)% урона при критическом попадании (макс. 100%)\n- Для этой монеты изменить сопротивление цели колющему урону на Смертельное"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                },
+                {
+                  "desc": "[EndCoin] При 1+ [BulletHole], повторно использовать эту монету (4 раза за навык)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Критический урон +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "Если цель побеждена до завершения этого навыка, приоритет отдаётся цели с наименьшими ОЗ (в фокусированных сражениях — часть тела)\n\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">7</style>)\nСила столкновения +2 за каждое значение [BulletHole] у себя\n\n[BeforeAttack] Получить +3 к счётчику [Breath] и +5 ед. счётчика [Charge]\n[BeforeAttack] Потратить 3(5 - [BulletHole] у себя) СД чтобы довести [BulletHole] до максимума\n\n[EndSkill] Получить 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Эта монета поражает только основную цель<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Потратить 1 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Нанести <style=\"highlight\">+15%</style> урона при критическом попадании"
+                },
+                {
+                  "desc": "Если это первая монета:\n- Нанести +(счётчик [Charge] x 5)% урона (макс. 100%)\n- Нанести +(потенциал [Breath] x счётчик)% урона при критическом попадании (макс. 100%)\n- Для этой монеты изменить сопротивление цели колющему урону на Смертельное<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[CriticalOnSucceedAttack] Сила последней монеты +1</style>"
+                },
+                {
+                  "desc": "[EndCoin] При 1+ [BulletHole], повторно использовать эту монету (4 раза за навык)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "На <style=\"highlight\">50%</style> больше урона при критическом попадании"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] При атаке только 1 цели, нанести +50% урона (в фокусированных сражениях — ядро)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "Если цель побеждена до завершения этого навыка, приоритет отдаётся цели с наименьшими ОЗ (в фокусированных сражениях — часть тела)\n\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">10</style>)\nСила столкновения +2 за каждое значение [BulletHole] у себя\n\n[BeforeAttack] Получить +3 к счётчику [Breath] и +5 ед. счётчика [Charge]\n[BeforeAttack] Потратить 3(5 - [BulletHole] у себя) СД чтобы довести [BulletHole] до максимума\n\n[EndSkill] Получить 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Эта монета поражает только основную цель<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Потратить 1 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Нанести <style=\"highlight\">+20%</style> урона при критическом попадании"
+                },
+                {
+                  "desc": "Если это первая монета:\n- Нанести +(счётчик [Charge] x 5)% урона (макс. 100%)\n- Нанести +(потенциал [Breath] x счётчик)% урона при критическом попадании (макс. 100%)\n- Для этой монеты изменить сопротивление цели колющему урону на Смертельное<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 1 [PenetrateTakeDamageUp] (раз за навык)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Сила последней монеты +1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[EndCoin] При 1+ [BulletHole], повторно использовать эту монету (4 раза за навык)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Нанести +50% урона при критическом попадании<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] При атаке только 1 цели, нанести +<style=\"highlight\">100</style>% урона (в фокусированных сражениях — ядро)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Сила монеты +1 за каждые 4 ед. счётчика [Charge] (макс. 5)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2051021,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nЭтот навык не активирует защитные навыки (включая способные к столкновению)\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. 5)\n[BeforeAttack] Если у этого бойца нет [BulletHole], получить 1 [BulletHole]\n[BeforeAttack] Базовая сила -2 за каждую треснувшую монету (макс. -4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить 5 [BlackWingHole]"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить +5 к счётчику [Charge]"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить 5 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Эта монета имеет ([BulletHole] у себя x 20)% шанс выбросить решку независимо от СД этого бойца"
+                },
+                {
+                  "desc": "[CoinHead]\n- Эта монета не попадает"
+                },
+                {
+                  "desc": "- [EndCoin] Получить 5 [Breath]"
+                },
+                {
+                  "desc": "- [EndCoin] Получить +3 к счётчику [Breath]"
+                },
+                {
+                  "desc": "- [EndCoin] Получить 2 [BulletHole]"
+                },
+                {
+                  "desc": "- [EndCoin] Вернуть половину ресурсов Э.Г.О, потраченных на этот навык (с округлением вниз)"
+                },
+                {
+                  "desc": "[CoinTail]\n- Нанести +(счётчик [Charge] x 3)% урона (макс. 60%)"
+                },
+                {
+                  "desc": "- Нанести +70% урона при критическом попадании"
+                },
+                {
+                  "desc": "- [OnSucceedAttack] Нанести колющий урон в размере 10% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "- [EndCoin] Потратить весь [BulletHole] у себя"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Sinking]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nЭтот навык не активирует защитные навыки (включая способные к столкновению)\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">7</style>)\n\n<style=\"highlight\">[BeforeAttack] При атаке только 1 цели, нанести +100% урона (в фокусированных сражениях — ядро)</style>\n[BeforeAttack] Если у этого бойца нет [BulletHole], получить 1 [BulletHole]\n[BeforeAttack] Базовая сила -2 за каждую треснувшую монету (макс. -4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить 5 [BlackWingHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить +5 к счётчику [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить 5 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Эта монета имеет ([BulletHole] у себя x 20)% шанс выбросить решку независимо от СД этого бойца<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinHead]\n- Эта монета не попадает<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Получить 5 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Получить +3 к счётчику [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Получить 2 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Вернуть половину ресурсов Э.Г.О, потраченных на этот навык (с округлением вниз)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinTail]\n- Нанести +(счётчик [Charge] x <style=\"highlight\">4)% урона (макс. 80%)</style>"
+                },
+                {
+                  "desc": "- Нанести <style=\"highlight\">+100%</style> урона при критическом попадании"
+                },
+                {
+                  "desc": "- [OnSucceedAttack] Нанести колющий урон в размере <style=\"highlight\">15</style>% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "- [EndCoin] Потратить весь [BulletHole] у себя<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 5 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nЭтот навык не активирует защитные навыки (включая способные к столкновению)\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">10</style>)\n\n[BeforeAttack] При атаке только 1 цели, нанести +<style=\"highlight\">200</style>% урона (в фокусированных сражениях — ядро)\n<style=\"highlight\">[BeforeAttack] Получить итоговую силу +([BulletHole] у себя)</style>\n[BeforeAttack] Если у этого бойца нет [BulletHole], получить 1 [BulletHole]\n[BeforeAttack] Базовая сила -2 за каждую треснувшую монету (макс. -4)\n<style=\"highlight\">[EnemyKill] Восстановить 5 СД</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить 5 [BlackWingHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить +5 к счётчику [Charge]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnStartCoin] Получить 5 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [Binding] на следующий ход</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Эта монета имеет ([BulletHole] у себя x 20)% шанс выбросить решку независимо от СД этого бойца<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinHead]\n- Эта монета не попадает<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Получить 5 [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Получить +3 к счётчику [Breath]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">- [EndCoin] Удалить 1 случайный снимаемый отрицательный эффект с себя</style>"
+                },
+                {
+                  "desc": "- [EndCoin] Получить 2 [BulletHole]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "- [EndCoin] Вернуть половину ресурсов Э.Г.О, потраченных на этот навык (с округлением вниз)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CoinTail]\n- Нанести +(счётчик [Charge] x <style=\"highlight\">5)% урона (макс. 100%)</style>"
+                },
+                {
+                  "desc": "- Нанести +<style=\"highlight\">130</style>% урона при критическом попадании"
+                },
+                {
+                  "desc": "- [OnSucceedAttack] Нанести колющий урон в размере <style=\"highlight\">20</style>% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "<style=\"highlight\">- [EnemyKill] Восстановить 5% ОЗ</style>"
+                },
+                {
+                  "desc": "- [EndCoin] Потратить весь [BulletHole] у себя<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 5 [Sinking]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

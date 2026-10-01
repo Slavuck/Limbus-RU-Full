@@ -1082,6 +1082,216 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2021111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ле Тру",
+          "abName": "Продырявленный человек",
+          "desc": "[CantDuel]\nПри первом использовании в сражении тратит на 5 СД, на 2 ресурса Э.Г.О Уныния, 2 ресурса Гордыни и 2 ресурса Зависти меньше\nПри 1+ [BulletHole], активировать как \"Буше эн тру\" вместо этого\nЭтот навык не попадает по врагу, не активирует защитные навыки, и внешние эффекты не могут заставить его использоваться повторно\n[EndSkill] Получить 5 [BulletHole]\n[EndSkill] Получить 5 потенциала [Breath]\n[EndSkill] Получить +3 к счётчику [Breath]\n[EndSkill] Получить +5 к счётчику [Charge]\n[EndSkill] Получить 4 [BlackWingHole]",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Ле Тру",
+          "abName": "Продырявленный человек",
+          "desc": "[CantDuel]\nПри первом использовании в сражении тратит на 5 СД, на 2 ресурса Э.Г.О Уныния, 2 ресурса Гордыни и 2 ресурса Зависти меньше\nПри 1+ [BulletHole], активировать как \"Буше эн тру\" вместо этого\nЭтот навык не попадает по врагу, не активирует защитные навыки, и внешние эффекты не могут заставить его использоваться повторно\n[EndSkill] Получить 5 [BulletHole]\n[EndSkill] Получить 5 потенциала [Breath]\n[EndSkill] Получить +3 к счётчику [Breath]\n[EndSkill] Получить +5 к счётчику [Charge]\n[EndSkill] Получить 4 [BlackWingHole]",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ле Тру",
+          "abName": "Продырявленный человек",
+          "desc": "[CantDuel]\nПри первом использовании в сражении тратит на 5 СД, на 2 ресурса Э.Г.О Уныния, 2 ресурса Гордыни и 2 ресурса Зависти меньше\nПри 1+ [BulletHole], активировать как \"Буше эн тру\" вместо этого\nЭтот навык не попадает по врагу, не активирует защитные навыки, и внешние эффекты не могут заставить его использоваться повторно\n[EndSkill] Получить 5 [BulletHole]\n[EndSkill] Получить 5 потенциала [Breath]\n[EndSkill] Получить +3 к счётчику [Breath]\n[EndSkill] Получить +5 к счётчику [Charge]\n[EndSkill] Получить 4 [BlackWingHole]",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021112,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Буше эн тру",
+          "abName": "Продырявленный человек",
+          "desc": "Внешние эффекты не могут заставить этот навык использоваться повторно\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. 5)\nСила столкновения +2 за каждое значение [BulletHole]\n[BeforeAttack] Потратить весь [BulletHole] и наложить следующие эффекты:\n- Получить 2 потенциала [Breath], +1 к счётчику [Breath], и +2 к счётчику [Charge] за каждое потраченное значение [BulletHole]\n- Нанести +8% урона за каждое потраченное значение [BulletHole]\nЕсли этот навык потратил 5 [BulletHole], восстановить 5 СД\n[EndSkill] Получить 1 [BulletHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Повторно использовать эту монету (потраченные [BulletHole] - 1) раз (макс. 4 раза)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Буше эн тру",
+          "abName": "Продырявленный человек",
+          "desc": "Внешние эффекты не могут заставить этот навык использоваться повторно\n<style=\"highlight\">Нанести +5% урона за каждую единицу веса атаки сверх числа фактических целей (в фокусированных сражениях — часть тела)</style>\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">7</style>)\nСила столкновения +2 за каждое значение [BulletHole]\n<style=\"highlight\">[BeforeAttack] При атаке только 1 цели, нанести +50% урона (в фокусированных сражениях ядро и связанные с ним части считаются одной целью)</style>\n[BeforeAttack] Потратить весь [BulletHole] и наложить следующие эффекты:\n- Получить 2 потенциала [Breath], +1 к счётчику [Breath], и +2 к счётчику [Charge] за каждое потраченное значение [BulletHole]\n- Нанести +8% урона за каждое потраченное значение [BulletHole]\nЕсли этот навык потратил 5 [BulletHole], восстановить 5 СД\n[EndSkill] Получить 1 [BulletHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "(Повторно использовать эту монету (потраченные [BulletHole] - 1) раз (макс. 4 раза)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Буше эн тру",
+          "abName": "Продырявленный человек",
+          "desc": "Внешние эффекты не могут заставить этот навык использоваться повторно\nНанести <style=\"highlight\">+10%</style> урона за каждую единицу веса атаки сверх числа фактических целей (в фокусированных сражениях — часть тела)\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">10</style>)\nСила столкновения +2 за каждое значение [BulletHole]\n[BeforeAttack] При атаке только 1 цели, нанести <style=\"highlight\">+100%</style> урона (в фокусированных сражениях ядро и связанные с ним части считаются одной целью)</style>\n[BeforeAttack] Потратить весь [BulletHole] и наложить следующие эффекты:\n- Получить 2 потенциала [Breath], +1 к счётчику [Breath], и +2 к счётчику [Charge] за каждое потраченное значение [BulletHole]\n- Нанести +8% урона за каждое потраченное значение [BulletHole]\n<style=\"highlight\">[EndSkill] Наложить 5 потенциала [Breath] и +2 к счётчику [Breath] на (2 + наивысший Резонанс) союзников (макс. 7 бойцов)</style>\nЕсли этот навык потратил 5 [BulletHole], восстановить 5 СД\n[EndSkill] Получить 1 [BulletHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "(Повторно использовать эту монету (потраченные [BulletHole] - 1) раз (макс. 4 раза)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2021121,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. 5)\n\n[BeforeAttack] Получить +3 к счётчику [Breath] и +5 ед. счётчика [Charge]\n[BeforeAttack] Потратить до 15 избыточных единиц счётчика [Charge] сверх 10 у себя, чтобы нанести +(потраченный счётчик [Charge] x 2)% урона\n[BeforeAttack] При максимальном [BulletHole], потратить весь [BulletHole] чтобы наложить следующие эффекты на всех союзников на следующий ход:\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (раз за ход)\n- 1 [CriticalDamageUp] (раз за ход)\n[BeforeAttack] Базовая сила -3 за каждую треснувшую монету (макс. -9)\n[EndSkill] Получить 1 [BulletHole] и 2 [BlackWingHole]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Sinking]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">7</style>)\n\n[BeforeAttack] Получить +3 к счётчику [Breath] и +5 ед. счётчика [Charge]\n[BeforeAttack] Потратить до 15 избыточных единиц счётчика [Charge] сверх 10 у себя, чтобы нанести +(потраченный счётчик [Charge] x <style=\"highlight\">3</style>)% урона\n[BeforeAttack] При максимальном [BulletHole], потратить весь [BulletHole] чтобы наложить следующие эффекты на всех союзников на следующий ход:\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (раз за ход)\n- 1 [CriticalDamageUp] (раз за ход)\n[BeforeAttack] Базовая сила -3 за каждую треснувшую монету (макс. -9)\n[EndSkill] Получить 1 [BulletHole] и 2 [BlackWingHole]\n<style=\"highlight\">[EndSkill] Наложить 5 потенциала [Breath] и +2 к счётчику [Breath] на (2 + наивысший Резонанс) случайных союзников (макс. 7 бойцов)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пустота",
+          "abName": "Продырявленный человек",
+          "desc": "[CantIdentify]\nВыбирает случайные цели\nСила столкновения +1 за каждые 4 (потенциал [Breath] + счётчик [Charge]) у себя (макс. <style=\"highlight\">10</style>)\n\n[BeforeAttack] Получить +3 к счётчику [Breath] и +5 ед. счётчика [Charge]\n[BeforeAttack] Потратить до 15 избыточных единиц счётчика [Charge] сверх 10 у себя, чтобы нанести +(потраченный счётчик [Charge] x <style=\"highlight\">5</style>)% урона\n[BeforeAttack] При максимальном [BulletHole], потратить весь [BulletHole] чтобы наложить следующие эффекты на всех союзников на следующий ход:\n- 1 [AttackUp] \n- 1 [AttackDmgUp] (раз за ход)\n- 1 [CriticalDamageUp] (раз за ход)\n[BeforeAttack] Базовая сила -3 за каждую треснувшую монету (макс. -9)\n[EndSkill] Получить 1 [BulletHole] и 2 [BlackWingHole]\n[EndSkill] Наложить 5 потенциала [Breath], +2 ед. счётчика [Breath], <style=\"highlight\">и 2 [BlackWingHole]</style> на (2 + наивысший Резонанс) случайных союзников (макс. 7 бойцов)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Sinking]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

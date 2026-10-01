@@ -3232,6 +3232,467 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1031501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Да явится гвоздь",
+          "desc": "[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1\n[WhenUse] Наложить +2 к счётчику [Charge] на себя и ещё 1 союзную Идентичность «Ле Нуар» с наименьшим счётчиком [Charge] (раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +4 к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Да явится гвоздь",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. 2)</style>\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 <style=\"highlight\">и нанести +20% урона</style>\n[WhenUse] Наложить +<style=\"highlight\">3</style> к счётчику [Charge] на себя и ещё 1 союзную Идентичность «Ле Нуар» с наименьшим счётчиком [Charge] (раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">5</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Да явится гвоздь",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 и нанести +<style=\"highlight\">40</style>% урона\n[WhenUse] Наложить +<style=\"highlight\">4</style> к счётчику [Charge] на себя и ещё 1 союзную Идентичность «Ле Нуар» с наименьшим счётчиком [Charge] (раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">6</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Да призовётся гвоздь",
+          "desc": "[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +6 к счётчику [ChargeNoirAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Да призовётся гвоздь",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. 2)</style>\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 <style=\"highlight\">и нанести +20% урона</style>\n<style=\"highlight\">[BeforeAttack] Последняя монета получает итоговую силу +1 за каждую единицу наивысшего Резонанса (макс. 4)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">7</style> к счётчику [ChargeNoirAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Да призовётся гвоздь",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 и нанести +<style=\"highlight\">30</style>% урона\n[BeforeAttack] Последняя монета получает итоговую силу +1 за каждую единицу наивысшего Резонанса (макс. 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">4</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">8</style> к счётчику [ChargeNoirAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031503,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Я пресеку твоё рождение!",
+          "desc": "[StartBattle] Получить 3 [OathFieldDonQuixote] (раз за ход)\n[StartBattle] Наложить 2 [AttackUp] и 2 [DefenseUp] на себя и ещё 1 союзную Идентичность «Ле Нуар» с наибольшей скоростью (раз за ход)\n[WhenUse] Если у цели есть 6+ (потенциал [Vibration] + [NoirNailDonQuixote]), Сила монеты +1\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 и нанести +20% урона\n[BeforeAttack] Последняя монета получает итоговую силу +1 за каждую единицу наивысшего Резонанса (макс. 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить [ChargeNoirAlly]: счётчик +3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [Switch_Vibration] в [VibrationFocusing]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели есть 3+ [NoirNailDonQuixote], вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я пресеку твоё рождение!",
+          "desc": "[StartBattle] Получить 3 [OathFieldDonQuixote] (раз за ход)\n[StartBattle] Наложить 2 [AttackUp] и 2 [DefenseUp] на себя и ещё 1 союзную Идентичность «Ле Нуар» с наибольшей скоростью (раз за ход)\n[WhenUse] <style=\"highlight\">Сила монеты +1 за каждые 6 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. 2)</style>\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 и нанести +<style=\"highlight\">40</style>% урона\n[BeforeAttack] Последняя монета получает итоговую силу +1 за каждую единицу наивысшего Резонанса (макс. 4)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">4</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">4</style> к счётчику [ChargeNoirAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [Switch_Vibration] в [VibrationFocusing]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели есть 3+ [NoirNailDonQuixote], вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Внемлите молча",
+          "desc": "[StartBattle] Получить 3 [OathFieldDonQuixote] (раз за ход)\n[StartBattle] Восстановить 4 СД себе и ещё 1 союзной Идентичности «Ле Нуар» с наименьшим СД (раз за ход)\n[StartBattle] Получить +2 к счётчику [ChargeNoirAlly] (раз за ход)\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +2 к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Внемлите молча",
+          "desc": "[StartBattle] Получить 3 [OathFieldDonQuixote] (раз за ход)\n[StartBattle] Восстановить <style=\"highlight\">5</style> СД себе и ещё 1 союзной Идентичности «Ле Нуар» с наименьшим СД (раз за ход)\n<style=\"highlight\">[StartBattle] Наложить следующие эффекты в зависимости от [NoirShieldUpDonQuixote] у себя:\n- При 100 [NoirShieldUpDonQuixote], активировать \"Удар за ударом я пресеку твоё рождение!\" вместо этого (раз за ход; может сработать при односторонних атаках)\n- При значении ниже 100 [NoirShieldUpDonQuixote], получить щит в размере ([NoirShieldUpDonQuixote] / 10)% от макс. ОЗ этого бойца (раз за ход)</style>\n[StartBattle] Получить +<style=\"highlight\">3</style> к счётчику [ChargeNoirAlly] (раз за ход)\n<style=\"highlight\">[WhenUse] Если у цели есть 6+ (потенциал [Vibration] + [NoirNailDonQuixote]), Сила монеты +1</style>\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 <style=\"highlight\">и нанести +10% урона</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">3</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Внемлите молча",
+          "desc": "[StartBattle] Получить 3 [OathFieldDonQuixote] (раз за ход)\n[StartBattle] Восстановить <style=\"highlight\">6</style> СД себе и ещё 1 союзной Идентичности «Ле Нуар» с наименьшим СД (раз за ход)\n[StartBattle] Наложить следующие эффекты в зависимости от [NoirShieldUpDonQuixote] у себя:\n- При 100 [NoirShieldUpDonQuixote], активировать \"Удар за ударом я пресеку твоё рождение!\" вместо этого (раз за ход; может сработать при односторонних атаках)\n- При значении ниже 100 [NoirShieldUpDonQuixote], получить щит в размере ([NoirShieldUpDonQuixote] / 10)% от макс. ОЗ этого бойца (раз за ход)\n[StartBattle] Получить +<style=\"highlight\">4</style> к счётчику [ChargeNoirAlly] (раз за ход)\n[WhenUse] <style=\"highlight\">Сила монеты +1 за каждые 6 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. 2)</style>\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 и нанести +<style=\"highlight\">20</style>% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 к счётчику [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">4</style> к счётчику [ChargeNoirAlly]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Суд!",
+          "desc": "[CantDuel]\nСвойства этого навыка:\n- Не активирует защитные навыки\n- Внешние эффекты не могут заставить этот навык использоваться повторно\n- ОЗ цели не могут упасть ниже 1 до завершения этого навыка\n[WhenUse] Итоговая сила +1 за каждые 4 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. 2)\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 и нанести +20% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Суд!",
+          "desc": "[CantDuel]\nСвойства этого навыка:\n- Не активирует защитные навыки\n- Внешние эффекты не могут заставить этот навык использоваться повторно\n- ОЗ цели не могут упасть ниже 1 до завершения этого навыка\n[WhenUse] Итоговая сила +1 за каждые 4 (потенциал [Vibration] + [NoirNailDonQuixote]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1 и нанести +<style=\"highlight\">40</style>% урона",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">4</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1031506,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Удар за ударом я пресеку твоё рождение!",
+          "desc": "Этот навык считается атакующим, даже если срабатывает вместо защитного; на него не действуют эффекты изменения силы защиты, а действуют эффекты изменения силы атаки\n[StartBattle] Наложить 2 [AttackUp] и 2 [DefenseUp] на все союзные Идентичности «Ле Нуар» (раз за ход)\n[WhenUse] При общей сумме от 6 (потенциал [Vibration] + [NoirNailDonQuixote]) на всех целях, Сила монеты +1\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1\n[WhenUse] Нанести +30% урона за каждую единицу веса атаки сверх числа фактических целей (в фокусированных сражениях — части тела)\n[BeforeAttack] Последняя монета получает итоговую силу +2 за каждую единицу наивысшего Резонанса (макс. 8)\n[EndSkill] Потратить весь [NoirShieldUpDonQuixote]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наносит 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить +3 к счётчику [ChargeNoirAlly] (раз за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [Switch_Vibration] в [VibrationFocusing]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить следующие эффекты на цель в зависимости от её значения [NoirNailDonQuixote]\n- Если у цели есть 3+ [NoirNailDonQuixote], вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1\n- Нанести урон Лени в размере ([NoirNailDonQuixote] на цели x 1.5)% от итогового урона этой монеты (макс. 45%)\n- Потратить весь [NoirNailDonQuixote] на цели"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Удар за ударом я пресеку твоё рождение!",
+          "desc": "Этот навык считается атакующим, даже если срабатывает вместо защитного; на него не действуют эффекты изменения силы защиты, а действуют эффекты изменения силы атаки\n[StartBattle] Наложить 2 [AttackUp] и 2 [DefenseUp] на все союзные Идентичности «Ле Нуар» (раз за ход)\n[WhenUse] <style=\"highlight\">Сила монеты +1 за каждые 6 единиц общей суммы (потенциал [Vibration] + [NoirNailDonQuixote]) на всех целях (макс. 2)</style>\n[WhenUse] При 3+ потенциала [ChargeNoirAlly], Сила монеты +1\n[WhenUse] Нанести +<style=\"highlight\">50</style>% урона за каждую единицу веса атаки сверх числа фактических целей (в фокусированных сражениях — части тела)\n[BeforeAttack] Последняя монета получает итоговую силу +2 за каждую единицу наивысшего Резонанса (макс. 8)\n[EndSkill] Потратить весь [NoirShieldUpDonQuixote]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [NoirNailDonQuixote]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 к счётчику [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">4</style> к счётчику [ChargeNoirAlly] (раз за монету)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [Switch_Vibration] в [VibrationFocusing]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить следующие эффекты на цель в зависимости от её значения [NoirNailDonQuixote]\n- Если у цели есть 3+ [NoirNailDonQuixote], вызвать [VibrationExplosion]; затем уменьшить у цели счётчик [Vibration] на 1\n- Нанести урон Лени в размере ([NoirNailDonQuixote] на цели x <style=\"highlight\">3</style>)% от итогового урона этой монеты (макс. <style=\"highlight\">90</style>%)\n- Потратить весь [NoirNailDonQuixote] на цели"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

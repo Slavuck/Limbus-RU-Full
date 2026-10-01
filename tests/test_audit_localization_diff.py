@@ -16,6 +16,17 @@ from scripts.sync_localization_structure import merge_structure
 
 
 class AuditLocalizationDiffTests(unittest.TestCase):
+    def test_empty_translation_is_blocking_even_with_review_decision(self) -> None:
+        initial = self.auditor()
+        initial.compare_file('A.json', {'name': 'Gubo'}, {'name': '구보'}, {'name': ''})
+        row = initial.state.full_review[0]
+        self.assertEqual(row['status'], 'pending')
+        self.assertEqual(row['review_reason'], 'empty_russian_translation')
+        self.assertEqual(len(initial.state.untranslated), 1)
+        auditor = Auditor({}, {}, decisions={row['queue_id']: {'status': 'reviewed'}})
+        auditor.compare_file('A.json', {'name': 'Gubo'}, {'name': '구보'}, {'name': ''})
+        self.assertEqual(auditor.state.full_review[0]['status'], 'pending')
+
     def test_korean_only_source_change_needs_review(self) -> None:
         baseline = {('a.json', '{}', 'desc'): [{
             'previous_english': 'Gain 1 Haste.', 'previous_korean': '신속 1 획득',
