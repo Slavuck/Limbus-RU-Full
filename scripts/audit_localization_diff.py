@@ -756,7 +756,8 @@ class Auditor:
         }
         self.state.source_index.append(source_row)
         new_visible_source = is_visible_source(english, key)
-        missing_or_copied_source = russian is MISSING or russian == english
+        missing_or_copied_source = (russian is MISSING or russian == english
+                                    or (isinstance(russian, str) and not russian.strip() and bool(english.strip())))
         is_new_output_leaf = (
             self.previous_output_locators is not None
             and (canonical_path(relative).casefold(), semantic) not in self.previous_output_locators
@@ -795,6 +796,7 @@ class Auditor:
         markup_error = ru_value is not None and markup_balanced(english) and not markup_balanced(ru_value)
         hangul_error = bool(ru_value and HANGUL_RE.search(ru_value) and not (ru_value == english and kr_value == english))
         exact_english = ru_value == english
+        empty_russian = ru_value is not None and not ru_value.strip() and bool(english.strip())
         literal_reason = intentional_literal_reason(english, key) if exact_english else None
         legacy_tag_expansion = bool(
             tag_error
@@ -809,6 +811,8 @@ class Auditor:
 
         if ru_value is None:
             status, reason = "pending", "missing_russian_value"
+        elif empty_russian:
+            status, reason = "pending", "empty_russian_translation"
         elif placeholder_error or effective_tag_error or markup_error or hangul_error:
             status, reason = "pending", "format_or_source_residue_error"
         elif exact_english and literal_reason is None:
@@ -832,7 +836,7 @@ class Auditor:
             status, reason = "intentional", "confirmed_by_prior_queue"
 
         decision = self.decisions.get(queue_id)
-        if decision and not (placeholder_error or effective_tag_error or markup_error or hangul_error or ru_value is None):
+        if decision and not (placeholder_error or effective_tag_error or markup_error or hangul_error or ru_value is None or empty_russian):
             status = decision["status"]
             reason = decision.get("reason", "recorded_review_decision")
         source_row["review_status"] = status
@@ -867,7 +871,7 @@ class Auditor:
         self.state.full_review.append(row)
         if source_changed:
             self.state.changed_source.append(row)
-        if ru_value is None or exact_english:
+        if ru_value is None or exact_english or empty_russian:
             if status == "intentional":
                 self.state.intentional_literals.append({**row, "intentional_reason": reason})
             else:

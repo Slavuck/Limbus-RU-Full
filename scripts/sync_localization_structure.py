@@ -6,6 +6,7 @@ import argparse
 import json
 import sys
 from copy import deepcopy
+from collections import defaultdict, deque
 from pathlib import Path
 from typing import Any
 
@@ -37,6 +38,19 @@ def merge_structure(english: Any, russian: Any, key: Any = None) -> Any:
                 identity = identity_key(en_item)
                 ru_entry = ru_map.get(identity) if identity is not None else None
                 merged.append(merge_structure(en_item, ru_entry[1]) if ru_entry else deepcopy(en_item))
+            return merged
+        # Some RPG lists repeat an ID. Inserting a different ID must not shift
+        # every subsequent translation; align occurrences within each identity.
+        if (english and all(identity_key(item) is not None for item in english)
+                and all(identity_key(item) is not None for item in ru_list)):
+            occurrences = defaultdict(deque)
+            for item in ru_list:
+                occurrences[identity_key(item)].append(item)
+            merged = []
+            for item in english:
+                candidates = occurrences[identity_key(item)]
+                merged.append(merge_structure(item, candidates.popleft())
+                              if candidates else deepcopy(item))
             return merged
         return [
             merge_structure(item, ru_list[index]) if index < len(ru_list) else deepcopy(item)
