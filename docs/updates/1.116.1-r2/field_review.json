@@ -1,0 +1,152 @@
+[
+  {
+    "file": "BattleKeywords-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"GoldenNail\"",
+      "flavor"
+    ],
+    "before": "«Так, где тут руководство по этому гвоздю… „Вы чувствуете, как грехи ползут по вашей спине…“ Нет, не то».\n\n«Должно быть здесь, в сорок втором ящике… Я же положил… А, вот оно! „Руководство по консоли для администратора системы «Сизиф», отвечающего за «Ле Нуар»“».",
+    "after": "«Так, где тут руководство по этому гвоздю… „Вы чувствуете, как грехи ползут по вашей спине…“ Нет, не то».\n\n«Должно быть здесь, в сорок втором ящике… Я же положил… А, вот оно! „Руководство по консоли для администратора системы «Сизиф», отвечающего за «Ле Нуар»“».",
+    "reason": "EN spelling or phrasing corrected; existing RU remains faithful to unchanged KR."
+  },
+  {
+    "file": "BattleSpeechBubbleDlg-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"10SV-061\"",
+      "dlg"
+    ],
+    "before": "Я помню. Я долго ходила по универмагу в тех красивых цветочных туфельках, что вы мне подарили.",
+    "after": "Я помню. Я долго ходила по универмагу в тех красивых цветочных туфельках, что вы мне подарили.",
+    "reason": "EN spelling or phrasing corrected; existing RU remains faithful to unchanged KR."
+  },
+  {
+    "file": "Bufs-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"GoldenNail\"",
+      "flavor"
+    ],
+    "before": "«Так, где тут руководство по этому гвоздю… „Вы чувствуете, как грехи ползут по вашей спине…“ Нет, не то».\n\n«Должно быть здесь, в сорок втором ящике… Я же положил… А, вот оно! „Руководство по консоли для администратора системы «Сизиф», отвечающего за «Ле Нуар»“».",
+    "after": "«Так, где тут руководство по этому гвоздю… „Вы чувствуете, как грехи ползут по вашей спине…“ Нет, не то».\n\n«Должно быть здесь, в сорок втором ящике… Я же положил… А, вот оно! „Руководство по консоли для администратора системы «Сизиф», отвечающего за «Ле Нуар»“».",
+    "reason": "EN spelling or phrasing corrected; existing RU remains faithful to unchanged KR."
+  },
+  {
+    "file": "PanicInfo-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1116",
+      "lowMoraleDescription"
+    ],
+    "before": "- Получаемый урон +12.5%\n- Минимальная и максимальная скорость -1\n- Урон навыков, расходующих Сохранение, -15%",
+    "after": "- Получаемый урон +12.5%\n- Минимальная и максимальная скорость -1\n- Урон навыков, расходующих [ChargeNoir], -15%",
+    "reason": "Restore the clickable ChargeNoir keyword now present in EN and KR."
+  },
+  {
+    "file": "PanicInfo-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1116",
+      "panicDescription"
+    ],
+    "before": "- Получаемый урон +20%\n- Минимальная и максимальная скорость -2\n- Урон навыков, расходующих Сохранение, -25%",
+    "after": "- Получаемый урон +20%\n- Минимальная и максимальная скорость -2\n- Урон навыков, расходующих [ChargeNoir], -25%",
+    "reason": "Restore the clickable ChargeNoir keyword now present in EN and KR."
+  },
+  {
+    "file": "Passives_Abnormality-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=151703",
+      "desc"
+    ],
+    "before": "<color=#ff6000><mark=#ff000040><b><u>Повышает максимальные потенциал и счётчик</u></b></mark></color> для [Combustion], [Laceration], [Vibration], [Burst] и [Sinking] до <color=#ff6000><mark=#ff000040><b><u>50 и 15</u></b></mark></color> соответственно\n\nПолучаемый урон ОЗ и СД от [Combustion], [Laceration], [Vibration], [Burst] и [Sinking] -50%\n- Срыв нельзя изменить\n- Конец хода: при Срыве СД меняются на 0",
+    "after": "Когда Грешник с [BuffetScruple] побеждает в столкновении с определённым навыком, <color=#ff6000><mark=#ff000040><b><u>Багряный бог получает 1 [BuffetDream]</u></b></mark></color>\nПри накоплении 5 [BuffetDream] Багряный бог переходит к новой схеме действий; победа в столкновении с навыком этой схемы завершает сражение победой\n\n<color=#ff6000><mark=#ff000040><b><u>Повышает максимальные потенциал и счётчик</u></b></mark></color> для [Combustion], [Laceration], [Vibration], [Burst] и [Sinking] до <color=#ff6000><mark=#ff000040><b><u>50 и 15</u></b></mark></color> соответственно\n\nПолучаемый урон ОЗ и СД от [Combustion], [Laceration], [Vibration], [Burst] и [Sinking] -50%\n- Срыв нельзя изменить\n- Конец хода: при Срыве СД меняются на 0",
+    "reason": "Translate both newly released boss rules at the exact passive ID given in EN/KR."
+  },
+  {
+    "file": "Passives_Abnormality-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=152103",
+      "desc"
+    ],
+    "before": "Пока на поле есть Багряный бог 【Зрелость】, счётчик [ChargeRouge] этого бойца не уменьшается в конце хода\n\nПри ошеломлении от полученного удара: если навык Багряного бога 【Зрелость】 снимает с этого бойца ошеломление, применяет «Серпами своими отвечаю на твой зов!» как одностороннюю атаку по атаковавшему его противнику",
+    "after": "Пока на поле есть Багряный бог, счётчик [ChargeRouge] этого бойца не уменьшается в конце хода\n\nПри ошеломлении от полученного удара: если навык Багряного бога снимает с этого бойца ошеломление, применяет «Серпами своими отвечаю на твой зов!» как одностороннюю атаку по атаковавшему его противнику",
+    "reason": "KR removes the stage suffix from both references; match the revised original."
+  },
+  {
+    "file": "Skills_Abnormality-a1c10p3.json",
+    "semantic_path": [
+      "dataList",
+      "@id=152106",
+      "levelList",
+      "#0",
+      "desc"
+    ],
+    "before": "[CantDuel]\n[CantChangeTarget]\nВыбирает Багряного бога 【Зрелость】\n\nСвойства этого навыка:\n- Не активирует защитные навыки\n- Внешние эффекты не могут заставить этот навык использоваться повторно\n- Его атака не попадает\n\n[EndCoin] Цель восстанавливает 20 СД",
+    "after": "[CantDuel]\n[CantChangeTarget]\nВыбирает Багряного бога\n\nСвойства этого навыка:\n- Не активирует защитные навыки\n- Внешние эффекты не могут заставить этот навык использоваться повторно\n- Его атака не попадает\n\n[EndCoin] Цель восстанавливает 20 СД",
+    "reason": "KR removes the stage suffix from both references; match the revised original."
+  },
+  {
+    "file": "StoryData/S1031B.json",
+    "semantic_path": [
+      "dataList",
+      "@id=10",
+      "content"
+    ],
+    "before": "Ой? А это... не господин Мерсо там? За сестрой Кромер...",
+    "after": "Ой? А это... не господин Мерсо там?",
+    "reason": "Both sources remove the obsolete reference to Kromer’s sister."
+  },
+  {
+    "file": "StoryData/S1031B.json",
+    "semantic_path": [
+      "dataList",
+      "@id=15",
+      "content"
+    ],
+    "before": "Да. На этот раз я отказался оставаться на хранении.",
+    "after": "Да. На этот раз я отказался оставаться на хранении.",
+    "reason": "EN removes incorrect angle punctuation; RU already has normal Meursault speech."
+  },
+  {
+    "file": "StoryData/S1034A.json",
+    "semantic_path": [
+      "dataList",
+      "@id=10",
+      "content"
+    ],
+    "before": "Снова откроешь эту дверь — и твой грех повторится.",
+    "after": "Снова откроешь эту дверь — и твой грех повторится.",
+    "reason": "KR revises the future modal ending; existing Russian threat conveys it accurately."
+  },
+  {
+    "file": "StoryData/S1034B.json",
+    "semantic_path": [
+      "dataList",
+      "@id=122",
+      "content"
+    ],
+    "before": "Есть лишь один способ это прекратить. Покайся в своих грехах и покорись закону универмага. Ещё не поздно.",
+    "after": "Есть лишь один способ это прекратить. Покайся в своих грехах и покорись закону универмага. Ещё не поздно.",
+    "reason": "KR fixes the subject particle (방법을 -> 방법은); meaning and RU unchanged."
+  },
+  {
+    "file": "RPGSystem/rpg-loc-item-common-a1c10p3.json",
+    "key": "I990931",
+    "field": "statText",
+    "before": null,
+    "after": "В Символическом: наносимый <color=#fe4b48>урон</color> +350\nВ Символическом ОЗ не опускаются ниже 1",
+    "reason": "Add the actual gameplay field; remove the old provisional appendix from lore."
+  },
+  {
+    "file": "Passives_Abnormality-a1c10p3.json",
+    "id": 151709,
+    "field": "desc",
+    "before": "Начало хода: получает 2 [Protection] за каждого Старшего сотрудника «Ле Руж» на поле\n- При гибели каждого Старшего сотрудника «Ле Руж» теряет 2 [Protection]\n\n<color=#ff6000><mark=#ff000040><b><u>Если все Старшие сотрудники «Ле Руж» погибли</u></b></mark></color>, действуют следующие эффекты:\n- Получает 2 [Vulnerable]\n- При использовании навыка, если у цели есть [BuffetScruple], сила монет -1\n\nКогда Грешник с особым усилением побеждает в столкновении с определённым навыком, Буфет получает 1 значение уникального эффекта.\nПри 5 значениях этого эффекта Буфет переходит к новой схеме действий. Победа в столкновении с навыком этой схемы действий завершает сражение победой.",
+    "after": "Начало хода: получает 2 [Protection] за каждого Старшего сотрудника «Ле Руж» на поле\n- При гибели каждого Старшего сотрудника «Ле Руж» теряет 2 [Protection]\n\n<color=#ff6000><mark=#ff000040><b><u>Если все Старшие сотрудники «Ле Руж» погибли</u></b></mark></color>, действуют следующие эффекты:\n- Получает 2 [Vulnerable]\n- При использовании навыка, если у цели есть [BuffetScruple], сила монет -1",
+    "reason": "Remove provisional hotfix text from the wrong passive; authoritative sources put it at 151703."
+  }
+]
