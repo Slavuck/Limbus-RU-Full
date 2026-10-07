@@ -16,6 +16,25 @@ from scripts.sync_localization_structure import merge_structure
 
 
 class AuditLocalizationDiffTests(unittest.TestCase):
+    def test_short_dialogue_is_not_exempted_as_punctuation(self) -> None:
+        for text in ('<... No.>', '... No.', '... But...', '<Us?!>', 'Uh...?', '<Mm...?>', 'I...'):
+            with self.subTest(text=text):
+                self.assertIsNone(intentional_literal_reason(text, 'content'))
+                auditor = self.auditor()
+                auditor.compare_file('StoryData/A.json', {'content': text}, {}, {'content': text})
+                self.assertEqual(auditor.state.full_review[0]['status'], 'pending')
+                self.assertEqual(len(auditor.state.untranslated), 1)
+
+    def test_old_symbolic_approval_does_not_hide_untranslated_words(self) -> None:
+        prior = {('storydata/a.json', '{}', 'content', json.dumps('<... No.>')):
+                 {'status': 'intentional', 'reason': 'symbolic_or_obfuscated_literal'}}
+        auditor = Auditor({}, prior)
+        auditor.compare_file('StoryData/A.json', {'content': '<... No.>'}, {}, {'content': '<... No.>'})
+        self.assertEqual(auditor.state.full_review[0]['status'], 'pending')
+
+    def test_pure_punctuation_stays_intentional(self) -> None:
+        self.assertIsNotNone(intentional_literal_reason('...?!', 'content'))
+
     def test_empty_translation_is_blocking_even_with_review_decision(self) -> None:
         initial = self.auditor()
         initial.compare_file('A.json', {'name': 'Gubo'}, {'name': '구보'}, {'name': ''})
