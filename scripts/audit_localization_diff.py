@@ -272,6 +272,10 @@ def intentional_literal_reason(value: str, key: Any) -> str | None:
     technical = technical_reason(stripped, key)
     if technical:
         return technical
+    # A stalled first-person utterance is dialogue, not a Roman numeral or
+    # an obfuscated symbol sequence. Keep multi-letter dotted initials intact.
+    if re.fullmatch(r"[<‹]?[.…\s]*I[.…!?]+[>›]?", stripped):
+        return None
     lowered = stripped.casefold()
     if lowered in CONFIRMED_LITERAL_VALUES:
         return "confirmed_game_literal"
@@ -299,7 +303,10 @@ def intentional_literal_reason(value: str, key: Any) -> str | None:
         return "stylized_acronym_literal"
     if re.fullmatch(r"<style=\"den[^\"]*\">[^<]+</style>", stripped, re.IGNORECASE):
         return "original_lyric_literal"
-    if stripped and sum(character.isalnum() for character in stripped) / len(stripped) < 0.35:
+    # Punctuation-heavy dialogue ("<... No.>", "... But...") still needs
+    # translation. Only exempt genuinely obfuscated text without word runs.
+    if (stripped and not re.search(r"[A-Za-z]{2,}", stripped)
+            and sum(character.isalnum() for character in stripped) / len(stripped) < 0.35):
         return "symbolic_or_obfuscated_literal"
     if re.fullmatch(r"[IVXLCDM]+", stripped):
         return "roman_numeral"
@@ -431,6 +438,7 @@ def prior_queue_index(path: Path | None) -> dict[tuple[str, str, str, str], dict
                     "status": row.get("status"),
                     "translation": row.get("translation"),
                     "queue_id": row.get("queue_id"),
+                    "reason": row.get("review_reason", row.get("intentional_reason")),
                 }
     return result
 
@@ -832,7 +840,8 @@ class Auditor:
             str(key).casefold(),
             frozen(english),
         ))
-        if prior and prior.get("status") == "intentional" and exact_english and status == "pending":
+        if (prior and prior.get("status") == "intentional" and exact_english and status == "pending"
+                and prior.get("reason") != "symbolic_or_obfuscated_literal"):
             status, reason = "intentional", "confirmed_by_prior_queue"
 
         decision = self.decisions.get(queue_id)
