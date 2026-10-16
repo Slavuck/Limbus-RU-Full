@@ -25,10 +25,10 @@ class October8UpdateTests(unittest.TestCase):
         self.assertEqual(len(dialogue['DRSCW01_C1']['texts']), 3)
         self.assertIn('Мерсо', dialogue['DRSCW02_C1']['texts'][1]['text'])
 
-    def test_la_moisson_does_not_prematurely_claim_october_15_limit(self):
+    def test_la_moisson_has_the_now_released_october_15_limit(self):
         text = records('Passives_Abnormality-a1c10p3.json')[151706]['desc']
         self.assertIn('Ла Деманд', text)
-        self.assertNotIn('раз за ход', text)
+        self.assertIn('раз за ход', text)
         self.assertNotIn('раза за ход', text)
 
     def test_decision_and_pwie_restore_sanity_without_old_damage_penalty(self):

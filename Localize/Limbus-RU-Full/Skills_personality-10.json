@@ -2396,6 +2396,797 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Пюльсьон",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получить +5 счётчика [ChargeRougeAlly]\n- Если цель — союзник, получить ещё +5 счётчика [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если цель — союзник, применить следующие эффекты (2 раза за ход):\n- Цель восстанавливает 10% ОЗ\n  · Если цель — союзник «Ле Руж», вместо этого расходовать 20% её максимальных ОЗ и наложить 2 [ResultEnhancement]\n- Цель восстанавливает 10 СД\n  · Если СД цели максимальны, вместо этого наложить +4 счётчика [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Ла Пюльсьон",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Сила столкновения +1 за каждые 4 [Laceration] на цели (макс. 2)</style>\n[WhenUse] Получить +5 счётчика [ChargeRougeAlly]\n- Если цель — союзник, получить ещё +5 счётчика [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если цель — союзник, применить следующие эффекты (2 раза за ход):\n- Цель восстанавливает 10% ОЗ\n  · Если цель — союзник «Ле Руж», вместо этого расходовать 20% её максимальных ОЗ и наложить 2 [ResultEnhancement]\n- Цель восстанавливает 10 СД\n  · Если СД цели максимальны, вместо этого наложить +4 счётчика [Charge]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ла Пюльсьон",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Вес атаки +(собственный потенциал [ChargeRougeAlly] - 1) (макс. 2)\n- Приоритет дополнительных целей: союзники «Ле Руж» по возрастанию процента ОЗ</style>\n\n[WhenUse] Сила столкновения +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WhenUse] Получить +5 счётчика [ChargeRougeAlly]\n- Если цель — союзник, получить ещё +5 счётчика [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если цель — союзник, применить следующие эффекты (2 раза за ход):\n- Цель восстанавливает <style=\"highlight\">(10 + собственный потенциал [ChargeRougeAlly])% ОЗ (макс. 15%)</style>\n  · Если цель — союзник «Ле Руж», вместо этого расходовать 20% её максимальных ОЗ и наложить 2 [ResultEnhancement]\n- Цель восстанавливает <style=\"highlight\">(10 + собственный потенциал [ChargeRougeAlly]) СД (макс. 15)</style>\n  · Если СД цели максимальны, вместо этого наложить +4 счётчика [Charge]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жё ву зэд",
+          "desc": "[CantDuel]\nЭтот навык не активирует защитные навыки\n\nВ состоянии [BuffetSinclair] наносит +50% урона\n[WhenUse] Получить 5 [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Жё ву зэд",
+          "desc": "[CantDuel]\nЭтот навык не активирует защитные навыки\n\nВ состоянии [BuffetSinclair] наносит +50% урона\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 4)</style>\n[WhenUse] Получить 5 [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Жё ву зэд",
+          "desc": "[CantDuel]\nЭтот навык не активирует защитные навыки\n\nВ состоянии [BuffetSinclair] наносит +50% урона\n<style=\"highlight\">Наносимый урон +5% за каждый 1% недостающих ОЗ цели (макс. 100%)</style>\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 4)\n[WhenUse] Получить 5 [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 1 [ScarletTakeDamageUp] (раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Жё мэкспюльс",
+          "desc": "[TransformSinclair] — особый навык\n[WhenUse] Получить +3 счётчика [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Жё мэкспюльс",
+          "desc": "[TransformSinclair] — особый навык\n<style=\"highlight\">[WhenUse] Если у цели есть 6+ [Laceration], сила монеты +1</style>\n[WhenUse] Получить +3 счётчика [ChargeRougeAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 2 [BoneNailSinclair]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Л’Аппети",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n[WhenUse] Получить +3 счётчика [ChargeRougeAlly]\n[WhenUse] Если цель — союзник, завершить навык после срабатывания эффектов 1-й монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если цель — союзник, применить следующие эффекты:\n- Наложить 1 [BuffetThirst]\n- Если цель — [PersonalityCharge], наложить +4 счётчика [Charge]\n- Если цель — союзник «Ле Руж», расходовать 10% её максимальных ОЗ и наложить 2 [AttackUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Л’Аппети",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Сила столкновения +1 за каждые 3 собственного счётчика [ChargeRougeAlly] (макс. 3)</style>\n[WhenUse] Получить +3 счётчика [ChargeRougeAlly]\n[WhenUse] Если цель — союзник, завершить навык после срабатывания эффектов 1-й монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если цель — союзник, применить следующие эффекты:\n- Наложить 1 [BuffetThirst]\n- Если цель — [PersonalityCharge], наложить +4 счётчика [Charge]\n- Если цель — союзник «Ле Руж», расходовать 10% её максимальных ОЗ и наложить 2 [AttackUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Л’Аппети",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\n\n<style=\"highlight\">[WhenUse] Вес атаки +1 за каждые 2 собственного потенциала [ChargeRougeAlly] (макс. 2)\n- Приоритет дополнительных целей: союзники «Ле Руж» по убыванию процента ОЗ</style>\n\n[WhenUse] Сила столкновения +1 за каждые 3 собственного счётчика [ChargeRougeAlly] (макс. 3)\n[WhenUse] Получить +3 счётчика [ChargeRougeAlly]\n[WhenUse] Если цель — союзник, завершить навык после срабатывания эффектов 1-й монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Если цель — союзник, применить следующие эффекты:\n- Наложить <style=\"highlight\">1 [ParryingResultUp] и</style> 1 [BuffetThirst]\n- Если цель — [PersonalityCharge], наложить +4 счётчика [Charge]\n- Если цель — союзник «Ле Руж», расходовать 10% её максимальных ОЗ и наложить 2 [AttackUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101607,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Жё мабжект",
+          "desc": "[TransformSinclair] — особый навык\n[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1\n\n[BeforeAttack] Расходовать по 15% максимальных ОЗ 2 других союзников\n- Приоритет союзникам «Ле Руж»; выбор по убыванию текущих ОЗ\n- Наносимый урон +15% за каждого союзника, чьи ОЗ были израсходованы",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]\n- В состоянии [BuffetSinclair] вместо этого наложить 2 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [ScarletTakeDamageUp] (раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Жё мабжект",
+          "desc": "[TransformSinclair] — особый навык\n<style=\"highlight\">[WhenUse] Если у цели есть 6+ [Laceration], сила монеты +1</style>\n[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1\n\n[BeforeAttack] Расходовать по 15% максимальных ОЗ 2 других союзников\n- Приоритет союзникам «Ле Руж»; выбор по убыванию текущих ОЗ\n- Наносимый урон +15% за каждого союзника, чьи ОЗ были израсходованы",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]\n- В состоянии [BuffetSinclair] вместо этого наложить 2 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [ScarletTakeDamageUp] (раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101608,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ла Деманд",
+          "desc": "[CantDuel]\n[TransformSinclair] — особый навык\nЭтот навык не активирует защитные навыки\n\nНаносимый урон +5% за каждые 3 [Laceration] на цели (макс. 30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снять с цели весь [BoneNailSinclair] и наложить 1 [ScarletTakeDamageUp] на следующий ход (раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ла Деманд",
+          "desc": "[CantDuel]\n[TransformSinclair] — особый навык\nЭтот навык не активирует защитные навыки\n\nНаносимый урон +5% за каждые 3 [Laceration] на цели (макс. 30%)\n<style=\"highlight\">[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снять с цели весь [BoneNailSinclair] и наложить <style=\"highlight\">2</style> [ScarletTakeDamageUp] на следующий ход (раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ле Батэм руж",
+          "desc": "[StartBattle] Расходовать по 15% максимальных ОЗ 2 других союзников и наложить 3 [AttackUp]\n- Выбираются союзники с 50%+ ОЗ по убыванию текущих ОЗ\n- Союзники «Ле Руж»:\n  · Имеют приоритет независимо от ОЗ, пока у них есть 2+ ОЗ\n  · Расходовать 25% ОЗ вместо 15%; дополнительно наложить 1 [Enhancement]\n\n[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1\n\n[WhenUse] В состоянии [BuffetSinclair] преобразовать все монеты в [SuperCoin]\n- При 10+ счётчика [ChargeRougeAlly] расходовать до 10 счётчика [ChargeRougeAlly], чтобы получить +2 веса атаки и +1 силы монеты",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 счётчика [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ле Батэм руж",
+          "desc": "[StartBattle] Расходовать по 15% максимальных ОЗ 2 других союзников и наложить 3 [AttackUp]\n- Выбираются союзники с 50%+ ОЗ по убыванию текущих ОЗ\n- Союзники «Ле Руж»:\n  · Имеют приоритет независимо от ОЗ, пока у них есть 2+ ОЗ\n  · Расходовать 25% ОЗ вместо 15%; дополнительно наложить 1 [Enhancement]\n\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)</style>\n[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1\n\n[WhenUse] В состоянии [BuffetSinclair] преобразовать все монеты в [SuperCoin]\n- При 10+ счётчика [ChargeRougeAlly] расходовать до 10 счётчика [ChargeRougeAlly], чтобы получить +2 веса атаки и +1 силы монеты\n<style=\"highlight\">[WhenUse] Нанести +50% урона за каждую единицу веса атаки сверх числа фактических целей (в направленных боях — частей)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получить 3 [HungrySinclair]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получить 3 [HungrySinclair]</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +3 счётчика [Laceration]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получить 3 [HungrySinclair]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101609,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ле Манк-а-этр",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\n\nВнешние эффекты не могут вызвать повторное использование этого навыка\n\n[WhenUse] Получить 5 [Binding] на следующий ход",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Вывести цель из ошеломления"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ле Манк-а-этр",
+          "desc": "[CantDuel]\n[CantChangeTarget]\n[SupportAlly]\nВнешние эффекты не могут вызвать повторное использование этого навыка",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndCoin] Вывести цель из ошеломления"
+                },
+                {
+                  "desc": "<style=\"highlight\">[EndCoin] Восстановить цели 15% её максимальных ОЗ</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101610,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ла Ворасите",
+          "desc": "[TransformSinclair] — особый навык\nНачало хода: при 150 [HungrySinclair] заменить этот навык на «Ла Кастрасьон» (раз за ход)\n\n[WhenUse] В состоянии [BuffetSinclair] преобразовать все монеты в [SuperCoin]\n- При 10+ счётчика [ChargeRougeAlly] расходовать до 10 счётчика [ChargeRougeAlly], чтобы получить +2 веса атаки и +1 силы монеты\n\n[BeforeAttack] Расходовать по 15% максимальных ОЗ 3 других союзников\n- Приоритет союзникам «Ле Руж»; выбор по убыванию текущих ОЗ\n- Наносимый урон +10% за каждого союзника, чьи ОЗ были израсходованы",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если это основная цель, дополнительно наложить 1 [BoneNailSinclair] за каждую единицу веса атаки сверх числа фактических целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ла Ворасите",
+          "desc": "[TransformSinclair] — особый навык\nНачало хода: при 150 [HungrySinclair] заменить этот навык на «Ла Кастрасьон» (раз за ход)\n\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1</style>\n\n[WhenUse] В состоянии [BuffetSinclair] преобразовать все монеты в [SuperCoin]\n- При 10+ счётчика [ChargeRougeAlly] расходовать до 10 счётчика [ChargeRougeAlly], чтобы получить +2 веса атаки и +1 силы монеты\n<style=\"highlight\">[WhenUse] Нанести +50% урона за каждую единицу веса атаки сверх числа фактических целей (в направленных боях — частей)</style>\n\n[BeforeAttack] Расходовать по 15% максимальных ОЗ 3 других союзников\n- Приоритет союзникам «Ле Руж»; выбор по убыванию текущих ОЗ\n- Наносимый урон +10% за каждого союзника, чьи ОЗ были израсходованы",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если это основная цель, дополнительно наложить 1 [BoneNailSinclair] за каждую единицу веса атаки сверх числа фактических целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101611,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ла Кастрасьон",
+          "desc": "[TransformSinclair] — особый навык\n[BeforeUse] При менее 150 [HungrySinclair] заменить этот навык на «Ла Ворасите»\n\n[StartBattle] Расходовать у всех других союзников «Ле Руж» по 50% их текущих ОЗ и наложить на них 3 [BuffetSinclair]\n\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на основной цели (макс. 2)\n[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1\n[EndSkill] Расходовать весь [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если это основная цель, дополнительно наложить 1 [BoneNailSinclair] за каждую единицу веса атаки сверх числа фактических целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снять с цели весь [BoneNailSinclair] и наложить (снятый [BoneNailSinclair]) [ScarletTakeDamageUp] на следующий ход (макс. 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и понижает счётчик [Laceration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ла Кастрасьон",
+          "desc": "[TransformSinclair] — особый навык\n[BeforeUse] При менее 150 [HungrySinclair] заменить этот навык на «Ла Ворасите»\n\n[StartBattle] Расходовать у всех других союзников «Ле Руж» по 50% их текущих ОЗ и наложить на них 3 [BuffetSinclair]\n\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на основной цели (макс. 2)\n[WhenUse] При 3+ потенциала [ChargeRougeAlly] сила монеты +1\n<style=\"highlight\">[WhenUse] В состоянии [BuffetSinclair] сила монеты +1\n[WhenUse] Нанести +50% урона за каждую единицу веса атаки сверх числа фактических целей (в направленных боях — частей)</style>\n\n[EndSkill] Расходовать весь [HungrySinclair]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить +2 счётчика [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если это основная цель, дополнительно наложить 1 [BoneNailSinclair] за каждую единицу веса атаки сверх числа фактических целей"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снять с цели весь [BoneNailSinclair] и наложить (снятый [BoneNailSinclair]) [ScarletTakeDamageUp] на следующий ход (макс. 3)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnStartCoin] Расходовать до 15 собственного счётчика [ChargeRougeAlly] и нанести +(израсходованный счётчик [ChargeRougeAlly] × 3)% урона</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Один раз активировать [Laceration] на цели. Цель теряет 1 счётчик [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Фюит",
+          "desc": "[StartBattle] Если у бойца нет [BuffetSinclair], а счётчик [ChargeRougeAlly] ниже 15, расходовать (15 - текущий счётчик [ChargeRougeAlly])% ОЗ и довести счётчик [ChargeRougeAlly] до 15 (раз за ход)\n\n[OnSucceedEvade] Получить +2 счётчика [ChargeRougeAlly] (2 раза за ход)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ла Фюит",
+          "desc": "[StartBattle] Если у бойца нет [BuffetSinclair], а счётчик [ChargeRougeAlly] ниже 15, расходовать (15 - текущий счётчик [ChargeRougeAlly])% ОЗ и довести счётчик [ChargeRougeAlly] до 15 (раз за ход)\n\n[OnSucceedEvade] Получить +2 счётчика [ChargeRougeAlly] (2 раза за ход)",
+          "coinlist": [
+            {
+              "coindescs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101612,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ла Гард",
+          "desc": "[CanDuelGuard]\nЭтот навык считается <noparse>защитной поддержкой</noparse> только для применяющего его бойца\nКогда по бойцу попадают во время использования этого навыка, Синклер «Высокая мода::Багряный бог Ле Руж» получает 2 [HungrySinclair]\n\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101613,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ле Трэ юнэр",
+          "desc": "[DuelCounter]\n[TransformSinclair] — особый навык\n[StartBattle] Если у бойца нет [BuffetSinclair], а счётчик [ChargeRougeAlly] ниже 15, расходовать (15 - текущий счётчик [ChargeRougeAlly])% ОЗ и довести счётчик [ChargeRougeAlly] до 15 (раз за ход)\n\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ле Трэ юнэр",
+          "desc": "[DuelCounter]\n[TransformSinclair] — особый навык\n[StartBattle] Если у бойца нет [BuffetSinclair], а счётчик [ChargeRougeAlly] ниже 15, расходовать (15 - текущий счётчик [ChargeRougeAlly])% ОЗ и довести счётчик [ChargeRougeAlly] до 15 (раз за ход)\n\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (макс. 2)\n<style=\"highlight\">[WhenUse] При 3+/5+ потенциала [ChargeRougeAlly] сила монеты +1/+2</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [BoneNailSinclair]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] В состоянии [BuffetSinclair] наложить 1 [BoneNailSinclair]</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

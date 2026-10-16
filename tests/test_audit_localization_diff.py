@@ -16,6 +16,24 @@ from scripts.sync_localization_structure import merge_structure
 
 
 class AuditLocalizationDiffTests(unittest.TestCase):
+    def test_korean_model_change_does_not_request_translation_of_resource_id(self):
+        baseline = {('a.json', '{}', 'model'): [{
+            'previous_english': '뫼마지막임시', 'previous_korean': '뫼마지막임시',
+            'previous_russian': '뫼마지막임시', 'json_path': '$.model',
+        }]}
+        auditor = Auditor(baseline, {})
+        auditor.compare_file('A.json', {'model': '뫼마지막임시'},
+                             {'model': '뫼르소'}, {'model': '뫼마지막임시'})
+        self.assertEqual(len(auditor.state.source_index), 1)
+        self.assertEqual(auditor.state.full_review, [])
+        self.assertEqual(auditor.state.technical_mismatches, [])
+
+    def test_changed_model_is_still_checked_for_technical_corruption(self):
+        auditor = self.auditor()
+        auditor.compare_file('A.json', {'model': '뫼마지막임시'},
+                             {'model': '뫼르소'}, {'model': 'Мерсо'})
+        self.assertEqual(len(auditor.state.technical_mismatches), 1)
+
     def test_short_dialogue_is_not_exempted_as_punctuation(self) -> None:
         for text in ('<... No.>', '... No.', '... But...', '<Us?!>', 'Uh...?', '<Mm...?>', 'I...'):
             with self.subTest(text=text):
