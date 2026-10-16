@@ -763,6 +763,13 @@ class Auditor:
             "review_status": "not_in_review_scope",
         }
         self.state.source_index.append(source_row)
+        # Changed KR metadata must not turn an EN resource/model ID into text.
+        # Keep indexing technical leaves so source changes remain observable.
+        if is_technical_key(key):
+            if russian is not MISSING and english != russian:
+                self._issue(self.state.technical_mismatches, relative, path,
+                            "technical_string_mismatch", english=english, russian=russian)
+            return
         new_visible_source = is_visible_source(english, key)
         missing_or_copied_source = (russian is MISSING or russian == english
                                     or (isinstance(russian, str) and not russian.strip() and bool(english.strip())))
