@@ -15,6 +15,16 @@ def load(relative: str) -> dict:
 
 
 class LocalizationReleaseTests(unittest.TestCase):
+    def test_yi_sang_executes_a_prescript_rather_than_a_person(self) -> None:
+        passive = next(row for row in load('Passives.json')['dataList'] if row['id'] == 1011503)
+        paragraph = next(part for part in passive['desc'].split('\n\n')
+                         if '[IndexPrescriptYi_2]' in part)
+        self.assertNotIn('казн', paragraph.lower())
+        self.assertIn('выполнил [IndexPrescriptYi_2]', paragraph)
+        self.assertIn('[UnlockBuffAlly_2]', paragraph)
+        self.assertIn('4 СД', paragraph)
+        self.assertIn('раз за ход', paragraph)
+
     def test_all_localization_json_files_parse(self) -> None:
         paths = sorted(LOCALIZE.rglob("*.json"))
         self.assertEqual(len(paths), 2370)
