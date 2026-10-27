@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Учение шестерней",
+          "name": "Куда ведут шестерни",
           "desc": "[WhenUse] Получает 2 <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color>",
           "coinlist": [
             {},
@@ -241,7 +241,7 @@
         {
           "level": 1,
           "name": "Мясная шестеренка: Предел",
-          "desc": "Сила монет +1 за каждые 3 <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color> на цели\n+10% к урону за каждые 3 <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color> на себе\nConsume 3 [Smoke] on self every time this Skill Reuses Coin\n[WhenUse] Сила монет +1 при 10-и единицах <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color>",
+          "desc": "Сила монет +1 за каждые 3 <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color> на цели\n+10% к урону за каждые 3 <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color> на себе\nТратит 3 [Smoke] на себе при каждом повторном использовании монеты этим навыком\n[WhenUse] Сила монет +1 при 10 единицах <sprite name=\"Smoke\"><color=#e30000><u><link=\"Smoke\">Дыма</link></u></color>",
           "coinlist": [
             {
               "coindescs": [

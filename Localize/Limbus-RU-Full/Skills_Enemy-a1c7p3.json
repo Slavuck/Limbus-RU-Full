@@ -157,7 +157,7 @@
         {
           "level": 1,
           "name": "У нас для вас событие!",
-          "desc": "[WhenUse] Поглощает до 50 [BloodDinner], чтобы получить 1 [BloodScissor] и восстановить 3 СД за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Если не удалось поглотить [BloodDinner], получает 5 [Laceration] и 1 [HardenedBlood]\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration]",
+          "desc": "[WhenUse] Поглощает до 50 [BloodDinner] и получает 1 [BloodScissor] за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Если этим навыком не удалось поглотить [BloodDinner], получает 5 [Laceration] и 1 [HardenedBlood]\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -234,7 +234,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пройдите опрос",
+          "name": "Ответьте на вопрос.",
           "desc": "[WhenUse] Получает 5 [Laceration] и 1 к счётчику [Laceration]",
           "coinlist": [
             {

@@ -178,7 +178,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 3"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] [Switch_Vibration] в [VibrationIgnition]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Переключает [Switch_Vibration] на [VibrationIgnition]"
                 }
               ]
             },
@@ -211,7 +211,7 @@
         {
           "level": 1,
           "name": "Рубим Гордиев узел",
-          "desc": "Выбирает целью [Prey]\nМожно столкнуться независимо от скорости\nНельзя оглушить до конца использования этого навыка\n[WhenUse] Тратит всю [BattleSense](#d61713), и если было потрачено ...\n- ... 10 и более: Количество целей +1 за каждые 10 потраченной Внутренней силы(#d61713) (До 2 дополнительных целей)\n- ... 25 и более: Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на главной цели (До 5)\n[DefeatDuel] Получает 4 [ResultReduction]\n[DefeatDuel] Получает 1 [Paralysis]\n[DefeatDuel] Наносит на 80% меньше урона, не может оглушить целей, а также наносит лишь половину силы и счётчика [Combustion] с [Vibration] монетами этой атаки\n[EndSkill] [FullReload]\n- Если имелись [BulletPropellantSpecial](#f01313), вместо этого [ReloadKeepAmmo]\n[EndSkill] Заканчивает этот ход",
+          "desc": "[Prey]을 보유한 대상을 우선으로 지정\n속도에 상관없이 이 스킬과 합을 할 수 있으며, 이 스킬을 사용하기 전까지 흐트러짐 상태가 되지 않음\n[WhenUse] Тратит всю [BattleSense], и если потрачено...\n- ... 10 или больше: за каждые 10 потраченных единиц количество целей +1 (максимум 2)\n- ... ровно 25: итоговая сила +1 за каждые 4 [Combustion] и [Vibration] на главной цели (максимум 5)\n[DefeatDuel] Получает 4 [ResultReduction]\n[DefeatDuel] Получает 1 [Paralysis]\n[DefeatDuel] Наносит на 80% меньше урона; урон навыка не может привести цель в состояние пошатывания; накладываемые этим навыком сила и счётчики [Combustion] и [Vibration] уменьшаются вдвое (кроме значений, увеличенных другими эффектами)\n[EndSkill] [FullReload] (1 раз за ход)\n- Если есть [BulletPropellantSpecial], вместо этого [ReloadKeepAmmo] (1 раз за ход)\n[EndSkill] Завершает этот ход",
           "coinlist": [
             {
               "coindescs": [
@@ -242,7 +242,7 @@
         {
           "level": 1,
           "name": "Хаотично-убойные разрезы убийцы ужасных тигров",
-          "desc": "Выбирает целью [Prey]\nМожно столкнуться независимо от скорости\nНельзя оглушить до конца использования этого навыка\n[WhenUse] Тратит всю [BattleSense](#d61713), и если было потрачено ...\n- ... 10 и более: Количество целей +1 за каждые 10 потраченной Внутренней силы(#d61713) (До 4 дополнительных целей)\n- ... 25 и более: Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на главной цели (До 6)\n- ... 50 и более: Сила монет +1 и на 50% больше урона\n[DefeatDuel] Получает 2 [ResultReduction]\n[DefeatDuel] Получает 6 [Paralysis]\n[DefeatDuel] Наносит на 80% меньше урона, не может оглушить целей, а также наносит лишь половину силы и счётчика [Combustion] с [Vibration] монетами этой атаки\n[EndSkill] [FullReload]\n- Если имелись [BulletPropellantSpecial](#f01313), вместо этого [ReloadKeepAmmo]\n[EndSkill] Заканчивает этот ход",
+          "desc": "[Prey]을 보유한 대상을 우선으로 지정\n속도에 상관없이 이 스킬과 합을 할 수 있으며, 이 스킬을 사용하기 전까지 흐트러짐 상태가 되지 않음\n[WhenUse] Тратит всю [BattleSense], и если потрачено...\n- ... 10 или больше: за каждые 10 потраченных единиц количество целей +1 (максимум 4)\n- ... 25 или больше: итоговая сила +1 за каждые 4 [Combustion] и [Vibration] на главной цели (максимум 6)\n- ... 50 или больше: сила монет +1 и урон +50%\n[DefeatDuel] Получает 2 [ResultReduction]\n[DefeatDuel] Получает 6 [Paralysis]\n[DefeatDuel] Наносит на 80% меньше урона; урон навыка не может привести цель в состояние пошатывания; накладываемые этим навыком сила и счётчики [Combustion] и [Vibration] уменьшаются вдвое (кроме значений, увеличенных другими эффектами)\n[EndSkill] [FullReload] (1 раз за ход)\n- Если есть [BulletPropellantSpecial], вместо этого [ReloadKeepAmmo] (1 раз за ход)\n[EndSkill] Завершает этот ход",
           "coinlist": [
             {
               "coindescs": [
@@ -332,7 +332,7 @@
         {
           "level": 1,
           "name": "Перезарядка Клинка звезды Тяньтуй",
-          "desc": "[DuelCounter]\n[DefeatDuel] Теряет 1 [BulletPropellant](#ff1919)\n[EndSkill] [FullReload]\n- Если имелись [BulletPropellantSpecial](#f01313), вместо этого [ReloadKeepAmmo]",
+          "desc": "[DuelCounter]\n[DefeatDuel] Теряет 1 [BulletPropellant]\n[EndSkill] [FullReload] (1 раз за ход)\n- Если есть [BulletPropellantSpecial], вместо этого [ReloadKeepAmmo] (1 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -364,7 +364,7 @@
         {
           "level": 1,
           "name": "Поддержка боеприпасами",
-          "desc": "[EndBattle] Если этот отряд выживет, отдай 6 [BulletPropellantSpecial] Лэй Хэну\n[EndBattle] [DisengageCombat]",
+          "desc": "[EndBattle] Если этот боец выжил, Лэй Хэн получает 6 [BulletPropellantSpecial]\n[EndBattle] [DisengageCombat]",
           "coinlist": [
             {}
           ]
@@ -463,7 +463,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на (Значение [GazeReplica] цели × 5)"
+                  "desc": "[OnSucceedAttack] Наносит урон по шкале пошатывания в размере (значение [GazeReplica] цели × 5)"
                 },
                 {
                   "desc": "[EndSkill] Весь [GazeReplica] исчезает с цели"
@@ -544,7 +544,7 @@
         {
           "level": 1,
           "name": "Трепет, презрение【Высвобождение】",
-          "desc": "[BeforeAttack] Количество целей повышается на количество противников с значением [GazeReplica], равным 4 и более",
+          "desc": "[BeforeAttack] Число целей увеличивается на количество Грешников с 4 и более [GazeReplica]",
           "coinlist": [
             {
               "coindescs": [
@@ -631,7 +631,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пуля разорванного прошлого",
+          "name": "Пуля, расколотая магическим кругом",
           "desc": "Выбирает целью ближайшего противника\n[WhenUse] Получает 3 [Breath] и повышает счётчик [Breath] на 2",
           "coinlist": [
             {
@@ -640,7 +640,7 @@
                   "desc": "Данная монета наносит урон лишь основной цели"
                 },
                 {
-                  "desc": "[EnemyKill] Следующая монета наносит на 100% больше урона"
+                  "desc": "[EnemyKill] Урон последней монеты +100%"
                 }
               ]
             },
@@ -667,7 +667,7 @@
         {
           "level": 1,
           "name": "Пуля, окрашенная кровью товарища",
-          "desc": "[CantChangeTarget]\nВыбирает целью Ассистентов Корп. N\n- Если эта цель оказалась мертва к моменту использования навыка, отменяет его\n[WhenUse] Получает 5 [Breath]\n[EndBattle] Восстанавливает 20 СД",
+          "desc": "[CantChangeTarget]\nВыбирает целью сотрудников Корп. N\n- Если этот боец не смог атаковать выбранную цель, навык отменяется\n[WhenUse] Получает 5 [Breath]\n[EndBattle] Восстанавливает 20 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -708,7 +708,7 @@
         {
           "level": 1,
           "name": "Пуля, разбивающая вдребезги все воспоминания",
-          "desc": "Атакует [WideAreaRampage]\nНаносит на 10% больше урона за каждое [BoseProjektilReplica] (До 70%)\n[WhenUse] Теряет 10 СД\n[EndSkill] Теряет все [BoseProjektilReplica]",
+          "desc": "[WideAreaRampage]\nНаносит на 10% больше урона за каждое [BoseProjektilReplica] у себя\n[WhenUse] Теряет 10 СД\n[EndSkill] Тратит все [BoseProjektilReplica]",
           "coinlist": [
             {
               "coindescs": [
@@ -1005,7 +1005,7 @@
         {
           "level": 1,
           "name": "Колыбель драгоценного нефрита【寶玉搖籃】",
-          "desc": "[CantChangeTarget]\nНацеливается на Хон Лу и не наносит ему урона\n[EndSkill] Заточает Хон Лу в [ExpensiveJade] и заканчивает этот ход",
+          "desc": "[CantChangeTarget]\nНацеливается на Хон Лу\nЕсли цель — Хон Лу, урон фиксирован на уровне 0\n[EndSkill] Если цель — Хон Лу, вводит его в состояние пошатывания и на следующий ход превращает в [ExpensiveJade]. Затем завершает ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1104,7 +1104,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ты не можешь познать судьбу иерарха без заботы Сяньжэнь!",
+          "name": "Ты знаешь, что станет с главой семьи без заботы старейшин?!",
           "desc": "[WhenUse] Восстанавливает 25 СД\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить целей",
           "coinlist": [
             {
@@ -1156,7 +1156,7 @@
         {
           "level": 1,
           "name": "Ничего, кроме бессмысленной борьбы...!",
-          "desc": "[CanDuelGuard]\n[WinDuel] Цзя Му восстанавливает 15 СД (Если её СД на 0, она восстанавливает 30 СД вместо этого)",
+          "desc": "[CanDuelGuard]\n[WinDuel] Цзя Му восстанавливает 15 СД. Если её СД ниже 0, вместо этого восстанавливает 30 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1186,7 +1186,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД и поднимает границу выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по СД и урон по шкале пошатывания в размере 50% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Binding] на следующий ход"
@@ -1318,7 +1318,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Среди целей без [ImperfectEternalLife], восстанавливает 15% ОЗ одной из них с наименьшими ОЗ"
+                  "desc": "[OnSucceedAttack] Среди союзников без [ImperfectEternalLife] выбирает союзника с наименьшим запасом ОЗ и восстанавливает ему ОЗ в размере 15% от его максимальных ОЗ"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
@@ -1353,7 +1353,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель — союзник, отнимите оставшиеся ОЗ и [ImperfectEternalLife]. Затем примените то же количество [ImperfectEternalLife] заряд на все части этого юнита в следующем ходу. После этого уничтожьте блок Осушенный."
+                  "desc": "[OnSucceedAttack] Если цель — союзник, поглощает его оставшиеся ОЗ и [ImperfectEternalLife]. На следующий ход все части этого бойца получают количество зарядов [ImperfectEternalLife], равное поглощённому. Затем поглощённая цель удаляется"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 8 [Laceration] и 8 [Burst]"
@@ -1369,7 +1369,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Я приветствую вас",
+          "name": "Я пришёл вас поприветствовать",
           "desc": "",
           "coinlist": [
             {
@@ -1395,7 +1395,7 @@
         {
           "level": 1,
           "name": "Я буду послушным",
-          "desc": "[CanDuelGuard]\n[WinDuel] Цзя Му восстанавливает 15 СД (Если её СД на 0, она восстанавливает 30 СД вместо этого)",
+          "desc": "[CanDuelGuard]\n[WinDuel] Цзя Му восстанавливает 15 СД. Если её СД ниже 0, вместо этого восстанавливает 30 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1425,7 +1425,7 @@
                   "desc": "[OnSucceedAttack] Наносит 15 урона по СД "
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по шкале пошатывания в размере 50% от нанесённого урона"
                 }
               ]
             }
@@ -1471,7 +1471,7 @@
         {
           "level": 1,
           "name": "Порадуй же меня",
-          "desc": "Сила в столкновении +2, если ОЗ цели выше 50%\n[WhenUse] Восстанавливает 10 СД Цзя Му",
+          "desc": "Сила в столкновении +2, если у цели 50% ОЗ или больше\n[WhenUse] Восстанавливает 10 СД Цзя Му",
           "coinlist": [
             {
               "coindescs": [
@@ -1489,7 +1489,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Мудрый советник Сяньжэнь",
+          "name": "Мудрое наставление Сяньжэнь",
           "desc": "[WhenUse] Даёт Цзя Му 1 [Enhancement] и 1 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
@@ -1515,7 +1515,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Истинный советник Сяньжэнь",
+          "name": "Истинное наставление Сяньжэнь",
           "desc": "[WhenUse] Даёт Цзя Му 1 [Endurance] и 1 [Protection] на следующий ход",
           "coinlist": [
             {

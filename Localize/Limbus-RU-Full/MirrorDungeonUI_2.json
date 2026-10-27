@@ -18,7 +18,7 @@
     },
     {
       "id": "start_buffs",
-      "content": "Стартовые усиления"
+      "content": "Список действующих эффектов"
     },
     {
       "id": "enter_normal_difficulty",
@@ -42,7 +42,7 @@
     },
     {
       "id": "require_to_activate_former_buffs",
-      "content": "Необходимо активировать предыдущее усиление."
+      "content": "Необходимо отметить звёздами усиление предыдущего этапа."
     },
     {
       "id": "weekly_bonus_reward",
@@ -54,7 +54,7 @@
     },
     {
       "id": "dungeon_shop_return_title",
-      "content": "Назад."
+      "content": "Не покупать."
     },
     {
       "id": "dungeon_shop_return_desc",
@@ -62,7 +62,7 @@
     },
     {
       "id": "dungeon_shop_heal_title_one",
-      "content": "Я куплю дорогой тоник."
+      "content": "Выбрать дорогой тоник."
     },
     {
       "id": "dungeon_shop_heal_desc_one_hp_perc_mp_int",
@@ -70,7 +70,7 @@
     },
     {
       "id": "dungeon_shop_heal_title_all",
-      "content": "Я куплю энергетики на всю команду."
+      "content": "Выбрать энергетический напиток."
     },
     {
       "id": "dungeon_shop_heal_desc_all_hp_perc_mp_int",
@@ -126,11 +126,11 @@
     },
     {
       "id": "mirrordungeon_with_number",
-      "content": "Зеракальное подземелье №{0}"
+      "content": "Зеркальное подземелье №{0}"
     },
     {
       "id": "mirrordungeon_select_buffs_title",
-      "content": "Выбрать стартовые усиления"
+      "content": "Выбрать эффект события"
     },
     {
       "id": "acquire_additional_rewards",
@@ -238,7 +238,7 @@
     },
     {
       "id": "mirrordungeon_resting_open",
-      "content": "Отдохните как следует!\n\nЕсли желаете попытать счастья на встречу с кем-то, положите это на столик.\n\n- Хозяин супермаркета, ушёл на поиски автомата в этом лабиринте"
+      "content": "Отдохните как следует!\n\nЕсли хотите попытать удачи и встретить кого-нибудь, положите это на стол.\n\n- Хозяин магазина у дома, отправившийся искать автомат в этом лабиринте"
     },
     {
       "id": "mirrordungeon_shop_open",
@@ -282,7 +282,7 @@
     },
     {
       "id": "mirrordungeon_2_shop_stageinfo_desc",
-      "content": "Посреди коридоров, пустота которых вызывает мурашки, стоит автомат, и шум его наполняет это место.\n\nВнезапно, раздаётся голос: \"Дайте фрагменты света, и взамен получите то, что поможет вам в предстоящем пути.\"\n\nЭта загадочная штуковина привлекает меня."
+      "content": "Пугающе пустое пространство заполняет гул, доносящийся из автомата.\n\nГолос говорит: «Отдайте те крошки, что у вас есть, и я обменяю их на что-нибудь полезное».\n\nСловно заворожённые, мы приближаемся к этой непонятной вещи."
     },
     {
       "id": "mirrordungeon_2_resting_stageinfo_title",
@@ -294,7 +294,7 @@
     },
     {
       "id": "dungeon_resting_change_formation_title",
-      "content": "Среди хлама, я подберу осколок зеркала."
+      "content": "Поднять осколок зеркала, виднеющийся среди крошек."
     },
     {
       "id": "dungeon_resting_change_formation_desc",
@@ -302,7 +302,7 @@
     },
     {
       "id": "dungeon_resting_heal_title_one",
-      "content": "Я усажу самого утомлённого грешника на стул."
+      "content": "Уложить на стул самого уставшего грешника."
     },
     {
       "id": "dungeon_resting_heal_title_all",
@@ -422,7 +422,7 @@
     },
     {
       "id": "mirrordungeon_change_formation_confirm_exact_participants",
-      "content": "Потратить стоимость на получение выбранных идентичностей и ЭГО?"
+      "content": "Потратить кост, чтобы включить выбранные идентичности и ЭГО в команду?"
     },
     {
       "id": "mirror_dungeon_clear_battle_reward_label",
@@ -458,7 +458,7 @@
     },
     {
       "id": "mirror_dungeon_hard_require_condition_level",
-      "content": "- 40 уровень идентичностей"
+      "content": "- Уровень идентичностей 45"
     },
     {
       "id": "mirror_dungeon_hard_require_condition_ego_gacksung",
@@ -510,7 +510,7 @@
     },
     {
       "id": "mirrordungeon_hard_no_reward_desc",
-      "content": "<color=#ff0000>Награда за прохождение усложнённого режима уже была получена.</color>"
+      "content": "<color=#ff0000>Награду за этот контент уже получили, поэтому получить её снова нельзя.</color>"
     },
     {
       "id": "mirror_dungeon_3_buffs_title_1",
@@ -622,7 +622,7 @@
     },
     {
       "id": "md3_buffs_summaryDesc_102",
-      "content": "Появление ДаровⅣ+ ранга"
+      "content": "Появление Даров IV ранга и повышение ранга появляющихся Даров"
     },
     {
       "id": "md3_buffs_summaryDesc_1021",
@@ -718,7 +718,7 @@
     },
     {
       "id": "md3_buffs_summaryDesc_1065",
-      "content": "2 новых Дара с Утопнием"
+      "content": "2 новых Дара с Погружением"
     },
     {
       "id": "md3_buffs_summaryDesc_1066",
@@ -726,7 +726,7 @@
     },
     {
       "id": "md3_buffs_summaryDesc_1067",
-      "content": "2 новых Дара с Зрядом"
+      "content": "2 новых Дара с Зарядом"
     },
     {
       "id": "md3_buffs_summaryDesc_107",

@@ -246,7 +246,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон порогу оглушения в размере 50% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносить +1% урона за каждую [AccumulatedPast] (максимальный 50%)"
@@ -306,7 +306,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 5+ [Breath] повышает порог оглушения на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] При 5 и более [Breath] на себе наносит урон порогу оглушения в размере 50% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Все свои Части получают 8 [Breath] и повышают счётчик [Breath] на 4"
@@ -328,7 +328,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На (Текущее значение [AccumulatedPast])% больше урона (До 200%)"
+                  "desc": "[AccumulatedPast] за каждую единицу наносит +1% урона (макс. 200%)"
                 }
               ]
             }
@@ -810,7 +810,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и повышает счётчик [Laceration] на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Части 「Фея」 и 「Тело」 восстанавливают 30 ОЗ"
+                  "desc": "[OnSucceedAttack] Ядро и Тело восстанавливают 30 ОЗ"
                 }
               ]
             }
@@ -1127,7 +1127,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "На этом у меня всё!",
+          "name": "Осталось только это!",
           "desc": "Выбирает в приоритет цели с [Vibration]",
           "coinlist": [
             {
@@ -1689,7 +1689,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и 3 [Burst]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Роза с наименьшими ОЗ восстанавливает 10% ОЗ"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Роза с наименьшими ОЗ восстанавливает 10% от своих макс. ОЗ"
                 }
               ]
             }
@@ -1942,7 +1942,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Несподручная лень",
+          "name": "Упрямая лень",
           "desc": "[WhenUse] Базовая сила +1 за каждую Розу, чей атрибут отличается от атрибута этого бойца (макс. 6)",
           "coinlist": [
             {

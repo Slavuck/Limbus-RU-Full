@@ -6,19 +6,19 @@
         {
           "level": 1,
           "name": "Воспрепятствование",
-          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы [Laceration] и [Vibration] на цели (До 5)\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "desc": "Наносит на 50% больше урона за каждый тип отрицательных эффектов на цели (макс. 100%)\n[WhenUse] Базовая сила +1 за каждые 2 суммарных [Laceration] и [Vibration] на цели (макс. 5)\n[WhenUse] Повышает свой счётчик [Breath] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
                 }
               ]
             }
@@ -32,7 +32,7 @@
         {
           "level": 1,
           "name": "Двойной цепной удар",
-          "desc": "Наносит на 50% больше урона за каждый тип негативных эффектов на цели (До 100%)\n[WhenUse] Базовая сила +1 за каждые 2 единицы в сумме силы [Laceration] и [Vibration] на цели (До 5)\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "desc": "Наносит на 50% больше урона за каждый тип отрицательных эффектов на цели (макс. 100%)\n[WhenUse] Базовая сила +1 за каждые 2 суммарных [Laceration] и [Vibration] на цели (макс. 5)\n[WhenUse] Повышает свой счётчик [Breath] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -66,10 +66,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [BeeSting]"
+                  "desc": "[OnSucceedAttack] Наложить [BeeSting]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 80% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Нанести урон по шкале ошеломления в размере 80% от нанесённого урона"
                 }
               ]
             }
@@ -91,7 +91,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [ArtifactBeeSting]"
+                  "desc": "[OnSucceedAttack] Наложить [ArtifactBeeSting]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Оглушает цель"
@@ -127,12 +127,12 @@
         {
           "level": 1,
           "name": "Контратака.",
-          "desc": "[DuelCounter]\nНаносите +50% урон за любой тип негативного эффекта цели (максимальный 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>получает 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Получить 2 [ResultEnhancement] и 2 [AttackDmgUp] следующий ход",
+          "desc": "[DuelCounter]\nНаносить на 50% больше урона за каждый тип отрицательных эффектов на цели (макс. 100%)\n[StartBattle] <color=#ff6000><mark color=#ff000040><b><u>Получает 1 [SupportProtect]</color></mark></b></u>\n[WhenUse] Получить 2 [ResultEnhancement] и 2 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Vibration]"
+                  "desc": "[OnSucceedAttack] Наложить 5 [Vibration]"
                 }
               ]
             },

@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "mirror_dungeon_get_ego_gift_with_enemy_buff_less_count",
-      "content": "Остались доступные ЭГО-дары для выбора.\n\nЖелаете продолжить, пропустив выбор ЭГО-даров?\n\n(※ Случайные усиления будут выбраны в зависимости от количества пропущенных ЭГО-даров)"
+      "content": "Остались доступные выборы ЭГО-даров.\n\nПродолжить, не выбирая ЭГО-дар?\n\n(※ За каждый пропущенный выбор вы получите случайное испытание)"
     },
     {
       "id": "mirror_dungeon_easy_difficulty",
@@ -30,7 +30,7 @@
     },
     {
       "id": "mirror_dungeon_reward_popup_rest_bonus_guide",
-      "content": "Незадействованные идентичности повышают свой бонус отдыха на 1"
+      "content": "Идентичности вне текущего состава получают +1 к бонусу отдыха"
     },
     {
       "id": "mirror_user_start_buff",
@@ -50,7 +50,7 @@
     },
     {
       "id": "mirror_acquired_random_enemy_buff_popup_title",
-      "content": "Дополнение испытания"
+      "content": "Испытание получено"
     },
     {
       "id": "mirror_acquired_enemy_buff_popup_desc",
@@ -66,7 +66,7 @@
     },
     {
       "id": "mirror_recovered_unit_status",
-      "content": "Павшие грешники воскресли, а остальные полностью восстановили ОЗ"
+      "content": "Павшие грешники воскресли, а все союзники восстановили ОЗ и СД (кроме тех, кого нельзя воскресить)."
     },
     {
       "id": "mirror_start_buff_cannot_purchase_side_popup_title",
@@ -86,7 +86,7 @@
     },
     {
       "id": "mirror_start_buff_type",
-      "content": "Неисчисляемые благословения звёзд"
+      "content": "Благодать звёздного скопления"
     },
     {
       "id": "mirror_start_buff_purchase_button",
@@ -110,7 +110,7 @@
     },
     {
       "id": "dungeon_shop_heal_enter",
-      "content": "Можем воскресить или восстановить ОЗ кому-нибудь из грешников.\nЧто мне нужно сделать?"
+      "content": "Здесь можно вылечить или воскресить грешника.\nЧто будем делать?"
     },
     {
       "id": "dungeon_shop_heal_select_one",
@@ -118,7 +118,7 @@
     },
     {
       "id": "dungeon_shop_heal_all",
-      "content": "Все грешники восстановят ОЗ и СД."
+      "content": "Все грешники восстановили ОЗ и СД."
     },
     {
       "id": "dungeon_shop_heal_revive_select_one",
@@ -134,7 +134,7 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_after_selected_bonus",
-      "content": "Избыточный бонус отдыха"
+      "content": "Остаток бонуса отдыха"
     },
     {
       "id": "mirror_start_buff_purchase_modal_exchanged_cost",
@@ -150,7 +150,7 @@
     },
     {
       "id": "mirror_start_buff_purchase_modal_purchase_description",
-      "content": "Избыточный бонус отдыха преобразуется в стоимость"
+      "content": "Оставшийся бонус отдыха преобразуется в стоимость"
     },
     {
       "id": "mirror_start_buff_applied_passive",
@@ -186,11 +186,11 @@
     },
     {
       "id": "mirror_dungeon_block_to_click_hard_theme_list",
-      "content": "Пройдите Песнь Ⅵ\nдля открытия подземелья"
+      "content": "Пройдите Песнь VIII\nдля открытия подземелья"
     },
     {
       "id": "mirrordungeon_theme_hard_blocked",
-      "content": "Пройдите Песнь Ⅵ\nдля открытия набора"
+      "content": "Пройдите Песнь VIII\nдля открытия набора"
     },
     {
       "id": "mirrordungeon_shop_heal_title",
@@ -202,7 +202,7 @@
     },
     {
       "id": "mirror_dungeon_progress_text_5",
-      "content": "Зеркало мечтаний - {0}-й этаж'"
+      "content": "Зеркало мечтаний — {0}-й этаж"
     },
     {
       "id": "mirror_dungeon_progress_awaiting_reward_claim",
@@ -374,7 +374,7 @@
     },
     {
       "id": "mirrordungeon_egogift_combine_guide_season_5_etc_4",
-      "content": "※ Если вам всё же посчастливилось получить “дубликат” ЭГО-дара, то он конвертируется в отдельный Дар того же ранга для соединения и продажи."
+      "content": "※ Если дополнительные ЭГО-дары соответствующего ранга получить нельзя, вы получите ЭГО-дар того же ранга для слияния и продажи."
     },
     {
       "id": "mirrordungeon_upgrade_shop_title",
@@ -398,7 +398,7 @@
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_desc_3_0",
-      "content": "Более 4-х"
+      "content": "4 и более"
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_desc_3_1",
@@ -514,15 +514,15 @@
     },
     {
       "id": "mirrordungeon_purchase_achievement_level_using_lunacy_desc",
-      "content": "※ Для получения {0} прогресса достижений израсходуется {1} платного Безумства."
+      "content": "※ При покупке {0} ед. проекции будет потрачено {1} ед. платного Безумства."
     },
     {
       "id": "mirrordungeon_purchase_achievement_level_ask_using_lunacy",
-      "content": "Желаете приобрести прогресса достижений за {0} платного Безумства?"
+      "content": "Потратить {0} ед. платного Безумства на покупку проекции?"
     },
     {
       "id": "mirrordungeon_purchase_achievement_title",
-      "content": "Покупка прогресса достижений"
+      "content": "Покупка проекции"
     },
     {
       "id": "mirrordungeon_achievement_progress",
@@ -530,11 +530,11 @@
     },
     {
       "id": "mirrordungeon_purchase_achievement_block_by_max_level",
-      "content": "Вы больше не можете приобрести прогресс достижений"
+      "content": "Превышен лимит уровней боевого пропуска, доступных для покупки"
     },
     {
       "id": "mirrordungeon_achievement_max_level",
-      "content": "Достигнут максимальный уровень достижений"
+      "content": "Достигнут максимальный уровень боевого пропуска"
     },
     {
       "id": "lack_of_point_for_shop_without_new_line",

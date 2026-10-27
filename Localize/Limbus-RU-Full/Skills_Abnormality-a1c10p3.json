@@ -212,7 +212,7 @@
         {
           "level": 1,
           "name": "Гвоздь искупления",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если у Тюремщика 50% ОЗ или меньше</u></b></mark></color>, преобразовать <color=#ff6000><mark=#ff000040><b><u>первую монету этого навыка в [SuperCoin]</u></b></mark></color>\nЕсли у цели есть <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Получить +4 к счётчику [ChargeNoir]\n[WhenUse] Получить 1 [Breath] и +1 ед. счётчика [Breath]\n[DefeatDuel] Урон этого навыка не может ошеломить цель",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если у Тюремщика 50% ОЗ или меньше</u></b></mark></color>, преобразовать <color=#ff6000><mark=#ff000040><b><u>первую монету этого навыка в [SuperCoin]</u></b></mark></color>\nЕсли у цели ровно <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Получить +4 к счётчику [ChargeNoir]\n[WhenUse] Получить 1 [Breath] и +1 ед. счётчика [Breath]\n[DefeatDuel] Урон этого навыка не может ошеломить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -339,7 +339,7 @@
         {
           "level": 1,
           "name": "Искупи.",
-          "desc": "Если у цели есть <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Потратить до 15 [SpreadingVoiceSecondPhase]\n- Итоговая сила +1, нанести +15% урона\n[WhenUse] Получить +4 к счётчику [ChargeNoir]\n[DefeatDuel] Урон этого навыка не может ошеломить цель",
+          "desc": "Если у цели ровно <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionSecondPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Потратить до 15 [SpreadingVoiceSecondPhase]\n- Итоговая сила +1, нанести +15% урона\n[WhenUse] Получить +4 к счётчику [ChargeNoir]\n[DefeatDuel] Урон этого навыка не может ошеломить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -529,7 +529,7 @@
         {
           "level": 1,
           "name": "*вздох* Может, тебя уже... перемотают?",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если у цели есть 5+ [ConfessionThirdPhase], преобразовать первую монету этого навыка в [SuperCoin]</u></b></mark></color>\nЕсли у цели есть <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Получить +3 к счётчику [ChargeNoir]\n[WhenUse] Получить 2 [Breath] и +1 ед. счётчика [Breath]",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>Если у цели есть 5+ [ConfessionThirdPhase], преобразовать первую монету этого навыка в [SuperCoin]</u></b></mark></color>\nЕсли у цели ровно <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Получить +3 к счётчику [ChargeNoir]\n[WhenUse] Получить 2 [Breath] и +1 ед. счётчика [Breath]",
           "coinlist": [
             {
               "coindescs": [
@@ -647,7 +647,7 @@
         {
           "level": 1,
           "name": "«Искупи».",
-          "desc": "Если у цели есть <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Потратить до 15 [SpreadingVoiceThirdPhase]\n- Итоговая сила +1, нанести +15% урона\n[WhenUse] Получить +5 к счётчику [ChargeNoir]",
+          "desc": "Если у цели ровно <color=#ff6000><mark=#ff000040><b><u>9 [ConfessionThirdPhase], Итоговая сила +2</u></b></mark></color>\n[WhenUse] Потратить до 15 [SpreadingVoiceThirdPhase]\n- Итоговая сила +1, нанести +15% урона\n[WhenUse] Получить +5 к счётчику [ChargeNoir]",
           "coinlist": [
             {
               "coindescs": [
@@ -1273,7 +1273,7 @@
         {
           "level": 1,
           "name": "Выкройка: «Желай».",
-          "desc": "[WhenUse] Если счётчик [ChargeRouge] ниже максимума, потратить 5% ОЗ чтобы получить 10 к счётчику [ChargeRouge]",
+          "desc": "[WhenUse] Если счётчик [ChargeRouge] ниже максимума, потратить ОЗ в размере 5% от макс. ОЗ, чтобы получить 10 к счётчику [ChargeRouge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1292,7 +1292,7 @@
         {
           "level": 1,
           "name": "Выкройка: «Надень».",
-          "desc": "[WhenUse] Если счётчик [ChargeRouge] ниже максимума, потратить 5% ОЗ чтобы получить 10 к счётчику [ChargeRouge]\n[WhenUse] Потратить 5 ед. счётчика [ChargeRouge] чтобы получить итоговую силу +2",
+          "desc": "[WhenUse] Если счётчик [ChargeRouge] ниже максимума, потратить ОЗ в размере 5% от макс. ОЗ, чтобы получить 10 к счётчику [ChargeRouge]\n[WhenUse] Потратить 5 ед. счётчика [ChargeRouge], чтобы получить итоговую силу +2",
           "coinlist": [
             {
               "coindescs": [
@@ -1344,7 +1344,7 @@
         {
           "level": 1,
           "name": "Выкройка: «Соскреби и собери».",
-          "desc": "[WhenUse] Восстановить 25% ОЗ\n- При 2+ [ChargeRouge], восстановить 50% ОЗ вместо этого",
+          "desc": "[WhenUse] Восстановить ОЗ в размере 25% от макс. ОЗ\n- При 2+ [ChargeRouge], вместо этого восстановить ОЗ в размере 50% от макс. ОЗ",
           "coinlist": [
             {
               "coindescs": []

@@ -538,7 +538,7 @@
         {
           "level": 4,
           "name": "Иглоукалывание",
-          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n</style>[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n</style>[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -879,7 +879,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если резонанс с этим навыком состоит из 3-х грехов, тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +([Charge])% к урону за каждую единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, потраченную этим навыком (До 60%)"
+                  "desc": "При резонансе этого навыка с ещё как минимум двумя навыками тратит весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, получая +([Charge])% к урону за каждую потраченную этим навыком единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (до 60%)"
                 }
               ]
             }
@@ -930,7 +930,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] +4)] (До 7)"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на ([Charge] + 4) (до 7)"
                 }
               ]
             },
@@ -977,7 +977,7 @@
                   "desc": " Если сила своего [Charge] равна 3 и более, наносит на (Сила своего [Charge] × <style=\"highlight\">8</style>)% больше урона этой монетой (До <style=\"highlight\">40%</style>)\n Наносит 1 Уязвимость к Зависти на следующий ход"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести 1 [VioletTakeDamageUp] следующий ход\n- При 2+ [Charge] наложить 1 дополнительные [VioletTakeDamageUp]</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [VioletTakeDamageUp] на следующий ход\n- При 2 и более [Charge] дополнительно наносит ещё 1 [VioletTakeDamageUp]</style>"
                 }
               ]
             }
@@ -1303,7 +1303,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] +10% к урону за каждые 20% потерянных Фауст ОЗ (До 30%)"
+                  "desc": "[OnSucceedAttack] +10% к урону за каждые 20% потерянного собственного ОЗ (до 30%)"
                 }
               ]
             }
@@ -1399,7 +1399,7 @@
         {
           "level": 4,
           "name": "Молниеносная поступь",
-          "desc": "<style=\"highlight\">Если Фауст быстрее своей цели, сила монет +1 за каждые 3 единицы разницы в скорости</style>\n[WhenUse] Сила монет +1 против целей с 4-мя и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "desc": "<style=\"highlight\">Если скорость Фауст выше скорости цели на 3 или более, сила монет +1</style>\n[WhenUse] Сила монет +1 против целей с 4 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1581,7 +1581,7 @@
         {
           "level": 1,
           "name": "Слушаюсь, мой лорд.",
-          "desc": "[DuelCounter]\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (Раз за ход)\n[WhenUse] За каждые 10% потерянного Фауст здоровья уровень атаки данного навыка +1 (До 6-и; Считается потеря здоровья от использования навыка)\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>",
+          "desc": "[DuelCounter]\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (раз за ход)\n[WhenUse] За каждые 10% потерянных в этом бою ОЗ уровень атаки навыка +1 (до 6; расчёт ведётся от максимального ОЗ на момент срабатывания)\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1602,7 +1602,7 @@
         {
           "level": 4,
           "name": "Слушаюсь, мой лорд.",
-          "desc": "[DuelCounter]\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (Раз за ход)\n[WhenUse] За каждые 10% потерянного Фауст здоровья уровень атаки данного навыка +1 (До 6-и; Считается потеря здоровья от использования навыка)\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>\n<style=\"highlight\">[WhenUse] Если Фауст быстрее своей цели, базовая сила +1 за каждые 2 единицы разницы в скорости (До 2-х)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] Переходит в режим <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> на 1 ход (раз за ход)\n[WhenUse] За каждые 10% потерянных в этом бою ОЗ уровень атаки навыка +1 (до 6; расчёт ведётся от максимального ОЗ на момент срабатывания)\n[WhenUse] Фауст получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног 【Мао】</link></u></color>\n<style=\"highlight\">[WhenUse] Если скорость Фауст выше скорости цели на 2 или более, базовая сила +1 за каждые 2 единицы разницы (до 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1722,7 +1722,7 @@
         {
           "level": 1,
           "name": "Молниеносная защита",
-          "desc": "[CanDuelGuard]\nОсобый навык, использующийся в режиме <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color> \n[BeforeUse] При 10-и и более <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилениях клинка Всепроникающей звезды</link></u></color> вместо этого навыка использует 「Высшее искусство Мао из «Хэйшоу»: Разрубание небес」\n[WhenUse] За каждые 10% потерянного Фауст здоровья уровень защиты данного навыка +1 (До 6-и; Считается потеря здоровья от использования навыка)\n[WhenUse] До завершения данного навыка данная грешница не может быть оглушена\n[WhenUse] Фауст получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (Раз за ход)",
+          "desc": "[CanDuelGuard]\nОсобый навык для режима <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защиты</link></u></color>\n[BeforeUse] При 10 и более <sprite name=\"EnhanceZilu\"><color=#9f6a3a><u><link=\"EnhanceZilu\">Усилениях клинка Всепроникающей звезды</link></u></color> вместо этого навыка использует 「Высшее искусство Мао из «Хэйшоу»: Разрубание небес」\n[WhenUse] За каждые 10% потерянных в этом бою ОЗ уровень защиты навыка +1 (до 6; расчёт ведётся от максимального ОЗ на момент срабатывания)\n[WhenUse] До завершения навыка не получает оглушение от урона\n[WhenUse] Фауст получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> (раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1985,7 +1985,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Повышения уровня защиты</link></u></color> на следующий ход (Раз за ход)"
+                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход (раз за ход)"
                 }
               ]
             }
@@ -2051,7 +2051,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"ArrowInTheEyeFau\"><color=#e30000><u><link=\"ArrowInTheEyeFau\">Вонзает</link></u></color> 1-у стрелу, после чего Фауст теряет <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрелу: Си</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"ArrowInTheEyeFau\"><color=#e30000><u><link=\"ArrowInTheEyeFau\">Вонзает</link></u></color> 1 стрелу; при успешном наложении Фауст теряет 1 <sprite name=\"ArrowShiFau\"><color=#9f6a3a><u><link=\"ArrowShiFau\">Стрелу: Си</link></u></color>"
                 },
                 {
                   "desc": "[EnemyKill] Фауст <sprite name=\"AStrokeOfDeath\"><color=#f8c200><u><link=\"AStrokeOfDeath\">вычёркивает цель</link></u></color> на следующий ход"
@@ -2163,7 +2163,7 @@
         {
           "level": 4,
           "name": "Безошибочно, как того требует предписание",
-          "desc": "Если этот навык имеет [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">он получает +1 к Силе в столкновении +1 и</style> и наносит на <style=\"highlight\">20%</style> больше урона\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы своего [Breath] и [Sinking] на цели (До 2)\n[WhenUse] Повышает свой счётчик [Breath] на 2",
+          "desc": "Если этот навык отмечен [IndexPrescriptTargetMarkToEnemy], <style=\"highlight\">сила в столкновении +1</style> и урон <style=\"highlight\">+20%</style>\nСила монет +1 <style=\"highlight\">за каждые 6</style> единиц суммы [Breath] Фауст и [Sinking] на цели (до 2)\n[WhenUse] Повышает счётчик [Breath] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -2400,7 +2400,7 @@
         {
           "level": 1,
           "name": "Мясник - Рёбра",
-          "desc": "Навык фазы [IronMaidenPersonality]",
+          "desc": "Эксклюзивный навык [IronMaidenPersonality]",
           "coinlist": [
             {},
             {
@@ -2418,7 +2418,7 @@
         {
           "level": 2,
           "name": "Мясник - Рёбра",
-          "desc": "Навык фазы [IronMaidenPersonality]\n[WhenUse] Сила в столкновении +1 за каждый тип негативных эффектов на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 2)",
+          "desc": "Эксклюзивный навык [IronMaidenPersonality]\n[WhenUse] Сила в столкновении +1 за каждый тип негативного эффекта на цели (до 2)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (до 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -2442,7 +2442,7 @@
         {
           "level": 4,
           "name": "Мясник - Рёбра",
-          "desc": "Навык фазы [IronMaidenPersonality]\n[WhenUse] Сила в столкновении +1 за каждый тип негативных эффектов на цели (До 2)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 3)",
+          "desc": "Эксклюзивный навык [IronMaidenPersonality]\n[WhenUse] Сила в столкновении +1 за каждый тип негативного эффекта на цели (до 2)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (до 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -2471,7 +2471,7 @@
         {
           "level": 1,
           "name": "Фасция голодает",
-          "desc": "[IronMaidenPersonality] эксклюзивный навык\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "desc": "Эксклюзивный навык [IronMaidenPersonality]\n[WhenUse] При 10 и более [ChargeBodyArt] потратить 5 [ChargeBodyArt], чтобы получить следующие эффекты:\n- Сила в столкновении +1\n- Последняя монета этого навыка становится [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2641,7 +2641,7 @@
         {
           "level": 1,
           "name": "Расстановка выставки",
-          "desc": "[CanDuelGuard]\nНавык фазы [IronMaidenPersonality]\n[WinDuel] Повышает счётчик [Laceration] атаковавшего на 1 (До 2 раз за ход)\n[WinDuel] Наносит атаковавшему Пронзающий урон, равный силе его [Laceration] (До 20)",
+          "desc": "[CanDuelGuard]\nЭксклюзивный навык [IronMaidenPersonality]\n[WinDuel] Повышает счётчик [Laceration] атакующего на 1 (до 2 раз за ход)\n[WinDuel] Наносит атакующему проникающий урон, равный силе его [Laceration] (максимум 20 урона)",
           "coinlist": [
             {
               "coindescs": [
@@ -3234,7 +3234,7 @@
         {
           "level": 3,
           "name": "Клеймо",
-          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] На 30 [StigmaWorkshopCelloCaseOne] активируйте «Расчленение на высоком полудень[TabExplain]» (один раз за ход)\n- Если у этого устройства есть [CaseOverheating], указанный эффект не активируется\n[WhenUse] На 5+ [Combustion] сила монеты +1</style>\n[WhenUse] Проигрывать 5 [Combustion] (один раз за ход)\n[WinDuel] Проигрывать 3 [Combustion] (один раз за ход)",
+          "desc": "[DuelCounter]\n<style=\"highlight\">[BeforeUse] При 30 [StigmaWorkshopCelloCaseOne] вместо этого активируется «Расчленение в полдень[TabExplain]» (раз за ход)\n- Если есть [CaseOverheating], этот эффект не срабатывает\n[WhenUse] При 5 и более [Combustion] сила монет +1</style>\n[WhenUse] Теряет 5 [Combustion] (раз за ход)\n[WinDuel] Теряет 3 [Combustion] (раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3383,7 +3383,7 @@
         {
           "level": 4,
           "name": "Выпуск - Полдень",
-          "desc": "[WideAreaRampage]\n<style=\"highlight\">наносит +([Combustion] на себя + [Combustion] по цели)% урона (максимальный 20%, считается на цель)</style>\nАктивируйте следующие эффекты по цели при каждом попадании этого навыка:\n- Навести 1 [Combustion] или 1 [Vibration]\n- Если у цели нет [VibrationIgnition], триггер [Switch_Vibration] в [VibrationIgnition] (один раз на цель)\n[WhenUse]\n- сила в столкновении +3\n<style=\"highlight\">- +2 +1 силы монет и силы столкновения  за каждую 6 ([Combustion] + [Vibration]) по основной цели (максимальные 2 и 4 соответственно)</style>\n- Нанести +<style=\"highlight\">3</style> [Combustion] Считать по всем целям\n- Нанести +<style=\"highlight\">3</style> [Vibration] Считать по всем целям\n[EndSkill]\n- Нанести 1 [ResultReduction] следующий ход на все поражённые цели (один раз за ход)\n- получает 1 [Firstlight]\n- получает 1 [CaseOverheating]",
+          "desc": "[WideAreaRampage]\n<style=\"highlight\">Урон +([Combustion] Фауст + [Combustion] на цели)% (до 20%, рассчитывается отдельно для каждой цели)</style>\nАктивирует следующие эффекты на цели при каждом попадании навыка:\n- Наносит 1 [Combustion] или 1 [Vibration]\n- Если у цели нет [VibrationIgnition], активирует [Switch_Vibration] в [VibrationIgnition] (один раз на цель)\n[WhenUse]\n- Сила в столкновении +3\n<style=\"highlight\">За каждые 6 ([Combustion] + [Vibration]) на основной цели: сила монет +1 и сила в столкновении +2 (максимумы 2 и 4 соответственно)</style>\n- Повышает счётчик [Combustion] всех целей на <style=\"highlight\">3</style>\n- Повышает счётчик [Vibration] всех целей на <style=\"highlight\">3</style>\n[EndSkill]\n- Наносит 1 [ResultReduction] всем поражённым целям на следующий ход (раз за ход)\n- Получает 1 [Firstlight]\n- Получает 1 [CaseOverheating]",
           "coinlist": [
             {
               "coindescs": [
@@ -3484,7 +3484,7 @@
                   "desc": "Повторно использует эту монету (до 2 раз)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">Если уже есть [Firstlight], то на (Сила [Combustion] на цели / 2)% больше урона (До 20%)</style>"
+                  "desc": "<style=\"highlight\">Если у Фауст есть [Firstlight], урон +([Combustion] на цели)% (до 20%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1 (<style=\"highlight\">3</style> раза за навык)"

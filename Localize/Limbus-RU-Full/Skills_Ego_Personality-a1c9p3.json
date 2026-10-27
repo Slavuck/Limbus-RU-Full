@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [Reduction]"
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Reduction] в этот и следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Даёт 3 [Agility] на следующий ход всем союзникам"
@@ -88,7 +88,7 @@
           "level": 4,
           "name": "Область Небесных грёз",
           "abName": "Хун Лу",
-          "desc": "[EndSkill] Восстанавливает 15 СД себе и всем союзникам\n[EndSkill] Убирает Огонь с себя и всех союзников",
+          "desc": "[EndSkill] Восстанавливает 15 СД себе и союзникам\n[EndSkill] Снимает Ожог с себя и союзников",
           "coinlist": [
             {
               "coindescs": [
@@ -116,7 +116,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Burst]"
                 },
                 {
-                  "desc": "[EnemyKill] Применить 1 [AttackDmgUp] к случайному союзнику"
+                  "desc": "[EnemyKill] Даёт 1 [AttackDmgUp] случайному союзнику"
                 }
               ]
             }

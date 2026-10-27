@@ -24,7 +24,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Нескончаемое утопание",
+          "name": "Надвигающееся Погружение",
           "desc": "",
           "coinlist": [
             {
@@ -106,7 +106,7 @@
         {
           "level": 1,
           "name": "Плач в поисках чего-то",
-          "desc": "Сила столкновения +2 за каждый Старый зонт на поле боя\nНаносит на 25% больше урона за каждый Старый зонт на поле боя\nВ конце хода все Старые зонты исчезают\nВ конце хода получает [WaveFoxUmbrella:*Защитный зонт*], равный количеству [WaveFoxUmbrella:*Защитных зонтов*], полученных на первом ходе",
+          "desc": "Сила столкновения +2 за каждый уцелевший Старый зонт на поле боя\nНаносит на 25% больше урона за каждый Старый зонт на поле боя\nВ конце хода все Старые зонты исчезают\nВ конце хода получает [WaveFoxUmbrella:*Защитный зонт*], равный количеству [WaveFoxUmbrella:*Защитных зонтов*], полученных на первом ходу",
           "coinlist": [
             {
               "coindescs": [
@@ -219,7 +219,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Электрическая нагрузка",
+          "name": "Подача тока",
           "desc": "[StartBattle] Получает 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>\n[DefeatDuel] Теряет 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>\nНаносит на 10% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>",
           "coinlist": [
             {},
@@ -239,7 +239,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Выпуск электричества",
+          "name": "Сброс электричества",
           "desc": "[StartBattle] Получает 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>\n[DefeatDuel] Теряет 2 <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color>\nНаносит на 10% больше урона целям с <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Параличом</link></u></color>",
           "coinlist": [
             {},
@@ -290,7 +290,7 @@
         {
           "level": 1,
           "name": "Высоковольтный электрический разряд",
-          "desc": "[WhenUse] При 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color> наносит на 20% больше урона за каждый счётчик <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color> более 5-ти\n[WhenUse] Сила столкновения +1 за каждый Подзаряд\n[WhenUse] Тратит весь Подзаряд",
+          "desc": "[WhenUse] При 5 и более <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзарядах</link></u></color> наносит на 20% больше урона за каждый счётчик <sprite name=\"SelfCharge\"><color=#9f6a3a><u><link=\"SelfCharge\">Подзаряда</link></u></color> сверх 5\n[WhenUse] Сила столкновения +1 за каждый Подзаряд\n[WhenUse] Тратит весь Подзаряд",
           "coinlist": [
             {
               "coindescs": [
@@ -916,7 +916,7 @@
         {
           "level": 1,
           "name": "Пойманная наживка",
-          "desc": "[CantDuel] +1 к количеству целей за каждый ход с живой Феей.\nПриоритет нацеливания на идентичности с эффектом [FairyCharm:*Зачарованный*].",
+          "desc": "[CantDuel] +1 к весу атаки за каждый ход, в течение которого Фея остаётся жива.\nПриоритет нацеливания на идентичности с эффектом [FairyCharm:*Зачарованный*].",
           "coinlist": [
             {
               "coindescs": [
@@ -1484,7 +1484,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Хватит",
+          "name": "Остановись",
           "desc": "",
           "coinlist": [
             {
@@ -1532,7 +1532,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Розе с наименьшими в процентном соотношении ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает 10 ОЗ Розе с наименьшим запасом здоровья"
                 }
               ]
             }
@@ -1546,7 +1546,7 @@
         {
           "level": 1,
           "name": "Нескончаемое цветение",
-          "desc": "Приоритет нацеливания на противников без Терновый венец",
+          "desc": "Приоритет нацеливания на противников без Тернового венца",
           "coinlist": [
             {
               "coindescs": [
@@ -1668,7 +1668,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Вездесущий гнев",
+          "name": "Распространяющийся гнев",
           "desc": "",
           "coinlist": [
             {
@@ -1788,13 +1788,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Несподручная лень",
+          "name": "Упрямая лень",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 2"
+                  "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
@@ -1811,7 +1811,7 @@
         {
           "level": 1,
           "name": "Усыпляющая лень",
-          "desc": "Если получает атаку, при этом имея щит, провоцирует<sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color> у себя и у атаковавшего",
+          "desc": "Если получает атаку, имея щит, провоцирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color> у себя и атакующего",
           "coinlist": [
             {
               "coindescs": [
@@ -1848,7 +1848,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Превосходящее чревоугодие",
+          "name": "Обильное чревоугодие",
           "desc": "",
           "coinlist": [
             {
@@ -2035,7 +2035,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Взваленная зависть",
+          "name": "Накапливающаяся зависть",
           "desc": "[WhenUse] Получает +3 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[DefeatDuel] Понижает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3",
           "coinlist": [
             {

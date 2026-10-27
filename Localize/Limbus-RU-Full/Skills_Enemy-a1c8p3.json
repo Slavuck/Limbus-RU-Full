@@ -77,7 +77,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Agility]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход"
                 }
               ]
             }
@@ -310,7 +310,7 @@
         {
           "level": 1,
           "name": "Перезарядка зажигательных патронов",
-          "desc": "[StartBattle] [FullReload] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме силы [Combustion] и [Vibration]\n[WhenUse] Получает 1 [AttackDmgUp]",
+          "desc": "[StartBattle] [FullReload] (1 раз за ход)\n[WhenUse] Сила монет +3 против целей с суммой [Combustion] и [Vibration] не менее 6\n[WhenUse] Получает 1 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -425,7 +425,7 @@
         {
           "level": 1,
           "name": "Перезарядка зажигательных патронов",
-          "desc": "[StartBattle] [FullReload] (Единожды за ход)\n[WhenUse] Сила монет +3 против целей с 6 и более единицами в сумме силы [Combustion] и [Vibration]\n[WhenUse] Получает 1 [AttackDmgUp]",
+          "desc": "[StartBattle] [FullReload] (1 раз за ход)\n[WhenUse] Сила монет +3 против целей с суммой [Combustion] и [Vibration] не менее 6\n[WhenUse] Получает 1 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [

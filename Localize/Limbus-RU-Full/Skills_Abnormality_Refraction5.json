@@ -214,12 +214,12 @@
         {
           "level": 1,
           "name": "Искалечить",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 силы [Breath] на себе (максимум 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 3 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 3 силы [Breath]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] на 3"
@@ -236,12 +236,12 @@
         {
           "level": 1,
           "name": "Опустошить",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 силы [Breath] на себе (максимум 5)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 силы [Breath]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
@@ -251,7 +251,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 2 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 2 силы [Breath]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Повышает свой счётчик [Breath] на 2"
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "Затруднённое дыхание",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 8 [Breath] (До 5)\n[WhenUse] Сила монет +1 за каждые 8 единиц счётчика [Breath] (До 5)\n[DefeatDuel] Теряет половину своего [Breath]\n[EndSkill] Теряет половину своего [Breath] и его счётчика",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 8 силы [Breath] на себе (максимум 5)\n[WhenUse] Сила монет +1 за каждые 8 единиц счётчика [Breath] на себе (максимум 5)\n[DefeatDuel] Теряет половину силы [Breath] на себе\n[EndSkill] Теряет половину силы и счётчика [Breath] на себе",
           "coinlist": [
             {},
             {},
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Присесть",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)\n[WhenUse] Получает 4 [Breath]\n Если текущие ОЗ ниже 50%, повышает свой счётчик [Breath] на 4",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 силы [Breath] на себе (максимум 5)\n[WhenUse] Получает 4 силы [Breath]\n- При текущем ОЗ 50% или ниже дополнительно повышает свой счётчик [Breath] на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -311,7 +311,7 @@
         {
           "level": 1,
           "name": "Это... МОЁ!!",
-          "desc": "[CantChangeTarget]\n[WhenUse] Сила в столкновении +1 за каждые 4 [Breath] (До 3)\n[WhenUse] Сила в столкновении +1 за каждые 4 единицы счётчика [Breath] (До 3)",
+          "desc": "[CantChangeTarget]\n[WhenUse] Сила в столкновении +1 за каждые 4 силы [Breath] на себе (максимум 3)\n[WhenUse] Сила в столкновении +1 за каждые 4 единицы счётчика [Breath] на себе (максимум 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -364,7 +364,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "Наносите +([Breath] Сила + [Breath] Счёт) урон при критическом ударе"
+                  "desc": "Наносит на ([Breath] сила + [Breath] счётчик)% больше урона при критическом попадании"
                 }
               ]
             }
@@ -455,7 +455,7 @@
         {
           "level": 1,
           "name": "Сжимающие терновые лозы",
-          "desc": "Наносит на 1 силу и счётчик [Laceration] больше целям с 6 и более [Laceration]",
+          "desc": "Если у цели сила [Laceration] 6 или выше, сила [Laceration], накладываемая этим навыком, увеличивается на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -479,7 +479,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Полидипсические лепестки",
+          "name": "Жаждущие лепестки",
           "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика [Laceration]\n[WhenUse] Итоговая сила +2 против целей с 6 и более [Laceration]",
           "coinlist": [
             {
@@ -505,7 +505,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Рвущие лепестки",
+          "name": "Взрывающиеся лепестки",
           "desc": "Нацеливается на противника с наибольшей суммой силы и счётчика [Laceration]\n[WhenUse] Итоговая сила +2 против целей с 6 и более [Laceration]",
           "coinlist": [
             {
@@ -602,7 +602,7 @@
         {
           "level": 1,
           "name": "Бесконечный поток крови",
-          "desc": "[DuelCounter]\n[WhenUse] Противник, который сталкивается с этой атакой, не теряет счётчик [Laceration]",
+          "desc": "[DuelCounter]\n[WhenUse] Противник, сталкивающийся с этим навыком, не теряет счётчик [Laceration] на протяжении столкновения",
           "coinlist": [
             {
               "coindescs": [

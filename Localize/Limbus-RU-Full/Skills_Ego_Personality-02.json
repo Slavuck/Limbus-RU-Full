@@ -731,7 +731,7 @@
           "level": 1,
           "name": "Приказ: Расплавление",
           "abName": "Кальцит",
-          "desc": "Итоговая сила +1, если на основной цели есть [Combustion] или <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>\n[BeforeAttack] +1% к наносимому урону за каждую единицу в сумме потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели (До 15%)\n[EndSkill] Фауст получает 4 <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьера</link></u></color>\n[EndSkill] Фауст и союзник с наименьшим процентом текущего здоровья восстанавливают 15% здоровья\n- Если на момент лечения у Фауст полное здоровье, она восстанавливает здоровье двум союзникам взамен одного\n[EndSkill] Также Фауст восстанавливает 10 СД себе и двум союзникам с самой низкой силой духа",
+          "desc": "Итоговая сила +1, если на основной цели есть [Combustion] или <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>\n[BeforeAttack] +1% к наносимому урону за каждую единицу в сумме потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели (До 15%)\n[EndSkill] Фауст получает 4 <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьера</link></u></color>\n[EndSkill] Фауст и союзник с наименьшим процентом текущего здоровья восстанавливают 15% от её максимального здоровья\n- Если на момент лечения у Фауст полное здоровье, она восстанавливает здоровье двум союзникам взамен одного\n[EndSkill] Также Фауст восстанавливает 10 СД себе и двум союзникам с самой низкой силой духа",
           "coinlist": [
             {
               "coindescs": [
@@ -749,7 +749,7 @@
           "level": 3,
           "name": "Приказ: Расплавление",
           "abName": "Кальцит",
-          "desc": "Итоговая сила <style=\"highlight\">+2</style>, если на основной цели есть [Combustion] или <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>\n[BeforeAttack] +1% к наносимому урону за каждую единицу в сумме потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели (До 15%)\n<style=\"highlight\">- При наличии <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённого каркасного барьера</link></u></color> Фауст усиливает данный эффект навыка и его максимальные значения в <b>полтора</b> (x1,5) раза</style>\n[EndSkill] Фауст получает <style=\"highlight\">7</style> <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьеров</link></u></color>\n[EndSkill] Фауст и союзник с наименьшим процентом текущего здоровья восстанавливают <style=\"highlight\">20%</style> здоровья\n- Если на момент лечения у Фауст полное здоровье, она восстанавливает здоровье двум союзникам взамен одного\n[EndSkill] Также Фауст восстанавливает 10 СД себе и двум союзникам с самой низкой силой духа",
+          "desc": "Итоговая сила <style=\"highlight\">+2</style>, если на основной цели есть [Combustion] или <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>\n[BeforeAttack] +1% к наносимому урону за каждую единицу в сумме потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели (До 15%)\n<style=\"highlight\">- При наличии <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённого каркасного барьера</link></u></color> Фауст усиливает данный эффект навыка и его максимальные значения в <b>полтора</b> (x1,5) раза</style>\n[EndSkill] Фауст получает <style=\"highlight\">7</style> <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьеров</link></u></color>\n[EndSkill] Фауст и союзник с наименьшим процентом текущего здоровья восстанавливают <style=\"highlight\">20%</style> от максимального здоровья Фауст\n- Если на момент лечения у Фауст полное здоровье, она восстанавливает здоровье двум союзникам взамен одного\n[EndSkill] Также Фауст восстанавливает 10 СД себе и двум союзникам с самой низкой силой духа",
           "coinlist": [
             {
               "coindescs": [
@@ -767,7 +767,7 @@
           "level": 4,
           "name": "Приказ: Расплавление",
           "abName": "Кальцит",
-          "desc": "Итоговая сила <style=\"highlight\">+3</style>, если на основной цели есть [Combustion] или <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>\n[BeforeAttack] +1% к наносимому урону за каждую единицу в сумме потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели (До <style=\"highlight\">25%</style>)\n- При наличии <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённого каркасного барьера</link></u></color> Фауст усиливает данный эффект навыка и его максимальные значения в <style=\"highlight\"><b>два</b></style> (x2,0) раза\n[EndSkill]  Фауст получает <style=\"highlight\">10</style> <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьеров</link></u></color>\n[EndSkill] Фауст и союзник с наименьшим процентом текущего здоровья восстанавливают <style=\"highlight\">30%</style> здоровья\n- Если на момент лечения у Фауст полное здоровье, она восстанавливает здоровье двум союзникам взамен одного\n[EndSkill] Также Фауст восстанавливает <style=\"highlight\">15</style> СД себе и двум союзникам с самой низкой силой духа",
+          "desc": "Итоговая сила <style=\"highlight\">+3</style>, если на основной цели есть [Combustion] или <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>\n[BeforeAttack] +1% к наносимому урону за каждую единицу в сумме потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели (До <style=\"highlight\">25%</style>)\n- При наличии <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённого каркасного барьера</link></u></color> Фауст усиливает данный эффект навыка и его максимальные значения в <style=\"highlight\"><b>два</b></style> (x2,0) раза\n[EndSkill]  Фауст получает <style=\"highlight\">10</style> <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьеров</link></u></color>\n[EndSkill] Фауст и союзник с наименьшим процентом текущего здоровья восстанавливают <style=\"highlight\">30%</style> от максимального здоровья Фауст\n- Если на момент лечения у Фауст полное здоровье, она восстанавливает здоровье двум союзникам взамен одного\n[EndSkill] Также Фауст восстанавливает <style=\"highlight\">15</style> СД себе и двум союзникам с самой низкой силой духа",
           "coinlist": [
             {
               "coindescs": [
@@ -790,7 +790,7 @@
           "level": 1,
           "name": "Приказ: Расплавление",
           "abName": "Кальцит",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4-х и более грехах в наибольшем резонансе\n[EndSkill] Фауст получает 4 <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьера</link></u></color>\n[EndSkill] Если этим навыком Фауст не смогла никого оглушить или убить, она теряет 20% здоровья и взамен получает столько же щита\n- Если она не умерла от данного эффекта, к концу хода она повышает [CuredFilm] до верхней границы и получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход (Раз за ход)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 4-х и более грехах в наибольшем резонансе\n[EndSkill] Фауст получает 4 <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьера</link></u></color>\n[EndSkill] Если этим навыком Фауст не смогла никого оглушить или убить, она теряет 20% от максимального здоровья и взамен получает столько же щита\n- Если она не умерла от данного эффекта, к концу хода она повышает [CuredFilm] до верхней границы и получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -823,7 +823,7 @@
           "level": 3,
           "name": "Приказ: Расплавление",
           "abName": "Кальцит",
-          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Базовая сила +1, если сумма потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели равна 6-и и более единиц</style>\n[BeforeAttack] Тяжесть атаки +1 при <style=\"highlight\">3-х</style> и более грехах в наибольшем резонансе\n[EndSkill]  Фауст получает <style=\"highlight\">7</style> <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьеров</link></u></color>\n[EndSkill] Если этим навыком Фауст не смогла никого оглушить или убить, она теряет 20% здоровья и взамен получает столько же щита\n- Если она не умерла от данного эффекта, к концу хода она повышает [CuredFilm] до верхней границы и получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход (Раз за ход)",
+          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Базовая сила +1, если сумма потенциала и счётчика <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> основной цели равна 6-и и более единиц</style>\n[BeforeAttack] Тяжесть атаки +1 при <style=\"highlight\">3-х</style> и более грехах в наибольшем резонансе\n[EndSkill] Фауст получает <style=\"highlight\">7</style> <sprite name=\"CuredFilm\"><color=#f8c200><u><link=\"CuredFilm\">Укреплённых каркасных барьеров</link></u></color>\n[EndSkill] Если этим навыком Фауст не смогла никого оглушить или убить, она теряет 20% от максимального здоровья и взамен получает столько же щита\n- Если она не умерла от данного эффекта, к концу хода она повышает [CuredFilm] до верхней границы и получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -921,7 +921,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если на себе 15 и более [Combustion], наносит 1 [FaustFlameMothEmber] всем целям этого ЭГО навыка (Единожды за ход)"
+                  "desc": "[EndCoin] Если на себе 15 и более [Combustion], наносит 1 [FaustFlameMothEmber] всем целям этого ЭГО навыка (Единожды за ход; в сфокусированных боях — частям)"
                 }
               ]
             }
@@ -946,7 +946,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Если на себе 15 и более [Combustion], наносит 1 [FaustFlameMothEmber] всем целям этого ЭГО навыка (Единожды за ход)"
+                  "desc": "[EndCoin] Если на себе 15 и более [Combustion], наносит 1 [FaustFlameMothEmber] всем целям этого ЭГО навыка (Единожды за ход; в сфокусированных боях — частям)"
                 }
               ]
             }
@@ -1008,7 +1008,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Случайным образом наносит 3 [FaustFlameMothEmber] среди целей этого ЭГО навыка (Единожды за ход; исключая целей с уже максимальной силой [FaustFlameMothEmber])"
+                  "desc": "[EndCoin] Случайным образом наносит 3 [FaustFlameMothEmber] среди целей этого ЭГО навыка (Единожды за ход; исключая цели с уже максимальной силой [FaustFlameMothEmber]; в сфокусированных боях — части)"
                 }
               ]
             }
@@ -1040,7 +1040,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Случайным образом наносит 3 [FaustFlameMothEmber] среди целей этого ЭГО навыка (Единожды за ход; исключая целей с уже максимальной силой [FaustFlameMothEmber])"
+                  "desc": "[EndCoin] Случайным образом наносит 3 [FaustFlameMothEmber] среди целей этого ЭГО навыка (Единожды за ход; исключая цели с уже максимальной силой [FaustFlameMothEmber]; в сфокусированных боях — части)"
                 }
               ]
             }
@@ -1058,7 +1058,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит (Число грехов в резонансе Гнева / 3) [Combustion] (До 2; округляется вниз)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Увеличивает счётчик [Combustion] на (число грехов в резонансе Гнева / 3) (до 2; округление вниз)</style>"
                 }
               ]
             },
@@ -1075,7 +1075,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndCoin] Случайным образом наносит <style=\"highlight\">6</style> [FaustFlameMothEmber] среди целей этого ЭГО навыка (Единожды за ход; исключая целей с уже максимальной силой [FaustFlameMothEmber])"
+                  "desc": "[EndCoin] Случайным образом наносит <style=\"highlight\">6</style> [FaustFlameMothEmber] среди целей этого ЭГО навыка (Единожды за ход; исключая цели с уже максимальной силой [FaustFlameMothEmber]; в сфокусированных боях — части)"
                 }
               ]
             }

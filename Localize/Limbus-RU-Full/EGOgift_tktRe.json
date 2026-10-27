@@ -14,7 +14,7 @@
     {
       "id": 19812,
       "name": "Переплетённое время+",
-      "desc": "Когда происходит [Switch_Vibration] или [FusionVibration] навыками Идентичностей, [VibrationExplosion] на цели вместе с этим. (<style=\"upgradeHighlight\">До 2 раз</style> за ход на Идентичность)",
+      "desc": "При срабатывании [Switch_Vibration] или [FusionVibration] на враге его цель также получает [VibrationExplosion]. (Для каждой Идентичности — до <style=\"upgradeHighlight\">2</style> раз за ход)",
       "simpleDesc": [
         {
           "abilityID": 19812,
@@ -40,7 +40,7 @@
       "simpleDesc": [
         {
           "abilityID": 9813,
-          "simpleDesc": "ОЗ не падают ниже 1 восстанавливаются до 80% после этого"
+          "simpleDesc": "ОЗ не падают ниже 1, затем мгновенно восстанавливаются до 80% от максимума"
         },
         {
           "abilityID": 98131,
@@ -59,7 +59,7 @@
       "simpleDesc": [
         {
           "abilityID": 19813,
-          "simpleDesc": "ОЗ не падают ниже 1 восстанавливаются до 80% после этого"
+          "simpleDesc": "ОЗ не падают ниже 1, затем мгновенно восстанавливаются до 80% от максимума"
         },
         {
           "abilityID": 198131,

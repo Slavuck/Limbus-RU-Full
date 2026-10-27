@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Неразборчивая атака",
+          "name": "Невежливая атака",
           "desc": "[WhenUse] Получает 1 [Agility] на следующий ход",
           "coinlist": [
             {
@@ -787,7 +787,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Покалывание в волосах",
+          "name": "Удар по голове",
           "desc": "[WhenUse] Если на цели есть [MiddleFingerBook], наносит ещё 2 [DefenseDown] этим навыком",
           "coinlist": [
             {
@@ -875,7 +875,7 @@
         {
           "level": 1,
           "name": "Вцепиться в шанс",
-          "desc": "[BeforeHit] Получает 5 ОЗ Щита за каждую [MiddleFingerBook] на атакующем (До 50; единожды за ход)\n[WhenUse] Если на атакующем есть 3 и более [MiddleFingerBook]:\n- Базовая сила +3\n- Наносит ей 4 [DefenseDown]",
+          "desc": "[BeforeHit] Получает 5 ОЗ Щита за каждую [MiddleFingerBook] на цели (1 раз за ход; макс. 50)\n[WhenUse] Если у цели 5 или более [MiddleFingerBook], базовая сила +3 и накладывает на неё 4 [DefenseDown]",
           "coinlist": [
             {
               "coindescs": [

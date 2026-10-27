@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Этот непростительный грех...",
-          "desc": "[WhenUse] Счёт 20 [Laceration] и +1 [Laceration]",
+          "desc": "[WhenUse] Накладывает на себя 20 [Laceration] и увеличивает собственный счётчик [Laceration] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -51,7 +51,7 @@
         {
           "level": 1,
           "name": "Думали ли вы сегодня о крови?",
-          "desc": "[WhenUse] Получает 10 [Laceration]\n[WhenUse] Поглощает до 30 [BloodDinner] и восстанавливает ОЗ ядра и части другого союзника с наименьшими ОЗ на (Поглощённое [BloodDinner] × 2)",
+          "desc": "[WhenUse] Получает 10 [Laceration]\n[WhenUse] Поглощает до 30 [BloodDinner] и восстанавливает HP основного тела и части союзника с наименьшим HP на величину, равную удвоенному количеству поглощённого [BloodDinner] (себя не учитывает; дробная часть отбрасывается)",
           "coinlist": [
             {
               "coindescs": [
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Самопожертвование во имя Семьи",
-          "desc": "[StartBattle] При 50% ОЗ и выше сразу активирует [Laceration] на себе до 3 раз и его счётчик понижается на столько же\n[StartBattle] Все союзники включая себя восстанавливают 5 СД",
+          "desc": "[StartBattle] При HP не ниже 50% активирует [Laceration] на себе до 3 раз; за каждую активацию уменьшает счётчик кровотечения на 1. Полученный от этого урон не может привести к пошатыванию\n[StartBattle] Восстанавливает 5 СД всем союзникам, включая себя",
           "coinlist": [
             {
               "coindescs": [
@@ -344,7 +344,7 @@
         {
           "level": 1,
           "name": "Печальные объятия",
-          "desc": "[CantChangeTarget]\nВыбирает целью противника, с которым сталкивался атакой 「Выражение любви」 в прошлом ходе\nНе наносит урона\n[StartBattle] Получает 2 [Vulnerable] до конца следующего хода\n[EndBattle] Оглушается",
+          "desc": "[CantChangeTarget]\nВыбирает целью противника, с которым в прошлом ходу вступил в столкновение навыком «Выражение любви»\nНаносимый цели урон всегда равен 0\n[StartBattle] Получает 2 [Vulnerable] до следующего хода\n[EndBattle] Переходит в состояние пошатывания",
           "coinlist": [
             {
               "coindescs": [
@@ -384,7 +384,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [NailPersonality]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если удалось победить в столкновении с целью, повышает границу выносливости цели на (Количество её [AffectionTeddy] × 10)\n Вся [AffectionTeddy] исчезает с цели"
+                  "desc": "[OnSucceedAttack] Расходует весь [AffectionTeddy] на цели\n- Если выиграл столкновение, наносит цели урон по шкале пошатывания в размере 10 за каждую единицу израсходованного [AffectionTeddy]"
                 }
               ]
             }
@@ -397,7 +397,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Прикалывание к полу",
+          "name": "Прижать к земле",
           "desc": "",
           "coinlist": [
             {
@@ -556,7 +556,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Счёт 4 [Breath] и +3 [Breath]"
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath] и увеличивает счётчик [Breath] на 3"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит на 100% больше урона"
@@ -750,7 +750,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Активирует [Laceration] на всех противниках в количестве раз, равном его счётчику для каждого из них, опуская счётчик [Laceration] до 1"
+                  "desc": "[OnSucceedAttack] Активирует [Laceration] цели столько раз, сколько у неё счётчика [Laceration], и уменьшает её счётчик до 1"
                 }
               ]
             }
@@ -1156,7 +1156,7 @@
         {
           "level": 1,
           "name": "Венок из кнута",
-          "desc": "[StartBattle] Получает ОЗ Щита на (Количество противников с [ThornNoose])% от максимальных ОЗ",
+          "desc": "[StartBattle] Получает щит в размере процента от текущего HP, равного количеству врагов с [ThornNoose]",
           "coinlist": [
             {
               "coindescs": [
@@ -1291,7 +1291,7 @@
         {
           "level": 1,
           "name": "ВЫПУСТИТЕМЕНЯ!!!ВЫПУСТИТЕМЕНЯ!!!",
-          "desc": "Использует самоуничтожающий навык в следующем ходе",
+          "desc": "Использует навык, который взрывается на следующем ходу",
           "coinlist": [
             {
               "coindescs": [
@@ -1437,7 +1437,7 @@
         {
           "level": 1,
           "name": "Кровавый клин",
-          "desc": "[StartBattle] Количество целей +1 за каждые 3 [RegainedStrength] (До 2 дополнительных целей)\n[EndSkill] Теряет 3 [RegainedStrength]",
+          "desc": "[StartBattle] Атакующий вес +1 за каждые 3 [RegainedStrength] на себе (максимум 2)\n[EndSkill] Расходует 3 [RegainedStrength]",
           "coinlist": [
             {
               "coindescs": [
@@ -1685,7 +1685,7 @@
                   "desc": "[OnSucceedAttack] Оглушает цель и [Penetration] её в следующем ходе"
                 },
                 {
-                  "desc": "[EndCoin] Цель теряет 25 [Laceration] Потенцию. Приобрести [Laceration] и увеличить [BloodDinner] равный этому значению"
+                  "desc": "[EndCoin] Уменьшает силу [Laceration] цели на 25. Получает [Laceration] и увеличивает [BloodDinner] на величину уменьшения"
                 }
               ]
             }
@@ -1784,7 +1784,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] На скорости 7+ наносить 3 [Burst] считать"
+                  "desc": "[OnSucceedAttack] При скорости 7 и выше увеличивает счётчик [Burst] на 3"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] +50% к критическому урону"
@@ -1853,7 +1853,7 @@
         {
           "level": 1,
           "name": "Кннх",
-          "desc": "[WinDuel] Наносит на 50% больше урона за каждое комбо в столкновении (До 50%)\n[WinDuel] Получает 2 [Agility] на следующий ход\n[DefeatDuel] Получает 2 [Binding] на следующий ход",
+          "desc": "[WinDuel] Увеличивает урон на 10% за каждое столкновение (максимум 50%)\n[WinDuel] Получает 2 [Agility] на следующий ход\n[DefeatDuel] Получает 2 [Binding] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1908,7 +1908,7 @@
         {
           "level": 1,
           "name": "Сияющие воспоминания о приключении",
-          "desc": "[StartBattle] Даёт 1 [ParryingResultUp] и 1 [AttackDmgUp] случайному Грешнику\n[StartBattle] Наносит 1 [Vulnerable] истинному Дон Кихоту его и Свернувшейся мечте",
+          "desc": "[StartBattle] Накладывает по 1 [ParryingResultUp] и [AttackDmgUp] на случайного грешника\n[StartBattle] Накладывает 1 [Vulnerable] на Дон Кихота и его «Свернувшуюся мечту»",
           "coinlist": [
             {
               "coindescs": [

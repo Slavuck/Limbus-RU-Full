@@ -152,7 +152,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Хлестания",
+          "name": "Удар сверху",
           "desc": "Если на цели есть 4+ [Vibration], итоговая сила +1\n[WhenUse] Наносить на 1% больше урона за каждую единицу [Laceration] на себе (макс. 20%)",
           "coinlist": [
             {
@@ -391,7 +391,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Нет, мужик! Это моё!",
+          "name": "Эй! Это моё!",
           "desc": "[WhenUse] Получить 2 [Breath] за каждые 2 вида эффектов на цели (макс. 5)\n[WhenUse] Если на цели есть 4+ эффекта, получить +1 к счётчику [Breath]",
           "coinlist": [
             {
@@ -499,7 +499,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Нет, мужик! Это моё!",
+          "name": "Эй! Это моё!",
           "desc": "[WhenUse] Получить 2 [Breath] за каждые 2 вида эффектов на цели (макс. 5)\n[WhenUse] Если на цели есть 4+ эффекта, получить +1 к счётчику [Breath]",
           "coinlist": [
             {
@@ -588,7 +588,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Вновь подкидывает монету 1 раз"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повторно использовать эту монету 1 раз (1 раз за навык)"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Нанести колющий урон в размере потенциала [Laceration] на цели (макс. 30)"

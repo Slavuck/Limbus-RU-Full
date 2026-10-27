@@ -166,7 +166,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "[StartBattle] Получает (Свой счётчик [Vibration] × 5) ОЗ Щита (До 60)",
+          "desc": "[StartBattle] Получает щит с прочностью, равной своему счётчику [Vibration] × 5 (макс. 60)",
           "coinlist": [
             {
               "coindescs": [
@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "Сбор ради общего дела",
-          "desc": "[CantDuel]\n[StartBattle] Нарисовать всех остальных союзников [Vibration] счётчик к себе; [Vibration] на всех союзниках истекают\n[StartBattle] Получать 1 [AttackUp] за каждую 3 [Vibration] Рассчитывать на себя\n[WhenUse] получает 10 [Vibration] счётчик",
+          "desc": "[CantDuel]\n[StartBattle] Забирает себе весь [Vibration] других союзников, кроме себя; [Vibration] всех союзников удаляется\n[StartBattle] Получает 1 [AttackUp] за каждые 3 [Vibration] на себе\n[WhenUse] Получает 10 [Vibration]",
           "coinlist": [
             {
               "coindescs": [

@@ -656,7 +656,7 @@
                   "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[EnemyKill] Переносит потенциал <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> с цели на случайного противника (До 10. В направляемых битвах считает часть)",
+                  "desc": "[EnemyKill] Переносит потенциал <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> побеждённой цели на случайных противников, распределяя его между ними (макс. 10; в направленных боях — между частями)",
                   "summary": "[EnemyKill] Переносит [Combustion] на случайного противника"
                 }
               ]
@@ -696,7 +696,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Повторные удары"
+          "name": "Вновь вспыхнувший удар"
         }
       ]
     },
@@ -727,7 +727,7 @@
         {
           "level": 2,
           "name": "Приступаю к подавлению.",
-          "desc": "[WhenUse] Эта ячейка навыка получает 3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] [DefenseUp] <style=\"highlight\">2</style> 얻음\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 4 и более на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>\n[WinDuel] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
+          "desc": "[WhenUse] Эта ячейка навыка получает 3 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[WhenUse] Получает <style=\"highlight\">2</style> [DefenseUp]\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 4 и более на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>\n[WinDuel] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1883,7 +1883,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] При менее 50% здоровья и <sprite name=\"ChickenStance\"><color=#f8c200><u><link=\"ChickenStance\">Пылающей кровью</link></u></color> на клинке он вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Если у Синклера есть <sprite name=\"ChickenStance\"><color=#f8c200><u><link=\"ChickenStance\">Пылающая кровь</link></u></color> или его текущее здоровье ниже 50% от максимального, повторно подбрасывает эту монету (1 раз за навык)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1911,7 +1911,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] При менее 50% здоровья и <sprite name=\"ChickenStance\"><color=#f8c200><u><link=\"ChickenStance\">Пылающей кровью</link></u></color> на клинке он вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Если у Синклера есть <sprite name=\"ChickenStance\"><color=#f8c200><u><link=\"ChickenStance\">Пылающая кровь</link></u></color> или его текущее здоровье ниже 50% от максимального, повторно подбрасывает эту монету (1 раз за навык)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1945,7 +1945,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] При менее 50% здоровья и <sprite name=\"ChickenStance\"><color=#f8c200><u><link=\"ChickenStance\">Пылающей кровью</link></u></color> на клинке он вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackHead] Если у Синклера есть <sprite name=\"ChickenStance\"><color=#f8c200><u><link=\"ChickenStance\">Пылающая кровь</link></u></color> или его текущее здоровье ниже 50% от максимального, повторно подбрасывает эту монету (1 раз за навык)<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttackHead] +10% к итоговому урону навыка в качестве урона Гневом</style>"
@@ -2278,7 +2278,7 @@
                   "desc": "[CriticalOnSucceedAttackHead] Использовать эту монету повторно (один раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttackHead] Если вновь подкинутая монета выпала орлом и значение [LittleFingerID](;DicipleLittleFinger) при этом равно 10 и более, опять подкидывает её 1 раз</style>"
+                  "desc": "<style=\"highlight\">[ReUseOnSucceedAttackHead] Если собственное значение [LittleFingerID] равно 10 или выше, повторно подбрасывает эту монету (1 раз за навык)</style>"
                 }
               ]
             }

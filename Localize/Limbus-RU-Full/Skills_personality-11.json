@@ -11,7 +11,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свои черты оглушения на число, равное счётчику <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе (До 10-и) "
+                  "desc": "[OnSucceedAttackHead] Восстанавливает шкалу оглушения на величину собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (макс. 10)"
                 }
               ]
             }
@@ -25,7 +25,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свои черты оглушения на число, равное счётчику <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе (До 10-и) "
+                  "desc": "[OnSucceedAttack] Восстанавливает шкалу оглушения на величину собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (макс. 10)"
                 }
               ]
             }
@@ -39,7 +39,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свои черты оглушения на число, равное счётчику <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на себе (До 10-и) "
+                  "desc": "[OnSucceedAttack] Восстанавливает шкалу оглушения на величину собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> (макс. 10)"
                 }
               ]
             }
@@ -53,7 +53,7 @@
         {
           "level": 1,
           "name": "На кусочки",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех ячейках навыков грешницы",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> один навык низшего ранга среди навыков во всех своих ячейках",
           "coinlist": [
             {
               "coindescs": [
@@ -142,7 +142,7 @@
         {
           "level": 3,
           "name": "Смелое решение",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навыка от высшего ранга к низшему из всех ячейках умений грешницы\nПонижает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 10, чтобы получить силу монет +1",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает навыки</link></u></color> во всех своих ячейках в порядке от высшего ранга к низшему\nТратит 10 собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы получить +1 к силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -157,21 +157,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; После провокации снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttackHead] Вызывает <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>; после Взрыва Тремора уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; После провокации снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttackHead] Вызывает <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>; после Взрыва Тремора уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; После провокации снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttackHead] Вызывает <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>; после Взрыва Тремора уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
                 }
               ]
             }
@@ -180,7 +180,7 @@
         {
           "level": 4,
           "name": "Смелое решение",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навыка от высшего ранга к низшему из всех ячейках умений грешницы\nПонижает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 10, чтобы получить силу монет +2",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает навыки</link></u></color> во всех своих ячейках в порядке от высшего ранга к низшему\nТратит 10 собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы получить +2 к силе монет",
           "coinlist": [
             {
               "coindescs": [
@@ -195,21 +195,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; После провокации снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttack] Вызывает <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>; после Взрыва Тремора уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; После провокации снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttack] Вызывает <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>; после Взрыва Тремора уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; После провокации снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttack] Вызывает <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>; после Взрыва Тремора уменьшает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
                 }
               ]
             }
@@ -223,7 +223,7 @@
         {
           "level": 1,
           "name": "Средство от похмелья",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех ячейках навыков грешницы",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> один навык низшего ранга среди навыков во всех своих ячейках",
           "coinlist": [
             {}
           ]
@@ -231,7 +231,7 @@
         {
           "level": 4,
           "name": "Средство от похмелья",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> навык низшего ранга во всех ячейках навыков грешницы",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> один навык низшего ранга среди навыков во всех своих ячейках",
           "coinlist": [
             {}
           ]
@@ -380,7 +380,7 @@
         {
           "level": 3,
           "name": "Финт с выпадом",
-          "desc": "Итоговая сила +2 при 7 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\n[WinDuel] Получает Дыхание в зависимости от серии парирований (До 10-и)",
+          "desc": "При 7 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> итоговая сила +2\n[WinDuel] Получает Дыхание за каждый раунд столкновения (макс. 10)",
           "coinlist": [
             {
               "coindescs": [
@@ -425,7 +425,7 @@
         {
           "level": 1,
           "name": "Отступление",
-          "desc": "Сила монет +1, если скорость грешницы выше, чем у цели\n[OnSucceedEvade] Получает 1 Дыхание (До 5)",
+          "desc": "Сила монет +1, если скорость грешницы выше скорости атакующего\n[OnSucceedEvade] Получает 1 Дыхание (макс. 5)",
           "coinlist": [
             {}
           ]
@@ -433,7 +433,7 @@
         {
           "level": 4,
           "name": "Отступление",
-          "desc": "Сила монет +1 за каждую единицу разницы в скорости между грешницей и целью (До 3-х раз)\n[OnSucceedEvade] Получает 1 Дыхание (До 10-и)",
+          "desc": "Сила монет +1 за каждую единицу разницы в скорости, если скорость грешницы выше скорости атакующего (макс. 3)\n[OnSucceedEvade] Получает 1 Дыхание (макс. 10)",
           "coinlist": [
             {}
           ]
@@ -615,7 +615,7 @@
         {
           "level": 1,
           "name": "Цена магической пули",
-          "desc": "[WhenUse] Получает 1 <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магическую пулю</link></u></color> (Раз за ход)\n[EndSkillAll] Тратит СД пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>",
+          "desc": "[WhenUse] Получает 1 <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магическую пулю</link></u></color> (раз за ход)\n[EndSkillAll] Теряет СД в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>",
           "coinlist": [
             {}
           ]
@@ -623,7 +623,7 @@
         {
           "level": 4,
           "name": "Цена магической пули",
-          "desc": "[WhenUse] Получает 1 <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магическую пулю</link></u></color> (Раз за ход)\n[WhenUse] Повышает итоговую силу на (Число <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> × 2)\n[EndSkillAll] Тратит СД пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>",
+          "desc": "[WhenUse] Получает 1 <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магическую пулю</link></u></color> (раз за ход)\n[WhenUse] Итоговая сила увеличивается на число <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> × 2\n[EndSkillAll] Теряет СД в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>",
           "coinlist": [
             {}
           ]
@@ -959,7 +959,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 ед. потенциала одного случайного эффекта из списка: <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огонь</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремор</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыв</link></u></color> или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружение</link></u></color>"
                 },
                 {
                   "desc": "[EndSkill] При оглушении или убийстве цели даёт 1 [PenetrateDamageUp] на следующий ход союзнику с наибольшей СД (кроме себя)"
@@ -1778,7 +1778,7 @@
         {
           "level": 1,
           "name": "Частичные мутации «Хэйшоу»",
-          "desc": "[DuelCounter]\n[WhenUse] Отис получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног</link></u></color>\n[WhenUse] Базовая сила +1 за каждые 2 единицы в разнице скорости, когда Отис быстрее цели",
+          "desc": "[DuelCounter]\n[WhenUse] Отис получает 3 <sprite name=\"LegStrength\"><color=#f8c200><u><link=\"LegStrength\">Усиления ног</link></u></color>\n[WhenUse] Если скорость Отис выше скорости цели на 2 или более, базовая сила +1",
           "coinlist": [
             {
               "coindescs": [
@@ -2302,7 +2302,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                  "desc": "[OnSucceedAttack] Вызывает [VibrationExplosion] и уменьшает счётчик [Vibration] цели на 1"
                 }
               ]
             }
@@ -2335,7 +2335,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 2 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] накладывает 3 [BlueSand] следующем ходу<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [BlueSand] на следующий ход<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [AzureResistDown] (Единожды за ход)"
@@ -2354,7 +2354,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 2 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Вызывает [VibrationExplosion] и уменьшает счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnSucceedAttack] Если цель — СД Юнит, активировать [VibrationExplosion]; затем сократите [Vibration] счётчик цели на 1\nЕсли у цели меньше 0 СД, наносите 1 [AzureTakeDamageUp] (один раз за ход)</style>"
@@ -2385,7 +2385,7 @@
         {
           "level": 4,
           "name": "Хладнокровие",
-          "desc": "Если получает удар по щиту, наносит 3 [Sinking] атакующему (До 3 раз за ход)\n<style=\"highlight\">[WhenUse] Если имеется [TheUdjatOutis], получает 1 [Protection]</style>\n[WhenUse] Получает ОЗ Щита в размере 5% от максимальных ОЗ за каждую [Protection] на себе (До 15%; единожды за ход)",
+          "desc": "Если получает удар, пока у неё есть щит, накладывает на атакующего 3 [Sinking] (до 3 раз за ход)\n<style=\"highlight\">[WhenUse] При наличии [TheUdjatOutis] получает 1 [Protection] (раз за ход)</style>\n[WhenUse] За каждую [Protection] на себе получает щит в размере 5% от максимального ОЗ (макс. 15%; раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2478,7 +2478,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 2 к счётчику [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Поднимает границу выносливости цели на 5</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит цели 5 единиц урона оглушению</style>"
                 }
               ]
             },
@@ -2730,7 +2730,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 5"
+                  "desc": "[OnSucceedAttack] Наносит цели 5 единиц урона оглушению"
                 }
               ]
             }
@@ -2751,7 +2751,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на <style=\"highlight\">10</style>"
+                  "desc": "[OnSucceedAttack] Наносит цели <style=\"highlight\">10</style> единиц урона оглушению"
                 }
               ]
             }
@@ -2776,7 +2776,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Наносит цели 5 единиц урона оглушению"
                 }
               ]
             },
@@ -2809,7 +2809,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на <style=\"highlight\">10</style>"
+                  "desc": "[OnSucceedAttack] Наносит цели <style=\"highlight\">10</style> единиц урона оглушению"
                 }
               ]
             },
@@ -3003,7 +3003,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит дополнительный Пронзающий и Дробящий урон, равный (Сумма силы [Combustion] и [Laceration] на цели)% от итогового урона этой монеты (До 25%)"
+                  "desc": "[OnSucceedAttack] Наносит дополнительный Пронзающий урон в размере (сумма [Combustion] и [Laceration] цели)% от итогового урона этой монеты (макс. 25%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит Дробящий урон, равный сумме [Combustion] и [Laceration] на цели в процентах от итогового урона этой монеты (до 25%)"
@@ -3069,7 +3069,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит дополнительный Пронзающий и Дробящий урон, равный (Сумма силы [Combustion] и [Laceration] на цели)% от итогового урона этой монеты (До 25%)"
+                  "desc": "[OnSucceedAttack] Наносит дополнительный Пронзающий урон в размере (сумма [Combustion] и [Laceration] цели)% от итогового урона этой монеты (макс. 25%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит Дробящий урон, равный сумме [Combustion] и [Laceration] на цели в процентах от итогового урона этой монеты (до 25%)"
@@ -3114,7 +3114,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 10"
+                  "desc": "[OnSucceedAttack] Наносит цели 10 единиц урона оглушению"
                 }
               ]
             },

@@ -148,7 +148,7 @@
         {
           "level": 1,
           "name": "Разрушитель паланкинов",
-          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более единицами счётчика [Laceration]\n[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика [Vibration]",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более единицами счётчика [Laceration]\n[WhenUse] Сила монет +1 против целей с 4 и более единицами счётчика [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -205,7 +205,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown] на следующй ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown] на следующий ход"
                 }
               ]
             }
@@ -225,7 +225,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующй ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
                 }
               ]
             }
@@ -244,21 +244,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующй ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующй ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующй ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 [AttackDown] на следующий ход"
                 }
               ]
             }
@@ -784,7 +784,7 @@
         {
           "level": 1,
           "name": "Корчиться в одиночестве",
-          "desc": "[WhenUse] +1 базовой силы за каждую 10% отсутствующую ОЗ на себе (максимальный 5)\n[WhenUse] +1 монет на каждый 4 [Burst] по цели (максимум 3)\n\n[WhenUse] Если цель имеет 10+ ([Burst] + [Burst] счётчик), наложите [Burst] счётчик, равный [Burst] счётчик на цель",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 10% потерянных ОЗ (макс. 5)\n[WhenUse] Сила монет +1 за каждые 4 [Burst] на цели (макс. 3)\n\n[WhenUse] Если сумма ([Burst] + счётчик [Burst]) у цели не меньше 10, увеличивает её счётчик [Burst] на величину её счётчика [Burst]",
           "coinlist": [
             {
               "coindescs": [
@@ -831,7 +831,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 15+ ([Burst] + [Burst] счётчик) наносить урон от чревоугодия ([Burst] Сила x [Burst] счётчик). (макс 40)"
+                  "desc": "[OnSucceedAttack] Если сумма ([Burst] + счётчик [Burst]) достигает 15, наносит урон от чревоугодия в размере ([Burst] × счётчик [Burst]) (макс. 40)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 5"
@@ -859,7 +859,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Burst], заново использует навык (До 2 раз)"
+                  "desc": "[OnSucceedAttack] Если у цели 5 или более [Burst], повторно использует эту монету (макс. 2 раза)"
                 }
               ]
             }
@@ -1334,7 +1334,7 @@
                   "desc": "На 1% больше урона за каждую единицу в сумме силы [Laceration] и счётчика [Laceration] на цели (До 20%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 3 и более [SipOfAlcohol] снова использует этот навык 1 раз"
+                  "desc": "[OnSucceedAttack] Если у себя есть 3 или более [SipOfAlcohol], повторно использует эту монету 1 раз (1 раз за навык)"
                 }
               ]
             }

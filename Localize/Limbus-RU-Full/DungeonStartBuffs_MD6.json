@@ -54,11 +54,11 @@
     },
     {
       "id": "GiveBuffOnRSOnNewFloorTheme",
-      "description": "<color=#f8c200>После выбора новой темы этажа в первый раз (На {4} этаже или ниже) даёт '{1}' × {2} всем союзникам в битвах</color>"
+      "description": "<color=#f8c200>При выборе новой темы этажа без записи (на этаже {4} или ниже) в битвах этой темы даёт '{1}' × {2}</color>"
     },
     {
       "id": "GiveBuffOnRSOnThemePackUnlockCount",
-      "description": "<color=#f8c200>Если {4} и более Тем этажей были разблокированы в Сборнике тем, даёт '{1}' × {2}</color>"
+      "description": "<color=#f8c200>Если в Сборнике тем разблокировано не менее {4} наборов тем, получите '{1}' × {2}</color>"
     },
     {
       "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
@@ -118,7 +118,7 @@
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_ENTER_6TH_FLOOR",
-      "description": "<color=#f8c200>После зачистки 6 этажа все Идентичности</color> получают +{0} к своему Уровню"
+      "description": "<color=#f8c200>При входе на 6-й этаж все Идентичности получают +{0} к уровню</color>"
     },
     {
       "id": "MaxSpeedUpAdder",

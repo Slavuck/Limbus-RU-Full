@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "",
           "coinlist": [
             {
@@ -24,7 +24,7 @@
         {
           "level": 3,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "",
           "coinlist": [
             {
@@ -45,7 +45,7 @@
         {
           "level": 4,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "",
           "coinlist": [
             {
@@ -71,7 +71,7 @@
         {
           "level": 1,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "[CantIdentify]\nСлучайная цель\n",
           "coinlist": [
             {
@@ -95,7 +95,7 @@
         {
           "level": 3,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
@@ -119,7 +119,7 @@
         {
           "level": 4,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
             {
@@ -249,7 +249,7 @@
           "level": 1,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила парирований +1 за каждые 100 единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До 2)\n[BeforeAttack] При менее 50 единиц <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение последующих 3-х Дон Кихот теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила схватки +1 за каждые 100 единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До 2)\n[BeforeAttack] При менее 50 единиц <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> при каждом попадании наносит цели 1 [Laceration]\n[EndSkill] В течение 3 ходов теряет по 10 СД в конце хода.",
           "coinlist": [
             {
               "coindescs": [
@@ -290,7 +290,7 @@
                   "desc": "При 300 и более долях, +0,1% к урону за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 30%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
+                  "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До 3)"
                 }
               ]
             }
@@ -300,7 +300,7 @@
           "level": 3,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\n<style=\"highlight\">Сила монет +1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели</style>\nСила парирований +1 за каждые 100 единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До <style=\"highlight\">3</style>)\n[BeforeAttack] При <style=\"highlight\">75-</style> <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 1 [Laceration]\n[EndSkill] В течение последующих 3-х Дон Кихот теряет по 10 СД",
+          "desc": "Во время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\n<style=\"highlight\">Сила монет +1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели</style>\nСила схватки +1 за каждые 100 единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color> (До <style=\"highlight\">3</style>)\n[BeforeAttack] При менее <style=\"highlight\">75</style> единиц <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> при каждом попадании наносит цели 1 [Laceration]\n[EndSkill] В течение 3 ходов теряет по 10 СД в конце хода.",
           "coinlist": [
             {
               "coindescs": [
@@ -392,7 +392,7 @@
                   "desc": "При 300 и более долях, +0,1% к урону за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">50</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">4</style>)"
+                  "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До <style=\"highlight\">4</style>)"
                 }
               ]
             }
@@ -425,7 +425,7 @@
                   "desc": "Урон +5% за каждые 100 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 25%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
+                  "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До 3)"
                 },
                 {
                   "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
@@ -456,7 +456,7 @@
                   "desc": "Урон +<style=\"highlight\">10</style>% за каждые 100 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">50</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">4</style>)"
+                  "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До <style=\"highlight\">4</style>)"
                 },
                 {
                   "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
@@ -487,7 +487,7 @@
                   "desc": "Урон +<style=\"highlight\">20</style>% за каждые 100 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">100</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До <style=\"highlight\">5</style>)"
+                  "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До <style=\"highlight\">5</style>)"
                 },
                 {
                   "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"

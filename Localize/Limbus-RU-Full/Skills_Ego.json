@@ -214,7 +214,7 @@
           "level": 1,
           "name": "Камни желаний",
           "abName": "Воспевания падоге",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Атакует самую дальнюю цель (только в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -232,7 +232,7 @@
           "level": 3,
           "name": "Камни желаний",
           "abName": "Воспевания падоге",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Атакует самую дальнюю цель (только в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1143,7 +1143,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 },
                 {
-                  "desc": "Повышает порог оглушения на 30% от нанесённого урона"
+                  "desc": "Наносит урон стойкости, равный 30% нанесённого урона"
                 }
               ]
             }
@@ -1289,7 +1289,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Disarming\"><color=#e30000><u><link=\"Disarming\">Понижения силы защиты</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Понижение уровня защиты"
+                  "desc": "[OnSucceedAttack] Наносит 2 Понижения уровня защиты"
                 }
               ]
             }
@@ -1348,7 +1348,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Disarming\"><color=#e30000><u><link=\"Disarming\">Понижения силы защиты</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Понижение уровня защиты"
+                  "desc": "[OnSucceedAttack] Наносит 2 Понижения уровня защиты"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 4 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
@@ -1570,7 +1570,7 @@
           "level": 1,
           "name": "Фиксгарпун",
           "abName": "Измаил",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1588,7 +1588,7 @@
           "level": 3,
           "name": "Фиксгарпун",
           "abName": "Измаил",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1606,7 +1606,7 @@
           "level": 4,
           "name": "Фиксгарпун",
           "abName": "Измаил",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1632,7 +1632,7 @@
           "level": 1,
           "name": "Розовеющее желание",
           "abName": "Розовые туфельки",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1650,7 +1650,7 @@
           "level": 3,
           "name": "Розовеющее желание",
           "abName": "Розовые туфельки",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1668,7 +1668,7 @@
           "level": 4,
           "name": "Розовеющее желание",
           "abName": "Розовые туфельки",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1762,7 +1762,7 @@
           "level": 1,
           "name": "Вспышка алых лепестков",
           "abName": "Мотылёк алых лепестков",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1780,7 +1780,7 @@
           "level": 3,
           "name": "Вспышка алых лепестков",
           "abName": "Мотылёк алых лепестков",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1801,7 +1801,7 @@
           "level": 4,
           "name": "Вспышка алых лепестков",
           "abName": "Мотылёк алых лепестков",
-          "desc": "Выбирает ближайшую цель (В обычных битвах)",
+          "desc": "Выбирает целью самого дальнего персонажа (в обычных боях)",
           "coinlist": [
             {
               "coindescs": [
@@ -1883,7 +1883,7 @@
           "level": 1,
           "name": "Что брошено",
           "abName": "Родя",
-          "desc": "Если у цели больше 50% ОЗ, +10% к урону",
+          "desc": "Если у цели не менее 50% ОЗ, наносит +10% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -1898,7 +1898,7 @@
           "level": 3,
           "name": "Что брошено",
           "abName": "Родя",
-          "desc": "Если у цели больше 50% ОЗ, +30% к урону",
+          "desc": "Если у цели не менее 50% ОЗ, наносит +30% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -1913,7 +1913,7 @@
           "level": 4,
           "name": "Что брошено",
           "abName": "Родя",
-          "desc": "Если у цели больше 50% ОЗ, +30% к урону",
+          "desc": "Если у цели не менее 50% ОЗ, наносит +30% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -2057,7 +2057,7 @@
           "level": 1,
           "name": "Ледяная ножка",
           "abName": "Баба-яга",
-          "desc": "Если у цели больше 50% ОЗ, наносит +10% к урону",
+          "desc": "Если у цели не менее 50% ОЗ, наносит +10% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -2075,7 +2075,7 @@
           "level": 3,
           "name": "Ледяная ножка",
           "abName": "Баба-яга",
-          "desc": "Если у цели больше 50% ОЗ, наносит +30% к урону",
+          "desc": "Если у цели не менее 50% ОЗ, наносит +30% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -2093,7 +2093,7 @@
           "level": 4,
           "name": "Ледяная ножка",
           "abName": "Баба-яга",
-          "desc": "Если у цели больше 50% ОЗ, наносит +30% к урону",
+          "desc": "Если у цели не менее 50% ОЗ, наносит +30% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -2116,7 +2116,7 @@
           "level": 1,
           "name": "Ледяная ножка",
           "abName": "Баба-яга",
-          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем\nЕсли у цели больше 50% ОЗ, наносит +10% к урону",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим количеством ОЗ\nЕсли у цели не менее 50% ОЗ, наносит +10% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -2134,7 +2134,7 @@
           "level": 3,
           "name": "Ледяная ножка",
           "abName": "Баба-яга",
-          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем\nЕсли у цели больше 50% ОЗ, наносит +30% к урону",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим количеством ОЗ\nЕсли у цели не менее 50% ОЗ, наносит +30% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -2152,7 +2152,7 @@
           "level": 4,
           "name": "Ледяная ножка",
           "abName": "Баба-яга",
-          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем\nЕсли у цели больше 50% ОЗ, наносит +30% к урону",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим количеством ОЗ\nЕсли у цели не менее 50% ОЗ, наносит +30% к урону",
           "coinlist": [
             {
               "coindescs": [
@@ -2451,7 +2451,7 @@
           "level": 1,
           "name": "Чёрный стебель",
           "abName": "Яблоко Чёрной Королевы",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2510,7 +2510,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[EndSkill] Восстанавливает 18 СД\n[EndSkill] Даёт 1 Повышение силы атаки 2-м случайным союзникам",
+          "desc": "[EndSkill] Восстанавливает 18 СД\n[EndSkill] Даёт 2 случайным союзникам, кроме себя, 1 Повышение силы атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -2551,7 +2551,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Даёт 1 Повышение силы атаки 2-м случайным союзникам",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Даёт 2 случайным союзникам, кроме себя, 1 Повышение силы атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -2582,7 +2582,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>, или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 3 ед. случайного эффекта: <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 }
               ]
             }
@@ -2597,7 +2597,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 6 ед. случайного эффекта: <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 }
               ]
             }
@@ -2612,7 +2612,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>, или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 10 ед. случайного эффекта: <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> или <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 }
               ]
             }
@@ -2762,7 +2762,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 40% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 40% от нанесённого урона"
                 }
               ]
             }
@@ -2777,7 +2777,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 60% от нанесённого урона"
                 }
               ]
             }
@@ -2792,12 +2792,12 @@
           "level": 1,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цели с самыми высокими ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим запасом ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 20% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
@@ -2810,12 +2810,12 @@
           "level": 3,
           "name": "Фонарь",
           "abName": "Фонарь фей",
-          "desc": "[CantIdentify]\nВыбирает цели с самыми высокими ОЗ",
+          "desc": "[CantIdentify]\nВыбирает цель с наибольшим запасом ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 30% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
@@ -3219,7 +3219,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает 5% максимальных ОЗ носителя"
+                  "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает ему ОЗ в размере 5% от максимальных ОЗ носителя"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>; если целью стал союзник, даёт 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход"
@@ -3824,7 +3824,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
@@ -3987,7 +3987,7 @@
           "level": 1,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цели с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядом</link></u></color>\n[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5",
+          "desc": "[CantIdentify]\nОтдаёт приоритет атаке случайной цели с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядом</link></u></color>\n[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5",
           "coinlist": [
             {
               "coindescs": [
@@ -4002,7 +4002,7 @@
           "level": 3,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цели с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядом</link></u></color>\n[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 7",
+          "desc": "[CantIdentify]\nОтдаёт приоритет атаке случайной цели с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядом</link></u></color>\n[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 7",
           "coinlist": [
             {
               "coindescs": [
@@ -4017,7 +4017,7 @@
           "level": 4,
           "name": "РАНД",
           "abName": "Шокирующая многоножка",
-          "desc": "[CantIdentify]\nВыбирает цели с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядом</link></u></color>\n[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10",
+          "desc": "[CantIdentify]\nОтдаёт приоритет атаке случайной цели с <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядом</link></u></color>\n[BeforeAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10",
           "coinlist": [
             {
               "coindescs": [
@@ -4437,7 +4437,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[BeforeAttack] Тяжесть атаки +1 при СД выше 15",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при СД не ниже 15",
           "coinlist": [
             {
               "coindescs": [
@@ -4499,7 +4499,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тяжесть атаки +1 при СД ниже -15",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тяжесть атаки +1 при СД не выше -15",
           "coinlist": [
             {
               "coindescs": [

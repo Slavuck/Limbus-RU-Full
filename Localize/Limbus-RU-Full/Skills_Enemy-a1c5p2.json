@@ -234,7 +234,7 @@
         {
           "level": 1,
           "name": ".-.. -",
-          "desc": "[WinDuel] Цель теряет 1 СД за каждого живого Обелённого союзника (не считая данной русалки)",
+          "desc": "[WinDuel] Цель теряет 1 СД за каждого живого союзника в состоянии Обеления (кроме пользователя)",
           "coinlist": [
             {
               "coindescs": [
@@ -263,7 +263,7 @@
         {
           "level": 1,
           "name": "-... .…",
-          "desc": "Дополнительно лечит одного Обелённого союзника с наименьшей силой духа при атаке цели с <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружением</link></u></color>",
+          "desc": "Если у цели есть <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружение</link></u></color>, лечение ОЗ также применяется к одному союзнику в состоянии Обеления с наименьшим запасом здоровья",
           "coinlist": [
             {
               "coindescs": [
@@ -781,7 +781,7 @@
         {
           "level": 1,
           "name": "В готовности записывать",
-          "desc": "[EndBattle] Получает 1 [Enhancement] при сохранённом щите",
+          "desc": "[EndBattle] Если щит сохранился, получает 1 [Enhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -809,7 +809,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает черты оглушения на 8"
+                  "desc": "[OnSucceedAttackTail] Наносит 8 урона по шкале ошеломления"
                 }
               ]
             }
@@ -828,7 +828,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 30"
+                  "desc": "[OnSucceedAttack] Наносит 30 урона по шкале ошеломления"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"
@@ -947,7 +947,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Повышает черты оглушения на 8"
+                  "desc": "[OnSucceedAttackTail] Наносит 8 урона по шкале ошеломления"
                 }
               ]
             }
@@ -966,7 +966,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 30"
+                  "desc": "[OnSucceedAttack] Наносит 30 урона по шкале ошеломления"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"

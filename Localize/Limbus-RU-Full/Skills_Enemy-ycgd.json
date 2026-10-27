@@ -420,7 +420,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к рубящему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к рубящему урону на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
@@ -430,7 +430,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к рубящему урону"
+                  "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к рубящему урону на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
@@ -500,7 +500,7 @@
         {
           "level": 1,
           "name": "Разрез, расчищающий небо",
-          "desc": "[StartBattle] Тяжесть атаки +1, если у основной цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[StartBattle] Итоговая сила +1 при 5 атакующих навыках в ячейках на начало хода\n[WinDuel] Восстанавливает 10 СД всем союзникам\n+30% к урону против целей с 7 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "desc": "[StartBattle] Тяжесть атаки +1, если у основной цели 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[StartBattle] Итоговая сила +5, если в этом ходу используется ровно 5 атакующих навыков\n[WinDuel] Восстанавливает 10 СД всем союзникам\n+30% к урону против целей с 7 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
             {
               "coindescs": [

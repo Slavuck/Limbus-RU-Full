@@ -98,7 +98,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [BoldBrushstrokes]</u></b></mark></color>"
                 }
               ]
             }
@@ -120,7 +120,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не имеет экипированных защитных навыков, то вновь подкидывает эту монету (До 2 раз за навык)\n- Если проиграла в столкновении, то подкидывает эту монету вновь всего 1 раз вместо 2-ух"
+                  "desc": "[OnSucceedAttack] Повторно использовать эту монету (максимум 2 раза)\n- При попадании после проигрыша в столкновении повторно использовать эту монету (максимум 1 раз вместо этого)\n- Не срабатывает, если у цели экипирован защитный навык"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [Laceration] и повышает счётчик [Laceration] на 2"
@@ -235,7 +235,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [BoldBrushstrokes]</u></b></mark></color>"
                 }
               ]
             }
@@ -269,7 +269,7 @@
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 9 [EagleClawWound]</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [BoldBrushstrokes]</u></b></mark></color>"
                 }
               ]
             }
@@ -331,7 +331,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Эта монета попадает по всем целям навыка независимо от эффекта Нефокусированного залпа</u></b></mark></color>"
+                  "desc": "<color=#ff6000><mark=#ff000040><b><u>Эта монета попадает по всем целям</u></b></mark></color>"
                 }
               ]
             }
@@ -393,7 +393,7 @@
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 9 [EagleClawWound]</u></b></mark></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит [BoldBrushstrokes]</u></b></mark></color>"
+                  "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Наносит 1 [BoldBrushstrokes]</u></b></mark></color>"
                 }
               ]
             }

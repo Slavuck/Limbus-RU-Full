@@ -65,7 +65,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] На скорости 7+ наносить 3 [Burst] считать"
+                  "desc": "[OnSucceedAttack] При скорости 7 и выше увеличивает счётчик [Burst] на 3"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] +50% к критическому урону"
@@ -365,7 +365,7 @@
         {
           "level": 1,
           "name": "Как невежливо!",
-          "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +1 за каждую фазу [BloodScissor] (До 3)\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration] на себе (До 3)",
+          "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +1 за каждую стадию [BloodScissor] (максимум 3)\n[WhenUse] Сила монет +1 за каждые 5 [Laceration] на себе (максимум 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -384,7 +384,7 @@
         {
           "level": 1,
           "name": "Мне не нужны уродливые вещи!!",
-          "desc": "[CantChangeTarget]\nНацеливается на противника с наименьшей СД",
+          "desc": "[CantChangeTarget]\nВ первую очередь атакует цель с наименьшим процентом текущего здоровья",
           "coinlist": [
             {
               "coindescs": [

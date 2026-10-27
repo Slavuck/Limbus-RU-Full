@@ -3,14 +3,14 @@
     {
       "id": 1027,
       "panicName": "Голод",
-      "lowMoraleDescription": "Старт хода: Набирайте 1 [Binding] и 2 [Enhancement]. Получите 5 СД урон в конце поворота",
+      "lowMoraleDescription": "В начале хода получает 1 [Binding] и 2 [Enhancement]. В конце хода теряет 5 СД.",
       "panicDescription": "Начало хода: получает 2 [Binding] и 4 [Enhancement]."
     },
     {
       "id": 1028,
       "panicName": "Горящий дуэльным делом",
-      "lowMoraleDescription": "- Получает 2 [AttackUp]\n- При поражении в столкновении получает 1 [DefenseDown] (До 3 раз за ход)\n- Минимальная скорость снижается на 1",
-      "panicDescription": "- Получает 4 [AttackUp]\n- При поражении в столкновении получает 2 [DefenseDown] (До 6 раз за ход)\n- Минимальная скорость снижается на 1"
+      "lowMoraleDescription": "В начале хода получает 2 [AttackUp]. При поражении в столкновении получает 1 [DefenseDown] (макс. 3 за ход). Минимальная скорость -1.",
+      "panicDescription": "В начале хода получает 4 [AttackUp]. При поражении в столкновении получает 2 [DefenseDown] (макс. 6 за ход). Минимальная скорость -1."
     }
   ]
 }

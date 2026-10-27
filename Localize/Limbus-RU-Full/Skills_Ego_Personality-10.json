@@ -129,7 +129,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Завет, 9:2",
+          "name": "Глава 9, раздел 2",
           "abName": "Пророк кожи",
           "desc": "",
           "coinlist": [
@@ -147,9 +147,9 @@
         },
         {
           "level": 3,
-          "name": "Завет, 9:2",
+          "name": "Глава 9, раздел 2",
           "abName": "Пророк кожи",
-          "desc": "[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при резонансе Похоти 4 или выше",
           "coinlist": [
             {
               "coindescs": [
@@ -165,9 +165,9 @@
         },
         {
           "level": 4,
-          "name": "Завет, 9:2",
+          "name": "Глава 9, раздел 2",
           "abName": "Пророк кожи",
-          "desc": "[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более\n[BeforeAttack] Дополнительно +1 цель при абсолюте Похоти, равном 4 и более",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при резонансе Похоти 4 или выше\n[BeforeAttack] Дополнительно тяжесть атаки +1 при наибольшем абсолютном резонансе Похоти 4 или выше",
           "coinlist": [
             {
               "coindescs": [
@@ -191,7 +191,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Завет, 9:2",
+          "name": "Глава 9, раздел 2",
           "abName": "Пророк кожи",
           "desc": "[CantIdentify]\nСлучайная цель",
           "coinlist": [
@@ -209,9 +209,9 @@
         },
         {
           "level": 3,
-          "name": "Завет, 9:2",
+          "name": "Глава 9, раздел 2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при резонансе Похоти 4 или выше",
           "coinlist": [
             {
               "coindescs": [
@@ -230,9 +230,9 @@
         },
         {
           "level": 4,
-          "name": "Завет, 9:2",
+          "name": "Глава 9, раздел 2",
           "abName": "Пророк кожи",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество цели +1 при резонансе Похоти, равном 4 и более\n[BeforeAttack] Дополнительно +1 цель при абсолюте Похоти, равном 4 и более",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при резонансе Похоти 4 или выше\n[BeforeAttack] Дополнительно тяжесть атаки +1 при наибольшем абсолютном резонансе Похоти 4 или выше",
           "coinlist": [
             {
               "coindescs": [
@@ -337,10 +337,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цель"
                 },
                 {
-                  "desc": "[EndSkill] Синклер получает щит на (15 + наибольший резонанс × 2,5)% от максимальных ОЗ и 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color>. (До 25%)"
+                  "desc": "[EndSkill] Получает щит в размере (15 + наибольший резонанс × 2,5)% от своего максимума ОЗ и 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color>. (Макс. 25%)"
                 },
                 {
-                  "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 "
+                  "desc": "- Если на самом юните уже есть [ShieldManagerCryingToad], меняет его количество на 2"
                 },
                 {
                   "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color>"
@@ -361,10 +361,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цель<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">18</style> + наибольший резонанс × <style=\"highlight\">3</style>)% от максимальных ОЗ и 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color>. (До <style=\"highlight\">30%</style>)"
+                  "desc": "[EndSkill] Получает щит в размере (<style=\"highlight\">18</style> + наибольший резонанс × <style=\"highlight\">3</style>)% от своего максимума ОЗ и 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color>. (Макс. <style=\"highlight\">30%</style>)"
                 },
                 {
-                  "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 <style=\"highlight\"></style>"
+                  "desc": "- Если на самом юните уже есть [ShieldManagerCryingToad], меняет его количество на 2 <style=\"highlight\"></style>"
                 },
                 {
                   "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color><style=\"highlight\"></style>"
@@ -385,16 +385,16 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цель и<style=\"highlight\">повышает её счётчик на 3</style>"
                 },
                 {
-                  "desc": "[EndSkill] Синклер получает щит на (<style=\"highlight\">20</style> + наибольший резонанс × <style=\"highlight\">5</style>)% от максимальных ОЗ и 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color>. (До <style=\"highlight\">40%</style>)"
+                  "desc": "[EndSkill] Получает щит в размере (<style=\"highlight\">20</style> + наибольший резонанс × <style=\"highlight\">5</style>)% от своего максимума ОЗ и 2 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color>. (Макс. <style=\"highlight\">40%</style>)"
                 },
                 {
-                  "desc": "- Если на Синклере уже есть [ShieldManagerCryingToad], обновляет её счётчик на 2 <style=\"highlight\"></style>"
+                  "desc": "- Если на самом юните уже есть [ShieldManagerCryingToad], меняет его количество на 2 <style=\"highlight\"></style>"
                 },
                 {
                   "desc": "- Если наибольший абсолют Уныния равен 4 и более, этот навык даёт 3 <sprite name=\"ShieldManagerCryingToad\"><color=#9f6a3a><u><link=\"ShieldManagerCryingToad\">Слезинки</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">- Если наибольший абсолют Уныния равен 4 или более, Синклер получает щит на дополнительные 10% от максимальных ОЗ</style>"
+                  "desc": "<style=\"highlight\">- При резонансе Уныния 4 или выше получает дополнительный щит в размере 10% от своего максимума ОЗ</style>"
                 }
               ]
             }
@@ -608,7 +608,7 @@
                   "desc": "[OnSucceedAttack] При 20 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Булавках для погребения цветов</link></u></color> или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы увеличить урон этой монеты на 20% (1 раз за ход)"
                 }
               ]
             }
@@ -636,7 +636,7 @@
                   "desc": "[OnSucceedAttack] При 20 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Булавках для погребения цветов</link></u></color> или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы увеличить урон этой монеты на 20% (1 раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -667,7 +667,7 @@
                   "desc": "[OnSucceedAttack] При 20 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Булавках для погребения цветов</link></u></color> или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы увеличить урон этой монеты на 20% (1 раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -700,7 +700,7 @@
                   "desc": "[OnSucceedAttack] При 20 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Булавках для погребения цветов</link></u></color> или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы увеличить урон этой монеты на 20% (1 раз за ход)"
                 }
               ]
             }
@@ -728,7 +728,7 @@
                   "desc": "[OnSucceedAttack] При 20 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Булавках для погребения цветов</link></u></color> или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы увеличить урон этой монеты на 20% (1 раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -759,7 +759,7 @@
                   "desc": "[OnSucceedAttack] При 20 и более <sprite name=\"YesdragonSelf\"><color=#f8c200><u><link=\"YesdragonSelf\">Булавках для погребения цветов</link></u></color> или менее 30% здоровья Синклер вновь подкидывает эту монету (Раз за навык)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] +20% к урону данной монеты за трату оставшегося здоровья (Раз за ход)<style=\"highlight\"></style>"
+                  "desc": "[ReUseOnSucceedAttack] Тратит все свои ОЗ, чтобы увеличить урон этой монеты на 20% (1 раз за ход)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -793,8 +793,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если текущие ОЗ выше 10%: теряет 4~8 ОЗ, чтобы вновь подкинуть эту монету (До 4 раз за навык; ОЗ не могут опуститься ниже 1 от этого эффекта)",
-                  "summary": "[OnSucceedAttackHead] Тратит ОЗ, чтобы вновь подкинуть монету"
+                  "desc": "[OnSucceedAttackHead] Если текущие ОЗ составляют 10% или больше: получает урон по ОЗ от 4 до 8 (1 раз за монету)\n- Затем повторно использует эту монету (максимум 4 раза за навык)\n- Этот эффект не вызывает ступор и не снижает ОЗ ниже 1",
+                  "summary": "[OnSucceedAttackHead] Тратит ОЗ, чтобы повторно использовать эту монету"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
@@ -832,8 +832,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если текущие ОЗ выше 10%: теряет 4~8 ОЗ, чтобы вновь подкинуть эту монету (До 4 раз за навык; ОЗ не могут опуститься ниже 1 от этого эффекта)",
-                  "summary": "[OnSucceedAttackHead] Тратит ОЗ, чтобы вновь подкинуть монету"
+                  "desc": "[OnSucceedAttackHead] Если текущие ОЗ составляют 10% или больше: получает урон по ОЗ от 4 до 8 (1 раз за монету)\n- Затем повторно использует эту монету (максимум 4 раза за навык)\n- Этот эффект не вызывает ступор и не снижает ОЗ ниже 1",
+                  "summary": "[OnSucceedAttackHead] Тратит ОЗ, чтобы повторно использовать эту монету"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
@@ -871,8 +871,8 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если текущие ОЗ выше 10%: теряет 4~8 ОЗ, чтобы вновь подкинуть эту монету (До 4 раз за навык; ОЗ не могут опуститься ниже 1 от этого эффекта)",
-                  "summary": "[OnSucceedAttackHead] Тратит ОЗ, чтобы вновь подкинуть монету"
+                  "desc": "[OnSucceedAttackHead] Если текущие ОЗ составляют 10% или больше: получает урон по ОЗ от 4 до 8 (1 раз за монету)\n- Затем повторно использует эту монету (максимум 4 раза за навык)\n- Этот эффект не вызывает ступор и не снижает ОЗ ниже 1",
+                  "summary": "[OnSucceedAttackHead] Тратит ОЗ, чтобы повторно использовать эту монету"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
@@ -881,7 +881,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Случайный союзник получает 1~<style=\"highlight\">3</style> [ThatIsRhythm] на следующий ход (Единожды за монету)"
+                  "desc": "[OnSucceedAttack] Случайный союзник получает 1~<style=\"highlight\">3</style> [ThatIsRhythm] на следующий ход (1 раз за монету)"
                 }
               ]
             }
@@ -896,7 +896,7 @@
           "level": 1,
           "name": "Гармония",
           "abName": "Поющая машина",
-          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 2 единицы в сумме силы [Laceration] и [Combustion] на главной цели (До 6)\nНаносит на 1% больше урона за каждый 1% своих потерянных ОЗ (До 10%)\nДополнительные цели получают на 50% меньше урона от этого навыка\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -2 за каждую расколотую в столкновении Вечную монету (До -6)\n[EndSkill] Восстанавливает 10 СД четырём другим союзникам с наименьшей СД\n[EndSkill] Даёт на следующий ход всем союзникам 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp], 1 [Vulnerable] (Если этим навыком была убита цель, активирует этот эффект ещё раз)",
+          "desc": "[CantIdentify]\nСлучайные цели\nСила в столкновении +1 за каждые 2 единицы в сумме силы [Laceration] и [Combustion] на главной цели (макс. 6)\nНаносит на 1% больше урона за каждый 1% потерянных собственных ОЗ (макс. 10%)\nДополнительные цели получают на 50% меньше урона от этого навыка\n[BeforeAttack] Тяжесть атаки увеличивается на (наибольший резонанс / 2) (макс. 2; округление вниз)\n[BeforeAttack] Базовая сила уменьшается на 2 за каждую разбитую монету (макс. -6)\n[EndSkill] Восстанавливает 10 СД четырём союзникам с наименьшей СД\n[EndSkill] Все союзники получают на следующий ход 2 [ThatIsRhythm], 1 [CrimsonDamageUp], 1 [ScarletDamageUp], 1 [VioletDamageUp] и 1 [Vulnerable]\n- Если цель убита, ещё раз активирует эффект выше",
           "coinlist": [
             {
               "coindescs": [
@@ -925,7 +925,7 @@
                 },
                 {
                   "desc": "[OnSucceedAttack] Если текущие ОЗ выше 10%: теряет 10~20 ОЗ\n- Затем, если сумма потерянных за использование навыка ОЗ от этого эффекта ниже 50, вновь подкидывает эту монету (ОЗ не могут опуститься ниже 1 от этого эффекта)",
-                  "summary": "[OnSucceedAttack] Теряет ОЗ, чтобы вновь подкинуть монету"
+                  "summary": "[OnSucceedAttack] Тратит свои ОЗ\nПри выполнении условия повторно использует эту монету"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
@@ -934,7 +934,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Даёт 1 [ThatIsRhythm] на следующий ход случайному союзнику (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Случайный союзник получает 1 [ThatIsRhythm] на следующий ход (1 раз за монету)"
                 }
               ]
             }
@@ -972,8 +972,8 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если текущие ОЗ выше 10%: теряет 10~20 ОЗ\n- Затем, если сумма потерянных за использование навыка ОЗ от этого эффекта ниже 50, вновь подкидывает эту монету (ОЗ не могут опуститься ниже 1 от этого эффекта)",
-                  "summary": "[OnSucceedAttack] Теряет ОЗ, чтобы вновь подкинуть монету"
+                  "desc": "[OnSucceedAttack] Если текущие ОЗ составляют 10% или больше: получает урон по ОЗ от 10 до 20 (1 раз за монету)\n- Затем, если суммарно потерянные от этого эффекта ОЗ за использование навыка меньше 50, повторно использует эту монету (максимум 4 раза за навык)\n- Этот эффект не вызывает ступор и не снижает ОЗ ниже 1",
+                  "summary": "[OnSucceedAttack] Тратит свои ОЗ\nПри выполнении условия повторно использует эту монету"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
@@ -982,7 +982,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Даёт 1<style=\"highlight\">~2</style> [ThatIsRhythm] на следующий ход случайному союзнику (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Случайный союзник получает <style=\"highlight\">1~2</style> [ThatIsRhythm] на следующий ход (1 раз за монету)"
                 }
               ]
             }
@@ -1020,8 +1020,8 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если текущие ОЗ выше 10%: теряет 10~20 ОЗ\n- Затем, если сумма потерянных за использование навыка ОЗ от этого эффекта ниже 50, вновь подкидывает эту монету (ОЗ не могут опуститься ниже 1 от этого эффекта)",
-                  "summary": "[OnSucceedAttack] Теряет ОЗ, чтобы вновь подкинуть монету"
+                  "desc": "[OnSucceedAttack] Если текущие ОЗ составляют 10% или больше: получает урон по ОЗ от 10 до 20 (1 раз за монету)\n- Затем, если суммарно потерянные от этого эффекта ОЗ за использование навыка меньше 50, повторно использует эту монету (максимум 4 раза за навык)\n- Этот эффект не вызывает ступор и не снижает ОЗ ниже 1",
+                  "summary": "[OnSucceedAttack] Тратит свои ОЗ\nПри выполнении условия повторно использует эту монету"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Combustion]"
@@ -1030,7 +1030,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Даёт 1~<style=\"highlight\">3</style> [ThatIsRhythm] на следующий ход случайному союзнику (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Случайный союзник получает 1~<style=\"highlight\">3</style> [ThatIsRhythm] на следующий ход (1 раз за монету)"
                 }
               ]
             }

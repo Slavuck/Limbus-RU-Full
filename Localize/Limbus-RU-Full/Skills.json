@@ -16,7 +16,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "При победе в поединке, игнорируется атака противника."
+          "desc": "При победе в столкновении снижает собственный порог оглушения"
         }
       ]
     },
@@ -147,7 +147,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если СД жертвы ниже 0, наносит 1 Уязвимость"
+                  "desc": "[OnSucceedAttack] Если СД цели ниже 0, наносит 1 Уязвимость на следующий ход"
                 }
               ]
             }
@@ -176,7 +176,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если СД цели ниже 0, наносит 1 Уязвимость"
+                  "desc": "[OnSucceedAttack] Если СД цели ниже 0, наносит 1 Уязвимость на следующий ход"
                 }
               ]
             }
@@ -1002,7 +1002,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Рыцарский турнир",
+          "name": "Укол",
           "desc": "[WinDuel] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход",
           "coinlist": [
             {}
@@ -1023,7 +1023,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Галоппирующий уклон",
+          "name": "Собранный выпад",
           "desc": "[WinDuel] Получает 1 Повышение силы атаки на следующий ход",
           "coinlist": [
             {}
@@ -1059,7 +1059,7 @@
         {
           "level": 3,
           "name": "Во имя справедливости!",
-          "desc": "Сила монет +2 при скорости +10",
+          "desc": "Сила монет +2 при скорости не ниже 10",
           "coinlist": [
             {},
             {},
@@ -1069,7 +1069,7 @@
         {
           "level": 4,
           "name": "Во имя справедливости!",
-          "desc": "Сила монет +2 при скорости +10",
+          "desc": "Сила монет +2 при скорости не ниже 10",
           "coinlist": [
             {
               "coindescs": [
@@ -1413,7 +1413,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Передышка",
+          "name": "Гипервентиляция",
           "desc": "Сила навыка +3 при 10 и более скорости",
           "coinlist": [
             {}
@@ -1421,7 +1421,7 @@
         },
         {
           "level": 4,
-          "name": "Передышка",
+          "name": "Гипервентиляция",
           "desc": "Сила навыка +5 при 10 и более скорости",
           "coinlist": [
             {}
@@ -1643,7 +1643,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3<sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к рубящему урону</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"SlashTakeDamageUp\"><color=#e30000><u><link=\"SlashTakeDamageUp\">Уязвимости к рубящему урону</link></u></color> на следующий ход"
                 }
               ]
             },
@@ -2699,7 +2699,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -2708,7 +2708,7 @@
         {
           "level": 2,
           "name": "Облачный разрез",
-          "desc": "[BeforeAttack] Вновь подкидывает 1-ю и 2-ю монеты против целей с 4-мя и менее единицами на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "desc": "[BeforeAttack] Если у цели меньше 4 единиц на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, повторно использует 1-ю и 2-ю монеты навыка",
           "keywords": [],
           "coinlist": [
             {
@@ -2721,7 +2721,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -2757,7 +2757,7 @@
         {
           "level": 3,
           "name": "Облачный разрыв",
-          "desc": "[StartBattle] Эта атака наносит 1 дополнительные Кровотечение и Паралич",
+          "desc": "[StartBattle] Этот навык дополнительно накладывает 1 единицу Кровотечения и 1 единицу Паралича",
           "coinlist": [
             {
               "coindescs": [
@@ -2877,7 +2877,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Снова подкидывает монету, если цель атаки пережила атаки предыдущих монет с менее 25% ОЗ\n+50% к урону для этой монеты при выпадении орлом"
+                  "desc": "[OnSucceedAttackHead] Если у цели меньше 25% ОЗ и она выжила, повторно использовать эту монету 1 раз\nПри выпадении орла урон этой монеты +50%"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttackHead] +50% к урону для этой монеты"
@@ -3152,7 +3152,7 @@
         {
           "level": 4,
           "name": "Взмах меча",
-          "desc": "Если у грешника менее 50% ОЗ, +2 силы навыка\n[WhenUse] Получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "desc": "Если у грешника менее 50% ОЗ, +2 к силе навыка\n[WhenUse] Получает 3 к счётчику <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {}
           ]
@@ -3186,7 +3186,7 @@
         {
           "level": 4,
           "name": "Молниеносный удар",
-          "desc": "Сила навыка +2 при 10 и более единиц на счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>\nЕсли у грешника менее 50% ОЗ, количество целей +1",
+          "desc": "При 10 и более единицах на счётчике <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> сила навыка +2\nЕсли у грешника менее 50% ОЗ, вес атаки +1",
           "coinlist": [
             {
               "coindescs": [
@@ -3663,7 +3663,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 40% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 40% от нанесённого урона"
                 }
               ]
             },
@@ -3673,7 +3673,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 30% от нанесённого урона"
                 }
               ]
             },
@@ -3683,7 +3683,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 20% от нанесённого урона"
                 }
               ]
             },
@@ -3693,7 +3693,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 10% от нанесённого урона"
                 }
               ]
             }
@@ -3710,7 +3710,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 40% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 40% от нанесённого урона"
                 }
               ]
             },
@@ -3720,7 +3720,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 30% от нанесённого урона"
                 }
               ]
             },
@@ -3730,7 +3730,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 20% от нанесённого урона"
                 }
               ]
             },
@@ -3740,7 +3740,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 10% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по порогу оглушения в размере 10% от нанесённого урона"
                 }
               ]
             }
@@ -3774,7 +3774,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Взмах меча",
+          "name": "Летающий меч",
           "desc": "",
           "keywords": [],
           "coinlist": [
@@ -3868,7 +3868,7 @@
         {
           "level": 2,
           "name": "Молниеносный удар",
-          "desc": "[WhenUse] Если у грешницы менее 50% ОЗ, снова подкидывает 1 и 2 монеты",
+          "desc": "[WhenUse] Если у грешницы менее 50% ОЗ, монеты 1 и 2 этого навыка добавляются ещё раз",
           "keywords": [],
           "coinlist": [
             {
@@ -3890,7 +3890,7 @@
         {
           "level": 4,
           "name": "Молниеносный удар",
-          "desc": "[WhenUse] Если у грешницы менее 50% ОЗ, снова подкидывает 1 и 2 монеты",
+          "desc": "[WhenUse] Если у грешницы менее 50% ОЗ, монеты 1 и 2 этого навыка добавляются ещё раз",
           "keywords": [],
           "coinlist": [
             {
@@ -4232,7 +4232,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Комбо топором",
+          "name": "Серия рубящих ударов",
           "desc": "",
           "coinlist": [
             {
@@ -4402,7 +4402,7 @@
         {
           "level": 4,
           "name": "Заточенное лезвие",
-          "desc": "Сила монет +3 при 4 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхании</link></u></color>",
+          "desc": "Сила монет +2 при 4 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхании</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -4691,7 +4691,7 @@
         {
           "level": 3,
           "name": "Усмирение",
-          "desc": "Если цель не получала урон в этот ход, сила монет +2",
+          "desc": "Если цель не получала урон от атак в этот ход, сила монет +2",
           "coinlist": [
             {
               "coindescs": [
@@ -5176,7 +5176,7 @@
         {
           "level": 3,
           "name": "Сильный удар",
-          "desc": "[WhenUse] Даёт 1 Защищённость союзнику с самым низким здоровьем",
+          "desc": "[WhenUse] Даёт 1 Защищённость союзнику с самым низким текущим здоровьем на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -5550,7 +5550,7 @@
         {
           "level": 3,
           "name": "Пронзание",
-          "desc": "Если ОЗ цели выше 50%, наносит +20% к урону",
+          "desc": "Если ОЗ цели не ниже 50%, наносит +20% урона",
           "coinlist": [
             {}
           ]
@@ -5558,7 +5558,7 @@
         {
           "level": 4,
           "name": "Пронзание",
-          "desc": "Если ОЗ цели выше 50%, наносит +20% к урону",
+          "desc": "Если ОЗ цели не ниже 50%, наносит +20% урона",
           "coinlist": [
             {
               "coindescs": [
@@ -5693,7 +5693,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Поднимает первую порог оглушения на 20% от нанесённого урона"
+                  "desc": "[CriticalOnSucceedAttack] Повреждает первый порог оглушения на величину, равную 20% от нанесённого урона"
                 }
               ]
             }
@@ -5708,7 +5708,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] Поднимает первую порог оглушения на 20% от нанесённого урона"
+                  "desc": "[CriticalOnSucceedAttack] Повреждает первый порог оглушения на величину, равную 20% от нанесённого урона"
                 }
               ]
             }
@@ -5818,7 +5818,7 @@
         {
           "level": 4,
           "name": "Приказ атаковать",
-          "desc": "[WhenUse] Даёт 1 Повышение силы атаки союзнику с наименьшей скорость",
+          "desc": "[WhenUse] Даёт 1 Повышение силы атаки союзнику с наименьшей скоростью",
           "coinlist": [
             {
               "coindescs": [
@@ -6215,7 +6215,7 @@
         {
           "level": 4,
           "name": "Отточенный удар ладонью",
-          "desc": "Если на цели 6 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, +10% к наносимому урону по оглушённой цели",
+          "desc": "Если на цели 6 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, наносит +10% урона",
           "coinlist": [
             {
               "coindescs": [
@@ -6488,20 +6488,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Наступление",
+          "name": "Пронзание",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешника на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает порог ошеломления на 30% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешника на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает порог ошеломления на 30% от нанесённого урона"
                 }
               ]
             }
@@ -6509,20 +6509,20 @@
         },
         {
           "level": 2,
-          "name": "Наступление",
+          "name": "Пронзание",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешника на 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает порог ошеломления на 60% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешника на 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает порог ошеломления на 60% от нанесённого урона"
                 }
               ]
             }
@@ -6530,20 +6530,20 @@
         },
         {
           "level": 4,
-          "name": "Наступление",
+          "name": "Пронзание",
           "desc": "[WhenUse] Эта ячейка получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nСила монет +2 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешника на 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает порог ошеломления на 60% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешника на 60% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает порог ошеломления на 60% от нанесённого урона"
                 }
               ]
             }
@@ -6556,7 +6556,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Сними грех с тела его",
+          "name": "Я смою грехи",
           "desc": "",
           "coinlist": [
             {
@@ -6666,7 +6666,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 50% от нанесённого урона\nВосстанавливает +3% ОЗ в зависимости от количества Гвозди на цели"
+                  "desc": "[OnSucceedAttack] Восстанавливает 50% от нанесённого урона\nВосстанавливает на 3% больше ОЗ за каждый Гвоздь на цели"
                 }
               ]
             }
@@ -7213,21 +7213,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит дополнительный урон на 10% от прошедшего урона"
+                  "desc": "[OnSucceedAttackHead] Наносит дополнительный урон в размере 10% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит дополнительный урон на 10% от прошедшего урона"
+                  "desc": "[OnSucceedAttackHead] Наносит дополнительный урон в размере 10% от нанесённого урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит дополнительный урон на 10% от прошедшего урона"
+                  "desc": "[OnSucceedAttackHead] Наносит дополнительный урон в размере 10% от нанесённого урона"
                 }
               ]
             }
@@ -7586,7 +7586,7 @@
                   "desc": "[OnSucceedAttackHead] Восстанавливает 6 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 6-и и более единиц на счётчике <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели повышает порог оглушения на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Если у цели 6 или более единиц на счётчике <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, наносит урон оглушения в размере 30% от нанесённого урона"
                 }
               ]
             }
@@ -7610,7 +7610,7 @@
                   "desc": "[OnSucceedAttackHead] Восстанавливает 6 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 6-и и более единиц на счётчике <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели повышает порог оглушения на 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Если у цели 6 или более единиц на счётчике <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>, наносит урон оглушения в размере 30% от нанесённого урона"
                 }
               ]
             }
@@ -8129,7 +8129,7 @@
         {
           "level": 2,
           "name": "Казнь без завершения суда",
-          "desc": "[WhenUse] Теряет 10 СД\nЕсли грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, +10% к наносимому урону по оглушённой цели",
+          "desc": "[WhenUse] Теряет 10 СД\nЕсли грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит +10% урона",
           "coinlist": [
             {},
             {
@@ -8172,13 +8172,13 @@
         {
           "level": 3,
           "name": "Саморазрушающее очищение",
-          "desc": "[WhenUse] Теряет 15 СД\n- Если грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит +15% к урону\n- Если цель — <b>Механизированное существо</b>, +10% к наносимому урону по оглушённой цели",
+          "desc": "[WhenUse] Теряет 15 СД\n- Если грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит +15% урона\n- Если цель — <b>Механизированное существо</b>, наносит +10% урона",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон первому порогу оглушения в размере 50% от нанесённого урона"
                 }
               ]
             },
@@ -8197,7 +8197,7 @@
         {
           "level": 4,
           "name": "Саморазрушающее очищение",
-          "desc": "[WhenUse] Теряет 15 СД\n- Если грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит +15% к урону\n- Если цель — <b>Механизированное существо</b>, +10% к наносимому урону по оглушённой цели",
+          "desc": "[WhenUse] Теряет 15 СД\n- Если грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит +15% урона\n- Если цель — <b>Механизированное существо</b>, наносит +10% урона",
           "coinlist": [
             {},
             {
@@ -8356,7 +8356,7 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
                 },
                 {
-                  "desc": "+30% к урону урон целям, имеющим 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>"
+                  "desc": "+30% к урону целям, имеющим 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>"
                 }
               ]
             }
@@ -8395,7 +8395,7 @@
                   "desc": "[OnSucceedAttackHead] Если на цели 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>, наносит 1 Понижение силы атаки на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Если на цели 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>, наносит <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Если на цели 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
@@ -8432,7 +8432,7 @@
                   "desc": "[OnSucceedAttackHead] Если на цели 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>, наносит 1 Понижение силы атаки на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Если на цели 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>, наносит <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралич</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Если на цели 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>, наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
@@ -8825,7 +8825,7 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на повышение черты оглушения на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 5)% (До 50%)",
-                  "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; Тратит Заряд на повышение черты оглушения"
+                  "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; расходует Заряд, повышая урон от ошеломления"
                 }
               ]
             }
@@ -8870,7 +8870,7 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на повышение черты оглушения на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 5)% (До 50%)",
-                  "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; Тратит Заряд на повышение черты оглушения"
+                  "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; расходует Заряд, повышая урон от ошеломления"
                 }
               ]
             }
@@ -9160,7 +9160,7 @@
         {
           "level": 1,
           "name": "Шлёп по слякоти",
-          "desc": "[WhenUse] Итоговая сила +2 при -15 СД и ниже",
+          "desc": "[WhenUse] Итоговая сила +2 при СД ниже -15",
           "coinlist": [
             {},
             {
@@ -9189,7 +9189,7 @@
         {
           "level": 2,
           "name": "Шлёп по слякоти",
-          "desc": "[WhenUse] Итоговая сила +2 при -15 СД и ниже",
+          "desc": "[WhenUse] Итоговая сила +2 при СД ниже -15",
           "coinlist": [
             {},
             {
@@ -9221,7 +9221,7 @@
         {
           "level": 4,
           "name": "Шлёп по слякоти",
-          "desc": "[WhenUse] Итоговая сила +3 при -15 СД и ниже\n[WhenUse] Итоговая сила +2 при -25 СД и ниже",
+          "desc": "[WhenUse] Итоговая сила +3 при СД ниже -15\n[WhenUse] Итоговая сила +2 при СД ниже -25",
           "coinlist": [
             {},
             {
@@ -9633,7 +9633,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Брызжется!..",
+          "name": "Меня мутит...!",
           "desc": "",
           "coinlist": [
             {
@@ -10461,7 +10461,7 @@
         {
           "level": 2,
           "name": "Разрушение",
-          "desc": "Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1 при 7 и более скорости",
+          "desc": "Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1, если скорость не ниже 7",
           "coinlist": [
             {
               "coindescs": [
@@ -10595,7 +10595,7 @@
         {
           "level": 1,
           "name": "Биоэлектрическая индукция",
-          "desc": "[WhenUse] Если был атакован щит, получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 10-и за ход)",
+          "desc": "[WhenUse] При получении удара, пока действует щит, получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (до 10 за ход)",
           "coinlist": [
             {}
           ]
@@ -10603,7 +10603,7 @@
         {
           "level": 4,
           "name": "Биоэлектрическая индукция",
-          "desc": "[WhenUse] Если был атакован щит, получает +2 счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 10-и за ход)",
+          "desc": "[WhenUse] При получении удара, пока действует щит, получает +2 к счётчику <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (до 10 за ход)",
           "coinlist": [
             {}
           ]
@@ -10877,7 +10877,7 @@
         {
           "level": 4,
           "name": "Бросок \"стрелой\"",
-          "desc": "[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход\n[WinDuel] Наносит больше урона в зависимости от числа парирований (+5% за парирование, До 50%)",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход\n[WinDuel] Наносит больше урона в зависимости от числа столкновений (+5% за каждое столкновение, максимум 50%)",
           "coinlist": [
             {},
             {
@@ -10897,7 +10897,7 @@
         {
           "level": 3,
           "name": "Салют!",
-          "desc": "Сила монет +2 при 10 и более скорости\n[WinDuel] Наносит больше урона в зависимости от числа парирований (+5% за парирование, До 50%)",
+          "desc": "Сила монет +2 при 10 и более скорости\n[WinDuel] Наносит больше урона в зависимости от числа столкновений (+5% за каждое столкновение, максимум 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -10912,7 +10912,7 @@
         {
           "level": 4,
           "name": "Салют!",
-          "desc": "Сила монет +3 при 10 и более скорости\n[WinDuel] Наносит больше урона в зависимости от числа парирований (+10% за парирование, До 100%)",
+          "desc": "Сила монет +3 при 10 и более скорости\n[WinDuel] Наносит больше урона в зависимости от числа столкновений (+10% за каждое столкновение, максимум 100%)",
           "coinlist": [
             {
               "coindescs": [
@@ -11085,7 +11085,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Анализ данных",
+          "name": "Анализ полевых данных",
           "desc": "",
           "coinlist": [
             {
@@ -11123,7 +11123,7 @@
         },
         {
           "level": 4,
-          "name": "Анализ данных",
+          "name": "Анализ полевых данных",
           "desc": "Сила монет +1 против целей с 6-ю и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>",
           "coinlist": [
             {

@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Бросок",
+          "name": "Кулачная драка",
           "desc": "",
           "coinlist": [
             {
@@ -197,12 +197,12 @@
         {
           "level": 1,
           "name": "<smallcaps>Мои парикмахерские купо-о-о-о-о-оны!!!</smallcaps>",
-          "desc": "Итоговая сила +5 против целей с силой духа ниже 0",
+          "desc": "Итоговая сила +5, если у основной цели СД ниже 0",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 30"
+                  "desc": "[OnSucceedAttack] Наносит 30 урона шкале оглушения"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"

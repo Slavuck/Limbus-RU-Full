@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Боишься?",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +1\n[DefeatDuel] При 75% ОЗ и менее тратит 50 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color>, чтобы получить 1 [Protection] (Раз за ход)",
+          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +1\n[DefeatDuel] Если здоровье ниже 75%, тратит 50 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color>, чтобы получить 1 [Protection] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -65,7 +65,7 @@
         {
           "level": 1,
           "name": "Добыча",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] При 75% и менее ОЗ тратит 50 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований",
+          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] Если здоровье ниже 75%, тратит 50 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований",
           "coinlist": [
             {
               "coindescs": [
@@ -105,7 +105,7 @@
         {
           "level": 1,
           "name": "Рассечение",
-          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, тяжесть атаки +1",
+          "desc": "[WhenUse] Если здоровье ниже 75%, тратит 75 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, тяжесть атаки +1",
           "coinlist": [
             {
               "coindescs": [
@@ -131,7 +131,7 @@
         {
           "level": 1,
           "name": "Время спасения",
-          "desc": "[CantDuel]\nВыбирает <sprite name=\"TimeKillerWatch\"><color=#9f6a3a><u><link=\"TimeKillerWatch\">целью спасения времени</link></u></color> противника, использовавшего на него атакующий навык, на следующий ход\n[StartBattle] Тратит 200 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color>. Переходит в <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">ускоренное состояние</link></u></color> на следующий ход",
+          "desc": "[CantDuel]\nНа следующий ход накладывает <sprite name=\"TimeKillerWatch\"><color=#9f6a3a><u><link=\"TimeKillerWatch\">целью спасения времени</link></u></color> на противника, использовавшего против него атакующий навык\n[StartBattle] Тратит 200 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color>. Переходит в <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">ускоренное состояние</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -169,7 +169,7 @@
         {
           "level": 1,
           "name": "Боишься?",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +1\n[DefeatDuel] При 75% ОЗ и менее тратит 50 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы получить 1 [Protection] (Раз за ход)",
+          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +1\n[DefeatDuel] Если здоровье ниже 75%, тратит 50 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы получить 1 [Protection] (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -195,7 +195,7 @@
         {
           "level": 1,
           "name": "Наказание за убийство времени",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +2\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей равно 500 и больше, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1\n[WhenUse] При 300 и более <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, тратит 25 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы повысить счётчик и потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносимые этим навыком, на 1",
+          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +2\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей равна 500 или больше, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1\n[WhenUse] При 300 и более <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, тратит 25 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы повысить счётчик и потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносимые этим навыком, на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -228,7 +228,7 @@
         {
           "level": 1,
           "name": "Добыча",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] При 75% и менее ОЗ тратит 50 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе парирований",
+          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] Если здоровье ниже 75%, тратит 50 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе парирований",
           "coinlist": [
             {
               "coindescs": [
@@ -268,7 +268,7 @@
         {
           "level": 1,
           "name": "Рассечение",
-          "desc": "[WhenUse] При 75% и менее ОЗ тратит 75 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, тяжесть атаки +1\n[BeforeAttack] При 60% и менее ОЗ тратит 10 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +1 к кол-ву целей",
+          "desc": "[WhenUse] Если здоровье ниже 75%, тратит 75 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, тяжесть атаки +1\n[BeforeAttack] Если здоровье ниже 60%, тратит 10 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +1 к кол-ву целей",
           "coinlist": [
             {
               "coindescs": [
@@ -313,7 +313,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[WhenUse] За каждые 100 в сумме <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей базовая сила +1",
+          "desc": "[WhenUse] За каждые 100 в сумме <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей базовая сила +1 (макс. 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -369,7 +369,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ти-ик",
+          "name": "Так",
           "desc": "[WhenUse] Сила парирований +1 против целей с 5 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
           "coinlist": [
             {
@@ -431,7 +431,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Тик",
+          "name": "Так",
           "desc": "",
           "coinlist": [
             {

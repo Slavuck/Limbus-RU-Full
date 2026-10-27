@@ -292,7 +292,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Унынием пропорционально <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологическому урону</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит урон Унынием, равный значению <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели"
                 }
               ]
             }
@@ -335,7 +335,7 @@
         {
           "level": 1,
           "name": "Множащееся упование",
-          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2-х)\n[StartBattle] Самый быстрый из служителей церкви Глубин получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход",
+          "desc": "Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2-х)\n[StartBattle] Самый быстрый из служителей церкви Глубин получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -424,8 +424,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Забота о братьях и сёстрах на суше",
-          "desc": "[WhenUse] Итоговая сила +3, если на карте разрастаются <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатки глубин</link></u></color>\n- Фабий дополнительно получает +1 к итоговой силе за каждую стадию роста <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатка глубин</link></u></color>\n\n[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на основной цели (До 2-х)\nЕсли [NetherseaBrandUnit] дорос до 2-й стадии и выше, Фабий также наносит ещё 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> этим навыком",
+          "name": "За братьев и сестёр на суше",
+          "desc": "[WhenUse] Итоговая сила +3, если на текущей карте активен <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечаток глубин</link></u></color>\n- Фабий дополнительно получает +1 к итоговой силе за каждую стадию <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатка глубин</link></u></color>\n\n[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на основной цели (До 2-х)\nЕсли [NetherseaBrandUnit] дорос до 2-й стадии и выше, Фабий также наносит ещё 1 единицу <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -489,7 +489,7 @@
         {
           "level": 1,
           "name": "Отголоски отдыха",
-          "desc": "[CantIdentify]\nПредпочитает избирать основной целью союзников с наименьшим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)\n[StartBattle] Если целью стал союзник, восстановит 20% здоровья цели атаки",
+          "desc": "[CantIdentify]\nПредпочитает избирать основной целью союзников с наименьшим текущим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)\n[StartBattle] Если целью стал союзник, восстановит здоровье в размере 20% от максимального здоровья цели",
           "coinlist": [
             {
               "coindescs": [
@@ -511,7 +511,7 @@
         {
           "level": 1,
           "name": "Отголоски возвышения",
-          "desc": "[CantIdentify]\nПредпочитает избирать целями союзников с наибольшим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)",
+          "desc": "[CantIdentify]\nПредпочитает избирать целями союзников с наибольшим текущим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)",
           "coinlist": [
             {
               "coindescs": [
@@ -551,7 +551,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "С лазурной теплотой",
+          "name": "С лазурным милосердием.",
           "desc": "[CantIdentify]\nБазовая сила +1 за каждые 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на основной цели (До 9-и)\nЕсли целью стал союзник, урон фиксируется на 0\nС этим навыком можно вступить в поединок независимо от скорости\n[DefeatDuel]\n- Мейерс получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- -80% к наносимому навыком урону; также Мейерс не может оглушить цели этим навыком\n- Этот навык наносит в половину меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> и совершенно не наносит [Sinking], как и не повышает его счётчик\n- Мейерс получает на половину меньше единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> от этого навыка\n[EndSkill] Мейерс получает 100 единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>\n[EndBattle] В начале следующего хода Мейерс проращивает поросли <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатка глубин</link></u></color> на своей части поля битвы",
           "coinlist": [
             {
@@ -560,7 +560,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% здоровья"
+                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% от максимального здоровья"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью стал противник, наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
@@ -573,7 +573,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% здоровья"
+                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% от максимального здоровья"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью стал противник, наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
@@ -586,7 +586,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% здоровья"
+                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% от максимального здоровья"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью стал противник, наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, повышает его счётчик на 4 и наносит 4 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
@@ -603,7 +603,7 @@
         {
           "level": 1,
           "name": "Волновая арка",
-          "desc": "[WhenUse] При более 50-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 5 единиц для нанесения дополнительных 2-х единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> с этого навыка\n[WhenUse] За каждые 5 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 1 единицу <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе парирований (До 5-и)",
+          "desc": "[WhenUse] При 50 и более единицах <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 5 единиц для нанесения дополнительных 2-х единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> с этого навыка\n[WhenUse] За каждые 5 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 1 единицу <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе парирований (До 5-и)",
           "coinlist": [
             {
               "coindescs": [
@@ -638,7 +638,7 @@
         {
           "level": 1,
           "name": "Сильное течение",
-          "desc": "[WhenUse] При более 50-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 4 единицы для получения +1 к силе монет\n[WhenUse] За каждые 10 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 1 единицу <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе монет (До 2-х)",
+          "desc": "[WhenUse] При 50 и более единицах <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 4 единицы для получения +1 к силе монет\n[WhenUse] За каждые 10 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 3 единицы <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе монет (До 2-х)",
           "coinlist": [
             {
               "coindescs": [
@@ -673,7 +673,7 @@
         {
           "level": 1,
           "name": "Покачивающие волны",
-          "desc": "[WhenUse] Сила монет +1 за каждые 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели (До 9-и)\n[EndBattle] Вместо траты до 10-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>, взамен Мейерс получает половину единиц в качестве <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход (До 5-и, десятичные опускаются)\n- [DefeatDuel] Она не получает [AttackUp] на следующий ход",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели (До 9-и)\n[EndBattle] Вместо траты до 10-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>, Мейерс получает половину потраченного значения в качестве <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход (До 5-и, округляя вверх)\n- [DefeatDuel] Она не получает [AttackUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -698,7 +698,7 @@
         {
           "level": 1,
           "name": "Пока добрая воля их веры не утратила ценность.",
-          "desc": "Избирает целями противников с наибольшим числом <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>\nБазовая сила +1 за каждые 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на основной цели (До 9-и)\nС этим навыком можно вступить в поединок независимо от скорости\n[DefeatDuel] \n- Мейерс получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- -80% к наносимому навыком урону; также Мейерс не может оглушить цели этим навыком\n- Этот навык наносит в половину меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> и совершенно не наносит [Sinking], как и не повышает его счётчик\n- Получаемые этим навыком число <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и щита снижается на половину\n[EndSkill]\n- Мейерс получает 100 единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>\n- Также она получает щит на 20% здоровья\n- Преждевременно завершает ход\n[EndBattle] В начале следующего хода Мейерс проращивает поросли <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатка глубин</link></u></color> по всему полю битвы",
+          "desc": "Избирает целями противников с наибольшим числом <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>\nБазовая сила +1 за каждые 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на основной цели (До 9-и)\nС этим навыком можно вступить в поединок независимо от скорости\n[DefeatDuel] \n- Мейерс получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- -80% к наносимому навыком урону; также Мейерс не может оглушить цели этим навыком\n- Этот навык наносит в половину меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> и совершенно не наносит [Sinking], как и не повышает его счётчик\n- Получаемые этим навыком число <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и щита снижается на половину\n[EndSkill]\n- Мейерс получает 100 единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>\n- Также она получает щит в размере 20% от максимального здоровья\n- Преждевременно завершает ход\n[EndBattle] В начале следующего хода Мейерс проращивает поросли <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатка глубин</link></u></color> по всему полю битвы",
           "coinlist": [
             {
               "coindescs": [
@@ -762,7 +762,7 @@
         {
           "level": 1,
           "name": "Отголоски отдыха",
-          "desc": "[CantIdentify]\nПредпочитает избирать основной целью союзников с наименьшим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)\n[StartBattle] Если целью стал союзник, восстановит 20% здоровья цели атаки",
+          "desc": "[CantIdentify]\nПредпочитает избирать основной целью союзников с наименьшим текущим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)\n[StartBattle] Если целью стал союзник, восстановит здоровье в размере 20% от максимального здоровья цели",
           "coinlist": [
             {
               "coindescs": [
@@ -784,7 +784,7 @@
         {
           "level": 1,
           "name": "Отголоски возвышения",
-          "desc": "[CantIdentify]\nПредпочитает избирать целями союзников с наибольшим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)",
+          "desc": "[CantIdentify]\nПредпочитает избирать целями союзников с наибольшим текущим здоровьем\nЕсли целью стал союзник, урон фиксируется на 0\nСила парирований +1 за каждые 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 4-х)",
           "coinlist": [
             {
               "coindescs": [
@@ -824,7 +824,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "С лазурной теплотой",
+          "name": "С лазурным милосердием.",
           "desc": "[CantIdentify]\nБазовая сила +1 за каждые 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на основной цели (До 9-и)\nЕсли целью стал союзник, урон фиксируется на 0\nС этим навыком можно вступить в поединок независимо от скорости\n[DefeatDuel]\n- Мейерс получает 3 <sprite name=\"ResultReduction\"><color=#e30000><u><link=\"ResultReduction\">Понижения силы</link></u></color> и 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>\n- -80% к наносимому навыком урону; также Мейерс не может оглушить цели этим навыком\n- Этот навык наносит в половину меньше <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> и совершенно не наносит [Sinking], как и не повышает его счётчик\n- Мейерс получает на половину меньше единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> от этого навыка\n[EndSkill] Мейерс получает 100 единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>\n[EndBattle] В начале следующего хода Мейерс проращивает поросли <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатка глубин</link></u></color> на своей части поля битвы",
           "coinlist": [
             {
@@ -833,7 +833,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% здоровья"
+                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% от максимального здоровья"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью стал противник, наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
@@ -846,7 +846,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% здоровья"
+                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% от максимального здоровья"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью стал противник, наносит 2 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
@@ -859,7 +859,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% здоровья"
+                  "desc": "[OnSucceedAttack] Если целью стал союзник, Мейерс восстанавливает ему 10% от максимального здоровья"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если целью стал противник, наносит 4 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, повышает его счётчик на 4 и наносит 4 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>"
@@ -876,7 +876,7 @@
         {
           "level": 1,
           "name": "Волновая арка",
-          "desc": "[WhenUse] При более 50-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 5 единиц для нанесения дополнительных 2-х единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> с этого навыка\n[WhenUse] За каждые 10 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 1 единицу <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе парирований (До 2-х)",
+          "desc": "[WhenUse] При 50 и более единицах <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 5 единиц для нанесения дополнительных 2-х единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> с этого навыка\n[WhenUse] За каждые 10 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 1 единицу <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе парирований (До 2-х)",
           "coinlist": [
             {
               "coindescs": [
@@ -908,7 +908,7 @@
         {
           "level": 1,
           "name": "Сильное течение",
-          "desc": "[WhenUse] При более 50-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 4 единицы для получения +1 к силе монет\n[WhenUse] За каждые 10 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 1 единицу <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе монет (До 2-х)",
+          "desc": "[WhenUse] При 50 и более единицах <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> Мейерс тратит 4 единицы для получения +1 к силе монет\n[WhenUse] За каждые 10 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели она тратит 3 единицы <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color> и получает +1 к силе монет (До 2-х)",
           "coinlist": [
             {
               "coindescs": [
@@ -942,8 +942,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Покачивающие волны",
-          "desc": "[WhenUse] Сила монет +1 за каждые 5 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> основной цели (До 5-и)\n[EndBattle] Вместо траты до 10-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>, взамен Мейерс получает половину единиц в качестве <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход (До 5-и, десятичные опускаются)\n- [DefeatDuel] Она не получает [AttackUp] на следующий ход",
+          "name": "Колышущиеся волны",
+          "desc": "[WhenUse] Сила монет +1 за каждые 5 единиц <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на основной цели (До 5-и)\n[EndBattle] Вместо траты до 10-и единиц <sprite name=\"AbyssalVitality\"><color=#f8c200><u><link=\"AbyssalVitality\">Глубинной жизнеспособности</link></u></color>, Мейерс получает половину потраченного значения в качестве <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход (До 5-и, округляя вверх)\n- [DefeatDuel] Она не получает [AttackUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [

@@ -177,7 +177,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EnemyKill] Если эта атака потратила 15 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> при использовании, она и любой союзник получают 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</link></u></color>"
+                  "desc": "[EnemyKill] Если при использовании этот навык потратил 15 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, он даёт себе и 1 случайному союзнику, кроме себя, 5 <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</link></u></color>"
                 }
               ]
             }
@@ -398,7 +398,7 @@
                   "desc": "Тратит 1 [Bullet]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Удваивает накладываемые силу и количество <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1"
@@ -438,7 +438,7 @@
                   "desc": "Тратит 1 [Bullet]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Удваивает нанесённые счётчик и количество <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
+                  "desc": "[CriticalOnSucceedAttack] Удваивает накладываемые силу и количество <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
@@ -879,7 +879,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 20% нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит повреждение шкале ошеломления в размере 20% от нанесённого урона"
                 }
               ]
             },
@@ -898,7 +898,7 @@
         {
           "level": 4,
           "name": "Этика приёма гостей, 2-я церемония: СШ",
-          "desc": "Сила парирований +1 против целей с [MarkOfButler]\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (До) 2)</style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 7",
+          "desc": "Сила парирования +1 против целей с [MarkOfButler]\n<style=\"highlight\">Сила монет +1 за каждые 2 единицы разницы в скорости с более медленной целью (макс. 2)</style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 7",
           "coinlist": [
             {
               "coindescs": [
@@ -909,7 +909,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает порог оглушения на 30% нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит повреждение шкале ошеломления в размере 30% от нанесённого урона"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [MarkOfButler]"
@@ -1172,7 +1172,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "[WhenUse] Получает щит на (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели × 2) ОЗ (До 5)",
+          "desc": "[WhenUse] Получает ОЗ щита в размере (собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> × 2) (До 5)",
           "coinlist": [
             {}
           ]
@@ -1180,7 +1180,7 @@
         {
           "level": 4,
           "name": "Блок",
-          "desc": "[WhenUse] Получает щит на (счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели × 2) ОЗ (До <style=\"highlight\">10</style>)",
+          "desc": "[WhenUse] Получает ОЗ щита в размере (собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> × 2) (До <style=\"highlight\">10</style>)",
           "coinlist": [
             {}
           ]
@@ -1362,7 +1362,7 @@
         {
           "level": 3,
           "name": "Череполом",
-          "desc": "[BeforeUse] При 15 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяниях</link></u></color> заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу быстрее цели на 3 и выше очка\n[WhenUse] Сила монет +1 при максимальной Силе духа\n- [EndSkill] Если сила монет была повышена за счёт Силы духа, теряет 15 СД",
+          "desc": "[BeforeUse] При 15 и более <sprite name=\"RedEyeFirst\"><color=#f8c200><u><link=\"RedEyeFirst\">Красных глаз</link></u></color> и <sprite name=\"PenanceFirst\"><color=#f8c200><u><link=\"PenanceFirst\">Раскаяний</link></u></color> заменяет навык на 「Серьёзный череполом」\nСила монет +1, если Рёшу быстрее цели на 3 или более\n[WhenUse] Сила монет +1 при максимальной Силе духа\n- [EndSkill] Если этот эффект сработал, теряет 15 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -1937,7 +1937,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [GazeRyoshu]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели более 3-х единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                  "desc": "[OnSucceedAttack] Если у цели 3 или более единиц счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Затем счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели уменьшается на 1"
                 }
               ]
             }
@@ -1973,7 +1973,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"GazeRyoshu\"><color=#e30000><u><link=\"GazeRyoshu\">Взора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если на счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели более 3-х единиц, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color>. После счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели понижается на 1"
+                  "desc": "[OnSucceedAttack] Если у цели 3 или более единиц счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Затем счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели уменьшается на 1"
                 }
               ]
             }
@@ -2198,7 +2198,7 @@
                   "desc": "+2,5% к критическому урону за каждую единицу в потенциале <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 25%)"
                 },
                 {
-                  "desc": "% к критическому урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 49%)"
+                  "desc": "+7% к критическому урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> на себе (До 49%)"
                 },
                 {
                   "desc": "Повышает урон в зависимости от потерянного здоровья основной цели (До 100%)"
@@ -2268,7 +2268,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Burst]"
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Burst]"
                 }
               ]
             }
@@ -2524,7 +2524,7 @@
         {
           "level": 4,
           "name": "Страж",
-          "desc": "[CanDuelGuard]\n[StartBattle] получает 2 [ProtectStanceRyoshu]\n[WhenUse] Этот Навык получает +1 Уровень Защиты за каждую 10% ОЗ, которую он накопительно проиграл в этой встрече (максимальный 6; в зависимости от максимального ОЗ на момент активации).\n[WinDuel] Получить [Breath] на [Burst] по цели (максимум 5; один раз за ход)<style=\"highlight\"></style>",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает 2 [ProtectStanceRyoshu]\n[WhenUse] Этот навык получает +1 к уровню защиты за каждые 10% ОЗ, потерянных этим юнитом за бой (макс. 6; расчёт ведётся от максимума ОЗ на момент активации эффекта)\n[WinDuel] Получает [Breath] в количестве, равном силе [Burst] на цели (макс. 5; 1 раз за ход)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2703,7 +2703,7 @@
         {
           "level": 4,
           "name": "Распускающийся в пустоте аромат",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Vibration] и [Sinking] на цели (До 2)\n[WhenUse] Наносит на (Значение [AlriuneEGOThey] на цели)% больше урона (До 30%)",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Vibration] и [Sinking] на цели (макс. 2)\n[WhenUse] Урон +1% за каждую единицу [AlriuneEGOThey] на цели",
           "coinlist": [
             {
               "coindescs": [
@@ -3207,7 +3207,7 @@
         {
           "level": 3,
           "name": "Разделение пространства【空間斬】",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)\n[WhenUse] Наносит на (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) × 5)% больше урона\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Количество целей +1 за каждые 2 единицы значения [SojiRyoshuEchoPast](;TimeEntangleUnstable) (До 2 дополнительных целей)\n[WhenUse] Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 15)% больше урона (В фокусированных битвах считаются Части)\n[EndSkill] Случайным образом наносит (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) + 10) [PhantomIncisionID](;PhantomIncision) между противниками, по которым попала этим навыком",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] на себе (макс. 5)\n[WhenUse] Урон +5% за каждую единицу [SojiRyoshuEchoPast] на себе\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Вес атаки +1 за каждые 2 [SojiRyoshuEchoPast] на себе (макс. 2)\n[WhenUse] Урон +15% за каждую фактическую цель атаки меньше веса атаки навыка (в фокусированных битвах считаются части)\n[EndSkill] Случайным образом распределяет ([SojiRyoshuEchoPast] на себе + 10) [PhantomIncisionID] между целями, поражёнными этим навыком",
           "flavor": "    «Путь Клинка, да? Да, если придерживаться одного направления, как однобокий дурак, то в конце концов начнёшь вырезать вещи вроде пространства. О, но не льстите себе —  это лишь заставит разделённое пространство немного мерцать, как в тепловой дымке. Дайте этому время, и разрез закроется, как будто его и не было.»",
           "coinlist": [
             {
@@ -3216,13 +3216,13 @@
                   "desc": "Критический урон +30%"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Laceration] и 3 Огня"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Laceration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Нанести 3 [Combustion]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Активирует Кровотечение и [Combustion] на цели, понижая счётчик [Combustion] на 1"
+                  "desc": "[CriticalOnSucceedAttack] Активирует [Combustion] на цели. Счётчик [Combustion] цели уменьшается на 1"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Активирует [Laceration] на цели. Цель теряет 1 счётчика [Laceration]"
@@ -3237,7 +3237,7 @@
         {
           "level": 4,
           "name": "Разделение пространства【空間斬】",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] (До 5)\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на главной цели (До 5)</style>\n[WhenUse] Наносит на (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) × 5)% больше урона\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Количество целей +1 за каждые 2 единицы значения [SojiRyoshuEchoPast](;TimeEntangleUnstable) (До 2 дополнительных целей)\n[WhenUse] Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × <style=\"highlight\">30</style>)% больше урона (В фокусированных битвах считаются Части)\n[EndSkill] Случайным образом наносит (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) + 10) [PhantomIncisionID](;PhantomIncision) между противниками, по которым попала этим навыком",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Breath] на себе (макс. 5)\n<style=\"highlight\">[WhenUse] Базовая сила +1 за каждые 6 единиц в сумме [Combustion] и [Laceration] на главной цели (макс. 5)</style>\n[WhenUse] Урон +5% за каждую единицу [SojiRyoshuEchoPast] на себе\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Вес атаки +1 за каждые 2 [SojiRyoshuEchoPast] на себе (макс. 2)\n[WhenUse] Урон <style=\"highlight\">+30%</style> за каждую фактическую цель атаки меньше веса атаки навыка (в фокусированных битвах считаются части)\n[EndSkill] Случайным образом распределяет ([SojiRyoshuEchoPast] на себе + 10) [PhantomIncisionID] между целями, поражёнными этим навыком",
           "flavor": "    «Путь Клинка, да? Да, если придерживаться одного направления, как однобокий дурак, в конце концов начнёшь вырезать вещи вроде пространства. О, но не льстите себе —  это лишь заставит разделённое пространство немного мерцать, как в тепловой дымке. Дайте этому время, и разрез закроется, как будто его и не было.»",
           "coinlist": [
             {
@@ -3281,7 +3281,7 @@
         {
           "level": 4,
           "name": "Шаг послеобраза【殘像步】",
-          "desc": "[StartBattle] Цели 1 Доме Пауков объединяются с самым последним порядком развертывания (2 раз за ход)\n- На 1+ [SojiRyoshuEntangle] цель 1 дополнительный союзник\n- В конце навыков всех навыков, экипированных целью в этом ходу, или если цель ошеломлёна, или если у цели не осталось навыков для использования, используйте «Убить небеса — Тяньша» против цели как Беспрепятственную атаку (один раз за Идентичность)\n- Ставит в приоритет «Дом пауков: Пинки ученик Синклер» в последний раз\n[StartBattle] Прирост +3 [Breath] Счёт (один раз за ход)\n<style=\"highlight\">[OnSucceedEvade] Прибавка 1 [Breath] (3 раза за ход)</style>",
+          "desc": "[StartBattle] Выбирает 1 союзную Идентичность Дома Пауков с самым поздним порядком развёртывания (2 раза за ход)\n- Если значение [SojiRyoshuEntangle] равно 1 или выше, выбирает ещё 1 союзника\n- Когда все навыки, экипированные целью на этот ход, завершены, либо цель ошеломлена, либо у неё не осталось навыков для использования, атакует её навыком «Сразить небеса — Тяньша» как односторонней атакой (1 раз на Идентичность)\n- У ученика Дома Пауков Синклера самый низкий приоритет выбора\n[StartBattle] Повышает свой счётчик [Breath] на 3 (1 раз за ход)\n<style=\"highlight\">[OnSucceedEvade] Получает 1 [Breath] (3 раза за ход)</style>",
           "flavor": "    «То, что ты преследуешь, - это мой призрак.»",
           "coinlist": [
             {}
@@ -3295,7 +3295,7 @@
         {
           "level": 1,
           "name": "Сразить небеса - Тяньша【天殺】",
-          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\nВнешние эффекты не могут вызвать повторное использование этого навыка\nНе активирует эффекты базовых факторов понижения СД союзников от убийства этим навыком\n[WhenUse] Теряет 1 Уровень атаки и получает +1 к Базовой силе атакующих навыков до конца битвы (До 4 раз за битву)\n[TargetKill] Восстанавливает 20 СД\n[TargetKill] Получает [RyoshuEGOPF], равную нанесённому этим навыком урону",
+          "desc": "[CantDuel]\nНе активирует защитные навыки цели и не может быть повторно использован внешними эффектами\nВо время использования этого навыка отключается условие базового снижения рассудка союзников\n[WhenUse] До конца боя теряет 1 уровень атаки и получает +1 к базовой силе атакующих навыков (4 раза за бой)\n[TargetKill] Восстанавливает 20 СД\n[TargetKill] Получает [RyoshuEGOPF] в количестве, равном урону, нанесённому этим навыком",
           "flavor": "    «*плевок* Как там говорилось... Нужно почитать своих родителей так, будто ты почитаешь сами небеса?»",
           "coinlist": [
             {
@@ -3318,7 +3318,7 @@
         {
           "level": 1,
           "name": "Неизбежное завершение【必然殺】",
-          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\nВнешние эффекты не могут вызвать повторное использование этого навыка\n[WhenUse] Повышает свой счётчик [Breath] на 1\n[BeforeAttack] Если активация этого навыка через пассивное умение 「Коллапс послеобраза пространства-времени」 была вызвана использованием третьего навыка:\n- Количество целей повышается на число противников, имеющих [SojiRyoshuEchoFuture](;SojiAbiBuffOne)\n- Нацеливается в первую очередь на противников, имеющих [SojiRyoshuEchoFuture](;SojiAbiBuffOne)\n[EndSkill] [SojiRyoshuEchoFuture](;SojiAbiBuffOne) исчезает с целей этого навыка",
+          "desc": "[CantDuel]\nНе активирует защитные навыки цели; внешние эффекты не могут вызвать повторное использование навыка\n[WhenUse] Повышает свой счётчик [Breath] на 1\n[BeforeAttack] Если навык, вызвавший этот навык, является навыком 3:\n- Вес атаки становится равен числу врагов с [SojiRyoshuEchoFuture] (минимум 1)\n- В первую очередь выбирает врагов с [SojiRyoshuEchoFuture]\n[EndSkill] [SojiRyoshuEchoFuture] исчезает с цели",
           "flavor": "    «Ого… Какой гениальный способ использовать Клинок Звезды Дихуэй, меч, который всегда оставляет за собой неизгладимый след. Атаки, от которых невозможно увернуться, кажутся немного нечестными, но… Ха! Мне нравится этот меч!»",
           "coinlist": [
             {
@@ -3395,7 +3395,7 @@
         {
           "level": 3,
           "name": "Разделение пространства - Соединение нитей【空間斬 - 緣】",
-          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Получат [SojiRyoshuShin](;LittleFingerBoss_Shin)\n[EndSkill] Убирает свою первую границу выносливости (Единожды за битву)",
+          "desc": "[CantDuel]\nНе активирует защитные навыки цели\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Получает [SojiRyoshuShin](;LittleFingerBoss_Shin)\n[EndSkill] Удаляет одну свою самую высокую границу ошеломления (1 раз за бой)",
           "flavor": "    «Таксидермированный и обездвиженный —  так лежит враг в следе, оставленном клинком в пространстве.»\n\n    «Такая работа клинком часто отличается невероятной остротой, так что жертвы не осознают, что их изрубили; или даже если они каким- то образом осознают этот факт, на них остается след от клинка, захвативший пространство, в котором они находятся, и они истекают кровью, когда момент проходит.»\n\n    «Однако... разница заключается в том, как он режет.»\n\n    «Клинок действительно оставил лишь один- единственный след, но, вложив его в ножны, владелец мысленно воссоздал множество порезов, которые следовали по тому же пути —  чрезвычайно точная техника.»\n\n    «Хм. В первые дни после инцидента я часто сталкивался с методами, подобными этому, -  методами, которые, как мне кажется, противоречат самой природе причинно- следственной связи.»",
           "coinlist": [
             {

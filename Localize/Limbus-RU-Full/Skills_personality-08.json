@@ -172,7 +172,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5, чтобы нанести 1 Уязвимость на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы наложить 1 Уязвимость на следующий ход"
                 }
               ]
             },
@@ -182,7 +182,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5, чтобы нанести 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы наложить 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -206,7 +206,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5, чтобы нанести 1 Уязвимость на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы наложить 1 Уязвимость на следующий ход"
                 }
               ]
             },
@@ -216,7 +216,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 5, чтобы нанести 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Тратит 5 собственного счётчика <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, чтобы наложить 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -871,7 +871,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">4</style> <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>"
+                  "desc": "[OnSucceedAttack] Получает <style=\"highlight\">4</style> <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход"
                 }
               ]
             },
@@ -1000,7 +1000,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Прощение при чистке",
+          "name": "Зачистка",
           "desc": "",
           "coinlist": [
             {
@@ -1024,7 +1024,7 @@
         },
         {
           "level": 2,
-          "name": "Прощение при чистке",
+          "name": "Зачистка",
           "desc": "<style=\"highlight\">Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color></style>",
           "coinlist": [
             {
@@ -1048,8 +1048,8 @@
         },
         {
           "level": 4,
-          "name": "Прощение при чистке",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2-х)\n+10% к урону за каждый негативный эффект на цели 30%)</style>",
+          "name": "Зачистка",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</link></u></color> на цели (макс. 2)\nУрон +10% за каждый негативный эффект на цели (макс. 30%)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1126,7 +1126,7 @@
         {
           "level": 4,
           "name": "Заточенное лезвие",
-          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 2-х)\n+10% к урону за каждый негативный эффект на цели 50%)</style>\n[StartBattle] Измаил даёт 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> 2-м наиболее быстрым союзникам из клана «Курокумо», не считая себя (Раз за ход)\n- Если в команде 6 и более членов клана «Курокумо», Измаил взамен даёт 4 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> 5-и союзникам",
+          "desc": "<style=\"highlight\">Сила монет +1 за каждые 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечений</link></u></color> на цели (макс. 2)\nУрон +10% за каждый негативный эффект на цели (макс. 50%)</style>\n[StartBattle] Измаил даёт 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> двум самым быстрым союзникам из клана «Курокумо», кроме себя (раз за ход)\n- Если в команде, включая Измаил, не меньше 6 членов клана «Курокумо», вместо этого Измаил даёт 4 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> пяти союзникам",
           "coinlist": [
             {
               "coindescs": [
@@ -1208,7 +1208,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">+10% к урону за каждый негативный эффект на цели 100%)</style>"
+                  "desc": "<style=\"highlight\">Урон +10% за каждый негативный эффект на цели (макс. 100%)</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Трижды вызывает [Laceration] на цели. Понижает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 3<style=\"highlight\"></style>"
@@ -1428,7 +1428,7 @@
                   "desc": "[OnSucceedAttack] Измаил повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[CriticalOnSucceedAttack] Накладывает <style=\"highlight\">2</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход"
                 }
               ]
             },
@@ -1438,7 +1438,7 @@
                   "desc": "[OnSucceedAttack] Измаил повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит <style=\"highlight\">2</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[CriticalOnSucceedAttack] Накладывает <style=\"highlight\">2</style> <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color> на следующий ход"
                 }
               ]
             },
@@ -1804,7 +1804,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 2 к счётчику [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Нанести +2 [Sinking] граф"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking] ещё на 1"
@@ -1817,7 +1817,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 3 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Нанести 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Vibration] ещё на 1"
@@ -1827,7 +1827,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель не имеет [Switch_Vibration] амплитуды Тремора, производит [Switch_Vibration] в [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Если цель не находится в состоянии [Switch_Vibration], переключает её в [Switch_Vibration] с помощью [VibrationCollapse]"
                 }
               ]
             }
@@ -1870,7 +1870,7 @@
                   "desc": "<style=\"highlight\">Если цель имеет [Switch_Vibration] или [FusionVibration] амплитуду Тремора, наносит ей на 48% больше урона этой монетой</style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не находится в [Switch_Vibration] состоянии, запустите [Switch_Vibration] в [VibrationCollapse]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Если цель не находится в состоянии [Switch_Vibration], переключает её в [Switch_Vibration] с помощью [VibrationCollapse]<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1884,7 +1884,7 @@
         {
           "level": 1,
           "name": "Перетасовка рук — цветочная колода",
-          "desc": "[DuelCounter]\n[StartBattle] [Discard] навыки низшего ранга из 2 своих слотов навыков начиная с самого левого (Единожды за ход)\n[StartBattle] Если этот контратакующий навык используется из своего самого левого слота навыков вместо атакующего, то меняет Масть в руке в следующем ходе на одну случайную, которая отличается от текущей (Единожды за ход)",
+          "desc": "[DuelCounter]\n[StartBattle] [Discard] два навыка самого низкого ранга среди навыков во всех ячейках этого бойца (раз за ход)\n[StartBattle] Если этот навык установлен в самой левой ячейке, в следующем ходу меняет «짝패» на случайную «짝패», соответствующую одному из базовых навыков атаки бойца (раз за ход; исключая уже имеющуюся «짝패»)",
           "coinlist": [
             {
               "coindescs": [
@@ -1905,7 +1905,7 @@
         {
           "level": 4,
           "name": "Перетасовка рук — цветочная колода",
-          "desc": "[DuelCounter]\n[StartBattle] [Discard] навыки низшего ранга из 2 своих слотов навыков начиная с самого левого (Единожды за ход)\n[StartBattle] Если этот контратакующий навык используется из своего самого левого слота навыков вместо атакующего, то меняет Масть в руке в следующем ходе на одну случайную, которая отличается от текущей (Единожды за ход)\n<style=\"highlight\">[StartBattle] Повышает силу [HanafudaCombo] на 1 с шансом 50% (Единожды за ход)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы силы [HanafudaCombo] (До 2)</style>",
+          "desc": "[DuelCounter]\n[StartBattle] [Discard] два навыка самого низкого ранга среди навыков во всех ячейках этого бойца (раз за ход)\n[StartBattle] Если этот навык установлен в самой левой ячейке, в следующем ходу меняет «짝패» на случайную «짝패», соответствующую одному из базовых навыков атаки бойца (раз за ход; исключая уже имеющуюся «짝패»)\n<style=\"highlight\">[StartBattle] С вероятностью 50% повышает силу [HanafudaCombo] на 1 (раз за ход)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 2 единицы силы [HanafudaCombo] (макс. 2)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1936,13 +1936,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "Вновь подкидывает эту монету (Сила [HanafudaCombo] - 1) раз"
+                  "desc": "Повторно использует эту монету (сила [HanafudaCombo] − 1) раз (максимум 4 раза)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Нанести +1 [Vibration] граф"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Vibration] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Нанести +1 [Sinking] граф"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Sinking] на 1"
                 }
               ]
             }
@@ -2208,7 +2208,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 6"
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения пользователя на 6"
                 }
               ]
             },
@@ -2229,7 +2229,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Снижение порога Оглушение пользователя на 6<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения пользователя на 6<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -2676,13 +2676,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "Наносит на 5% больше урона за каждую единицу значения [WindBladeIshmael](;WindBlade) свыше 15 (До 25%)"
+                  "desc": "При превышении 15 [WindBladeIshmael] критический урон увеличивается на 5% за каждую единицу сверх 15 (макс. 25%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если есть 5 и более [Agility], то вновь подкидывает эту монету 1 раз (Единожды за ход)"
+                  "desc": "[CriticalOnSucceedAttack] При 5 или больше [Agility] повторно использует эту монету 1 раз (1 раз за навык)"
                 }
               ]
             }
@@ -2732,7 +2732,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если есть 5 и более [Agility], то вновь подкидывает эту монету 1 раз (Единожды за ход)"
+                  "desc": "[CriticalOnSucceedAttack] При 5 или больше [Agility] повторно использует эту монету 1 раз (1 раз за навык)"
                 }
               ]
             }
@@ -2779,12 +2779,12 @@
         {
           "level": 1,
           "name": "Ах... Ты ведь не слышишь его?",
-          "desc": "[WhenUse] При ОЗ 80%+ получить +3 к счётчику [ChargeRougeAlly]",
+          "desc": "[WhenUse] При текущем ОЗ не ниже 80% от максимального получает 3 к счётчику [ChargeRougeAlly]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +2"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на 2"
                 }
               ]
             },
@@ -2805,7 +2805,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">3</style> к счётчику [ChargeRougeAlly]"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на <style=\"highlight\">3</style>"
                 }
               ]
             },
@@ -2826,7 +2826,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить +3 к счётчику [ChargeRougeAlly]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на 3<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -2852,7 +2852,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +2"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на 2"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
@@ -2882,7 +2882,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить +<style=\"highlight\">4</style> к счётчику [ChargeRougeAlly]"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на <style=\"highlight\">4</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
@@ -2915,7 +2915,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить +4 к счётчику [ChargeRougeAlly]<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на 4<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наложить [Laceration]: счётчик +2"
@@ -3026,7 +3026,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +4"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на 4"
                 }
               ]
             },
@@ -3047,7 +3047,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получить [ChargeRougeAlly]: счётчик +4"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeRougeAlly] на 4"
                 }
               ]
             },

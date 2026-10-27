@@ -1394,7 +1394,7 @@
         {
           "level": 1,
           "name": "Покачивающиеся руки",
-          "desc": "Сила навыка -1 за каждую повреждённую руку",
+          "desc": "Сила навыка -1 за каждую сломанную руку",
           "coinlist": [
             {
               "coindescs": [
@@ -1432,7 +1432,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 10; Наносит 5 Сязывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 10 урона по шкале ошеломления; Наносит 5 Сковывания на следующий ход"
                 }
               ]
             }
@@ -1658,7 +1658,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Должна забрать ваши жизни!",
+          "name": "Я покараю вас!",
           "desc": "[WhenUse] Если ОЗ цели ниже 30%, сила навыка +2",
           "coinlist": [
             {
@@ -2049,7 +2049,7 @@
           "level": 1,
           "name": "Мешочный пресс",
           "keywords": [
-            "Связанные"
+            "Сковывание"
           ],
           "coinlist": [
             {
@@ -2725,7 +2725,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует тремор"
+                  "desc": "[OnSucceedAttack] Провоцирует Взрыв тремора"
                 }
               ]
             }
@@ -2850,7 +2850,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по шкале ошеломления в размере 20% нанесённого урона"
                 }
               ]
             },
@@ -2860,7 +2860,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по шкале ошеломления в размере 20% нанесённого урона"
                 }
               ]
             },
@@ -2870,7 +2870,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 20% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по шкале ошеломления в размере 20% нанесённого урона"
                 }
               ]
             }
@@ -2892,7 +2892,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет 15 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает черты оглушения на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по шкале ошеломления в размере 50% нанесённого урона"
                 }
               ]
             }
@@ -3252,7 +3252,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Разбушевавшееся укрытие",
+          "name": "Надвигающееся Погружение",
           "desc": "",
           "coinlist": [
             {
@@ -3334,7 +3334,7 @@
         {
           "level": 1,
           "name": "Плач в поисках чего-то",
-          "desc": "[WhenUse]Призывает Старый зонт в следующий ходе",
+          "desc": "[WhenUse] Призывает Старый зонт на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3374,7 +3374,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и +2 счётчика Разрыв на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и повышает счётчик Разрыва на 2 на следующий ход"
                 }
               ]
             }
@@ -3433,7 +3433,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 5 Сязывание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 5 Сковывания на следующий ход"
                 }
               ]
             }
@@ -3511,7 +3511,7 @@
         {
           "level": 1,
           "name": "На этом у меня всё!",
-          "desc": "В столкновении даёт 1 Повышение морали\nСтавит в приоритет противников с <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремором</link></u></color>",
+          "desc": "В столкновении даёт 2 Повышения морали\nСтавит в приоритет противников с <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремором</link></u></color>",
           "coinlist": [
             {},
             {
@@ -3613,7 +3613,7 @@
         {
           "level": 1,
           "name": "Вино феи",
-          "desc": "[WhenUse] Превращает Повышение морали цели в Опьянение",
+          "desc": "[WhenUse] Превращает Повышение морали цели в Опьянение в количестве, равном числу уровней Повышения морали",
           "coinlist": [
             {}
           ]
@@ -3644,21 +3644,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 }
               ]
             }
@@ -3746,7 +3746,7 @@
         {
           "level": 1,
           "name": "Зарыть всё это",
-          "desc": "[WhenUse] Теряет 30 СД и получает 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>; Получает Разрушенный разум на следующий ход",
+          "desc": "[WhenUse] Теряет 30 СД и получает 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>; Получает Разъедающее сердце на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -3754,7 +3754,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет 15 СД."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 8 Погружение и 8 Яд на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 8 Погружения и 8 Яда"
                 }
               ]
             }
@@ -3852,7 +3852,7 @@
         {
           "level": 1,
           "name": "Цветущие бутоны",
-          "desc": "Призывает 2 цветка на следующий ход\nЕсли на поле боя стоят 4 цветка, вместо этого повышает уровень самого низкоуровневого цветка на 1 ",
+          "desc": "Призывает 2 цветка на следующий ход\nЕсли на поле 4 цветка, вместо этого случайно повышает на 1 уровень один из цветков с наименьшим уровнем",
           "coinlist": [
             {
               "coindescs": [
@@ -4141,7 +4141,7 @@
         {
           "level": 1,
           "name": "Вы тоже опустошенны",
-          "desc": "[WhenUse] Наносит Пустая метка на следующий ход",
+          "desc": "[WhenUse] Накладывает Пустую метку на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -4568,7 +4568,7 @@
         {
           "level": 1,
           "name": "Растущие корни",
-          "desc": "Основная сила -2, если повреждена Ветвь",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -4590,7 +4590,7 @@
         {
           "level": 1,
           "name": "Роющие корни",
-          "desc": "Основная сила -2, если повреждена Ветвь",
+          "desc": "",
           "coinlist": [
             {
               "coindescs": [
@@ -5107,7 +5107,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Вновь подкидывает эту монету (До 3 раз)"
+                  "desc": "[OnSucceedAttackHead] Повторно использует монету 1 раз (не более 3 раз за навык)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Тело восстанавливает 10 ОЗ"
@@ -5136,7 +5136,7 @@
         {
           "level": 1,
           "name": "Время платить за заботу",
-          "desc": "[StartBattle] Наносить 1 [PreparedMeat] всем союзникам без [PreparedMeat]",
+          "desc": "[StartBattle] Даёт 1 [PreparedMeat] всем союзникам без [PreparedMeat]",
           "coinlist": [
             {}
           ]

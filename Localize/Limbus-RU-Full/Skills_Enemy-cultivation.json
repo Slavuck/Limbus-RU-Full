@@ -57,7 +57,7 @@
         {
           "level": 1,
           "name": "Пронзающий змеиный удар",
-          "desc": "С этим навыком , если имеется [SnakeStance] и на цель наложен [BurstPoison]\nСила монет +1 за каждые 4 единицы в сумме силы своего [Breath] и [Burst] на цели (До 10)\n[WinDuel] Повышает счётчик [Burst] цели на 2\n Повышает свой счётчик [Breath] на 2",
+          "desc": "Если у этого юнита есть [SnakeStance], а у цели — [BurstPoison], навык становится неоспоримым\nСила монет +1 за каждые 4 суммарной силы [Breath] у себя и [Burst] у цели (макс. 10)\n[WinDuel] Увеличивает счётчик [Burst] цели на 2 и свой счётчик [Breath] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -85,7 +85,7 @@
         {
           "level": 1,
           "name": "Выжидание шанса",
-          "desc": "[CanDuelGuard]\n[WhenUse] Сила монет +1 за каждые 4 [Burst] на атакующем (До 2)\n[WhenUse] Получает 3 [SnakeStance] (Единожды за навык)",
+          "desc": "[CanDuelGuard]\n[WhenUse] Сила монет +1 за каждые 4 [Burst] у цели (макс. 2)\n[WhenUse] Получает 3 [SnakeStance] (один раз за навык)",
           "coinlist": [
             {
               "coindescs": [
@@ -173,10 +173,10 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если имеется [SnakeStance], вновь подкидывает эту монету (Единожды за навык)"
+                  "desc": "[OnSucceedAttack] Если у этого юнита есть [SnakeStance], повторно использует эту монету один раз (один раз за навык)"
                 },
                 {
-                  "desc": " На 70% меньше урона"
+                  "desc": "- Урон повторно использованной монеты снижен на 70%"
                 }
               ]
             }
@@ -190,7 +190,7 @@
         {
           "level": 1,
           "name": "Выжидание шанса",
-          "desc": "[CanDuelGuard]\n[WhenUse] Сила монет +1 за каждые 4 [Burst] на атакующем (До 2)\n[WhenUse] Получает 3 [SnakeStance] (Единожды за навык)",
+          "desc": "[CanDuelGuard]\n[WhenUse] Сила монет +1 за каждые 4 [Burst] у цели (макс. 2)\n[WhenUse] Получает 3 [SnakeStance] (один раз за навык)",
           "coinlist": [
             {
               "coindescs": [
@@ -223,7 +223,7 @@
                   "desc": "[OnSucceedAttack] Если на цель наложен [BurstPoison], повышает её счётчик [Burst] на 2"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Если имеется 10 и более [Breath], то получает 1 [SnakeStance] и вновь подкидывает эту монету 1 раз (До 2 [SnakeStance] за ход)"
+                  "desc": "[CriticalOnSucceedAttack] Если у этого юнита 10 или больше [Breath], получает 1 [SnakeStance] и повторно использует монету один раз (один раз за навык; за ход можно получить не более 2 [SnakeStance])"
                 }
               ]
             }
@@ -279,7 +279,7 @@
         {
           "level": 1,
           "name": "Змеиный клык",
-          "desc": "С этим навыком , если имеется [SnakeStance] и на цель наложен [BurstPoison]\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы своего [Breath] и [Burst] на цели (До 10)\n[WinDuel] Повышает счётчик [Burst] цели на 2\n Повышает свой счётчик [Breath] на 3",
+          "desc": "Если у этого юнита есть [SnakeStance], а у цели — [BurstPoison], навык становится неоспоримым\n[WhenUse] Сила монет +1 за каждые 4 суммарной силы [Breath] у себя и [Burst] у цели (макс. 10)\n[WinDuel] Увеличивает счётчик [Burst] цели на 2 и свой счётчик [Breath] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -307,7 +307,7 @@
         {
           "level": 1,
           "name": "Ожидание шанса",
-          "desc": "[CanDuelGuard]\n[WhenUse] Сила монет +1 за каждые 4 [Burst] на атакующем (До 3)\n[WhenUse] Получает 3 [SnakeStance] (Единожды за навык)",
+          "desc": "[CanDuelGuard]\n[WhenUse] Сила монет +1 за каждые 4 [Burst] у цели (макс. 3)\n[WhenUse] Получает 3 [SnakeStance] (один раз за навык)",
           "coinlist": [
             {
               "coindescs": [

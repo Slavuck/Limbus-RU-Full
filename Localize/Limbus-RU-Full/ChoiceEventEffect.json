@@ -22,15 +22,15 @@
     },
     {
       "id": "LevelupPersonalityOnWinBattle",
-      "content": "<color=#ebcaa2>Вы можете усилить идентичности после победы в битве!</color>"
+      "content": "<color=#ebcaa2>При победе в следующей битве произойдёт событие с дополнительным грешником!</color>"
     },
     {
       "id": "GetConfirmedEgogiftOnWinBattle",
-      "content": "<color=#ebcaa2>Получите {reward} после победы в битве!</color>"
+      "content": "<color=#ebcaa2>Победите в следующей битве, чтобы получить ЭГО-дар {reward}!</color>"
     },
     {
       "id": "StartBattle",
-      "content": "<color=#ff0000>На вас напали!</color>"
+      "content": "<color=#ff0000>Началась битва!</color>"
     },
     {
       "id": "StartBattle_Normal",
@@ -46,7 +46,7 @@
     },
     {
       "id": "StartBattle_FloorBoss",
-      "content": "<color=#ff0000>Началась битва с боссом!</color>"
+      "content": "<color=#ff0000>Началась битва с боссом этажа!</color>"
     },
     {
       "id": "RecoverHpOnly",
@@ -114,7 +114,7 @@
     },
     {
       "id": "DestroyEgogift",
-      "content": "<color=#ebcaa2>{reward}</color> <color=#e30000>израсходован!</color>"
+      "content": "<color=#ebcaa2>ЭГО-дар {reward}</color> <color=#e30000>уничтожен!</color>"
     },
     {
       "id": "Choice_90103301",
@@ -122,7 +122,7 @@
     },
     {
       "id": "Choice_901001",
-      "content": "<color=#ebcaa2>В начале битвы,</color> союзники без <color=#a0392b>греха Гнева</color> <color=#ebcaa2>получают</color> <color=#e30000>5 Огня.</color>"
+      "content": "<color=#ebcaa2>В начале боя персонажи без</color> <color=#a0392b>атакующего навыка греха Гнева</color> <color=#ebcaa2>получают</color> <color=#e30000>5 урона Гневом.</color>"
     },
     {
       "id": "Choice_901007",
@@ -158,7 +158,7 @@
     },
     {
       "id": "Choice_90100201",
-      "content": "<color=#ebcaa2>Грешник, проваливший проверку, теряет</color> <color=#e30000>25 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>15 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Грешник, проваливший проверку, теряет</color> <color=#e30000>12 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>8 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90100502",
@@ -166,7 +166,7 @@
     },
     {
       "id": "Choice_90101001",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#bb521f>греха Похоти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#bb521f>атакующего навыка греха Похоти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101101",
@@ -174,7 +174,7 @@
     },
     {
       "id": "Choice_90101701",
-      "content": "<color=#ebcaa2>Грешник, прошедший проверку, теряет</color> <color=#fe4b48>10 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Грешник, прошедший проверку, теряет</color> <color=#fe4b48>5 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101702",
@@ -190,19 +190,19 @@
     },
     {
       "id": "Choice_90102001",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#61822b>греха Чревоугодия</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>5 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#61822b>атакующего навыка греха Чревоугодия</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>5 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102002",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#61822b>греха Чревоугодия</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#61822b>атакующего навыка греха Чревоугодия</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102201",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#306471>греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>13 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#306471>атакующего навыка греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>13 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90103302",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#7d4e94>греха Зависти</color> <color=#fe4b48>теряют</color> <color=#e30000>15 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>15 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#7d4e94>атакующего навыка греха Зависти</color> <color=#fe4b48>теряют</color> <color=#e30000>15 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>15 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90100101",
@@ -218,15 +218,15 @@
     },
     {
       "id": "Choice_901008",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Персонажи с</color> <color=#bb521f>атакующим навыком греха Похоти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_90100901",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#bb521f>греха Похоти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#bb521f>атакующего навыка греха Похоти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901014",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#e48801>греха Лености</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#e48801>атакующего навыка греха Лености</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101401",
@@ -234,23 +234,23 @@
     },
     {
       "id": "Choice_90101601",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#61822b>грехом Чревоугодия</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Персонажи с</color> <color=#61822b>атакующим навыком греха Чревоугодия</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_901018",
-      "content": "<color=#ebcaa2>Случайная идентичность без</color> <color=#a0392b>греха Гнева</color> <color=#ebcaa2>теряет</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Одна случайная персона без</color> <color=#a0392b>атакующего навыка греха Гнева</color> <color=#ebcaa2>теряет</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901021",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#306471>греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#306471>атакующего навыка греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901023",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#306471>греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>9 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#306471>атакующего навыка греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>9 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102301",
-      "content": "<color=#ebcaa2>Случайная идентичность с</color> <color=#306471>грехом Уныния</color> <color=#ebcaa2>теряет</color> <color=#fe4b48>10 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Одна случайная персона без</color> <color=#306471>атакующего навыка греха Уныния</color> <color=#ebcaa2>теряет</color> <color=#fe4b48>10 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901024",
@@ -258,51 +258,51 @@
     },
     {
       "id": "Choice_901025",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#306471>греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#306471>атакующего навыка греха Уныния</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102501",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#306471>грехом Уныния</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>20 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Персонажи с</color> <color=#306471>атакующим навыком греха Уныния</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>20 ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_901026",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#185188>греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#185188>атакующего навыка греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102601",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Персонажи с</color> <color=#185188>атакующим навыком греха Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>10 ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_901027",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#185188>греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>25 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#185188>атакующего навыка греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>25 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102701",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#185188>греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>25 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#185188>атакующего навыка греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>25 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901028",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#185188>греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>5 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#185188>атакующего навыка греха Гордыни</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>5 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90102801",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#185188>грехом Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Персонажи с</color> <color=#185188>атакующим навыком греха Гордыни</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_901032",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#7d4e94>греха Зависти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#7d4e94>атакующего навыка греха Зависти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>20 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901034",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#7d4e94>греха Зависти</color> <color=#fe4b48>теряют</color> <color=#e30000>15 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>15 СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#7d4e94>атакующего навыка греха Зависти</color> <color=#fe4b48>теряют</color> <color=#e30000>15 ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>15 СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901035",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#7d4e94>греха Зависти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>12 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Персонажи без</color> <color=#7d4e94>атакующего навыка греха Зависти</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>12 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90103501",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#7d4e94>грехом Зависти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Персонажи с</color> <color=#7d4e94>атакующим навыком греха Зависти</color> <color=#ebcaa2>восстанавливают</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_1040301",
@@ -358,11 +358,11 @@
     },
     {
       "id": "Choice_EGO901001",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Мечта адской бабочки」 & 「Пылающий цветок」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Мечта адской бабочки» и «Цветок огней»"
     },
     {
       "id": "Choice_EGO901002",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Извращение」 & 「Трепет」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Фетиш» и «Трепет»"
     },
     {
       "id": "Choice_EGO901009",
@@ -374,7 +374,7 @@
     },
     {
       "id": "Choice_EGO901011",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Слепой дождь」 & 「Потрёпанный зонт」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Солнечный дождь» и «Потрёпанный зонт»"
     },
     {
       "id": "Choice_EGO901013",
@@ -386,7 +386,7 @@
     },
     {
       "id": "Choice_EGO901016",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Зелёная фея」 & 「Аромат кислого ликёра」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Зелёный плод» и «Аромат кислого ликёра»"
     },
     {
       "id": "Choice_EGO901018",
@@ -410,11 +410,11 @@
     },
     {
       "id": "Choice_EGO901031",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Отклонение пандикона」 & 「Пружина с часовым механизмом」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Расхождение Никси» и «Пружина с часовым механизмом»"
     },
     {
       "id": "Choice_EGO901033",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Сертифицированная батарея」 & 「Разблокированный дефибриллятор」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Обычная служебная батарея» и «Разблокированный дефибриллятор»"
     },
     {
       "id": "Choice_EGO901034",
@@ -430,7 +430,7 @@
     },
     {
       "id": "Choice_EGO901073",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Эндорфиновый комплект」 & 「Флуоресцентные лампы」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Эндорфиновый комплект» и «Флуоресцентная лампа»"
     },
     {
       "id": "Choice_EGO971029",
@@ -450,7 +450,7 @@
     },
     {
       "id": "Choice_EGO971054",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дар 「Топливный бак чистильщика」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дар «Плещущийся топливный бак»"
     },
     {
       "id": "LoseMpOnlyUntilMin",

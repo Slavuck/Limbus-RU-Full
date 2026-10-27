@@ -116,7 +116,7 @@
         {
           "level": 1,
           "name": "Выставка",
-          "desc": "[DuelCounter]\n[WhenUse] Итоговая сила +1 против целей, имеющих [BearClawWound]",
+          "desc": "[DuelCounter]\n[WhenUse] Если у цели есть [BearClawWound], итоговая сила +2",
           "coinlist": [
             {
               "coindescs": [
@@ -252,7 +252,7 @@
         {
           "level": 1,
           "name": "Выставка",
-          "desc": "[DuelCounter]\n[WhenUse] Итоговая сила +1 против целей, имеющих [BearClawWound]",
+          "desc": "[DuelCounter]\n[WhenUse] Если у цели есть [BearClawWound], итоговая сила +2",
           "coinlist": [
             {
               "coindescs": [
@@ -384,7 +384,7 @@
         {
           "level": 1,
           "name": "Частичная переделка",
-          "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +1 против целей, имеющих [EagleClawWound]",
+          "desc": "[DuelCounter]\n[WhenUse] Если у цели есть [EagleClawWound], сила столкновения +2",
           "coinlist": [
             {
               "coindescs": [
@@ -516,7 +516,7 @@
         {
           "level": 1,
           "name": "Частичная переделка",
-          "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +1 против целей, имеющих [EagleClawWound]",
+          "desc": "[DuelCounter]\n[WhenUse] Если у цели есть [EagleClawWound], сила столкновения +2",
           "coinlist": [
             {
               "coindescs": [
@@ -620,7 +620,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Наносит на (Текущее значение [BlessingOfIndexPrescriptEnemy] × 5)% больше урона (До 45)"
+                  "desc": "Наносит на 5% больше урона за каждую единицу [BlessingOfIndexPrescriptEnemy] на себе (макс. 45%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 [Sinking] и повышает счётчик [Sinking] на 2"

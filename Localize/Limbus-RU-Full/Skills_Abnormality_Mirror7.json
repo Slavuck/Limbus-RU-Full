@@ -145,7 +145,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у бойца есть [ReinforcedTattooSpider], накладывает 2 [Paralysis]"
                 }
               ]
             }
@@ -200,7 +200,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у бойца есть [ReinforcedTattooSpider], накладывает 2 [Paralysis]"
                 }
               ]
             }
@@ -214,7 +214,7 @@
         {
           "level": 1,
           "name": "Не дай какой-то фигне сломить тебя!",
-          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 5 дополнительного Дробящего урона при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель",
+          "desc": "[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании неразрушенной монетой наносит 5 дополнительного Дробящего урона\n[DefeatDuel] Урон этого навыка не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -256,7 +256,7 @@
         {
           "level": 1,
           "name": "Придётся снять слой обёртки!",
-          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Снимает с [MiddleFatherSwordOne] его [MiddleFatherSwordTwo]",
+          "desc": "[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании неразрушенной монетой наносит 10 дополнительного Дробящего урона\n[DefeatDuel] Урон этого навыка не может оглушить цель\n[EndSkill] [MiddleFatherSwordOne] становится [MiddleFatherSwordTwo]",
           "coinlist": [
             {
               "coindescs": [
@@ -298,7 +298,7 @@
         {
           "level": 1,
           "name": "Пинок",
-          "desc": "Сила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[DefeatDuel] Получает 1 [ParryingResultUp] на следующий ход (До 2 раз за ход)",
+          "desc": "Сила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании монетой накладывает 1 [Laceration]\n[DefeatDuel] Урон этого навыка не может оглушить цель\n[DefeatDuel] Получает 1 [ParryingResultUp] на следующий ход (до 2 раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -316,7 +316,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у бойца есть [ReinforcedTattooSpider], накладывает 2 [Paralysis]"
                 }
               ]
             }
@@ -330,7 +330,7 @@
         {
           "level": 1,
           "name": "Печать мести",
-          "desc": "Базовая сила +1 за каждые 3 [Laceration] на цели (До 3)\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Теряет всю [ResentmentSpider] и получает 1 [DaughterEducationSpider]",
+          "desc": "Базовая сила +1 за каждые 3 [Laceration] на цели (максимум 3)\n[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании монетой накладывает 1 [Laceration]\n[DefeatDuel] Урон этого навыка не может оглушить цель\n[EndSkill] Поглощает все свои [ResentmentSpider] и получает 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -371,7 +371,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 2"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у бойца есть [ReinforcedTattooSpider], накладывает 2 [Paralysis]"
                 }
               ]
             }
@@ -385,7 +385,7 @@
         {
           "level": 1,
           "name": "Чуешь жар?!",
-          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
+          "desc": "[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании неразрушенной монетой наносит 10 дополнительного Дробящего урона\n[DefeatDuel] Урон этого навыка не может оглушить цель\n[BeforeAttack] При ОЗ не выше 50% наносит на 40% больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -436,7 +436,7 @@
         {
           "level": 1,
           "name": "Похоже, мне придётся снять и второй слой.",
-          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Дробящего урона при попадании монетами этого навыка\n[EndSkill] Снимает с [MiddleFatherSwordTwo] его [MiddleFatherSwordThree]",
+          "desc": "[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании неразрушенной монетой наносит 10 дополнительного Дробящего урона\n[EndSkill] [MiddleFatherSwordTwo] становится [MiddleFatherSwordThree]",
           "coinlist": [
             {
               "coindescs": [
@@ -506,7 +506,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у бойца есть [ReinforcedTattooSpider], накладывает 2 [Paralysis]"
                 }
               ]
             }
@@ -520,7 +520,7 @@
         {
           "level": 1,
           "name": "Печать полного и тотального уничтожения!",
-          "desc": "Базовая сила +1 за каждые 3 [Laceration] на цели (До 3)\n[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 1 [Laceration] при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[EndSkill] Теряет всю [ResentmentSpider] и получает 1 [DaughterEducationSpider]",
+          "desc": "Базовая сила +1 за каждые 3 [Laceration] на цели (максимум 3)\n[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании монетой накладывает 1 [Laceration]\n[DefeatDuel] Урон этого навыка не может оглушить цель\n[EndSkill] Поглощает все свои [ResentmentSpider] и получает 1 [DaughterEducationSpider]",
           "coinlist": [
             {
               "coindescs": [
@@ -561,7 +561,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 3"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 2 [Paralysis]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если у бойца есть [ReinforcedTattooSpider], накладывает 2 [Paralysis]"
                 }
               ]
             }
@@ -575,7 +575,7 @@
         {
           "level": 1,
           "name": "Пора бы уже растаять и умереть",
-          "desc": "[WhenUse] Если есть [ReinforcedTattooSpider:`Татуировки мести [ReinforcedTattooSpider]`], наносит 10 дополнительного Рубящего урона при попадании целыми Вечными монетами этого навыка\n[DefeatDuel] Не может оглушить цель\n[BeforeAttack] Наносит на 40% больше урона при ОЗ ниже 50%",
+          "desc": "[WhenUse] Если у бойца есть [ReinforcedTattooSpider], при попадании неразрушенной монетой наносит 10 дополнительного Рубящего урона\n[DefeatDuel] Урон этого навыка не может оглушить цель\n[BeforeAttack] При ОЗ не выше 50% наносит на 40% больше урона",
           "coinlist": [
             {
               "coindescs": [
@@ -779,7 +779,7 @@
         {
           "level": 1,
           "name": "Перекрёстный вихрь!",
-          "desc": "Навык [HeatingWireOnSpider](#f8c200)\nСила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughter], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[DefeatDuel] Не может оглушить цель",
+          "desc": "Когда навык находится в состоянии [HeatingWireOnSpider], применяются эффекты раскалённого провода\nСила монет +1 против целей с 4 и более [Laceration]\n[WhenUse] Если у бойца есть [ReinforcedTattooSpiderDaughter], при попадании монетой повышает счётчик [Laceration] цели на 1\n[DefeatDuel] Урон этого навыка не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -879,7 +879,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Раздавить сердце тишины, проткнуть память",
+          "name": "Пронзи средоточие тишины и пронзи память",
           "desc": "Может вступать в Поединок этим навыком независимо от Скорости\nЕсли у бойца есть [BlackNightmare]:\n- Преобразует все монеты в [SuperCoin]\n- <color=#ff6000><mark=#ff000040><b><u>При Поединке с навыком не Пронзающего типа</u></b></mark></color>: Сила монет +2; наносит на 50% больше урона\n- При поражении в Поединке навыку Пронзающего типа:\n  - Сила монет -2; наносит на 50% меньше урона\n  - Урон этого навыка не может Оглушить цель; при попадании не активирует [Sinking] на цели\n\nОружие Пронзающего типа появляется чаще\n- При 75+ [KarmaOfIndexRien_2Phase] оружие Пронзающего типа появляется реже\n- При 150+ [KarmaOfIndexRien_2Phase] оружие Пронзающего типа появляется ещё реже\nВ зависимости от типа атаки оружия активируются следующие эффекты:\n- Оружие Пронзающего типа наносит на 60% больше урона\n- Оружие не Пронзающего типа наносит на 30% меньше урона\n[WhenUse] Получает 3 [Breath] и 2 к счётчику [Breath]\n[WinDuel] Получает 2 [AttackDmgUp] на следующий ход\n- При 150+ [KarmaOfIndexRien_2Phase] этот эффект не активируется",
           "coinlist": [
             {
@@ -1230,7 +1230,7 @@
         {
           "level": 1,
           "name": "О, как мы любим плоть и кровь",
-          "desc": "Нацеливается на Ученицу Безымянного - Альбину\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 8 [AttackDmgDown]</u></b></mark></color>",
+          "desc": "Приоритетная цель — ученица Кольца Альбина\n[DefeatDuel] <color=#ff6000><mark=#ff000040><b><u>Получает 8 [AttackDmgDown]</u></b></mark></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1244,7 +1244,7 @@
                   "desc": "[OnSucceedAttack] Если итоговой целью является противник, повышает ему счётчик [Laceration] на 3"
                 },
                 {
-                  "desc": " Если итоговой целью является Альбина, даёт ей 6 [AttackUp] вместо этого"
+                  "desc": "- Если цель — союзник, вместо этого до следующего хода получает 6 [AttackUp]"
                 }
               ]
             }
@@ -1258,7 +1258,7 @@
         {
           "level": 1,
           "name": "Курирование выставки",
-          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 3 [SupportProtect]</u></b></mark></color>\n[WhenUse] Атакующий не будет терять счётчик [Laceration] во время этого уворота",
+          "desc": "[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Получает 3 [SupportProtect]</u></b></mark></color>\n[WhenUse] Счётчик [Laceration] атакующего не уменьшается до окончания его атаки",
           "coinlist": [
             {}
           ]
@@ -1457,7 +1457,7 @@
         {
           "level": 1,
           "name": "Предвидение",
-          "desc": "После успешного уклонения от всех монет на навыке используйте «Разделка кролика» как беспрепятственную атаку на атакующего\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>базовая сила +1 для каждого 3 [FutureEyeOn] заряд</u></b></mark></color>\n[WhenUse] [FullReload] (один раз за ход)\n[OnSucceedEvade] Усиление 3 [Breath] (2 раз за ход)\n[OnDefeatEvade] Потерять 5 СД",
+          "desc": "После успешного уклонения от всех монет на навыке используйте «Разделка кролика» как беспрепятственную атаку на атакующего\n[WhenUse] <color=#ff6000><mark=#ff000040><b><u>Базовая сила +1 за каждые 3 [FutureEyeOn]</u></b></mark></color>\n[WhenUse] [FullReload] (один раз за ход)\n[OnSucceedEvade] Получает 3 [Breath] (2 раза за ход)\n[OnDefeatEvade] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [

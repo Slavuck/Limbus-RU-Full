@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно наносит +3 единицы дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно наносит +3 единицы дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного урона"
                 }
               ]
             },
@@ -28,10 +28,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно наносит +3 единицы дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если у персонажа есть [ReinforcedTattooSpiderDaughterTwo], накладывает 2 [Binding] на следующий ход"
                 }
               ]
             }
@@ -50,23 +50,23 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит 5 дополнительного урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по шкале оглушения"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит 5 дополнительного урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по шкале оглушения"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Вновь подкидывает эту монету при 3 и более [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter),"
+                  "desc": "[OnSucceedAttack] Если у персонажа есть 3 или более [ResentmentSpiderDaughterTwo], повторно использует эту монету 3 раза"
                 }
               ]
             }
@@ -144,7 +144,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит 5 дополнительного урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), наносит 2 [Binding] на следующий ход"
@@ -199,10 +199,10 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Дополнительно наносит +5 единиц дробящего урона"
+                  "desc": "[OnSucceedAttack] Наносит 5 дополнительного урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 5"
+                  "desc": "[OnSucceedAttack] Наносит 5 урона по шкале оглушения"
                 }
               ]
             },

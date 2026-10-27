@@ -40,17 +40,17 @@
       "id": 1076,
       "panicName": "Рвение",
       "lowMoraleDescription": "- Получает 2 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 30 потерянных ОЗ в прошлом ходе (До 5)",
-      "panicDescription": "- Получает 1 [Enhancement] 3 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 25 потерянных ОЗ в прошлом ходе (До 5)"
+      "panicDescription": "- Получает 1 [Enhancement] и 3 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 25 потерянных ОЗ в прошлом ходу (макс. 5)"
     },
     {
       "id": 1081,
       "panicName": "Тело, сломанное безвозвратно",
       "lowMoraleDescription": "Получает 1 [Vulnerable] и даёт 2 [Endurance] Эзре и Веспе",
-      "panicDescription": "Получает 1 [Vulnerable] и использует свой альтернативный первый навык 「Успокоить дыхание」"
+      "panicDescription": "Получает 1 [Vulnerable] и использует «Успокоить дыхание»"
     },
     {
       "id": 1082,
-      "panicName": "Неуверенность: Маска",
+      "panicName": "Самозащита — Маска",
       "lowMoraleDescription": "Получает 1 [Reduction] и 2 [DefenseUp]",
       "panicDescription": "Получает 1 [Reduction] и 3 [DefenseUp]"
     },
@@ -70,7 +70,7 @@
       "id": 1084,
       "panicName": "Имитация отца",
       "lowMoraleDescription": "- Начало хода: получает 5 [Combustion] и 5 [Laceration]\n- Получает на 10% больше урона от Грешницы Рёшу",
-      "panicDescription": "- Начало хода: Увеличение 5 [Combustion], +3 [Combustion] счётчик, 5 [Laceration] и +3 [Laceration] счётчик\n- Получить +20% урон от Грешника Рёсю"
+      "panicDescription": "- В начале хода получает 5 [Combustion], +3 к счётчику [Combustion], 5 [Laceration] и +3 к счётчику [Laceration]\n- Получает на 20% больше урона от Грешницы Рёшу"
     }
   ]
 }

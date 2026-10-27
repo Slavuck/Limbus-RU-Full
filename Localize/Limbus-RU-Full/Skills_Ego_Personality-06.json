@@ -170,7 +170,7 @@
           "level": 4,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
+          "desc": "[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно тяжесть атаки +1 при менее 25% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -196,7 +196,7 @@
           "level": 1,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nАтакует цели с самым низким здоровьем",
+          "desc": "[CantIdentify]\nАтакует цель с наименьшим ОЗ основного тела",
           "coinlist": [
             {
               "coindescs": [
@@ -217,7 +217,7 @@
           "level": 3,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nАтакует цели с самым низким здоровьем\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
+          "desc": "[CantIdentify]\nАтакует цель с наименьшим ОЗ основного тела\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -238,7 +238,7 @@
           "level": 4,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nАтакует цели с самым низким здоровьем\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно +1 цель при менее 25% ОЗ",
+          "desc": "[CantIdentify]\nАтакует цель с наименьшим ОЗ основного тела\n[BeforeAttack] Тяжесть атаки +1 при менее 50% ОЗ\nДополнительно тяжесть атаки +1 при менее 25% ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -497,7 +497,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Ослабления лечения здоровья</link></u></color></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 2 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Ослабления лечения здоровья</link></u></color> на следующий ход</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на 1 за каждые 2 греха Чревоугодия в резонансе (До 3)<style=\"highlight\"></style>"
@@ -607,7 +607,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Ослабления лечения здоровья</link></u></color></style></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит 3 <sprite name=\"TakeHpHealReduce\"><color=#e30000><u><link=\"TakeHpHealReduce\">Ослабления лечения здоровья</link></u></color> на следующий ход</style></style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>"
@@ -724,7 +724,7 @@
           "level": 3,
           "name": "Пролитые слёзы порченой крови: Кончина",
           "abName": "Инлун",
-          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n<style=\"highlight\">+3%</style> к наносимому урону за каждый [DragonLance] на Хун Лу (До <style=\"highlight\">9%</style>)\n<style=\"highlight\">+6%</style> к наносимому урону за каждую единицу <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу (До <style=\"highlight\">30%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на основной цели (До 2-х)</style>\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу\n<style=\"highlight\">- При 4-х и более единицах взамен итоговая сила +2 и тяжесть атаки +2</style>\n[EndSkill] Хун Лу теряет <sprite name=\"DragonLance\"><color=#f8c200><u><link=\"DragonLance\">Клинья для погребения цветов</link></u></color> и всю <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивую кровь</link></u></color>, а затем <b>умирает</b>",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n<style=\"highlight\">+3%</style> к наносимому урону за каждый [DragonLance] на Хун Лу (До <style=\"highlight\">9%</style>)\n<style=\"highlight\">+6%</style> к наносимому урону за каждую единицу <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу (До <style=\"highlight\">30%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на основной цели (До 2-х)</style>\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу\n<style=\"highlight\">- При 4-х и более единицах взамен базовая сила +2 и тяжесть атаки +2</style>\n[EndSkill] Хун Лу теряет <sprite name=\"DragonLance\"><color=#f8c200><u><link=\"DragonLance\">Клинья для погребения цветов</link></u></color> и всю <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивую кровь</link></u></color>, а затем <b>умирает</b>",
           "coinlist": [
             {
               "coindescs": [
@@ -760,7 +760,7 @@
           "level": 4,
           "name": "Пролитые слёзы порченой крови: Кончина",
           "abName": "Инлун",
-          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n+3% к наносимому урону за каждый [DragonLance] на Хун Лу (До 9%)\n+6% к наносимому урону за каждую единицу <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу (До 30%)\n[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на основной цели (До <style=\"highlight\">3-х</style>)\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу\n- При 4-х и более единицах взамен итоговая сила +2 и тяжесть атаки +2\n<style=\"highlight\">- При 5-и и более единицах взамен итоговая сила +3 и тяжесть атаки +3</style>\n[EndSkill] Хун Лу теряет <sprite name=\"DragonLance\"><color=#f8c200><u><link=\"DragonLance\">Клинья для погребения цветов</link></u></color> и всю <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивую кровь</link></u></color>, а затем <b>умирает</b>",
+          "desc": "Данный навык не тратит ЭГО-ресурсы\n[CantDuel]\n+3% к наносимому урону за каждый [DragonLance] на Хун Лу (До 9%)\n+6% к наносимому урону за каждую единицу <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу (До 30%)\n[WhenUse] Сила монет +1 за каждые 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на основной цели (До <style=\"highlight\">3-х</style>)\n[WhenUse] Базовая сила +1, тяжесть атаки +1 при 3 и более единицах <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивой крови</link></u></color> на Хун Лу\n- При 4-х и более единицах взамен базовая сила +2 и тяжесть атаки +2\n<style=\"highlight\">- При 5-и и более единицах взамен базовая сила +3 и тяжесть атаки +3</style>\n[EndSkill] Хун Лу теряет <sprite name=\"DragonLance\"><color=#f8c200><u><link=\"DragonLance\">Клинья для погребения цветов</link></u></color> и всю <sprite name=\"CondensedBlood\"><color=#f8c200><u><link=\"CondensedBlood\">Нечестивую кровь</link></u></color>, а затем <b>умирает</b>",
           "coinlist": [
             {
               "coindescs": [

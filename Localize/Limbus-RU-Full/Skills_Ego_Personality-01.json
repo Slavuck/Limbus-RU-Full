@@ -57,12 +57,12 @@
           "level": 1,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nАтакует случайные цели",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>. наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, наносит 1 Сковывание на следующий ход"
@@ -75,12 +75,12 @@
           "level": 3,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 3 и более греха в резонансе Уныния",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Вес атаки +1 при резонансе Уныния из 3 или более грехов",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>. наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, наносит 1 Сковывание на следующий ход"
@@ -93,12 +93,12 @@
           "level": 4,
           "name": "Минувшие дни",
           "abName": "Портрет того дня",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +1 при 3 и более греха в резонансе Уныния\n[BeforeAttack] Тяжесть атаки +1 дополнительно при 5 и более греха в резонансе Уныния",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Вес атаки +1 при резонансе Уныния из 3 или более грехов\n[BeforeAttack] Дополнительно вес атаки +1 при резонансе Уныния из 5 или более грехов",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>. наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
@@ -127,7 +127,7 @@
                   "desc": "Если основной целью стал союзник, +8% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 56%)"
                 },
                 {
-                  "desc": "[AllyKill] И Сан и 2 союзника получают 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKill] И Сан и 2 случайных союзника получают 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
                   "desc": "[AllyKillFail] И Сан получает 1 [Breath]"
@@ -137,10 +137,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели"
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если первой монетой не удалось убить союзника, урон получает одна случайная вторичная цель"
                 },
                 {
-                  "desc": "+2% к критическому урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> 14%)"
+                  "desc": "+2% к критическому урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (до 14%)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
@@ -164,10 +164,10 @@
                   "desc": "Если основной целью стал союзник, <style=\"highlight\">+10% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 70%)</style>"
                 },
                 {
-                  "desc": "[AllyKill] И Сан и 2 союзника получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[AllyKill] И Сан и 2 случайных союзника получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс греха 1-го атакующего навыка убитого союзника</style>"
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс соответствующей стихии навыка 1 убитого союзника</style>"
                 },
                 {
                   "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
@@ -180,7 +180,7 @@
                   "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">+5%</style> критического урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 35%)</style>"
+                  "desc": "<style=\"highlight\">+5%</style> критического урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(до 35%)</style>"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color><style=\"highlight\"></style>"
@@ -204,10 +204,10 @@
                   "desc": "Если основной целью стал союзник, <style=\"highlight\">+15%</style> урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 105%)</style>"
                 },
                 {
-                  "desc": "[AllyKill] И Сан и 2 союзника получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[AllyKill] И Сан и 2 случайных союзника получают 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс грехов 1-го и 2-го атакующих навыков убитого союзника</style>"
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс соответствующих стихий навыков 1 и 2 убитого союзника</style>"
                 },
                 {
                   "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
@@ -238,7 +238,7 @@
           "level": 1,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nИ Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (До 7-и)\n[BeforeAttack] +2% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)\n[BeforeAttack] И Сан получает 1 [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]",
+          "desc": "[CantIdentify]\nВ первую очередь атакует цель с наименьшим запасом здоровья (приоритет союзникам)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (максимум 7)\n[BeforeAttack] +2% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (максимум 14%)\n[BeforeAttack] И Сан получает 1 [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (максимум 7)\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -252,13 +252,13 @@
                   "desc": "Если основной целью стал союзник, +2% к урону за каждое [Breath] у И Сана (До 50%)"
                 },
                 {
-                  "desc": "[AllyKill] И Сан и 3 союзника получают 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKill] И Сан и 3 случайных союзника получают 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
                   "desc": "[AllyKill] +2% к урону на следующую монету за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)"
                 },
                 {
-                  "desc": "[AllyKill] +1 ЭГО-ресурс грехов 1-го и 2-го атакующих навыков убитого союзника"
+                  "desc": "[AllyKill] +1 ЭГО-ресурс соответствующих стихий навыков 1 и 2 убитого союзника"
                 },
                 {
                   "desc": "[AllyKillFail] И Сан получает 1 [Breath]"
@@ -271,7 +271,7 @@
                   "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели"
                 },
                 {
-                  "desc": "+2% к критическому урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> 14%)"
+                  "desc": "+2% к критическому урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (до 14%)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
@@ -304,7 +304,7 @@
                   "desc": "[AllyKill] <style=\"highlight\">+5%</style> урона на следующую монету за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 35%)</style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс грехов 1-го, 2-го и 3-го атакующих навыков убитого союзника</style>"
+                  "desc": "<style=\"highlight\">[AllyKill] +1 ЭГО-ресурс соответствующих стихий навыков 1, 2 и 3 убитого союзника</style>"
                 },
                 {
                   "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
@@ -330,7 +330,7 @@
           "level": 4,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nИ Сан выбирает целью участника боя с самым низким здоровьем (в приоритете союзники)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (До 7-и)\n<style=\"highlight\">- Если грех резонанса — Гордыня, взамен И Сан получает (наибольший резонанс × 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (До 7-и)</style>\n[BeforeAttack] <style=\"highlight\">+4%</style> урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 28%)</style>\n[BeforeAttack] И Сан получает 1 [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 7-и)\n[EndSkill] Тратит все [BoseProjektil]",
+          "desc": "[CantIdentify]\nВ первую очередь атакует цель с наименьшим запасом здоровья (приоритет союзникам)\n[BeforeAttack] И Сан получает (наибольший резонанс + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (максимум 7)\n<style=\"highlight\">- Если резонанс был резонансом Гордыни, вместо этого И Сан получает (наибольший резонанс × 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (максимум 7)</style>\n[BeforeAttack] <style=\"highlight\">+4%</style> урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(максимум 28%)</style>\n[BeforeAttack] И Сан получает 1 [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (максимум 7)\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -347,13 +347,13 @@
                   "desc": "<style=\"highlight\">+30% к критическому урону</style>"
                 },
                 {
-                  "desc": "[AllyKill] И Сан и 3 союзника получают <style=\"highlight\">4</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKill] И Сан и 3 случайных союзника получают <style=\"highlight\">4</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
                   "desc": "[AllyKill] <style=\"highlight\">+7%</style> урона на следующую монету за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 49%)</style>"
                 },
                 {
-                  "desc": "[AllyKill] +1 ЭГО-ресурс грехов 1-го, 2-го и 3-го атакующих навыков убитого союзника<style=\"highlight\"></style>"
+                  "desc": "[AllyKill] +1 ЭГО-ресурс соответствующих стихий навыков 1, 2 и 3 убитого союзника<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "[AllyKillFail] И Сан получает <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
@@ -551,7 +551,7 @@
           "level": 1,
           "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
           "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
-          "desc": "[CantIdentify]\nСлучайная цель\n\nПри попадании каждой монетой: И Сан получает 5 [Combustion], а последняя монета этого ЭГО навыка получает +1 к своей Итоговой силе (До +3 к Итоговой силе последней монеты; единожды за попадание монетой)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении Вечную монету",
+          "desc": "[CantIdentify]\nАтакует случайную цель\n\nЗа каждое попадание монетой И Сан получает 5 [Combustion]; при использовании последней монеты её итоговая сила повышается на 1 (максимум +3; один раз за монету)\n\n[BeforeAttack] Получает (число грехов в наибольшем резонансе) [Breath] (максимум 7)\n- Если это абсолютный резонанс, дополнительно повышает счётчик [Breath] на (число грехов в наибольшем резонансе / 3) (максимум 2; округление вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую монету (максимум -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -595,7 +595,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Sinking] на всех целях этого навыка (До 40%)",
+                  "desc": "[OnStartCoin] +10% к урону за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях (максимум 40%)",
                   "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion] и [Sinking] на всех целях"
                 },
                 {
@@ -653,7 +653,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Sinking] на всех целях этого навыка (До <style=\"highlight\">50%</style>)",
+                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях (максимум <style=\"highlight\">50%</style>)",
                   "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion] и [Sinking] на всех целях"
                 },
                 {
@@ -667,7 +667,7 @@
           "level": 4,
           "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
           "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
-          "desc": "[CantIdentify]\nСлучайная цель\n\nПри попадании каждой монетой: И Сан получает <style=\"highlight\">3</style> [Combustion], а последняя монета этого ЭГО навыка получает +1 к своей Итоговой силе (До +3 к Итоговой силе последней монеты; единожды за попадание монетой)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении Вечную монету",
+          "desc": "[CantIdentify]\nАтакует случайную цель\n\nЗа каждое попадание монетой И Сан получает <style=\"highlight\">3</style> [Combustion]; при использовании последней монеты её итоговая сила повышается на 1 (максимум +3; один раз за монету)\n\n[BeforeAttack] Получает (число грехов в наибольшем резонансе) [Breath] (максимум 7)\n- Если это абсолютный резонанс, дополнительно повышает счётчик [Breath] на (число грехов в наибольшем резонансе / 3) (максимум 2; округление вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую монету (максимум -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -730,7 +730,7 @@
           "level": 1,
           "name": "Торжественный траур",
           "abName": "Похороны мёртвых бабочек",
-          "desc": "[WideAreaRampage]\nПри наложении [SinkingWhite] использование эффектов этого навыка: (шанс перевернуть головы) % шанс нанести Усопшие. Если эта единица не нанесла Умерших, нанесите вместо этого Живых. (вычисляет каждый [SinkingWhite] Стек независимо)\n\nЕсли бы лоботомия ЭГО::Торжественный плач И Сан использовал этот навык:\n- [BeforeAttack] Получить случайный набор (Уныние резонанс. + 1) [BulletLament] (максимум 7)\n- [EndSkill] [ReloadLament]",
+          "desc": "[WideAreaRampage]\nПри наложении случайного [SinkingWhite] эффектами этого навыка: с вероятностью выпадения орла накладывает «Умерших бабочек». Если «Умершие бабочки» не наложены, вместо них накладывает «Живых бабочек». (Вероятность проверяется отдельно для каждого [SinkingWhite].)\n\nЕсли этот навык использует И Сан в облике Lobotomy E.G.O::Solemn Lament:\n- [BeforeAttack] Получает случайный набор из (число грехов в резонансе Уныния + 1) [BulletLament] (максимум 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -781,13 +781,13 @@
                   "desc": "Тратит все оставшиеся [BulletLament]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking] и 3 Тремора"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Накладывает 3 [Vibration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Живущих и 2 Почивших [SinkingWhite]"
+                  "desc": "[OnSucceedAttack] Накладывает 2 [SinkingWhite] (Живые)"
                 },
                 {
                   "desc": "[OnSucceedAttack] накладывает 2 [SinkingWhite](Умершие)"
@@ -803,7 +803,7 @@
           "level": 3,
           "name": "Торжественный траур",
           "abName": "Похороны мёртвых бабочек",
-          "desc": "[WideAreaRampage]\nПри наложении [SinkingWhite] использование эффектов этого навыка: (шанс перевернуть головы) % шанс нанести Усопшие. Если эта единица не нанесла Умерших, нанесите вместо этого Живых. (вычисляет каждый [SinkingWhite] Стек независимо)\n\nЕсли бы лоботомия ЭГО::Торжественный плач И Сан использовал этот навык:\n- [BeforeAttack] Получить случайный набор (Уныние резонанс. + 1) [BulletLament] (максимум 7)\n- [EndSkill] [ReloadLament]",
+          "desc": "[WideAreaRampage]\nПри наложении случайного [SinkingWhite] эффектами этого навыка: с вероятностью выпадения орла накладывает «Умерших бабочек». Если «Умершие бабочки» не наложены, вместо них накладывает «Живых бабочек». (Вероятность проверяется отдельно для каждого [SinkingWhite].)\n\nЕсли этот навык использует И Сан в облике Lobotomy E.G.O::Solemn Lament:\n- [BeforeAttack] Получает случайный набор из (число грехов в резонансе Уныния + 1) [BulletLament] (максимум 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -882,7 +882,7 @@
           "level": 4,
           "name": "Торжественный траур",
           "abName": "Похороны мёртвых бабочек",
-          "desc": "[WideAreaRampage]\nПри наложении [SinkingWhite] использование эффектов этого навыка: (шанс перевернуть головы) % шанс нанести Усопшие. Если эта единица не нанесла Умерших, нанесите вместо этого Живых. (вычисляет каждый [SinkingWhite] Стек независимо)\n<style=\"highlight\">Сила в столкновении сила +1 за каждую 4 ([Sinking] + оба [SinkingWhite]) на основной цели (максимальный 4)</style>\n\nЕсли бы лоботомия ЭГО::Торжественный плач И Сан использовал этот навык:\n- [BeforeAttack] Получить случайный набор (Уныние резонанс. + 1) [BulletLament] (максимум 7)\n- [EndSkill] [ReloadLament]",
+          "desc": "[WideAreaRampage]\nПри наложении случайного [SinkingWhite] эффектами этого навыка: с вероятностью выпадения орла накладывает «Умерших бабочек». Если «Умершие бабочки» не наложены, вместо них накладывает «Живых бабочек». (Вероятность проверяется отдельно для каждого [SinkingWhite].)\n<style=\"highlight\">Сила в столкновении +1 за каждые 4 единицы суммарной силы [Sinking] и обоих [SinkingWhite] на основной цели (максимум 4)</style>\n\nЕсли этот навык использует И Сан в облике Lobotomy E.G.O::Solemn Lament:\n- [BeforeAttack] Получает случайный набор из (число грехов в резонансе Уныния + 1) [BulletLament] (максимум 7)\n- [EndSkill] [ReloadLament]",
           "coinlist": [
             {
               "coindescs": [
@@ -966,7 +966,7 @@
                   "desc": "[OnSucceedAttack] Наносит урон Унынием, равный сумме обоих [SinkingWhite] на цели<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Нанести урон от Тьмы, равный ([BulletLament] потраченному этой монетой x 2) % от итогового урона этой монеты<style=\"highlight\"></style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наносит урон Унынием, равный ([BulletLament], потраченным этой монетой, × 2)% от итогового урона этой монеты</style>"
                 }
               ]
             }
@@ -981,7 +981,7 @@
           "level": 1,
           "name": "Торжественный траур",
           "abName": "Похороны мёртвых бабочек",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -2 за каждую расколотую в столкновении Вечную монету (До -6)",
+          "desc": "[CantIdentify]\nАтакует случайные цели\n[BeforeAttack] Вес атаки + (наибольший резонанс / 2) (максимум +2; округление вниз)\n[BeforeAttack] Базовая сила -2 за каждую расколотую монету (максимум -6)",
           "coinlist": [
             {
               "coindescs": [
@@ -989,7 +989,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Живущих [SinkingWhite]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [SinkingWhite] (Живые)"
                 }
               ]
             },
@@ -999,7 +999,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Почивших [SinkingWhite]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [SinkingWhite] (Умершие)"
                 }
               ]
             },
@@ -1009,7 +1009,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Sinking] и 5 Тремора"
+                  "desc": "[OnSucceedAttack] Накладывает 5 [Sinking]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Нанести 5 [Vibration]"
@@ -1025,7 +1025,7 @@
           "level": 3,
           "name": "Торжественный траур",
           "abName": "Похороны мёртвых бабочек",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -2 за каждую расколотую в столкновении Вечную монету (До -6)",
+          "desc": "[CantIdentify]\nАтакует случайные цели\n[BeforeAttack] Вес атаки + (наибольший резонанс / 2) (максимум +2; округление вниз)\n[BeforeAttack] Базовая сила -2 за каждую расколотую монету (максимум -6)",
           "coinlist": [
             {
               "coindescs": [
@@ -1072,7 +1072,7 @@
           "level": 4,
           "name": "Торжественный траур",
           "abName": "Похороны мёртвых бабочек",
-          "desc": "[CantIdentify]\nСлучайные цели\n<style=\"highlight\">Сила в столкновении +1 за каждые 4 единицы в сумме силы [Sinking] и Живущих и Почивших [SinkingWhite] на главной цели (До 4)</style>\n[BeforeAttack] Количество целей повышается на (Число грехов в наибольшем резонансе / 2) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -2 за каждую расколотую в столкновении Вечную монету (До -6)",
+          "desc": "[CantIdentify]\nАтакует случайные цели\n<style=\"highlight\">Сила в столкновении +1 за каждые 4 единицы суммарной силы [Sinking] и всех [SinkingWhite] на основной цели (максимум 4)</style>\n[BeforeAttack] Вес атаки + (наибольший резонанс / 2) (максимум +2; округление вниз)\n[BeforeAttack] Базовая сила -2 за каждую расколотую монету (максимум -6)",
           "coinlist": [
             {
               "coindescs": [

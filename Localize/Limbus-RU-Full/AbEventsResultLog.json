@@ -30,7 +30,7 @@
     },
     {
       "id": "800801_muckwormedapple_failure_1_2",
-      "content": "<color=#ebcaa2>Части аномалии {0} получает</color>%{3} {2} на {1} ходов/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все части аномалии 「{0}」получают</color>%{3} {2} на {1} ходов/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "800801_muckwormedapple_failure_1_3",
@@ -130,31 +130,31 @@
     },
     {
       "id": "801202_reinforcedHuman_1_1",
-      "content": "<color=#ebcaa2>Я нажал \"Да\".</color>"
+      "content": "<color=#ebcaa2>Нажата кнопка «Да».</color>"
     },
     {
       "id": "801202_reinforcedHuman_2_1",
-      "content": "<color=#ebcaa2>Я нажал \"Нет\".</color>"
+      "content": "<color=#ebcaa2>Нажата кнопка «Нет».</color>"
     },
     {
       "id": "801202_reinforcedHuman_1_2_1",
-      "content": "<color=#ebcaa2>Все грешники теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все Идентичности теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "801202_reinforcedHuman_1_2_2",
-      "content": "<color=#ebcaa2>Все враги</color> <color=#e30000>теряют</color> <color=#ebcaa2>пассивный навык [Заводская починка].</color>"
+      "content": "<color=#ebcaa2>У всех врагов исчезает</color> <color=#e30000>пассивный навык</color> <color=#ebcaa2>[Работа улучшенной фабрики].</color>"
     },
     {
       "id": "801202_reinforcedHuman_2_2",
-      "content": "<color=#ebcaa2>Все враги</color> <color=#e30000>теряют</color> <color=#ebcaa2>пассивный навык [Заводская починка].</color>"
+      "content": "<color=#ebcaa2>У всех врагов исчезает</color> <color=#e30000>пассивный навык</color> <color=#ebcaa2>[Работа улучшенной фабрики].</color>"
     },
     {
       "id": "801502_pinkshoe_success_1_1",
-      "content": "<color=#ebcaa2>На оставшуюся битву противники получают</color> %{1} 「{0}」и {3} [{2}]/% <color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>На оставшиеся ходы все враги получают</color> %{1} 「{0}」и {3} [{2}]/% <color=#ebcaa2>.</color>"
     },
     {
       "id": "801502_pinkshoe_success_1_2",
-      "content": "<color=#ebcaa2>Все противники больше не могут почувствовать 「{0}」.</color>"
+      "content": "<color=#ebcaa2>Все враги больше не становятся 「{0}」.</color>"
     },
     {
       "id": "801502_pinkshoe_failure_1_1",
@@ -162,19 +162,19 @@
     },
     {
       "id": "801502_pinkshoe_failure_1_2",
-      "content": "<color=#ebcaa2>Все грешники получают</color> %{1} 「{0}」/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники получают</color> %{1} 「{0}」/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "801502_pinkshoe_failure_1_3",
-      "content": "<color=#ebcaa2>В противниках пробуждается %「{0}」/%.</color>"
+      "content": "<color=#ebcaa2>Все враги становятся %「{0}」/%.</color>"
     },
     {
       "id": "102001_action_4_1",
-      "content": "<color=#ebcaa2>Все грешники теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "102001_action_4_2",
-      "content": "<color=#ebcaa2>Все грешники теряют</color> <color=#fe4b48>{0} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники теряют</color> <color=#fe4b48>{0} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "102002_action_1_1",
@@ -186,7 +186,7 @@
     },
     {
       "id": "102002_action_2_2",
-      "content": "<color=#ff8000>На вас напали!</color>"
+      "content": "<color=#ff8000>Начался бой!</color>"
     },
     {
       "id": "1020201_success_1_1",
@@ -214,7 +214,7 @@
     },
     {
       "id": "disappear_ego_gift",
-      "content": "<color=#ebcaa2>ЭГО-дар {0}</color> <color=#e30000>израсходован</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>ЭГО-дар {0}</color> <color=#e30000>исчез</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "acquire_ego_gift_if_win",
@@ -298,7 +298,7 @@
     },
     {
       "id": "all_ally_mp_increase",
-      "content": "<color=#ebcaa2>Все грешники восстанвливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все грешники восстанавливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_own_skill_attribute_hp_increase",
@@ -306,7 +306,7 @@
     },
     {
       "id": "ally_not_own_skill_attribute_hp_increase",
-      "content": "<color=#ebcaa2>Идентичности без</color> %греха {0}% <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности без</color> %греха {0}% <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_own_skill_attribute_hp_decrease",
@@ -322,7 +322,7 @@
     },
     {
       "id": "ally_not_own_skill_attribute_mp_increase",
-      "content": "<color=#ebcaa2>Идентичности без</color> %греха {0}% <color=#ebcaa2>восстанавливают</color> <color=#80c9ff>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности без</color> %греха {0}% <color=#ebcaa2>восстанавливают</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_own_skill_attribute_mp_decrease",
@@ -386,7 +386,7 @@
     },
     {
       "id": "803101_waterFish_failure_1_1",
-      "content": "<color=#ebcaa2>「{0}」использует атаку</color> <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」использует навык</color> <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "803201_lightningBeast_success_1_1",
@@ -394,7 +394,7 @@
     },
     {
       "id": "803201_lightningBeast_failure_1_1",
-      "content": "<color=#ebcaa2>「{0}」использует</color> атаку <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」использует</color> навык <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "804501_electriccentipede_success_1_1",
@@ -418,7 +418,7 @@
     },
     {
       "id": "804801_gentlefairy_success_1_2",
-      "content": "<color=#ebcaa2>「{0}」получает </color> %{2} [{1}], {4} [{3}]  и {6} [{5}]/%<color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」получает</color> %{2} [{1}], {4} [{3}] и {6} [{5}]/%<color=#ebcaa2>!</color>"
     },
     {
       "id": "804801_gentlefairy_failure_1_1",
@@ -426,19 +426,19 @@
     },
     {
       "id": "804801_gentlefairy_failure_1_2",
-      "content": "<color=#ebcaa2>「{0}」получает </color> %{2} [{1}], {4} [{3}]  и {6} [{5}]/%<color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」получает</color> %{2} [{1}], {4} [{3}] и {6} [{5}]/%<color=#ebcaa2>!</color>"
     },
     {
       "id": "804601_umbrellafox_success_1_1",
-      "content": "<color=#ebcaa2>Каждый 「{0}」</color> <color=#00ff9c>получает {1} урона</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Каждый 「{0}」</color> <color=#00ff9c>получает урон в размере {1} от максимального ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "804601_umbrellafox_success_1_2",
-      "content": "<color=#ebcaa2>「{0}」</color> <color=#00ff9c>теряет {1} Силы духа.</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#00ff9c>теряет {1} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "804601_umbrellafox_failure_1_1",
-      "content": "<color=#ebcaa2>「{0}」</color> <color=#00ff9c>теряет {1} Силы духа</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#00ff9c>теряет {1} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "804701_nobodygonnacry_success_1_1",
@@ -490,11 +490,11 @@
     },
     {
       "id": "805006_egoawakendongrang_success_3_1",
-      "content": "Мы пресекли Донрана."
+      "content": "Мы преградили путь Донрану."
     },
     {
       "id": "805006_egoawakendongrang_failure_3_1",
-      "content": "Мы пресекли Донрана."
+      "content": "Мы преградили путь Донрану."
     },
     {
       "id": "805801_success_1_1",

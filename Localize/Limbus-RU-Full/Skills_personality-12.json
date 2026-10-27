@@ -1044,7 +1044,7 @@
         {
           "level": 3,
           "name": "Несмываемый грех",
-          "desc": "При успешной атаке этим навыком Грегор способен восполнить до 50% собственных ОЗ (До 100 ОЗ за навык)\n[WhenUse] +1% к урону за каждый 1% потерянных ОЗ (До 60%)\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Понижает число <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Усилений Обагрённой кровью руки</link></u></color> на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color>) ОЗ\n- Сила монет +1 при трате 10 и более <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color>\n[WhenUse] Получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
+          "desc": "При попадании этим навыком восстанавливает 50% нанесённого урона в ОЗ (макс. 100 ОЗ за навык)\n[WhenUse] +1% к урону за каждый 1% потерянных ОЗ (До 60%)\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Понижает число <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Усилений Обагрённой кровью руки</link></u></color> на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color> x 3) ОЗ\n- Сила монет +1 при трате 10 и более <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color>\n[WhenUse] Получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -1078,7 +1078,7 @@
         {
           "level": 4,
           "name": "Несмываемый грех",
-          "desc": "При успешной атаке этим навыком Грегор способен восполнить до 50% собственных ОЗ (До 100 ОЗ за навык)\n[WhenUse] <style=\"highlight\">+1,5% за каждый 1% потерянных ОЗ (До 90%)</style>\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Понижает число <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Усилений Обагрённой кровью руки</link></u></color> на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color>) ОЗ\n- Сила монет +1 при трате 10 и более <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color>\n<style=\"highlight\">- При трате 20 <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color> Грегор вновь подкидывает последнюю монету</style>\n[WhenUse] Получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
+          "desc": "При попадании этим навыком восстанавливает 50% нанесённого урона в ОЗ (макс. 100 ОЗ за навык)\n[WhenUse] <style=\"highlight\">+1,5% к урону за каждый 1% потерянных ОЗ (До 90%)</style>\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[WhenUse] Понижает число <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Усилений Обагрённой кровью руки</link></u></color> на Грегоре до 10 для следующих эффектов:\n- Восстанавливает (число потраченных <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color> x 3) ОЗ\n- Сила монет +1 при трате 10 и более <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color>\n<style=\"highlight\">- При трате 20 <sprite name=\"BloodyHandGregFirst\"><color=#9f6a3a><u><link=\"BloodyHandGregFirst\">Рук</link></u></color> Грегор вновь подкидывает последнюю монету</style>\n[WhenUse] Получает 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>\n[EndSkill] Восстанавливает 10% от максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -1799,7 +1799,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ её Ядра в фокусированных битвах) ниже 20%, использует на ней альтернативный первый навык 「Милость」 после атаки",
+                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ её Ядра в фокусированных битвах) равны 20% или ниже, использует на ней альтернативный первый навык 「Милость」 после атаки",
                   "summary": "[OnSucceedAttack] Использует навык 「Милость」"
                 }
               ]
@@ -1831,7 +1831,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ её Ядра в фокусированных битвах) ниже 20% <style=\"highlight\">или она имеет [HorrHurtNightStiletto]</style>, использует на ней альтернативный первый навык 「Милость」 после атаки",
+                  "desc": "[OnSucceedAttack] Если текущие ОЗ цели (ОЗ её Ядра в фокусированных битвах) равны 20% или ниже <style=\"highlight\">или она имеет [HorrHurtNightStiletto]</style>, использует на ней альтернативный первый навык 「Милость」 после атаки",
                   "summary": "[OnSucceedAttack] Использует навык 「Милость」"
                 }
               ]
@@ -1878,7 +1878,7 @@
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto] или её текущие ОЗ ниже 20% (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык 「Милость」 после атаки",
+                  "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto] или её текущие ОЗ равны 20% или ниже (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык 「Милость」 после атаки",
                   "summary": "[OnSucceedAttack] Использует навык 「Милость」"
                 }
               ]
@@ -1920,7 +1920,7 @@
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto] или её текущие ОЗ ниже 20% (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык 「Милость」 после атаки",
+                  "desc": "[OnSucceedAttack] Если цель оглушена, имеет [HorrHurtNightStiletto] или её текущие ОЗ равны 20% или ниже (ОЗ Ядра в фокусированных битвах), использует на ней альтернативный первый навык 「Милость」 после атаки",
                   "summary": "[OnSucceedAttack] Использует навык 「Милость」"
                 }
               ]
@@ -1935,7 +1935,7 @@
         {
           "level": 1,
           "name": "Отчаянное положение",
-          "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [Agility] на следующий ход (Единожды за ход)\n[WhenUse] Если сумма силы [Laceration] и [Vibration] на атакующем равна 6 и более, Сила монеты +1",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [Agility] на следующий ход (Единожды за ход)\n[WhenUse] Если сумма силы [Laceration] и [Vibration] на цели равна 6 или более, сила монеты +1",
           "coinlist": [
             {
               "coindescs": [
@@ -1968,7 +1968,7 @@
         {
           "level": 2,
           "name": "Милость",
-          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\nСила монеты +1 за каждые 20% потерянных ОЗ цели (До 2)\nЕсли текущие ОЗ цели ниже 20%, наносит ей на 80% больше урона\n(В фокусированных битвах учитываются ОЗ Ядра цели)",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\nСила монеты +1 за каждые 20% потерянных ОЗ цели (До 2)\nЕсли текущие ОЗ цели равны 20% или ниже, наносит ей на 80% больше урона\n(В фокусированных битвах учитываются ОЗ Ядра цели)",
           "coinlist": [
             {
               "coindescs": [
@@ -1982,7 +1982,7 @@
         {
           "level": 4,
           "name": "Милость",
-          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\nСила монеты +1 за каждые 20% потерянных ОЗ цели (До <style=\"highlight\">4</style>)\n<style=\"highlight\">Наносит на 1% больше урона за каждый 1% потерянных ОЗ цели</style>\n- Если текущие ОЗ цели ниже 20%, <style=\"highlight\">наносит ей на 120% больше урона вместо этого</style>\n(В фокусированных битвах учитываются ОЗ Ядра цели)\n<style=\"highlight\">[WhenUse] Получает 1 [Agility] на следующий ход (Единожды за ход)</style>",
+          "desc": "[CantDuel]\nНе вызывает активацию защитных навыков цели и не даёт ЭГО Ресурсы за своё использование\nСила монеты +1 за каждые 20% потерянных ОЗ цели (До <style=\"highlight\">4</style>)\n<style=\"highlight\">Наносит на 1% больше урона за каждый 1% потерянных ОЗ цели</style>\n- Если текущие ОЗ цели равны 20% или ниже, <style=\"highlight\">наносит ей на 120% больше урона вместо этого</style>\n(В фокусированных битвах учитываются ОЗ Ядра цели)\n<style=\"highlight\">[WhenUse] Получает 1 [Agility] на следующий ход (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2007,7 +2007,7 @@
         {
           "level": 3,
           "name": "Ночное шило",
-          "desc": "Наносит на 10% больше урона за каждую единицу в сумме своей [Agility] и [Binding] на цели (До 40%)\nЕсли текущие ОЗ цели ниже 20%, наносит ей на 50% больше урона (В фокусированных битвах учитываются ОЗ Ядра цели)\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Vibration] на цели (До 2)\n[WinDuel] [VibrationExplosion] цели",
+          "desc": "Наносит на 10% больше урона за каждую единицу в сумме своей [Agility] и [Binding] на цели (До 40%)\nЕсли текущие ОЗ цели равны 20% или ниже, наносит ей на 50% больше урона (В фокусированных битвах учитываются ОЗ Ядра цели)\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Vibration] на цели (До 2)\n[WinDuel] [VibrationExplosion] цели",
           "coinlist": [
             {
               "coindescs": [
@@ -2060,7 +2060,7 @@
         {
           "level": 4,
           "name": "Ночное шило",
-          "desc": "Наносит на <style=\"highlight\">15%</style> больше урона за каждую единицу в сумме своей [Agility] и [Binding] на цели (До <style=\"highlight\">60%</style>)\n<style=\"highlight\">Если цель (Ядро или Часть цели в фокусированных битвах) имеет щит, наносит на 30% больше урона</style>\n<style=\"highlight\">Наносит на 1% больше урона за каждый 1% потерянных ОЗ цели</style>\n- Если текущие ОЗ цели ниже 20%, <style=\"highlight\">наносит ей на 100% больше урона вместо этого</style>\n(В фокусированных битвах учитываются ОЗ Ядра цели)\n<style=\"highlight\">[WhenUse] Наносит цели 5 [DefenseDown]</style>\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Vibration] на цели (До <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Наносит цели 4 [Vibration] и затем</style> [VibrationExplosion]",
+          "desc": "Наносит на <style=\"highlight\">15%</style> больше урона за каждую единицу в сумме своей [Agility] и [Binding] на цели (До <style=\"highlight\">60%</style>)\n<style=\"highlight\">Если цель (Ядро или Часть цели в фокусированных битвах) имеет щит, наносит на 30% больше урона</style>\n<style=\"highlight\">Наносит на 1% больше урона за каждый 1% потерянных ОЗ цели</style>\n- Если текущие ОЗ цели равны 20% или ниже, <style=\"highlight\">наносит ей на 100% больше урона вместо этого</style>\n(В фокусированных битвах учитываются ОЗ Ядра цели)\n<style=\"highlight\">[WhenUse] Наносит цели 5 [DefenseDown]</style>\n[WhenUse] Сила монет +1 за каждые 4 единицы в сумме силы [Laceration] и [Vibration] на цели (До <style=\"highlight\">3</style>)\n[WinDuel] <style=\"highlight\">Наносит цели 4 [Vibration] и затем</style> [VibrationExplosion]",
           "coinlist": [
             {
               "coindescs": [
@@ -2139,7 +2139,7 @@
         {
           "level": 2,
           "name": "Пристальный взгляд: нулевая дальность",
-          "desc": "Сила монет +1 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n[WhenUse] Получает 1 [Binding] на следующий ход",
+          "desc": "Сила монет +1 при выполнении хотя бы одного условия:\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)\n[WhenUse] Получает 1 [Binding] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2160,7 +2160,7 @@
         {
           "level": 4,
           "name": "Пристальный взгляд: нулевая дальность",
-          "desc": "Сила монет +1 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Получает 1 [Binding] на следующий ход",
+          "desc": "Сила монет +1 при выполнении хотя бы одного условия:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Получает 1 [Binding] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2227,7 +2227,7 @@
         {
           "level": 2,
           "name": "Уничтожить зримое с помощью незримого",
-          "desc": "Сила в столкновении +2 при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)",
+          "desc": "Сила в столкновении +2 при одном из следующих условий:\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)",
           "coinlist": [
             {
               "coindescs": [
@@ -2268,7 +2268,7 @@
         {
           "level": 4,
           "name": "Уничтожить зримое с помощью незримого",
-          "desc": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>",
+          "desc": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2314,7 +2314,7 @@
         {
           "level": 3,
           "name": "Спасение для тех, кто очарован лампой",
-          "desc": "Сила монет +1 и на 20% больше урона при одном из следующих условий:\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n[WhenUse] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3",
+          "desc": "Сила монет +1 и на 20% больше урона при одном из следующих условий:\n- Скорость этой единицы равна 1 или ниже\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n[WhenUse] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3",
           "coinlist": [
             {
               "coindescs": [
@@ -2336,7 +2336,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
+                  "desc": "Если цель (её Ядро в фокусированных битвах) имеет 25% ОЗ от максимальных или ниже либо [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
                   "summary": "На 60% больше урона"
                 },
                 {
@@ -2350,7 +2350,7 @@
         {
           "level": 4,
           "name": "Спасение для тех, кто очарован лампой",
-          "desc": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше своей на 3 и более</style>\n- Своя скорость равна 1\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3\n[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird](;DelusionHohenheimBigBird), получает 1 [PlusCoinValueUp] на следующий ход (Единожды за ход)",
+          "desc": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3\n[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird](;DelusionHohenheimBigBird), получает 1 [PlusCoinValueUp] на следующий ход (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2375,7 +2375,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если цель (Её Ядро в фокусированных битвах) имеет ОЗ ниже 25% от максимальных или [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
+                  "desc": "Если цель (её Ядро в фокусированных битвах) имеет 25% ОЗ от максимальных или ниже либо [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
                   "summary": "На 60% больше урона"
                 },
                 {
@@ -2408,7 +2408,7 @@
         {
           "level": 4,
           "name": "Фитиль из сгоревших перьев",
-          "desc": "[CanDuelGuard]\n[StartBattle] Поднимает значение [LanternGregBigBird](;LanternHohenheimBigBird) до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом Лампу(;LanternHohenheimBigBird) (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (Значение [Binding] на себе / 3) союзникам с наименьшей текущей скоростью 1 [Agility] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
+          "desc": "[CanDuelGuard]\n[StartBattle] Поднимает значение [LanternGregBigBird](;LanternHohenheimBigBird) до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом Лампу(;LanternHohenheimBigBird) (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (значение [Binding] на себе / 2) союзникам с наименьшей текущей скоростью 1 [Agility] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
           "coinlist": [
             {
               "coindescs": [
@@ -2481,7 +2481,7 @@
         {
           "level": 4,
           "name": "Выпуск электричества",
-          "desc": "<style=\"highlight\">[WhenUse] Наносить +6% урона за каждую [Charge] по себе (максимальное 30%)</style>\n[WhenUse] При 3+<style=\"highlight\">/5+</style> [Charge], сила монеты +1<style=\"highlight\">/+2</style>\n<style=\"highlight\">[WhenUse] сила в столкновении +1 на каждый 5 [Charge] Рассчитывать на себя (максимальный 2)</style>\n<style=\"highlight\">[WhenUse] При меньшем 10 [Charge] счётчик, прирост +2 [Charge] счётчик</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Наносит +6% урона за каждую единицу [Charge] на себе (макс. 30%)</style>\n[WhenUse] При 3+<style=\"highlight\">/5+</style> [Charge] сила монеты +1<style=\"highlight\">/+2</style>\n<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 5 единиц счётчика [Charge] на себе (макс. 2)</style>\n<style=\"highlight\">[WhenUse] Если счётчик [Charge] меньше 10, получает +2 к счётчику [Charge]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2977,7 +2977,7 @@
         {
           "level": 3,
           "name": "Рассекатель зари",
-          "desc": "[StartBattle] Применить 2 [Protection] на 2 случайных других союзников\n(приоритет — союзников, у которых нет [Protection]; среди них — союзникам Бюро «Рассвет»[TabExplain])\n[BeforeUse] На 30 [StigmaWorkshopHandStep1] активируйте «Рассвет» (один раз за ход)\n[WhenUse] На 20+ [StigmaWorkshopHandStep1] активируйте следующие эффекты:\n- Финальная степень +1\n- Конвертировать все монеты в этом навыке в [SuperCoin]\n[EndSkill] Применить 1 [DawnLight] следующий ход ко всем союзникам\n- На 20+ [StigmaWorkshopHandStep1] подайте заявку 1 дополнительные [DawnLight]",
+          "desc": "[StartBattle] Применяет 2 [Protection] к 2 случайным союзникам, кроме себя\n(сначала союзникам без [Protection]; среди них приоритет у союзников Бюро «Рассвет»[TabExplain])\n[BeforeUse] При 30 [StigmaWorkshopHandStep1] активирует «Рассвет» (один раз за ход)\n[WhenUse] При 20+ [StigmaWorkshopHandStep1] активирует следующие эффекты:\n- Финальная сила +1\n- Все монеты этого навыка становятся [SuperCoin]\n[EndSkill] На следующий ход применяет 1 [DawnLight] ко всем союзникам\n- При 20+ [StigmaWorkshopHandStep1] дополнительно применяет 1 [DawnLight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3018,7 +3018,7 @@
         {
           "level": 4,
           "name": "Рассекатель зари",
-          "desc": "<style=\"highlight\"> Наносить +([Combustion] по себе + [Combustion] по цели) % урона (максимальный 30%)</style>\n[StartBattle] Применить 2 [Protection] на 2 случайных других союзников\n(приоритет — союзников, у которых нет [Protection]; среди них — союзникам Бюро «Рассвет»[TabExplain])\n[BeforeUse] На 30 [StigmaWorkshopHandStep1] активируйте «Рассвет» (один раз за ход)\n<style=\"highlight\">[WhenUse] +1 Монетной мощности за каждую 6 ([Combustion] + [Vibration]) на цели (максимальный 2)</style>\n[WhenUse] На 20+ [StigmaWorkshopHandStep1] активируйте следующие эффекты:\n- Финальная степень +1\n- Конвертировать все монеты в этом навыке в [SuperCoin]\n<style=\"highlight\">- При последнем попадании монеты активировать [Combustion] по цели; затем сократите [Combustion] Счёт цели на 1</style>\n[EndSkill] Применить 1 [DawnLight] следующий ход ко всем союзникам\n- На 20+ [StigmaWorkshopHandStep1] подайте заявку 1 дополнительные [DawnLight]",
+          "desc": "<style=\"highlight\">Наносит +([Combustion] на себе + [Combustion] на цели)% урона (макс. 30%)</style>\n[StartBattle] Применяет 2 [Protection] к 2 случайным союзникам, кроме себя\n(сначала союзникам без [Protection]; среди них приоритет у союзников Бюро «Рассвет»[TabExplain])\n[BeforeUse] При 30 [StigmaWorkshopHandStep1] активирует «Рассвет» (один раз за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion] и [Vibration] на цели (макс. 2)</style>\n[WhenUse] При 20+ [StigmaWorkshopHandStep1] активирует следующие эффекты:\n- Финальная сила +1\n- Все монеты этого навыка становятся [SuperCoin]\n<style=\"highlight\">- При попадании последней монетой активирует [Combustion] на цели, затем уменьшает её счётчик [Combustion] на 1</style>\n[EndSkill] На следующий ход применяет 1 [DawnLight] ко всем союзникам\n- При 20+ [StigmaWorkshopHandStep1] дополнительно применяет 1 [DawnLight]",
           "coinlist": [
             {
               "coindescs": [
@@ -3112,7 +3112,7 @@
         {
           "level": 4,
           "name": "Защитник",
-          "desc": "[DuelCounter]\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[BeforeUse] Использует альтернативный третий навык 「На заре」 вместо этого при максимальном значении [StigmaWorkshopHandStep1] (Единожды за ход)\n[WhenUse] Повышает значение [StigmaWorkshopHandStep1] на 5 (Единожды за ход)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на атакующем (До 2)</style>\n[WinDuel] Понижает свой счётчик [Combustion] на 2 (Единожды за ход)\n[EndSkillAll] Понижает свою силу [Combustion] на 5 (Единожды за ход)",
+          "desc": "[DuelCounter]\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[BeforeUse] Использует альтернативный третий навык 「На заре」 вместо этого при максимальном значении [StigmaWorkshopHandStep1] (Единожды за ход)\n[WhenUse] Повышает значение [StigmaWorkshopHandStep1] на 5 (Единожды за ход)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Vibration] на цели (До 2)</style>\n[WinDuel] Понижает свой счётчик [Combustion] на 2 (Единожды за ход)\n[EndSkillAll] Понижает свою силу [Combustion] на 5 (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3260,7 +3260,7 @@
         {
           "level": 1,
           "name": "Тепловая дымка",
-          "desc": "[DuelCounter]\nСпециальный навык для [SupportProtect]\n[WhenUse] Повышает значение [StigmaWorkshopHandStep1] на 5\n[WhenUse] Получает 2 [Protection] (Единожды за ход)",
+          "desc": "[DuelCounter]\nСпециальный навык для [SupportProtect]\n[WhenUse] Повышает значение [StigmaWorkshopHandStep1] на 5 (Единожды за ход)\n[WhenUse] Получает 2 [Protection] (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -3281,7 +3281,7 @@
         {
           "level": 4,
           "name": "Тепловая дымка",
-          "desc": "[DuelCounter]\nСпециальный навык для [SupportProtect]\n[WhenUse] Повышает значение [StigmaWorkshopHandStep1] на 5\n[WhenUse] Получает 2 [Protection] (Единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Vibration] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin], если значние [StigmaWorkshopHandStep1] равно 20 и более или Грегор использовал свой альтернативный третий навык 「На заре」 в текущем ходе</style>",
+          "desc": "[DuelCounter]\nСпециальный навык для [SupportProtect]\n[WhenUse] Повышает значение [StigmaWorkshopHandStep1] на 5 (Единожды за ход)\n[WhenUse] Получает 2 [Protection] (Единожды за ход)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме [Combustion] и [Vibration] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin], если значение [StigmaWorkshopHandStep1] равно 20 или выше либо эта единица использовала навык «На заре» в текущем ходу</style>",
           "coinlist": [
             {
               "coindescs": [

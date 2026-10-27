@@ -46,7 +46,7 @@
     },
     {
       "id": "content_game_data_download_description",
-      "content": "Если на устройстве недостаточно места, загрузка вернётся на главный экран"
+      "content": "Если на устройстве недостаточно места, вы вернётесь на экран заголовка игры."
     },
     {
       "id": "content_game_data_download_recommend",
@@ -94,7 +94,7 @@
     },
     {
       "id": "forcequit_content",
-      "content": "Не удаётся подключиться.\nИгра закрывается."
+      "content": "Невозможно продолжить игру.\nИгра будет закрыта."
     },
     {
       "id": "serverstate_openpreparation",
@@ -122,7 +122,7 @@
     },
     {
       "id": "guestlogin_failed_try_newguest",
-      "content": "На устройстве не найден гостевой аккаунт.\nЖелаете создать?"
+      "content": "Не удалось войти как гость: гостевой аккаунт не существует или уже привязан к другой учётной записи.\n\nСоздать новый гостевой аккаунт?"
     },
     {
       "id": "secession_remain_days",
@@ -158,19 +158,19 @@
     },
     {
       "id": "serverstate_verify_ban_reason",
-      "content": "<font=\"ExcelsiorSans SDF\">Причина</font>"
+      "content": "<font=\"ExcelsiorSans SDF\">Описание</font>"
     },
     {
       "id": "serverstate_verify_ban_reason_refund",
-      "content": "Злоупотребление системы оплаты “авансом”."
+      "content": "Злоупотребление системой возврата средств в открытых магазинах приложений."
     },
     {
       "id": "serverstate_verify_ban_reason_cheat",
-      "content": "Запись о подозрительной активности на аккаунте.\n(Читерство)"
+      "content": "Зафиксировано аномальное использование игры."
     },
     {
       "id": "serverstate_blocking_endpoint",
-      "content": "В данный момент происходит проверка функций."
+      "content": "Эта функция сейчас на обслуживании."
     },
     {
       "id": "serverstate_verify_invaliduuid",
@@ -246,7 +246,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_4_text",
-      "content": "ЗЭП.\n<i>(Запасы энкефалина переполнены.)</i>"
+      "content": "Э.З.Э.\n<i>(Энкефалин заряжен.)</i>"
     },
     {
       "id": "push_notification_message_full_stamina_5_title",
@@ -302,7 +302,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_12_text",
-      "content": "Рапорт подготовлен, менеджер. Энкефалин заполнен. В дальнейшем рекомендуется конвертация в модули."
+      "content": "Докладываю, менеджер. Энкефалин полностью восполнен. Рекомендую израсходовать его или накопить запас."
     },
     {
       "id": "push_notification_message_full_stamina_13_title",
@@ -342,7 +342,7 @@
     },
     {
       "id": "steam_overlay_cannot_activate_title",
-      "content": "Ошибка оверлея Steam"
+      "content": "Ошибка транзакции Steam"
     },
     {
       "id": "steam_overlay_cannot_activate_text",

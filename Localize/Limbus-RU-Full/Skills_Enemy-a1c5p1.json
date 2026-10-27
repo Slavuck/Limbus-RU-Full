@@ -345,7 +345,7 @@
         {
           "level": 1,
           "name": "Захват",
-          "desc": "[WinDuel] Копирует число и силу монет с  1~3 навыка цели",
+          "desc": "[WinDuel] Копирует силу и количество монет навыков цели 1–3-го ранга и использует их",
           "coinlist": [
             {
               "coindescs": [
@@ -645,7 +645,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Даёт 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> и 1 [Enhancement] всем союзникам на следующий ход"
+                  "desc": "[OnSucceedAttack] Даёт 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> и 1 [Enhancement] всем остальным союзникам на следующий ход"
                 }
               ]
             }
@@ -664,10 +664,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Кровотечения"
+                  "desc": "[OnSucceedAttack] Наносит 4 Кровотечения"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 Кровотечения"
+                  "desc": "[OnSucceedAttackHead] Наносит 4 Кровотечения"
                 }
               ]
             },
@@ -677,7 +677,7 @@
                   "desc": "[OnSucceedAttack] Наносить 3 Кровотечение\nНанесите дополнительный урон, равный <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">кровотечению</color></link></u> по цели"
                 },
                 {
-                  "desc": " Наносит 2 Кровотечения"
+                  "desc": "Потратить 1 патрон"
                 }
               ]
             }

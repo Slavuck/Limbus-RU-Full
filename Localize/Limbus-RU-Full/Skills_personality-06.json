@@ -136,7 +136,7 @@
         {
           "level": 3,
           "name": "Установка зарядного барьера",
-          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит весь Заряд, чтобы дать (потраченный Заряд ÷ 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</link></u></color> (десятичные опускаются) 2 союзникам с самым низким процентом ОЗ",
+          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит весь Заряд, чтобы дать (потраченный Заряд ÷ 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</link></u></color> (десятичные опускаются) 2 союзникам, включая себя, с самым низким процентом текущего ОЗ",
           "coinlist": [
             {},
             {},
@@ -485,7 +485,7 @@
         {
           "level": 1,
           "name": "Снятие печати",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка во всех ячейках навыков грешника",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка из всех ячеек навыков грешника, начиная с навыков низшего ранга",
           "coinlist": [
             {},
             {},
@@ -501,7 +501,7 @@
         {
           "level": 2,
           "name": "Снятие печати",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка во всех ячейках навыков грешника\n[WhenUse] Сила монет +1 при 3-х и более <sprite name=\"KnowledgeExplored\"><color=#9f6a3a><u><link=\"KnowledgeExplored\">Откровениях</link></u></color>",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка из всех ячеек навыков грешника, начиная с навыков низшего ранга\n[WhenUse] Сила монет +1 при 3-х и более <sprite name=\"KnowledgeExplored\"><color=#9f6a3a><u><link=\"KnowledgeExplored\">Откровениях</link></u></color>",
           "coinlist": [
             {},
             {},
@@ -517,7 +517,7 @@
         {
           "level": 4,
           "name": "Снятие печати",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка во всех ячейках навыков грешника\n[WhenUse] Повышает силу монет на (Откровение - 1)",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка из всех ячеек навыков грешника, начиная с навыков низшего ранга\n[WhenUse] Повышает силу монет на (Откровение - 1)",
           "coinlist": [
             {},
             {},
@@ -581,7 +581,7 @@
         {
           "level": 1,
           "name": "Направляющие шажки",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка во всех ячейках навыков грешника",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка из всех ячеек навыков грешника, начиная с навыков низшего ранга",
           "coinlist": [
             {}
           ]
@@ -589,7 +589,7 @@
         {
           "level": 4,
           "name": "Направляющие шажки",
-          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка во всех ячейках навыков грешника",
+          "desc": "[WhenUse] <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">Сбрасывает</link></u></color> 2 случайных навыка из всех ячеек навыков грешника, начиная с навыков низшего ранга",
           "coinlist": [
             {}
           ]
@@ -2529,7 +2529,7 @@
         {
           "level": 1,
           "name": "Сбор ингредиентов - Окровавленный объект",
-          "desc": "[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "desc": "[WhenUse] При 10 и более единицах [ChargeBodyArt] тратит 5 единиц [ChargeBodyArt], чтобы получить:\n- Силу столкновения +1\n- Последняя монета этого навыка становится [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2563,7 +2563,7 @@
         {
           "level": 2,
           "name": "Сбор ингредиентов - Окровавленный объект",
-          "desc": "<style=\"highlight\">наносит +5% урон для любого негативного эффекта на цель (максимальный 20%)</style>\n<style=\"highlight\">[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по цели (максимальный 2)</style>\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "desc": "<style=\"highlight\">Урон +5% за каждый тип негативного эффекта на цели (максимум 20%)</style>\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (максимум 2)</style>\n[WhenUse] При 10 и более единицах [ChargeBodyArt] тратит 5 единиц [ChargeBodyArt], чтобы получить:\n- Силу столкновения +1\n- Последняя монета этого навыка становится [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2597,7 +2597,7 @@
         {
           "level": 4,
           "name": "Сбор ингредиентов - Окровавленный объект",
-          "desc": "Наносить +<style=\"highlight\">10</style>% урона за любой тип негативного эффекта цели (максимум <style=\"highlight\">30</style>%)\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] в цель (максимум <style=\"highlight\">4</style>)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "desc": "Урон +<style=\"highlight\">10</style>% за каждый тип негативного эффекта на цели (максимум <style=\"highlight\">30</style>%)\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (максимум <style=\"highlight\">4</style>)\n[WhenUse] При 10 и более единицах [ChargeBodyArt] тратит 5 единиц [ChargeBodyArt], чтобы получить:\n- Силу столкновения +1\n- Последняя монета этого навыка становится [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -3252,7 +3252,7 @@
         {
           "level": 3,
           "name": "Охотничья чистка",
-          "desc": "[WhenUse] На 6+ ([Breath] на себе + [Laceration] на цели) сила монеты +1\n[WhenUse] Если у цели есть [TiedRopeHonglu], конвертируйте все монеты этого Навыка в [SuperCoin], получите итоговая сила +1, и последняя монета применяет следующее При попадании:\n- Нанести +2 [Laceration] граф\n- Нанести 1 [Reduction] следующий ход\n[WhenUse] получает 5 [Breath]\n[WhenUse] получает +3 [Breath] счётчик",
+          "desc": "[WhenUse] При сумме [Breath] на себе и [Laceration] на цели 6 и более сила монет +1\n[WhenUse] Если у цели есть [TiedRopeHonglu], все монеты этого навыка становятся [SuperCoin], итоговая сила +1, а при попадании последней монетой:\n- Счётчик [Laceration] увеличивается на 2\n- На следующий ход накладывается 1 [Reduction]\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Повышает собственный счётчик [Breath] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -3296,7 +3296,7 @@
         {
           "level": 4,
           "name": "Охотничья чистка",
-          "desc": "[WhenUse] +1 силы монет на каждую 6 ([Breath] на себе + [Laceration] на цели) (максимальный 2)\n[WhenUse] Если у цели есть [ScratchesHurtID], наносите +20% урон\n[WhenUse] Если у цели есть [TiedRopeHonglu], конвертируйте все монеты этого Навыка в [SuperCoin], получите итоговая сила +1, и последняя монета применяет следующее При попадании:\n- Нанести +2 [Laceration] граф\n- Нанести 1 [Reduction] следующий ход\n[WhenUse] получает 5 [Breath]\n[WhenUse] получает +3 [Breath] счётчик",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 ([Breath] на себе + [Laceration] на цели) (максимум 2)\n[WhenUse] Если у цели есть [ScratchesHurtID], урон +20%\n[WhenUse] Если у цели есть [TiedRopeHonglu], все монеты этого навыка становятся [SuperCoin], итоговая сила +1, а при попадании последней монетой:\n- Счётчик [Laceration] увеличивается на 2\n- На следующий ход накладывается 1 [Reduction]\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Повышает собственный счётчик [Breath] на 3",
           "coinlist": [
             {
               "coindescs": [
