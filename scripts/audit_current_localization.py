@@ -14,14 +14,38 @@ import sys
 from pathlib import Path
 
 
+def default_source(root):
+    """Use supplied local EN/KR trees or the owner's installed-game locator."""
+    if all((root / 'input' / lang).is_dir() for lang in ('en', 'kr')):
+        return root / 'input'
+    locator = root / 'input/расположение языковых пакетов.txt'
+    if locator.is_file():
+        lines = locator.read_text(encoding='utf-8-sig').splitlines()
+        if lines and lines[0].strip():
+            return Path(lines[0].strip().strip('"'))
+    return None
+
+
+def default_ru(root):
+    for relative in ('output/Limbus-RU-Full', 'Localize/Limbus-RU-Full'):
+        candidate = root / relative
+        if candidate.is_dir():
+            return candidate
+    return root / 'Localize/Limbus-RU-Full'
+
+
 def main():
+    root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--source', type=Path, required=True, help='Game Localize directory containing en/ and kr/')
-    parser.add_argument('--ru', type=Path, required=True)
+    parser.add_argument('--source', type=Path, default=default_source(root),
+                        help='Game Localize directory containing en/ and kr/; defaults to input or its locator')
+    parser.add_argument('--ru', type=Path, default=default_ru(root))
     parser.add_argument('--version', required=True)
     parser.add_argument('--report-dir', type=Path, required=True)
     parser.add_argument('--baseline-dir', type=Path)
     args = parser.parse_args()
+    if args.source is None:
+        parser.error('Specify --source or provide input/расположение языковых пакетов.txt')
     for path in (args.source / 'en', args.source / 'kr', args.ru):
         if not path.is_dir():
             parser.error(f'Folder does not exist: {path}')
