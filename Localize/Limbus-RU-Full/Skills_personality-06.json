@@ -3646,6 +3646,346 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1061701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пожалуйста, выслушайте меня",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пожалуйста, выслушайте меня",
+          "desc": "<style=\"highlight\">[WhenUse] Потратить 3 счётчика [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 2 раза)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить <style=\"highlight\">3</style> счётчика [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пожалуйста, выслушайте меня",
+          "desc": "<style=\"highlight\">Урон +5% за каждые 2 силы [ChargeNoirAlly] на себе (макс. 10%)</style>\n[WhenUse] Потратить 3 счётчика [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 2 раза)\n<style=\"highlight\">[EndSkillAll] Если у бойца меньше 10 счётчиков [ChargeNoirAlly], получить 3 счётчика [ChargeNoirAlly]</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить <style=\"highlight\">4</style> счётчика [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Повтор за повтором",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 счётчика [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у бойца есть [TimeToListenHonglu], повторно использовать эту монету 1 раз (1 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести 3 урона СД"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [AmberResistDown] на следующий ход (1 раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Повтор за повтором",
+          "desc": "<style=\"highlight\">[WhenUse] Потратить 3 счётчика [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 2 раза)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на <style=\"highlight\">3</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить <style=\"highlight\">4</style> счётчика [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у бойца есть [TimeToListenHonglu], повторно использовать эту монету 1 раз (1 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести 3 урона СД"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [AmberResistDown] на следующий ход (1 раз за ход)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Повтор за повтором",
+          "desc": "<style=\"highlight\">Урон +10% за каждые 2 силы [ChargeNoirAlly] на себе (макс. 20%)</style>\n[WhenUse] Потратить 3 счётчика [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 2 раза)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить <style=\"highlight\">5</style> счётчиков [ChargeNoirAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у бойца есть [TimeToListenHonglu], повторно использовать эту монету 1 раз (1 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести 3 урона СД"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [AmberResistDown] <style=\"highlight\">в этот и</style> следующий ход (1 раз за ход)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Ужасно бесконечное повторение",
+          "desc": "Урон +10% за каждые 2 силы [ChargeNoirAlly] на себе (макс. 30%)\n[WhenUse] Получить [NoirBindArmorAlly] в размере (сила [ChargeNoirAlly] на себе x 2) (макс. 10 за навык)\n[WhenUse] Потратить 5 счётчиков [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 3 раза)\n[EndSkill] Если у этого бойца нет [TimeToListenHonglu], получить 1 [ReadyToListenHonglu] (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у бойца есть [TimeToListenHonglu], повторно использовать эту монету 1 раз (1 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [WarinessHonglu]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести 5 урона СД"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести урон Ленью в размере 20% от итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Ужасно бесконечное повторение",
+          "desc": "Урон +10% за каждые 2 силы [ChargeNoirAlly] на себе (макс. 30%)\n[WhenUse] Получить [NoirBindArmorAlly] в размере (сила [ChargeNoirAlly] на себе x <style=\"highlight\">3</style>) (макс. <style=\"highlight\">15</style> за навык)\n[WhenUse] Потратить 5 счётчиков [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 3 раза)\n[EndSkill] Если у этого бойца нет [TimeToListenHonglu], получить 1 [ReadyToListenHonglu] (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Если у бойца есть [TimeToListenHonglu], повторно использовать эту монету 1 раз (1 раз за навык)"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] При силе [ChargeNoirAlly] 2 или выше активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [WarinessHonglu]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести 5 урона СД<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести урон Ленью в размере <style=\"highlight\">30</style>% от итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Объявление для клиентов",
+          "desc": "[DuelCounter]\n[StartBattle] Если у этого бойца нет [SupportProtect], получить 1 [SupportProtect]\n[WhenUse] Получить [NoirBindArmorAlly] в количестве, равном силе [ChargeNoirAlly] на себе (макс. 5 за навык)\n[WhenUse] Получить 2 счётчика [ChargeNoirAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Объявление для клиентов",
+          "desc": "[DuelCounter]\n<style=\"highlight\">Урон +25% за каждые 2 силы [ChargeNoirAlly] на себе (макс. 75%)</style>\n[StartBattle] Если у этого бойца нет [SupportProtect], получить 1 [SupportProtect]\n<style=\"highlight\">[BeforeUse] Если у этого бойца есть [TimeToListenHonglu], вместо этого активировать «Ужасно бесконечное повторение» (1 раз за бой)\n[WhenUse] Сила монеты +1 за каждые 3 силы [ChargeNoirAlly] на себе (макс. 2)</style>\n[WhenUse] <style=\"highlight\">Получить [NoirBindArmorAlly] в размере (сила [ChargeNoirAlly] на себе x 3)</style> (макс. <style=\"highlight\">15</style> за навык)\n[WhenUse] Получить <style=\"highlight\">4</style> счётчика [ChargeNoirAlly]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1061705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Объявление предупреждения",
+          "desc": "[CanDuelGuard]\nЭксклюзивный навык [SupportProtect]\n[WhenUse] Потратить 6 счётчиков [ChargeNoirAlly], чтобы получить 1 [SupportProtect] на следующий ход (1 раз за ход)\n[WhenUse] Если у этого бойца нет [TimeToListenHonglu], получить 1 [ReadyToListenHonglu] (1 раз за ход)\n[WinDuel] Получить 2 счётчика [ChargeNoirAlly]\n[WinDuel] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Объявление предупреждения",
+          "desc": "[CanDuelGuard]\nЭксклюзивный навык [SupportProtect]\n<style=\"highlight\">Итоговая сила +1 за каждые 2 силы [ChargeNoirAlly] на себе (макс. 3)</style>\n[WhenUse] Потратить 6 счётчиков [ChargeNoirAlly], чтобы получить 1 [SupportProtect] на следующий ход (1 раз за ход)\n[WhenUse] Если у этого бойца нет [TimeToListenHonglu], получить 1 [ReadyToListenHonglu] (1 раз за ход)\n[WinDuel] Получить <style=\"highlight\">4</style> счётчика [ChargeNoirAlly]\n[WinDuel] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

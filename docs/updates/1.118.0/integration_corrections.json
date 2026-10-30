@@ -1,0 +1,261 @@
+[
+  {
+    "file": "StoryData/P10617.json",
+    "semantic_path": [
+      "dataList",
+      "@id=31",
+      "content"
+    ],
+    "before": "…Верно. Если судить по тому, что я слышал на втором подземном этаже, Голос Чёрного бога звучит всё реже, и сотрудники «Ле Нуар» из-за этого тревожатся.",
+    "after": "…Верно. Если судить по тому, что я слышал на втором подземном этаже, Голос Обсидианового бога звучит всё реже, и сотрудники «Ле Нуар» из-за этого тревожатся.",
+    "reason": "Same named god as story29 and established BattleKeywords-a1c10p3."
+  },
+  {
+    "file": "StoryData/P10617.json",
+    "semantic_path": [
+      "dataList",
+      "@id=44",
+      "content"
+    ],
+    "before": "И ненадолго между нами повисла тихая, тёплая тишина.",
+    "after": "И ненадолго между нами воцарилась тёплая тишина.",
+    "reason": "Remove accidental same-root repetition without changing mood."
+  },
+  {
+    "file": "PersonalityVoiceDlg/Voice_Honglu_Contem_10617.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"smalltalk_10617_1\"",
+      "dlg"
+    ],
+    "before": "Когда мне начинает казаться, что мои передачи никто не слушает, я люблю немного поболтать с солнечным светом. Никто в этом универмаге не прислушивается ко мне так внимательно, как она.",
+    "after": "Когда мне начинает казаться, что мои передачи никто не слушает, я люблю немного поболтать с солнышком. Никто в этом универмаге не прислушивается к моим словам так внимательно, как оно.",
+    "reason": "햇살/sunshine personified; avoid masculine sunlight paired with feminine pronoun."
+  },
+  {
+    "file": "PersonalityVoiceDlg/Voice_Honglu_Contem_10617.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"smalltalk_10617_3\"",
+      "dlg"
+    ],
+    "before": "Когда по коридорам ещё звучал Голос прежнего Багрового бога, я включал детям в центре потерявшихся детей колыбельные, а в зале роскоши — классические произведения, подходившие его изысканной атмосфере.\nПочему я больше их не включаю? Что ж, теперь никому не хочется слушать такую музыку. Все прекрасные мелодии там, в углу, лежат мёртвой грудой.",
+    "after": "Когда по коридорам ещё звучал Голос прежнего Багряного бога, я включал детям в центре потерявшихся детей колыбельные, а в зале роскоши — классические произведения, подходившие его изысканной атмосфере.\nПочему я больше их не включаю? Что ж, теперь никому не хочется слушать такую музыку. Все прекрасные мелодии там, в углу, лежат мёртвой грудой.",
+    "reason": "Established current Crimson God term; address-only repair."
+  },
+  {
+    "file": "StoryData/P10717.json",
+    "semantic_path": [
+      "dataList",
+      "@id=52",
+      "content"
+    ],
+    "before": "Н-нет… Наверное, не могу.",
+    "after": "Д-да… Пожалуй, тут вы правы.",
+    "reason": "KR agrees with the preceding speaker; avoid Russian contradictory literal EN negative."
+  },
+  {
+    "file": "StoryData/P10717.json",
+    "semantic_path": [
+      "dataList",
+      "@id=81",
+      "content"
+    ],
+    "before": "Только кожу высшего сорта брать не стоит, правда? У неё ведь срезана вся история, которую прожила шкура. Называть такое «кожей» как-то…",
+    "after": "Только топ-грейн брать не стоит, правда? У такой кожи словно стёрли все следы прожитой ею жизни. Называть её «кожей» как-то…",
+    "reason": "Preserve KR 탑그레인 technical term and intentional nerdy objection; not generic highest quality. Colourlock leather dictionary top-grain."
+  },
+  {
+    "file": "PersonalityVoiceDlg/Voice_Heathcliff_Contem_10717.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"gacksung_10717_1\"",
+      "dlg"
+    ],
+    "before": "Чего это строчка вразбежку так бросается в глаза?! Я тебе задницу прострочу!!!",
+    "after": "Вспушной шов слишком заметный, говоришь?! Я тебе сейчас задницу прошью!!!",
+    "reason": "피크스티치/pick stitch: tailoring pick stitch, not offset stitching; preserve aggression."
+  },
+  {
+    "file": "PersonalityVoiceDlg/Voice_Heathcliff_Contem_10717.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"lobby_night_10717_1\"",
+      "dlg"
+    ],
+    "before": "Ткацкие станки… хех. Петлевые колёса. Швейные машины… хе-хе… 43200 G… Нет, к чёрту! Уберите всё! Им же нужно «ручное»! «РУЧНОЕ»… Кх… Да почему они талдычат про «ручное», если на самом деле им нужны чёртовы машины… А?!",
+    "after": "Ткацкие станки… хех. Кругловязальные станки. Швейные машины… хе-хе… 43200G… Нет, к чёрту! Уберите всё! Им же нужно «ручное»! «РУЧНОЕ»… Кх… Да почему они талдычат про «ручное», если <i>на самом деле</i> им нужны чёртовы машины… А?!",
+    "reason": "Preserve original EN italic controls and literal 43200G; repair loopwheel machine terminology."
+  },
+  {
+    "file": "StoryData/P10717.json",
+    "semantic_path": [
+      "dataList",
+      "@id=18",
+      "content"
+    ],
+    "before": "Знаете… мне тоже это уже начинает надоедать. Я пришёл поручить работу — почему меня с порога допрашивают, даже не дав толком объяснить заказ? Я только-только сюда добрался! В Подворотнях…",
+    "after": "Знаете… мне тоже это уже начинает надоедать. Я пришёл поручить работу — почему меня с порога допрашивают, даже не дав толком объяснить заказ? Я <i>только-только</i> сюда добрался! В Подворотнях…",
+    "reason": "Preserve original EN italic controls and literal 43200G; repair loopwheel machine terminology."
+  },
+  {
+    "file": "StoryData/P10717.json",
+    "semantic_path": [
+      "dataList",
+      "@id=47",
+      "content"
+    ],
+    "before": "НЕТ, ЭТО ВЫ ЗАКРОЙТЕ СВОИ ПАСТИ!!! Не сейчас… никто не испортит этот миг. Никто, слышите? Никто…",
+    "after": "НЕТ, ЭТО <i>ВЫ</i> ЗАКРОЙТЕ СВОИ ПАСТИ!!! Не сейчас… никто не испортит этот миг. Никто, слышите? Никто…",
+    "reason": "Preserve original EN italic controls and literal 43200G; repair loopwheel machine terminology."
+  },
+  {
+    "file": "BattleKeywords.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"HowlingCocoonAlly\"",
+      "name"
+    ],
+    "before": "Крик кокона — слабый",
+    "after": "Плач кокона — слабый",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 12"
+  },
+  {
+    "file": "Bufs.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"HowlingCocoonAlly\"",
+      "name"
+    ],
+    "before": "Крик кокона — слабый",
+    "after": "Плач кокона — слабый",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 12"
+  },
+  {
+    "file": "BattleKeywords.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"HowlingCocoonTwoAlly\"",
+      "name"
+    ],
+    "before": "Крик кокона — злобный",
+    "after": "Плач кокона — злобный",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 14"
+  },
+  {
+    "file": "Bufs.json",
+    "semantic_path": [
+      "dataList",
+      "@id=\"HowlingCocoonTwoAlly\"",
+      "name"
+    ],
+    "before": "Крик кокона — злобный",
+    "after": "Плач кокона — злобный",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 14"
+  },
+  {
+    "file": "Passives.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1071701",
+      "name"
+    ],
+    "before": "Говоришь, слишком ровно? Говоришь, это не потайной шов? Собрание!!!",
+    "after": "Говоришь, слишком ровно? Говоришь, это не ручная вспушка? Построиться!!!",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 36"
+  },
+  {
+    "file": "Passives.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1061701",
+      "desc"
+    ],
+    "before": "Сила столкновения навыка защиты +1 за каждую силу [ChargeNoirAlly] на себе (макс. 5)\n\nПри 8 или более [NoirBindArmorAlly], после расходования [ChargeNoirAlly] навыком «Объявление предупреждения» в конце навыка получить дополнительно [ChargeNoirAlly] в количестве, равном числу потраченных этим навыком [ChargeNoirAlly] (1 раз за ход)",
+    "after": "Сила защитного навыка в столкновении +1 за каждую единицу потенциала [ChargeNoirAlly] на себе (макс. 5)\n\nПри 8 или более [NoirBindArmorAlly], после расходования счётчика [ChargeNoirAlly] навыком «Объявление предупреждения», в конце этого навыка повысить свой счётчик [ChargeNoirAlly] на количество потраченных этим навыком единиц счётчика [ChargeNoirAlly] (1 раз за ход)",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 39"
+  },
+  {
+    "file": "Passives_Enemy-a1c10p1.json",
+    "semantic_path": [
+      "dataList",
+      "@id=9106302",
+      "name"
+    ],
+    "before": "Маленькая острая игла",
+    "after": "Маленькие острые гвозди",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 47"
+  },
+  {
+    "file": "Skills_Abnormality-a1c10p1.json",
+    "semantic_path": [
+      "dataList",
+      "@id=149606",
+      "levelList",
+      "#0",
+      "desc"
+    ],
+    "before": "В первую очередь выбирает союзников, которые не пошатнуты; наносит 0 урона\nНе активирует защитный навык цели\n\n[EndSkill] Выбранный Игольник[TabExplain] активирует случайный атакующий навык (игнорируя пошатывание)",
+    "after": "Приоритет — неошеломлённым союзникам; наносит 0 урона\nНе активирует защитный навык цели\n\n[EndSkill] Выбранный Игольник[TabExplain] активирует случайный атакующий навык (игнорирует ошеломление)",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 49"
+  },
+  {
+    "file": "Skills_personality-07.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1071703",
+      "levelList",
+      "#0",
+      "name"
+    ],
+    "before": "Слишком заметный потайной шов, говоришь?! Сейчас я тебе зад прошью!",
+    "after": "Вспушной шов слишком заметный, говоришь?! Я тебе сейчас задницу прошью!",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 114"
+  },
+  {
+    "file": "Skills_personality-07.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1071703",
+      "levelList",
+      "#1",
+      "name"
+    ],
+    "before": "Слишком заметный потайной шов, говоришь?! Сейчас я тебе зад прошью!",
+    "after": "Вспушной шов слишком заметный, говоришь?! Я тебе сейчас задницу прошью!",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 114"
+  },
+  {
+    "file": "Passives.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1071702",
+      "desc"
+    ],
+    "before": "За каждые 10 суммарных счётчиков [ChargeRougeAlly], потраченных этим бойцом за бой, получить 1 силу [ChargeRougeAlly]\n\nВ начале хода, если на поле есть союзный боец «Синклер «Высокая мода::Багряный бог Ле Руж»», получить 1 [HowlingCocoonAlly]\n\nВ начале хода, если у бойца максимум [HowlingCocoonAlly] или у союзного бойца «Синклер «Высокая мода::Багряный бог Ле Руж»» есть [TransformSinclair], преобразовать [HowlingCocoonAlly] в [HowlingCocoonTwoAlly], после чего союзный боец «Синклер «Высокая мода::Багряный бог Ле Руж»» получает эффекты:\n- Получить 1 [RougeFamilySinclair]\n- При попадании монетами навыка «Ла Деманд» получить 1 счётчик [ChargeRougeAlly] и восстановить 5% ОЗ",
+    "after": "За каждые 10 суммарных счётчиков [ChargeRougeAlly], потраченных этим бойцом за бой, получить 1 силу [ChargeRougeAlly]\n\nВ начале хода, если на поле есть союзный боец Синклер «Высокая мода::Багряный бог Ле Руж», получить 1 [HowlingCocoonAlly]\n\nВ начале хода, если у бойца максимум [HowlingCocoonAlly] или у союзного бойца Синклер «Высокая мода::Багряный бог Ле Руж» есть [TransformSinclair], преобразовать [HowlingCocoonAlly] в [HowlingCocoonTwoAlly], после чего союзный боец Синклер «Высокая мода::Багряный бог Ле Руж» получает эффекты:\n- Получить 1 [RougeFamilySinclair]\n- При попадании монетами навыка «Ла Деманд» получить 1 счётчик [ChargeRougeAlly] и восстановить 5% ОЗ",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 30"
+  },
+  {
+    "file": "Passives.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1071703",
+      "desc"
+    ],
+    "before": "Каждый раз, когда этот боец теряет 3% ОЗ, получить 1 счётчик [ChargeRougeAlly] (макс. 20 за ход)\n\nКаждый раз, когда этот боец теряет 1,5% ОЗ, получить 1 [NiddlePinGather]\n\nЭффекты расхода ОЗ базовых навыков этого бойца не вызывают пошатывания и не снижают его ОЗ ниже 1 (при 1 ОЗ эффекты базовых навыков, расходующие ОЗ, срабатывают бесплатно)",
+    "after": "Каждый раз, когда этот боец теряет 3% ОЗ, получить 1 счётчик [ChargeRougeAlly] (макс. 20 за ход)\n\nКаждый раз, когда этот боец теряет 1,5% ОЗ, получить 1 [NiddlePinGather]\n\nЭффекты расхода ОЗ базовых навыков этого бойца не вызывают ошеломления и не снижают его ОЗ ниже 1 (при 1 ОЗ эффекты базовых навыков, расходующие ОЗ, срабатывают бесплатно)",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 32"
+  },
+  {
+    "file": "Passives.json",
+    "semantic_path": [
+      "dataList",
+      "@id=1071713",
+      "desc"
+    ],
+    "before": "Каждый раз, когда этот боец теряет 3% ОЗ, получить 1 счётчик [ChargeRougeAlly] (макс. 20 за ход)\n\nКаждый раз, когда этот боец теряет 1,5% ОЗ, получить 1 [NiddlePinGather]\n\nЭффекты расхода ОЗ базовых навыков этого бойца не вызывают пошатывания и не снижают его ОЗ ниже 1 (при 1 ОЗ эффекты базовых навыков, расходующие ОЗ, срабатывают бесплатно)\n\nПри 3 [NeedlekinAlly] в конце атакующего навыка использовать навык «Снаружи бокового шва видны две строчки? Двойная игла! Брак!» против случайных врагов",
+    "after": "Каждый раз, когда этот боец теряет 3% ОЗ, получить 1 счётчик [ChargeRougeAlly] (макс. 20 за ход)\n\nКаждый раз, когда этот боец теряет 1,5% ОЗ, получить 1 [NiddlePinGather]\n\nЭффекты расхода ОЗ базовых навыков этого бойца не вызывают ошеломления и не снижают его ОЗ ниже 1 (при 1 ОЗ эффекты базовых навыков, расходующие ОЗ, срабатывают бесплатно)\n\nПри 3 [NeedlekinAlly] в конце атакующего навыка использовать навык «Снаружи бокового шва видны две строчки? Двойная игла! Брак!» против случайных врагов",
+    "reason": "Coordinator integration: exact KR semantic name, established status term, explicit Potency/Count, and consistency with voice line. Addressed group 34"
+  }
+]

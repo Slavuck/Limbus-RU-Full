@@ -1,0 +1,167 @@
+{
+  "profile_id": "local-terminology-v1:76fccda741281a267e1b5f6b3df41411fbe99e8af8eac665ff3690bf99de4801",
+  "status": "reviewed_once",
+  "sources": [
+    "work/release-1.118.0/official-notice-3.png",
+    "work/release-1.118.0/official-notice-4.png",
+    "work/release-1.118.0/source/en/EN_Skills_personality-10.json",
+    "work/release-1.118.0/source/kr/KR_Skills_personality-10.json",
+    "output/Limbus-RU-Full/Skills_personality-10.json",
+    "work/release-1.118.0/source/en/EN_Skills_personality-09.json",
+    "work/release-1.118.0/source/kr/KR_Skills_personality-09.json",
+    "output/Limbus-RU-Full/Skills_personality-09.json",
+    "work/release-1.118.0/source/en/EN_Passives.json",
+    "work/release-1.118.0/source/kr/KR_Passives.json",
+    "output/Limbus-RU-Full/Passives.json",
+    "work/release-1.118.0/source/en/EN_Skills_Ego_Personality-02.json",
+    "work/release-1.118.0/source/kr/KR_Skills_Ego_Personality-02.json",
+    "output/Limbus-RU-Full/Skills_Ego_Personality-02.json",
+    "work/release-1.118.0/source/en/EN_Skills_Ego_Personality-07.json",
+    "work/release-1.118.0/source/kr/KR_Skills_Ego_Personality-07.json",
+    "output/Limbus-RU-Full/Skills_Ego_Personality-07.json",
+    "work/release-1.118.0/source/en/EN_BattleKeywords.json",
+    "work/release-1.118.0/source/kr/KR_BattleKeywords.json",
+    "output/Limbus-RU-Full/BattleKeywords.json",
+    "terminology/profile.json",
+    "terminology/glossary.py lookup 완전 공명 --limit 5",
+    "terminology/glossary.py lookup 보좌 --limit 5",
+    "terminology/glossary.py lookup 호위 --limit 5"
+  ],
+  "checks": [
+    {
+      "semantic_id": "1101103",
+      "subject": "Devyat' Association North Section 3 Sinclair, Skill 3, final coin effect (Uptie IV)",
+      "address": "Skills_personality-10.json#/dataList[id=1101103]/levelList[level=4]/coinlist[2]/coindescs[0]",
+      "official_notice": "official-notice-3.png, page 4/6: JP-only correction narrows the condition to the final Coin Power increase effect failing to activate.",
+      "en": "[OnSucceedAttack] If this Skill's effect to raise its final Coin Power did not activate, gain 2 [Agility] next turn",
+      "kr": "[OnSucceedAttack] 이 스킬의 마지막 코인 위력이 증가하는 효과가 발동하지 않았다면, 다음 턴에 [Agility] 2 얻음",
+      "ru": "[OnSucceedAttack] Если усиление последней монеты не произошло, Синклер получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
+      "finding": "RU identifies the last-coin enhancement condition; matches the corrected EN/KR condition and does not use the broader whole-skill-final-power condition.",
+      "recommendation": "preserve",
+      "evidence": [
+        "EN and KR skill records explicitly say the final Coin's Power increase effect did not activate; RU says the final Coin enhancement did not occur. The notice is JP-only."
+      ]
+    },
+    {
+      "semantic_id": "1100905",
+      "subject": "Dawn Office Fixer Sinclair, Skill 3 (Uptie IV)",
+      "address": "Skills_personality-10.json#/dataList[id=1100905]/levelList[level=4]/desc",
+      "official_notice": "official-notice-3.png, page 4/6: JP-only correction distinguishes the 4+ highest Wrath A-Resonance condition from ordinary Wrath Resonance scaling.",
+      "en": "If at 4+ highest Wrath A-Reson., deal +20% damage for every Wrath Reson. instead (max 120%)",
+      "kr": "최대 분노 완전 공명 수가 4 이상이면, 대신 20% 증가 (최대 120%)",
+      "ru": "+20% к урону при 4 и более грехов в абсолюте Гнева (До 120%)",
+      "finding": "Full RU record lacks explicit instead/per-resonance in the 20% line; coordinator adds them while preserving threshold, cap, and controls.",
+      "recommendation": "addressed_ru_clarification",
+      "evidence": [
+        "Current EN/KR contain the A-Res condition and +20% per Wrath Resonance; RU conveys the same threshold and scaling. The notice is JP-only."
+      ]
+    },
+    {
+      "semantic_id": "1090701",
+      "subject": "Dieci Association South Section 4 Rodion, Skill 1, Uptie I",
+      "address": "Skills_personality-09.json#/dataList[id=1090701]/levelList[level=1]/desc",
+      "official_notice": "official-notice-3.png, page 4/6: JP-only wording correction for the Insight-based shield.",
+      "en": "Gain (Insight x 3% of Max HP) Shield if this Skill is Discarded",
+      "kr": "이 스킬이 버려지면 (탐구한 지식 x 최대 체력의 3%)만큼 보호막을 얻음",
+      "ru": "Получает щит, равный (Откровение × 3% максимальных ОЗ)при сбросе этого навыка",
+      "finding": "Current RU includes the 3% multiplier and matches current EN/KR. The official notice is JP-only; the current source set does not support changing RU to 4% or removing the percentage factor.",
+      "recommendation": "preserve",
+      "evidence": [
+        "EN, KR, and RU level 1 rows all state Insight multiplied by 3% of max HP. No RU change proposed."
+      ]
+    },
+    {
+      "semantic_id": "1051001",
+      "subject": "Dieci Association South Section 4 Director Meursault passive: Study Hall / 자율 학습 지시",
+      "address": "Passives.json#/dataList[id=1051001]/desc",
+      "official_notice": "official-notice-3.png, page 4/6: JP-only correction clarifies that the Turn End count excludes this unit.",
+      "en": "Every time another ally Discards a Skill, apply 1 [KnowledgeTraining] to the ally and self (once per Skill, 3 times per turn)\nTurn End: next turn, gain Pierce DMG Up and Blunt DMG Up equal to the number of other allies that Discarded Skills (max 3)",
+      "kr": "자신을 제외한 아군이 스킬을 버릴 때마다 대상과 자신에게 [KnowledgeTraining] 1을 부여 (스킬 당 1회, 턴 당 3회)\n턴 종료 시, 자신을 제외하고 스킬을 버린 아군의 수만큼 다음 턴에 관통 피해량 증가, 타격 피해량 증가 얻음 (최대 3)",
+      "ru": "Когда союзник <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбрасывает</link></u></color> навык, этот союзник и Мерсо получают 1 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color>. (Раз за использование навыка, до 3-х раз за ход)\nВ конце хода получает Повышение колющего урона и Повышение дробящего урона, равные числу союзников, <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбросивших</link></u></color> навыки в этот ход. (До 3)",
+      "finding": "RU does not explicitly exclude Meursault in either the trigger ('another ally') or the Turn End count ('other allies'); current EN and KR make both exclusions explicit.",
+      "recommendation": "propose_addressed_ru",
+      "proposed_ru": "Когда другой союзник <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбрасывает</link></u></color> навык, этот союзник и Мерсо получают 1 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color>. (Раз за использование навыка, до 3-х раз за ход)\nВ конце хода получает Повышение колющего урона и Повышение дробящего урона, равные числу других союзников, <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбросивших</link></u></color> навыки в этот ход. (До 3)",
+      "evidence": [
+        "EN uses 'another ally' and 'other allies'; KR repeats 자신을 제외한/자신을 제외하고. RU's corresponding clauses omit the exclusion. The proposal adds only that missing scope."
+      ]
+    },
+    {
+      "semantic_id": "2020821",
+      "subject": "Thoracalgia Ryoshu E.G.O Corrosion",
+      "address": "Skills_Ego_Personality-02.json#/dataList[id=2020821]/levelList[level=1]/desc",
+      "official_notice": "official-notice-3.png, page 4/6: gameplay fix prevents death on this self-damage effect as its text already specifies.",
+      "en": "- Cannot be Staggered or defeated due to this effect",
+      "kr": "- 이 효과로 흐트러지거나 사망하지 않음",
+      "ru": "- Этот эффект не может оглушить или убить её",
+      "finding": "RU already states that this effect cannot kill the unit; it also preserves the stagger protection present in EN/KR.",
+      "recommendation": "preserve",
+      "evidence": [
+        "This is the self-damage clause in the corrosion skill. The gameplay notice says the behavior was fixed; no RU wording change is indicated."
+      ]
+    },
+    {
+      "semantic_id": "2070921",
+      "subject": "Move-in Reg. Heathcliff E.G.O Corrosion",
+      "address": "Skills_Ego_Personality-07.json#/dataList[id=2070921]/levelList[level=1]/desc",
+      "official_notice": "official-notice-3.png, page 4/6: gameplay fix prevents death on this self-damage effect as its text already specifies.",
+      "en": "(this effect does not kill or Stagger this unit)",
+      "kr": "(이 효과로 사망하거나 흐트러짐이 발생하지 않음)",
+      "ru": "(этот эффект не убивает и не оглушает этот юнит)",
+      "finding": "RU already states the unit cannot be killed or staggered by this effect, matching current EN/KR.",
+      "recommendation": "preserve",
+      "evidence": [
+        "The RU clause explicitly covers death and stagger; the official notice describes a gameplay fix, not a Russian text change."
+      ]
+    },
+    {
+      "semantic_id": "BuffetFriendShield / HeishouSupportProtect",
+      "subject": "Attending the Divine / Lordsguard description wording standardization",
+      "address": "BattleKeywords.json#/dataList[id=BuffetFriendShield]/name; BattleKeywords.json#/dataList[id=HeishouSupportProtect]/name",
+      "official_notice": "official-notice-3.png, page 4/6: KR/JP-only standardization of Attending the Divine to match Lordsguard.",
+      "en": {
+        "BuffetFriendShield": "Attending the Divine",
+        "HeishouSupportProtect": "Lordsguard"
+      },
+      "kr": {
+        "BuffetFriendShield": "보좌",
+        "HeishouSupportProtect": "호위"
+      },
+      "ru": {
+        "BuffetFriendShield": "Служение божеству",
+        "HeishouSupportProtect": "Личная охрана"
+      },
+      "finding": "The official notice standardizes description wording, not keyword names. The source KR desc of BuffetFriendShield changed its priority/count phrasing; this is group 0 of the update, where existing RU already conveys the clarified semantics. Distinct keyword names 보좌/호위 and their Russian forms remain intentional.",
+      "recommendation": "preserve_existing_ru_description_and_names",
+      "evidence": [
+        "Targeted glossary lookups identify 호위 / Lordsguard / Личная охрана and separate 보좌 usages; Attending Divine's current RU name is Служение божеству. No RU standardization is authorized by this KR/JP-only notice.",
+        "Coordinator correction: the notice does not announce a keyword rename. No KR source discrepancy is inferred from the distinct names."
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "file": "Passives.json",
+      "semantic_path": [
+        "dataList",
+        "@id=1051001",
+        "desc"
+      ],
+      "before": "Когда союзник <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбрасывает</link></u></color> навык, этот союзник и Мерсо получают 1 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color>. (Раз за использование навыка, до 3-х раз за ход)\nВ конце хода получает Повышение колющего урона и Повышение дробящего урона, равные числу союзников, <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбросивших</link></u></color> навыки в этот ход. (До 3)",
+      "after": "Когда другой союзник <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбрасывает</link></u></color> навык, этот союзник и Мерсо получают 1 <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color>. (Раз за использование навыка, до 3-х раз за ход)\nВ конце хода получает на следующий ход Повышение колющего урона и Повышение дробящего урона, равные числу других союзников, <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбросивших</link></u></color> навыки в этот ход. (До 3)",
+      "reason": "EN/KR explicitly other allies and next turn. Existing controls preserved."
+    },
+    {
+      "file": "Skills_personality-10.json",
+      "semantic_path": [
+        "dataList",
+        "@id=1100905",
+        "levelList",
+        "#1",
+        "desc"
+      ],
+      "before": "Сила монет +<style=\"highlight\">2</style> за каждые 4 в сумме потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на всех противниках (До 8)\n[WinDuel] Восстанавливает 10 СД\n[DefeatDuel] Теряет 30 СД\n+<style=\"highlight\">10</style>% к урону за каждый грех в резонансе Гнева (До <style=\"highlight\">60</style>%)\n<style=\"highlight\">- +20% к урону при 4 и более грехов в абсолюте Гнева (До 120%)</style>\n[EndSkill] Теряет 15 СД",
+      "after": "Сила монет +<style=\"highlight\">2</style> за каждые 4 в сумме потенциала <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на всех противниках (До 8)\n[WinDuel] Восстанавливает 10 СД\n[DefeatDuel] Теряет 30 СД\n+<style=\"highlight\">10</style>% к урону за каждый грех в резонансе Гнева (До <style=\"highlight\">60</style>%)\n<style=\"highlight\">- При 4 и более грехах в наибольшем абсолюте Гнева вместо этого: +20% к урону за каждый грех в резонансе Гнева (До 120%)</style>\n[EndSkill] Теряет 15 СД",
+      "reason": "Official JP-only item also exposes RU ambiguity: bonus replaces 10%, scales per Wrath resonance. Numbers and controls unchanged."
+    }
+  ]
+}

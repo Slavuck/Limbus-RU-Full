@@ -3142,6 +3142,433 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1071701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Бла-бла, уток, бла-бла, переплёт, бла-бла",
+          "desc": "[WhenUse] Если у бойца меньше 5 счётчиков [ChargeRougeAlly], потратить (2 x (5 - текущие счётчики [ChargeRougeAlly]))% ОЗ, чтобы увеличить количество счётчиков [ChargeRougeAlly] до 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 4 счётчика [ChargeRougeAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": []
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Бла-бла, уток, бла-бла, переплёт, бла-бла",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)</style>\n[WhenUse] Если у бойца меньше 5 счётчиков [ChargeRougeAlly], потратить (2 x (5 - текущие счётчики [ChargeRougeAlly]))% ОЗ, чтобы увеличить количество счётчиков [ChargeRougeAlly] до 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 4 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить на цель [NiddlePinAlly] в количестве, равном накоплениям [NeedlekinAlly] на себе<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Бла-бла, уток, бла-бла, переплёт, бла-бла",
+          "desc": "Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)\n[WhenUse] Если у бойца меньше 5 счётчиков [ChargeRougeAlly], потратить (2 x (5 - текущие счётчики [ChargeRougeAlly]))% ОЗ, чтобы увеличить количество счётчиков [ChargeRougeAlly] до 5\n<style=\"highlight\">[WhenUse] Если у цели 6 или более [Laceration], сила монеты +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 4 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 3<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить на цель [NiddlePinAlly] в количестве, равном накоплениям [NeedlekinAlly] на себе<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стежки! На! Дюйм!",
+          "desc": "[WhenUse] Если у бойца меньше 10 счётчиков [ChargeRougeAlly], потратить (2 x (10 - текущие счётчики [ChargeRougeAlly]))% ОЗ, чтобы увеличить количество счётчиков [ChargeRougeAlly] до 10\n[WhenUse] Потратить 7 счётчиков [ChargeRougeAlly] на себе, чтобы получить +2 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Стежки! На! Дюйм!",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)</style>\n[WhenUse] Если у бойца меньше 10 счётчиков [ChargeRougeAlly], потратить (2 x (10 - текущие счётчики [ChargeRougeAlly]))% ОЗ, чтобы увеличить количество счётчиков [ChargeRougeAlly] до 10\n[WhenUse] Потратить 7 счётчиков [ChargeRougeAlly] на себе, чтобы получить +2 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить на цель [NiddlePinAlly] в количестве, равном накоплениям [NeedlekinAlly] на себе<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Стежки! На! Дюйм!",
+          "desc": "Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)\n[WhenUse] Если у бойца меньше 10 счётчиков [ChargeRougeAlly], потратить (2 x (10 - текущие счётчики [ChargeRougeAlly]))% ОЗ, чтобы увеличить количество счётчиков [ChargeRougeAlly] до 10\n[WhenUse] Потратить 7 счётчиков [ChargeRougeAlly] на себе, чтобы получить +2 к итоговой силе\n<style=\"highlight\">[WhenUse] Если у цели 6 или более [Laceration], сила монеты +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 счётчика [ChargeRougeAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить на цель [NiddlePinAlly] в количестве, равном накоплениям [NeedlekinAlly] на себе<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести урон пронзанием в размере 1% от итогового урона этой монеты за каждое накопление [NeedlekinAlly] на себе (минимум 1)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Вспушной шов слишком заметный, говоришь?! Я тебе сейчас задницу прошью!",
+          "desc": "[WhenUse] Получить +1 к весу атаки за каждые 15 [NiddlePinGather] на себе (макс. 2)\n[WhenUse] Урон +30% за каждую единицу веса атаки сверх числа фактических целей (в сфокусированном бою учитываются части)\n[WhenUse] Потратить до 20 счётчиков [ChargeRougeAlly] на себе, чтобы применить эффекты:\n- Сила монеты +1 за каждые 7 потраченных счётчиков [ChargeRougeAlly] (макс. 2)\n- Урон этим навыком +2% за каждый потраченный счётчик [ChargeRougeAlly]\n[EndSkill] Потратить [NiddlePinGather] на себе в количестве (полученный вес атаки от [NiddlePinGather] x 15)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 счётчика [ChargeRougeAlly] (1 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 счётчика [ChargeRougeAlly] (1 раз за навык)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [NiddlePinAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели 5 или более [NiddlePinAlly], потратить на цели 5 [NiddlePinAlly], чтобы наложить на неё [NiddlePinnedAlly] на следующий ход (считается отдельно для каждой цели)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Вспушной шов слишком заметный, говоришь?! Я тебе сейчас задницу прошью!",
+          "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)</style>\n[WhenUse] Получить +1 к весу атаки за каждые 15 [NiddlePinGather] на себе (макс. 2)\n[WhenUse] Урон +30% за каждую единицу веса атаки сверх числа фактических целей (в сфокусированном бою учитываются части)\n[WhenUse] Потратить до 20 счётчиков [ChargeRougeAlly] на себе, чтобы применить эффекты:\n- Сила монеты +1 за каждые 7 потраченных счётчиков [ChargeRougeAlly] (макс. 2)\n- Урон этим навыком +2% за каждый потраченный счётчик [ChargeRougeAlly]\n[EndSkill] Потратить [NiddlePinGather] на себе в количестве (полученный вес атаки от [NiddlePinGather] x 15)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 счётчика [ChargeRougeAlly] (1 раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 счётчика [ChargeRougeAlly] (1 раз за навык)<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [NiddlePinAlly]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 1 [PenetrateTakeDamageUp] на следующий ход</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели 5 или более [NiddlePinAlly], потратить на цели 5 [NiddlePinAlly], чтобы наложить на неё [NiddlePinnedAlly] на следующий ход (считается отдельно для каждой цели)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кр-р-рх...",
+          "desc": "[DuelCounter]\n[StartBattle] Потратить 20% ОЗ, чтобы получить 1 [Enhancement] на следующий ход (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [NiddlePinAlly]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Кр-р-рх...",
+          "desc": "[DuelCounter]\n[StartBattle] Потратить 20% ОЗ, чтобы получить на следующий ход <style=\"highlight\">2 [Enhancement] и 5 счётчиков [ChargeRougeAlly]</style> (1 раз за ход)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] на себе (макс. 2)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [NiddlePinAlly]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1071705,
+      "levelList": [
+        {
+          "level": 2,
+          "name": "Снаружи бокового шва видны две строчки? Двойная игла! Брак!",
+          "desc": "[WideAreaRampage]\nПри попадании этим навыком восстановить 8% ОЗ\n[WhenUse] Потратить все [NeedlekinAlly] на себе, чтобы на следующий ход наложить 1 [PenetrateDamageUp] на себя и ещё 2 случайных союзников\n- В первую очередь выбираются бойцы Ле Руж (по порядку развёртывания)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 счётчик [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [NiddlePinAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 счётчик [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [NiddlePinAlly]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 счётчик [ChargeRougeAlly]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [NiddlePinAlly]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

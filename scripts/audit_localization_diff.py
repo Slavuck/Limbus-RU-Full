@@ -763,8 +763,8 @@ class Auditor:
             "review_status": "not_in_review_scope",
         }
         self.state.source_index.append(source_row)
-        # Changed KR metadata must not turn an EN resource/model ID into text.
-        # Keep indexing technical leaves so source changes remain observable.
+        # A changed KR label must not turn an EN resource/model ID into text.
+        # Index technical leaves, but compare them as identifiers, not dialogue.
         if is_technical_key(key):
             if russian is not MISSING and english != russian:
                 self._issue(self.state.technical_mismatches, relative, path,
@@ -820,6 +820,11 @@ class Auditor:
             and (
                 ru_value == baseline.get("previous_russian")
                 or ru_value.replace("</nobr>", "<nobr>") == baseline.get("previous_russian")
+                or (
+                    isinstance(baseline.get("previous_russian"), str)
+                    and bool(audit_tags(baseline["previous_russian"]))
+                    and Counter(audit_tags(ru_value)) == Counter(audit_tags(baseline["previous_russian"]))
+                )
             )
         )
         effective_tag_error = tag_error and not legacy_tag_expansion
