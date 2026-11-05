@@ -1,0 +1,3264 @@
+{
+  "profile_id": "local-terminology-v1:76fccda741281a267e1b5f6b3df41411fbe99e8af8eac665ff3690bf99de4801",
+  "changes": [
+    {
+      "file": "BattleKeywords-BossRaid.json",
+      "path": [
+        "dataList",
+        11,
+        "desc"
+      ],
+      "id": "FavorBuff5001HardForUI",
+      "before": "· <color=#ff0000>Максимальные ОЗ</color> +25%\n· Навыки наносят на 20% больше урона\n· [Только во время второй фазы] СД Рикардо и всех его союзников не падает ниже 0; в начале каждого хода наносит 2 Записи в книгу(;AaCePbBi) тем Грешникам, которые атаковали Рикардо в предшествующем ходе",
+      "after": "· <color=#ff0000>Максимальные ОЗ</color> +25%\n· Навыки наносят на 20% больше урона\n· [Только во время второй фазы] СД Рикардо и всех его союзников не падает ниже 0; в начале каждого хода наносит 2 Записи в книгу тем Грешникам, которые атаковали Рикардо в предшествующем ходе",
+      "en": "- <color=#ff0000>Max HP</color> +25%\n- Skills deal +20% damage\n- [Phase 2 Exclusive Effect]\n · Ricardo and his Siblings' SP do not fall below 0\n · Turn Start: Inflict 2 \"Written in the Book\" on all enemies that attacked Ricardo in the previous turn",
+      "kr": "- <color=#ff0000>최대 체력</color> +25%\n- 스킬로 가하는 피해량 +20%\n- [2페이즈 전용]\n · 리카르도와 아우들의 정신력이 0 미만으로 감소하지 않음\n · 턴 시작시 이전 턴에 리카르도를 공격한 모든 적에게 [장부에 적힘] 2 부여",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "BattleKeywords-BossRaid.json",
+      "path": [
+        "dataList",
+        17,
+        "desc"
+      ],
+      "id": "FavorBuff5001HardTwo",
+      "before": "· <color=#ff0000>Максимальные ОЗ</color> +25%\n· Навыки наносят на 20% больше урона\n· [Только во время второй фазы] СД Рикардо и всех его союзников не падает ниже 0; в начале каждого хода наносит 2 Записи в книгу(;AaCePbBi) тем Грешникам, которые атаковали Рикардо в предшествующем ходе",
+      "after": "· <color=#ff0000>Максимальные ОЗ</color> +25%\n· Навыки наносят на 20% больше урона\n· [Только во время второй фазы] СД Рикардо и всех его союзников не падает ниже 0; в начале каждого хода наносит 2 Записи в книгу тем Грешникам, которые атаковали Рикардо в предшествующем ходе",
+      "en": "- <color=#ff0000>Max HP</color> +25%\n- Skills deal +20% damage\n- [Phase 2 Exclusive Effect]\n · Ricardo and his Siblings' SP do not fall below 0\n · Turn Start: Inflict 2 \"Written in the Book\" on all enemies that attacked Ricardo in the previous turn",
+      "kr": "- <color=#ff0000>최대 체력</color> +25%\n- 스킬로 가하는 피해량 +20%\n- [2페이즈 전용]\n · 리카르도와 아우들의 정신력이 0 미만으로 감소하지 않음\n · 턴 시작시 이전 턴에 리카르도를 공격한 모든 적에게 [장부에 적힘] 2 부여",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        157,
+        "desc"
+      ],
+      "id": "SelfCharge",
+      "before": "Вокруг тела словно проходит электрический ток.\nПосле смертельного удара, пока остаётся Самозаряд, ОЗ фиксируются на 1, пока эффект не израсходуется полностью (максимум 20).",
+      "after": "Вокруг тела словно проходит электрический ток.\nПосле смертельного удара, пока остаётся Подзаряд, ОЗ фиксируются на 1, пока эффект не израсходуется полностью (максимум 20).",
+      "en": "Electric currents seem to flow around its body.\nAfter the unit faces death, as long as it has Self-charge, its HP is fixed at 1 until it is fully consumed. (Max 20)",
+      "kr": "몸 주변으로 전류가 흐르는 것 같다.\n죽음을 맞이한 후 자가 충전이 남아있다면 전부 소모하기 전까지 체력 1로 고정. (최대 20)"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        444,
+        "desc"
+      ],
+      "id": "LanternGregBigBird",
+      "before": "Максимальное значение: 8\n· Конец хода: получает 1 Связывание на следующий ход за каждые 2 единицы значения этого эффекта (До 4)\n· Конец хода: если значение этого эффекта максимально и на поле боя остаются противники, то полностью тратит его и активирует следующие эффекты в следующем ходе:\n  - Свой самый левый слот навыков получает 10 Провокаций\n  - Наносит Ослепление(;DelusionHohenheimBigBird) противнику с наибольшими текущими ОЗ (В фокусированных битвах учитывает ОЗ Ядра)",
+      "after": "Максимальное значение: 8\n· Конец хода: получает 1 Сковывание на следующий ход за каждые 2 единицы значения этого эффекта (до 4)\n· Конец хода: если значение эффекта максимально и на поле боя остаются противники, расходует всё значение и активирует следующие эффекты в следующем ходе:\n  - Самый левый слот навыков получает 10 Провокации\n  - Наносит 3 Ослепления противнику с наибольшими текущими ОЗ (в фокусированных битвах учитывает ОЗ ядра)",
+      "en": "- Max Stack: 8\n- Turn End: Gain 1 Bind next turn for every 2 Stack (max 4)\n- Turn End: At max Stack, if there are enemies on the field, consume all Stack to activate the following effects next turn:\n• Gain +10 Aggro to the leftmost Slot\n• Inflict 3 Dazzle to the enemy(Core) with the most current HP",
+      "kr": "- 최댓값: 8\n- 턴 종료 시 다음 턴에 수치 2당 속박 1 얻음 (최대 4)\n- 턴 종료 시 수치가 최대고 적이 있으면, 수치를 전부 소모하고 다음 턴에 아래 효과 발동\n• 가장 왼쪽 슬롯이 도발치를 10만큼 얻음\n• 현재 체력이 가장 높은 적(본체)에게 현혹 3 부여",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        444,
+        "summary"
+      ],
+      "id": "LanternGregBigBird",
+      "before": "Получает Связывание в следующем ходу",
+      "after": "Получает Сковывание на следующий ход",
+      "en": "Gain Bind next turn",
+      "kr": "다음 턴에 속박 얻음"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        446,
+        "desc"
+      ],
+      "id": "DelusionGregBigBird",
+      "before": "· Получает на (Сумма силы Утопания и Огня на себе / 2)% больше урона от базовых атакующих навыков (До 10%; округляется вниз)\n· Тип паники меняется на 「Ослепление」 (Если нет силы духа, то понижает Уровень защиты на 2 вместо этого)\n· Значение этого эффекта не складывается, а обновляется при его нанесении\n· Понижается на 1 в конце хода\n\n※ Тип паники 「Ослепление」:\n· Низкий дух: получает в конце хода 1 Связывание и 2 Понижения уровня защиты на следующий ход\n· Паника: получает в конце хода 1 Связывание и 4 Понижения уровня защиты на следующий ход",
+      "after": "· За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\n· Если у цели есть СД, её тип паники меняется на «Ослепление»\n· Если у цели нет СД, её уровень защиты снижается на 2\n· В конце хода значение эффекта уменьшается на 1\n· Значение эффекта не складывается, а обновляется при повторном наложении\n· Условие для целей без СД также действует на некоторых противников с СД, чей тип паники нельзя изменить\n\n※ Эффекты типа паники «Ослепление»:\n· Низкий дух: в конце хода получает на следующий ход 1 Сковывание и 2 Понижения уровня атаки\n· Паника: в конце хода получает на следующий ход 1 Сковывание и 4 Понижения уровня атаки",
+      "en": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- SP Units: Change their Panic Type to \"Dazzle\"\n- Non-SP Units: Defense Level -2\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Non-SP Units\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Dazzle Panic-type Effects\n- Low Morale: Turn End: Gain 1 Bind and 2 Offense Level Down next turn\n- Panic: Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "kr": "- 침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n- 정신력이 있는 대상이면, 패닉 유형이 현혹으로 변경됨\n- 정신력이 없는 대상이면, 방어 레벨 -2\n- 턴 종료시 1 감소\n- 이 효과는 합산되지 않고, 갱신됨\n- 패닉 유형을 변경할 수 없는 일부 정신력이 있는 적에게는 정신력이 없는 대상의 효과가 적용됨\n\n※ 현혹 패닉 효과\n- 사기 저하 : 턴 종료 시 다음 턴에 속박 1, 공격 레벨 감소 2 얻음\n- 패닉 : 턴 종료 시 다음 턴에 속박 1, 공격 레벨 감소 4 얻음"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        446,
+        "summary"
+      ],
+      "id": "DelusionGregBigBird",
+      "before": "За каждую 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\nСД Юнитов: Измените их тип паники на «Ослепление»\nЮниты без СД: уровень защиты -2",
+      "after": "За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\nТип паники целей с СД меняется на «Ослепление»\nУровень защиты целей без СД снижается на 2",
+      "en": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nSP Units: Change their Panic Type to \"Dazzle\"\nNon-SP Units: Defense Level -2",
+      "kr": "침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n정신력이 있는 대상이면, 패닉 유형이 현혹으로 변경됨\n정신력이 없는 대상이면, 방어 레벨 -2"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        447,
+        "desc"
+      ],
+      "id": "DelusionGregBigBird_Main",
+      "before": "· Получает на (Сумма силы Утопания и Огня на себе / 2)% больше урона от базовых атакующих навыков (До 10%; округляется вниз)\n· Тип паники меняется на 「Ослепление」\n· Понижается на 1 в конце хода",
+      "after": "· За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\n· Тип паники цели меняется на «Ослепление»\n· В конце хода значение эффекта уменьшается на 1",
+      "en": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- SP Units: Change their Panic Type to \"Dazzle\"\n- Turn End: Lose 1 Stack",
+      "kr": "- 침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n- 정신력이 있는 대상이면, 패닉 유형이 현혹으로 변경됨\n- 턴 종료시 1 감소"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        447,
+        "summary"
+      ],
+      "id": "DelusionGregBigBird_Main",
+      "before": "За каждую 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\nЗамените тип паники на «Ослепление»",
+      "after": "За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\nТип паники меняется на «Ослепление»",
+      "en": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nChange Panic Type to \"Dazzle\"",
+      "kr": "침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n패닉 유형이 현혹으로 변경됨"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        448,
+        "desc"
+      ],
+      "id": "DelusionGregBigBird_Sub",
+      "before": "· Получает на (Сумма силы Утопания и Огня на себе / 2)% больше урона от базовых атакующих навыков (До 10%; округляется вниз)\n· Уровень защиты -2\n· Понижается на 1 в конце хода",
+      "after": "· За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\n· Уровень защиты цели снижается на 2\n· В конце хода значение эффекта уменьшается на 1",
+      "en": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Non-SP Units: Defense Level -2\n- Turn End: Lose 1 Stack",
+      "kr": "- 침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n- 정신력이 없는 대상이면, 방어 레벨 -2\n- 턴 종료시 1 감소"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        448,
+        "summary"
+      ],
+      "id": "DelusionGregBigBird_Sub",
+      "before": "За каждую 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\nУровень защиты -2",
+      "after": "За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\nУровень защиты снижается на 2",
+      "en": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nDefense Level -2",
+      "kr": "침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n방어 레벨 -2"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        450,
+        "summary"
+      ],
+      "id": "DelusionGregBigBird_Panic",
+      "before": "Конец хода: Получить 1 привязывать и 4 уровень атаки в следующем ходу",
+      "after": "В конце хода получает на следующий ход 1 Сковывание и 4 Понижения уровня атаки.",
+      "en": "Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "kr": "턴 종료 시 다음 턴에 속박 1, 공격 레벨 감소 4 얻음"
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        500,
+        "desc"
+      ],
+      "id": "FaubismMaskMeursault",
+      "before": "· Наносит на 5% больше урона за каждые 3 единицы в сумме значения Истерзанных цветов на цели (До 15%) (Истерзанный цвет 【Румянец】(;BearClawWound) / Истерзанный цвет 【Синева】(;EagleClawWound))\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель не имеет Кровотечения перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (Единожды за ход)",
+      "after": "· Наносит на 5% больше урона за каждые 3 единицы в сумме значения Истерзанных цветов на цели (До 15%) (Истерзанный цвет 【Румянец】 / Истерзанный цвет 【Синева】)\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель не имеет Кровотечения перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (Единожды за ход)",
+      "en": "- Deal +5% damage for every 3 Mauled Color on target (max 15%)\n- Inflict +1 more Bleed and Sinking Potency with Base Skills\n- Before hitting with a Base Skill, if target does not have Bleed, inflict +2 Bleed Count on target (once per turn)",
+      "kr": "- 대상의 찢긴 색채 3당, 가하는 피해량 +5% (최대 15%)\n- 기본 스킬로 부여하는 출혈, 침잠 위력 부여량 +1\n- 기본 스킬 적중 전 대상에게 출혈이 없으면, 대상의 출혈 횟수 2 증가 (턴당 1회)",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        502,
+        "desc"
+      ],
+      "id": "FaubismWolfMaskRodion",
+      "before": "· Минимальная и максимальная скорость +1\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель имеет 3 и более Истерзанного цвета [Bleu](;EagleClawWound) при попадании по ней, то повышает её счётчик Утопания на 1 (Единожды за ход)\n· Если цель имеет 3 и более Истерзанного цвета [Rouge](;BearClawWound) при попадании по ней, то повышает её счётчик Кровотечения на 1 (Единожды за ход)",
+      "after": "· Минимальная и максимальная скорость +1\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель имеет 3 и более Истерзанного цвета [Bleu] при попадании по ней, то повышает её счётчик Утопания на 1 (Единожды за ход)\n· Если цель имеет 3 и более Истерзанного цвета [Rouge] при попадании по ней, то повышает её счётчик Кровотечения на 1 (Единожды за ход)",
+      "en": "- Min & Max Speed +1\n- Inflict +1 more Bleed and Sinking Potency with Base Skills\n- On Hit, if target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (once per turn)\n- On Hit, if target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (once per turn)",
+      "kr": "- 속도 최솟값, 최댓값 +1\n- 기본 스킬로 부여하는 출혈, 침잠 위력 부여량 +1\n- 공격 적중시 대상의 찢긴 색채 [블뢰]가 3 이상이면 침잠 횟수 1 증가 (턴당 1회)\n- 공격 적중시 대상의 찢긴 색채 [루주]가 3 이상이면 출혈 횟수 1 증가 (턴당 1회)",
+      "suffixes": [
+        "(;EagleClawWound)",
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        504,
+        "desc"
+      ],
+      "id": "IntenseColorsRodion",
+      "before": "Максимальное значение: 4\n· Получает на (Значение этого эффекта × 2.5)% больше урона от Идентичностей Безымянного пальца (Процент увеличивается вдвое, если атакующая Идентичность принадлежит к Фовистам Безымянного пальца)\n· Начало боевой фазы: получает случайным образом один из следующих эффектов (Значение этого эффекта) раз:\n  - 1 сила или счётчик Кровотечение\n  - 1 сила или счётчик Утопания\n· Конец боевой фазы: этот эффект исчезает, а значение Истерзанных цветов на себе уменьшается вдвое (Округляется вниз) (Истерзанный цвет [Rouge] (;BearClawWound) / Истерзанный цвет [Bleu] (;EagleClawWound))",
+      "after": "Максимальное значение: 4\n· Получает на (Значение этого эффекта × 2.5)% больше урона от Идентичностей Безымянного пальца (Процент увеличивается вдвое, если атакующая Идентичность принадлежит к Фовистам Безымянного пальца)\n· Начало боевой фазы: получает случайным образом один из следующих эффектов (Значение этого эффекта) раз:\n  - 1 сила или счётчик Кровотечение\n  - 1 сила или счётчик Утопания\n· Конец боевой фазы: этот эффект исчезает, а значение Истерзанных цветов на себе уменьшается вдвое (Округляется вниз) (Истерзанный цвет [Rouge]  / Истерзанный цвет [Bleu] )",
+      "en": "- Max Stack: 4\n- Take +(Stack x 2.5)% damage from The Ring-faction Identities\n· If the attacker is in both The Ring faction and School of Fauvism faction, take +(Stack x 5)% damage instead\n- Combat Start: Randomly gain 1 Bleed, 1 Sinking, 1 Bleed Count, or 1 Sinking Count (Stack) times\n- Combat End: This effect expires. Halve Mauled Color [Rouge] and Mauled Color [Bleu] Stacks on this unit (rounded down)",
+      "kr": "- 최댓값 : 4\n- 약지 소속 인격에게 받는 피해량 +(수치 x 2.5)% \n· 공격자가 약지 소속이면서 야수파 소속이면, 대신 받는 피해량 +(수치×5)%\n- 전투 시작 시 수치만큼 출혈, 침잠, 출혈 횟수, 침잠 횟수 중 무작위로 1씩 얻음\n- 전투 종료 시 이 효과가 소멸되고 찢긴 색채 [루주], 찢긴 색채 [블뢰] 수치가 절반으로 감소 (소수점 버림)",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "BattleKeywords.json",
+      "path": [
+        "dataList",
+        517,
+        "desc"
+      ],
+      "id": "PhantomIncisionTotalID",
+      "before": "Максимальное значение: 70\n· Отображает сумму значения Следа клинка 【Послеобраза】(;PhantomIncision), нанесённого 「Клинком Дома Пауков」 Рёшу за текущую битву\n· Может увеличиться максимум на 25 за ход",
+      "after": "Максимальное значение: 70\n· Отображает сумму значения Следа клинка 【Послеобраза】, нанесённого 「Клинком Дома Пауков」 Рёшу за текущую битву\n· Может увеличиться максимум на 25 за ход",
+      "en": "- Max Stack: 70\n- Total sum of Bladetrail Stacks inflicted by this unit\n- Can gain up to 25 Stacks per turn",
+      "kr": "- 최댓값 : 70\n- 자신이 부여한 검흔 수치 총합\n- 턴당 최대 25까지 얻을 수 있음",
+      "suffixes": [
+        "(;PhantomIncision)"
+      ]
+    },
+    {
+      "file": "Bufs-BossRaid.json",
+      "path": [
+        "dataList",
+        17,
+        "desc"
+      ],
+      "id": "FavorBuff5001HardTwo",
+      "before": "· <color=#ff0000>Максимальные ОЗ</color> +25%\n· Навыки наносят на 20% больше урона\n· [Только во время второй фазы] СД Рикардо и всех его союзников не падает ниже 0; в начале каждого хода наносит 2 Записи в книгу(;AaCePbBi) тем Грешникам, которые атаковали Рикардо в предшествующем ходе",
+      "after": "· <color=#ff0000>Максимальные ОЗ</color> +25%\n· Навыки наносят на 20% больше урона\n· [Только во время второй фазы] СД Рикардо и всех его союзников не падает ниже 0; в начале каждого хода наносит 2 Записи в книгу тем Грешникам, которые атаковали Рикардо в предшествующем ходе",
+      "en": "- <color=#ff0000>Max HP</color> +25%\n- Skills deal +20% damage\n- [Phase 2 Exclusive Effect]\n · Ricardo and his Siblings' SP do not fall below 0\n · Turn Start: Inflict 2 \"Written in the Book\" on all enemies that attacked Ricardo in the previous turn",
+      "kr": "- <color=#ff0000>최대 체력</color> +25%\n- 스킬로 가하는 피해량 +20%\n- [2페이즈 전용]\n · 리카르도와 아우들의 정신력이 0 미만으로 감소하지 않음\n · 턴 시작시 이전 턴에 리카르도를 공격한 모든 적에게 [장부에 적힘] 2 부여",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        528,
+        "desc"
+      ],
+      "id": "LanternGregBigBird",
+      "before": "- Макс Стэк: 8\n- Конец хода: Приобретение 1 Связывание в следующем ходу за каждый 2 стек (максимальный 4)\n- Конец хода: При максимальном Стеке, если на поле есть враги, поглотите весь Стек, чтобы активировать следующие эффекты в следующем ходу:\n• Получить +10 Провокации в самый левый слот\n• Нанести 3 Ослепление врагу (Ядру) самой актуальной ОЗ",
+      "after": "Максимальное значение: 8\n· Конец хода: получает 1 Сковывание на следующий ход за каждые 2 единицы значения этого эффекта (до 4)\n· Конец хода: если значение эффекта максимально и на поле боя остаются противники, расходует всё значение и активирует следующие эффекты в следующем ходе:\n  - Самый левый слот навыков получает 10 Провокации\n  - Наносит 3 Ослепления противнику с наибольшими текущими ОЗ (в фокусированных битвах учитывает ОЗ ядра)",
+      "en": "- Max Stack: 8\n- Turn End: Gain 1 Bind next turn for every 2 Stack (max 4)\n- Turn End: At max Stack, if there are enemies on the field, consume all Stack to activate the following effects next turn:\n• Gain +10 Aggro to the leftmost Slot\n• Inflict 3 Dazzle to the enemy(Core) with the most current HP",
+      "kr": "- 최댓값: 8\n- 턴 종료 시 다음 턴에 수치 2당 속박 1 얻음 (최대 4)\n- 턴 종료 시 수치가 최대고 적이 있으면, 수치를 전부 소모하고 다음 턴에 아래 효과 발동\n• 가장 왼쪽 슬롯이 도발치를 10만큼 얻음\n• 현재 체력이 가장 높은 적(본체)에게 현혹 3 부여"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        528,
+        "summary"
+      ],
+      "id": "LanternGregBigBird",
+      "before": "Получает Связывание на следующий ход",
+      "after": "Получает Сковывание на следующий ход",
+      "en": "Gain Bind next turn",
+      "kr": "다음 턴에 속박 얻음"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        530,
+        "desc"
+      ],
+      "id": "DelusionGregBigBird",
+      "before": "- За каждый 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\n- СД Юниты: Меняют тип паники на «Ослепление»\n- Не-СД подразделения: уровень защиты -2\n- Конец хода: Потерять 1 стек\n- Этот эффект не является накопительным; Наложение её заменит текущее значение на нанесённое значение\n- Применить условное условие «Бойцы без СД» к определённым врагам, у которых есть СД , но они не могут изменить свой тип Срыв\n\n※ Эффекты типа Срыв «Ослепление»\n- Низкая мораль: Конец хода: Получение 1 Привязка и 2 уровень атаки в следующем ходу\n- Паника: Конец хода: Получить 1 привязку и 4 уровень атаки в следующем ходу",
+      "after": "· За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\n· Если у цели есть СД, её тип паники меняется на «Ослепление»\n· Если у цели нет СД, её уровень защиты снижается на 2\n· В конце хода значение эффекта уменьшается на 1\n· Значение эффекта не складывается, а обновляется при повторном наложении\n· Условие для целей без СД также действует на некоторых противников с СД, чей тип паники нельзя изменить\n\n※ Эффекты типа паники «Ослепление»:\n· Низкий дух: в конце хода получает на следующий ход 1 Сковывание и 2 Понижения уровня атаки\n· Паника: в конце хода получает на следующий ход 1 Сковывание и 4 Понижения уровня атаки",
+      "en": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- SP Units: Change their Panic Type to \"Dazzle\"\n- Non-SP Units: Defense Level -2\n- Turn End: Lose 1 Stack\n- This effect is not cumulative; inflicting it will replace the current value with the inflicted value\n- Apply the \"Non-SP Units\" conditional to certain enemies that have SP but can't change their Panic Types\n\n※ Dazzle Panic-type Effects\n- Low Morale: Turn End: Gain 1 Bind and 2 Offense Level Down next turn\n- Panic: Turn End: Gain 1 Bind and 4 Offense Level Down next turn",
+      "kr": "- 침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n- 정신력이 있는 대상이면, 패닉 유형이 현혹으로 변경됨\n- 정신력이 없는 대상이면, 방어 레벨 -2\n- 턴 종료시 1 감소\n- 이 효과는 합산되지 않고, 갱신됨\n- 패닉 유형을 변경할 수 없는 일부 정신력이 있는 적에게는 정신력이 없는 대상의 효과가 적용됨\n\n※ 현혹 패닉 효과\n- 사기 저하 : 턴 종료 시 다음 턴에 속박 1, 공격 레벨 감소 2 얻음\n- 패닉 : 턴 종료 시 다음 턴에 속박 1, 공격 레벨 감소 4 얻음"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        530,
+        "summary"
+      ],
+      "id": "DelusionGregBigBird",
+      "before": "За каждую 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\nСД Юнитов: Меняйте тип паники на «Ослепление»\nНе-СД юниты: уровень защиты -2",
+      "after": "За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\nТип паники целей с СД меняется на «Ослепление»\nУровень защиты целей без СД снижается на 2",
+      "en": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nSP Units: Change their Panic Type to \"Dazzle\"\nNon-SP Units: Defense Level -2",
+      "kr": "침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n정신력이 있는 대상이면, 패닉 유형이 현혹으로 변경됨\n정신력이 없는 대상이면, 방어 레벨 -2"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        531,
+        "desc"
+      ],
+      "id": "DelusionGregBigBird_Main",
+      "before": "- За каждый 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\n- СД Юниты: Меняют тип паники на «Ослепление»\n- Конец хода: Потерять 1 стек",
+      "after": "· За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\n· Тип паники цели меняется на «Ослепление»\n· В конце хода значение эффекта уменьшается на 1",
+      "en": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- SP Units: Change their Panic Type to \"Dazzle\"\n- Turn End: Lose 1 Stack",
+      "kr": "- 침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n- 정신력이 있는 대상이면, 패닉 유형이 현혹으로 변경됨\n- 턴 종료시 1 감소"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        531,
+        "summary"
+      ],
+      "id": "DelusionGregBigBird_Main",
+      "before": "За каждую 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\nЗамените тип паники на «Ослепление»",
+      "after": "За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\nТип паники меняется на «Ослепление»",
+      "en": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nChange Panic Type to \"Dazzle\"",
+      "kr": "침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n패닉 유형이 현혹으로 변경됨"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        532,
+        "desc"
+      ],
+      "id": "DelusionGregBigBird_Sub",
+      "before": "- За каждый 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\n- Не-СД подразделения: уровень защиты -2\n- Конец хода: Потерять 1 стек",
+      "after": "· За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\n· Уровень защиты цели снижается на 2\n· В конце хода значение эффекта уменьшается на 1",
+      "en": "- For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\n- Non-SP Units: Defense Level -2\n- Turn End: Lose 1 Stack",
+      "kr": "- 침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n- 정신력이 없는 대상이면, 방어 레벨 -2\n- 턴 종료시 1 감소"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        532,
+        "summary"
+      ],
+      "id": "DelusionGregBigBird_Sub",
+      "before": "За каждую 1 (Погружение + Огонь) получайте +0.5% урона от базовых навыков атаки (максимум 10%)\nУровень защиты -2",
+      "after": "За каждую единицу суммы потенциала Погружения и Огня получает на 0,5% больше урона от базовых атакующих навыков (до 10%)\nУровень защиты снижается на 2",
+      "en": "For every 1 (Sinking + Burn), take +0.5% damage from Base Attack Skills (max 10%)\nDefense Level -2",
+      "kr": "침잠과 화상의 합 1당 기본 공격 스킬로 받는 피해량 +0.5% (최대 10%)\n방어 레벨 -2"
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        584,
+        "desc"
+      ],
+      "id": "FaubismMaskMeursault",
+      "before": "· Наносит на 5% больше урона за каждые 3 единицы в сумме значения Истерзанных цветов на цели (До 15%) (Истерзанный цвет 【Румянец】(;BearClawWound) / Истерзанный цвет 【Синева】(;EagleClawWound))\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель не имеет Кровотечения перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (Единожды за ход)",
+      "after": "· Наносит на 5% больше урона за каждые 3 единицы в сумме значения Истерзанных цветов на цели (До 15%) (Истерзанный цвет 【Румянец】 / Истерзанный цвет 【Синева】)\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель не имеет Кровотечения перед попаданием по ней своим базовым навыком, то повышает его счётчик на 2 в этот момент (Единожды за ход)",
+      "en": "- Deal +5% damage for every 3 Mauled Color on target (max 15%)\n- Inflict +1 more Bleed and Sinking Potency with Base Skills\n- Before hitting with a Base Skill, if target does not have Bleed, inflict +2 Bleed Count on target (once per turn)",
+      "kr": "- 대상의 찢긴 색채 3당, 가하는 피해량 +5% (최대 15%)\n- 기본 스킬로 부여하는 출혈, 침잠 위력 부여량 +1\n- 기본 스킬 적중 전 대상에게 출혈이 없으면, 대상의 출혈 횟수 2 증가 (턴당 1회)",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Bufs.json",
+      "path": [
+        "dataList",
+        586,
+        "desc"
+      ],
+      "id": "FaubismWolfMaskRodion",
+      "before": "· Минимальная и максимальная скорость +1\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель имеет 3 и более Истерзанного цвета [Bleu](;EagleClawWound) при попадании по ней, то повышает её счётчик Утопания на 1 (Единожды за ход)\n· Если цель имеет 3 и более Истерзанного цвета [Rouge](;BearClawWound) при попадании по ней, то повышает её счётчик Кровотечения на 1 (Единожды за ход)",
+      "after": "· Минимальная и максимальная скорость +1\n· Наносит на 1 Кровотечение и Утопание больше своими базовыми навыками\n· Если цель имеет 3 и более Истерзанного цвета [Bleu] при попадании по ней, то повышает её счётчик Утопания на 1 (Единожды за ход)\n· Если цель имеет 3 и более Истерзанного цвета [Rouge] при попадании по ней, то повышает её счётчик Кровотечения на 1 (Единожды за ход)",
+      "en": "- Min & Max Speed +1\n- Inflict +1 more Bleed and Sinking Potency with Base Skills\n- On Hit, if target has 3+ Mauled Color [Bleu], inflict +1 Sinking Count (once per turn)\n- On Hit, if target has 3+ Mauled Color [Rouge], inflict +1 Bleed Count (once per turn)",
+      "kr": "- 속도 최솟값, 최댓값 +1\n- 기본 스킬로 부여하는 출혈, 침잠 위력 부여량 +1\n- 공격 적중시 대상의 찢긴 색채 [블뢰]가 3 이상이면 침잠 횟수 1 증가 (턴당 1회)\n- 공격 적중시 대상의 찢긴 색채 [루주]가 3 이상이면 출혈 횟수 1 증가 (턴당 1회)",
+      "suffixes": [
+        "(;EagleClawWound)",
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "EGOgift_MirrorDungeon_7.json",
+      "path": [
+        "dataList",
+        37,
+        "desc"
+      ],
+      "id": 9250,
+      "before": "[Эффекты активируются для #1 Выбранной Идентичности]\n\nДаёт 1 [KAmpouleMirror](;KAmpouleA1C94TH) в начале битвы.",
+      "after": "[Эффекты активируются для #1 Выбранной Идентичности]\n\nДаёт 1 [KAmpouleMirror] в начале битвы.",
+      "en": "[Effects apply only to #1 Deployed Identity]\nEncounter Start: Gain 1 [KAmpouleMirror]",
+      "kr": "[편성 순서 1번 인격 전용 효과]\n스테이지 시작시, [KAmpouleMirror] 1 얻음",
+      "suffixes": [
+        "(;KAmpouleA1C94TH)"
+      ]
+    },
+    {
+      "file": "EGOgift_MirrorDungeon_7.json",
+      "path": [
+        "dataList",
+        43,
+        "desc"
+      ],
+      "id": 9273,
+      "before": "Даёт 1 Уровень атаки и защиты за каждую мёртвую Идентичность. (До 10)\n\nЕсли в команде находится Идентичность Рёшу 「Клинок Дома Пауков」, то умершие в битве с боссом Грешники за исключением самой Рёшу не будут возрождаться по её окончанию (Битвы с боссами этажей и скрытыми боссами).\n\n[Эффект для #1 Выбранной Идентичности]\nНачало хода: если на поле боя нет живых союзников, то даёт [RedButterfly].\n\n[Эффекты для 「Клинка Дома Пауков」 Рёшу]\n- При первом входе в битву даёт по 5 [PhantomIncisionTotalID](;PhantomIncisionTotal) за каждую мёртвую Идентичность Дома Пауков;\n- Итоговая сила +1, Сила монет +1 и на 10% больше наносимого урона за каждых 2 мёртвых Идентичностей Дома Пауков;\n- Если в команде мертвы все Идентичности кроме 「Клинка Дома Пауков」 Рёшу, то она получает +12 к Силе всех навыков во время проверок на нужный грех в событиях выбора.",
+      "after": "Даёт 1 Уровень атаки и защиты за каждую мёртвую Идентичность. (До 10)\n\nЕсли в команде находится Идентичность Рёшу 「Клинок Дома Пауков」, то умершие в битве с боссом Грешники за исключением самой Рёшу не будут возрождаться по её окончанию (Битвы с боссами этажей и скрытыми боссами).\n\n[Эффект для #1 Выбранной Идентичности]\nНачало хода: если на поле боя нет живых союзников, то даёт [RedButterfly].\n\n[Эффекты для 「Клинка Дома Пауков」 Рёшу]\n- При первом входе в битву даёт по 5 [PhantomIncisionTotalID] за каждую мёртвую Идентичность Дома Пауков;\n- Итоговая сила +1, Сила монет +1 и на 10% больше наносимого урона за каждых 2 мёртвых Идентичностей Дома Пауков;\n- Если в команде мертвы все Идентичности кроме 「Клинка Дома Пауков」 Рёшу, то она получает +12 к Силе всех навыков во время проверок на нужный грех в событиях выбора.",
+      "en": "All allies gain 1 Offense Level and 1 Defense Level for every defeated ally (max 10)\n\nIf Blade of the House of Spiders Ryōshū is in the Team loadout, any defeated Identities excluding Blade of the House of Spiders Ryōshū will not be revived after clearing an Encounter (Floor final boss nodes and Hidden nodes)\n\n[Effects apply only to #1 Deployed Identity]\n\nTurn Start: If there are no surviving allies apart from this unit, gain [RedButterfly]\n\n[Effects apply only to Blade of the House of Spiders Ryōshū]\n\nUpon entering the Encounter for the first time, for every The House of Spiders allied Identity that is defeated, gain 5 [PhantomIncisionTotalID]\nFor every 2 defeated The House of Spiders allies, Final Power +1, Coin Power +1, and deal +10% damage (max 3 and 30%, respectively)\nIf there are no surviving allies apart from Blade of the House of Spiders Ryōshū, gain +12 modifier for all Choice Event Skill checks",
+      "kr": "사망한 아군 인격 1명당, 모든 아군의 공격 레벨 1, 방어 레벨 1 증가 (최대 10)\n\n거미집의 검 료슈가 덱에 편성되어 있으면, 거미집의 검 료슈 이외의 인격이 사망할 시 전투 종료 후 부활이 발동하지 않음 (보스층, 히든 노드 클리어)\n\n[편성 1번 인격 전용 효과]\n\n턴 시작 시 자신을 제외한 모든 아군이 사망했을 경우, [RedButterfly] 얻음\n\n[거미집의 검 료슈 전용 효과]\n\n스테이지에 첫 등장 시 사망한 거미집 소속 아군 인격 1명당, [PhantomIncisionTotalID] 5 얻음\n사망한 거미집 소속 아군 인격 2명당, 최종 위력 +1, 코인 위력 +1, 가하는 피해량 10% (각각 최대 3, 30%)\n거미집의 검 료슈 외에 생존한 아군이 없으면, 모든 선택지 보정 +12",
+      "suffixes": [
+        "(;PhantomIncisionTotal)"
+      ]
+    },
+    {
+      "file": "FormationNameEtcFilter.json",
+      "path": [
+        "dataList",
+        27,
+        "content"
+      ],
+      "id": "formation_name_filter_Etc_RING_FINGER",
+      "before": "«Безымянный палец»",
+      "after": "Безымянный палец",
+      "en": "The Ring",
+      "kr": "약지"
+    },
+    {
+      "file": "FormationNameEtcFilter.json",
+      "path": [
+        "dataList",
+        9,
+        "content"
+      ],
+      "id": "formation_name_filter_Etc_SHI",
+      "before": "Ши",
+      "after": "Си",
+      "en": "Shi",
+      "kr": "시"
+    },
+    {
+      "file": "Passives-BossRaid.json",
+      "path": [
+        "dataList",
+        1,
+        "desc"
+      ],
+      "id": 500102,
+      "before": "Начало хода: наносит 1 [RicardoBookRaid](;AaCePbBi) всем противникам.\n\nНаносит 2 [RicardoBookRaid](;AaCePbBi) атакующему при получении удара.\n\nПонижает значение [RicardoBookRaid](;AaCePbBi) цели на 1 при успешном попадании по ней.\n\nПри понижении значения [RicardoBookRaid](;AaCePbBi) получает столько же [RicardoTattooRaid].",
+      "after": "Начало хода: наносит 1 [RicardoBookRaid] всем противникам.\n\nНаносит 2 [RicardoBookRaid] атакующему при получении удара.\n\nПонижает значение [RicardoBookRaid] цели на 1 при успешном попадании по ней.\n\nПри понижении значения [RicardoBookRaid] получает столько же [RicardoTattooRaid].",
+      "en": "Turn Start: Inflict 1 [RicardoBookRaid] on all enemies\n\nWhen hit, inflict 2 [RicardoBookRaid] on the attacker\nOn Hit, reduce [RicardoBookRaid] on target by 1\n\nGain [RicardoTattooRaid] equal to the cumulative Stack of [RicardoBookRaid] reduced by this unit in this Encounter",
+      "kr": "턴 시작시, 모든 적에게 [RicardoBookRaid] 1 부여\n\n피격시 공격자에게 [RicardoBookRaid] 2 부여\n공격 적중시 대상의 [RicardoBookRaid] 1 감소\n\n이번 전투 동안 자신이 감소시킨 [RicardoBookRaid]만큼 [RicardoTattooRaid] 얻음",
+      "suffixes": [
+        "(;AaCePbBi)",
+        "(;AaCePbBi)",
+        "(;AaCePbBi)",
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        178,
+        "desc"
+      ],
+      "id": 1030621,
+      "before": "Союзник с наименьшим максимальным ОЗ получает 1 [Blunt DMG Up] на следующий ход за каждые 6 попаданий по другим союзникам (макс. 2).",
+      "after": "Союзник с наименьшим максимальным ОЗ получает 1 Повышение дробящего урона на следующий ход за каждые 6 попаданий по другим союзникам (макс. 2).",
+      "en": "1 ally with the lowest Max HP gains 1 Blunt DMG Up next turn every time the enemies strike an ally(not including this unit) 6 times. (Max 2)",
+      "kr": "최대 체력이 가장 낮은 아군 1명이 자신을 제외한 아군의 피격 횟수 6회마다 다음 턴에 타격 피해량 증가 1을 얻음. (최대 2)"
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        500,
+        "desc"
+      ],
+      "id": 1121402,
+      "before": "Внешние эффекты не могут влиять на максимальную и минимальную скорость этой Идентичности.\n\nВ фокусированных битвах может перехватывать атакующие навыки противников независимо от своей текущей скорости.\n\nНачало хода: получает 1 [LanternGregBigBird](;LanternHohenheimBigBird).\n\nКогда получает [Agility], она заменяется на 1 [ParryingResultUp]. (Единожды за ход, далее Грегор не сможет получать [Agility] до конца хода и активировать этот эффект соответственно)",
+      "after": "Внешние эффекты не могут влиять на максимальную и минимальную скорость этой Идентичности.\n\nВ фокусированных битвах может перехватывать атакующие навыки противников независимо от своей текущей скорости.\n\nНачало хода: получает 1 [LanternGregBigBird].\n\nКогда получает [Agility], она заменяется на 1 [ParryingResultUp]. (Единожды за ход, далее Грегор не сможет получать [Agility] до конца хода и активировать этот эффект соответственно)",
+      "en": "Turn Start: Gain 1 [LanternGregBigBird]\n\nExternal effects cannot change this unit's Min. and Max. Speeds\n\nWhen chaining Skills, this unit can redirect the Attack Skills' targeting to itself regardless of Speed (Focused Encounters only)\n\nWhen gaining [Agility], gain 1 [ParryingResultUp] instead (once per turn)\n- Once the above effect activates, cannot gain [Agility] for the rest of the turn",
+      "kr": "턴 시작 시 [LanternGregBigBird] 1 얻음\n\n속도의 최솟값과 최댓값이 외부 효과의 영향으로 변동되지 않음\n\n스킬 지정 시 속도에 관계 없이 공격 스킬의 공격 대상을 자신으로 변경할 수 있음 (집중 전투 전용)\n\n[Agility]을 얻을 때, 대신 [ParryingResultUp] 1 얻음 (턴당 1회)\n- 이후 이번 턴에 [Agility]을 얻을 수 없음",
+      "suffixes": [
+        "(;LanternHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        506,
+        "desc"
+      ],
+      "id": 1101502,
+      "before": "Конец хода: вся сила своего [Breath] свыше 25 превращается в значение [LittleFingerID](;DicipleLittleFinger). (До 15)\n\nНачало боевой фазы: если Синклер не экипировал никаких атакующих навыков для использования в ходе, то он восстанавливает 5 СД и получает 1 [SlashResultUp] на следующий ход.",
+      "after": "Конец хода: вся сила своего [Breath] свыше 25 превращается в значение [LittleFingerID]. (До 15)\n\nНачало боевой фазы: если Синклер не экипировал никаких атакующих навыков для использования в ходе, то он восстанавливает 5 СД и получает 1 [SlashResultUp] на следующий ход.",
+      "en": "Turn End: Any excess [Breath] Potency gained past 25 will be converted to [LittleFingerID] (max 15)\n\nCombat Start: If this unit did not equip Attack Skills (including E.G.O Skills) this turn, heal 5 SP and gain 1 [SlashResultUp] next turn",
+      "kr": "턴 종료시 25를 초과하는 [Breath] 위력을 최대 15까지 [LittleFingerID]로 전환\n\n전투 시작시 자신이 이번 턴에 (E.G.O 스킬 포함) 공격 스킬을 장착하지 않았으면, 정신력을 5 회복하고 다음 턴에 [SlashResultUp] 1 얻음",
+      "suffixes": [
+        "(;DicipleLittleFinger)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        524,
+        "desc"
+      ],
+      "id": 1121502,
+      "before": "Получает 1 силу [Charge] каждый раз, когда тратит 10-ую единицу счётчика [Charge].\nЛюбой получаемый [ChargeForceField] превращается в значение [HighVoltageExoshell].\n\nКогда сила своего [Charge] равна 3 и более, минимальная и максимальная скорость повышается на 1.\n\nКогда получает смертельный урон впервые за битву: получает в этот момент [SelfChargeAlly](;SelfCharge) в количестве (5 + (Текущий счётчик [Charge] × 3)). (До 20)",
+      "after": "Получает 1 силу [Charge] каждый раз, когда тратит 10-ую единицу счётчика [Charge].\nЛюбой получаемый [ChargeForceField] превращается в значение [HighVoltageExoshell].\n\nКогда сила своего [Charge] равна 3 и более, минимальная и максимальная скорость повышается на 1.\n\nКогда получает смертельный урон впервые за битву: получает в этот момент [SelfChargeAlly] в количестве (5 + (Текущий счётчик [Charge] × 3)). (До 20)",
+      "en": "Gain 1 [Charge] every time this unit consumes 10 cumulative [Charge] Count in this Encounter\nAny [ChargeForceField] this unit gains is converted to [HighVoltageExoshell]\n\nAt 3+ [Charge] on self, Min & Max Speed +1\n\nIn this Encounter, when this unit takes damage that brings its HP down to 0, gain [SelfChargeAlly] equal to (5 + [Charge] on self x 3) (max 20, once per Encounter)",
+      "kr": "전투 중 누적으로 자신의 [Charge] 횟수 10을 소모할 때마다 [Charge] 1 얻음\n[ChargeForceField]을 얻을 때, [HighVoltageExoshell]로 전환되어 얻음\n\n자신의 [Charge]이 3 이상이면, 속도 최솟값, 최댓값 +1\n\n이번 전투에서 체력이 0이 되는 피해를 받았을 때,\n(5 + 자신의 [Charge]x3)만큼 [SelfChargeAlly] 얻음 (최대 20, 전투당 1회)",
+      "suffixes": [
+        "(;SelfCharge)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        536,
+        "desc"
+      ],
+      "id": 1021503,
+      "before": "Входит в битву в фазе [IronMaidenPersonality].\n\nКонец хода: если есть [FasciaPersonality](;BoneBladeTheRings), то фаза [IronMaidenPersonality] переходит в [SilverOpportunity]. (Единожды за битву)\n- Выходит из оглушения при этом. (Не учитывая неснимаемое оглушение)",
+      "after": "Входит в битву в фазе [IronMaidenPersonality].\n\nКонец хода: если есть [FasciaPersonality], то фаза [IronMaidenPersonality] переходит в [SilverOpportunity]. (Единожды за битву)\n- Выходит из оглушения при этом. (Не учитывая неснимаемое оглушение)",
+      "en": "Upon entering the Encounter for the first time, gain [IronMaidenPersonality]\n\nTurn End: If this unit has [FasciaPersonality], this unit loses [IronMaidenPersonality] and gains [SilverOpportunity] (once per Encounter)\n- When Staggered, recover from Stagger (excluding forced Staggers)",
+      "kr": "스테이지에 첫 등장 시 [IronMaidenPersonality] 얻음\n\n턴 종료 시 자신에게 [FasciaPersonality]가 있으면, [IronMaidenPersonality]이 소멸하고, [SilverOpportunity] 얻음 (전투당 1회)\n- 흐트러짐 상태면, 흐트러짐 해제 (강제 흐트러짐 제외)",
+      "suffixes": [
+        "(;BoneBladeTheRings)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        540,
+        "desc"
+      ],
+      "id": 1051501,
+      "before": "Наносит на 1 [BearClawWoundAlly](;BearClawWound) больше своими навыками при наличии [FaubismMaskMeursault].\n\nВосстанавливает 5 СД каждый раз, когда суммарно наносит 4 [BearClawWoundAlly](;BearClawWound). (До 2 раз за ход)\n- Если СД уже была максимальна в момент её восстановления, получает 1 [HitDamageUp] на следующий ход. (Единожды за ход)",
+      "after": "Наносит на 1 [BearClawWoundAlly] больше своими навыками при наличии [FaubismMaskMeursault].\n\nВосстанавливает 5 СД каждый раз, когда суммарно наносит 4 [BearClawWoundAlly]. (До 2 раз за ход)\n- Если СД уже была максимальна в момент её восстановления, получает 1 [HitDamageUp] на следующий ход. (Единожды за ход)",
+      "en": "If this unit has [FaubismMaskMeursault], inflict +1 more [BearClawWoundAlly]\n\nEvery time this unit inflicts 4 [BearClawWoundAlly], heal 5 SP (2 times per turn)\n- If this unit's SP is at max, gain 1 [HitDamageUp] next turn when this unit heals SP with this effect (once per turn)",
+      "kr": "자신에게 [FaubismMaskMeursault]이 있으면, [BearClawWoundAlly] 부여량 +1\n\n자신이 [BearClawWoundAlly]를 4 부여 할 때마다, 정신력 5 회복 (턴당 2회)\n- 이 효과로 정신력 회복 시 자신의 정신력이 최대면, 다음 턴에 [HitDamageUp] 1 얻음 (턴당 1회)",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        541,
+        "desc"
+      ],
+      "id": 1051502,
+      "before": "Наносит 1 [BearClawWoundAlly](;BearClawWound) при попаданиях своими базовыми навыками. (Считается за нанесение негативных эффектов навыком)\n\nКонец хода: если суммарно нанёс 10 и более [BearClawWoundAlly](;BearClawWound) за всю битву, получает [FaubismMaskMeursault].\n\nКогда 「Фовист-доцент Безымянного」 Родион подбрасывает монету свего альтернативного защитного навыка 「Критика」, получает [TestWaitingMeursault].",
+      "after": "Наносит 1 [BearClawWoundAlly] при попаданиях своими базовыми навыками. (Считается за нанесение негативных эффектов навыком)\n\nКонец хода: если суммарно нанёс 10 и более [BearClawWoundAlly] за всю битву, получает [FaubismMaskMeursault].\n\nКогда 「Фовист-доцент Безымянного」 Родион подбрасывает монету свего альтернативного защитного навыка 「Критика」, получает [TestWaitingMeursault].",
+      "en": "On Hit with a Base Skill: Inflict 1 [BearClawWoundAlly]\n- This counts as \"inflicting negative effects with the Skill\"\n\nTurn End: If this unit has inflicted 10+ [BearClawWoundAlly] during this Encounter, gain [FaubismMaskMeursault]\n\nAt Coin Start of The Ring Fauvist Docent Rodion's \"Critique\" Skill, The Ring Fauvist Student Meursault gains [TestWaitingMeursault]",
+      "kr": "기본 스킬 적중 시 [BearClawWoundAlly] 1 부여\n- 이 효과는 스킬에서 부정적인 효과를 부여하는 것으로 취급됨\n\n턴 종료 시 이번 전투 동안 자신이 [BearClawWoundAlly]를 10 이상 부여했으면, [FaubismMaskMeursault] 얻음\n\n약지 야수파 도슨트 로쟈의 ‘크리틱’ 스킬 코인 시작 시, 약지 야수파 스튜던트 뫼르소가 [TestWaitingMeursault] 얻음",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        543,
+        "desc"
+      ],
+      "id": 1091501,
+      "before": "Наносит на 1 [BearClawWoundAlly](;BearClawWound), [EagleClawWoundAlly](;EagleClawWound) и [BoldBrushstrokesRodion] больше своими навыками.",
+      "after": "Наносит на 1 [BearClawWoundAlly], [EagleClawWoundAlly] и [BoldBrushstrokesRodion] больше своими навыками.",
+      "en": "Inflict +1 more [BearClawWoundAlly], [EagleClawWoundAlly], and [BoldBrushstrokesRodion]",
+      "kr": "[BearClawWoundAlly], [EagleClawWoundAlly], [BoldBrushstrokesRodion] 부여량 +1",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        547,
+        "desc"
+      ],
+      "id": 1071502,
+      "before": "Когда сам Хитклиф или другой союзник из Среднего пальца получает удар от противника: наносит атаковавшему 1 [VendettaMark], а значение [VengeanceBookHeathcliff](;VengeanceBookSinclair) повышается на 1. (Единожды за навык атаковавшего)\n\nЗначение [VengeanceBookHeathcliff](;VengeanceBookSinclair) повышается на 3 при смерти союзников.",
+      "after": "Когда сам Хитклиф или другой союзник из Среднего пальца получает удар от противника: наносит атаковавшему 1 [VendettaMark], а значение [VengeanceBookHeathcliff] повышается на 1. (Единожды за навык атаковавшего)\n\nЗначение [VengeanceBookHeathcliff] повышается на 3 при смерти союзников.",
+      "en": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 [VendettaMark] on the said enemy and gain 1 [VengeanceBookHeathcliff] (once per Skill)\nAlly Death: Gain 3 [VengeanceBookHeathcliff]",
+      "kr": "자신 또는 중지 소속의 아군 인격이 적에게 피격 시, 대상에게 [VendettaMark]을 1 부여하고 [VengeanceBookHeathcliff] 1 얻음 (스킬당 1회)\n아군 인격 사망시, [VengeanceBookHeathcliff] 3 얻음",
+      "suffixes": [
+        "(;VengeanceBookSinclair)",
+        "(;VengeanceBookSinclair)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        548,
+        "desc"
+      ],
+      "id": 1071512,
+      "before": "Когда сам Хитклиф или другой союзник из Среднего пальца получает удар от противника: наносит атаковавшему 1 [VendettaMark], а значение [VengeanceBookHeathcliff](;VengeanceBookSinclair) повышается на 1. (Единожды за навык атаковавшего)\n\nЗначение [VengeanceBookHeathcliff](;VengeanceBookSinclair) повышается на 3 при смерти союзников.\n\n<style=\"highlight\">Начало хода: если значение [MiddleFingerTattooID] достигло 15 и более, активирует следующие эффекты:\n- Заменяет один из своих базовых навыков на приборной панели альтернативным третьим навыком 「ПОЛНОЕ И ТОТАЛЬНОЕ УНИЧТОЖЕНИЕ!!!!」; (В приоритете самый левый навык в нижней строке; если уже заменённый таким образом навык перекрывается другим из-за внешних условий, то эффект замены срабатывает вновь)\n- Меняет музыку до конца хода. (За исключением особых битв)\n\nНачало боевой фазы после входа в бой из запаса или отступления: использует свой третий навык 「МОИ ПАРИКМАХЕРСКИЕ КУПОООООООООООНЫ!!!」 на случайной цели, а затем даёт 1 [AttackUp] и 1 [DefenseUp] всем союзникам из Среднего пальца.</style>",
+      "after": "Когда сам Хитклиф или другой союзник из Среднего пальца получает удар от противника: наносит атаковавшему 1 [VendettaMark], а значение [VengeanceBookHeathcliff] повышается на 1. (Единожды за навык атаковавшего)\n\nЗначение [VengeanceBookHeathcliff] повышается на 3 при смерти союзников.\n\n<style=\"highlight\">Начало хода: если значение [MiddleFingerTattooID] достигло 15 и более, активирует следующие эффекты:\n- Заменяет один из своих базовых навыков на приборной панели альтернативным третьим навыком 「ПОЛНОЕ И ТОТАЛЬНОЕ УНИЧТОЖЕНИЕ!!!!」; (В приоритете самый левый навык в нижней строке; если уже заменённый таким образом навык перекрывается другим из-за внешних условий, то эффект замены срабатывает вновь)\n- Меняет музыку до конца хода. (За исключением особых битв)\n\nНачало боевой фазы после входа в бой из запаса или отступления: использует свой третий навык 「МОИ ПАРИКМАХЕРСКИЕ КУПОООООООООООНЫ!!!」 на случайной цели, а затем даёт 1 [AttackUp] и 1 [DefenseUp] всем союзникам из Среднего пальца.</style>",
+      "en": "When this unit or any of The Middle-faction allies are hit by an enemy, inflict 1 [VendettaMark] on the said enemy and gain 1 [VengeanceBookHeathcliff] (once per Skill)\nAlly Death: Gain 3 [VengeanceBookHeathcliff]\n\n<style=\"highlight\">Turn Start: At 15+ [MiddleFingerTattooID], apply the following effects:\n- Replace a Base Skill with \"COMPLETE AND TOTAL EXTERMINATION!!\" (prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)\n· If the replaced Skill becomes inaccessible due to being replaced by a different Skill, activate the above effect again\n- Change battle music until Turn End (excluding certain Encounters)\n\nCombat Start in the Turn this unit Substituted in or Returned to the field: Use \"MY HAIR COUPOOOOOOOOOOONS!!!!\" on a random target\n- Attack End of the said Skill: Apply 1 [AttackUp] and 1 [DefenseUp] on all The Middle-faction allies</style>",
+      "kr": "자신 또는 중지 소속의 아군 인격이 적에게 피격 시, 대상에게 [VendettaMark]을 1 부여하고 [VengeanceBookHeathcliff] 1 얻음 (스킬당 1회)\n아군 인격 사망시, [VengeanceBookHeathcliff] 3 얻음\n\n<style=\"highlight\">턴 시작시 자신의 [MiddleFingerTattooID]이 15 이상이면 아래 효과 적용\n- 기본 스킬 하나를 ‘전원, 처형이다!!’로 변경 (가장 왼쪽 슬롯의 아래 스킬 우선 적용)\n· 변경된 스킬이 다른 스킬로 변경되어 사용할 수 없게 되면, 위 효과를 다시 발동함\n- 이번 턴이 종료될 때까지 전투 BGM을 변경 (일부 전투 제외)\n\n대기 해제 또는 복귀로 등장한 턴의 전투 시작시, ‘내 헤어쿠포오오오온!!!!'을 무작위 대상에게 사용함\n- 해당 공격 종료 시 모든 아군 중지 인격에게 [AttackUp] 1, [DefenseUp] 1 부여</style>",
+      "suffixes": [
+        "(;VengeanceBookSinclair)",
+        "(;VengeanceBookSinclair)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        553,
+        "desc"
+      ],
+      "id": 1041503,
+      "before": "Когда значение [PhantomIncisionTotalID](;PhantomIncisionTotal) достигает 50 и более, использует в конце текущего хода свой альтернативный третий навык №3 「Разделение пространства - Соединение нитей 【空間斬 - 縁】」 против случайного противника. (Единожды за битву)\n- Получает следующие эффекты после использования этого навыка таким образом:\n   · Больше не может сбежать или отступить во время текущей битвы;\n   · Конец каждого хода: если значение [PhantomIncisionTotalID](;PhantomIncisionTotal) вновь достигло 50 и более, то один из своих базовых навыков на приборной панели заменяется на альтернативный третий навык №2 「Разделение пространства - Рассечение эха 【空間斬 - 残】」. (В приоритете самый левый навык в нижней строке)",
+      "after": "Когда значение [PhantomIncisionTotalID] достигает 50 и более, использует в конце текущего хода свой альтернативный третий навык №3 「Разделение пространства - Соединение нитей 【空間斬 - 縁】」 против случайного противника. (Единожды за битву)\n- Получает следующие эффекты после использования этого навыка таким образом:\n   · Больше не может сбежать или отступить во время текущей битвы;\n   · Конец каждого хода: если значение [PhantomIncisionTotalID] вновь достигло 50 и более, то один из своих базовых навыков на приборной панели заменяется на альтернативный третий навык №2 「Разделение пространства - Рассечение эха 【空間斬 - 残】」. (В приоритете самый левый навык в нижней строке)",
+      "en": "At 50+ [PhantomIncisionTotalID], activate \"Rend Space - String Connection\" against a random enemy at the very end of that turn (once per Encounter)\n- After using \"Rend Space - String Connection\" due to this effect, apply the following effects on self:\n· Cannot Retreat for this Encounter\n· Turn End: At 50+ [PhantomIncisionTotalID], replace a Base Skill with \"Rend Space - Echoshear\" at the next Turn Start (prioritizes the Skill on the leftmost Slot's bottom row on the Dashboard)",
+      "kr": "자신의 [PhantomIncisionTotalID]가 50 이상이면, 해당 턴의 마지막 순서에 무작위 적에게 ‘공간참 - 연’ 발동 (전투당 1회)\n- 이 효과로 ‘공간참 - 연’을 사용한 후, 자신에게 아래 효과 적용\n· 이번 전투 동안 퇴각 불가\n· 턴 종료시 자신의 [PhantomIncisionTotalID]가 50 이상이면, 다음 턴 시작시 기본 스킬 하나를 ‘공간참 - 잔’으로 변경 (가장 왼쪽 슬롯의 아래 스킬 우선 적용)",
+      "suffixes": [
+        "(;PhantomIncisionTotal)",
+        "(;PhantomIncisionTotal)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        554,
+        "desc"
+      ],
+      "id": 1041504,
+      "before": "Начало хода: наносит [SojiRyoshuEchoFuture](;SojiAbiBuffOne) случайному противнику. (Ядру противника в фокусированных битвах)\n- Наносит [SojiRyoshuEchoFuture](;SojiAbiBuffOne) ещё одному случайному противнику за каждые 3 убитые Идентичности Дома Пауков; (До 3 дополнительных противников)\n- Начало боевой фазы после нанесения эффекта: если противник с ним является главной целью своего базового атакующего навыка, то перед его использованием активирует альтернативный второй навык 「Неизбежное завершение [SojiRyoshuEchoFuture]」 в качестве односторонней атаки по этому противнику; (Единожды за ход)\n- При использовании базовых атакующих навыков против целей, которые имеют [SojiRyoshuEchoFuture](;SojiAbiBuffOne):\n   · Все монеты используемого навыка становятся [SuperCoin], а Итоговая сила навыка повышается на 1;\n   · Получает 1 [SojiRyoshuEchoPast](;TimeEntangleUnstable). (Единожды за ход)",
+      "after": "Начало хода: наносит [SojiRyoshuEchoFuture] случайному противнику. (Ядру противника в фокусированных битвах)\n- Наносит [SojiRyoshuEchoFuture] ещё одному случайному противнику за каждые 3 убитые Идентичности Дома Пауков; (До 3 дополнительных противников)\n- Начало боевой фазы после нанесения эффекта: если противник с ним является главной целью своего базового атакующего навыка, то перед его использованием активирует альтернативный второй навык 「Неизбежное завершение [SojiRyoshuEchoFuture]」 в качестве односторонней атаки по этому противнику; (Единожды за ход)\n- При использовании базовых атакующих навыков против целей, которые имеют [SojiRyoshuEchoFuture]:\n   · Все монеты используемого навыка становятся [SuperCoin], а Итоговая сила навыка повышается на 1;\n   · Получает 1 [SojiRyoshuEchoPast]. (Единожды за ход)",
+      "en": "Turn Start: Inflict [SojiRyoshuEchoFuture] on a random enemy (in Focused Encounters, the Core)\n- Inflict [SojiRyoshuEchoFuture] on 1 additional random enemy for every 3 defeated The House of Spiders allied Identities (max 3)\n- Combat Start: If an enemy that has [SojiRyoshuEchoFuture] is the main target of this unit's Base Attack Skills, use \"Inevitable Termination\" as an Unopposed Attack before using the said Base Attack Skill (once per turn)\n- On Base Attack Skill Use against target that has [SojiRyoshuEchoFuture],\n · Convert all Coins of the said Skill into [SuperCoin]s and gain Final Power +1\n · Gain 1 [SojiRyoshuEchoPast] (once per turn)",
+      "kr": "턴 시작시 무작위 적 1명에게 [SojiRyoshuEchoFuture] 부여 (집중 전투인 경우, 본체로 판정)\n- 사망한 아군 거미집 소속 인격 3명당, 추가로 무작위 적 1명에게 [SojiRyoshuEchoFuture] 부여 (최대 3개 생성)\n- 전투 시작 시 [SojiRyoshuEchoFuture]이 부여된 적을 기본 공격 스킬 메인 타겟으로 지정했으면, 해당 스킬 사용 전 ‘필연쇄’로 일방 공격함. (턴당 1회)\n- [SojiRyoshuEchoFuture]을 보유한 대상에게 기본 공격 스킬 사용시,\n · 해당 스킬 코인이 모두 [SuperCoin]으로 변경되고, 최종 위력 +1\n · [SojiRyoshuEchoPast] 1 얻음 (턴당 1회)",
+      "suffixes": [
+        "(;SojiAbiBuffOne)",
+        "(;SojiAbiBuffOne)",
+        "(;SojiAbiBuffOne)",
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        555,
+        "desc"
+      ],
+      "id": 1041501,
+      "before": "Наносит на (Количество излишней силы своего [Breath] свыше 20)% больше урона при критических попаданиях базовыми атакующими навыками. (До 10%)\n\nНаносит [PhantomIncisionID](;PhantomIncision) при критических попаданиях базовыми атакующими навыками.\n\nПассивное умение ЭГО Навыка 「Великий трихилиокосм [Breath] 」 может быть активировано атакующими навыками, нацеленными на союзников.",
+      "after": "Наносит на (Количество излишней силы своего [Breath] свыше 20)% больше урона при критических попаданиях базовыми атакующими навыками. (До 10%)\n\nНаносит [PhantomIncisionID] при критических попаданиях базовыми атакующими навыками.\n\nПассивное умение ЭГО Навыка 「Великий трихилиокосм [Breath] 」 может быть активировано атакующими навыками, нацеленными на союзников.",
+      "en": "Deal +1% damage on Critical Hit using Base Attack Skills for every 1 surplus [Breath] past 20 [Breath] on self (max 10%)\nOn Crit using Base Attack Skills, inflict 1 [PhantomIncisionID]\n\nGreat Trichiliocosm Ryōshū E.G.O Passive can be activated using Attack Skills targeting allies",
+      "kr": "자신의 20을 초과하는 [Breath] 위력 1당 자신의 기본 공격 스킬 크리티컬 피해량 +1% (최대 10%)\n자신의 기본 공격 스킬이 크리티컬 적중시, [PhantomIncisionID] 1 부여\n\n아군을 대상으로 한 공격 스킬로 삼천대세계 E.G.O 패시브[TabExplain] 발동 가능",
+      "suffixes": [
+        "(;PhantomIncision)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        555,
+        "summary"
+      ],
+      "id": 1041501,
+      "before": "Наносит больше критического урона, наносит [PhantomIncisionID](;PhantomIncision) при критических попадания",
+      "after": "Наносит больше критического урона, наносит [PhantomIncisionID] при критических попадания",
+      "en": "Deal more damage on Critical Hit, inflict [PhantomIncisionID] On Crit",
+      "kr": "크리티컬 피해량 증가[TabExplain], 크리티컬 적중시 [PhantomIncisionID] 부여",
+      "suffixes": [
+        "(;PhantomIncision)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        569,
+        "desc"
+      ],
+      "id": 1081501,
+      "before": "Начало боевой фазы: получает [AengduNewArmIshmael](;AengduNewArm), а также восстанавливает (Число грехов в резонансе Гордыни) СД всем другим Идентичностям «Родословной клинка» на поле боя.\n\nНачало боевой фазы: получает 1 [SupportProtect], если на поле боя есть хотя бы один союзник с менее чем 50% ОЗ.\n\nКонец использования навыка: получает 1 [WindBladeIshmael](;WindBlade) за каждые 3 имеющегося [Breath]. (До 5 за раз; до 2 раз за ход)",
+      "after": "Начало боевой фазы: получает [AengduNewArmIshmael], а также восстанавливает (Число грехов в резонансе Гордыни) СД всем другим Идентичностям «Родословной клинка» на поле боя.\n\nНачало боевой фазы: получает 1 [SupportProtect], если на поле боя есть хотя бы один союзник с менее чем 50% ОЗ.\n\nКонец использования навыка: получает 1 [WindBladeIshmael] за каждые 3 имеющегося [Breath]. (До 5 за раз; до 2 раз за ход)",
+      "en": "Combat Start: Gain [AengduNewArmIshmael] and heal (Pride Reson.) SP for Blade Lineage allied Identities excluding this unit\n\nCombat Start: If there is an allied Identity at less than 50% HP on the field excluding this unit, gain 1 [SupportProtect] (once per turn)\n\nSkill End: Gain 1 [WindBladeIshmael] for every 3 [Breath] Potency on self (max 5, 2 times per turn)",
+      "kr": "전투 시작 시 [AengduNewArmIshmael]을 얻으며, 자신을 제외한 검계 소속 아군 인격의 정신력을 (오만 공명 수)만큼 회복\n\n전투 시작 시 자신을 제외한 현재 체력이 최대 체력의 50% 미만인 아군 인격이 있다면, [SupportProtect] 1 얻음 (턴당 1회)\n\n스킬 종료 시 자신의 [Breath] 위력 3당, [WindBladeIshmael] 1 얻음 (최대 5, 턴당 2회)",
+      "suffixes": [
+        "(;AengduNewArm)",
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        572,
+        "desc"
+      ],
+      "id": 1081513,
+      "before": "<style=\"highlight\">Конец использования базового атакующего навыка: если есть 15 и более [WindBladeIshmael](;WindBlade), то использует на цели свой альтернативный третий навык 「Уравновесить баланс - Светящееся колеблющееся пламя」. (Единожды за ход)</style>\n\nПри поражении в столкновении своим защитным навыком (Блоком столкновением): если в этот момент есть 3 и более [Agility], то не может быть оглушена от получаемого урона до конца защиты этим навыком, а затем использует на атаковавшем свой альтернативный второй навык 「Дабы забрать их кости」. (До 2 раз за ход)",
+      "after": "<style=\"highlight\">Конец использования базового атакующего навыка: если есть 15 и более [WindBladeIshmael], то использует на цели свой альтернативный третий навык 「Уравновесить баланс - Светящееся колеблющееся пламя」. (Единожды за ход)</style>\n\nПри поражении в столкновении своим защитным навыком (Блоком столкновением): если в этот момент есть 3 и более [Agility], то не может быть оглушена от получаемого урона до конца защиты этим навыком, а затем использует на атаковавшем свой альтернативный второй навык 「Дабы забрать их кости」. (До 2 раз за ход)",
+      "en": "<style=\"highlight\">On Base Attack Skill End, if this unit has 15+ [WindBladeIshmael], activate \"Even the Balance - Lucent Rippling Flame\" (once per turn)</style>\n\nOn Defense Skill Clash Lose, if this unit has 3+ [Agility], this unit cannot be Staggered from taking damage until Defense Skill End, and activate \"To Claim Their Bones\" after being hit (2 times per turn, excluding forced Staggers)",
+      "kr": "<style=\"highlight\">기본 공격 스킬 종료 시 자신의 [WindBladeIshmael]이 15 이상이면, ‘상전 청린화’ 발동 (턴당 1회)</style>\n\n수비 스킬 합 패배 시 [Agility]이 3 이상이면, 수비 스킬 종료 시까지 피해로 인해 흐트러짐 상태가 되지 않으며, 피격 후 ‘골단’ 발동 (턴당 2회, 강제 흐트러짐 제외)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Passives.json",
+      "path": [
+        "dataList",
+        583,
+        "desc"
+      ],
+      "id": 1091604,
+      "before": "Если эта Идентичность Родион мертва с самого начала битвы или умерла во время неё, то 「Клинок Дома Пауков」 Рёшу получает следующие эффекты для Разрыва нити:\n- Получает 1 [SojiRyoshuEchoPast](;TimeEntangleUnstable);\n- Защитные навыки получают +1 к Силе монет, Базовые атакующие навыки наносят на 10% больше урона имеющим ОЗ Щита целям.",
+      "after": "Если эта Идентичность Родион мертва с самого начала битвы или умерла во время неё, то 「Клинок Дома Пауков」 Рёшу получает следующие эффекты для Разрыва нити:\n- Получает 1 [SojiRyoshuEchoPast];\n- Защитные навыки получают +1 к Силе монет, Базовые атакующие навыки наносят на 10% больше урона имеющим ОЗ Щита целям.",
+      "en": "If this unit is defeated at Encounter Start, or if this unit is defeated during the Encounter, Blade of the House of Spiders Ryōshū gains the following effects:\n- Gain 1 [SojiRyoshuEchoPast]\n- Defense Skill Coin Power +1, Base Attack Skills deal +10% damage against targets that have Shield",
+      "kr": "스테이지 시작 시 사망한 상태거나 전투 중 사망 시, 거미집의 검 료슈 인격이 아래 효과 얻음\n- [SojiRyoshuEchoPast] 1 얻음\n- 수비 스킬 코인 위력 +1, 보호막을 보유한 대상에게 가하는 기본 공격 스킬 피해량 +10%",
+      "suffixes": [
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Passives_Abnormality-mr7.json",
+      "path": [
+        "dataList",
+        19,
+        "desc"
+      ],
+      "id": 138205,
+      "before": "Когда с [MiddleFatherSwordFour](#f8c200) сняты все печати, получает [MiddleFatherGutsMirror](;MiddleFatherGuts).",
+      "after": "Когда с [MiddleFatherSwordFour](#f8c200) сняты все печати, получает [MiddleFatherGutsMirror].",
+      "en": "When [MiddleFatherSwordFour] is unsealed, this unit gains [MiddleFatherGutsMirror]",
+      "kr": "[MiddleFatherSwordFour] 해방 시 [MiddleFatherGutsMirror]을 얻음",
+      "suffixes": [
+        "(;MiddleFatherGuts)"
+      ]
+    },
+    {
+      "file": "Passives_Abnormality-x1p1c1.json",
+      "path": [
+        "dataList",
+        1,
+        "desc"
+      ],
+      "id": 136502,
+      "before": "Получает 1 [LeakedOutSauce](;MarinadeLeakedOut) будучи атакованной.",
+      "after": "Получает 1 [LeakedOutSauce] будучи атакованной.",
+      "en": "When Hit: Gain 1 [LeakedOutSauce]",
+      "kr": "피격 시 [LeakedOutSauce] 1 얻음",
+      "suffixes": [
+        "(;MarinadeLeakedOut)"
+      ]
+    },
+    {
+      "file": "Passives_Abnormality.json",
+      "path": [
+        "dataList",
+        61,
+        "desc"
+      ],
+      "id": 804501,
+      "before": "После смерти все навыки на этот ход отменяются. Имеющийся запас [Self-charge] удваивается.",
+      "after": "После смерти все навыки на этот ход отменяются. Имеющийся запас Подзаряда удваивается.",
+      "en": "Upon death, all Skills are cancelled for the turn.\nDoubles currently owned Self-charge.",
+      "kr": "죽음을 맞이하면 해당 턴 스킬 전부 취소.\n보유한 자가 충전 2배로 늘어남."
+    },
+    {
+      "file": "Passives_Abnormality_Refraction6.json",
+      "path": [
+        "dataList",
+        39,
+        "desc"
+      ],
+      "id": 955103,
+      "before": "Начало хода:\n- Получает [IndexPrescript_Base_2nd] в зависимости от текущей стадии [UnlockBuff_Base]:\n   · Нет эффекта: Предписание: 【Устройство】 I(;IndexPrescript_Base_2nd);\n   · Разблокировка - I(;UnlockBuff_1): Предписание: 【Устройство】 II(;IndexPrescript_Base_2nd);\n   · Разблокировка - II(;UnlockBuff_2): Предписание: 【Устройство】 III(;IndexPrescript_Base_2nd);\n   · Разблокировка - III(;UnlockBuff_3): Предписание: 【Устройство】 IV(;IndexPrescript_Base_2nd).\n- Случайный Грешник становится [IndexPrescriptTargetToPersonality]; (В приоритете Грешники с наименьшими текущими ОЗ выше 1)\n   · <color=#ff9000><mark=#ff000040><b><u>Если главной целью используемого навыка является </u><color=#ff9000><u>Цель предписания</u></color>, то все его монеты становятся [SuperCoin]</b></mark></color>;\n   · Если убил выбранную [IndexPrescriptTargetToPersonality] или опустил её ОЗ до 0 после своей атакой, то этот эффект выбора [IndexPrescriptTargetToPersonality] активируется повторно;\n   · Если перед аткой [IndexPrescriptTargetToPersonality] она умирает из-за внешних факторов или Риен не может нацелиться на неё своими навыками по какой-либо сторонней причине, <mark=#ff000040><b>то использует их против случайного Грешника с наименьшими текущими ОЗ.</b></mark> (За исключением Грешников с 1 ОЗ)\n\nНаносит на (Текущее значение [BlessingOfIndexPrescriptEnemy] × 2.5)% больше урона Целям предписания. (До 20%)\n- При 9 [BlessingOfIndexPrescriptEnemy] наносит сразу на 30% больше урона вместо этого.",
+      "after": "Начало хода:\n- Получает [IndexPrescript_Base_2nd] в зависимости от стадии [UnlockBuff_Base].\n- Накладывает [IndexPrescriptTargetToPersonality] на случайного Грешника и атакует его в первую очередь.\n  · <color=#ff9000><mark=#ff000040><b><u>Если главной целью используемого навыка является </u><color=#ff9000><u>Цель предписания</u></color>, то все его монеты становятся [SuperCoin]</b></mark></color>.\n\nЕсли во время атаки [IndexPrescriptTargetToPersonality] погибает или противник больше не может атаковать [IndexPrescriptTargetToPersonality], <mark=#ff000040><b>он использует оставшиеся навыки против случайного Грешника</b></mark>. При выборе в приоритете Грешники с наименьшими текущими ОЗ выше 1.\n- Если Грешник, выбранный вместо [IndexPrescriptTargetToPersonality], погибает или его ОЗ опускаются до 1, выбирает другого Грешника по тому же правилу.\n\nНаносит на 2,5% больше урона Цели предписания за каждую единицу [BlessingOfIndexPrescriptEnemy] (до 20%).\n- При 9 [BlessingOfIndexPrescriptEnemy] вместо этого наносит на 30% больше урона всем целям.",
+      "en": "Turn Start:\n- Gain [IndexPrescript_Base_2nd] based on [UnlockBuff_Base] stage on self\n- Apply [IndexPrescriptTargetToPersonality] against a random Sinner, and prioritize attacking them\n<color=#ff9000><mark=#ff000040><b><u>- When using a Skill against [IndexPrescriptTargetToPersonality], convert all Coins on that Skill to [SuperCoin]s</u></b></mark></color>\n\nWhen attacking, if [IndexPrescriptTargetToPersonality] is killed, or if this unit can no longer attack that target, <color=#ff9000><mark=#ff000040><b><u>use the remaining Skills against a random Sinner\n- Prioritizes targets with the lowest current HP, unless they have 1 HP\n- When the randomly chosen Sinner is killed, or if the said Sinner's HP is brought down to 1, repeat this effect on another Sinner</u></b></mark></color>\n\nDeal +2.5% damage against [IndexPrescriptTargetToPersonality] for every [BlessingOfIndexPrescriptEnemy] (max 20%)\n- At 9 [BlessingOfIndexPrescriptEnemy], deal +30% damage against all targets",
+      "kr": "턴 시작 시,\n- [UnlockBuff_Base] 단계에 따라 [IndexPrescript_Base_2nd] 얻음\n- 무작위 수감자에게 [IndexPrescriptTargetToPersonality]을 부여하고, 우선 공격함\n<color=#ff9000><mark=#ff000040><b><u>- [IndexPrescriptTargetToPersonality]에게 사용하는 스킬의 코인이 전부 [SuperCoin]으로 변경됨</u></b></mark></color>\n\n공격 시 [IndexPrescriptTargetToPersonality]이 사망하거나 대상을 공격하지 못하게 될 경우,\n<color=#ff9000><mark=#ff000040><b><u>사용하지 않은 나머지 스킬을 무작위 수감자에게 사용\n- 현재 체력이 가장 낮은 대상 우선 (체력이 1인 경우 제외)\n- 무작위로 선택된 수감자가 사망하거나 체력이 1이 될 경우, 다른 수감자에게 반복</u></b></mark></color>\n\n[BlessingOfIndexPrescriptEnemy]당 [IndexPrescriptTargetToPersonality]에게 가하는 피해량 +2.5% (최대 20%)\n- [BlessingOfIndexPrescriptEnemy]가 9면, 대신 모든 대상에게 가하는 피해량 +30%",
+      "suffixes": [
+        "(;IndexPrescript_Base_2nd)",
+        "(;UnlockBuff_1)",
+        "(;IndexPrescript_Base_2nd)",
+        "(;UnlockBuff_2)",
+        "(;IndexPrescript_Base_2nd)",
+        "(;UnlockBuff_3)",
+        "(;IndexPrescript_Base_2nd)"
+      ]
+    },
+    {
+      "file": "Passives_Assist-exme.json",
+      "path": [
+        "dataList",
+        1,
+        "desc"
+      ],
+      "id": 40003802,
+      "before": "Конец использования навыка: получает 1 [WindBlade] за каждые 3 имеющегося [Breath]. (До 5 за раз; до 2 раз за ход)\n\nКонец использования атакующего навыка: если есть 15 и более [WindBlade](;WindBlade), то использует на цели свой альтернативный третий навык 「Уравновесить баланс - Светящееся колеблющееся пламя」. (Единожды за ход)\n\nПри поражении в столкновении своим защитным навыком (Блоком столкновением): если в этот момент есть 3 и более [Agility], то не может быть оглушена от получаемого урона до конца защиты этим навыком, а затем использует на атаковавшем свой альтернативный второй навык 「Дабы забрать их кости」. (До 2 раз за ход)",
+      "after": "Конец использования навыка: получает 1 [WindBlade] за каждые 3 имеющегося [Breath]. (До 5 за раз; до 2 раз за ход)\n\nКонец использования атакующего навыка: если есть 15 и более [WindBlade], то использует на цели свой альтернативный третий навык 「Уравновесить баланс - Светящееся колеблющееся пламя」. (Единожды за ход)\n\nПри поражении в столкновении своим защитным навыком (Блоком столкновением): если в этот момент есть 3 и более [Agility], то не может быть оглушена от получаемого урона до конца защиты этим навыком, а затем использует на атаковавшем свой альтернативный второй навык 「Дабы забрать их кости」. (До 2 раз за ход)",
+      "en": "Skill End: Gain 1 [WindBlade] for every 3 [Breath] (max 5, 2 times per turn)\n\nOn Base Attack Skill End: At 15+ [WindBlade], activate \"Even the Balance - Lucent Rippling Flame\" on the enemy (once per turn)\n\nOn Defense Skill Clash Lose, if this unit has 3+ [Agility], this unit cannot be Staggered from taking damage until Defense Skill End, and activate \"To Claim Their Bones\" against the enemy after being hit (2 times per turn, excluding forced Staggers)",
+      "kr": "스킬 종료 시 [Breath] 3당, [WindBlade] 1 얻음 (최대 5, 턴당 2회)\n\n기본 공격 스킬 종료 시 [WindBlade]이 15 이상이면, 적에게 ‘상전 청린화’ 발동 (턴당 1회)\n\n수비 스킬 합 패배 시 [Agility]이 3 이상이면, 수비 스킬 종료 시까지 피해로 인해 흐트러짐 상태가 되지 않으며, 피격후 적에게 ‘골단’ 발동 (턴당 2회, 강제 흐트러짐 제외)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Passives_Assist-twth.json",
+      "path": [
+        "dataList",
+        2,
+        "desc"
+      ],
+      "id": 40003703,
+      "before": "Получает 2 [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter) будучи атакованной. (Единожды за навык противника)\n\nПолучает 1 [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter), когда атакуют союзника. (Единожды за навык противника)\n\nИспользует мощную атаку при максимальном значении [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter).\n\nКонец хода: при менее чем 80% / 60% / 40% ОЗ значение [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter) увеличивается до максимума.",
+      "after": "Получает 2 [ResentmentSpiderDaughterTwo] будучи атакованной. (Единожды за навык противника)\n\nПолучает 1 [ResentmentSpiderDaughterTwo], когда атакуют союзника. (Единожды за навык противника)\n\nИспользует мощную атаку при максимальном значении [ResentmentSpiderDaughterTwo].\n\nКонец хода: при менее чем 80% / 60% / 40% ОЗ значение [ResentmentSpiderDaughterTwo] увеличивается до максимума.",
+      "en": "When hit by a Skill, gain 2 [ResentmentSpiderDaughterTwo] (once per Skill)\n\nWhen an ally is hit, gain 1 [ResentmentSpiderDaughterTwo] (once per Skill)\n\nAt max [ResentmentSpiderDaughterTwo] Stack, use a powerful attack\n\nTurn End: At less than 80% / 60% / 40% HP, max out this unit's [ResentmentSpiderDaughterTwo] Stack",
+      "kr": "스킬 피격 시 [ResentmentSpiderDaughterTwo] 2 얻음 (스킬당 1회)\n\n아군이 피격 시 [ResentmentSpiderDaughterTwo] 1 얻음 (스킬당 1회)\n\n[ResentmentSpiderDaughterTwo]이 최댓값이면 강력한 공격을 사용함\n\n턴 종료시 체력이 80%, 60%, 40% 미만이면, [ResentmentSpiderDaughterTwo] 최댓값으로 획득함",
+      "suffixes": [
+        "(;ResentmentSpiderDaughter)",
+        "(;ResentmentSpiderDaughter)",
+        "(;ResentmentSpiderDaughter)",
+        "(;ResentmentSpiderDaughter)"
+      ]
+    },
+    {
+      "file": "Passives_Enemy-twth.json",
+      "path": [
+        "dataList",
+        8,
+        "desc"
+      ],
+      "id": 9103401,
+      "before": "Начало хода:\n- Получает Предписание: [IndexPrescriptTargetToPersonality] в зависимости от текущего значения [BlessingOfIndexPrescriptEnemy]:\n   · При 0~2: [IndexPrescriptEnemy_0](;IndexPrescript_Base);\n   · При 3~5: [IndexPrescriptEnemy_1](;IndexPrescript_Base);\n   · При 6~8: [IndexPrescriptEnemy_2](;IndexPrescript_Base);\n   · При 9: [IndexPrescriptEnemy_3](;IndexPrescript_Base).\n- Случайный Грешник становится [IndexPrescriptTargetToPersonality].",
+      "after": "Начало хода:\n- Получает Предписание: [IndexPrescriptTargetToPersonality] в зависимости от текущего значения [BlessingOfIndexPrescriptEnemy]:\n   · При 0~2: [IndexPrescriptEnemy_0];\n   · При 3~5: [IndexPrescriptEnemy_1];\n   · При 6~8: [IndexPrescriptEnemy_2];\n   · При 9: [IndexPrescriptEnemy_3].\n- Случайный Грешник становится [IndexPrescriptTargetToPersonality].",
+      "en": "Turn Start:\n- Gain [IndexPrescriptEnemy_0]/[IndexPrescriptEnemy_1]/[IndexPrescriptEnemy_2]/[IndexPrescriptEnemy_3] based on [BlessingOfIndexPrescriptEnemy] Stack on self\n- Inflict [IndexPrescriptTargetToPersonality] to a random Sinner (in Focused Encounters, attacks prioritize the Sinner that has [IndexPrescriptTargetToPersonality])",
+      "kr": "턴 시작 시\n- 자신의 [BlessingOfIndexPrescriptEnemy] 수치에 따라 [IndexPrescriptEnemy_0]/[IndexPrescriptEnemy_1]/[IndexPrescriptEnemy_2]/[IndexPrescriptEnemy_3] 얻음 \n- 무작위 수감자 1명에게 [IndexPrescriptTargetToPersonality] 부여\n(집중 전투일 경우, 우선 공격함)",
+      "suffixes": [
+        "(;IndexPrescript_Base)",
+        "(;IndexPrescript_Base)",
+        "(;IndexPrescript_Base)",
+        "(;IndexPrescript_Base)"
+      ]
+    },
+    {
+      "file": "Passives_Enemy-x1p1c1.json",
+      "path": [
+        "dataList",
+        0,
+        "desc"
+      ],
+      "id": 9103901,
+      "before": "Получает 1 [LeakedOutSauce](;MarinadeLeakedOut) будучи атакованным. (До 6 раз за битву)",
+      "after": "Получает 1 [LeakedOutSauce] будучи атакованным. (До 6 раз за битву)",
+      "en": "When Hit: Gain 1 [LeakedOutSauce] (6 times per Encounter)",
+      "kr": "피격 시 [LeakedOutSauce] 1 얻음 (전투당 6회)",
+      "suffixes": [
+        "(;MarinadeLeakedOut)"
+      ]
+    },
+    {
+      "file": "Passives_check4.json",
+      "path": [
+        "dataList",
+        13,
+        "desc"
+      ],
+      "id": 1040531,
+      "before": "При убийстве противника союзник с наименьшими максимальными ОЗ овышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 (Раз за ход)",
+      "after": "При убийстве противника союзник с наименьшими максимальными ОЗ повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 (Раз за ход)",
+      "en": "When an ally with the lowest Max HP defeats an enemy, they gain +3 Charge Count (Once per turn)",
+      "kr": "최대 체력이 가장 낮은 아군 1명이 적 처치 시 충전 횟수 3 증가 (턴 당 최대 1회 발동)"
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        13,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 500114,
+      "before": "[OnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid](;AaCePbBi) на цели)% от максимальных ОЗ цели",
+      "after": "[OnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid] на цели)% от максимальных ОЗ цели",
+      "en": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target",
+      "kr": "[OnSucceedAttack] 대상의 [RicardoBookRaid] 1당 최대 체력의 1% 피해",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        13,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 500114,
+      "before": "[OnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid](;AaCePbBi) на цели)% от максимальных ОЗ цели",
+      "after": "[OnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid] на цели)% от максимальных ОЗ цели",
+      "en": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target",
+      "kr": "[OnSucceedAttack] 대상의 [RicardoBookRaid] 1당 최대 체력의 1% 피해",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        13,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 500114,
+      "before": "[OnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid](;AaCePbBi) на цели)% от максимальных ОЗ цели",
+      "after": "[OnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid] на цели)% от максимальных ОЗ цели",
+      "en": "[OnSucceedAttack] Deal damage equal to 1% of target's max HP for every [RicardoBookRaid] on target",
+      "kr": "[OnSucceedAttack] 대상의 [RicardoBookRaid] 1당 최대 체력의 1% 피해",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        14,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 500115,
+      "before": "[WhenUse] Получает 3 [HitDamageUp] на следующий ход\n[WhenUse] Если на цели <color=#ff6000><mark=#ff000040><b><u>5 и более [RicardoBookRaid](;AaCePbBi)</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]",
+      "after": "[WhenUse] Получает 3 [HitDamageUp] на следующий ход\n[WhenUse] Если на цели <color=#ff6000><mark=#ff000040><b><u>5 и более [RicardoBookRaid]</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]",
+      "en": "[WhenUse] Gain 3 [HitDamageUp] next turn\n[WhenUse] If the main target has <color=#ff6000><mark=#ff000040><b><u>5+ [RicardoBookRaid]</u></b></mark></color>, convert all Coins on this Skill to [SuperCoin]s",
+      "kr": "[WhenUse] 다음 턴에 [HitDamageUp] 3 얻음\n[WhenUse] 메인 타겟의 <color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid]이 5 이상이면,</u></b></mark></color>\n이 스킬의 모든 코인이 [SuperCoin]으로 변경됨",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        6,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 500107,
+      "before": "[OnSucceedAttack] Понижает значение [RicardoBookRaid](;AaCePbBi) на 5",
+      "after": "[OnSucceedAttack] Понижает значение [RicardoBookRaid] на 5",
+      "en": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 5",
+      "kr": "[OnSucceedAttack] 대상의 [RicardoBookRaid] 5 감소",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        7,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 500108,
+      "before": "[OnSucceedAttack] Наносит (Значение [RicardoBookRaid](;AaCePbBi) на цели × 3) дополнительного Дробящего урона",
+      "after": "[OnSucceedAttack] Наносит (Значение [RicardoBookRaid] на цели × 3) дополнительного Дробящего урона",
+      "en": "[OnSucceedAttack] Inflict ([RicardoBookRaid] on target x 3) Blunt bonus damage",
+      "kr": "[OnSucceedAttack] (대상이 보유한 [RicardoBookRaid] x 3)만큼 타격 추가 피해",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        7,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 500108,
+      "before": "[OnSucceedAttack] Понижает значение [RicardoBookRaid](;AaCePbBi) на 3",
+      "after": "[OnSucceedAttack] Понижает значение [RicardoBookRaid] на 3",
+      "en": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 3",
+      "kr": "[OnSucceedAttack] 대상의 [RicardoBookRaid] 3 감소",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        7,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 500108,
+      "before": "Нацеливается на противников с наибольшим значением [RicardoBookRaid](;AaCePbBi)\n[WhenUse] Если на цели <color=#ff6000><mark=#ff000040><b><u>3 и более [RicardoBookRaid](;AaCePbBi)</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]",
+      "after": "Нацеливается на противников с наибольшим значением [RicardoBookRaid]\n[WhenUse] Если на цели <color=#ff6000><mark=#ff000040><b><u>3 и более [RicardoBookRaid]</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]",
+      "en": "Prioritizes targets that have the highest [RicardoBookRaid] Stack\n[WhenUse] If target has <color=#ff6000><mark=#ff000040><b><u>3+ [RicardoBookRaid],</u></b></mark></color> convert all Coins on this Skill to [SuperCoin]s",
+      "kr": "[RicardoBookRaid]의 수치가 가장 높은 대상을 우선 지정\n[WhenUse] 대상의 <color=#ff6000><mark=#ff000040><b><u>[RicardoBookRaid]이 3 이상이면,</u></b></mark></color>\n이 스킬의 모든 코인이 [SuperCoin]으로 변경됨",
+      "suffixes": [
+        "(;AaCePbBi)",
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        9,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 500110,
+      "before": "[UnBrokenCoinOnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid](;AaCePbBi) на цели × 3)% от максимальных ОЗ цели",
+      "after": "[UnBrokenCoinOnSucceedAttack] Наносит урон, равный (Значение [RicardoBookRaid] на цели × 3)% от максимальных ОЗ цели",
+      "en": "[UnBrokenCoinOnSucceedAttack] Deal damage equal to 3% of target's max HP for every [RicardoBookRaid] on target",
+      "kr": "[UnBrokenCoinOnSucceedAttack] 대상의 [RicardoBookRaid] 1당 최대 체력의 3% 피해",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality-BossRaid.json",
+      "path": [
+        "dataList",
+        9,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 500110,
+      "before": "[OnSucceedAttack] Понижает значение [RicardoBookRaid](;AaCePbBi) на 10",
+      "after": "[OnSucceedAttack] Понижает значение [RicardoBookRaid] на 10",
+      "en": "[OnSucceedAttack] Reduce [RicardoBookRaid] on target by 10",
+      "kr": "[OnSucceedAttack] 대상의 [RicardoBookRaid] 10 감소",
+      "suffixes": [
+        "(;AaCePbBi)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality_Refraction6.json",
+      "path": [
+        "dataList",
+        3,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 956304,
+      "before": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Прошлое\n- Противники второй секции получат 2 [HeatedWingScalesExplain](;HeatedWingScales)",
+      "after": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Прошлое\n- Противники второй секции получат 2 [HeatedWingScalesExplain]",
+      "en": "<color=#ff6000><mark=#ff000040><b><u>Attack Type and Affinity</u></b></mark></color> of Skills that Clashed with this Skill affect the impending Past\n- Enemy units of Stage 2 gain [HeatedWingScalesExplain]",
+      "kr": "이 스킬과 합을 진행한 스킬의 <color=#ff6000><mark=#ff000040><b><u>공격 유형, 속성 유형</u></b></mark></color>이 다가오는 과거에 영향을 끼침\n- 2스테이지의 적들이 [HeatedWingScalesExplain] 얻음",
+      "suffixes": [
+        "(;HeatedWingScales)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality_Refraction6.json",
+      "path": [
+        "dataList",
+        4,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 956305,
+      "before": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Настоящее\n- Противники третьей секции получат 3 [TransparentWingScalesExplain](;TransparentWingScales)",
+      "after": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Настоящее\n- Противники третьей секции получат 3 [TransparentWingScalesExplain]",
+      "en": "<color=#ff6000><mark=#ff000040><b><u>Attack Type and Affinity</u></b></mark></color> of Skills that Clashed with this Skill affect the impending Present\n- Enemy units of Stage 3 gain [TransparentWingScalesExplain]",
+      "kr": "이 스킬과 합을 진행한 스킬의 <color=#ff6000><mark=#ff000040><b><u>공격 유형, 속성 유형</u></b></mark></color>이 다가오는 현재에 영향을 끼침\n- 3스테이지의 적들이 [TransparentWingScalesExplain] 얻음",
+      "suffixes": [
+        "(;TransparentWingScales)"
+      ]
+    },
+    {
+      "file": "Skills_Abnormality_Refraction6.json",
+      "path": [
+        "dataList",
+        5,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 956306,
+      "before": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Будущее\n- Противники четвёртой секции получат 4 [RustedWingScalesExplain](;RustedWingScales)",
+      "after": "<color=#ff6000><mark=#ff000040><b><u>Физический тип урона и грех</u></b></mark></color> участвующего в столкновении навыка будет влиять на грядущее Будущее\n- Противники четвёртой секции получат 4 [RustedWingScalesExplain]",
+      "en": "<color=#ff6000><mark=#ff000040><b><u>Attack Type and Affinity</u></b></mark></color> of Skills that Clashed with this Skill affect the impending Future\n- Enemy units of Stage 4 gain [RustedWingScalesExplain]",
+      "kr": "이 스킬과 합을 진행한 스킬의 <color=#ff6000><mark=#ff000040><b><u>공격 유형, 속성 유형</u></b></mark></color>이 다가오는 미래에 영향을 끼침\n- 4스테이지의 적들이 [RustedWingScalesExplain] 얻음",
+      "suffixes": [
+        "(;RustedWingScales)"
+      ]
+    },
+    {
+      "file": "Skills_Assist-twth.json",
+      "path": [
+        "dataList",
+        1,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 40003702,
+      "before": "Итоговая сила +2 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), наносит 2 [Laceration] при попадании монетами этого навыка",
+      "after": "Итоговая сила +2 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], наносит 2 [Laceration] при попадании монетами этого навыка",
+      "en": "If target has 3+ ([Combustion] + [Laceration]), Final Power +2\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughterTwo], inflict 2 [Laceration] On Coin Hit",
+      "kr": "대상의 [Combustion]과 [Laceration]의 합이 3 이상이면 최종 위력 +2\n[WhenUse] 자신에게 [ReinforcedTattooSpiderDaughterTwo]이 있으면, 코인 적중시 [Laceration] 2 부여",
+      "suffixes": [
+        "(;ReinforcedTattooSpiderDaughter)"
+      ]
+    },
+    {
+      "file": "Skills_Assist-twth.json",
+      "path": [
+        "dataList",
+        2,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 40003703,
+      "before": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[EndSkill] При 3 и более [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter) получает 1 [VioletDamageUp] на следующий ход",
+      "after": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[EndSkill] При 3 и более [ResentmentSpiderDaughterTwo] получает 1 [VioletDamageUp] на следующий ход",
+      "en": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpiderTwo] state, this Skill activates its Thermal Blade effects\nIf target has 3+ ([Combustion] + [Laceration]), Coin Power +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughterTwo], inflict +1 [Laceration] Count On Coin Hit\n[EndSkill] At 3+ [ResentmentSpiderDaughterTwo], gain 1 [VioletDamageUp] next turn",
+      "kr": "이 스킬은 [HeatingWireOnSpiderTwo] 상태일 때 열선[TabExplain] 효과가 적용됨\n대상의 [Combustion]과 [Laceration]의 합이 3 이상이면 코인 위력 +1\n[WhenUse] 자신에게 [ReinforcedTattooSpiderDaughterTwo]이 있으면, 코인 적중시 대상의 [Laceration] 횟수 1 증가\n[EndSkill] 자신의 [ResentmentSpiderDaughterTwo]이 3 이상이면, 다음 턴에 [VioletDamageUp] 1 얻음",
+      "suffixes": [
+        "(;ReinforcedTattooSpiderDaughter)",
+        "(;ResentmentSpiderDaughter)"
+      ]
+    },
+    {
+      "file": "Skills_Assist-twth.json",
+      "path": [
+        "dataList",
+        3,
+        "levelList",
+        0,
+        "coinlist",
+        3,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 40003704,
+      "before": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), наносит 2 [Binding] на следующий ход",
+      "after": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderDaughterTwo], наносит 2 [Binding] на следующий ход",
+      "en": "[OnSucceedAttack] If this unit has [ReinforcedTattooSpiderDaughterTwo], inflict 2 [Binding] next turn",
+      "kr": "[OnSucceedAttack] 자신에게 [ReinforcedTattooSpiderDaughterTwo]이 있으면, 다음 턴에 [Binding] 2 부여",
+      "suffixes": [
+        "(;ReinforcedTattooSpiderDaughter)"
+      ]
+    },
+    {
+      "file": "Skills_Assist-twth.json",
+      "path": [
+        "dataList",
+        3,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 40003704,
+      "before": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), повышает счётчик [Laceration] на 1 при попадании монетами этого навыка",
+      "after": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка",
+      "en": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpiderTwo] state, this Skill activates its Thermal Blade effects\nIf target has 3+ ([Combustion] + [Laceration]), Coin Power +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughterTwo], inflict +1 [Laceration] Count On Coin Hit",
+      "kr": "이 스킬은 [HeatingWireOnSpiderTwo] 상태일 때 열선[TabExplain] 효과가 적용됨\n대상의 [Combustion]과 [Laceration]의 합이 3 이상이면 코인 위력 +1\n[WhenUse] 자신에게 [ReinforcedTattooSpiderDaughterTwo]이 있으면, 코인 적중시 대상의 [Laceration] 횟수 1 증가",
+      "suffixes": [
+        "(;ReinforcedTattooSpiderDaughter)"
+      ]
+    },
+    {
+      "file": "Skills_Assist-twth.json",
+      "path": [
+        "dataList",
+        4,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 40003705,
+      "before": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), наносит на 60% больше урона\n[WhenUse] При 2 и более [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter) злобы с шансом 50% наносит 1 [Paralysis] при попадании монетами этого навыка\n[EndSkill] Теряет всю [ResentmentSpiderDaughterTwo](;ResentmentSpiderDaughter)",
+      "after": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo], наносит на 60% больше урона\n[WhenUse] При 2 и более [ResentmentSpiderDaughterTwo] злобы с шансом 50% наносит 1 [Paralysis] при попадании монетами этого навыка\n[EndSkill] Теряет всю [ResentmentSpiderDaughterTwo]",
+      "en": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpiderTwo] state, this Skill activates its Thermal Blade effects\nIf target has 3+ ([Combustion] + [Laceration]), Coin Power +1\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughterTwo], inflict +1 [Laceration] Count On Coin Hit\n[WhenUse] At 40%- HP or 2+ [ReinforcedTattooSpiderDaughterTwo], deal +60% damage\n[WhenUse] At 2+ [ResentmentSpiderDaughterTwo], 50% chance to inflict 1 [Paralysis] On Coin Hit\n[EndSkill] Consume all [ResentmentSpiderDaughterTwo] on self",
+      "kr": "이 스킬은 [HeatingWireOnSpiderTwo] 상태일 때 열선[TabExplain] 효과가 적용됨\n대상의 [Combustion]과 [Laceration]의 합이 3 이상이면 코인 위력 +1\n[WhenUse] 자신에게 [ReinforcedTattooSpiderDaughterTwo]이 있으면, 코인 적중시 대상의 [Laceration] 횟수 1 증가\n[WhenUse] 자신의 체력이 40% 이하거나 [ReinforcedTattooSpiderDaughterTwo]이 2 이상이면, 피해량 +60%\n[WhenUse] 자신의 [ResentmentSpiderDaughterTwo]이 2 이상이면, 코인 적중시 50% 확률로 [Paralysis] 1 부여\n[EndSkill] 자신의 [ResentmentSpiderDaughterTwo]을 전부 소모",
+      "suffixes": [
+        "(;ReinforcedTattooSpiderDaughter)",
+        "(;ReinforcedTattooSpiderDaughter)",
+        "(;ResentmentSpiderDaughter)",
+        "(;ResentmentSpiderDaughter)"
+      ]
+    },
+    {
+      "file": "Skills_Assist-twth.json",
+      "path": [
+        "dataList",
+        5,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 40003706,
+      "before": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nЕсли при получении удара есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), повторно использует этот навык во время хода за каждое их значение (До 2 дополнительных раз)\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), наносит 1 [Laceration] при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo](;ReinforcedTattooSpiderDaughter), наносит на 40% больше урона",
+      "after": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nЕсли при получении удара есть [ReinforcedTattooSpiderDaughterTwo], повторно использует этот навык во время хода за каждое их значение (До 2 дополнительных раз)\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], наносит 1 [Laceration] при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo], наносит на 40% больше урона",
+      "en": "Thermal Blade Skill. \nWhen in [HeatingWireOnSpiderTwo] state, this Skill activates its Thermal Blade effects\nWhen hit, Reuse this Skill once for every [ReinforcedTattooSpiderDaughterTwo] on self (max 2 times)\n[WhenUse] If this unit has [ReinforcedTattooSpiderDaughterTwo], inflict 1 [Laceration] On Coin Hit\n[WhenUse] At 40%- HP or 2+ [ReinforcedTattooSpiderDaughterTwo], deal +40% damage",
+      "kr": "이 스킬은 [HeatingWireOnSpiderTwo] 상태일 때 열선[TabExplain] 효과가 적용됨\n피격 시 자신의 [ReinforcedTattooSpiderDaughterTwo] 1당 이 스킬 1회 재사용 (최대 2회)\n[WhenUse] 자신에게 [ReinforcedTattooSpiderDaughterTwo]이 있으면, 코인 적중시 [Laceration] 1 부여\n[WhenUse] 자신의 체력이 40% 이하거나 [ReinforcedTattooSpiderDaughterTwo]이 2 이상이면, 피해량 +40%",
+      "suffixes": [
+        "(;ReinforcedTattooSpiderDaughter)",
+        "(;ReinforcedTattooSpiderDaughter)",
+        "(;ReinforcedTattooSpiderDaughter)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        43,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1041405,
+      "before": "[OnSucceedAttack] Наносит 2 [GodokPanicType](;Godok_Panic) на следующий ход",
+      "after": "[OnSucceedAttack] Наносит 2 [GodokPanicType] на следующий ход",
+      "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn",
+      "kr": "[OnSucceedAttack] 다음 턴에 [GodokPanicType] 2 부여",
+      "suffixes": [
+        "(;Godok_Panic)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        43,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1041405,
+      "before": "[OnSucceedAttack] Наносит 2 [GodokPanicType](;Godok_Panic) на следующий ход",
+      "after": "[OnSucceedAttack] Наносит 2 [GodokPanicType] на следующий ход",
+      "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn",
+      "kr": "[OnSucceedAttack] 다음 턴에 [GodokPanicType] 2 부여",
+      "suffixes": [
+        "(;Godok_Panic)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        43,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1041405,
+      "before": "[OnSucceedAttack] Наносит 2 [GodokPanicType](;Godok_Panic) на следующий ход",
+      "after": "[OnSucceedAttack] Наносит 2 [GodokPanicType] на следующий ход",
+      "en": "[OnSucceedAttack] Inflict 2 [GodokPanicType] next turn",
+      "kr": "[OnSucceedAttack] 다음 턴에 [GodokPanicType] 2 부여",
+      "suffixes": [
+        "(;Godok_Panic)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        45,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1041501,
+      "before": "[OnSucceedAttack] Наносит 2 [PhantomIncisionID](;PhantomIncision)",
+      "after": "[OnSucceedAttack] Наносит 2 [PhantomIncisionID]",
+      "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]",
+      "kr": "[OnSucceedAttack] [PhantomIncisionID] 2 부여",
+      "suffixes": [
+        "(;PhantomIncision)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        45,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1041501,
+      "before": "[OnSucceedAttack] Наносит дополнительный [PhantomIncisionID](;PhantomIncision), равный текущему значению [SojiRyoshuEchoPast](;TimeEntangleUnstable) (До 4)",
+      "after": "[OnSucceedAttack] Наносит дополнительный [PhantomIncisionID], равный текущему значению [SojiRyoshuEchoPast] (До 4)",
+      "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)",
+      "kr": "[OnSucceedAttack] 자신의 [SojiRyoshuEchoPast]만큼 [PhantomIncisionID] 부여 (최대 4)",
+      "suffixes": [
+        "(;PhantomIncision)",
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        45,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        4,
+        "desc"
+      ],
+      "id": 1041501,
+      "before": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) × 2)% от итогового урона этой монеты",
+      "after": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast] × 2)% от итогового урона этой монеты",
+      "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 2)% of this Coin's final damage",
+      "kr": "[CriticalOnSucceedAttack] 이 코인 최종 피해량의 ([SojiRyoshuEchoPast] x 2)% 만큼 참격 피해",
+      "suffixes": [
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        46,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1041502,
+      "before": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) × 3)% от итогового урона этой монеты",
+      "after": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast] × 3)% от итогового урона этой монеты",
+      "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 3)% of this Coin's final damage",
+      "kr": "[CriticalOnSucceedAttack] 이 코인 최종 피해량의 ([SojiRyoshuEchoPast] x 3)%만큼 참격 피해",
+      "suffixes": [
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        47,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        5,
+        "desc"
+      ],
+      "id": 1041503,
+      "before": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) × 3)% от итогового урона этой монеты",
+      "after": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast] × 3)% от итогового урона этой монеты",
+      "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 3)% of this Coin's final damage",
+      "kr": "[CriticalOnSucceedAttack] 이 코인 최종 피해량의 ([SojiRyoshuEchoPast] x 3)%만큼 참격 피해",
+      "suffixes": [
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        47,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        5,
+        "desc"
+      ],
+      "id": 1041503,
+      "before": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) × <style=\"highlight\">4</style>)% от итогового урона этой монеты",
+      "after": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast] × <style=\"highlight\">4</style>)% от итогового урона этой монеты",
+      "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x <style=\"highlight\">4</style>)% of this Coin's final damage",
+      "kr": "[CriticalOnSucceedAttack] 이 코인 최종 피해량의 ([SojiRyoshuEchoPast] x <style=\"highlight\">4</style>)%만큼 참격 피해",
+      "suffixes": [
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        49,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 1041505,
+      "before": "[OnSucceedAttack] Наносит 20 [PhantomIncisionID](;PhantomIncision)",
+      "after": "[OnSucceedAttack] Наносит 20 [PhantomIncisionID]",
+      "en": "[OnSucceedAttack] Inflict 20 [PhantomIncisionID]",
+      "kr": "[OnSucceedAttack] [PhantomIncisionID] 20 부여",
+      "suffixes": [
+        "(;PhantomIncision)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        50,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1041506,
+      "before": "[OnSucceedAttack] Наносит 2 [PhantomIncisionID](;PhantomIncision)",
+      "after": "[OnSucceedAttack] Наносит 2 [PhantomIncisionID]",
+      "en": "[OnSucceedAttack] Inflict 2 [PhantomIncisionID]",
+      "kr": "[OnSucceedAttack] [PhantomIncisionID] 2 부여",
+      "suffixes": [
+        "(;PhantomIncision)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        50,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1041506,
+      "before": "[OnSucceedAttack] Наносит дополнительный [PhantomIncisionID](;PhantomIncision), равный текущему значению [SojiRyoshuEchoPast](;TimeEntangleUnstable) (До 4)",
+      "after": "[OnSucceedAttack] Наносит дополнительный [PhantomIncisionID], равный текущему значению [SojiRyoshuEchoPast] (До 4)",
+      "en": "[OnSucceedAttack] Inflict [PhantomIncisionID] equal to [SojiRyoshuEchoPast] on self (max 4)",
+      "kr": "[OnSucceedAttack] 자신의 [SojiRyoshuEchoPast]만큼 [PhantomIncisionID] 부여 (최대 4)",
+      "suffixes": [
+        "(;PhantomIncision)",
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        51,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1041507,
+      "before": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast](;TimeEntangleUnstable) × 4)% от итогового урона этой монеты",
+      "after": "[CriticalOnSucceedAttack] Наносит дополнительный Рубящий урон, равный (Текущее значение [SojiRyoshuEchoPast] × 4)% от итогового урона этой монеты",
+      "en": "[CriticalOnSucceedAttack] Deal Slash damage equal to ([SojiRyoshuEchoPast] x 4)% of this Coin's final damage",
+      "kr": "[CriticalOnSucceedAttack] 이 코인의 최종 피해량의 ([SojiRyoshuEchoPast] x 4)%만큼 참격 피해",
+      "suffixes": [
+        "(;TimeEntangleUnstable)"
+      ]
+    },
+    {
+      "file": "Skills_personality-04.json",
+      "path": [
+        "dataList",
+        52,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1041508,
+      "before": "[CantDuel]\nНе активирует защитные навыки цели\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Получает [SojiRyoshuShin](;LittleFingerBoss_Shin)\n[EndSkill] Удаляет одну свою самую высокую границу ошеломления (1 раз за бой)",
+      "after": "[CantDuel]\nНе активирует защитные навыки цели\n[WhenUse] Получает 5 [Breath]\n[WhenUse] Получает [SojiRyoshuShin]\n[EndSkill] Удаляет одну свою самую высокую границу ошеломления (1 раз за бой)",
+      "en": "[CantDuel]\nThis Skill does not trigger the target's Defense Skills\n[WhenUse] Gain 5 [Breath]\n[WhenUse] Gain [SojiRyoshuShin]\n[EndSkill] Remove this unit's first Stagger Threshold (once per Encounter)",
+      "kr": "[CantDuel]\n이 스킬은 대상의 수비 스킬을 발동시키지 않음\n[WhenUse] [Breath] 5 얻음\n[WhenUse] [SojiRyoshuShin] 얻음\n[EndSkill] 자신의 가장 높은 흐트러짐 구간 1개 제거 (전투당 1회)",
+      "suffixes": [
+        "(;LittleFingerBoss_Shin)"
+      ]
+    },
+    {
+      "file": "Skills_personality-05.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1051502,
+      "before": "[WhenUse] Сила в столкновении +1 против целей, не имеющих [BearClawWoundAlly](;BearClawWound)",
+      "after": "[WhenUse] Сила в столкновении +1 против целей, не имеющих [BearClawWoundAlly]",
+      "en": "[WhenUse] If target does not have [BearClawWoundAlly], Clash Power +1",
+      "kr": "[WhenUse] 대상에게 [BearClawWoundAlly]가 없으면 합 위력 +1",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-05.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1051502,
+      "before": "[WhenUse] Сила в столкновении +1 против целей, не имеющих [BearClawWoundAlly](;BearClawWound)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 2)</style>",
+      "after": "[WhenUse] Сила в столкновении +1 против целей, не имеющих [BearClawWoundAlly]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 2)</style>",
+      "en": "[WhenUse] If target does not have [BearClawWoundAlly], Clash Power +1\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)</style>",
+      "kr": "[WhenUse] 대상에게 [BearClawWoundAlly]가 없으면 합 위력 +1\n<style=\"highlight\">[WhenUse] 대상의 [Laceration]과 [Sinking]의 합 6당, 코인 위력 +1 (최대 2)</style>",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-05.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        2,
+        "desc"
+      ],
+      "id": 1051502,
+      "before": "<style=\"highlight\">Наносит на 5% больше урона за каждый тип негативных эффектов на цели (До 20%)</style>\n[WhenUse] Сила в столкновении +1 против целей, не имеющих [BearClawWoundAlly](;BearClawWound)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 2)",
+      "after": "<style=\"highlight\">Наносит на 5% больше урона за каждый тип негативных эффектов на цели (До 20%)</style>\n[WhenUse] Сила в столкновении +1 против целей, не имеющих [BearClawWoundAlly]\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Laceration] и [Sinking] на цели (До 2)",
+      "en": "<style=\"highlight\">Deal +5% damage for every type of negative effect on target (max 20%)</style>\n[WhenUse] If target does not have [BearClawWoundAlly], Clash Power +1\n[WhenUse] Coin Power +1 for every 6 ([Laceration] + [Sinking]) on target (max 2)",
+      "kr": "<style=\"highlight\">대상의 부정적인 효과 1개당, 피해량 +5% (최대 20%)</style>\n[WhenUse] 대상에게 [BearClawWoundAlly]가 없으면 합 위력 +1\n[WhenUse] 대상의 [Laceration]과 [Sinking]의 합 6당, 코인 위력 +1 (최대 2)",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-05.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1051503,
+      "before": "Наносит на 10% больше урона за каждый тип негативных эффектов на цели (До 60%)\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (Истерзанный цвет 【Румянец】(;BearClawWound) / Истерзанный цвет 【Синева】(;EagleClawWound)):\n- Все монеты этого навыка становятся [SuperCoin]\n- Вновь подкидывает последнюю монету",
+      "after": "Наносит на 10% больше урона за каждый тип негативных эффектов на цели (До 60%)\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (Истерзанный цвет 【Румянец】 / Истерзанный цвет 【Синева】):\n- Все монеты этого навыка становятся [SuperCoin]\n- Вновь подкидывает последнюю монету",
+      "en": "Deal +10% damage for every type of negative effect on target (max 60%)\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s",
+      "kr": "대상의 부정적인 효과 1개당, 피해량 +10% (최대 60%)\n[WhenUse] 자신의 체력이 50% 미만이거나 대상의 찢긴 색채가 5 이상이면, 스킬의 3코인이 추가되며 모든 코인이 [SuperCoin]으로 변경됨",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-05.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1051503,
+      "before": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)</style>",
+      "after": "<style=\"highlight\">[OnSucceedAttack] Наносит 1 [BearClawWoundAlly]</style>",
+      "en": "<style=\"highlight\">[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]</style>",
+      "kr": "<style=\"highlight\">[OnSucceedAttack] [BearClawWoundAlly] 1 부여</style>",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-05.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1051503,
+      "before": "Наносит на 10% больше урона за каждый тип негативных эффектов на цели (До 60%)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 4)</style>\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (Истерзанный цвет 【Румянец】(;BearClawWound) / Истерзанный цвет 【Синева】(;EagleClawWound)):\n- Все монеты этого навыка становятся [SuperCoin]\n- Вновь подкидывает последнюю монету <style=\"highlight\">и наносит ей (Сумма значения Истерзанных цветов на цели / 3) [Laceration] или [Sinking] случайным образом (До 3 каждого; округляется вниз)</style>",
+      "after": "Наносит на 10% больше урона за каждый тип негативных эффектов на цели (До 60%)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 4)</style>\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (Истерзанный цвет 【Румянец】 / Истерзанный цвет 【Синева】):\n- Все монеты этого навыка становятся [SuperCoin]\n- Вновь подкидывает последнюю монету <style=\"highlight\">и наносит ей (Сумма значения Истерзанных цветов на цели / 3) [Laceration] или [Sinking] случайным образом (До 3 каждого; округляется вниз)</style>",
+      "en": "Deal +10% damage for every type of negative effect on target (max 60%)\n<style=\"highlight\">[WhenUse] Final Power +1 for every 4 ([Laceration] + [Sinking]) on target (max 4)</style>\n[WhenUse] At less than 50% HP, or if target has 5+ Mauled Color, use Coin 3 an additional time and convert all Coins on this Skill to [SuperCoin]s\n<style=\"highlight\">- On Hit with the additional Coin: Randomly inflict (Mauled Color on target / 3) [Laceration] or [Sinking] Potency (max 3 each; rounded down)</style>",
+      "kr": "대상의 부정적인 효과 1개당, 피해량 +10% (최대 60%)\n<style=\"highlight\">[WhenUse] 대상의 [Laceration]과 [Sinking]의 합 4당, 최종 위력 +1 (최대 4)</style>\n[WhenUse] 자신의 체력이 50% 미만이거나 대상의 찢긴 색채가 5 이상이면, 스킬의 3코인이 1개 추가되고, 모든 코인이 [SuperCoin]으로 변경됨<style=\"highlight\">\n- 추가된 코인의 공격 적중 시 대상의 (찢긴 색채/3)만큼 [Laceration] 또는 [Sinking] 위력을 무작위로 부여 (각각 최대 3, 소수점 버림)</style>",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        44,
+        "levelList",
+        0,
+        "coinlist",
+        4,
+        "coindescs",
+        3,
+        "desc"
+      ],
+      "id": 1061406,
+      "before": "[OnSucceedAttack] Наносит [LivingSpecimenPersonality](;LivingSpecimenTheRings)",
+      "after": "[OnSucceedAttack] Наносит [LivingSpecimenPersonality]",
+      "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]",
+      "kr": "[OnSucceedAttack] [LivingSpecimenPersonality] 부여",
+      "suffixes": [
+        "(;LivingSpecimenTheRings)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        44,
+        "levelList",
+        1,
+        "coinlist",
+        4,
+        "coindescs",
+        3,
+        "desc"
+      ],
+      "id": 1061406,
+      "before": "[OnSucceedAttack] Наносит [LivingSpecimenPersonality](;LivingSpecimenTheRings)",
+      "after": "[OnSucceedAttack] Наносит [LivingSpecimenPersonality]",
+      "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]",
+      "kr": "[OnSucceedAttack] [LivingSpecimenPersonality] 부여",
+      "suffixes": [
+        "(;LivingSpecimenTheRings)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        46,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1061408,
+      "before": "[OnSucceedAttack] Наносит [LivingSpecimenPersonality](;LivingSpecimenTheRings)",
+      "after": "[OnSucceedAttack] Наносит [LivingSpecimenPersonality]",
+      "en": "[OnSucceedAttack] Inflict [LivingSpecimenPersonality]",
+      "kr": "[OnSucceedAttack] [LivingSpecimenPersonality] 부여",
+      "suffixes": [
+        "(;LivingSpecimenTheRings)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        48,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1061502,
+      "before": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID](;ScratchesHurt)",
+      "after": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]",
+      "en": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]",
+      "kr": "[CriticalOnSucceedAttack] [ScratchesHurtID] 1 부여",
+      "suffixes": [
+        "(;ScratchesHurt)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        48,
+        "levelList",
+        1,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1061502,
+      "before": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID](;ScratchesHurt)",
+      "after": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]",
+      "en": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]",
+      "kr": "[CriticalOnSucceedAttack] [ScratchesHurtID] 1 부여",
+      "suffixes": [
+        "(;ScratchesHurt)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        48,
+        "levelList",
+        2,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1061502,
+      "before": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID](;ScratchesHurt)",
+      "after": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]",
+      "en": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]",
+      "kr": "[CriticalOnSucceedAttack] [ScratchesHurtID] 1 부여",
+      "suffixes": [
+        "(;ScratchesHurt)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        49,
+        "levelList",
+        0,
+        "coinlist",
+        3,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1061503,
+      "before": "[OnSucceedAttack] Наносит 1 [ScratchesHurtID](;ScratchesHurt)",
+      "after": "[OnSucceedAttack] Наносит 1 [ScratchesHurtID]",
+      "en": "[OnSucceedAttack] Inflict 1 [ScratchesHurtID]",
+      "kr": "[OnSucceedAttack] [ScratchesHurtID] 1 부여",
+      "suffixes": [
+        "(;ScratchesHurt)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        49,
+        "levelList",
+        0,
+        "coinlist",
+        3,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1061503,
+      "before": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurtID](;ScratchesHurt)",
+      "after": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurtID]",
+      "en": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]",
+      "kr": "[CriticalOnSucceedAttack] [ScratchesHurtID] 1 부여",
+      "suffixes": [
+        "(;ScratchesHurt)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        49,
+        "levelList",
+        1,
+        "coinlist",
+        3,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1061503,
+      "before": "[OnSucceedAttack] Наносит 1 [ScratchesHurtID](;ScratchesHurt)",
+      "after": "[OnSucceedAttack] Наносит 1 [ScratchesHurtID]",
+      "en": "[OnSucceedAttack] Inflict 1 [ScratchesHurtID]",
+      "kr": "[OnSucceedAttack] [ScratchesHurtID] 1 부여",
+      "suffixes": [
+        "(;ScratchesHurt)"
+      ]
+    },
+    {
+      "file": "Skills_personality-06.json",
+      "path": [
+        "dataList",
+        49,
+        "levelList",
+        1,
+        "coinlist",
+        3,
+        "coindescs",
+        3,
+        "desc"
+      ],
+      "id": 1061503,
+      "before": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurtID](;ScratchesHurt)",
+      "after": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurtID]",
+      "en": "[CriticalOnSucceedAttack] Inflict 1 [ScratchesHurtID]",
+      "kr": "[CriticalOnSucceedAttack] [ScratchesHurtID] 1 부여",
+      "suffixes": [
+        "(;ScratchesHurt)"
+      ]
+    },
+    {
+      "file": "Skills_personality-07.json",
+      "path": [
+        "dataList",
+        40,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1071503,
+      "before": "Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Laceration] на главной цели (До 3)\n<style=\"highlight\">Итоговая сила +1 за каждые 2 греха в резонансе Зависти (До 3)</style>\n[StartBattle] Поднимает Уровень атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n<style=\"highlight\">[WhenUse] Итоговая сила +2, если на главной цели есть [RetaliationBook]</style>\n[WhenUse] Количество целей +1, если в абсолютном резонансе Зависти 6 и более грехов\n<style=\"highlight\">[WhenUse] Количество целей +1 при 20 и более [VengeanceBookHeathcliff](;VengeanceBookSinclair)</style>\n[WhenUse] Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × <style=\"highlight\">60</style>)% больше урона (В фокусированных битвах считаются Части)\n[EnemyKill] Значение Татуировок мести повышается на 2 за каждого противника, убитого этим навыком (До 6 за ход)",
+      "after": "Итоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Laceration] на главной цели (До 3)\n<style=\"highlight\">Итоговая сила +1 за каждые 2 греха в резонансе Зависти (До 3)</style>\n[StartBattle] Поднимает Уровень атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n<style=\"highlight\">[WhenUse] Итоговая сила +2, если на главной цели есть [RetaliationBook]</style>\n[WhenUse] Количество целей +1, если в абсолютном резонансе Зависти 6 и более грехов\n<style=\"highlight\">[WhenUse] Количество целей +1 при 20 и более [VengeanceBookHeathcliff]</style>\n[WhenUse] Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × <style=\"highlight\">60</style>)% больше урона (В фокусированных битвах считаются Части)\n[EnemyKill] Значение Татуировок мести повышается на 2 за каждого противника, убитого этим навыком (До 6 за ход)",
+      "en": "Final Power +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 3)\nFinal Power +1 for every 2 Envy Reson. (max 3)\n[StartBattle] This Skill gains (highest Reson.) Offense Level (max 6)\n<style=\"highlight\">[WhenUse] If the main target has [RetaliationBook], Final Power +2</style>\n[WhenUse] At 6+ Envy A-Reson., gain +1 Atk Weight\n<style=\"highlight\">[WhenUse] At 20+ [VengeanceBookHeathcliff], gain +1 Atk Weight</style>\n[WhenUse] Deal +<style=\"highlight\">60</style>% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n<style=\"highlight\">[EnemyKill] For every enemy killed using this Skill, gain 2 Vengeance Tattoo (max 6 per turn)</style>",
+      "kr": "메인 타겟의 [Combustion]과 [Laceration]의 합 4당 최종 위력 +1 (최대 3)\n질투 공명 2당 최종 위력 +1 (최대 3)\n[StartBattle] (가장 높은 공명 수)만큼 이 스킬의 공격 레벨이 증가 (최대 6)\n<style=\"highlight\">[WhenUse] 메인 타겟이 [RetaliationBook]이면, 최종 위력 +2</style>\n[WhenUse] 질투 완전 공명 6 이상이면, 가중치 +1\n<style=\"highlight\">[WhenUse] 자신의 [VengeanceBookHeathcliff]가 20 이상이면, 가중치 +1</style>\n[WhenUse] 이 스킬 공격 가중치보다 낮은 공격 대상 1당 피해량 +<style=\"highlight\">60</style>% (집중 전투의 경우, 부위로 판정)\n<style=\"highlight\">[EnemyKill] 이 스킬로 처치한 적 1명당 원한 문신 2 얻음 (턴당 최대 6)</style>",
+      "suffixes": [
+        "(;VengeanceBookSinclair)"
+      ]
+    },
+    {
+      "file": "Skills_personality-07.json",
+      "path": [
+        "dataList",
+        42,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1071505,
+      "before": "Внешние эффекты не могут вызвать повторное использование этого навыка\nНаносит на 1% больше урона за каждый 1% потерянных ОЗ (До 30%)\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Laceration] на главной цели (До 5)\n[StartBattle] Поднимает Уровень атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n[WhenUse] Итоговая сила +3, если на главной цели есть [RetaliationBook]\n[WhenUse] Количество целей +1 при 20 и более [VengeanceBookHeathcliff](;VengeanceBookSinclair)\n[WhenUse] Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 60)% больше урона (В фокусированных битвах считаются Части)\n[EnemyKill] Добавляет 1 ЭГО Ресурс к случайному наименее имеющемуся греху за каждого противника, убитого этим навыком (До 4)\n[EndSkill] Теряет 15 единиц значения [MiddleFingerTattooID]",
+      "after": "Внешние эффекты не могут вызвать повторное использование этого навыка\nНаносит на 1% больше урона за каждый 1% потерянных ОЗ (До 30%)\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Laceration] на главной цели (До 5)\n[StartBattle] Поднимает Уровень атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n[WhenUse] Итоговая сила +3, если на главной цели есть [RetaliationBook]\n[WhenUse] Количество целей +1 при 20 и более [VengeanceBookHeathcliff]\n[WhenUse] Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 60)% больше урона (В фокусированных битвах считаются Части)\n[EnemyKill] Добавляет 1 ЭГО Ресурс к случайному наименее имеющемуся греху за каждого противника, убитого этим навыком (До 4)\n[EndSkill] Теряет 15 единиц значения [MiddleFingerTattooID]",
+      "en": "External effects cannot trigger this Skill to be Reused\nDeal +1% damage for every 1% missing HP on self (max 30%)\nFinal Power +1 for every 4 ([Combustion] + [Laceration]) on the main target (max 5)\n[StartBattle] This Skill gains (highest Reson.) Offense Level (max 6)\n[WhenUse] If the main target has [RetaliationBook], Final Power +3\n[WhenUse] At 20+ [VengeanceBookHeathcliff], gain +1 Atk Weight\n[WhenUse] Deal +60% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[EnemyKill] For every enemy killed using this Skill, gain an E.G.O resource of a random least-owned Affinity (max 4)\n[EndSkill] Consume 15 [MiddleFingerTattooID] on self",
+      "kr": "이 스킬은 외부 효과로 재사용할 수 없음\n자신의 잃은 체력 1%당 피해량 1% 증가 (최대 30%)\n메인 타겟의 [Combustion]과 [Laceration]의 합 4당 최종 위력 +1 (최대 5)\n[StartBattle] (가장 높은 공명 수)만큼 이 스킬의 공격 레벨이 증가 (최대 6)\n[WhenUse] 메인 타겟이 [RetaliationBook]이면, 최종 위력 +3\n[WhenUse] 자신의 [VengeanceBookHeathcliff]가 20 이상이면, 가중치 +1\n[WhenUse] 이 스킬 공격 가중치보다 낮은 공격 대상 1당 피해량 +60% (집중 전투의 경우, 부위로 판정)\n[EnemyKill] 이 스킬로 처치한 적 수만큼 가장 적게 보유한 무작위 속성 E.G.O 자원 얻음 (최대 4)\n[EndSkill] 자신의 [MiddleFingerTattooID] 15 소모",
+      "suffixes": [
+        "(;VengeanceBookSinclair)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        34,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1081501,
+      "before": "[WhenUse] Повышает свой счётчик [Breath] на 2\n[EndSkill] Если есть [Agility], то получает 1 [WindBladeIshmael](;WindBlade) (Единожды за ход)",
+      "after": "[WhenUse] Повышает свой счётчик [Breath] на 2\n[EndSkill] Если есть [Agility], то получает 1 [WindBladeIshmael] (Единожды за ход)",
+      "en": "[WhenUse] Gain +2 [Breath] Count\n[EndSkill] If this unit has [Agility], gain 1 [WindBladeIshmael] (once per turn)",
+      "kr": "[WhenUse] 자신의 [Breath] 횟수 2 증가\n[EndSkill] 자신에게 [Agility]이 있다면, [WindBladeIshmael] 1 얻음 (턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        34,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1081501,
+      "before": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 при 3 и более [Agility]</style>\n[WhenUse] Повышает свой счётчик [Breath] на 2\n[EndSkill] Если есть [Agility], то получает 1 [WindBladeIshmael](;WindBlade) (Единожды за ход)",
+      "after": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 при 3 и более [Agility]</style>\n[WhenUse] Повышает свой счётчик [Breath] на 2\n[EndSkill] Если есть [Agility], то получает 1 [WindBladeIshmael] (Единожды за ход)",
+      "en": "<style=\"highlight\">[WhenUse] At 3+ [Agility], Clash Power +1</style>\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] If this unit has [Agility], gain 1 [WindBladeIshmael] (once per turn)",
+      "kr": "<style=\"highlight\">[WhenUse] 자신의 [Agility]이 3 이상이면, 합 위력 +1</style>\n[WhenUse] 자신의 [Breath] 횟수 2 증가\n[EndSkill] 자신에게 [Agility]이 있다면, [WindBladeIshmael] 1 얻음 (턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        34,
+        "levelList",
+        2,
+        "coinlist",
+        1,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1081501,
+      "before": "<style=\"highlight\">[OnSucceedAttack] Если есть [AengduNewArmIshmael](;AengduNewArm) и 3 и более [Agility], то вновь подкидывает эту монету 1 раз (Единожды за ход)</style>",
+      "after": "<style=\"highlight\">[OnSucceedAttack] Если есть [AengduNewArmIshmael] и 3 и более [Agility], то вновь подкидывает эту монету 1 раз (Единожды за ход)</style>",
+      "en": "<style=\"highlight\">[OnSucceedAttack] If this unit has [AengduNewArmIshmael] and 3+ [Agility], Reuse this Coin (once per turn)</style>",
+      "kr": "<style=\"highlight\">[OnSucceedAttack] [AengduNewArmIshmael]을 보유한 상태로 자신의 [Agility]이 3 이상이면, 이 코인 재사용 (턴당 1회)</style>",
+      "suffixes": [
+        "(;AengduNewArm)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        34,
+        "levelList",
+        2,
+        "desc"
+      ],
+      "id": 1081501,
+      "before": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +1 при 3 и более [Agility]\n[WhenUse] Повышает свой счётчик [Breath] на 2\n[EndSkill] Если есть [Agility], то получает 1 [WindBladeIshmael](;WindBlade) (Единожды за ход)",
+      "after": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +1 при 3 и более [Agility]\n[WhenUse] Повышает свой счётчик [Breath] на 2\n[EndSkill] Если есть [Agility], то получает 1 [WindBladeIshmael] (Единожды за ход)",
+      "en": "<style=\"highlight\">[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] Clash Power +1 for every 5 [Laceration] on target (max 2)</style>\n[WhenUse] At 3+ [Agility], Clash Power +1\n[WhenUse] Gain +2 [Breath] Count\n[EndSkill] If this unit has [Agility], gain 1 [WindBladeIshmael] (once per turn)",
+      "kr": "<style=\"highlight\">[WhenUse] 자신의 [Breath]이 5 이상이면, 코인 위력 +1\n[WhenUse] 대상의 [Laceration] 5당, 합 위력 +1 (최대 2)</style>\n[WhenUse] 자신의 [Agility]이 3 이상이면, 합 위력 +1\n[WhenUse] 자신의 [Breath] 횟수 2 증가\n[EndSkill] 자신에게 [Agility]이 있다면, [WindBladeIshmael] 1 얻음 (턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        35,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1081502,
+      "before": "[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Получает [WindBladeIshmael](;WindBlade) в количестве имеющейся [Agility] (До 2; единожды за ход)",
+      "after": "[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Получает [WindBladeIshmael] в количестве имеющейся [Agility] (До 2; единожды за ход)",
+      "en": "[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 2, once per turn)",
+      "kr": "[WhenUse] 자신의 [Breath] 횟수 3 증가\n[EndSkill] 자신의 [Agility] 1당, [WindBladeIshmael] 1 얻음 (최대 2, 턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        35,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1081502,
+      "before": "<style=\"highlight\">[WhenUse] Сила в столкновении +2 при 3 и более [Agility]</style>\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Получает [WindBladeIshmael](;WindBlade) в количестве имеющейся [Agility] (До 2; единожды за ход)",
+      "after": "<style=\"highlight\">[WhenUse] Сила в столкновении +2 при 3 и более [Agility]</style>\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Получает [WindBladeIshmael] в количестве имеющейся [Agility] (До 2; единожды за ход)",
+      "en": "<style=\"highlight\">[WhenUse] At 3+ [Agility], Clash Power +2</style>\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 2, once per turn)",
+      "kr": "<style=\"highlight\">[WhenUse] 자신의 [Agility]이 3 이상이면, 합 위력 +2</style>\n[WhenUse] 자신의 [Breath] 횟수 3 증가\n[EndSkill] 자신의 [Agility] 1당, [WindBladeIshmael] 1 얻음 (최대 2, 턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        35,
+        "levelList",
+        2,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1081502,
+      "before": "<style=\"highlight\">[OnSucceedAttack] Если есть [AengduNewArmIshmael](;AengduNewArm) и 3 и более [Agility], то вновь подкидывает эту монету 1 раз (Единожды за ход)</style>",
+      "after": "<style=\"highlight\">[OnSucceedAttack] Если есть [AengduNewArmIshmael] и 3 и более [Agility], то вновь подкидывает эту монету 1 раз (Единожды за ход)</style>",
+      "en": "<style=\"highlight\">[OnSucceedAttack] If this unit has [AengduNewArmIshmael] and 3+ [Agility], Reuse this Coin (once per turn)</style>",
+      "kr": "<style=\"highlight\">[OnSucceedAttack] [AengduNewArmIshmael]을 보유한 상태로 자신의 [Agility]이 3 이상이면, 이 코인 재사용 (턴당 1회)</style>",
+      "suffixes": [
+        "(;AengduNewArm)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        35,
+        "levelList",
+        2,
+        "desc"
+      ],
+      "id": 1081502,
+      "before": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +2 при 3 и более [Agility]\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Получает [WindBladeIshmael](;WindBlade) в количестве имеющейся [Agility] (До 2; единожды за ход)",
+      "after": "<style=\"highlight\">[WhenUse] Сила монет +1 при 5 и более [Breath]\n[WhenUse] Сила в столкновении +1 за каждые 5 [Laceration] на цели (До 2)</style>\n[WhenUse] Сила в столкновении +2 при 3 и более [Agility]\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Получает [WindBladeIshmael] в количестве имеющейся [Agility] (До 2; единожды за ход)",
+      "en": "<style=\"highlight\">[WhenUse] At 5+ [Breath], Coin Power +1\n[WhenUse] Clash Power +1 for every 5 [Laceration] on target (max 2)</style>\n[WhenUse] At 3+ [Agility], Clash Power +2\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 2, once per turn)",
+      "kr": "<style=\"highlight\">[WhenUse] 자신의 [Breath]이 5 이상이면, 코인 위력 +1\n[WhenUse] 대상의 [Laceration] 5당, 합 위력 +1 (최대 2)</style>\n[WhenUse] 자신의 [Agility]이 3 이상이면, 합 위력 +2\n[WhenUse] 자신의 [Breath] 횟수 3 증가\n[EndSkill] 자신의 [Agility] 1당, [WindBladeIshmael] 1 얻음 (최대 2, 턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 1081503,
+      "before": "На (Текущее значение [WindBladeIshmael](;WindBlade) × 2)% больше урона при критическом попадании (До 20%)",
+      "after": "На (Текущее значение [WindBladeIshmael] × 2)% больше урона при критическом попадании (До 20%)",
+      "en": "Deal +2% damage on Critical Hit for every [WindBladeIshmael] on self (max 20%)",
+      "kr": "자신의 [WindBladeIshmael] 수치 1당, 크리티컬 피해량 +2% (최대 20%)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1081503,
+      "before": "Наносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Итоговая сила +1 за каждые 2 [Agility] (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin] при 10 и более [WindBladeIshmael](;WindBlade)\n[WhenUse] Получает 3 [Breath]\n[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за ход)\n[EndSkill] Получает [WindBladeIshmael](;WindBlade) в количестве имеющейся [Agility] (До 3; единожды за ход)",
+      "after": "Наносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Итоговая сила +1 за каждые 2 [Agility] (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin] при 10 и более [WindBladeIshmael]\n[WhenUse] Получает 3 [Breath]\n[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за ход)\n[EndSkill] Получает [WindBladeIshmael] в количестве имеющейся [Agility] (До 3; единожды за ход)",
+      "en": "Deal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n[WhenUse] Final Power +1 for every 2 [Agility] on self (max 2)\n[WhenUse] At 10+ [WindBladeIshmael], convert all Coins into [SuperCoin]s\n[WhenUse] Gain 3 [Breath]\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 3, once per turn)",
+      "kr": "자신의 [Breath] 1당, 크리티컬 피해량 +1.5% (최대 30%)\n[WhenUse] 자신의 [Agility] 2당, 최종 위력 +1 (최대 2)\n[WhenUse] 자신의 [WindBladeIshmael] 수치가 10 이상이면, 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] [Breath] 3 얻음\n[WhenUse] 다음 턴에 [Agility] 2 얻음 (턴당 1회)\n[EndSkill] 자신의 [Agility] 1당, [WindBladeIshmael] 1 얻음 (최대 3, 턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)",
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1081503,
+      "before": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael](;WindBlade)</style>",
+      "after": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael]</style>",
+      "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>",
+      "kr": "<style=\"highlight\">[CriticalOnSucceedAttack] [WindBladeIshmael] 1 얻음</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1081503,
+      "before": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael](;WindBlade)</style>",
+      "after": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael]</style>",
+      "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>",
+      "kr": "<style=\"highlight\">[CriticalOnSucceedAttack] [WindBladeIshmael] 1 얻음</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 1081503,
+      "before": "На (Текущее значение [WindBladeIshmael](;WindBlade) × 2)% больше урона при критическом попадании (До 20%)",
+      "after": "На (Текущее значение [WindBladeIshmael] × 2)% больше урона при критическом попадании (До 20%)",
+      "en": "Deal +2% damage on Critical Hit for every [WindBladeIshmael] on self (max 20%)",
+      "kr": "자신의 [WindBladeIshmael] 수치 1당, 크리티컬 피해량 +2% (최대 20%)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        3,
+        "desc"
+      ],
+      "id": 1081503,
+      "before": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael](;WindBlade)</style>",
+      "after": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael]</style>",
+      "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>",
+      "kr": "<style=\"highlight\">[CriticalOnSucceedAttack] [WindBladeIshmael] 1 얻음</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1081503,
+      "before": "Наносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Итоговая сила +1 за каждые 2 [Agility] (До 2)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)</style>\n[WhenUse] Все монеты этого навыка становятся [SuperCoin] при 10 и более [WindBladeIshmael](;WindBlade)\n[WhenUse] Получает 3 [Breath]\n[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за ход)\n[EndSkill] Получает [WindBladeIshmael](;WindBlade) в количестве имеющейся [Agility] (До 3; единожды за ход)",
+      "after": "Наносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Итоговая сила +1 за каждые 2 [Agility] (До 2)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)</style>\n[WhenUse] Все монеты этого навыка становятся [SuperCoin] при 10 и более [WindBladeIshmael]\n[WhenUse] Получает 3 [Breath]\n[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за ход)\n[EndSkill] Получает [WindBladeIshmael] в количестве имеющейся [Agility] (До 3; единожды за ход)",
+      "en": "Deal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n[WhenUse] Final Power +1 for every 2 [Agility] on self (max 2)\n<style=\"highlight\">[WhenUse] Coin Power +1 for every 6 ([Breath] on self + [Laceration] on target) (max 2)</style>\n[WhenUse] At 10+ [WindBladeIshmael], convert all Coins into [SuperCoin]s\n[WhenUse] Gain 3 [Breath]\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[EndSkill] Gain 1 [WindBladeIshmael] for every [Agility] on self (max 3, once per turn)",
+      "kr": "자신의 [Breath] 1당, 크리티컬 피해량 +1.5% (최대 30%)\n[WhenUse] 자신의 [Agility] 2당, 최종 위력 +1 (최대 2)\n<style=\"highlight\">[WhenUse] 자신의 [Breath]과 대상의 [Laceration]의 합 6 당, 코인 위력 +1 (최대 2)</style>\n[WhenUse] 자신의 [WindBladeIshmael] 수치가 10 이상이면, 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] [Breath] 3 얻음\n[WhenUse] 다음 턴에 [Agility] 2 얻음 (턴당 1회)\n[EndSkill] 자신의 [Agility] 1당, [WindBladeIshmael] 1 얻음 (최대 3, 턴당 1회)",
+      "suffixes": [
+        "(;WindBlade)",
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1081504,
+      "before": "[CanDuelGuard]\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Breath] на 2 (Единожды за ход)\n[WinDuel] Получает 3 [Breath]\n<style=\"highlight\">[EndSkillAll] Если есть [Agility], то получает 2 [WindBladeIshmael](;WindBlade) (Единожды за ход)</style>",
+      "after": "[CanDuelGuard]\n[StartBattle] Получает 1 [SupportProtect] (Единожды за ход)\n[WhenUse] Получает 2 [Agility] на следующий ход (Единожды за ход)\n[WhenUse] Повышает свой счётчик [Breath] на 2 (Единожды за ход)\n[WinDuel] Получает 3 [Breath]\n<style=\"highlight\">[EndSkillAll] Если есть [Agility], то получает 2 [WindBladeIshmael] (Единожды за ход)</style>",
+      "en": "[CanDuelGuard]\n[StartBattle] Gain 1 [SupportProtect] (once per turn)\n[WhenUse] Gain 2 [Agility] next turn (once per turn)\n[WhenUse] Gain +2 [Breath] Count (once per turn)\n[WinDuel] Gain 3 [Breath]\n<style=\"highlight\">[EndSkillAll] If this unit has [Agility], gain 2 [WindBladeIshmael] (once per turn)</style>",
+      "kr": "[CanDuelGuard]\n[StartBattle] [SupportProtect] 1 얻음 (턴당 1회)\n[WhenUse] 다음 턴에 [Agility] 2 얻음 (턴당 1회)\n[WhenUse] 자신의 [Breath] 횟수 2 증가 (턴당 1회)\n[WinDuel] [Breath] 3 얻음\n<style=\"highlight\">[EndSkillAll] 자신에게 [Agility]이 있다면, [WindBladeIshmael] 2 얻음 (턴당 1회)</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        38,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1081505,
+      "before": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на 0.5% больше урона за каждый 1% своих потерянных ОЗ (До 20%)\nНаносит на 3% больше урона при критических попаданиях за каждую имеющуюся [Agility] (До 15%)\n<style=\"highlight\">[WhenUse] Наносит на (Текущее значение [WindBladeIshmael](;WindBlade))% больше урона (До 15%)</style>",
+      "after": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на 0.5% больше урона за каждый 1% своих потерянных ОЗ (До 20%)\nНаносит на 3% больше урона при критических попаданиях за каждую имеющуюся [Agility] (До 15%)\n<style=\"highlight\">[WhenUse] Наносит на (Текущее значение [WindBladeIshmael])% больше урона (До 15%)</style>",
+      "en": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (max 20%)\nDeal +3% damage on Critical Hit for every [Agility] on self (max 15%)\n<style=\"highlight\">[WhenUse] Deal +1% damage for every [WindBladeIshmael] on self (max 15%)</style>",
+      "kr": "[CantDuel]\n이 스킬은 수비 스킬을 발동시키지 않음\n자신의 잃은 체력 1%당 피해량 +0.5% (최대 20%)\n자신의 [Agility] 1당, 크리티컬 피해량 +3% (최대 15%)\n<style=\"highlight\">[WhenUse] 자신의 [WindBladeIshmael] 수치 1당, 피해량 +1% (최대 15%)</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        38,
+        "levelList",
+        2,
+        "desc"
+      ],
+      "id": 1081505,
+      "before": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на 0.5% больше урона за каждый 1% своих потерянных ОЗ (До 20%)\nНаносит на 3% больше урона при критических попаданиях за каждую имеющуюся [Agility] (До 15%)\n[WhenUse] Наносит на (Текущее значение [WindBladeIshmael](;WindBlade))% больше урона (До 15%)\n<style=\"highlight\">[WhenUse] Наносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)</style>",
+      "after": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на 0.5% больше урона за каждый 1% своих потерянных ОЗ (До 20%)\nНаносит на 3% больше урона при критических попаданиях за каждую имеющуюся [Agility] (До 15%)\n[WhenUse] Наносит на (Текущее значение [WindBladeIshmael])% больше урона (До 15%)\n<style=\"highlight\">[WhenUse] Наносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)</style>",
+      "en": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +0.5% damage for every 1% missing HP on self (max 20%)\nDeal +3% damage on Critical Hit for every [Agility] on self (max 15%)\n[WhenUse] Deal +1% damage for every [WindBladeIshmael] on self (max 15%)\n<style=\"highlight\">[WhenUse] Deal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)</style>",
+      "kr": "[CantDuel]\n이 스킬은 수비 스킬을 발동시키지 않음\n자신의 잃은 체력 1%당 피해량 +0.5% (최대 20%)\n자신의 [Agility] 1당, 크리티컬 피해량 +3% (최대 15%)\n[WhenUse] 자신의 [WindBladeIshmael] 수치 1당, 피해량 +1% (최대 15%)\n<style=\"highlight\">[WhenUse] 자신의 [Breath] 1당, 크리티컬 피해량 +1.5% (최대 30%)</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1081506,
+      "before": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael](;WindBlade)",
+      "after": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael]",
+      "en": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Consume all [WindBladeIshmael] on self",
+      "kr": "[CantDuel]\n이 스킬은 수비 스킬을 발동시키지 않음\n자신의 [Breath] 1당, 크리티컬 피해량 +1.5% (최대 30%)\n[WhenUse] 자신의 [Breath] 횟수 3 증가\n[EndSkill] 자신의 [WindBladeIshmael] 모두 소모",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1081506,
+      "before": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael](;WindBlade)</style>",
+      "after": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael]</style>",
+      "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>",
+      "kr": "<style=\"highlight\">[CriticalOnSucceedAttack] [WindBladeIshmael] 1 얻음</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        1,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1081506,
+      "before": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael](;WindBlade)</style>",
+      "after": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael]</style>",
+      "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>",
+      "kr": "<style=\"highlight\">[CriticalOnSucceedAttack] [WindBladeIshmael] 1 얻음</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1081506,
+      "before": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael](;WindBlade)</style>",
+      "after": "<style=\"highlight\">[CriticalOnSucceedAttack] Получает 1 [WindBladeIshmael]</style>",
+      "en": "<style=\"highlight\">[CriticalOnSucceedAttack] Gain 1 [WindBladeIshmael]</style>",
+      "kr": "<style=\"highlight\">[CriticalOnSucceedAttack] [WindBladeIshmael] 1 얻음</style>",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        1,
+        "coinlist",
+        3,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 1081506,
+      "before": "Наносит на 5% больше урона за каждую единицу значения [WindBladeIshmael](;WindBlade) свыше 15 (До 25%)",
+      "after": "Наносит на 5% больше урона за каждую единицу значения [WindBladeIshmael] свыше 15 (До 25%)",
+      "en": "At more than 15 [WindBladeIshmael], deal +5% damage on Critical Hit for every excess Stack (max 25%)",
+      "kr": "자신의 [WindBladeIshmael] 수치가 15를 초과했으면, 초과된 수치 1당, 크리티컬 피해량 +5% (최대 25%)",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-08.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1081506,
+      "before": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n<style=\"highlight\">Наносит на 5% больше урона при критических попаданиях этим навыком за каждую имеющуюся [Agility] (До 25%)</style>\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael](;WindBlade)",
+      "after": "[CantDuel]\nНе вызывает активацию защитных навыков\nНаносит на (Сила своего [Breath] × 1.5)% больше урона при критических попаданиях (До 30%)\n<style=\"highlight\">Наносит на 5% больше урона при критических попаданиях этим навыком за каждую имеющуюся [Agility] (До 25%)</style>\n[WhenUse] Повышает свой счётчик [Breath] на 3\n[EndSkill] Теряет всё имеющееся значение [WindBladeIshmael]",
+      "en": "[CantDuel]\nThis Skill does not trigger Defense Skills\nDeal +1.5% damage on Critical Hit for every [Breath] on self (max 30%)\n<style=\"highlight\">Deal +5% damage on Critical Hit for every [Agility] on self (max 25%)</style>\n[WhenUse] Gain +3 [Breath] Count\n[EndSkill] Consume all [WindBladeIshmael] on self",
+      "kr": "[CantDuel]\n이 스킬은 수비 스킬을 발동시키지 않음\n자신의 [Breath] 1당, 크리티컬 피해량 +1.5% (최대 30%)\n<style=\"highlight\">자신의 [Agility] 1당, 크리티컬 피해량 +5% (최대 25%)</style>\n[WhenUse] [Breath] 횟수 3 증가\n[EndSkill] 자신의 [WindBladeIshmael] 모두 소모",
+      "suffixes": [
+        "(;WindBlade)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        38,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091501,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        38,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091501,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091502,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091502,
+      "before": "[OnSucceedAttack] Наносит 2 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Наносит 2 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 2 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [EagleClawWoundAlly] 2 부여",
+      "suffixes": [
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091502,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        1,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091502,
+      "before": "[OnSucceedAttack] Накладывает <style=\"highlight\">3</style> [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Накладывает <style=\"highlight\">3</style> [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict <style=\"highlight\">3</style> [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [EagleClawWoundAlly] <style=\"highlight\">3</style> 부여",
+      "suffixes": [
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        2,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091502,
+      "before": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Наносит 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        40,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091503,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        40,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091503,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        40,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091503,
+      "before": "[OnSucceedAttack] Накладывает 3 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 3 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [EagleClawWoundAlly] 3 부여",
+      "suffixes": [
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        40,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091503,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        40,
+        "levelList",
+        1,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091503,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        40,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091503,
+      "before": "[OnSucceedAttack] Накладывает 3 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 3 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 3 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [EagleClawWoundAlly] 3 부여",
+      "suffixes": [
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        41,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091504,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        41,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091504,
+      "before": "[OnSucceedAttack] Накладывает 1 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [EagleClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        41,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1091504,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        42,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091505,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        42,
+        "levelList",
+        0,
+        "coinlist",
+        1,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091505,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        42,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091505,
+      "before": "[OnSucceedAttack] Накладывает 4 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 4 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 4 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [EagleClawWoundAlly] 4 부여",
+      "suffixes": [
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        42,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091505,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        42,
+        "levelList",
+        1,
+        "coinlist",
+        1,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091505,
+      "before": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly](;BearClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 1 [BearClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 1 [BearClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly] 1 부여",
+      "suffixes": [
+        "(;BearClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        42,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        2,
+        "desc"
+      ],
+      "id": 1091505,
+      "before": "[OnSucceedAttack] Накладывает 4 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Накладывает 4 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Inflict 4 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [EagleClawWoundAlly] 4 부여",
+      "suffixes": [
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        43,
+        "levelList",
+        0,
+        "coinlist",
+        0,
+        "coindescs",
+        3,
+        "desc"
+      ],
+      "id": 1091506,
+      "before": "[OnSucceedAttack] Случайным образом наносит 1 [BearClawWoundAlly](;BearClawWound) или 1 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Случайным образом наносит 1 [BearClawWoundAlly] или 1 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Randomly inflict 1 [BearClawWoundAlly] or 1 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly]와 [EagleClawWoundAlly] 중 무작위로 1 부여",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-09.json",
+      "path": [
+        "dataList",
+        43,
+        "levelList",
+        1,
+        "coinlist",
+        0,
+        "coindescs",
+        3,
+        "desc"
+      ],
+      "id": 1091506,
+      "before": "[OnSucceedAttack] Случайным образом накладывает 1 [BearClawWoundAlly](;BearClawWound) или 1 [EagleClawWoundAlly](;EagleClawWound)",
+      "after": "[OnSucceedAttack] Случайным образом накладывает 1 [BearClawWoundAlly] или 1 [EagleClawWoundAlly]",
+      "en": "[OnSucceedAttack] Randomly inflict 1 [BearClawWoundAlly] or 1 [EagleClawWoundAlly]",
+      "kr": "[OnSucceedAttack] [BearClawWoundAlly]와 [EagleClawWoundAlly] 중 무작위로 1 부여",
+      "suffixes": [
+        "(;BearClawWound)",
+        "(;EagleClawWound)"
+      ]
+    },
+    {
+      "file": "Skills_personality-10.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1101503,
+      "before": "Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 30)% больше урона (До 60%; в фокусированных битвах считаются Части)\n[WhenUse] Монета этого навыка становится [SuperCoin] при максимальном значении [LittleFingerID](;DicipleLittleFinger)\n[WhenUse] Сила монеты +1 за каждые 4 [Breath] (До 3)\n[WhenUse] Базовая сила +1 за каждые 4 [LittleFingerID](;DicipleLittleFinger) (До 3)\n[WhenUse] Получает 5 [Breath]\n\n[BeforeAttack] Количество целей +1 за каждые 10 [LittleFingerID](;DicipleLittleFinger) (До 2)\n[EndSkill] Значение [LittleFingerID](;DicipleLittleFinger) понижается на 7 за каждую дополнительную цель этого навыка от эффекта выше (До 14)",
+      "after": "Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × 30)% больше урона (До 60%; в фокусированных битвах считаются Части)\n[WhenUse] Монета этого навыка становится [SuperCoin] при максимальном значении [LittleFingerID]\n[WhenUse] Сила монеты +1 за каждые 4 [Breath] (До 3)\n[WhenUse] Базовая сила +1 за каждые 4 [LittleFingerID] (До 3)\n[WhenUse] Получает 5 [Breath]\n\n[BeforeAttack] Количество целей +1 за каждые 10 [LittleFingerID] (До 2)\n[EndSkill] Значение [LittleFingerID] понижается на 7 за каждую дополнительную цель этого навыка от эффекта выше (До 14)",
+      "en": "Deal +30% damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[WhenUse] At 20 [LittleFingerID], convert all Coins of this Skill into [SuperCoin]s\n[WhenUse] Coin Power +1 for every 4 [Breath] on self (max 3)\n[WhenUse] Base Power +1 for every 4 [LittleFingerID] on self (max 3)\n[WhenUse] Gain 5 [Breath]\n\n[BeforeAttack] Atk Weight +1 for every 10 [LittleFingerID] on self (max 2)\n[EndSkill] Consume 7 [LittleFingerID] for every Atk Weight gained due to this Skill's effect",
+      "kr": "이 스킬 공격 가중치보다 낮은 공격 대상 1당 피해량 +30% (집중 전투의 경우, 부위로 판정)\n[WhenUse] 자신의 [LittleFingerID]가 20이면, 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] 자신의 [Breath] 4당 코인 위력 +1 (최대 3)\n[WhenUse] 자신의 [LittleFingerID] 4당 기본 위력 +1 (최대 3)\n[WhenUse] [Breath] 5 얻음\n\n[BeforeAttack] 자신의 [LittleFingerID] 10 당 가중치 +1 (최대 2)\n[EndSkill] 이 스킬 효과로 증가한 가중치 1당 [LittleFingerID] 7 소모",
+      "suffixes": [
+        "(;DicipleLittleFinger)",
+        "(;DicipleLittleFinger)",
+        "(;DicipleLittleFinger)",
+        "(;DicipleLittleFinger)"
+      ]
+    },
+    {
+      "file": "Skills_personality-10.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1101503,
+      "before": "Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × <style=\"highlight\">50</style>)% больше урона (До <style=\"highlight\">100%</style>; в фокусированных битвах считаются Части)\n[WhenUse] Монета этого навыка становится [SuperCoin] при максимальном значении [LittleFingerID](;DicipleLittleFinger)\n[WhenUse] Сила монеты +1 за каждые 4 [Breath] (До <style=\"highlight\">5</style>)\n[WhenUse] Базовая сила +1 за каждые 4 [LittleFingerID](;DicipleLittleFinger) (До <style=\"highlight\">5</style>)\n[WhenUse] Получает <style=\"highlight\">7</style> [Breath]\n\n[BeforeAttack] Количество целей +1 за каждые 10 [LittleFingerID](;DicipleLittleFinger) (До 2)\n[EndSkill] Значение [LittleFingerID](;DicipleLittleFinger) понижается на 5 за каждую дополнительную цель этого навыка от эффекта выше (До 10)",
+      "after": "Наносит на (Излишнее Количество целей этого навыка по сравнению с фактическим × <style=\"highlight\">50</style>)% больше урона (До <style=\"highlight\">100%</style>; в фокусированных битвах считаются Части)\n[WhenUse] Монета этого навыка становится [SuperCoin] при максимальном значении [LittleFingerID]\n[WhenUse] Сила монеты +1 за каждые 4 [Breath] (До <style=\"highlight\">5</style>)\n[WhenUse] Базовая сила +1 за каждые 4 [LittleFingerID] (До <style=\"highlight\">5</style>)\n[WhenUse] Получает <style=\"highlight\">7</style> [Breath]\n\n[BeforeAttack] Количество целей +1 за каждые 10 [LittleFingerID] (До 2)\n[EndSkill] Значение [LittleFingerID] понижается на 5 за каждую дополнительную цель этого навыка от эффекта выше (До 10)",
+      "en": "Deal <style=\"highlight\">+50%</style> damage for every excess Atk Weight beyond the # of actual targets (in Focused Encounters, the Part)\n[WhenUse] At 20 [LittleFingerID], convert all Coins of this Skill into [SuperCoin]s\n[WhenUse] Coin Power +1 for every 4 [Breath] on self (max <style=\"highlight\">5</style>)\n[WhenUse] Base Power +1 for every 4 [LittleFingerID] on self (max <style=\"highlight\">5</style>)\n[WhenUse] Gain <style=\"highlight\">7</style> [Breath]\n\n[BeforeAttack] Atk Weight +1 for every 10 [LittleFingerID] on self (max 2)\n[EndSkill] Consume <style=\"highlight\">5</style> [LittleFingerID] for every Atk Weight gained due to this Skill's effect",
+      "kr": "이 스킬 공격 가중치보다 낮은 공격 대상 1당 피해량 <style=\"highlight\">+50%</style> (집중 전투의 경우, 부위로 판정)\n[WhenUse] 자신의 [LittleFingerID]가 20이면, 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] 자신의 [Breath] 4당 코인 위력 +1 (최대 <style=\"highlight\">5</style>)\n[WhenUse] 자신의 [LittleFingerID] 4당 기본 위력 +1 (최대 <style=\"highlight\">5</style>)\n[WhenUse] [Breath] <style=\"highlight\">7</style> 얻음\n\n[BeforeAttack] 자신의 [LittleFingerID] 10 당 가중치 +1 (최대 2)\n[EndSkill] 이 스킬 효과로 증가한 가중치 1당 [LittleFingerID] <style=\"highlight\">5</style> 소모",
+      "suffixes": [
+        "(;DicipleLittleFinger)",
+        "(;DicipleLittleFinger)",
+        "(;DicipleLittleFinger)",
+        "(;DicipleLittleFinger)"
+      ]
+    },
+    {
+      "file": "Skills_personality-10.json",
+      "path": [
+        "dataList",
+        39,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1101505,
+      "before": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID](;DicipleLittleFinger)\n[StartBattle] Повышает свой счётчик [Breath] на 4 (Единожды за ход)",
+      "after": "[StartBattle] Получает ОЗ Щита, равные текущему значению [LittleFingerID]\n[StartBattle] Повышает свой счётчик [Breath] на 4 (Единожды за ход)",
+      "en": "[StartBattle] Gain Shield equal to [LittleFingerID] Stack (once per turn)\n[StartBattle] Gain +4 [Breath] Count (once per turn)",
+      "kr": "[StartBattle] 자신의 [LittleFingerID] 수치만큼 보호막 얻음 (턴당 1회)\n[StartBattle] 자신의 [Breath] 횟수 4 증가 (턴당 1회)",
+      "suffixes": [
+        "(;DicipleLittleFinger)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        34,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1121401,
+      "before": "Сила монет +1 при выполнении хотя бы одного условия:\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)\n[WhenUse] Получает 1 [Binding] на следующий ход",
+      "after": "Сила монет +1 при выполнении хотя бы одного условия:\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird]\n[WhenUse] Получает 1 [Binding] на следующий ход",
+      "en": "If any of the following conditions are met, Coin Power +1\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n[WhenUse] Gain 1 [Binding] next turn",
+      "kr": "아래 조건 중 하나라도 만족 시, 코인 위력 +1\n- 자신의 속도가 1 이하인 경우\n- 대상에게 [DelusionGregBigBird]이 있는 경우\n[WhenUse] 다음 턴에 [Binding] 1 얻음",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        34,
+        "levelList",
+        2,
+        "desc"
+      ],
+      "id": 1121401,
+      "before": "Сила монет +1 при выполнении хотя бы одного условия:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Получает 1 [Binding] на следующий ход",
+      "after": "Сила монет +1 при выполнении хотя бы одного условия:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Получает 1 [Binding] на следующий ход",
+      "en": "If any of the following conditions are met, Coin Power +1\n<style=\"highlight\">- If target's Speed is faster than this unit's by 3 or more</style>\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] If target has 6+ ([Sinking] + [Combustion]), Coin Power +1</style>\n[WhenUse] Gain 1 [Binding] next turn",
+      "kr": "아래 조건 중 하나라도 만족 시, 코인 위력 +1\n<style=\"highlight\">- 대상의 속도가 자신보다 3 이상 높은 경우</style>\n- 자신의 속도가 1 이하인 경우\n- 대상에게 [DelusionGregBigBird]이 있는 경우\n<style=\"highlight\">[WhenUse] 대상의 [Sinking]과 [Combustion]의 합이 6 이상이면, 코인 위력 +1</style>\n[WhenUse] 다음 턴에 [Binding] 1 얻음",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        35,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1121402,
+      "before": "Сила в столкновении +2 при одном из следующих условий:\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)",
+      "after": "Сила в столкновении +2 при одном из следующих условий:\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird]",
+      "en": "If any of the following conditions are met, Clash Power +2\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]",
+      "kr": "아래 조건 중 하나라도 만족 시, 합 위력 +2\n- 자신의 속도가 1 이하인 경우\n- 대상에게 [DelusionGregBigBird]이 있는 경우",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        35,
+        "levelList",
+        2,
+        "desc"
+      ],
+      "id": 1121402,
+      "before": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>",
+      "after": "Сила в столкновении +2 при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- У цели есть [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>",
+      "en": "If any of the following conditions are met, Clash Power +2\n<style=\"highlight\">- If target's Speed is faster than this unit's by 3 or more</style>\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] If target has 6+ ([Sinking] + [Combustion]), Coin Power +1</style>",
+      "kr": "아래 조건 중 하나라도 만족 시, 합 위력 +2\n<style=\"highlight\">- 대상의 속도가 자신보다 3 이상 높은 경우</style>\n- 자신의 속도가 1 이하인 경우\n- 대상에게 [DelusionGregBigBird]이 있는 경우\n<style=\"highlight\">[WhenUse] 대상의 [Sinking]과 [Combustion]의 합이 6 이상이면, 코인 위력 +1</style>",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 1121403,
+      "before": "Если цель (её Ядро в фокусированных битвах) имеет 25% ОЗ от максимальных или ниже либо [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
+      "after": "Если цель (её Ядро в фокусированных битвах) имеет 25% ОЗ от максимальных или ниже либо [DelusionGregBigBird], наносит ей на 60% больше урона этой монетой",
+      "en": "If the target(Core) has 25% or less HP, or if target has [DelusionGregBigBird], deal +60% damage",
+      "kr": "대상(본체)의 체력이 25% 이하거나 대상에게 [DelusionGregBigBird]이 있으면, 피해량 +60%",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        0,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1121403,
+      "before": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей 60% от итогового урона этой монеты в качестве урона Унынием",
+      "after": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird], наносит ей 60% от итогового урона этой монеты в качестве урона Унынием",
+      "en": "[OnSucceedAttack] If target has [DelusionGregBigBird], deal Gloom damage equal to 60% of this Coin's final damage",
+      "kr": "[OnSucceedAttack] 대상에게 [DelusionGregBigBird]이 있으면, 이 코인 최종 피해량의 60%만큼 우울 피해",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1121403,
+      "before": "Сила монет +1 и на 20% больше урона при одном из следующих условий:\n- Скорость этой единицы равна 1 или ниже\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n[WhenUse] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3",
+      "after": "Сила монет +1 и на 20% больше урона при одном из следующих условий:\n- Скорость этой единицы равна 1 или ниже\n- Цель имеет [DelusionGregBigBird]\n[WhenUse] Если цель имеет [DelusionGregBigBird]:\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3",
+      "en": "If any of the following conditions are met, Coin Power +1 and deal +20% damage\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n[WhenUse] If target has [DelusionGregBigBird], convert all Coins on this Skill to [SuperCoin]s and gain Clash Power +3",
+      "kr": "아래 조건 중 하나라도 만족 시, 코인 위력 +1, 피해량 +20%\n- 자신의 속도가 1 이하인 경우\n- 대상에게 [DelusionGregBigBird]이 있는 경우\n[WhenUse] 대상에게 [DelusionGregBigBird]이 있으면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경되고 합 위력 +3",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)",
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        0,
+        "desc"
+      ],
+      "id": 1121403,
+      "before": "Если цель (её Ядро в фокусированных битвах) имеет 25% ОЗ от максимальных или ниже либо [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей на 60% больше урона этой монетой",
+      "after": "Если цель (её Ядро в фокусированных битвах) имеет 25% ОЗ от максимальных или ниже либо [DelusionGregBigBird], наносит ей на 60% больше урона этой монетой",
+      "en": "If the target(Core) has 25% or less HP, or if target has [DelusionGregBigBird], deal +60% damage",
+      "kr": "대상(본체)의 체력이 25% 이하거나 대상에게 [DelusionGregBigBird]이 있으면, 피해량 +60%",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "coinlist",
+        2,
+        "coindescs",
+        1,
+        "desc"
+      ],
+      "id": 1121403,
+      "before": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird), наносит ей 80% от итогового урона этой монеты в качестве урона Унынием",
+      "after": "[OnSucceedAttack] Если цель имеет [DelusionGregBigBird], наносит ей 80% от итогового урона этой монеты в качестве урона Унынием",
+      "en": "[OnSucceedAttack] If target has [DelusionGregBigBird], deal Gloom damage equal to 80% of this Coin's final damage",
+      "kr": "[OnSucceedAttack] 대상에게 [DelusionGregBigBird]이 있으면, 이 코인 최종 피해량의 80%만큼 우울 피해",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        36,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1121403,
+      "before": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- Цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird)\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird](;DelusionHohenheimBigBird):\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3\n[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird](;DelusionHohenheimBigBird), получает 1 [PlusCoinValueUp] на следующий ход (Единожды за ход)",
+      "after": "Сила монет +1 и на <style=\"highlight\">40%</style> больше урона при одном из следующих условий:\n<style=\"highlight\">- Скорость цели выше скорости этой единицы на 3 или более</style>\n- Скорость этой единицы равна 1 или ниже\n- Цель имеет [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Sinking] и [Combustion]</style>\n[WhenUse] Если цель имеет [DelusionGregBigBird]:\n- Все монеты этого навыка становятся [SuperCoin]\n- Сила в столкновении +3\n[EndSkill] Если цель убита или имеет 3 [DelusionGregBigBird], получает 1 [PlusCoinValueUp] на следующий ход (Единожды за ход)",
+      "en": "If any of the following conditions are met, Coin Power +1 and deal +40% damage\n<style=\"highlight\">- If target's Speed is faster than this unit's by 3 or more</style>\n- If this unit's Speed is 1 or slower\n- If target has [DelusionGregBigBird]\n<style=\"highlight\">[WhenUse] If target has 6+ ([Sinking] + [Combustion]), Coin Power +1</style>\n[WhenUse] If target has [DelusionGregBigBird], convert all Coins on this Skill to [SuperCoin]s and gain Clash Power +3\n<style=\"highlight\">[EndSkill] If target is defeated, or if it has 3 [DelusionGregBigBird], gain 1 [PlusCoinValueUp] next turn (once per turn)</style>",
+      "kr": "아래 조건 중 하나라도 만족 시, 코인 위력 +1, 피해량 +40%\n<style=\"highlight\">- 대상의 속도가 자신보다 3 이상 높은 경우</style>\n- 자신의 속도가 1 이하인 경우\n- 대상에게 [DelusionGregBigBird]이 있는 경우\n<style=\"highlight\">[WhenUse] 대상의 [Sinking]과 [Combustion]의 합이 6 이상이면, 코인 위력 +1</style>\n[WhenUse] 대상에게 [DelusionGregBigBird]이 있으면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경되고 합 위력 +3\n<style=\"highlight\">[EndSkill] 대상이 사망했거나 대상의 [DelusionGregBigBird]이 3이면, 다음 턴에 [PlusCoinValueUp] 1 얻음 (턴당 1회)</style>",
+      "suffixes": [
+        "(;DelusionHohenheimBigBird)",
+        "(;DelusionHohenheimBigBird)",
+        "(;DelusionHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        0,
+        "desc"
+      ],
+      "id": 1121404,
+      "before": "[CanDuelGuard]\n[StartBattle] Поднимает значение [LanternGregBigBird](;LanternHohenheimBigBird) до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом Лампу(;LanternHohenheimBigBird) (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (Значение [Binding] на себе / 3)союзникам с наименьшей текущей скоростью 1 [Agility] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
+      "after": "[CanDuelGuard]\n[StartBattle] Поднимает значение [LanternGregBigBird] до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом Лампу (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (Значение [Binding] на себе / 3)союзникам с наименьшей текущей скоростью 1 [Agility] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
+      "en": "[CanDuelGuard]\n[StartBattle] Gain [LanternGregBigBird] up to 8 Stack; for every Stack gained, take HP damage equal to 1% of max HP (this effect does not reduce this unit's HP below 1)\n[EndBattle] Apply 1 [Agility] next turn to ([Binding] on self / 3) other allies with the slowest Speed (once per turn; rounded down)",
+      "kr": "[CanDuelGuard]\n[StartBattle] [LanternGregBigBird]를 8이 되도록 얻고, 얻은 수치 1당 최대 체력의 1%만큼 체력 피해 입음 (이 효과로 체력이 1 미만이 되지 않음)\n[EndBattle] 자신을 제외한 속도가 가장 낮은 아군 (자신의 [Binding] / 3)명에게 다음 턴에 [Agility] 1 부여 (턴당 1회. 소수점 버림)",
+      "suffixes": [
+        "(;LanternHohenheimBigBird)",
+        "(;LanternHohenheimBigBird)"
+      ]
+    },
+    {
+      "file": "Skills_personality-12.json",
+      "path": [
+        "dataList",
+        37,
+        "levelList",
+        1,
+        "desc"
+      ],
+      "id": 1121404,
+      "before": "[CanDuelGuard]\n[StartBattle] Поднимает значение [LanternGregBigBird](;LanternHohenheimBigBird) до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом Лампу(;LanternHohenheimBigBird) (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (значение [Binding] на себе / 2) союзникам с наименьшей текущей скоростью 1 [Agility] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
+      "after": "[CanDuelGuard]\n[StartBattle] Поднимает значение [LanternGregBigBird] до 8, а затем теряет по 1% от максимальных ОЗ за каждую полученную таким образом Лампу (Этот эффект не может опустить ОЗ ниже 1)\n[EndBattle] Даёт другим (значение [Binding] на себе / 2) союзникам с наименьшей текущей скоростью 1 [Agility] на следующий ход (Единожды за ход; количество союзников округляется вниз)",
+      "en": "[CanDuelGuard]\n[StartBattle] Gain [LanternGregBigBird] up to 8 Stack; for every Stack gained, take HP damage equal to 1% of max HP (this effect does not reduce this unit's HP below 1)\n[EndBattle] Apply 1 [Agility] next turn to ([Binding] on self / 2) other allies with the slowest Speed (once per turn; rounded down)",
+      "kr": "[CanDuelGuard]\n[StartBattle] [LanternGregBigBird]를 8이 되도록 얻고, 얻은 수치 1당 최대 체력의 1%만큼 체력 피해 입음 (이 효과로 체력이 1 미만이 되지 않음)\n[EndBattle] 자신을 제외한 속도가 가장 낮은 아군 (자신의 [Binding] / 2)명에게 다음 턴에 [Agility] 1 부여 (턴당 1회. 소수점 버림)",
+      "suffixes": [
+        "(;LanternHohenheimBigBird)",
+        "(;LanternHohenheimBigBird)"
+      ]
+    }
+  ],
+  "profile_state": "stale_missing_historical_review49_source; profile_not_rebuilt"
+}

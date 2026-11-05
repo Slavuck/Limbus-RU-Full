@@ -20,7 +20,8 @@ class October8UpdateTests(unittest.TestCase):
 
     def test_scarf_choices_and_dialogue_are_present(self):
         choices = records('RPGSystem/rpg-loc-dialogue-choice-route-c.json', 'key')
-        self.assertEqual(choices['DCRSCW02_C1']['text'], 'Продолжить попытки.')
+        # KR: 이대로 괜찮다. The accepted RU follows KR; EN says "Keep trying."
+        self.assertEqual(choices['DCRSCW02_C1']['text'], 'Оставить всё как есть.')
         dialogue = records('RPGSystem/rpg-loc-dialogue-route-c.json', 'key')
         self.assertEqual(len(dialogue['DRSCW01_C1']['texts']), 3)
         self.assertIn('Мерсо', dialogue['DRSCW02_C1']['texts'][1]['text'])

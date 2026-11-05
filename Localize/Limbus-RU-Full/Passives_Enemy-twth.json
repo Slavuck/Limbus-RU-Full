@@ -45,7 +45,7 @@
     {
       "id": 9103401,
       "name": "Доставленное на бумаге предписание",
-      "desc": "Начало хода:\n- Получает Предписание: [IndexPrescriptTargetToPersonality] в зависимости от текущего значения [BlessingOfIndexPrescriptEnemy]:\n   · При 0~2: [IndexPrescriptEnemy_0](;IndexPrescript_Base);\n   · При 3~5: [IndexPrescriptEnemy_1](;IndexPrescript_Base);\n   · При 6~8: [IndexPrescriptEnemy_2](;IndexPrescript_Base);\n   · При 9: [IndexPrescriptEnemy_3](;IndexPrescript_Base).\n- Случайный Грешник становится [IndexPrescriptTargetToPersonality].",
+      "desc": "Начало хода:\n- Получает Предписание: [IndexPrescriptTargetToPersonality] в зависимости от текущего значения [BlessingOfIndexPrescriptEnemy]:\n   · При 0~2: [IndexPrescriptEnemy_0];\n   · При 3~5: [IndexPrescriptEnemy_1];\n   · При 6~8: [IndexPrescriptEnemy_2];\n   · При 9: [IndexPrescriptEnemy_3].\n- Случайный Грешник становится [IndexPrescriptTargetToPersonality].",
       "flavor": "«Некоторым из вас, возможно, уже известно, что Предписания доставляются различными способами. Из них наиболее распространенным является бумажный бланк, который многие предпочитают.»"
     },
     {
