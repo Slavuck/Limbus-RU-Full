@@ -1,0 +1,1454 @@
+{
+  "profile_id": "local-terminology-v1:76fccda741281a267e1b5f6b3df41411fbe99e8af8eac665ff3690bf99de4801",
+  "profile_state": "stale_missing_historical_source_preserved",
+  "terminology_sources": [
+    "terminology/sources/author-terminology-20261023.md",
+    "published 1.118.0-r1 RU records at corresponding EN/KR addresses"
+  ],
+  "changes": [
+    {
+      "queue_id": "6283c22f02443d65d0b1",
+      "relative_path": "BattleKeywords_Mirror8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"SoundOfStorm\"",
+        "name"
+      ],
+      "english": "Thundercrack",
+      "korean": "우레",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Раскат грома",
+      "reason": null
+    },
+    {
+      "queue_id": "b11ec2a4d9b96b2a069d",
+      "relative_path": "BattleKeywords_Mirror8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"SoundOfStorm\"",
+        "desc"
+      ],
+      "english": "- Max Stack: 3\n- For every Stack:\n  · Coin Power +1\n  · Base Skills deal +15% damage against enemies\n- If Wild Hunt Heathcliff has been defeated or Retreated, expires",
+      "korean": "최댓값: 3\n- 수치 1당 코인 위력 +1, 적에게 가하는 기본 스킬 피해량 +15%\n- 와일드헌트 히스클리프가 퇴각 및 사망했으면, 소멸",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "- Максимум: 3 ед.\n- За каждую единицу:\n  · +1 к силе монеты\n  · Базовые навыки наносят врагам на 15% больше урона\n- Исчезает, если Хитклиф «Дикая охота» побеждён или отступил",
+      "reason": null
+    },
+    {
+      "queue_id": "9e85a76d8a3706b14624",
+      "relative_path": "Bufs_Mirror8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"SoundOfStorm\"",
+        "name"
+      ],
+      "english": "Thundercrack",
+      "korean": "우레",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Раскат грома",
+      "reason": null
+    },
+    {
+      "queue_id": "4ffacb3267cb9b7e92b8",
+      "relative_path": "Bufs_Mirror8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"SoundOfStorm\"",
+        "desc"
+      ],
+      "english": "- Max Stack: 3\n- For every Stack:\n  · Coin Power +1\n  · Base Skills deal +15% damage against enemies\n- If Wild Hunt Heathcliff has been defeated or Retreated, expires",
+      "korean": "최댓값: 3\n- 수치 1당 코인 위력 +1, 적에게 가하는 기본 스킬 피해량 +15%\n- 와일드헌트 히스클리프가 퇴각 및 사망했으면, 소멸",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "- Максимум: 3 ед.\n- За каждую единицу:\n  · +1 к силе монеты\n  · Базовые навыки наносят врагам на 15% больше урона\n- Исчезает, если Хитклиф «Дикая охота» побеждён или отступил",
+      "reason": null
+    },
+    {
+      "queue_id": "579ac23be7b403006b23",
+      "relative_path": "EGOgift_MirrorDungeon-StoryTheme_2.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9432",
+        "desc"
+      ],
+      "english": "Turn End: when Staggered, recover from Stagger; then, at the next Turn Start, inflict 4 [Sinking] Potency and 4 [Sinking] Count to all enemies (once per Encounter; in Focused Encounters, on all Parts)\n- The above effect activates ((deployed \"Wuthering Heights\" Identities + deployed \"Edgar Family\" Identities) / 2) more times per Encounter (max 4 times per Encounter; including Backup Units)\n\nOn Kill, 1 enemy that has the least [Sinking] Count gains +2 [Sinking] Count (3 times per turn; in Focused Encounters, the Part)",
+      "korean": "턴 종료시 흐트러짐 상태가 되었을 때, 흐트러짐 상태가 해제되고, 다음 턴 시작 시 모든 적에게 [Sinking] 위력 4, [Sinking] 횟수 4 부여 (전투당 1회 발동, 강제 흐트러짐 제외, 집중 전투에서는 부위로 판정)\n- 편성된 인격 중 워더링하이츠 소속과 에드가 가문 소속 인격의 합 2명당 전투당 발동 횟수가 1씩 증가 (최대 전투당 4회까지 발동 가능, 대기인원 포함)\n\n적 처치 시 [Sinking] 횟수가 가장 낮은 적 1명의 [Sinking] 횟수 2 증가 (턴당 3회 발동, 집중 전투에서는 부위로 판정)",
+      "previous_english": "Turn End: when Staggered, recover from Stagger; then, at the next Turn Start, inflict 4 [Sinking] Potency and 4 [Sinking] Count to all enemies (once per Encounter; in Focused Encounters, on all Parts)\n\nOn Kill, 1 enemy that has the least [Sinking] Count gains +2 [Sinking] Count (3 times per turn; in Focused Encounters, the Part)",
+      "previous_korean": "턴 종료시 흐트러짐 상태가 되었을 때, 흐트러짐 상태가 해제되고, 다음 턴 시작 시 모든 적에게 [Sinking] 위력 4, [Sinking] 횟수 4 부여 (전투당 1회 발동, 강제 흐트러짐 제외, 집중 전투에서는 부위로 판정)\n\n적 처치 시 [Sinking] 횟수가 가장 낮은 적 1명의 [Sinking] 횟수 2 증가 (턴당 3회 발동, 집중 전투에서는 부위로 판정)",
+      "current_russian": "Конец хода: Оглушённый союзник выходит из Оглушения; затем в начале следующего хода накладывает 4 силы [Sinking] и 4 счётчика [Sinking] на всех противников (раз за битву; в направляемых битвах — на все части)\n\nПри убийстве на 1 противника с наименьшим счётчиком [Sinking] накладывает 2 к счётчику [Sinking] (3 раза за ход; в направляемых битвах — на часть)",
+      "russian": "Конец хода: если союзник оглушён, он выходит из оглушения и в начале следующего хода накладывает на всех врагов 4 силы [Sinking] и +4 к счётчику [Sinking] (раз за бой; в направляемых битвах — на все части; принудительное оглушение не учитывается).\n- За каждые 2 Идентичности «Грозового перевала» и семьи Эдгар в составе отряда эффект может сработать ещё 1 раз за бой (макс. 4 раза за бой; резерв учитывается).\n\nПри убийстве врага: +2 к счётчику [Sinking] у одного врага с наименьшим счётчиком [Sinking] (до 3 раз за ход; в направляемых битвах учитываются отдельные части).",
+      "reason": null
+    },
+    {
+      "queue_id": "6474e024965a573efafa",
+      "relative_path": "EGOgift_MirrorDungeon-StoryTheme_2.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9436",
+        "desc"
+      ],
+      "english": "On Hit against SP Units, if target has -45 SP, deal Gloom damage equal to [Sinking] Potency on target\n\nIn Focused Encounters, On Hit against enemies that have 10+ ([Sinking] Potency + [Sinking] Count):\nDeal (([Sinking] Potency on target) / 2) Gloom damage (once per Skill)\n\nIf the Skill that hit an enemy inflicts [Sinking](including [Sinking] Count and Unique <noparse>Sinking</noparse>), instead of dealing ([Sinking] Potency on target / 2) Gloom damage, deal ([Sinking] Potency on target) Gloom damage\n(Each turn, this applies only to the first Sinking-inflicting Skill that hits)",
+      "korean": "정신력을 보유한 적에게 공격 적중시, 대상의 정신력이 -45이면, 대상의 [Sinking] 위력만큼 우울 피해를 입힘\n\n집중 전투에서 [Sinking] 위력과 [Sinking] 횟수의 합이 10 이상인 적에게 공격 적중시,\n대상의 ([Sinking] 위력 / 2)만큼 우울 피해를 입힘 (스킬당 1회 발동)\n\n적에게 공격 적중한 스킬이 [Sinking](횟수, 특수 <noparse>침잠</noparse> 포함)을 부여하는 스킬일 경우, ([Sinking] 위력/2) 대신 ([Sinking] 위력)만큼 우울 피해를 입힘 \n(턴에서 처음으로 공격 적중한 [Sinking] 부여 스킬에만 적용)",
+      "previous_english": "Regular Encounters) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\nif the target is at -45 SP, deal (([Sinking] Potency on target) / 2) Gloom damage (once per Skill)\n\nFocused Encounters) On Hit against enemies with 10+ (sum of [Sinking] Count and Potency):\ndeal (([Sinking] Potency on target) / 2) Gloom damage (once per Skill)\n\nIf the Skill that hit an enemy inflicts [Sinking](including [Sinking] Count and Unique <noparse>Sinking</noparse>), instead of dealing ([Sinking] Potency on target / 2) Gloom damage, deal ([Sinking] Potency on target) Gloom damage\n(Each turn, this applies only to the first Sinking-inflicting Skill that hits)",
+      "previous_korean": "일반 전투에서 [Sinking] 위력과 [Sinking] 횟수의 합이 10 이상인 적에게 공격 적중시, 대상의 정신력이 -45이면,\n대상의 ([Sinking] 위력 / 2)만큼 우울 피해를 입힘 (스킬당 1회 발동)\n\n집중 전투에서 [Sinking] 위력과 [Sinking] 횟수의 합이 10 이상인 적에게 공격 적중시,\n대상의 ([Sinking] 위력 / 2)만큼 우울 피해를 입힘 (스킬당 1회 발동)\n\n적에게 공격 적중한 스킬이 [Sinking](횟수, 특수 <noparse>침잠</noparse> 포함)을 부여하는 스킬일 경우, ([Sinking] 위력/2) 대신 ([Sinking] 위력)만큼 우울 피해를 입힘 \n(턴에서 처음으로 공격 적중한 [Sinking] 부여 스킬에만 적용)",
+      "current_russian": "Обычные столкновения) При попадании по врагам с 10+ (сумма [Sinking] количества и силы):\nЕсли цель на -45 СД, наносите (([Sinking] сила на цели) / 2) Уныние урон (один раз на навык)\n\nСфокусированные встречи) По попаданию по врагам с 10+ (сумма [Sinking] Численности и Силы):\nнаносить ([Sinking] Сила по цели) / 2) Урон Мрака (один раз на навык)\n\nЕсли навык, поразивший врага, наносит [Sinking](включая [Sinking] счётчик и уникальный <noparse>Погружение</noparse>), вместо того чтобы наносить ([Sinking] сила по цели / 2) урон Мрака, наносите ([Sinking] сила по цели) урон Уныние\n(Каждый ход это касается только первого навыка, наносящего Тонение)",
+      "russian": "При попадании по врагу с СД: если у цели −45 СД, нанесите урон Унынием, равный силе [Sinking] на цели.\n\nВ направляемых битвах при попадании по врагу, у которого сумма силы [Sinking] и счётчика [Sinking] не меньше 10, нанесите урон Унынием, равный половине силы [Sinking] на цели (раз за навык).\n\nЕсли попавший по цели навык накладывает [Sinking] (в том числе счётчик [Sinking] или особое <noparse>Погружение</noparse>), нанесите урон Унынием, равный полной силе [Sinking] на цели вместо половины её силы [Sinking]. За ход это действует только на первый попавший по цели навык, накладывающий Погружение.",
+      "reason": null
+    },
+    {
+      "queue_id": "d490293bbc1cef204811",
+      "relative_path": "EGOgift_MirrorDungeon.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9140",
+        "desc"
+      ],
+      "english": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +2 on the first turn, and gain 1 [Agility] & Clash Power +2 starting from the second turn.\n\nShi Assoc. Identities' HP gets capped to 75% of Max HP. In return, take 50% less damage and receive 50% reduced heal. (activates immediately upon entering an Encounter; except healing from E.G.O Gifts)\n\nShi Assoc. Identities gain 1 Slash Power Up and 1 Slash DMG Up at every Turn Start. ",
+      "korean": "참격 스킬을 2개 이상 보유한 모든 아군이 이번 전투 동안 첫 턴에는 합 위력 +2, 두 번째 턴부터는 [Agility] 1 얻고 합 위력 +2.\n\n시 협회 소속 인격이 유지 또는 회복 가능한 최대 체력의 상한선이 75%로 고정되는 대신 받는 피해량과 자신이 받는 회복량이 50% 감소 (전투 진입 시 발동, E.G.O 기프트로 인한 회복 제외).\n\n시 협회 소속 인격이라면 매 턴 시작시마다 참격 위력 증가 1, 참격 피해량 증가 1 얻음. ",
+      "previous_english": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain 1 [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. Identities' HP gets capped to 75% of Max HP. In return, take 50% less damage and receive 50% reduced heal. (activates immediately upon entering an Encounter; except healing from E.G.O Gifts)\n\nShi Assoc. Identities gain 1 Slash Power Up and 1 Slash DMG Up at every Turn Start. ",
+      "previous_korean": "참격 스킬을 2개 이상 보유한 모든 아군이 이번 전투 동안 첫 턴에는 합 위력 +1, 두 번째 턴부터는 [Agility] 1 얻고 합 위력 +1.\n\n시 협회 소속 인격이 유지 또는 회복 가능한 최대 체력의 상한선이 75%로 고정되는 대신 받는 피해량과 자신이 받는 회복량이 50% 감소 (전투 진입 시 발동, E.G.O 기프트로 인한 회복 제외).\n\n시 협회 소속 인격이라면 매 턴 시작시마다 참격 위력 증가 1, 참격 피해량 증가 1 얻음. ",
+      "current_russian": "Союзники с 2 и более Рубящими навыками получают +1 к Силе в столкновении в течение первого хода, а затем 1 [Agility] и +1 к Силе в столкновении начиная со второго хода\n\nИдентичности Ассоциации «Ши» фиксируют свои максимальные ОЗ на 75% взамен на 50% меньше получаемого урона и лечения. (Активируется сразу при входе в бой; за исключением лечения от ЭГО Даров)\n\nДаёт Идентичностям Ассоциации «Ши» 1 Повышение силы Рубящих атак и 1 Повышение Рубящего урона в начале каждого хода.",
+      "russian": "Союзники с 2 и более Рубящими навыками получают +2 к Силе в столкновении в течение первого хода, а затем 1 [Agility] и +2 к Силе в столкновении начиная со второго хода\n\nИдентичности Ассоциации «Си» фиксируют свои максимальные ОЗ на 75% взамен на 50% меньше получаемого урона и лечения. (Активируется сразу при входе в бой; за исключением лечения от ЭГО Даров)\n\nДаёт Идентичностям Ассоциации «Си» 1 Повышение силы Рубящих атак и 1 Повышение Рубящего урона в начале каждого хода.",
+      "reason": null
+    },
+    {
+      "queue_id": "1708918f7ddd87e9b87a",
+      "relative_path": "EGOgift_MirrorDungeon.json",
+      "semantic_path": [
+        "dataList",
+        "@id=19140",
+        "desc"
+      ],
+      "english": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +2 on the first turn, and gain <style=\"upgradeHighlight\">2</style> [Agility] & Clash Power +2 starting from the second turn.\n\nShi Assoc. Identities' HP gets capped to <style=\"upgradeHighlight\">50</style>% of Max HP. In return, take <style=\"upgradeHighlight\">75</style>% less damage and receive <style=\"upgradeHighlight\">75</style>% reduced heal. (activates immediately upon entering an Encounter; except healing from E.G.O Gifts)\n\nShi Assoc. Identities gain 1 Slash Power Up and <style=\"upgradeHighlight\">2</style> Slash DMG Up at every Turn Start. ",
+      "korean": "참격 스킬을 2개 이상 보유한 모든 아군이 이번 전투 동안 첫 턴에는 합 위력 +2, 두 번째 턴부터는 [Agility] <style=\"upgradeHighlight\">2</style> 얻고 합 위력 +2.\n\n시 협회 소속 인격이 유지 또는 회복 가능한 최대 체력의 상한선이 <style=\"upgradeHighlight\">50%</style>로 고정되는 대신 받는 피해량과 자신이 받는 회복량이 <style=\"upgradeHighlight\">75%</style> 감소 (전투 진입 시 발동, E.G.O 기프트로 인한 회복 제외).\n\n시 협회 소속 인격이라면 매 턴 시작시마다 참격 위력 증가 1, 참격 피해량 증가 <style=\"upgradeHighlight\">2</style> 얻음. ",
+      "previous_english": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain <style=\"upgradeHighlight\">2</style> [Agility] & Clash Power +1 starting from the second turn.\n\nShi Assoc. Identities' HP gets capped to <style=\"upgradeHighlight\">50</style>% of Max HP. In return, take <style=\"upgradeHighlight\">75</style>% less damage and receive <style=\"upgradeHighlight\">75</style>% reduced heal. (activates immediately upon entering an Encounter; except healing from E.G.O Gifts)\n\nShi Assoc. Identities gain 1 Slash Power Up and <style=\"upgradeHighlight\">2</style> Slash DMG Up at every Turn Start. ",
+      "previous_korean": "참격 스킬을 2개 이상 보유한 모든 아군이 이번 전투 동안 첫 턴에는 합 위력 +1, 두 번째 턴부터는 [Agility] <style=\"upgradeHighlight\">2</style> 얻고 합 위력 +1.\n\n시 협회 소속 인격이 유지 또는 회복 가능한 최대 체력의 상한선이 <style=\"upgradeHighlight\">50%</style>로 고정되는 대신 받는 피해량과 자신이 받는 회복량이 <style=\"upgradeHighlight\">75%</style> 감소 (전투 진입 시 발동, E.G.O 기프트로 인한 회복 제외).\n\n시 협회 소속 인격이라면 매 턴 시작시마다 참격 위력 증가 1, 참격 피해량 증가 <style=\"upgradeHighlight\">2</style> 얻음. ",
+      "current_russian": "Все союзники с 2 или более Рубящими навыками: в этой битве получают +1 к силе в столкновении в первом ходу, а начиная со второго хода — <style=\"upgradeHighlight\">2</style> [Agility] и +1 к силе в столкновении\n\nМаксимальные ОЗ Идентичностей Ассоциации «Ши» ограничиваются <style=\"upgradeHighlight\">50</style>% от максимума. Взамен они получают на <style=\"upgradeHighlight\">75</style>% меньше урона и на <style=\"upgradeHighlight\">75</style>% меньше лечения (срабатывает сразу при вступлении в битву; кроме лечения от ЭГО-даров)\n\nВ начале каждого хода Идентичности Ассоциации «Ши» получают 1 усиление Рубящих атак и <style=\"upgradeHighlight\">2</style> усиления Рубящего урона",
+      "russian": "Все союзники с 2 или более Рубящими навыками: в этой битве получают +2 к силе в столкновении в первом ходу, а начиная со второго хода — <style=\"upgradeHighlight\">2</style> [Agility] и +2 к силе в столкновении\n\nМаксимальные ОЗ Идентичностей Ассоциации «Си» ограничиваются <style=\"upgradeHighlight\">50</style>% от максимума. Взамен они получают на <style=\"upgradeHighlight\">75</style>% меньше урона и на <style=\"upgradeHighlight\">75</style>% меньше лечения (срабатывает сразу при вступлении в битву; кроме лечения от ЭГО-даров)\n\nВ начале каждого хода Идентичности Ассоциации «Си» получают 1 усиление Рубящих атак и <style=\"upgradeHighlight\">2</style> усиления Рубящего урона",
+      "reason": null
+    },
+    {
+      "queue_id": "35780cd53a36c132ebc9",
+      "relative_path": "EGOgift_MirrorDungeon.json",
+      "semantic_path": [
+        "dataList",
+        "@id=29140",
+        "desc"
+      ],
+      "english": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +2 on the first turn, and gain 2 [Agility] <style=\"upgradeHighlight\">and Final Power +1</style> starting from the second turn.\n<style=\"upgradeHighlight\">- If the affected Identity is at 7+ Speed, the said Identity's Slash Skills deal +10% damage</style>\n\nShi Assoc. Identities' HP gets capped to <style=\"upgradeHighlight\">49</style>% of Max HP. In return, take <style=\"upgradeHighlight\">75</style>% less damage and receive <style=\"upgradeHighlight\">75</style>% reduced heal. (activates immediately upon entering an Encounter; except healing from E.G.O Gifts)\n\nShi Assoc. Identities gain 1 Slash Power Up and <style=\"upgradeHighlight\">3</style> Slash DMG Up at every Turn Start. ",
+      "korean": "참격 스킬을 2개 이상 보유한 모든 아군이 이번 전투 동안 첫 턴에는 합 위력 +2, 두 번째 턴부터는 [Agility] 2 얻고 <style=\"upgradeHighlight\">최종 위력 +1\n- 해당 인격의 속도가 7 이상이면, 해당 인격의 참격 스킬의 피해량 +10%</style>.\n\n시 협회 소속 인격이 유지 또는 회복 가능한 최대 체력의 상한선이 <style=\"upgradeHighlight\">49%</style>로 고정되는 대신 받는 피해량과 자신이 받는 회복량이 75% 감소 (전투 진입 시 발동, E.G.O 기프트로 인한 회복 제외).\n\n시 협회 소속 인격이라면 매 턴 시작시마다 참격 위력 증가 1, 참격 피해량 증가 <style=\"upgradeHighlight\">3</style> 얻음. ",
+      "previous_english": "All allies with 2 or more Slash Skills: for this Encounter, gain Clash Power +1 on the first turn, and gain 2 [Agility] <style=\"upgradeHighlight\">and Final Power +1</style> starting from the second turn.\n\nShi Assoc. Identities' HP gets capped to <style=\"upgradeHighlight\">49</style>% of Max HP. In return, take <style=\"upgradeHighlight\">75</style>% less damage and receive <style=\"upgradeHighlight\">75</style>% reduced heal. (activates immediately upon entering an Encounter; except healing from E.G.O Gifts)\n\nShi Assoc. Identities gain 1 Slash Power Up and <style=\"upgradeHighlight\">3</style> Slash DMG Up at every Turn Start. ",
+      "previous_korean": "참격 스킬을 2개 이상 보유한 모든 아군이 이번 전투 동안 첫 턴에는 합 위력 +1, 두 번째 턴부터는 [Agility] 2 얻고 <style=\"upgradeHighlight\">최종 위력 +1</style>.\n\n시 협회 소속 인격이 유지 또는 회복 가능한 최대 체력의 상한선이 <style=\"upgradeHighlight\">49%</style>로 고정되는 대신 받는 피해량과 자신이 받는 회복량이 75% 감소 (전투 진입 시 발동, E.G.O 기프트로 인한 회복 제외).\n\n시 협회 소속 인격이라면 매 턴 시작시마다 참격 위력 증가 1, 참격 피해량 증가 <style=\"upgradeHighlight\">3</style> 얻음. ",
+      "current_russian": "Все союзники с 2 или более Рубящими навыками: в этой битве получают +1 к силе в столкновении в первом ходу, а начиная со второго хода — 2 [Agility] и <style=\"upgradeHighlight\">+1 к итоговой силе</style>\n\nМаксимальные ОЗ Идентичностей Ассоциации «Ши» ограничиваются <style=\"upgradeHighlight\">49</style>% от максимума. Взамен они получают на <style=\"upgradeHighlight\">75</style>% меньше урона и на <style=\"upgradeHighlight\">75</style>% меньше лечения (срабатывает сразу при вступлении в битву; кроме лечения от ЭГО-даров)\n\nВ начале каждого хода Идентичности Ассоциации «Ши» получают 1 усиление Рубящих атак и <style=\"upgradeHighlight\">3</style> усиления Рубящего урона",
+      "russian": "Все союзники с 2 или более Рубящими навыками: в этой битве получают +2 к силе в столкновении в первом ходу, а начиная со второго хода — 2 [Agility] и <style=\"upgradeHighlight\">+1 к итоговой силе</style>\n<style=\"upgradeHighlight\">- При скорости 7 и выше рубящие навыки этой Идентичности наносят на 10% больше урона</style>\n\nМаксимальные ОЗ Идентичностей Ассоциации «Си» ограничиваются <style=\"upgradeHighlight\">49</style>% от максимума. Взамен они получают на <style=\"upgradeHighlight\">75</style>% меньше урона и на <style=\"upgradeHighlight\">75</style>% меньше лечения (срабатывает сразу при вступлении в битву; кроме лечения от ЭГО-даров)\n\nВ начале каждого хода Идентичности Ассоциации «Си» получают 1 усиление Рубящих атак и <style=\"upgradeHighlight\">3</style> усиления Рубящего урона",
+      "reason": null
+    },
+    {
+      "queue_id": "3e7bead4a9321f0bd639",
+      "relative_path": "EGOgift_MirrorDungeon_2.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9180",
+        "desc"
+      ],
+      "english": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply or gain [Breath] Potency or Count. (except E.G.O Skills; except Backup Units)\n\nTurn End: If an ally has more than 20 [Breath] Potency on self, the ally consumes 1 [Breath] Potency to gain 1 [Breath] Count\n\nTurn End: 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count gain 2 [Agility], 1 [AttackUp], and 1 [AttackDmgUp] next turn (can activate on the same Identity)\n\nWhen gaining [Breath] Potency from Skill effects, gain additional 2 [Breath] Potency and +2 [Breath] Count. If the sum of [Breath] Potency and Count on self is less than 20, gain 3 [Breath] Potency and +3 [Breath] Count instead.\n\nCombat End: at more than 40 [Breath] Potency, consume 15 [Breath] Potency to [Discard] 1 Skill of the lowest rank in all of that unit's Skill Slots (once per turn for each character)",
+      "korean": "턴 시작 시, [Breath] 위력 또는 [Breath] 횟수를 부여하거나 획득하는 공격 스킬을 보유한 인격이 5인 이상이면, 이번 전투 동안 발동 (E.G.O 스킬 제외. 대기 인원 제외)\n\n턴 종료시, 각 아군이 자신의 [Breath] 위력이 20을 초과했으면, [Breath] 위력을 1 소모하여 [Breath] 횟수 1 증가\n\n턴 종료 시, [Breath] 위력이 제일 높은 아군 하나와 [Breath] 횟수가 제일 높은 아군 하나에게 다음 턴에 [Agility] 2, [AttackUp] 1, [AttackDmgUp] 1 부여 (같은 인격일 경우 중복 가능)\n\n스킬 효과로 [Breath]위력을 획득할 때마다 해당 캐릭터가 [Breath] 위력 2, [Breath] 횟수 2 얻음. 보유한 [Breath] 위력과 횟수의 합이 20 미만이면, 대신 [Breath] 위력 3, [Breath] 횟수 3 얻음.\n\n전투 종료 시, 자신의 [Breath] 위력이 40을 초과하면, [Breath] 위력을 15 소모하여 자신의 모든 스킬 슬롯에서 등급이 가장 낮은 스킬 1개를 [Discard] (캐릭터 당, 턴 당 1회)",
+      "previous_english": "Turn Start: This Gift activates for the whole Encounter when 5 or more Identities have Attack Skills that apply or gain [Breath] Potency or Count. (except E.G.O Skills; except Backup Units)\n\nTurn End: If an ally has more than 20 [Breath] Potency on self, the ally consumes 1 [Breath] Potency to gain 1 [Breath] Count\n\nTurn End: 1 ally with the highest [Breath] Potency and 1 ally with the highest [Breath] Count gain 2 [Agility] and 1 [AttackUp] next turn (can activate on the same Identity)\n\nWhen gaining [Breath] Potency from Skill effects, gain additional 2 [Breath] Potency and +2 [Breath] Count. If the sum of [Breath] Potency and Count on self is less than 20, gain 3 [Breath] Potency and +3 [Breath] Count instead.\n\nCombat End: at more than 40 [Breath] Potency, consume 15 [Breath] Potency to [Discard] 1 Skill of the lowest rank in all of that unit's Skill Slots (once per turn for each character)",
+      "previous_korean": "턴 시작 시, [Breath] 위력 또는 [Breath] 횟수를 부여하거나 획득하는 공격 스킬을 보유한 인격이 5인 이상이면, 이번 전투 동안 발동 (E.G.O 스킬 제외. 대기 인원 제외)\n\n턴 종료시, 각 아군이 자신의 [Breath] 위력이 20을 초과했으면, [Breath] 위력을 1 소모하여 [Breath] 횟수 1 증가\n\n턴 종료 시, [Breath] 위력이 제일 높은 아군 하나와 [Breath] 횟수가 제일 높은 아군 하나에게 다음 턴에 [Agility] 2, [AttackUp] 1 부여 (같은 인격일 경우 중복 가능)\n\n스킬 효과로 [Breath]위력을 획득할 때마다 해당 캐릭터가 [Breath] 위력 2, [Breath] 횟수 2 얻음. 보유한 [Breath] 위력과 횟수의 합이 20 미만이면, 대신 [Breath] 위력 3, [Breath] 횟수 3 얻음.\n\n전투 종료 시, 자신의 [Breath] 위력이 40을 초과하면, [Breath] 위력을 15 소모하여 자신의 모든 스킬 슬롯에서 등급이 가장 낮은 스킬 1개를 [Discard] (캐릭터 당, 턴 당 1회)",
+      "current_russian": "Активируется в начале боя при наличии 5 и более союзников с атакующими навыками, наносящими [Breath]. (Считаются только союзники на поле боя; ЭГО-навыки не учитываются)\n\nЕсли на всех союзниках больше 20 единиц потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> в конце хода, меняет единицу потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>.\n\nCоюзник с наибольшим потенциалом <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и союзник с наибольшим счётчиком <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> в конце хода получают по 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышению уровню атаки</link></u></color> на следующий ход. (Может дважды применить на одного союзника)\n\nКогда союзник получает потенциал <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> от эффектов навыков, дополнительно накладывает 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 2. Если сумма счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и его потенциала меньше 20 единиц, эффект дара усиливается, накладывая 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышая его счётчик на 3.\n\nПри более 40 единицах потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на союзнике в конце хода, снимает с него 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и <sprite name=\"Discard\"><color=#9f6a3a><u><link=\"Discard\">сбрасывает</link></u></color> навыки наименьшего ранга во всех его ячейках. (Раз за ход для каждого союзника)",
+      "russian": "Начало хода: этот ЭГО-дар действует до конца боя, если у 5 или более Идентичностей есть атакующие навыки, накладывающие или дающие силу либо счётчик [Breath] (ЭГО-навыки и резерв не учитываются).\n\nКонец хода: каждый союзник с силой [Breath] выше 20 расходует 1 силы [Breath], чтобы получить +1 к счётчику [Breath].\n\nКонец хода: союзник с наибольшей силой [Breath] и союзник с наибольшим счётчиком [Breath] получают на следующий ход по 2 [Agility], 1 [AttackUp] и 1 [AttackDmgUp] (может дважды сработать на одной Идентичности).\n\nКогда союзник получает силу [Breath] от эффекта навыка, он дополнительно получает 2 силы [Breath] и +2 к счётчику [Breath]. Если сумма силы [Breath] и счётчика меньше 20, он получает 3 силы [Breath] и +3 к счётчику [Breath] вместо этого.\n\nКонец боевой фазы: если сила [Breath] выше 40, расходует 15 силы [Breath] и применяет [Discard] к одному навыку низшего ранга в каждой ячейке навыков этого бойца (раз за ход на бойца).",
+      "reason": null
+    },
+    {
+      "queue_id": "75551c52eb164feef7ed",
+      "relative_path": "EGOgift_MirrorDungeon_2.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9180",
+        "simpleDesc",
+        "@abilityid=91801",
+        "simpleDesc"
+      ],
+      "english": "Apply 2 Haste, 1 Offense Level Up, and 1 Damage Up",
+      "korean": "신속 2, 공격 레벨 증가 1, 피해량 증가 1 부여",
+      "previous_english": "Apply 2 Haste and 1 Offense Level Up",
+      "previous_korean": "신속 2, 공격 레벨 증가 1 부여",
+      "current_russian": "Даёт 2 Спешки и 1 Повышение уровня атаки",
+      "russian": "Даёт 2 Спешки, 1 Повышение уровня атаки и 1 Повышение урона",
+      "reason": null
+    },
+    {
+      "queue_id": "259c10f3d8a0a5dfa9fc",
+      "relative_path": "EGOgift_MirrorDungeon_7.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9226",
+        "desc"
+      ],
+      "english": "Combat Start: Allies with Shield gain 1 [CriticalDamageUp]\nOn Crit with ally Skill, said ally gains Shield equal to ([Breath] / 5) for the next turn (max 15)\n\n[The House of Spiders: The Pinky Apprentice Sinclair exclusive effect]\nCombat End: At more than 30 [Breath] Count, consume 10 [Breath] Count to Discard 1 Skill of the lowest Rank in all of this unit's Skill Slots (once per turn)\n\nAmong the E.G.O Gift \"Cask Spirits\" effects, the following does not apply to this unit:\n\"Combat End: at more than 40 [Breath] Potency, consume 15 [Breath] Potency to Discard 1 Skill of the lowest rank in all of that unit's Skill Slots (once per turn for each character)\"",
+      "korean": "전투 시작 시 보호막이 있으면, [CriticalDamageUp] 1 얻음\n아군의 스킬이 크리티컬 적중 시, 다음 턴에 해당 아군이 ([Breath] 수치/5)만큼 보호막을 얻음 (최대 15)\n\n[거미집 소지 제자 싱클레어 전용 효과]\n전투 종료 시, 자신의 [Breath] 횟수가 30을 초과하면, [Breath] 횟수를 10 소모하여 자신의 모든 스킬 슬롯에서 등급이 가장 낮은 스킬 1개를 버림 (턴당 1회)\nE.G.O 기프트 ‘캐스크 스피리츠’의 효과 중 전투 종료 시, 자신의 [Breath] 위력이 40을 초과하면, [Breath] 위력을 15 소모하여 자신의 모든 스킬 슬롯에서 등급이 가장 낮은 스킬 1개를 버림 효과를 적용 받지 않음",
+      "previous_english": "Combat Start: Allies with Shield gain 1 [CriticalDamageUp]\nOn Crit with ally Skill, said ally gains Shield equal to ([Breath] / 5) for the next turn (max 15)",
+      "previous_korean": "전투 시작 시 보호막이 있으면, [CriticalDamageUp] 1 얻음\n아군의 스킬이 크리티컬 적중 시, 다음 턴에 해당 아군이 ([Breath] 수치/5)만큼 보호막을 얻음 (최대 15)",
+      "current_russian": "Начало боевой фазы: союзники, имеющие ОЗ Щита, получают 1 [CriticalDamageUp].\n\nЭти же союзники при критических попаданиях своими навыками получают (Сила своего [Breath] / 5) ОЗ Щита на следующий ход. (До 15)",
+      "russian": "Начало боевой фазы: союзники, у которых есть Щит, получают 1 [CriticalDamageUp].\n\nПри критическом попадании навыком союзник получает на следующий ход Щит, равный его силе [Breath] / 5 (макс. 15).\n\n[Особый эффект для Синклера «Дом Пауков: Ученик Мизинца»]\nКонец боевой фазы: если счётчик [Breath] выше 30, расходует 10 единиц счётчика [Breath] и сбрасывает по одному навыку низшего ранга из каждой своей ячейки навыков (раз за ход).\n\nНа этого бойца не действует следующий эффект ЭГО-дара «Бочка эссенции»:\n«Конец боевой фазы: если сила [Breath] выше 40, расходует 15 силы [Breath] и сбрасывает по одному навыку низшего ранга из каждой ячейки навыков этого бойца (раз за ход на бойца)».",
+      "reason": null
+    },
+    {
+      "queue_id": "19cc4911c9cdb832f02e",
+      "relative_path": "EGOgift_MirrorDungeon_7.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9226",
+        "simpleDesc",
+        "@abilityid=92262",
+        "simpleDesc"
+      ],
+      "english": "The House of Spiders: The Pinky Apprentice Sinclair exclusive effect",
+      "korean": "거미집 소지 제자 싱클레어 전용 효과",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Особый эффект для Синклера «Дом Пауков: Ученик Мизинца»",
+      "reason": null
+    },
+    {
+      "queue_id": "1462ee8a7be80bf349df",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "name"
+      ],
+      "english": "Wuthering Heights",
+      "korean": "폭풍이 치는 언덕",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Грозовой перевал",
+      "reason": null
+    },
+    {
+      "queue_id": "d8a4a6b2d5196e4b371e",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "desc"
+      ],
+      "english": "Turn End: when Staggered, recover from Stagger; then, at the next Turn Start, inflict 4 [Sinking] Potency and +4 [Sinking] Count to all enemies (once per Encounter; in Focused Encounters, on all Parts)\n- The above effect activates ((deployed \"Wuthering Heights\" Identities + deployed \"Edgar Family\" Identities) / 2) more times per Encounter (max 4 times per Encounter; including Backup Units)\n\nOn Kill, 1 enemy that has the least [Sinking] Count gains +2 [Sinking] Count (in Focused Encounters, the Part)\n\nOn Hit against SP Units, if target has -45 SP, deal Gloom damage equal to [Sinking] Potency on target\n\nIn Focused Encounters, On Hit against enemies that have 10+ ([Sinking] Potency + [Sinking] Count):\nDeal (([Sinking] Potency on target) / 2) Gloom damage (once per Skill)\n\nIf the Skill that hit an enemy inflicts [Sinking] (including [Sinking] Count and Unique [Sinking]), instead of dealing ([Sinking] Potency on target / 2) Gloom damage, deal ([Sinking] Potency on target) Gloom damage\n(Each turn, this applies only to the first Sinking-inflicting Skill that hits)\n\n[<noparse>Wild Hunt</noparse> Heathcliff exclusive effect]\nTurn Start: If this unit does not have [NightPathfinding], gain 1 [NightPathfinding]\n- At 5/10 [Coffin], gain 2/3 [NightPathfinding]\n- Apply 1 [SoundOfStorm] on \"Wuthering Heights\" and \"Edgar Family\" Identities (3 times per Identity per Encounter)\n\nDouble the amount of [Coffin] gained\n- Gain 2 [Coffin] when \"Wuthering Heights\" or \"Edgar Family\" Identities defeat an enemy\n\n\"Lament, Mourn, and Despair\" Skill effects:\n- Lose 15 more SP from the \"On Use\" effect\n  · The effects of the Skill or this E.G.O Gift cannot reduce this unit's SP below -40\n- On final Coin Hit, if the enemy has 20+ [Sinking] deal Gloom damage equal to 100% of this Coin's final damage",
+      "korean": "턴 종료시 흐트러짐 상태가 되었을 때, 흐트러짐 상태가 해제되고, 다음 턴 시작 시 모든 적에게 [Sinking] 위력 4, [Sinking] 횟수 4 부여 (전투당 1회 발동, 집중 전투에서는 부위로 판정)\n- 편성된 인격 중 워더링하이츠 소속과 에드가 가문 소속 인격의 합 2명당 전투당 발동 횟수가 1씩 증가 (최대 전투당 4회까지 발동 가능, 대기인원 포함)\n\n적 처치 시 [Sinking] 횟수가 가장 낮은 적 1명의 [Sinking] 횟수 2 증가 (집중 전투에서는 부위로 판정)\n\n정신력을 보유한 적에게 공격 적중시, 대상의 정신력이 -45이면, 대상의 [Sinking] 위력만큼 우울 피해를 입힘\n\n집중 전투에서 [Sinking] 위력과 [Sinking] 횟수의 합이 10 이상인 적에게 공격 적중시, 대상의 ([Sinking] 위력/2) 만큼 우울 피해를 입힘 (스킬당 1회 발동)\n\n적에게 공격 적중한 스킬이 [Sinking](횟수, 특수 [Sinking] 포함)을 부여하는 스킬일 경우, ([Sinking] 위력/2) 대신 ([Sinking] 위력)만큼 우울 피해를 입힘\n(턴에서 처음으로 공격 적중한 [Sinking] 부여 스킬에만 적용)\n\n[<noparse>와일드헌트</noparse> 히스클리프 전용 효과]\n턴 시작시 자신에게 [NightPathfinding]이 없으면, [NightPathfinding]을 1 얻음\n- 자신의 [Coffin]이 5/10이면, 대신 [NightPathfinding]을 2/3 얻음\n- 워더링하이츠, 에드가 가문 소속 인격에게 [SoundOfStorm] 1 부여 (전투 중 인격당 3회)\n\n[Coffin]을 획득할 때 2배로 얻음\n- 워더링하이츠, 에드가 가문 소속 인격이 적 처치 시에도 [Coffin] 2 얻음\n\n‘비탄하고, 애탄하며, 파탄하라’의 사용시 효과로 감소하는 정신력 수치 15 증가\n- 해당 스킬 및 기프트의 효과로 정신력이 -40 미만으로 내려가지 않음\n\n‘비탄하고, 애탄하며, 파탄하라’의 마지막 코인 적중시 적의 [Sinking]이 20 이상이면, 해당 코인 최종 피해량의 100%만큼 우울 피해",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Конец хода: если союзник оглушён, он выходит из оглушения и в начале следующего хода накладывает на всех врагов 4 силы [Sinking] и +4 к счётчику [Sinking] (раз за бой; в направляемых битвах — на все части).\n- За каждые 2 Идентичности «Грозового перевала» и семьи Эдгар в составе отряда эффект может сработать ещё 1 раз за бой (макс. 4 раза за бой; резерв учитывается).\n\nПри убийстве врага: +2 к счётчику [Sinking] у одного врага с наименьшим счётчиком [Sinking] (в направляемых битвах учитываются отдельные части).\n\nПри попадании по врагу с СД: если у цели −45 СД, нанесите урон Унынием, равный силе [Sinking] на цели.\n\nВ направляемых битвах при попадании по врагу, у которого сумма силы [Sinking] и счётчика [Sinking] не меньше 10, нанесите урон Унынием, равный половине силы [Sinking] на цели (раз за навык).\n\nЕсли попавший по цели навык накладывает [Sinking] (в том числе счётчик [Sinking] или особое [Sinking]), нанесите урон Унынием, равный полной силе [Sinking] на цели вместо половины её силы [Sinking]. За ход это действует только на первый попавший по цели навык, накладывающий Погружение.\n\n[Особый эффект для Хитклифа «<noparse>Дикая охота</noparse>»]\nНачало хода: если у бойца нет [NightPathfinding], он получает 1 [NightPathfinding].\n- При 5/10 [Coffin] получает 2/3 [NightPathfinding] вместо этого.\n- Накладывает 1 [SoundOfStorm] на Идентичности «Грозового перевала» и семьи Эдгар (до 3 раз за бой на Идентичность).\n\nПолучает вдвое больше [Coffin].\n- Получает 2 [Coffin], когда врага убивает Идентичность «Грозового перевала» или семьи Эдгар.\n\nЭффекты навыка «Горе, плач, погибель»:\n- При использовании дополнительно теряет 15 СД.\n  · Эффекты навыка и этого ЭГО-дара не могут снизить СД бойца ниже −40.\n- При попадании последней монетой по врагу с 20 и более [Sinking] наносит урон Унынием в размере 100% итогового урона этой монеты.",
+      "reason": null
+    },
+    {
+      "queue_id": "fb1fe64fbd009eec1ab6",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=9432",
+        "simpleDesc"
+      ],
+      "english": "Inflict 4 [Sinking] Potency and Count against all enemies next turn",
+      "korean": "다음 턴에 모든 적에게 [Sinking] 위력, 횟수 4 부여",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "На следующем ходу накладывает по 4 силы и счётчика [Sinking] на всех врагов",
+      "reason": null
+    },
+    {
+      "queue_id": "13c03db30ae1946d27d0",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=94321",
+        "simpleDesc"
+      ],
+      "english": "The enemy with the least [Sinking] Count gains +2 [Sinking] Count",
+      "korean": "[Sinking] 횟수가 가장 낮은 적 [Sinking] 횟수 2 증가",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Даёт +2 к счётчику [Sinking] врагу с наименьшим счётчиком [Sinking]",
+      "reason": null
+    },
+    {
+      "queue_id": "92bbb1d7dc22b34e40fc",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=9436",
+        "simpleDesc"
+      ],
+      "english": "Deal Gloom damage based on [Sinking] on target",
+      "korean": "대상의 [Sinking]에 비례해 우울 피해",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Наносит урон Унынием в зависимости от [Sinking] на цели",
+      "reason": null
+    },
+    {
+      "queue_id": "813ba9eea5899ee7cde2",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=94361",
+        "simpleDesc"
+      ],
+      "english": "Deal Gloom damage based on [Sinking] on target",
+      "korean": "대상의 [Sinking]에 비례해 우울 피해",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Наносит урон Унынием в зависимости от [Sinking] на цели",
+      "reason": null
+    },
+    {
+      "queue_id": "0bc7f2b68efe8dcec168",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=93011",
+        "simpleDesc"
+      ],
+      "english": "Gain [NightPathfinding]; apply [SoundOfStorm] to Identities of certain trait keywords",
+      "korean": "[NightPathfinding] 얻음, 특정 소속 인격에게 [SoundOfStorm] 부여",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Получает [NightPathfinding] и накладывает [SoundOfStorm] на Идентичности определённых фракций",
+      "reason": null
+    },
+    {
+      "queue_id": "97314c17ef2088162508",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=93012",
+        "simpleDesc"
+      ],
+      "english": "Double the amount of [Coffin] gained",
+      "korean": "[Coffin]을 획득할 때 2배로 얻음",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Получает вдвое больше [Coffin]",
+      "reason": null
+    },
+    {
+      "queue_id": "1e1b8cb0bd825906e0e6",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=93013",
+        "simpleDesc"
+      ],
+      "english": "Gain [Coffin] when Identities of certain trait keywords defeat an enemy",
+      "korean": "특정 소속 인격이 적 처치 시 [Coffin] 얻음",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Получает [Coffin], когда Идентичности определённых фракций убивают врага",
+      "reason": null
+    },
+    {
+      "queue_id": "104b84300c84e91fe822",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=93014",
+        "simpleDesc"
+      ],
+      "english": "\"Lament, Mourn, and Despair\" loses more SP On Use",
+      "korean": "‘비탄하고, 애탄하며, 파탄하라’ 사용시 감소하는 정신력 증가",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "«Горе, плач, погибель» отнимает больше СД при использовании",
+      "reason": null
+    },
+    {
+      "queue_id": "f0c685c98dcf50f42071",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "simpleDesc",
+        "@abilityid=93015",
+        "simpleDesc"
+      ],
+      "english": "\"Lament, Mourn, and Despair\" deals Gloom damage on final Coin Hit",
+      "korean": "‘비탄하고, 애탄하며, 파탄하라’ 마지막 코인 적중시 우울 피해",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "«Горе, плач, погибель» наносит урон Унынием при попадании последней монетой",
+      "reason": null
+    },
+    {
+      "queue_id": "f677a0633723854ff5ee",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9302",
+        "name"
+      ],
+      "english": "The Measure of Frost",
+      "korean": "서리 온도",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Градус инея",
+      "reason": null
+    },
+    {
+      "queue_id": "e01651bb306bdb357098",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9302",
+        "desc"
+      ],
+      "english": "Turn Start: At 40+ SP, or at -40 SP or lower, gain 1 [GainSinStockAdder]\n\n[Effect exclusive to Identities that have 2 or more Minus Coin Skills]\nTurn Start: Lose 15 SP (this unit's SP does not drop below -40 from this effect)\n\nIn this Encounter, when taking SP damage that would reduce this unit's SP to -45, this unit's SP cannot drop below -44 for the turn (once per Encounter)\n(※ Applies only to SP damage; does not apply to SP-changing effects, or SP-consuming effects such as using E.G.O Skills)\n\nBefore Attack using Skill 3 or an E.G.O Skill, consume up to 5 E.G.O Resources of the same Affinity as the said Skill to deal +(E.G.O Resources consumed x 10)% damage",
+      "korean": "턴 시작시 정신력이 40 이상이거나 -40 이하이면, [GainSinStockAdder] 1 얻음\n\n[빼기 코인 스킬을 2개 이상 보유한 인격 전용 효과]\n턴 시작시 정신력 15 감소 (해당 효과로 정신력이 -40 미만으로 내려가지 않음)\n\n이번 전투에서 정신력이 -45가 되는 피해를 받았을 때, 해당 턴 동안 정신력이 -44로 유지됨 (전투당 1회)\n(※ 정신력 피해에만 적용되며, 정신력이 변경되거나 E.G.O 스킬 사용과 같이 정신력을 소모하는 경우에는 적용되지 않음)\n\n스킬 3 또는 E.G.O 스킬 공격 시작 전, 스킬 속성과 동일 속성의 E.G.O 자원을 최대 5개 소모하여, (소모한 값 x 10)%만큼 <noparse>피해량 증가</noparse>",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Начало хода: при 40 СД и выше или −40 СД и ниже получает 1 [GainSinStockAdder].\n\n[Эффект для Идентичностей с двумя и более навыками с отрицательными монетами]\nНачало хода: теряет 15 СД (этот эффект не может снизить СД ниже −40).\n\nПри получении урона по СД, который снизил бы СД бойца до −45, его СД не может опуститься ниже −44 до конца хода (раз за бой).\n※ Действует только на урон по СД. Эффекты, меняющие или расходующие СД, включая применение ЭГО-навыков, не учитываются.\n\nПеред атакой навыком 3 или ЭГО-навыком расходует до 5 ЭГО-ресурсов того же аспекта, что и навык, и наносит на (число потраченных ЭГО-ресурсов × 10)% больше урона.",
+      "reason": null
+    },
+    {
+      "queue_id": "3ee33c7a0f729527f7f6",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9302",
+        "simpleDesc",
+        "@abilityid=9302",
+        "simpleDesc"
+      ],
+      "english": "Gain [GainSinStockAdder] when SP conditions are met",
+      "korean": "정신력 조건 만족 시 [GainSinStockAdder] 얻음",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Получает [GainSinStockAdder], если выполнено условие по СД",
+      "reason": null
+    },
+    {
+      "queue_id": "163ba524e8af651ab855",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9302",
+        "simpleDesc",
+        "@abilityid=93021",
+        "simpleDesc"
+      ],
+      "english": "Turn Start: Lose SP",
+      "korean": "턴 시작시 정신력 감소",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Теряет СД в начале хода",
+      "reason": null
+    },
+    {
+      "queue_id": "3d447ffc845ad072259d",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9302",
+        "simpleDesc",
+        "@abilityid=93022",
+        "simpleDesc"
+      ],
+      "english": "Maintain SP at -44 once when taking SP damage that would reduce SP to -45",
+      "korean": "정신력이 -45 되는 피해를 받으면 1회 버팀",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Один раз удерживает СД на −44 при получении урона, который снизил бы СД до −45",
+      "reason": null
+    },
+    {
+      "queue_id": "2768b0cb081f2ccf6c93",
+      "relative_path": "EGOgift_MirrorDungeon_8.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9302",
+        "simpleDesc",
+        "@abilityid=93023",
+        "simpleDesc"
+      ],
+      "english": "Consume E.G.O Resources to deal more damage using Skill 3 and E.G.O Skills",
+      "korean": "E.G.O 자원을 소모해 스킬 3, E.G.O 스킬 <noparse>피해량 증가</noparse>",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Расходует ЭГО-ресурсы, чтобы увеличить урон навыка 3 и ЭГО-навыков",
+      "reason": null
+    },
+    {
+      "queue_id": "5221b82c39d869130ad8",
+      "relative_path": "LobbyBGM-29.json",
+      "semantic_path": [
+        "dataList",
+        "@id=200342",
+        "name"
+      ],
+      "english": "Battle The Warden Phase3",
+      "korean": "Battle The Warden Phase3",
+      "previous_english": "The Symbolic Battle [Buffet]",
+      "previous_korean": "The Symbolic Battle [Buffet]",
+      "current_russian": "Бой в Символическом [Buffet]",
+      "russian": "Бой с Тюремщиком — фаза 3",
+      "reason": null
+    },
+    {
+      "queue_id": "cde59b6e98d1eab22de9",
+      "relative_path": "LobbyBGM-29.json",
+      "semantic_path": [
+        "dataList",
+        "@id=200343",
+        "name"
+      ],
+      "english": "The Symbolic Battle [Buffet]",
+      "korean": "The Symbolic Battle [Buffet]",
+      "previous_english": "Battle Buffet Phase1",
+      "previous_korean": "Battle Buffet Phase1",
+      "current_russian": "Битва с Буфетом — фаза 1",
+      "russian": "Бой в Символическом [Buffet]",
+      "reason": null
+    },
+    {
+      "queue_id": "e68b33dcea1adca39927",
+      "relative_path": "LobbyBGM-29.json",
+      "semantic_path": [
+        "dataList",
+        "@id=200344",
+        "name"
+      ],
+      "english": "Battle Buffet Phase1",
+      "korean": "Battle Buffet Phase1",
+      "previous_english": "Battle Buffet Phase2",
+      "previous_korean": "Battle Buffet Phase2",
+      "current_russian": "Битва с Буфетом — фаза 2",
+      "russian": "Битва с Буфетом — фаза 1",
+      "reason": null
+    },
+    {
+      "queue_id": "82b4654433beec7607a7",
+      "relative_path": "LobbyBGM-29.json",
+      "semantic_path": [
+        "dataList",
+        "@id=200345",
+        "name"
+      ],
+      "english": "Battle Buffet Phase2",
+      "korean": "Battle Buffet Phase2",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Битва с Буфетом — фаза 2",
+      "reason": null
+    },
+    {
+      "queue_id": "3a5959e121451c31b27a",
+      "relative_path": "LobbyBGM-29.json",
+      "semantic_path": [
+        "dataList",
+        "@id=200345",
+        "songWriter"
+      ],
+      "english": "Studio EIM",
+      "korean": "Studio EIM",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Studio EIM",
+      "reason": null
+    },
+    {
+      "queue_id": "564db000e4ae17cef45f",
+      "relative_path": "MirrorDungeonEgoGiftLockedDesc.json",
+      "semantic_path": [
+        "dataList",
+        "@id=9301",
+        "content"
+      ],
+      "english": "No Acquisition Records\n\n<Unlock Conditions>\n- Shops - 「Fuse E.G.O Gift」",
+      "korean": "획득 기록 없음\n\n\n<획득 조건>\n- 상점 「E.G.O 기프트 합성」",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Нет записей о получении\n\n<Условия открытия>\n- Магазин: «Соединить Дары»",
+      "reason": null
+    },
+    {
+      "queue_id": "e903b630dd9f6107d297",
+      "relative_path": "MirrorDungeonRentalName.json",
+      "semantic_path": [
+        "dataList",
+        "@id=38",
+        "content"
+      ],
+      "english": "Charge",
+      "korean": "충전",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Заряд",
+      "reason": null
+    },
+    {
+      "queue_id": "58154491760fa4fd18d5",
+      "relative_path": "Passives.json",
+      "semantic_path": [
+        "dataList",
+        "@id=1031504",
+        "desc"
+      ],
+      "english": "Before another \"Le Noir\" allied Identity uses Attack Skills or Counter Skills on an enemy, this unit uses \"Judgment!\" Skill as an Unopposed Attack against the main target (once per turn)\n\nOn the final Coin Start of a Base Skill, the said Coin gains Final Power +([ChargeNoirAlly] Potency on self + ([NoirNailDonQuixote] on target / 2)) (max 5)\n\nIf this unit has [OathFieldDonQuixote], Base Skill 1/2/3 gains Clash Power +1/+2/+3\n\nWhen [VibrationExplosion] triggers on a target that has [NoirNailDonQuixote], this unit and 1 other allied [PersonalityCharge] that has the lowest [Charge] Count gain +2 [Charge] Count (2 times per turn)",
+      "korean": "자신을 제외한 르누아르 소속 아군 인격이 적에게 공격 스킬, 반격 스킬의 사용 전, 자신이 ‘심판!’으로 메인 타겟을 우선으로 일방 공격함 (턴당 1회)\n\n기본 스킬의 마지막 코인 시작 시 (자신의 [ChargeNoirAlly] 위력 + 대상의 [NoirNailDonQuixote]/2)만큼 해당 코인의 최종 위력이 증가함 (최대 5)\n\n자신에게 [OathFieldDonQuixote]이 있으면, 기본 스킬 1/2/3의 합 위력 +1/+2/+3\n\n[NoirNailDonQuixote]이 있는 대상에게 [VibrationExplosion] 발생 시 자신과 자신을 제외한 [Charge] 횟수가 가장 적은 아군 [PersonalityCharge] 1명의 [Charge] 횟수 2 증가 (턴당 2회)",
+      "previous_english": "Before Attack of another \"Le Noir\" allied Identity on an enemy, this unit uses \"Judgment!\" Skill as an Unopposed Attack against the main target (once per turn)\n\nOn the final Coin Start of a Base Skill, the said Coin gains Final Power +([ChargeNoirAlly] Potency on self + ([NoirNailDonQuixote] on target / 2)) (max 5)\n\nIf this unit has [OathFieldDonQuixote], Base Skill 1/2/3 gains Clash Power +1/+2/+3\n\nWhen [VibrationExplosion] triggers on a target that has [NoirNailDonQuixote], this unit and 1 other allied [PersonalityCharge] that has the lowest [Charge] Count gain +2 [Charge] Count (2 times per turn)",
+      "previous_korean": "자신을 제외한 르누아르 소속 아군 인격이 적에게 공격 시작 전, 자신이 ‘심판!’으로 메인 타겟을 우선으로 일방 공격함 (턴당 1회)\n\n기본 스킬의 마지막 코인 시작 시 (자신의 [ChargeNoirAlly] 위력 + 대상의 [NoirNailDonQuixote]/2)만큼 해당 코인의 최종 위력이 증가함 (최대 5)\n\n자신에게 [OathFieldDonQuixote]이 있으면, 기본 스킬 1/2/3의 합 위력 +1/+2/+3\n\n[NoirNailDonQuixote]이 있는 대상에게 [VibrationExplosion] 발생 시 자신과 자신을 제외한 [Charge] 횟수가 가장 적은 아군 [PersonalityCharge] 1명의 [Charge] 횟수 2 증가 (턴당 2회)",
+      "current_russian": "Перед началом атаки другой союзной Идентичности «Ле Нуар» по противнику этот боец применяет «Суд!» как одностороннюю атаку по основной цели (раз за ход)\n\nВ начале последней монеты базового навыка итоговая сила этой монеты +(собственный потенциал [ChargeNoirAlly] + ([NoirNailDonQuixote] на цели / 2)) (макс. 5)\n\nПри наличии [OathFieldDonQuixote] сила столкновения базовых навыков 1/2/3 +1/+2/+3\n\nПри срабатывании [VibrationExplosion] на цели с [NoirNailDonQuixote] этот боец и 1 другая союзная [PersonalityCharge] с наименьшим счётчиком [Charge] получают +2 счётчика [Charge] (2 раза за ход)",
+      "russian": "Прежде чем другая союзная Идентичность «Ле Нуар» применит атакующий навык или контратаку против врага, этот боец использует «Суд!» как одностороннюю атаку по основной цели (раз за ход)\n\nВ начале последней монеты базового навыка итоговая сила этой монеты +(собственный потенциал [ChargeNoirAlly] + ([NoirNailDonQuixote] на цели / 2)) (макс. 5)\n\nПри наличии [OathFieldDonQuixote] сила столкновения базовых навыков 1/2/3 +1/+2/+3\n\nПри срабатывании [VibrationExplosion] на цели с [NoirNailDonQuixote] этот боец и 1 другая союзная [PersonalityCharge] с наименьшим счётчиком [Charge] получают +2 счётчика [Charge] (2 раза за ход)",
+      "reason": null
+    },
+    {
+      "queue_id": "cd263bf894436cdbaadc",
+      "relative_path": "PersonalityVoiceDlg/Voice_Ryoshu_Contem_10416.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"smalltalk_10416_3\"",
+        "dlg"
+      ],
+      "english": "Rumors started making the rounds on this floor two arboreal seasons ago, about a legendary sword hidden in some store Le Kaki are squatting in. Hmph... doubt there's anything exalted about it next to my blade.",
+      "korean": "두 그루 시즌 전부터 알음알음 이 층에 소문이 돌기 시작하더군. 르카키들이 모여 사는 어느 매장에 전설의 검이 숨겨져 있다던가… 흥, 그래봤자 내 검에 비하면 고귀하지도 않을 테지.",
+      "previous_english": "Rumors started making the rounds on this floor two arboreal seasons ago, about a legendary sword hidden in some store Le Kaki are squatting in. Hmph... doubt there's anything exalted about it next to my blade.",
+      "previous_korean": "두 그루 시즌 전부터 알음알음 이 층에 소문이 돌기 시작하더군. 르카키들이 모여 사는 어느 매장에 전설의 검이 숨겨져 있다던가… 흥, 그래봤자 내 검에 비해면 고귀하지도 않을 테지.",
+      "current_russian": "Два древесных сезона назад по этому этажу поползли слухи о легендарном мече, спрятанном в каком-то магазине, где ютятся «Ле Хаки». Хмф... Сомневаюсь, что рядом с моим клинком он покажется благородным.",
+      "russian": "Два древесных сезона назад по этому этажу поползли слухи о легендарном мече, спрятанном в каком-то магазине, где ютятся «Ле Хаки». Хмф... Сомневаюсь, что рядом с моим клинком он покажется благородным.",
+      "reason": "Исправлена корейская опечатка в сравнительном обороте. Смысл RU совпадает."
+    },
+    {
+      "queue_id": "9eb6a9d38be2f75caba8",
+      "relative_path": "RPGSystem/rpg-loc-dialogue-floor-b1.json",
+      "semantic_path": [
+        "dataList",
+        "@key=\"D-1009\"",
+        "texts",
+        "#14",
+        "text"
+      ],
+      "english": "Ah... I suppose we gotta start explaining from there.",
+      "korean": "아… 거기부터 설명해야 하나?",
+      "previous_english": "Ah... I suppose we gotta start explaning from there.",
+      "previous_korean": "아… 거기부터 설명해야 하나?",
+      "current_russian": "А... Значит, объяснять надо с самого начала.",
+      "russian": "А... Значит, объяснять надо с самого начала.",
+      "reason": "Исправлена английская опечатка explaining. Смысл RU совпадает."
+    },
+    {
+      "queue_id": "d346c3ab52b9700303f0",
+      "relative_path": "Skills_personality-08.json",
+      "semantic_path": [
+        "dataList",
+        "@id=1081603",
+        "levelList",
+        "#0",
+        "desc"
+      ],
+      "english": "Deal +5% damage for every [ChargeRougeAlly] (max 25%)\n[StartBattle] At lower than 50% HP, or if this unit has [RougeIshmaelEclose], convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] At fewer than 15 [ChargeRougeAlly] Count, consume 3(15 - current [ChargeRougeAlly] Count)% HP to raise [ChargeRougeAlly] Count to 15\n[WhenUse] Consume 15 [ChargeRougeAlly] Count to gain Coin Power +3\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[BeforeAttack] If this unit has [RougeIshmaelEclose], deal +40% damage\n- If this unit does not have [RougeIshmaelEclose], consume 20% HP on self to activate the above effect",
+      "korean": "자신의 [ChargeRougeAlly] 1당 피해량 +5% (최대 25%)\n[StartBattle] 자신의 현재 체력이 최대 체력의 50% 미만이거나 자신에게 [RougeIshmaelEclose]이 있으면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수가 15 미만이면, 최대 체력의 3 x (15 - 현재 [ChargeRougeAlly] 횟수)%만큼 체력을 소모하여 [ChargeRougeAlly] 횟수가 15로 증가\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수를 15 소모하여 코인 위력 +3\n[WhenUse] 대상의 [Laceration] 6당 코인 위력 +1 (최대 2)\n[BeforeAttack] 자신에게 [RougeIshmaelEclose]이 있으면, 피해량 +40%\n- [RougeIshmaelEclose]이 없으면, 자신의 체력을 최대 체력의 20%만큼 소모 후 발동",
+      "previous_english": "Deal +5% damage for every [ChargeRougeAlly] (max 25%)\n[StartBattle] At lower than 50% HP, or if this unit has [RougeIshmaelEclose], convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] At fewer than 15 [ChargeRougeAlly] Count, consume 3(15 - current [ChargeRougeAlly] Count)% HP to raise [ChargeRougeAlly] Count to 15\n[WhenUse] Consume 15 [ChargeRougeAlly] to gain Coin Power +3\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[BeforeAttack] If this unit has [RougeIshmaelEclose], deal +40% damage\n- If this unit does not have [RougeIshmaelEclose], consume 20% HP on self to activate the above effect",
+      "previous_korean": "자신의 [ChargeRougeAlly] 1당 피해량 +5% (최대 25%)\n[StartBattle] 자신의 현재 체력이 최대 체력의 50% 미만이거나 자신에게 [RougeIshmaelEclose]이 있으면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수가 15 미만이면, 최대 체력의 3 x (15 - 현재 [ChargeRougeAlly] 횟수)%만큼 체력을 소모하여 [ChargeRougeAlly] 횟수가 15로 증가\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수를 15 소모하여 코인 위력 +3\n[WhenUse] 대상의 [Laceration] 6당 코인 위력 +1 (최대 2)\n[BeforeAttack] 자신에게 [RougeIshmaelEclose]이 있으면, 피해량 +40%\n- [RougeIshmaelEclose]이 없으면, 자신의 체력을 최대 체력의 20%만큼 소모 후 발동",
+      "current_russian": "Наносить на 5% больше урона за каждую единицу [ChargeRougeAlly] (макс. 25%)\n[StartBattle] При ОЗ ниже 50% или если на этом юните есть [RougeIshmaelEclose], превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 15 потратить 3(15 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 15\n[WhenUse] Потратить 15 счётчика [ChargeRougeAlly], чтобы получить +3 к силе монеты\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на 40% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект",
+      "russian": "Наносить на 5% больше урона за каждую единицу [ChargeRougeAlly] (макс. 25%)\n[StartBattle] При ОЗ ниже 50% или если на этом юните есть [RougeIshmaelEclose], превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 15 потратить 3(15 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 15\n[WhenUse] Потратить 15 счётчика [ChargeRougeAlly], чтобы получить +3 к силе монеты\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на 40% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект",
+      "reason": "Уточнён расход счётчика в EN. В RU уже указан счётчик [ChargeRougeAlly]."
+    },
+    {
+      "queue_id": "bdf9e5e8e7f4977948f8",
+      "relative_path": "Skills_personality-08.json",
+      "semantic_path": [
+        "dataList",
+        "@id=1081603",
+        "levelList",
+        "#1",
+        "desc"
+      ],
+      "english": "Deal +<style=\"highlight\">10</style>% damage for every [ChargeRougeAlly] on self (max <style=\"highlight\">50</style>%)\n[StartBattle] At lower than 50% HP, or if this unit has [RougeIshmaelEclose], convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] At fewer than 15 [ChargeRougeAlly] Count, consume 3(15 - current [ChargeRougeAlly] Count)% HP to raise [ChargeRougeAlly] Count to 15\n[WhenUse] Consume 15 [ChargeRougeAlly] Count to gain Coin Power +3\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[BeforeAttack] If this unit has [RougeIshmaelEclose], deal +40% damage\n- If this unit does not have [RougeIshmaelEclose], consume 20% HP on self to activate the above effect",
+      "korean": "자신의 [ChargeRougeAlly] 1당 피해량 +<style=\"highlight\">10%</style> (최대 <style=\"highlight\">50%</style>)\n[StartBattle] 자신의 현재 체력이 최대 체력의 50% 미만이거나 자신에게 [RougeIshmaelEclose]이 있으면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수가 15 미만이면, 최대 체력의 3 x (15 - 현재 [ChargeRougeAlly] 횟수)%만큼 체력을 소모하여 [ChargeRougeAlly] 횟수가 15로 증가\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수를 15 소모하여 코인 위력 +3\n[WhenUse] 대상의 [Laceration] 6당 코인 위력 +1 (최대 2)\n[BeforeAttack] 자신에게 [RougeIshmaelEclose]이 있으면, 피해량 +40%\n- [RougeIshmaelEclose]이 없으면, 자신의 체력을 최대 체력의 20%만큼 소모 후 발동",
+      "previous_english": "Deal +<style=\"highlight\">10</style>% damage for every [ChargeRougeAlly] on self (max <style=\"highlight\">50</style>%)\n[StartBattle] At lower than 50% HP, or if this unit has [RougeIshmaelEclose], convert all Coins on this Skill to [SuperCoin]s\n[WhenUse] At fewer than 15 [ChargeRougeAlly] Count, consume 3(15 - current [ChargeRougeAlly] Count)% HP to raise [ChargeRougeAlly] Count to 15\n[WhenUse] Consume 15 [ChargeRougeAlly] to gain Coin Power +3\n[WhenUse] Coin Power +1 for every 6 [Laceration] on target (max 2)\n[BeforeAttack] If this unit has [RougeIshmaelEclose], deal +40% damage\n- If this unit does not have [RougeIshmaelEclose], consume 20% HP on self to activate the above effect",
+      "previous_korean": "자신의 [ChargeRougeAlly] 1당 피해량 +<style=\"highlight\">10%</style> (최대 <style=\"highlight\">50%</style>)\n[StartBattle] 자신의 현재 체력이 최대 체력의 50% 미만이거나 자신에게 [RougeIshmaelEclose]이 있으면, 이 스킬의 모든 코인이 [SuperCoin]으로 변경됨\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수가 15 미만이면, 최대 체력의 3 x (15 - 현재 [ChargeRougeAlly] 횟수)%만큼 체력을 소모하여 [ChargeRougeAlly] 횟수가 15로 증가\n[WhenUse] 자신의 [ChargeRougeAlly] 횟수를 15 소모하여 코인 위력 +3\n[WhenUse] 대상의 [Laceration] 6당 코인 위력 +1 (최대 2)\n[BeforeAttack] 자신에게 [RougeIshmaelEclose]이 있으면, 피해량 +40%\n- [RougeIshmaelEclose]이 없으면, 자신의 체력을 최대 체력의 20%만큼 소모 후 발동",
+      "current_russian": "Наносить на <style=\"highlight\">10</style>% больше урона за каждую единицу [ChargeRougeAlly] на себе (макс. <style=\"highlight\">50</style>%)\n[StartBattle] При ОЗ ниже 50% или если на этом юните есть [RougeIshmaelEclose], превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 15 потратить 3(15 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 15\n[WhenUse] Потратить 15 счётчика [ChargeRougeAlly], чтобы получить +3 к силе монеты\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на 40% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект",
+      "russian": "Наносить на <style=\"highlight\">10</style>% больше урона за каждую единицу [ChargeRougeAlly] на себе (макс. <style=\"highlight\">50</style>%)\n[StartBattle] При ОЗ ниже 50% или если на этом юните есть [RougeIshmaelEclose], превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При счётчике [ChargeRougeAlly] ниже 15 потратить 3(15 - текущий счётчик [ChargeRougeAlly])% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 15\n[WhenUse] Потратить 15 счётчика [ChargeRougeAlly], чтобы получить +3 к силе монеты\n[WhenUse] Сила монеты +1 за каждые 6 [Laceration] на цели (макс. 2)\n[BeforeAttack] Если на этом юните есть [RougeIshmaelEclose], наносить на 40% больше урона\n- Если на этом юните нет [RougeIshmaelEclose], потратить 20% ОЗ на себе, чтобы активировать указанный эффект",
+      "reason": "Уточнён расход счётчика в EN. В RU уже указан счётчик [ChargeRougeAlly]."
+    },
+    {
+      "queue_id": "19f3db9929087bfb5ee3",
+      "relative_path": "StoryData/E802B.json",
+      "semantic_path": [
+        "dataList",
+        "@id=71#72",
+        "content"
+      ],
+      "english": "I won’t object to selecting only a few of us with better aptitude to be educators.",
+      "korean": "적합한 스승을 선별하는 것에 이쪽에서는 이의가 없다.",
+      "previous_english": "I won’t object to selecting only a few us with better aptitude to be educators.",
+      "previous_korean": "적합한 스승을 선별하는 것에 이쪽에서는 이의가 없다.",
+      "current_russian": "Я не возражаю против того, чтобы выбрать лишь нескольких из нас, обладающих лучшими способностями к преподаванию.",
+      "russian": "Я не возражаю против того, чтобы выбрать лишь нескольких из нас, обладающих лучшими способностями к преподаванию.",
+      "reason": "В английской реплике восстановлен пропущенный предлог. Смысл RU совпадает."
+    },
+    {
+      "queue_id": "94d8a2fa8a11bf534ff9",
+      "relative_path": "StoryData/P10717.json",
+      "semantic_path": [
+        "dataList",
+        "@id=40",
+        "content"
+      ],
+      "english": "And it's the Floor Manager down here on B2F who does the weaving, isn't it? So shouldn't the customers take it up with the Floor Mana—wait, whoa!",
+      "korean": "방직을 하시는 건 이곳 지하 2층의 플로어 매니저시니까… 그분께 문의를 드려야… 엇?!",
+      "previous_english": "And it's the Floor Manager down here on B2F who does the weaving, isn't it? So shouldn't the customers take it up with the Floor Mana—wait, whoa!",
+      "previous_korean": "방직을 하시는 건 이곳 지하 2층의 플로우 매니저시니까… 그분께 문의를 드려야… 엇?!",
+      "current_russian": "А ткань здесь, на втором подземном этаже, ткёт управляющий этажом, верно? Тогда покупателям надо обращаться к управляющему эта… Эй, погодите!",
+      "russian": "А ткань здесь, на втором подземном этаже, ткёт управляющий этажом, верно? Тогда покупателям надо обращаться к управляющему эта… Эй, погодите!",
+      "reason": "Исправлено написание должности в KR. В RU уже указан управляющий этажом."
+    },
+    {
+      "queue_id": "ac2e2138427ab3a2a6cb",
+      "relative_path": "UI_Mission_MirrorDungeon5Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005014_5\"",
+        "content"
+      ],
+      "english": "Defeat all enemies in the Turn where 10 or more enemies are on the battlefield (in Focused Encounters, a Core and its connected Parts count as a single target)",
+      "korean": "전투 중 적이 10명 이상이 되었을 때, 해당 한 턴 동안 10명 이상의 적 모두 처치 (집중 전투인 경우, 본체를 기준으로 판정)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите всех врагов за ход, когда на поле находится не менее 10 врагов. В направляемых битвах ядро и связанные с ним части считаются одной целью.",
+      "reason": null
+    },
+    {
+      "queue_id": "ab83321863d3d987346d",
+      "relative_path": "UI_Mission_MirrorDungeon5Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005015_5\"",
+        "content"
+      ],
+      "english": "Use a single Attack Skill to either Stagger or Part Break 2 or more Parts, simultaneously",
+      "korean": "공격 스킬 1개로 2개 이상의 부위를 동시에 흐트러짐 상태 또는 부위 파괴 상태로 만들기",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Одним атакующим навыком одновременно оглушите или разрушьте не менее 2 частей.",
+      "reason": null
+    },
+    {
+      "queue_id": "be973082159632d22d33",
+      "relative_path": "UI_Mission_MirrorDungeon5Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005016_5\"",
+        "content"
+      ],
+      "english": "Win an Encounter after inflicting 10 types of negative effects on a single target",
+      "korean": "한 대상에게 부정적인 효과 10개 부여한 채 전투 승리",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите в бою, наложив на одну цель 10 разных отрицательных эффектов.",
+      "reason": null
+    },
+    {
+      "queue_id": "f44bc60fc3e71f5c574b",
+      "relative_path": "UI_Mission_MirrorDungeon5Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005017_5\"",
+        "content"
+      ],
+      "english": "In a single run, clear 5 Stages after activating the effects of the E.G.O Gift 'Entangled Fate' in each of them",
+      "korean": "거울 던전 1회 플레이에서 ‘인연 얽힘’ E.G.O 기프트의 효과를 발동하고 스테이지 5회 클리어",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "За одно прохождение пройдите 5 этапов, на каждом из которых сработал эффект ЭГО-дара «Запутанная судьба».",
+      "reason": null
+    },
+    {
+      "queue_id": "4ba732da8d94828763a2",
+      "relative_path": "UI_Mission_MirrorDungeon5Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005018_5\"",
+        "content"
+      ],
+      "english": "Defeat the \"Abnormal Seismic Zone\" Theme Pack boss while carrying 5 or more liquor-related E.G.O Gifts: \"Hardwood Liquor Cup,\" \"Green Spirit,\" \"Blood, Sweat, and Tears,\" \"Wobbling Keg,\" \"Reverberation,\" \"Chalice of Trickle-down,\" \"Downpour,\" \"Devil's Share,\" \"Angel's Cut,\" \"Trash Crab Brain Wine,\" \"Shaoxing Wine\"",
+      "korean": "술 관련 E.G.O 기프트 중 5종 이상 들고 ‘이상진역’ 테마팩의 보스 처치\n(원목 술잔, 초록빛 결실, 고혈, 흔들리는 술통, 잔향, 낙수의 잔, 폭우, 데블스 셰어, 엔젤스 컷, 크랲게 뇌수 담금주, 소흥주 중 5종)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите босса тематического набора «Аномальная сейсмика», имея не менее 5 ЭГО-даров, связанных с алкоголем: «Чаша из твёрдого дерева», «Зелёный спирт», «Кровь, пот и слёзы», «Шатающаяся бочка», «Реверберация», «Чаша просачивания», «Ливень», «Доля дьявола», «Разрез ангела», «Вино из мозга мусорного краба», «Шаосинское вино».",
+      "reason": null
+    },
+    {
+      "queue_id": "08747476a29787237b5f",
+      "relative_path": "UI_Mission_MirrorDungeon5Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005019_5\"",
+        "content"
+      ],
+      "english": "With 2 or more The Ring Identities in your Loadout, win an Encounter after having one of them gain 'Exquisite Aesthetics' with 'Exquisite Artwork' E.G.O Gift",
+      "korean": "약지 소속 인격을 2명 이상 편성한 상태에서 해당 인격 중 1명이 ‘수작’ E.G.O 기프트로 ‘훌륭한 미감’ 효과 얻고 전투 승리",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Имея в составе не менее 2 идентичностей Кольца, победите в бою после того, как одна из них получит «Изысканную эстетику» от ЭГО-дара «Изысканное произведение».",
+      "reason": null
+    },
+    {
+      "queue_id": "a56da64a85dd0d99df35",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201004011\"",
+        "content"
+      ],
+      "english": "Clear Mirror Dungeon after spending {0} Cost on E.G.O Gifts in a single Shop visit",
+      "korean": "1번의 상점 방문에서 기프트 구매로 코스트 {0}을 한 번에 사용하고 거울 던전 클리어",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Пройдите Зеркальное подземелье, потратив {0} ед. стоимости на покупку ЭГО-даров за один визит в магазин.",
+      "reason": null
+    },
+    {
+      "queue_id": "18c110d87c0fff41901c",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201004012\"",
+        "content"
+      ],
+      "english": "Clear Mirror Dungeon after obtaining {0} total Cost by selling Gifts at the Shop in a single run",
+      "korean": "거울 던전 1회 플레이에서 상점에서 기프트 판매로 총합 코스트 {0} 얻고 거울 던전 클리어",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Пройдите Зеркальное подземелье, выручив в сумме {0} ед. стоимости за продажу ЭГО-даров в магазине за одно прохождение.",
+      "reason": null
+    },
+    {
+      "queue_id": "94578afc333ad9220b10",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201004013\"",
+        "content"
+      ],
+      "english": "Clear Floor {0} or above in the Mirror Dungeon using neither the Refresh nor the Keyword Refresh functions in the shop",
+      "korean": "상점에서 새로고침과 키워드 새로고침을 한 번도 진행하지 않은 채 거울 던전 {0}층 이상을 클리어",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Пройдите {0}-й этаж Зеркального подземелья или выше, ни разу не воспользовавшись в магазине функциями «Обновить» и «Обновление ключевого слова».",
+      "reason": null
+    },
+    {
+      "queue_id": "2872438bcf1aa0645f74",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201004014\"",
+        "content"
+      ],
+      "english": "Clear Mirror Dungeon after triggering the Rebate Token E.G.O Gift effect for a total of {0} times during a single run",
+      "korean": "거울 던전 1회 플레이에서 E.G.O 기프트 리베이트 토큰 효과를 누적 {0}회 발동하고 거울 던전 클리어",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Пройдите Зеркальное подземелье, активировав эффект ЭГО-дара «Скидочный купон» суммарно {0} раз за одно прохождение.",
+      "reason": null
+    },
+    {
+      "queue_id": "e590c830c8f1fce09558",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003041\"",
+        "content"
+      ],
+      "english": "Clear Mirror Dungeon at Floor 5 or higher with 5 or more Sisyphe Identities in your Loadout at the time of completion (incompletable by Rental Teams)",
+      "korean": "클리어 시점에 시지프 소속 인격이 5명 이상 편성된 상태로 거울 던전 5층 이상 클리어 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Завершите прохождение Зеркального подземелья на 5-м этаже или выше. К моменту завершения в отряде должно быть не менее 5 Идентичностей Сизифа. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "ef4af832eae35fc8d9d4",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003042\"",
+        "content"
+      ],
+      "english": "Clear Mirror Dungeon at Floor 5 or higher with 2 or more The Thumb Identities in your Loadout at the time of completion (incompletable by Rental Teams)",
+      "korean": "클리어 시점에 엄지 소속 인격이 2명 이상 편성된 상태로 거울 던전 5층 이상 클리어 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Завершите прохождение Зеркального подземелья на 5-м этаже или выше. К моменту завершения в отряде должно быть не менее 2 Идентичностей Большого пальца. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "46428c971a2760c9ca21",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003043\"",
+        "content"
+      ],
+      "english": "Defeat the \"Readvent of Gluttony\" Theme Pack boss with 3 or more Le Noir Identities, including \"Haute Couture::Le Noir Brand Manager Don Quixote\" in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "‘오트쿠튀르::르누아르 브랜드 매니저 돈키호테’ 인격을 포함한 르누아르 소속 인격을 3명 이상 편성한 상태(대기인원은 포함하지 않음)에서 ‘탐식의 재림’ 테마팩의 보스 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите босса тематического набора «Возвращение обжорства», имея в основном составе не менее 3 Идентичностей «Ле Нуар», включая Дон Кихот «Высокая мода::Руководитель бренда Ле Нуар». Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "9acce321ed8c133253a7",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003044\"",
+        "content"
+      ],
+      "english": "Defeat the \"Creed of Preservation\" Theme Pack boss with 3 or more Le Rouge Identities, including \"Haute Couture::The Crimson God of Le Rouge Sinclair\" in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "‘오트쿠튀르::르루주 붉은 신 싱클레어’ 인격을 포함한 르루주 소속 인격을 3명 이상 편성한 상태(대기인원은 포함하지 않음)에서 ‘보존의 신념’ 테마팩의 보스 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите босса тематического набора «Кредо сохранения», имея в основном составе не менее 3 Идентичностей «Ле Руж», включая Синклера «Высокая мода::Багряный бог Ле Руж». Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "07d89b04f5676256d428",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003045\"",
+        "content"
+      ],
+      "english": "Defeat the \"Hell's Chicken\" Theme Pack boss with \"R.B. Chef de Cuisine Ryōshū\" and \"R.B. Sous-chef Gregor\" Identities in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "‘료. 고. 파. 주방장 료슈’, ‘료. 고. 파. 조수 그레고르’ 인격을 2명 편성한 상태(대기인원은 포함하지 않음)에서 ‘헬스치킨’ 테마팩의 보스 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите босса тематического набора «Адская куря», имея в основном составе Рёшу «Шеф-повар „БуР“» и Грегора «Су-шеф „БуР“». Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "77fee1ae767dbf233b6b",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003046\"",
+        "content"
+      ],
+      "english": "Defeat the \"S.E.A.\" Theme Pack boss with 4 Molar Office Identities in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "어금니 사무소 소속 인격을 4명 편성한 상태(대기인원은 포함하지 않음)에서 ‘우.미.다’ 테마팩의 보스 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите босса тематического набора «МОРЕ», имея в основном составе 4 Идентичности офиса Коренного. Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "9f98cd1c92c640c17477",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003047\"",
+        "content"
+      ],
+      "english": "Clear Mirror Dungeon at Floor 5 or higher with 6 or more Office or Workshop Identities in your Loadout at the time of completion (Incompletable by Rental Teams)",
+      "korean": "클리어 시점에 사무소 및 공방 소속 해결사 인격이 6명 이상 편성된 상태로 거울 던전 5층 이상 클리어 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Завершите прохождение Зеркального подземелья на 5-м этаже или выше. К моменту завершения в отряде должно быть не менее 6 Идентичностей Решал из бюро или мастерских. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "8b1b0308af3ed592b911",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003048\"",
+        "content"
+      ],
+      "english": "Defeat the \"Crawling Abyss\", \"The Evil Defining\", and \"S.E.A. C.R\" Theme Pack bosses with 3 or more of The Pequod Identities, including \"The Pequod Captain Ishmael\" in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "‘피쿼드호 선장 이스마엘’ 인격을 포함한 피쿼드호 소속 인격을 3명 이상 편성한 상태(대기인원은 포함하지 않음)에서 ‘기어오는 심연’, ‘악으로 규정되는’, ‘우.미.다 게.판’ 테마팩의 보스 3종 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите боссов тематических наборов «Ползущая бездна», «Определяемое как зло» и «МОРЕ КраВеч», имея в основном составе не менее 3 Идентичностей «Пекода», включая капитана «Пекода» Ишмаэль. Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "5d24acaee3c3e4fa99b7",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003049\"",
+        "content"
+      ],
+      "english": "Defeat the \"Yield My Flesh to Claim Their Bones BokGak\" Theme Pack boss with 6 or more of Kurokumo Clan Identities, including \"Kurokumo Clan Captain Gregor\" in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "‘흑운회 부조장 그레고르’ 인격을 포함한 흑운회 소속 인격을 6명 이상 편성한 상태(대기인원은 포함하지 않음)에서 ‘육참골단 BokGak’ 테마팩의 보스 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите босса тематического набора «Уступлю плоть, дабы разрубить их кости: Повторный прокат», имея в основном составе не менее 6 Идентичностей клана «Курокумо», включая вакагасиру клана Грегора. Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "626595546d1dc2a39bad",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003050\"",
+        "content"
+      ],
+      "english": "Defeat the \"Full-Stopped by a Bullet\", \"Yield My Flesh to Claim Their Bones BokGak\", and \"Mnestic Experience\" Theme Pack bosses with 6 or more of Blade Lineage Identities, including \"Blade Lineage Mentor Meursault\" in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "‘검계 우두머리 뫼르소’ 인격을 포함한 검계 소속 인격을 6명 이상 편성한 상태(대기인원은 포함하지 않음)에서 ‘탄환이 찍은 마침표’, ‘육참골단 BokGak’, ‘경험기억’ 테마팩의 보스 3종 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите боссов тематических наборов «Точка, поставленная пулей», «Уступлю плоть, дабы разрубить их кости: Повторный прокат» и «Мнестический опыт», имея в основном составе не менее 6 Идентичностей «Верных клинком», включая наставника «Верных клинком» Мерсо. Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "7880ea42eba04fdc2af9",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201003051\"",
+        "content"
+      ],
+      "english": "Defeat the \"Nocturnal Sweeping\", \"Four Houses and Greed\", \"The Surrendered Witnessing\", and \"Spring Cultivation\" Theme Pack bosses with 7 or more of H Corp. Identities, including \"The Lord of Hongyuan Hong Lu\" and \"Family Hierarch Candidate Ishmael\" in your Loadout (not counting Backup Units; incompletable by Rental Teams)",
+      "korean": "‘홍원 군주 홍루’, ‘가주 후보 이스마엘’ 인격을 포함한 H사 소속 인격을 7명 이상 편성한 상태(대기인원은 포함하지 않음)에서 ‘심야청소’, ‘사대 가문과 욕망’, ‘바라볼 수밖에 없는’, ‘절차탁춘’ 테마팩의 보스 4종 처치 (대여 편성으로 클리어 불가)",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите боссов тематических наборов «Зачистка под покровом ночи», «Четыре семьи и жажда», «Безвольно наблюдавший» и «Весенняя огранка», имея в основном составе не менее 7 Идентичностей корпорации H, включая властителя «Хунъюаня» Хун Лу и претендентку на место главы семьи Ишмаэль. Резерв не учитывается. Прокатные отряды не подходят.",
+      "reason": null
+    },
+    {
+      "queue_id": "94a7b39e48af86c6cd65",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005101\"",
+        "content"
+      ],
+      "english": "Clear Floor {0} or higher of Mirror Dungeon without any Fusion E.G.O Gifts",
+      "korean": "조합 E.G.O 기프트 없이 거울 던전 {0}층 이상 클리어",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Пройдите {0}-й этаж Зеркального подземелья или выше без ЭГО-даров, получаемых соединением.",
+      "reason": null
+    },
+    {
+      "queue_id": "ed7343accfd867540f2b",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005014\"",
+        "content"
+      ],
+      "english": "Have 6 or more Identities reach 12+ Speed in the same turn",
+      "korean": "한 턴에 인격 6명 이상이 모두 속도 12 이상 달성",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Добейтесь, чтобы 6 или более Идентичностей в один ход имели скорость не ниже 12.",
+      "reason": null
+    },
+    {
+      "queue_id": "217d6a4c8322b9479bc4",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005015\"",
+        "content"
+      ],
+      "english": "Consume a combined total of {0} or more Charge Count with all allies' Attack Skills in a single turn",
+      "korean": "한 턴에 모든 아군이 공격 스킬로 충전 횟수를 총합 {0} 이상 소모하기",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "За один ход израсходуйте атакующими навыками союзников в сумме не менее {0} единиц счётчика Заряда.",
+      "reason": null
+    },
+    {
+      "queue_id": "3a09af0879cfda362fb4",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005019\"",
+        "content"
+      ],
+      "english": "Perform {0} or more different Tremor Amplitude Conversions on a single enemy in one turn",
+      "korean": "한 턴에 적 1명에게 진동 {0}종류 이상 진폭 변환",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "За один ход примените к одному врагу не менее {0} различных преобразований амплитуды Тремора.",
+      "reason": null
+    },
+    {
+      "queue_id": "3f30287ebf2ccd7c9d37",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005016\"",
+        "content"
+      ],
+      "english": "Win a battle after using Assist Defense exclusive Skills {0} or more times in that battle",
+      "korean": "한 전투에서 원호 방어 전용 스킬을 {0}회 이상 사용한 채로 전투 클리어",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Победите в бою, применив в нём не менее {0} раз особые навыки Вспомогательной защиты.",
+      "reason": null
+    },
+    {
+      "queue_id": "97e73c655900fabd3a4f",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005017\"",
+        "content"
+      ],
+      "english": "Have a single Sinner gain {0} or more Shield in one turn",
+      "korean": "한 턴에 한 수감자가 보호막 {0} 이상 얻기",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "За один ход получите не менее {0} ед. Щита на одном Грешнике.",
+      "reason": null
+    },
+    {
+      "queue_id": "035683638da04b59d2ae",
+      "relative_path": "UI_Mission_MirrorDungeon8Event.json",
+      "semantic_path": [
+        "dataList",
+        "@id=\"mission_ui_condition_tags_201005018\"",
+        "content"
+      ],
+      "english": "Kill {0} enemies via the \"Karma\" effect during battle against the Abnormality \"My Form Empties\"",
+      "korean": "환상체 ‘나는 비워내느니’ 전투 중 ‘업보’를 통해 적을 {0}명 처치",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "В бою с Аномалией «Я опустошаюсь» убейте {0} врагов с помощью эффекта «Карма».",
+      "reason": null
+    },
+    {
+      "queue_id": "471176198b1bc0246384",
+      "relative_path": "UserBanner.json",
+      "semantic_path": [
+        "dataList",
+        "@id=95",
+        "name"
+      ],
+      "english": "Season 8: Mirror of Sisyphe Special Commemorative Banner",
+      "korean": "시즌 8 시지프의 거울 기념 특별 배너",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Особый памятный баннер сезона 8: Зеркало Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "b1731f5ce2bd976a4459",
+      "relative_path": "UserBanner.json",
+      "semantic_path": [
+        "dataList",
+        "@id=95",
+        "desc"
+      ],
+      "english": "Obtained from the Mirror of Sisyphe Achievements Rewards\n\n※ This banner displays the number of times you've completed Floor 5 or higher in the 「Season 8 Mirror Dungeon - Mirror of Sisyphe」, and the highest Floor you've reached.",
+      "korean": "시지프의 거울 업적 보상으로 획득\n\n※ 「시즌 8 거울 던전 - 시지프의 거울」을 5층 이상 클리어한 횟수와 도달한 최대 층수가 배너에 표시됩니다.",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за достижения Зеркала Сизифа\n\n※ На этом баннере отображаются число прохождений 5-го этажа или выше и наивысший достигнутый этаж в «Зеркальном подземелье сезона 8 — Зеркало Сизифа».",
+      "reason": null
+    },
+    {
+      "queue_id": "a530b5eb8b584ebc2e48",
+      "relative_path": "UserBanner.json",
+      "semantic_path": [
+        "dataList",
+        "@id=96",
+        "name"
+      ],
+      "english": "Season 8: Mirror of Sisyphe Special Achievement Banner",
+      "korean": "시즌 8 시지프의 거울 업적 특별 배너",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Особый баннер за достижения сезона 8: Зеркало Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "821525bb551aa34c1323",
+      "relative_path": "UserBanner.json",
+      "semantic_path": [
+        "dataList",
+        "@id=96",
+        "desc"
+      ],
+      "english": "Obtained from the Mirror of Sisyphe by completing all Achievements\n\nObtaining this item will update the designs of the following with the Special Achievement Banner look: Season 8: Mirror of Sisyphe Commemorative Banner & Special Commemorative Banner\n\n※ This banner displays the number of times you've completed Floor 5 or higher in the 「Season 8 Mirror Dungeon - Mirror of Sisyphe」.",
+      "korean": "시지프의 거울 모든 업적 달성 보상으로 획득\n\n해당 아이템 수령 시 시즌 8 시지프의 거울 기념 배너, 기념 특별 배너 아이템이 업적 특별 배너의 디자인으로 변경됩니다.\n\n※ 「시즌 8 거울 던전 - 시지프의 거울」을 5층 이상 클리어한 횟수와 도달한 최대 층수가 배너에 표시됩니다.",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за выполнение всех достижений Зеркала Сизифа.\n\nПри получении этой награды памятный и особый памятный баннеры сезона 8 «Зеркало Сизифа» получат оформление особого баннера за достижения.\n\n※ На баннере отображаются число прохождений 5-го этажа или выше и наивысший достигнутый этаж в «Зеркальном подземелье сезона 8 — Зеркало Сизифа».",
+      "reason": null
+    },
+    {
+      "queue_id": "a9b507a2a421bb2263b1",
+      "relative_path": "UserTicket-EGOBg.json",
+      "semantic_path": [
+        "dataList",
+        "@id=84",
+        "name"
+      ],
+      "english": "Mirror of Sisyphe",
+      "korean": "시지프의 거울",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Зеркало Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "17b030651e5410b482e3",
+      "relative_path": "UserTicket-EGOBg.json",
+      "semantic_path": [
+        "dataList",
+        "@id=84",
+        "desc"
+      ],
+      "english": "Obtained as a Mirror of Sisyphe Achievement Reward",
+      "korean": "시지프의 거울 업적 보상으로 획득",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за достижения Зеркала Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "570dbda75574634be8a9",
+      "relative_path": "UserTicket-EGOBg.json",
+      "semantic_path": [
+        "dataList",
+        "@id=85",
+        "name"
+      ],
+      "english": "Mirror of Sisyphe - Special Ticket",
+      "korean": "시지프의 거울 - 특별 티켓",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Зеркало Сизифа — особый билет",
+      "reason": null
+    },
+    {
+      "queue_id": "f4f5bf0aa4ee06a7eb22",
+      "relative_path": "UserTicket-EGOBg.json",
+      "semantic_path": [
+        "dataList",
+        "@id=85",
+        "desc"
+      ],
+      "english": "Obtained as a Mirror of Sisyphe Achievement Reward",
+      "korean": "시지프의 거울 업적 보상으로 획득",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за достижения Зеркала Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "171cbac70df76ec0930b",
+      "relative_path": "UserTicket-L.json",
+      "semantic_path": [
+        "dataList",
+        "@id=84",
+        "name"
+      ],
+      "english": "Mirror of Sisyphe",
+      "korean": "시지프의 거울",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Зеркало Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "e13d493bbba6f9a869ff",
+      "relative_path": "UserTicket-L.json",
+      "semantic_path": [
+        "dataList",
+        "@id=84",
+        "desc"
+      ],
+      "english": "Obtained as a Mirror of Sisyphe Achievement Reward",
+      "korean": "시지프의 거울 업적 보상으로 획득",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за достижения Зеркала Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "83f4f068d36cc0cbc617",
+      "relative_path": "UserTicket-L.json",
+      "semantic_path": [
+        "dataList",
+        "@id=85",
+        "name"
+      ],
+      "english": "Mirror of Sisyphe - Special Ticket",
+      "korean": "시지프의 거울 - 특별 티켓",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Зеркало Сизифа — особый билет",
+      "reason": null
+    },
+    {
+      "queue_id": "bbf677c4a30470ef07a4",
+      "relative_path": "UserTicket-L.json",
+      "semantic_path": [
+        "dataList",
+        "@id=85",
+        "desc"
+      ],
+      "english": "Obtained as a Mirror of Sisyphe Achievement Reward",
+      "korean": "시지프의 거울 업적 보상으로 획득",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за достижения Зеркала Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "f533d438633d4df601d1",
+      "relative_path": "UserTicket-R.json",
+      "semantic_path": [
+        "dataList",
+        "@id=84",
+        "name"
+      ],
+      "english": "Mirror of Sisyphe",
+      "korean": "시지프의 거울",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Зеркало Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "4cb3e401e03ee8b0d831",
+      "relative_path": "UserTicket-R.json",
+      "semantic_path": [
+        "dataList",
+        "@id=84",
+        "desc"
+      ],
+      "english": "Obtained as a Mirror of Sisyphe Achievement Reward",
+      "korean": "시지프의 거울 업적 보상으로 획득",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за достижения Зеркала Сизифа",
+      "reason": null
+    },
+    {
+      "queue_id": "b8efb4516bc6d99a771c",
+      "relative_path": "UserTicket-R.json",
+      "semantic_path": [
+        "dataList",
+        "@id=85",
+        "name"
+      ],
+      "english": "Mirror of Sisyphe - Special Ticket",
+      "korean": "시지프의 거울 - 특별 티켓",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Зеркало Сизифа — особый билет",
+      "reason": null
+    },
+    {
+      "queue_id": "0f9c5e383834c22a98ee",
+      "relative_path": "UserTicket-R.json",
+      "semantic_path": [
+        "dataList",
+        "@id=85",
+        "desc"
+      ],
+      "english": "Obtained as a Mirror of Sisyphe Achievement Reward",
+      "korean": "시지프의 거울 업적 보상으로 획득",
+      "previous_english": null,
+      "previous_korean": null,
+      "current_russian": null,
+      "russian": "Награда за достижения Зеркала Сизифа",
+      "reason": null
+    }
+  ]
+}
