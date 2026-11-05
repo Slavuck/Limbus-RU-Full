@@ -27,7 +27,7 @@ class LocalizationReleaseTests(unittest.TestCase):
 
     def test_all_localization_json_files_parse(self) -> None:
         paths = sorted(LOCALIZE.rglob("*.json"))
-        self.assertEqual(len(paths), 2376)  # Accepted 1.118.0 payload.
+        self.assertEqual(len(paths), 2379)  # Accepted 1.118.1 payload.
         for path in paths:
             with path.open("r", encoding="utf-8-sig") as handle:
                 json.load(handle)
@@ -49,6 +49,24 @@ class LocalizationReleaseTests(unittest.TestCase):
             for row in load("MirrorDungeonRentalName.json")["dataList"]
         }
         self.assertEqual(records[31], "Дыхание, Пронзающий")
+
+    def test_mirror_achievement_hotfix_and_moved_keys(self) -> None:
+        def missions(mirror):
+            return {row['id']: row['content'] for row in
+                    load(f'UI_Mission_MirrorDungeon{mirror}Event.json')['dataList']}
+
+        previous, current = missions(5), missions(8)
+        for number in range(201005014, 201005020):
+            key = f'mission_ui_condition_tags_{number}'
+            self.assertNotIn(key, previous)
+            self.assertIn(f'{key}_5', previous)
+            self.assertIn(key, current)
+        refresh = current['mission_ui_condition_tags_201004013']
+        self.assertIn('{0}', refresh)
+        self.assertIn('в магазине', refresh)
+        self.assertIn('«Обновить» и «Обновление ключевого слова»', refresh)
+        rebate = current['mission_ui_condition_tags_201004014']
+        self.assertIn('«Скидочный купон» суммарно {0} раз за одно прохождение', rebate)
 
 
 if __name__ == "__main__":
