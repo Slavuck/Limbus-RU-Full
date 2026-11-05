@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-11-05T01:17:40.139332+00:00",
+  "target_version": "1.118.0",
+  "mode": "full-review",
+  "roots": {
+    "en": "D:\\OVERLORD\\Limbus-RU-Full\\work\\release-1.118.0\\source\\en",
+    "kr": "D:\\OVERLORD\\Limbus-RU-Full\\work\\release-1.118.0\\source\\kr",
+    "ru": "D:\\OVERLORD\\Limbus-RU-Full\\output\\Limbus-RU-Full"
+  },
+  "counts": {
+    "english_files": 2376,
+    "korean_files": 2419,
+    "russian_files": 2376,
+    "visible_strings": 86083,
+    "reviewed": 84740,
+    "intentional": 1343,
+    "pending": 0,
+    "missing_structure": 0,
+    "changed_source": 0,
+    "untranslated": 0,
+    "missing_russian_text": 0,
+    "exact_english_text": 0,
+    "latin_review": 14130,
+    "intentional_literals": 1343,
+    "format_errors": 0,
+    "technical_mismatches": 0,
+    "positional_arrays": 24001,
+    "source_strings_indexed": 272678,
+    "english_without_korean": 10,
+    "korean_without_english": 53,
+    "english_without_russian": 0,
+    "russian_without_english": 0,
+    "duplicate_english_paths": 0,
+    "duplicate_korean_paths": 0,
+    "duplicate_russian_paths": 0
+  },
+  "blocking_count": 0,
+  "report_files": [
+    "changed_source.jsonl",
+    "format_errors.jsonl",
+    "intentional_literals.jsonl",
+    "latin_review.jsonl",
+    "missing_structure.jsonl",
+    "positional_arrays.jsonl",
+    "source_index.jsonl",
+    "technical_mismatches.jsonl",
+    "untranslated.jsonl"
+  ]
+}
