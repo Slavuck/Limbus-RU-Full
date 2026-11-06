@@ -75,6 +75,30 @@ class AuditLocalizationDiffTests(unittest.TestCase):
         self.assertEqual(len(auditor.state.changed_source), 1)
         self.assertEqual(auditor.state.changed_source[0]['status'], 'pending')
 
+    def test_dialogue_in_speaker_label_is_flagged_even_outside_review_scope(self) -> None:
+        cases = (
+            ('teller', 'Big Sis', '누님', 'На станции много объявлений, может, сорвём несколько?'),
+            ('speaker', 'Dante', '단테', '‹Похоже, способ броска зависит от их внешнего вида.›'),
+        )
+        for field, english, korean, russian in cases:
+            with self.subTest(field=field):
+                auditor = self.auditor()
+                auditor.compare_file('A.json', {field: english}, {field: korean}, {field: russian})
+                row, = auditor.state.format_errors
+                self.assertEqual(row['status'], 'pending')
+                self.assertEqual(row['review_reason'], 'possible_dialogue_in_speaker_label')
+
+    def test_sentence_shaped_source_speaker_and_dialogue_are_allowed(self) -> None:
+        auditor = self.auditor()
+        auditor.compare_file(
+            'A.json',
+            {'teller': 'Do you want to get beaten really badly?', 'content': 'Another thing.'},
+            {},
+            {'teller': 'Хочешь, чтобы тебя прямо сейчас очень сильно побили?',
+             'content': 'На станции много объявлений, может, сорвём несколько?'},
+        )
+        self.assertEqual(auditor.state.format_errors, [])
+
     def test_review_decision_cannot_hide_missing_placeholder(self) -> None:
         source = {'desc': 'Gain {0} Haste.'}
         initial = self.auditor()
