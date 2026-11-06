@@ -213,6 +213,19 @@ def markup_balanced(value: str) -> bool:
     return not stack
 
 
+def dialogue_in_speaker_label(english: str, korean: str | None, russian: str) -> bool:
+    label = MARKUP_PAIR_RE.sub("", russian)
+    if not re.search(r'[.!?…][»›>”"]*\s*$', label):
+        return False
+    words = r"[^\W_]+"
+    russian_word_count = len(re.findall(words, label))
+    source_word_count = max(len(re.findall(words, MARKUP_PAIR_RE.sub("", text)))
+                            for text in (english, korean or ""))
+    # Flag a sentence that expands a much shorter source label. Some source
+    # speaker names are sentences themselves.
+    return russian_word_count >= 7 and russian_word_count >= source_word_count + 4
+
+
 def audit_tags(value: str) -> list[str]:
     found: list[tuple[int, str]] = []
     known = {
@@ -771,6 +784,11 @@ class Auditor:
                             "technical_string_mismatch", english=english, russian=russian)
             return
         new_visible_source = is_visible_source(english, key)
+        speaker_label_error = (
+            str(key).casefold() in {"speaker", "teller", "speakername", "tellername"}
+            and ru_value is not None
+            and dialogue_in_speaker_label(english, kr_value, ru_value)
+        )
         missing_or_copied_source = (russian is MISSING or russian == english
                                     or (isinstance(russian, str) and not russian.strip() and bool(english.strip())))
         is_new_output_leaf = (
@@ -790,7 +808,7 @@ class Auditor:
                 or has_recorded_decision
             )
         )
-        if not in_scope:
+        if not in_scope and not speaker_label_error:
             if russian is not MISSING and english != russian and is_technical_key(key):
                 self._issue(
                     self.state.technical_mismatches,
@@ -833,6 +851,8 @@ class Auditor:
             status, reason = "pending", "missing_russian_value"
         elif empty_russian:
             status, reason = "pending", "empty_russian_translation"
+        elif speaker_label_error:
+            status, reason = "pending", "possible_dialogue_in_speaker_label"
         elif placeholder_error or effective_tag_error or markup_error or hangul_error:
             status, reason = "pending", "format_or_source_residue_error"
         elif exact_english and literal_reason is None:
@@ -857,7 +877,8 @@ class Auditor:
             status, reason = "intentional", "confirmed_by_prior_queue"
 
         decision = self.decisions.get(queue_id)
-        if decision and not (placeholder_error or effective_tag_error or markup_error or hangul_error or ru_value is None or empty_russian):
+        if decision and not (placeholder_error or effective_tag_error or markup_error or hangul_error
+                             or speaker_label_error or ru_value is None or empty_russian):
             status = decision["status"]
             reason = decision.get("reason", "recorded_review_decision")
         source_row["review_status"] = status
@@ -901,7 +922,7 @@ class Auditor:
             visible_words = sorted(set(WORD_LATIN_RE.findall(ru_value)))
             if visible_words:
                 self.state.latin_review.append({**row, "latin_words": visible_words})
-        if placeholder_error or effective_tag_error or markup_error or hangul_error:
+        if placeholder_error or effective_tag_error or markup_error or hangul_error or speaker_label_error:
             self.state.format_errors.append(row)
 
 
@@ -923,7 +944,7 @@ def write_summary(report_dir: Path, summary: dict[str, Any]) -> None:
         f"- Точные совпадения с английским без исключения: **{counts['untranslated']}**",
         f"- Отсутствующий русский текст: **{counts['missing_russian_text']}**",
         f"- Русский текст, совпадающий с английским: **{counts['exact_english_text']}**",
-        f"- Ошибки плейсхолдеров, тегов, разметки или корейские остатки: **{counts['format_errors']}**",
+        f"- Ошибки формата, корейские остатки и подозрительные подписи говорящих: **{counts['format_errors']}**",
         f"- Несовпадения технических значений: **{counts['technical_mismatches']}**",
         f"- Массивы с позиционным сопоставлением: **{counts['positional_arrays']}**",
         f"- Строк в полном индексе источника: **{counts['source_strings_indexed']}**",
