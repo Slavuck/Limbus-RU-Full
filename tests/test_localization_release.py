@@ -15,6 +15,18 @@ def load(relative: str) -> dict:
 
 
 class LocalizationReleaseTests(unittest.TestCase):
+    def test_prologue_sinner_cards_keep_manual_line_breaks(self) -> None:
+        cards = load('IntroduceCharacter.json')['dataList']
+        self.assertEqual(len(cards), 12)
+        for card in cards:
+            with self.subTest(sinner=card['id']):
+                description = card['description'].replace('<b>', '').replace('</b>', '')
+                lines = description.splitlines()
+                # The unaffected cards set the line-count and character budgets.
+                # Glyph advances are checked separately when packaging the hotfix.
+                self.assertLessEqual(len(lines), 9)
+                self.assertLessEqual(max(map(len, lines)), 95)
+
     def test_yi_sang_executes_a_prescript_rather_than_a_person(self) -> None:
         passive = next(row for row in load('Passives.json')['dataList'] if row['id'] == 1011503)
         paragraph = next(part for part in passive['desc'].split('\n\n')
