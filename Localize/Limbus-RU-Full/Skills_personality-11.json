@@ -2461,7 +2461,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis:`Татуировки мести [ReinforcedTattooSpiderOutis]`], то наносит 1 [Binding] на следующий ход (Единожды за ход)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis], то наносит 1 [Binding] на следующий ход (Единожды за ход)</style>"
                 }
               ]
             }
@@ -2586,7 +2586,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration]"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis:`Татуировки мести [ReinforcedTattooSpiderOutis]`], то наносит дополнительный Дробящий урон, равный (Сумма силы [Combustion] и [Laceration] на цели)% от итогового урона этой монеты (До 20%)</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis], то наносит дополнительный Дробящий урон, равный (Сумма силы [Combustion] и [Laceration] на цели)% от итогового урона этой монеты (До 20%)</style>"
                 }
               ]
             }
@@ -2789,7 +2789,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion] и повышает счётчик [Combustion] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis:`Татуировки мести [ReinforcedTattooSpiderOutis]`], то наносит 1 [Binding] на следующий ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis], то наносит 1 [Binding] на следующий ход (Единожды за ход)"
                 }
               ]
             }
@@ -2798,7 +2798,7 @@
         {
           "level": 4,
           "name": "Я выпотрошу тебя как рыбу",
-          "desc": "Навык [MiddleFatherSwordFourOutis]\n\nСила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на цели (До 2)\n[WhenUse] Поднимает уровень атаки этого навыка на (Число грехов в наибольшем резонансе / 2) (До 3; округляется вниз)\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis:`Татуировки мести [ReinforcedTattooSpiderOutis]`], то дополнительно наносит 1 [Laceration] монетами этого навыка</style>\n[BeforeAttack] Получает [Combustion], равный количеству монет этого навыка\n[EndSkill] Теряет 5 СД",
+          "desc": "Навык [MiddleFatherSwordFourOutis]\n\nСила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на цели (До 2)\n[WhenUse] Поднимает уровень атаки этого навыка на (Число грехов в наибольшем резонансе / 2) (До 3; округляется вниз)\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis], то дополнительно наносит 1 [Laceration] монетами этого навыка</style>\n[BeforeAttack] Получает [Combustion], равный количеству монет этого навыка\n[EndSkill] Теряет 5 СД",
           "coinlist": [
             {
               "coindescs": [
@@ -2822,7 +2822,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 [Combustion] и повышает счётчик [Combustion] на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis:`Татуировки мести [ReinforcedTattooSpiderOutis]`], то наносит 1 [Binding] <style=\"highlight\">и 1 [Paralysis]</style> на следующий ход (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderOutis], то наносит 1 [Binding] <style=\"highlight\">и 1 [Paralysis]</style> на следующий ход (Единожды за ход)"
                 }
               ]
             }
@@ -3015,7 +3015,7 @@
         {
           "level": 4,
           "name": "Полное и тотальное уничтожение【Леватэйн】",
-          "desc": "Навык [MiddleFatherSwordFourOutis]\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Laceration] на цели (До 3)\nНаносит на (Сумма силы [Combustion] и [Laceration] на цели)% больше урона (До <style=\"highlight\">40%</style>)\n[WhenUse] Поднимает уровень атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n[WhenUse] Сила монет +1 при наличии [ReinforcedTattooSpiderOutis]\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis:`Татуировки мести [ReinforcedTattooSpiderOutis]`], то дополнительно наносит 1 [Laceration] монетами этого навыка</style>\n[BeforeAttack] Получает [Combustion], равный количеству монет этого навыка\n[EndSkill] Теряет 5 СД\n[EndSkill] Тратит всю [ResentmentSpiderOutis]\n<style=\"highlight\">[EndSkill] Если этот навык был использован в качестве контратаки из своего защитного навыка 「Нарушение правил」, то получает 1 [HitDamageUp] на следующий ход (Единожды за ход)</style>",
+          "desc": "Навык [MiddleFatherSwordFourOutis]\n\nИтоговая сила +1 за каждые 4 единицы в сумме силы [Combustion] и [Laceration] на цели (До 3)\nНаносит на (Сумма силы [Combustion] и [Laceration] на цели)% больше урона (До <style=\"highlight\">40%</style>)\n[WhenUse] Поднимает уровень атаки этого навыка на число грехов в наибольшем резонансе (До 6)\n[WhenUse] Сила монет +1 при наличии [ReinforcedTattooSpiderOutis]\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis], то дополнительно наносит 1 [Laceration] монетами этого навыка</style>\n[BeforeAttack] Получает [Combustion], равный количеству монет этого навыка\n[EndSkill] Теряет 5 СД\n[EndSkill] Тратит всю [ResentmentSpiderOutis]\n<style=\"highlight\">[EndSkill] Если этот навык был использован в качестве контратаки из своего защитного навыка 「Нарушение правил」, то получает 1 [HitDamageUp] на следующий ход (Единожды за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -3133,7 +3133,7 @@
         {
           "level": 3,
           "name": "Время распаковки!",
-          "desc": "Внешние эффекты не могут вызвать повторное использование этого навыка\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis:`Татуировки мести [ReinforcedTattooSpiderOutis]`], то наносит монетами этого навыка дополнительный Рубящий урон, равный 25% от их итогового урона</style>\n[EndSkill] Снимает следующую печать с Леватэйна (Запечатанный меч → Первая печать снята → Вторая печать снята → Леватэйн)",
+          "desc": "Внешние эффекты не могут вызвать повторное использование этого навыка\n<style=\"highlight\">[WhenUse] Если есть [ReinforcedTattooSpiderOutis], то наносит монетами этого навыка дополнительный Рубящий урон, равный 25% от их итогового урона</style>\n[EndSkill] Снимает следующую печать с Леватэйна (Запечатанный меч → Первая печать снята → Вторая печать снята → Леватэйн)",
           "coinlist": [
             {
               "coindescs": [
@@ -3185,7 +3185,7 @@
         {
           "level": 3,
           "name": "Хорошая девочка. Твоя жертва ради семьи не будет забыта.",
-          "desc": "[MiddleFatherSwordFourOutis] Эксклюзивный навык\n[CantDuel]\n[CantChangeTarget]\nВнешние эффекты не могут активировать повторное использование этого навыка, и этот умение не активирует защитные навыки\nФинальная +1 Силы за каждую 4 ([Combustion] + [Laceration]) на главной цели (максимум 3)\n[WhenUse] итоговая сила +1 и наносит +10% урона за каждый [ReinforcedTattooSpiderOutis] по себе (максимальный 3, максимум 100%).\n[WhenUse] Если среди целей в Дом Пауков: Ученик Среднего пальца Ишмаэль — наносите +100% урон\n[EndSkill] Потреблять всё [ResentmentSpiderOutis] на себе и получать 5 [ResentmentSpiderOutis]\n[EndSkill] Если целевой союзник убит, получайте 10 [ResentmentSpiderOutis]",
+          "desc": "[MiddleFatherSwordFourOutis] Эксклюзивный навык\n[CantDuel]\n[CantChangeTarget]\nВнешние эффекты не могут активировать повторное использование этого навыка, и этот умение не активирует защитные навыки\nФинальная +1 Силы за каждую 4 ([Combustion] + [Laceration]) на главной цели (максимум 3)\n[WhenUse] итоговая сила +1 и наносит +10% урона за каждый [ReinforcedTattooSpiderOutis] по себе (максимальный 3, максимум 100%).\n[WhenUse] Если среди целей в Дом Пауков: Ученик Среднего пальца Измаил — наносите +100% урон\n[EndSkill] Потреблять всё [ResentmentSpiderOutis] на себе и получать 5 [ResentmentSpiderOutis]\n[EndSkill] Если целевой союзник убит, получайте 10 [ResentmentSpiderOutis]",
           "coinlist": [
             {
               "coindescs": [
