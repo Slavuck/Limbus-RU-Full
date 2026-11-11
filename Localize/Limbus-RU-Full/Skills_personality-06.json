@@ -3066,7 +3066,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`], то наносит ей ещё 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]"
+                  "desc": "[OnSucceedAttack] Если цель имеет [TiedRopeHonglu], то наносит ей ещё 1 [TiedRopeHonglu]"
                 }
               ]
             }
@@ -3100,7 +3100,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`], то наносит ей ещё 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]"
+                  "desc": "[OnSucceedAttack] Если цель имеет [TiedRopeHonglu], то наносит ей ещё 1 [TiedRopeHonglu]"
                 }
               ]
             }
@@ -3109,7 +3109,7 @@
         {
           "level": 4,
           "name": "Сужение алых пут",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 против целей, имеющих [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]\n[WhenUse] Повышает свой счётчик [Breath] на 3",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 против целей, имеющих [TiedRopeHonglu]\n[WhenUse] Повышает свой счётчик [Breath] на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -3134,7 +3134,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`], то наносит ей ещё 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]"
+                  "desc": "[OnSucceedAttack] Если цель имеет [TiedRopeHonglu], то наносит ей ещё 1 [TiedRopeHonglu]"
                 }
               ]
             }
@@ -3163,7 +3163,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu] `] с неё и вновь подкидывает эту монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и вновь подкидывает эту монету 1 раз"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3196,7 +3196,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu] `] с неё и вновь подкидывает эту монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и вновь подкидывает эту монету 1 раз"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3214,7 +3214,7 @@
         {
           "level": 4,
           "name": "Отрывной разрез",
-          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 против целей, имеющих [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]\n[WhenUse] Повышает свой счётчик [Breath] на 2",
+          "desc": "[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 против целей, имеющих [TiedRopeHonglu]\n[WhenUse] Повышает свой счётчик [Breath] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -3229,7 +3229,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu] `] с неё и вновь подкидывает эту монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и вновь подкидывает эту монету 1 раз"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3260,7 +3260,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]"
+                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей 1 [TiedRopeHonglu]"
                 }
               ]
             },
@@ -3304,7 +3304,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей 1 [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]"
+                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей 1 [TiedRopeHonglu]"
                 }
               ]
             },
@@ -3359,7 +3359,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]"
+                  "desc": "[OnSucceedAttack] Наносит [TiedRopeHonglu]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration]"
@@ -3379,7 +3379,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит [TiedRopeHonglu:`Опутывание [TiedRopeHonglu]`]"
+                  "desc": "[OnSucceedAttack] Наносит [TiedRopeHonglu]"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Laceration]"
