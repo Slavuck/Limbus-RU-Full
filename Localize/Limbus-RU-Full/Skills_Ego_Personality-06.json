@@ -1310,6 +1310,196 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2061111,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, заточенный слезами",
+          "abName": "Рыцарь отчаяния",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\nУрон +20% за каждый [DespairKnightEGOSword] у себя\n[BeforeAttack] Урон +1% за каждые 20 [DespairKnightEGOMind] у себя\n[BeforeAttack] Если цель — противник, вес атаки +2\n[BeforeAttack] Увеличить счётчик [Breath] на 3\n[BeforeAttack] Увеличить счётчик [Charge] на 6\n[BeforeAttack] При 999 [DespairKnightEGOMind] расходует все заряды [DespairKnightEGOMind] и получает 1 [CriticalDamageUp] на следующий ход.\n\n[EndSkill] Получить 1 [DespairKnightEGOSword]\n[EndSkill] Получить 100 [DespairKnightEGOMind]\n\n[EndSkill] Если цель — союзник:\n- Если цель — Идентичность [PersonalityBreath] или [PersonalityCharge], наложить 2 [AttackDmgUp]\n- Наложить 5 силы [Breath]\n- Увеличить счётчик [Breath] цели на 3\n- Увеличить счётчик [Charge] цели на 6\n- Наложить щит в размере 20% от максимума ОЗ бойца\n- Наложить [DespairKnightEGOProtect]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Меч, заточенный слезами",
+          "abName": "Рыцарь отчаяния",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\nУрон +<style=\"highlight\">30</style>% за каждый [DespairKnightEGOSword] у себя\n<style=\"highlight\">Урон +30% за каждую единицу веса атаки сверх числа фактических целей (в сосредоточенном бою считаются части)</style>\n[BeforeAttack] Урон +1% за каждые 20 [DespairKnightEGOMind] у себя\n[BeforeAttack] Если цель — противник, вес атаки +2\n[BeforeAttack] Увеличить счётчик [Breath] на 3\n[BeforeAttack] Увеличить счётчик [Charge] на 6\n[BeforeAttack] При 999 [DespairKnightEGOMind] расходует все заряды [DespairKnightEGOMind] и получает 1 [CriticalDamageUp] на следующий ход.\n\n[EndSkill] Получить 1 [DespairKnightEGOSword]\n[EndSkill] Получить 100 [DespairKnightEGOMind]\n\n[EndSkill] Если цель — союзник:\n- Если цель — Идентичность [PersonalityBreath] или [PersonalityCharge], наложить 2 [AttackDmgUp]\n- Наложить 5 силы [Breath]\n- Увеличить счётчик [Breath] цели на 3\n- Увеличить счётчик [Charge] цели на 6\n- Наложить щит в размере 20% от максимума ОЗ бойца\n- Наложить [DespairKnightEGOProtect]\n<style=\"highlight\">- Восстановить по 15 СД себе и цели</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Меч, заточенный слезами",
+          "abName": "Рыцарь отчаяния",
+          "desc": "[CantChangeTarget]\n[SupportAlly]\nУрон +<style=\"highlight\">50</style>% за каждый [DespairKnightEGOSword] у себя\nУрон +<style=\"highlight\">50</style>% за каждую единицу веса атаки сверх числа фактических целей (в сосредоточенном бою считаются части)\n[BeforeAttack] Урон +1% за каждые 20 [DespairKnightEGOMind] у себя\n[BeforeAttack] Если цель — противник, вес атаки +2\n[BeforeAttack] Увеличить счётчик [Breath] на 3\n[BeforeAttack] Увеличить счётчик [Charge] на 6\n[BeforeAttack] При 999 [DespairKnightEGOMind] расходует все заряды [DespairKnightEGOMind] и получает 1 [CriticalDamageUp] на следующий ход.\n\n[EndSkill] Получить 1 [DespairKnightEGOSword]\n[EndSkill] Получить 100 [DespairKnightEGOMind]\n\n[EndSkill] Если цель — союзник:\n- Если цель — Идентичность [PersonalityBreath] или [PersonalityCharge], наложить 2 [AttackDmgUp]\n- Наложить 5 силы [Breath]\n- Увеличить счётчик [Breath] цели на 3\n- Увеличить счётчик [Charge] цели на 6\n- Наложить щит в размере 20% от максимума ОЗ бойца\n- Наложить [DespairKnightEGOProtect]\n- Восстановить по 15 СД себе и цели\n<style=\"highlight\">- Снять с цели 1 случайный снимаемый негативный эффект</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Критический урон +30%</style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2061121,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Меч, заточенный слезами",
+          "abName": "Рыцарь отчаяния",
+          "desc": "[CantIdentify]\nАтакует случайную цель\nИтоговая сила +2 за каждый [DespairKnightEGOSword] у себя\n[BeforeAttack] Урон +1% за каждые 10 [DespairKnightEGOMind] у себя\n[BeforeAttack] Увеличить счётчик [Breath] на 3\n[BeforeAttack] Увеличить счётчик [Charge] на 6\n[BeforeAttack] Базовая сила -3 за каждую разбитую монету (макс. 9)\n\n[EndSkill] Восстанавливает СД в размере (число [DespairKnightEGOSword] на себе × 5), затем [DespairKnightEGOSword] исчезает.\n[EndSkill] [DespairKnightEGOMind] у себя исчезает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Меч, заточенный слезами",
+          "abName": "Рыцарь отчаяния",
+          "desc": "[CantIdentify]\nАтакует случайную цель\nИтоговая сила +2 за каждый [DespairKnightEGOSword] у себя\n<style=\"highlight\">Урон +30% за каждую единицу веса атаки сверх числа фактических целей (в сосредоточенном бою считаются части)</style>\n[BeforeAttack] Урон +1% за каждые 10 [DespairKnightEGOMind] у себя\n[BeforeAttack] Увеличить счётчик [Breath] на 3\n[BeforeAttack] Увеличить счётчик [Charge] на 6\n[BeforeAttack] Базовая сила -3 за каждую разбитую монету (макс. 9)\n\n[EndSkill] Восстанавливает СД в размере (число [DespairKnightEGOSword] на себе × 5), затем [DespairKnightEGOSword] исчезает.\n[EndSkill] [DespairKnightEGOMind] у себя исчезает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получить 1 [PenetrateResultUp] на следующий ход (1 раз за ход)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получить 1 [PenetrateDamageUp] на следующий ход (1 раз за ход)</style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Получить 1 [IndigoDamageUp] на следующий ход (1 раз за ход)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Меч, заточенный слезами",
+          "abName": "Рыцарь отчаяния",
+          "desc": "[CantIdentify]\nАтакует случайную цель\n<style=\"highlight\">При 999 [DespairKnightEGOMind] итоговая сила +3</style>\nИтоговая сила +<style=\"highlight\">3</style> за каждый [DespairKnightEGOSword] у себя\nУрон +<style=\"highlight\">50</style>% за каждую единицу веса атаки сверх числа фактических целей (в сосредоточенном бою считаются части)\n<style=\"highlight\">Урон +10% за каждого погибшего союзника</style>\n[BeforeAttack] Урон +1% за каждые 10 [DespairKnightEGOMind] у себя\n[BeforeAttack] Увеличить счётчик [Breath] на 3\n[BeforeAttack] Увеличить счётчик [Charge] на 6\n[BeforeAttack] Базовая сила -3 за каждую разбитую монету (макс. 9)\n\n[EndSkill] Восстанавливает СД в размере (число [DespairKnightEGOSword] на себе × 5), затем [DespairKnightEGOSword] исчезает.\n[EndSkill] [DespairKnightEGOMind] у себя исчезает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 [PenetrateResultUp] на следующий ход (1 раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 [PenetrateDamageUp] на следующий ход (1 раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">Критический урон +30%</style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Наложить 1 [PenetrateTakeDamageUp] на следующий ход</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 [IndigoDamageUp] на следующий ход (1 раз за ход)<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

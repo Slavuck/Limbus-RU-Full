@@ -1,0 +1,1294 @@
+{
+  "dataList": [
+    {
+      "id": 158001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выполнить поручение",
+          "desc": "[BeforeAttack] Восстанавливает 10 СД.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вспышка зари",
+          "desc": "[WhenUse] При 15+ [DawnOfficeStigmaSOne] навык получает дополнительную монету 2 в виде [SuperCoin].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Vibration]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Клинок заката",
+          "desc": "[WhenUse] При 15+ [DawnOfficeStigmaSOne] действуют следующие эффекты:\n- Навык получает дополнительную монету 3 в виде [SuperCoin].\n- При попадании дополнительной монетой вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Vibration]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Рассекатель зари",
+          "desc": "[WhenUse] Итоговая сила +1 и урон +10% за каждые 10 [DawnOfficeStigmaSOne] на себе.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [Switch_Vibration] в [VibrationIgnition]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Один раз активирует [Combustion] на цели. Цель теряет 1 единицу счётчика [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158005,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "На заре",
+          "desc": "[WhenUse] Наносит +20% урона за каждую цель (макс. 60%).\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.\n[EndSkill] Восстанавливает (суммарная сила [Combustion] на всех целях × 2)% ОЗ (макс. 30%).\n[EndSkill] Расходует все [DawnOfficeStigmaSOne] и [Combustion] на себе.",
+          "flavor": "На одном из бесчисленных полей Дымной войны этот приём расплавил и рассёк последнюю пару крыльев некоего решающего оружия вместе с самим пространством вокруг него, возвестив конец зари.\n\n«Ха… Чуть не убило…!»\n«Госпожа, как думаете… сможете добить эту тварь?»",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 5 [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 5 [Vibration]."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [Switch_Vibration] в [VibrationIgnition]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Дважды вызывает [VibrationExplosion]."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Дважды активирует [Combustion] на цели."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158006,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Защитник",
+          "desc": "[CanDuelGuard]\n[StartBattle] Получает 1 [SupportProtect].\n[StartBattle] Получает Щит в размере 20% от макс. ОЗ.\n[StartBattle] Получает [Protection] по числу противников с [Combustion].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158007,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Марево",
+          "desc": "[DuelCounter]\nОсобый навык [SupportProtect].\n[WhenUse] Получает 5 [DawnOfficeStigmaSOne].\n[WhenUse] Все союзники восстанавливают 6 СД.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +1 к счётчику [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +1 к счётчику [Vibration]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выполнить поручение",
+          "desc": "[BeforeAttack] Восстанавливает 10 СД.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [PlusCoinValueUp] на следующий ход."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Взмах бабочки",
+          "desc": "[WhenUse] Получает 6 [DawnOfficeStigmaYOne].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Повторяет эту монету за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 2 раза за навык)."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Vibration]."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выброс",
+          "desc": "[WhenUse] Получает 8 [DawnOfficeStigmaYOne].\n[WhenUse] Итоговая сила +1 за каждые 10 [DawnOfficeStigmaYOne] на себе.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [Switch_Vibration] в [VibrationIgnition]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Один раз активирует [Combustion] на цели. Цель теряет 1 единицу счётчика [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Повторяет эту монету за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 2 раза за навык)."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Один раз активирует [Combustion] на цели. Цель теряет 1 единицу счётчика [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выброс — полдень",
+          "desc": "[WideAreaRampage]\n[WhenUse] Наносит +20% урона за каждую цель (макс. 60%).\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.\n[BeforeAttack] Вызывает у всех целей [Switch_Vibration] в [VibrationIgnition].\n[EndSkill] Восстанавливает (суммарная сила [Combustion] на всех целях)% ОЗ (макс. 15%).\n[EndSkill] Восстанавливает (сила [Combustion] на себе)% ОЗ (макс. 15%).\n[EndSkill] Расходует все [DawnOfficeStigmaYOne] и [Combustion] на себе.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Повторяет эту монету за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 2 раза за навык)."
+                },
+                {
+                  "desc": "- При повторе эта монета поражает все цели атаки."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Combustion]."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack]"
+                },
+                {
+                  "desc": "- [UnBrokenCoinOnSucceedAttack] Дважды вызывает [VibrationExplosion]."
+                },
+                {
+                  "desc": "- [UnBrokenCoinOnSucceedAttack] Дважды активирует [Combustion] на цели."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заклеймить",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>При получении удара повторяет навык за каждые 10 [DawnOfficeStigmaYOne], имевшиеся в начале хода (макс. 2 раза).</color></mark></b></u>\n[StartBattle] Итоговая сила +1 за каждые 2 [DawnOfficeStigmaYOne] (макс. 5).\n[StartBattle] Получает [DefenseUp] по числу противников с [Combustion].\n[WhenUse] Накладывает на 1 больше отрицательного эффекта за каждые 10 [DawnOfficeStigmaYOne] на себе.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +1 к счётчику [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Vibration]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +1 к счётчику [Vibration]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Поддержка атаки",
+          "desc": "[WhenUse]\n- Наносит +2% урона за каждый [DawnOfficeStigmaYOne] на себе.\n- Итоговая сила +1 за каждые 10 [DawnOfficeStigmaYOne] на себе (макс. 3).",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +1 к счётчику [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +1 к счётчику [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Выполнить поручение",
+          "desc": "[BeforeAttack] Восстанавливает 20 СД.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [ResultEnhancement] на следующий ход."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Клинок заката",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Combustion] на цели (макс. 3).",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Заклеймить",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Combustion] на цели (макс. 2).\n[BeforeAttack] Восстанавливает 15 СД.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 5 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Дважды активирует [Combustion] на цели. Цель теряет 2 единицы счётчика [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Уклонение",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Combustion] на цели (макс. 3).\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] Восстанавливает 15% ОЗ.</color></mark></b></u>",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Молниеносный укол",
+          "desc": "[WhenUse] При 3 [WalpuTenWedgeOffice] сила столкновения +1.\n[WinDuel] Получает +2 к счётчику [Breath].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Накладывает +1 к счётчику [Vibration]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искрящееся копьё",
+          "desc": "[WhenUse] При 3 [WalpuTenWedgeOffice] сила столкновения +2.\n[WinDuel] Получает +2 к счётчику [Breath].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 3 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration] и +1 к счётчику [Vibration]."
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пронзание насквозь",
+          "desc": "Наносит +(<color=#ff6000><mark color=#ff000040><b><u>текущая доля ОЗ цели в процентах</color></mark></b></u> − 50)% урона (макс. 50%, мин. 0%).\nКритические попадания наносят +((сила [Breath] на себе + сила [Vibration] на цели) × 2,5)% урона (макс. 50%).\n[WhenUse] При 3 [WalpuTenWedgeOffice] сила столкновения +6.\n[WinDuel] Получает 2 [Breath] и +3 к счётчику [Breath].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели есть [Switch_Vibration] или [FusionVibration],</color></mark></b></u> эта монета наносит +50% урона."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration] и +2 к счётчику [Vibration]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [PenetrateTakeDamageUp] (1 раз за ход)."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], вызывает [Switch_Vibration] в [VibrationCollapse]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1 (1 раз за навык)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Принять клиновой строй",
+          "desc": "Наносит +30% урона за каждую единицу веса атаки сверх фактического числа целей.\n[WhenUse]\n- Получает +3 к счётчику [Breath].\n- <color=#ff6000><mark color=#ff000040><b><u>Получает вес атаки по числу прочих союзников из Офиса Клина[TabExplain], способных действовать</color></mark></b></u> (макс. 2).\n[EndSkill]\n- Расходует 25 [WalpuTenComboWedge] на себе.\n- На следующий ход получает [WalpuTenComboWedge] в размере (число неиспользованных монет × 5).\n- На следующий ход накладывает 1 [PenetrateResultUp] на прочих союзников из Офиса Клина[TabExplain].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памела"
+                },
+                {
+                  "desc": "- Наносит +30% урона."
+                },
+                {
+                  "desc": "- При попадании последней монетой вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +3 к счётчику [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памели"
+                },
+                {
+                  "desc": "- Наносит +30% урона."
+                },
+                {
+                  "desc": "- При попадании последней монетой вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Критические попадания наносят +30% урона."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перевести дух",
+          "desc": "[WhenUse] Сила монет +1 за каждые 3 силы [Breath] на себе (макс. 2).\n[OnSucceedEvade]\n- Получает 2 [Breath] (3 раза за ход).\n- Получает 2 [Agility] на следующий ход (1 раз за ход).\n[EndBattle] Получает 1 [PenetrateResultUp] и 1 [PenetrateDamageUp] на следующий ход (1 раз за ход).",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "В сторону.",
+          "desc": "[DuelCounter]\nОсобый навык защиты союзника[TabExplain].\n[WhenUse] Сила столкновения +1 за каждые 20% недостающих ОЗ (макс. 4).\n[WhenUse]\n- Этот боец и союзник, на котором он использовал [SupportProtect], восстанавливают по 5 СД.\n- Получает Щит в размере 15% своих макс. ОЗ (1 раз за ход).\n- Получает 2 [Protection] (1 раз за ход).",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Vibration]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Vibration]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Столкновение",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 ед. суммы (сила [Breath] на себе + сила [Vibration] на цели) (макс. 3).\n[WhenUse] Получает 2 [Breath].\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памела</color></mark></b></u> (1 раз за ход).\n- Получает 1 [WalpuTenBattleFieldKnow].\n- Повторяет последнюю монету (1 раз за навык).",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +5% урона за каждый [WalpuTenBattleFieldKnow] на себе (макс. 20%)."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Накладывает 1 [WalpuTenWedgeMarkSilver]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "На волне натиска",
+          "desc": "[WhenUse] При сумме (сила [Breath] на себе + сила [Vibration] на цели) 6 или больше сила монет +1.\n[WhenUse] Получает 3 [Breath].",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +5% урона за каждый [WalpuTenBattleFieldKnow] на себе (макс. 20%)."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подсечка копьём",
+          "desc": "[WhenUse] При сумме (сила [Breath] на себе + сила [Vibration] на цели) 6 или больше сила монет +1.\n[WhenUse] Получает 2 [Breath].\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памела</color></mark></b></u> (1 раз за ход).\n- Получает 1 [WalpuTenBattleFieldKnow].\n- Наносит +30% урона.",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +3 к счётчику [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +10% урона за каждый [WalpuTenBattleFieldKnow] на себе (макс. 40%)."
+                },
+                {
+                  "desc": "Наносит +2% урона за каждую единицу силы [Vibration] на цели (макс. 20%)."
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели есть [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], вызывает [Switch_Vibration] в [VibrationCollapse]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Я пронзу тебя одним махом",
+          "desc": "Сила столкновения +1 за каждый [WalpuTenWedgeMarkSilver] на цели (макс. 5).\n[WhenUse] При сумме (сила [Breath] на себе + сила [Vibration] на цели) 6 или больше сила монет +1.\n[WhenUse] Получает 2 [Breath].\n[WhenUse] Превращает все монеты в [SuperCoin].\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памела</color></mark></b></u> (1 раз за ход).\n- Получает 1 [WalpuTenBattleFieldKnow].\n- Наносит +30% урона.\n[EndSkill] Расходует все [WalpuTenWedgeMarkSilver] на цели.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +3 к счётчику [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +10% урона за каждый [WalpuTenBattleFieldKnow] на себе (макс. 40%)."
+                },
+                {
+                  "desc": "Наносит +2% урона за каждую единицу силы [Vibration] на цели (макс. 40%)."
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели есть [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повторяет эту монету (1 раз за навык)."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Если у цели нет [Switch_Vibration], вызывает [Switch_Vibration] в [VibrationCollapse]."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наносит колющий урон в размере (число [WalpuTenWedgeMarkSilver] на цели × 10)% итогового урона этой монеты (макс. 50%)."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Дважды вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перевести дух",
+          "desc": "[WhenUse] При силе [Breath] 6 или больше сила монет +1.\n[OnSucceedEvade] Получает 2 [Breath] (1 раз за навык).\n[OnSucceedEvade] Получает 1 [Agility] на следующий ход (1 раз за ход).\n[EndBattle] Получает 1 [PenetrateResultUp] на следующий ход (1 раз за ход).",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Столкновение",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 ед. суммы (сила [Breath] на себе + сила [Vibration] на цели) (макс. 3).\n[WhenUse] Получает 4 [Breath].\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памели</color></mark></b></u> (1 раз за ход).\n- Получает 1 [WalpuTenBattleFieldKnow].\n- Повторяет последнюю монету (1 раз за навык).\n[WinDuel] Получает 1 [PenetrateDamageUp] на следующий ход (1 раз за ход).\n[BeforeAttack] Итоговая сила последней монеты +1 за каждый [WalpuTenBattleFieldKnow] на себе (макс. 2).",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 2 [Vibration]."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Накладывает 1 [WalpuTenWedgeMarkGold]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Удар в брешь",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 ед. суммы (сила [Breath] на себе + сила [Vibration] на цели) (макс. 3).\n[WhenUse] Получает 3 [Breath].\n[WinDuel] Накладывает 1 [Vibration], вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1.\n[BeforeAttack] Итоговая сила последней монеты +1 за каждый [WalpuTenBattleFieldKnow] на себе (макс. 3).",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 2 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +2 к счётчику [Vibration]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Подсечка копьём",
+          "desc": "[WhenUse] При сумме (сила [Breath] на себе + сила [Vibration] на цели) 6 или больше сила монет +1.\n[WhenUse] Получает 2 [Breath].\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памели</color></mark></b></u> (1 раз за ход).\n- Получает 1 [WalpuTenBattleFieldKnow].\n- Наносит +40% урона.\n[WinDuel] Накладывает 2 [Vibration], вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1.\n[BeforeAttack] Итоговая сила последней монеты +1 за каждый [WalpuTenBattleFieldKnow] на себе (макс. 4).",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +3 к счётчику [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +2% урона за каждую единицу силы [Vibration] на цели (макс. 20%)."
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели есть [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], вызывает [Switch_Vibration] в [VibrationCollapse]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 1."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Моё копьё пронзит тебя насквозь.",
+          "desc": "Сила столкновения +1 за каждый [WalpuTenWedgeMarkGold] на цели (макс. 5).\n[WhenUse] При сумме (сила [Breath] на себе + сила [Vibration] на цели) 6 или больше сила монет +1.\n[WhenUse] Получает 2 [Breath].\n[WhenUse] Превращает все монеты в [SuperCoin].\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памели</color></mark></b></u> (1 раз за ход).\n- Получает 1 [WalpuTenBattleFieldKnow].\n- Наносит +30% урона.\n[WinDuel] Накладывает на цель 4 [Vibration], затем вызывает [VibrationExplosion].\n[BeforeAttack] Итоговая сила последней монеты +(число [WalpuTenBattleFieldKnow] на себе + число [WalpuTenWedgeMarkGold] на цели) (макс. 8).\n[EndSkill] Расходует все [WalpuTenWedgeMarkGold] на цели.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получает 4 [Breath]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +3 к счётчику [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Наносит +2% урона за каждую единицу силы [Vibration] на цели (макс. 40%)."
+                },
+                {
+                  "desc": "<color=#ff6000><mark color=#ff000040><b><u>Если у цели есть [Switch_Vibration] или [FusionVibration],</color></mark></b></u> наносит +30% урона."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], вызывает [Switch_Vibration] в [VibrationCollapse]."
+                },
+                {
+                  "desc": "[OnSucceedAttack] Дважды вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перевести дух",
+          "desc": "[WhenUse] При силе [Breath] 6 или больше сила монет +1.\n[OnSucceedEvade] Получает 3 [Breath] (1 раз за навык).\n[OnSucceedEvade] Получает 1 [Agility] на следующий ход (1 раз за ход).\n[EndBattle] Получает 1 [PenetrateResultUp] на следующий ход (1 раз за ход).",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сожаление",
+          "desc": "[WhenUse] Итоговая сила +2 за каждые 4 [Combustion] на цели (макс. 4).\n[BeforeAttack] <color=#ff6000><mark color=#ff000040><b><u>При 20+/40+ СД</color></mark></b></u> наносит +50%/+100% урона.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 5 [Combustion]."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 5 [Vibration]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Дважды активирует [Combustion] на цели. Цель теряет 2 единицы счётчика [Combustion]."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Дважды вызывает [VibrationExplosion], затем снижает счётчик [Vibration] цели на 2."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Сумерки скорби",
+          "desc": "[WhenUse] При 40+ СД получает 1 [ParryingResultUp] на следующий ход.\n[BeforeAttack] Восстанавливает 10 СД.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 4 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 4 [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Щит из перьев",
+          "desc": "[WhenUse] Получает 2 [Protection].\n- <color=#ff6000><mark color=#ff000040><b><u>Если на цели есть [Combustion],</color></mark></b></u> получает ещё 2 [Protection].\n[WhenUse] При 30+ СД получает 2 [DefenseUp] на следующий ход.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +3 к счётчику [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает +3 к счётчику [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Обжигающий меч",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 6 [Combustion] на цели (макс. 2).\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.\n[BeforeAttack] При 40+/45+ СД получает +1/+2 к весу атаки.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает +3 к счётчику [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 6 [Combustion]."
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 3 [PhilipWax]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Яростный рывок",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 6 [Combustion] на цели (макс. 2).\n[BeforeAttack] Наносит +2% урона за каждые 2 [Combustion] на цели (макс. 30%).\n[EndSkill] Теряет СД по числу повторов монеты 1.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 4 [Combustion]."
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Повторяет эту монету (2 раза за навык)."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Накладывает +2 к счётчику [Combustion]."
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Накладывает 2 [PhilipWax]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 158705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пылающий удар",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>Может вступить в столкновение этим навыком независимо от скорости.</color></mark></b></u>\nВ ход, на который назначен навык, <color=#ff6000><mark color=#ff000040><b><u>получает 2 [ResultReduction] при попадании по нему атакующим навыком</color></mark></b></u> (1 раз за навык; 3 раза за ход).\n[WhenUse] Итоговая сила +2 за каждые 4 [Combustion] на основной цели (макс. 4).\n[BeforeAttack] При 20+/40+ СД наносит +50%/+100% урона.\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.\n[EndSkill] Завершает текущий ход.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Накладывает 10 [Combustion]."
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Дважды активирует [Combustion] на цели. Цель теряет 2 единицы счётчика [Combustion]."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

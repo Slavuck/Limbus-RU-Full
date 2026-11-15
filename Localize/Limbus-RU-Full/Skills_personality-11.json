@@ -3209,6 +3209,474 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1111601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Стремительный выпад",
+          "desc": "[WhenUse] Увеличить счётчик [Breath] у себя на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Увеличить счётчик [Vibration] на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Стремительный выпад",
+          "desc": "<style=\"highlight\">[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1</style>\n[WhenUse] Увеличить счётчик [Breath] у себя на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Увеличить счётчик [Vibration] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Стремительный выпад",
+          "desc": "[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1\n<style=\"highlight\">[WhenUse] При 3 [WedgeOffice] у себя итоговая сила +1</style>\n[WhenUse] Увеличить счётчик [Breath] у себя на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] Увеличить счётчик [Vibration] на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Искрящееся копьё",
+          "desc": "[StartBattle] всем союзникам, включая бойца Идентичностям Офиса Клина[TabExplain] [PenetrateDamageUp] 1 наложить (1 раз за ход)\n[WhenUse] Если неэкипированный навык в этом слоте — «Стремительный выпад», сбросить его\n[WhenUse] Увеличить счётчик [Breath] у себя на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration] и увеличить счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Искрящееся копьё",
+          "desc": "[StartBattle] всем союзникам, включая бойца Идентичностям Офиса Клина[TabExplain] [PenetrateDamageUp] 1 наложить (1 раз за ход)\n[WhenUse] Если неэкипированный навык в этом слоте — «Стремительный выпад», сбросить его\n<style=\"highlight\">[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1</style>\n<style=\"highlight\">[WhenUse] За каждый [WedgeOffice] у себя итоговая сила +1 (макс. 3)</style>\n[WhenUse] Увеличить счётчик [Breath] у себя на 2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration] и увеличить счётчик [Vibration] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Искрящееся копьё",
+          "desc": "[StartBattle] Накладывает 1 [PenetrateDamageUp] на все союзные Идентичности Офиса Клина[TabExplain], включая эту Идентичность (1 раз за ход).\n[WhenUse] Если неэкипированный навык в этом слоте — «Стремительный выпад», сбросить его\n[WhenUse] За каждые 6 суммарной силы [Breath] у себя и [Vibration] у цели сила монеты +1 (макс. <style=\"highlight\">2</style>)\n[WhenUse] За каждый [WedgeOffice] у себя итоговая сила +1 (макс. 3)\n[WhenUse] Увеличить счётчик [Breath] у себя на <style=\"highlight\">3</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 3 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration] и увеличить счётчик [Vibration] на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Пронзание насквозь насквозь",
+          "desc": "[WhenUse] За каждые 4 суммарной силы [Breath] у себя и [Vibration] у цели итоговая сила +1 (макс. 3)\n[WhenUse] Получить 2 [Breath]\n[WhenUse] Увеличить счётчик [Breath] у себя на 3\n\n[ComboSkill]: Офис Рассвета[TabExplain] представитель Грегор\n- [WhenUse] Получить 1 [ComboWedgeDawn] (1 раз за навык)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Если цель под [Switch_Vibration] или [FusionVibration], урон этой монеты +50%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], преобразовать [Switch_Vibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 100% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Рассвета[TabExplain] представитель Грегор\n- урон +30%\n- [OnSucceedAttack] [Vibration] счётчик 2 увеличить"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пронзание насквозь насквозь",
+          "desc": "<style=\"highlight\">[WhenUse] Урон +([Vibration] сила × счётчик [Vibration] у цели)% (макс. 100%)</style>\n<style=\"highlight\">[WhenUse] Критический урон +([Breath] сила × счётчик [Breath] у себя)% (макс. 100%)</style>\n[WhenUse] За каждые 4 суммарной силы [Breath] у себя и [Vibration] у цели итоговая сила +1 (макс. <style=\"highlight\">5</style>)\n<style=\"highlight\">[WhenUse] Если у себя 3 [WedgeOffice], сила столкновения +6</style>\n[WhenUse] Получить 2 [Breath]\n[WhenUse] Увеличить счётчик [Breath] у себя на 3\n\n[ComboSkill]: Представитель Офиса Рассвета[TabExplain] Грегор\n- [WhenUse] Получить 1 [ComboWedgeDawn] (1 раз за навык)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "Если цель под [Switch_Vibration] или [FusionVibration], урон этой монеты +50%<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], преобразовать [Switch_Vibration] в [VibrationCollapse]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 2<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] [PenetrateTakeDamageUp] 2 наложить (1 раз за ход)</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 100% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Рассвета[TabExplain] представитель Грегор\n- урон +30%\n- [OnSucceedAttack] [Vibration] счётчик 2 увеличить<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перевести дух",
+          "desc": "[StartBattle] [SupportProtect] 1 получить (2 раза за ход)\n[OnSucceedEvade]\n- Получить 2 [Breath] (3 раза за ход)\n- Получить 2 [Agility] на следующий ход (1 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Перевести дух",
+          "desc": "[StartBattle] [SupportProtect] 1 получить (2 раза за ход)\n<style=\"highlight\">[WhenUse] За каждые 3 силы [Breath] у себя сила монеты +1 (макс. 2)</style>\n[OnSucceedEvade]\n- Получить 2 [Breath] (3 раза за ход)\n- Получить 2 [Agility] на следующий ход (1 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111605,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Принять клиновой строй",
+          "desc": "[CantDuel]\n[WhenUse] Если сила [Breath] у себя не меньше 8, сила монеты +1\n[WhenUse] Если сила [Vibration] у цели не меньше 8, итоговая сила +1\n[WhenUse] Увеличить счётчик [Breath] у себя на 3\n[EndSkill]\n- Израсходовать 25 [ComboWedge] у себя\n- Наложить 1 [PenetrateResultUp] на следующий ход на союзные Идентичности Офиса Клина[TabExplain], кроме себя\n- Получить 1 [ComboWedgeDawn]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Клина[TabExplain] фиксер Дон Кихот\n- урон +30%\n- последняя монета при попадании [VibrationExplosion]. цели [Vibration] счётчик 1 уменьшить"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Клина[TabExplain] фиксер Синклер\n- урон +30%\n- последняя монета при попадании [VibrationExplosion]. цели [Vibration] счётчик 1 уменьшить"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Критический урон +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111606,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "…Всем подразделениям, приготовиться к столкновению.",
+          "desc": "[WhenUse] За каждые 8 силы [Breath] у себя сила монеты +1 (макс. 2)\n[WhenUse] За каждые 8 силы [Vibration] у цели итоговая сила +1 (макс. 2)\n[WhenUse]\n- Увеличить счётчик [Breath] у себя на 3\n- Получает вес атаки по числу других союзных Идентичностей Офиса Клина[TabExplain], способных действовать[TabExplain] (макс. 2).\n[WhenUse] Наносит +60% урона за каждую единицу веса атаки сверх фактического числа целей (в сосредоточенном бою считаются части тела)\n[EndSkill]\n- Израсходовать все [ComboWedgeDawn] у себя",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Преобразовать [FusionVibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 15% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Рассвета[TabExplain] фиксер Фауст\n- урон +20%\n- [OnSucceedAttack] Наложить 3 [Combustion]\n- [OnSucceedAttack] Преобразовать [Switch_Vibration] в [VibrationIgnition]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 15% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Клина[TabExplain] фиксер Дон Кихот\n- критический урон +20%\n- [OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Клина[TabExplain] фиксер Синклер\n- критический урон +20%\n- [OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 15% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Рассвета[TabExplain] представитель Грегор\n- урон +20%\n- [OnSucceedAttack] Наложить 2 [Combustion]\n- [OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1\n- [OnSucceedAttack] Активировать [Combustion] у цели и уменьшить её счётчик [Combustion] на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111608,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Клин на рассветном следу",
+          "desc": "[WhenUse] За каждые 8 силы [Breath] у себя сила монеты +1 (макс. 2)\n[WhenUse] За каждые 8 силы [Vibration] у цели итоговая сила +1 (макс. 2)\n[WhenUse]\n- Увеличить счётчик [Breath] у себя на 3\n- Получает вес атаки по числу других союзных Идентичностей Офиса Клина[TabExplain], способных действовать[TabExplain] (макс. 2).\n[WhenUse] Наносит +60% урона за каждую единицу веса атаки сверх фактического числа целей (в сосредоточенном бою считаются части тела)\n[WinDuel] Преобразовать [FusionVibration] в [VibrationCollapse]\n[EndSkill]\n- Израсходовать все [ComboWedgeDawn] у себя",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 20% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Рассвета[TabExplain] фиксер Фауст\n- урон +20%\n- [OnSucceedAttack] Наложить 3 [Combustion]\n- [OnSucceedAttack] Преобразовать [Switch_Vibration] в [VibrationIgnition]"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Рассвета[TabExplain] представитель Грегор\n- урон +20%\n- [OnSucceedAttack] Наложить 2 [Combustion]\n- [OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1\n- [OnSucceedAttack] Активировать [Combustion] у цели и уменьшить её счётчик [Combustion] на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 20% от итогового урона этой монеты"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Клина[TabExplain] фиксер Дон Кихот\n- критический урон +20%\n- [OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[ComboSkill]: Офис Клина[TabExplain] фиксер Синклер\n- критический урон +20%\n- [OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Критический урон +100%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести колющий урон в размере 20% от итогового урона этой монеты"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1111607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Отступи.",
+          "desc": "[DuelCounter]\n[SupportProtect] Особый навык\n[WhenUse] За каждые 20% потерянного ОЗ у себя сила столкновения +1 (макс. 4)\n[WhenUse]\n- Боец и союзник, на которого применён [SupportProtect], восстанавливают по 5 СД\n- Получить щит в размере 15% от максимума ОЗ (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [Breath]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
