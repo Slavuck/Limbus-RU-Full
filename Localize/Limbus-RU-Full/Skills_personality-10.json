@@ -3187,6 +3187,393 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1101701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Столкновение",
+          "desc": "[WhenUse] Получить 1 [Breath]\n[ComboSkill]: При резонансе с навыками <noparse>Клин — Дон Кихот</noparse> срабатывают эффекты ниже (1 раз за ход)\n- [WhenUse] Сила столкновения +1\n- [WhenUse] Получить 1 [BattleFieldKnow]\n- [WhenUse] Повторно использовать последнюю монету 1 раз",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [WedgeMarkYellow]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Столкновение",
+          "desc": "<style=\"highlight\">[WhenUse] За каждые 4 суммарной силы [Breath] у себя и [Vibration] у цели итоговая сила +1 (макс. 2)</style>\n[WhenUse] Получить <style=\"highlight\">2</style> [Breath]\n[ComboSkill]: При резонансе с навыками <noparse>Клин — Дон Кихот</noparse> срабатывают эффекты ниже (1 раз за ход)\n- [WhenUse] Сила столкновения +<style=\"highlight\">2</style>\n- [WhenUse] Получить 1 [BattleFieldKnow]\n- [WhenUse] Повторно использовать последнюю монету 1 раз",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [WedgeMarkYellow]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Столкновение",
+          "desc": "[WhenUse] За каждые 4 суммарной силы [Breath] у себя и [Vibration] у цели итоговая сила +1 (макс. <style=\"highlight\">3</style>)\n[WhenUse] Получить 2 [Breath]\n[ComboSkill]: При резонансе с навыками <noparse>Клин — Дон Кихот</noparse> срабатывают эффекты ниже (1 раз за ход)\n- [WhenUse] Сила столкновения +2\n- [WhenUse] Получить 1 [BattleFieldKnow]\n- [WhenUse] Повторно использовать последнюю монету 1 раз",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Наложить 1 [WedgeMarkYellow]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Оседлав волну наступления",
+          "desc": "[WhenUse] Получить 2 [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 1 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {}
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Оседлав волну наступления",
+          "desc": "<style=\"highlight\">[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1</style>\n[WhenUse] Получить <style=\"highlight\">3</style> [Breath]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить <style=\"highlight\">2</style> [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "<style=\"highlight\">Урон +5% за каждый [BattleFieldKnow] у себя (макс. 15%)</style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Оседлав волну наступления",
+          "desc": "[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1\n[WhenUse] Получить 3 [Breath]<style=\"highlight\"></style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 2 [Breath]<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Урон +5% за каждый [BattleFieldKnow] у себя (макс. <style=\"highlight\">20%</style>)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Копейный круговой удар",
+          "desc": "[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1\n[WhenUse] Получить 2 [Breath]\n[ComboSkill]: При резонансе с навыками <noparse>Клин — Дон Кихот</noparse> срабатывают эффекты ниже (1 раз за ход)\n- [WhenUse] Сила столкновения +1\n- [WhenUse] Получить 1 [BattleFieldKnow]\n- [WhenUse] Урон +20%",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Урон +10% за каждый [BattleFieldKnow] у себя (макс. 40%)"
+                },
+                {
+                  "desc": "Если цель под [Switch_Vibration] или [FusionVibration], урон +20%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], преобразовать [Switch_Vibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Копейный круговой удар",
+          "desc": "[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1\n[WhenUse] Получить 2 [Breath]\n[ComboSkill]: При резонансе с навыками <noparse>Клин — Дон Кихот</noparse> срабатывают эффекты ниже (1 раз за ход)\n- [WhenUse] Сила столкновения +<style=\"highlight\">3</style>\n- [WhenUse] Получить 1 [BattleFieldKnow]\n- [WhenUse] Урон +<style=\"highlight\">30%</style>",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Получить 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Урон +10% за каждый [BattleFieldKnow] у себя (макс. 40%)"
+                },
+                {
+                  "desc": "Если цель под [Switch_Vibration] или [FusionVibration], урон +<style=\"highlight\">30%</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Если у цели нет [Switch_Vibration], преобразовать [Switch_Vibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Перевести дух",
+          "desc": "[WhenUse] Если сила [Breath] у себя не меньше 6, сила монеты +1\n[OnSucceedEvade] Получить 1 [Breath] (3 раза за ход)\n[OnBattleEnd] Если в этом ходу эффект навыка не дал [BattleFieldKnow], получить 1 [BattleFieldKnow] (1 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 3,
+          "name": "Перевести дух",
+          "desc": "<style=\"highlight\">[StartBattle] Если у цели 4+ [WedgeMarkYellow], вместо этого активировать «Пронжу тебя быстро и наверняка» (1 раз за ход, срабатывает и при безответных атаках)</style>\n[WhenUse] Если сила [Breath] у себя не меньше 6, сила монеты +1\n[OnSucceedEvade] Получить <style=\"highlight\">2</style> [Breath] (3 раза за ход)\n[OnBattleEnd] Если в этом ходу эффект навыка не дал [BattleFieldKnow], получить 1 [BattleFieldKnow] (1 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Перевести дух",
+          "desc": "[StartBattle] Если у цели 4+ [WedgeMarkYellow], вместо этого активировать «Пронжу тебя быстро и наверняка» (1 раз за ход, срабатывает и при безответных атаках)\n[WhenUse] Если сила [Breath] у себя не меньше 6, сила монеты +1\n[OnSucceedEvade] Получить 2 [Breath] (3 раза за ход)\n<style=\"highlight\">[OnSucceedEvade] Получить 1 [Agility] на следующий ход (1 раз за ход)</style>\n[OnBattleEnd] Если в этом ходу эффект навыка не дал [BattleFieldKnow], получить 1 [BattleFieldKnow] (1 раз за ход)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1101705,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Я пронжу тебя быстро и точно",
+          "desc": "Этот навык считается атакующим даже при активации вместо защитного: на него не действуют эффекты изменения силы защиты, зато действуют эффекты изменения силы атаки\nЗа каждые 2 [WedgeMarkYellow] у цели сила столкновения +1 (макс. 4)\n[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1\n[WhenUse] Получить 2 [Breath]\n[ComboSkill]: При резонансе с навыками <noparse>Клин — Дон Кихот</noparse> срабатывают эффекты ниже (1 раз за ход)\n- [WhenUse] Сила столкновения +1\n- [WhenUse] Получить 1 [BattleFieldKnow]\n- [WhenUse] Урон +20%\n[EndSkill] Снять все [WedgeMarkYellow] с цели\n[EndSkill] Увеличить [ComboWedge] на 3 у союзной Идентичности представителя <noparse>Офиса Клина</noparse> Отис",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Урон +10% за каждый [BattleFieldKnow] у себя (макс. 40%)",
+                  "summary": "Урон увеличивается пропорционально [BattleFieldKnow]"
+                },
+                {
+                  "desc": "Если цель под [Switch_Vibration] или [FusionVibration], урон +30%",
+                  "summary": "Урон +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повторно использовать эту монету (1 раз за навык)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Если у цели нет [Switch_Vibration], преобразовать [Switch_Vibration] в [VibrationCollapse]",
+                  "summary": "[ReUseOnSucceedAttack] Преобразовать [Switch_Vibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести колющий урон в размере 6% от итогового урона этой монеты за каждый [WedgeMarkYellow] у цели (макс. 48%)",
+                  "summary": "[ReUseOnSucceedAttack] Нанести колющий урон пропорционально количеству [WedgeMarkYellow] у цели"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Дважды активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Я пронжу тебя быстро и точно",
+          "desc": "Этот навык считается атакующим даже при активации вместо защитного: на него не действуют эффекты изменения силы защиты, зато действуют эффекты изменения силы атаки\nЗа каждые 2 [WedgeMarkYellow] у цели сила столкновения +1 (макс. 4)\n[WhenUse] Если сумма силы [Breath] у себя и [Vibration] у цели не меньше 6, сила монеты +1\n[WhenUse] Получить 2 [Breath]\n[ComboSkill]: При резонансе с навыками <noparse>Клин — Дон Кихот</noparse> срабатывают эффекты ниже (1 раз за ход)\n- [WhenUse] Сила столкновения +<style=\"highlight\">3</style>\n- [WhenUse] Получить 1 [BattleFieldKnow]\n- [WhenUse] Урон +<style=\"highlight\">30%</style>\n[EndSkill] Снять все [WedgeMarkYellow] с цели\n[EndSkill] Увеличить [ComboWedge] на 3 у союзной Идентичности представителя <noparse>Офиса Клина</noparse> Отис",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Получить 4 [Breath]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 3"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "Урон +10% за каждый [BattleFieldKnow] у себя (макс. 40%)",
+                  "summary": "Урон увеличивается пропорционально [BattleFieldKnow]"
+                },
+                {
+                  "desc": "Если цель под [Switch_Vibration] или [FusionVibration], урон +30%",
+                  "summary": "Урон +30%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повторно использовать эту монету (1 раз за навык)"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Если у цели нет [Switch_Vibration], преобразовать [Switch_Vibration] в [VibrationCollapse]",
+                  "summary": "[ReUseOnSucceedAttack] Преобразовать [Switch_Vibration] в [VibrationCollapse]"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Нанести колющий урон в размере 6% от итогового урона этой монеты за каждый [WedgeMarkYellow] у цели (макс. 48%)",
+                  "summary": "[ReUseOnSucceedAttack] Нанести колющий урон пропорционально количеству [WedgeMarkYellow] у цели"
+                },
+                {
+                  "desc": "[ReUseOnSucceedAttack] Дважды активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,10 @@
-"""Audit a game patch against the previous EN/KR index and the current RU pack.
+"""Audit the current EN/KR localization against the RU pack.
 
     python scripts/audit_patch_localization.py --version 1.118.1 --source GAME/Localize
         --ru Localize/Limbus-RU-Full --baseline-dir reports/1.118.0
         --report-dir reports/1.118.1
 
+Supply --baseline-dir to include changed and deleted source strings.
 Run the recursive audit and write patch_findings.json alongside the detailed
 reports. The command exits nonzero if the underlying audit finds blockers.
 """
@@ -27,13 +28,15 @@ except ImportError:
     from localization_common import load_json, write_json
 
 
-def collect_findings(report_dir):
+def collect_findings(report_dir, *, compare_baseline=True):
     summary = load_json(report_dir / 'update_summary.json')
-    delta = load_json(report_dir / 'source_file_delta.json')
+    delta = load_json(report_dir / 'source_file_delta.json') if compare_baseline else None
     pairing = load_json(report_dir / 'file_pairing.json')
     korean_only = {name.casefold() for name in pairing['korean_without_english']}
-    changed_korean_only = [name for state in ('added', 'changed') for name in delta['kr'][state]
-                           if canonical_path(name).casefold() in korean_only]
+    changed_korean_only = None
+    if delta is not None:
+        changed_korean_only = [name for state in ('added', 'changed') for name in delta['kr'][state]
+                               if canonical_path(name).casefold() in korean_only]
 
     pending = {}
     for name in ('untranslated', 'changed_source', 'format_errors'):
@@ -50,6 +53,7 @@ def collect_findings(report_dir):
         'blocking_count': summary['blocking_count'],
         'source_file_delta': delta,
         'missing_russian_files': pairing['english_without_russian'],
+        'korean_without_english': pairing['korean_without_english'],
         'changed_korean_only_files': changed_korean_only,
         'pending_text': list(pending.values()),
         'structural_reports': ['missing_structure.jsonl', 'technical_mismatches.jsonl', 'obsolete_russian.jsonl'],
@@ -62,7 +66,8 @@ def main():
     parser.add_argument('--source', type=Path, default=default_source(root))
     parser.add_argument('--ru', type=Path, default=default_ru(root))
     parser.add_argument('--version', required=True)
-    parser.add_argument('--baseline-dir', type=Path, required=True)
+    parser.add_argument('--baseline-dir', type=Path,
+                        help='Previous audit directory, for source changes and deletions')
     parser.add_argument('--report-dir', type=Path, required=True)
     args = parser.parse_args()
     if args.source is None:
@@ -72,15 +77,13 @@ def main():
             parser.error(f'Folder does not exist: {path}')
         if args.report_dir.resolve().is_relative_to(path.resolve()):
             parser.error('Reports must be outside the localization directories')
-    for name in ('source_index.jsonl', 'source_manifest.json'):
-        if not (args.baseline_dir / name).is_file():
-            parser.error(f'Baseline file does not exist: {args.baseline_dir / name}')
-    if args.report_dir.resolve() == args.baseline_dir.resolve():
-        parser.error('Report directory must differ from the baseline directory')
-
     command = [sys.executable, str(Path(__file__).with_name('audit_current_localization.py')),
                '--source', str(args.source), '--ru', str(args.ru), '--version', args.version,
-               '--baseline-dir', str(args.baseline_dir), '--report-dir', str(args.report_dir)]
+               '--report-dir', str(args.report_dir)]
+    if args.baseline_dir is not None:
+        if args.report_dir.resolve() == args.baseline_dir.resolve():
+            parser.error('Report directory must differ from the baseline directory')
+        command += ['--baseline-dir', str(args.baseline_dir)]
     result = subprocess.run(command, capture_output=True, encoding='utf-8',
                             env={**os.environ, 'PYTHONIOENCODING': 'utf-8'})
     if result.stderr:
@@ -91,7 +94,7 @@ def main():
     # The audit emits a single JSON summary on normal completion, including
     # when --check reports blockers. Do not reuse old reports after a failure.
     json.loads(result.stdout)
-    findings = collect_findings(args.report_dir)
+    findings = collect_findings(args.report_dir, compare_baseline=args.baseline_dir is not None)
     write_json(args.report_dir / 'patch_findings.json', findings)
     return result.returncode
 
