@@ -234,7 +234,7 @@
         {
           "level": 1,
           "name": "853",
-          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 [Breath] (До 3)",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 5 [Breath] на себе (до 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -249,7 +249,7 @@
                   "desc": "[OnSucceedAttack] Наносит урон порогу оглушения в размере 50% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносить +1% урона за каждую [AccumulatedPast] (максимальный 50%)"
+                  "desc": "[OnSucceedAttack] Наносить +1% урона за каждую [AccumulatedPast] (максимум 50%)"
                 }
               ]
             }
@@ -323,7 +323,7 @@
         {
           "level": 1,
           "name": "974569A",
-          "desc": "Сила навыка +2 при 10 и более [Breath]",
+          "desc": "Если у владельца навыка 10 и более [Breath], сила навыка +2",
           "coinlist": [
             {
               "coindescs": [
@@ -363,7 +363,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Нескончаемое утопание",
+          "name": "Нескончаемое погружение",
           "desc": "[WhenUse] Итоговая сила +1 за каждые 3 суммарных единицы ([Burst] + [Sinking]) на цели (макс. 2)",
           "coinlist": [
             {
@@ -843,7 +843,7 @@
         {
           "level": 1,
           "name": "Укол хвостом",
-          "desc": "[StartBattle] Получает 2 [SelfCharge]\n[WhenUse] Сила монет +2 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 1 [SelfCharge]",
+          "desc": "[StartBattle] Получает 2 [SelfCharge]\n[WhenUse] Сила монет +1 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 1 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -880,7 +880,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Binding] на следующий ход"
                 }
               ]
             }
@@ -893,8 +893,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Электрическая нагрузка",
-          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +2 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 2 [SelfCharge]",
+          "name": "Инъекция тока",
+          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +1 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 2 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -920,7 +920,7 @@
         {
           "level": 1,
           "name": "Выпуск электричества",
-          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +2 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 3 [SelfCharge]",
+          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +1 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 3 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1030,7 +1030,7 @@
         {
           "level": 1,
           "name": "Извивающаяся голова",
-          "desc": "Выбирает в приоритет цели с наименьшими ОЗ\nЕсли у цели есть [Paralysis], наносит +50% урона\nЕсли цель использовала защитный навык, наносит на 100% меньше урона\nБазовая сила +1 за каждую единицу [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если у цели экипированы защитные навыки, теряет 2 [SelfCharge]\n[DefeatDuel] Дополнительно теряет 2 [SelfCharge]",
+          "desc": "Выбирает в приоритет цели с наименьшими ОЗ\nЕсли у цели есть [Paralysis], наносит +50% урона\nЕсли у цели экипирован защитный навык, наносит на 100% меньше урона\nБазовая сила +1 за каждую единицу [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если у цели экипированы защитные навыки, теряет 2 [SelfCharge]\n[DefeatDuel] Дополнительно теряет 2 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1056,7 +1056,7 @@
         {
           "level": 1,
           "name": "Извивающийся хвост",
-          "desc": "Выбирает в приоритет цели с наименьшими ОЗ\nЕсли у цели есть [Paralysis], наносит +50% урона\nЕсли цель использовала защитный навык, наносит на 100% меньше урона\nБазовая сила +1 за каждую единицу [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если у цели экипированы защитные навыки, теряет 2 [SelfCharge]\n[DefeatDuel] Дополнительно теряет 2 [SelfCharge]",
+          "desc": "Выбирает в приоритет цели с наименьшими ОЗ\nЕсли у цели есть [Paralysis], наносит +50% урона\nЕсли у цели экипирован защитный навык, наносит на 100% меньше урона\nБазовая сила +1 за каждую единицу [SelfCharge]\n[WhenUse] Теряет 1 [SelfCharge]\n[WhenUse] Если у цели экипированы защитные навыки, теряет 2 [SelfCharge]\n[DefeatDuel] Дополнительно теряет 2 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1140,7 +1140,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Триггер [VibrationExplosion] равен [Vibration] Счёт на цели"
+                  "desc": "[OnSucceedAttack] Активирует [VibrationExplosion] столько раз, сколько у цели счётчиков [Vibration]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Расходует весь счётчик [Vibration] на цели"
@@ -1206,7 +1206,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 5 [Vibration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 5 [Vibration]."
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [VibrationExplosion]"
@@ -1234,7 +1234,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Беглые раны",
+          "name": "Скользнуть по ранам",
           "coinlist": [
             {
               "coindescs": [
@@ -1242,7 +1242,7 @@
                   "desc": "[OnSucceedAttack] Если счётчик [Laceration] цели равен 2 и более, наносит ей ещё 5 [Laceration]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели 2+ к счётчику [Laceration], накладывает 1 [Paralysis]"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration] цели равен 2 или больше, накладывает 1 [Paralysis]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 4"
@@ -1316,7 +1316,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +(5 × [Laceration] на цели × счётчик [Laceration] на цели)% урона (макс. 200%)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит +(5 × сила [Laceration] на цели × счётчик [Laceration] на цели)% урона (макс. 200%)"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Расходует весь [Laceration] на цели"
@@ -1483,7 +1483,7 @@
         {
           "level": 1,
           "name": "Побочное извержение",
-          "desc": "[WhenUse] Наносит на 10% больше урона целям с [DimensionRift]\n[DefeatDuel] Теряет 2 единицы счётчика [Charge]",
+          "desc": "[WhenUse] Наносит на 10% больше урона, если у основной цели есть [DimensionRift]\n[DefeatDuel] Теряет 2 единицы счётчика [Charge]",
           "coinlist": [
             {
               "coindescs": [
@@ -1676,7 +1676,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Binding] на следующий ход"
                 }
               ]
             },
@@ -1703,7 +1703,7 @@
         {
           "level": 1,
           "name": "Нескончаемое цветение",
-          "desc": "Выбирает в приоритет цели без [PrepareSinRose]\nИтоговая сила +1 за каждого побеждённого в этой схватке Грешника\n[WhenUse] Итоговая сила +1 за каждые 2 типа отрицательных эффектов на цели (макс. 3)\n[DefeatDuel] Наносит на 80% меньше урона, а урон этого навыка не может оглушить цель",
+          "desc": "Выбирает в приоритет цели без [PrepareSinRose]\nИтоговая сила +1 за каждого побеждённого в этой схватке Грешника\n[WhenUse] Итоговая сила +1 за каждые 2 отрицательных эффекта на цели (макс. 3)\n[DefeatDuel] Наносит на 80% меньше урона, а урон этого навыка не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -1822,7 +1822,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Вездесущий гнев",
+          "name": "Рассеянный гнев",
           "desc": "[WhenUse] Базовая сила +1 за каждую Розу, чей атрибут отличается от атрибута этого бойца (макс. 6)",
           "coinlist": [
             {
@@ -1996,7 +1996,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Превосходящее чревоугодие",
+          "name": "Обильное чревоугодие",
           "desc": "[WhenUse] Базовая сила +1 за каждую Розу, чей атрибут отличается от атрибута этого бойца (макс. 6)",
           "coinlist": [
             {
@@ -2167,7 +2167,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Взваленная зависть",
+          "name": "Накапливающаяся зависть",
           "desc": "[WhenUse] Базовая сила +1 за каждую Розу, чей атрибут отличается от атрибута этого бойца (макс. 6)\n[WhenUse] Получает +3 к счётчику [Charge]\n[DefeatDuel] Теряет 3 единицы счётчика [Charge]",
           "coinlist": [
             {

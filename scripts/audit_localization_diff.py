@@ -558,6 +558,7 @@ class Auditor:
         decisions: dict[str, dict[str, Any]] | None = None,
         full_review: bool = False,
         previous_output_locators: set[tuple[str, tuple[str, ...]]] | None = None,
+        reviewed_korean_only: list[dict[str, Any]] | None = None,
     ) -> None:
         self.baseline = baseline
         self.prior = prior
@@ -566,6 +567,10 @@ class Auditor:
         self.decisions = decisions or {}
         self.full_review = full_review
         self.previous_output_locators = previous_output_locators
+        self.reviewed_korean_only = {
+            (row["relative_path"], row["json_path"], identity_key(row["korean"])): row
+            for row in reviewed_korean_only or []
+        }
         self.state = AuditState()
 
     def _issue(self, collection: list[dict[str, Any]], relative: str, path: tuple[Any, ...], kind: str, **extra: Any) -> None:
@@ -637,7 +642,15 @@ class Auditor:
             kr_map = stable_list_map(kr_list)
             if en_map is not None:
                 if russian is not MISSING and len(english) != len(ru_list):
-                    self._missing(relative, path, "array_length", english_length=len(english), russian_length=len(ru_list), alignment="stable_id")
+                    reviewed = set()
+                    if ru_map is not None and kr_map is not None:
+                        for identity in ru_map.keys() - en_map.keys():
+                            row = self.reviewed_korean_only.get((relative, path_to_text(path), identity))
+                            if (row and identity in kr_map and row["korean"] == kr_map[identity][1]
+                                    and row["russian"] == ru_map[identity][1]):
+                                reviewed.add(identity)
+                    if ru_map is None or ru_map.keys() - reviewed != en_map.keys():
+                        self._missing(relative, path, "array_length", english_length=len(english), russian_length=len(ru_list), alignment="stable_id")
                 for en_index, item in enumerate(english):
                     identity = identity_key(item)
                     assert identity is not None
@@ -795,7 +808,8 @@ class Auditor:
             self.previous_output_locators is not None
             and (canonical_path(relative).casefold(), semantic) not in self.previous_output_locators
         )
-        has_recorded_decision = queue_id in self.decisions
+        decision = self.decisions.get(queue_id)
+        has_recorded_decision = decision is not None
         in_scope = (
             in_prior_review_scope
             or source_changed_at_leaf
@@ -831,10 +845,16 @@ class Auditor:
         exact_english = ru_value == english
         empty_russian = ru_value is not None and not ru_value.strip() and bool(english.strip())
         literal_reason = intentional_literal_reason(english, key) if exact_english else None
+        reviewed_legacy_expansion = bool(
+            tag_error and source_changed and isinstance(previous_english, str) and decision
+            and "korean" in decision and decision["korean"] == kr_value
+            and "current_russian" in decision and decision["current_russian"] == ru_value
+            and Counter(source_tags) == Counter(required_source_tags(previous_english, baseline["previous_korean"]))
+        )
         legacy_tag_expansion = bool(
             tag_error
             and baseline
-            and not source_changed
+            and (not source_changed or reviewed_legacy_expansion)
             and (
                 ru_value == baseline.get("previous_russian")
                 or ru_value.replace("</nobr>", "<nobr>") == baseline.get("previous_russian")
@@ -876,9 +896,10 @@ class Auditor:
                 and prior.get("reason") != "symbolic_or_obfuscated_literal"):
             status, reason = "intentional", "confirmed_by_prior_queue"
 
-        decision = self.decisions.get(queue_id)
-        if decision and not (placeholder_error or effective_tag_error or markup_error or hangul_error
-                             or speaker_label_error or ru_value is None or empty_russian):
+        if (decision and decision.get("korean", kr_value) == kr_value
+                and decision.get("current_russian", ru_value) == ru_value
+                and not (placeholder_error or effective_tag_error or markup_error or hangul_error
+                         or speaker_label_error or ru_value is None or empty_russian)):
             status = decision["status"]
             reason = decision.get("reason", "recorded_review_decision")
         source_row["review_status"] = status
@@ -990,6 +1011,9 @@ def audit(args: argparse.Namespace) -> dict[str, Any]:
     prior = prior_queue_index(args.prior_queues)
     review_scope = review_scope_index(args.baseline_index)
     decisions = load_review_decisions(report_dir / "review_decisions.jsonl")
+    structure_reviews = report_dir / "reviewed_korean_only.json"
+    if not structure_reviews.is_file() and args.baseline_index:
+        structure_reviews = args.baseline_index.parent / structure_reviews.name
     update_files: set[str] | None = None
     previous_output_locators: set[tuple[str, tuple[str, ...]]] | None = None
     if args.baseline_index:
@@ -1011,6 +1035,7 @@ def audit(args: argparse.Namespace) -> dict[str, Any]:
         decisions,
         full_review=args.mode == "full-review",
         previous_output_locators=previous_output_locators,
+        reviewed_korean_only=load_json(structure_reviews) if structure_reviews.is_file() else None,
     )
 
     en_keys, kr_keys, ru_keys = set(en_index), set(kr_index), set(ru_index)

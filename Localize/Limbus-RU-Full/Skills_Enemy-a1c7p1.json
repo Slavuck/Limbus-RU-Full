@@ -90,7 +90,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сила +1 за каждую [HardenedBlood]",
+          "desc": "[WhenUse] Базовая сила +1 за каждую единицу [HardenedBlood] на себе",
           "coinlist": [
             {
               "coindescs": [
@@ -167,7 +167,7 @@
         {
           "level": 1,
           "name": "Усиленный мощный удар застывшей кровью",
-          "desc": "[WhenUse] Базовая сила +1 против целей с 6 и более [Laceration]\nНаносит на 5% больше урона за каждую [HardenedBlood] (До 25%)\n[EndSkill] Теряет всю [HardenedBlood] и [BloodScissor]",
+          "desc": "[WhenUse] Если счётчик [Laceration] у цели равен 6 или более, базовая сила +1\nНаносит на 5% больше урона за каждую [HardenedBlood] (До 25%)\n[EndSkill] Теряет всю [HardenedBlood] и [BloodScissor]",
           "coinlist": [
             {
               "coindescs": [
@@ -193,7 +193,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сила +1 за каждую [HardenedBlood]",
+          "desc": "[WhenUse] Базовая сила +1 за каждую единицу [HardenedBlood] на себе",
           "coinlist": [
             {
               "coindescs": [
@@ -237,7 +237,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Примерим наряд",
+          "name": "Давай я тебя одену",
           "desc": "[WhenUse] Наносит на 20% больше урона целям с 6 и более [Laceration]",
           "coinlist": [
             {
@@ -259,7 +259,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "У нас для вас событие!",
+          "name": "Ещё осталось событие!",
           "desc": "[WhenUse] Поглощает до 50 [BloodDinner] и получает 1 [BloodScissor] за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Получает 5 [Laceration] и 1 [HardenedBlood], если не удалось поглотить [BloodDinner]\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration]",
           "coinlist": [
             {
@@ -319,7 +319,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сила +1, если есть [BloodScissor]\n[WhenUse] Сила монет +1, если есть 3 и более [HardenedBlood]",
+          "desc": "[WhenUse] Базовая сила +1, если есть [BloodScissor]\n[WhenUse] Сила монет +1, если у самого пользователя есть 3 или более [HardenedBlood]",
           "coinlist": [
             {
               "coindescs": [
@@ -363,7 +363,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Дайте мне больше!",
+          "name": "Я съем ещё немного",
           "desc": "[WhenUse] Наносит на 10% больше урона целям с 4 и более [Laceration]",
           "coinlist": [
             {
@@ -445,7 +445,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сила +1, если есть [BloodScissor]\n[WhenUse] Сила монет +1, если есть 3 и более [HardenedBlood]",
+          "desc": "[WhenUse] Базовая сила +1, если есть [BloodScissor]\n[WhenUse] Сила монет +1, если у самого пользователя есть 3 или более [HardenedBlood]",
           "coinlist": [
             {
               "coindescs": [

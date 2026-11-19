@@ -20,7 +20,7 @@
                   "desc": "[OnSucceedAttack] Получает 3 [Breath] и 1 к счётчику [Breath]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести +1 [Laceration] граф"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 1"
                 }
               ]
             },
@@ -33,7 +33,7 @@
                   "desc": "Если эта монета расколота, итоговая сила уменьшается на 10."
                 },
                 {
-                  "desc": "[OnSucceedAttack] получает 2 [SlashDamageUp] следующем ходу"
+                  "desc": "[OnSucceedAttack] получает 2 [SlashDamageUp] в следующем ходу"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 2 [SlashResistDown]"
@@ -52,10 +52,10 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 5 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 2 [Paralysis] следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 2 [Paralysis] на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести +3 [Laceration] граф"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Повышает счётчик [Laceration] на 3"
                 }
               ]
             }
@@ -150,7 +150,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Критический урон +100%."
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 5 [Paralysis] следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Нанести 5 [Paralysis] на следующий ход"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 10 [Laceration] и 2 к счётчику [Laceration]"
@@ -211,7 +211,7 @@
                   "desc": "Если эта монета расколота, итоговая сила уменьшается на 25."
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносить фиксированный урон, равный [Grudge] значению."
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный значению [Grudge]."
                 }
               ]
             }

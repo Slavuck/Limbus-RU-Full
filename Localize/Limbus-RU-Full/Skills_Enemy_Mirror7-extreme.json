@@ -124,7 +124,7 @@
         {
           "level": 1,
           "name": "Укрытие",
-          "desc": "[WhenUse] Даёт 2 [Protection] двум случайным союзникам на следующий ход",
+          "desc": "[WhenUse] Даёт 2 [Protection] двум случайным союзникам, кроме себя, на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -353,7 +353,7 @@
         {
           "level": 1,
           "name": "Защита",
-          "desc": "[StartBattle] Получает (Свои потерянные ОЗ / 10) ОЗ Щита",
+          "desc": "[StartBattle] В течение этого хода получает (Свои потерянные ОЗ / 10) ОЗ Щита",
           "coinlist": [
             {}
           ]
@@ -411,7 +411,7 @@
         {
           "level": 1,
           "name": "Защита",
-          "desc": "[StartBattle] Получает (Свои потерянные ОЗ / 10) ОЗ Щита",
+          "desc": "[StartBattle] В течение этого хода получает (Свои потерянные ОЗ / 10) ОЗ Щита",
           "coinlist": [
             {}
           ]
@@ -469,7 +469,7 @@
         {
           "level": 1,
           "name": "Защита",
-          "desc": "[StartBattle] Получает (Свои потерянные ОЗ / 10) ОЗ Щита",
+          "desc": "[StartBattle] В течение этого хода получает (Свои потерянные ОЗ / 10) ОЗ Щита",
           "coinlist": [
             {}
           ]
@@ -548,7 +548,7 @@
         {
           "level": 1,
           "name": "Защита",
-          "desc": "[StartBattle] Получает (Свои потерянные ОЗ / 10) ОЗ Щита",
+          "desc": "[StartBattle] В течение этого хода получает (Свои потерянные ОЗ / 10) ОЗ Щита",
           "coinlist": [
             {}
           ]
@@ -566,7 +566,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             },
@@ -580,7 +580,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             }
@@ -599,7 +599,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             },
@@ -664,14 +664,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             }
@@ -820,7 +820,7 @@
         {
           "level": 1,
           "name": "Посторонним вход воспрещён",
-          "desc": "Нацеливается на противника с наибольшей силой [Sinking]\n[WhenUse] Базовая сила +2 против целей с [Sinking]\n[WhenUse] Сила в столкновении +2 за каждый тип негативных эффектов на цели (До 6)\n[DefeatDuel] Восстанавливает 5% потерянных ОЗ (Единожды за ход; до 100)",
+          "desc": "В первую очередь атакует цель, у которой больше всего [Sinking]\n[WhenUse] Базовая сила +2 против целей с [Sinking]\n[WhenUse] Сила в столкновении +2 за каждый тип негативных эффектов на цели (До 6)\n[DefeatDuel] Восстанавливает 5% потерянных ОЗ (Единожды за ход; до 100)",
           "coinlist": [
             {
               "coindescs": [
@@ -852,10 +852,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "Если первая и вторая монеты выпали орлом, на 30% больше урона"
+                  "desc": "Если вторая и третья монеты выпали орлом, на 30% больше урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Нанести урон от Тьмы, равный ([Sinking] Силе x [Sinking] Счёта) по цели и уменьшить [Sinking] Счёт цели на 1"
+                  "desc": "[OnSucceedAttack] Нанести урон Унынием, равный ([Sinking] Силе x [Sinking] Счёта) по цели и уменьшить [Sinking] Счёт цели на 1"
                 }
               ]
             }

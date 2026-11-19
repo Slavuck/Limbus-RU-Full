@@ -15,37 +15,37 @@
     {
       "id": 1078,
       "panicName": "Позор семьи",
-      "lowMoraleDescription": "- Получает 1 [SlashDamageUp], 1 [ParryingResultUp] и 1 [Vulnerable]\n- Не может создавать Ман (望) своими навыками",
-      "panicDescription": "- Получает 2 [SlashDamageUp], 2 [ParryingResultUp] и 2 [Vulnerable]\n- Не может создавать Ман (望) своими навыками"
+      "lowMoraleDescription": "- В начале хода получает 1 [SlashDamageUp], 1 [ParryingResultUp] и 1 [Vulnerable]\n- Не может получать Ман (望) при использовании навыков",
+      "panicDescription": "- В начале хода получает 2 [SlashDamageUp], 2 [ParryingResultUp] и 2 [Vulnerable]\n- Не может получать Ман (望) при использовании навыков"
     },
     {
       "id": 1079,
-      "panicName": "«У-убейте... убейте меня...»",
-      "lowMoraleDescription": "Получает 5 [ResultReduction] и 8 [ParryingResultDown]",
-      "panicDescription": "Получает 5 [ResultReduction] и 10 [ParryingResultDown]"
+      "panicName": "«У-убей... убей меня...»",
+      "lowMoraleDescription": "В начале хода получает 8 [ParryingResultDown] и 5 [ResultReduction]",
+      "panicDescription": "В начале хода получает 10 [ParryingResultDown] и 5 [ResultReduction]"
     },
     {
       "id": 1077,
       "panicName": "Старомодное искусство",
-      "lowMoraleDescription": "Получает 1 [AttackUp]",
-      "panicDescription": "Получает 2 [AttackUp]"
+      "lowMoraleDescription": "В начале хода получает 1 [AttackUp]",
+      "panicDescription": "В начале хода получает 2 [AttackUp]"
     },
     {
       "id": 1075,
       "panicName": "Безумное буйство",
-      "lowMoraleDescription": "- Получает 2 [Enhancement] и 4 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 30 потерянных ОЗ в прошлом ходе (До 5)",
-      "panicDescription": "- Получает 3 [Enhancement] и 5 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 25 потерянных ОЗ в прошлом ходе (До 5)"
+      "lowMoraleDescription": "В начале хода:\n- Получает 2 [Enhancement] и 4 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 30 потерянных ОЗ в прошлом ходе (До 5)",
+      "panicDescription": "В начале хода:\n- Получает 3 [Enhancement] и 5 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 25 потерянных ОЗ в прошлом ходе (До 5)"
     },
     {
       "id": 1076,
       "panicName": "Рвение",
-      "lowMoraleDescription": "- Получает 2 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 30 потерянных ОЗ в прошлом ходе (До 5)",
-      "panicDescription": "- Получает 1 [Enhancement] и 3 [DefenseDown]\n- Получает по 1 [AttackDmgUp] за каждые 25 потерянных ОЗ в прошлом ходу (макс. 5)"
+      "lowMoraleDescription": "- В начале хода получает 2 [DefenseDown]; за каждые 30 потерянных ОЗ в прошлом ходу получает 1 [AttackDmgUp] (макс. 5)",
+      "panicDescription": "- В начале хода получает 1 [Enhancement] и 3 [DefenseDown]; за каждые 25 потерянных ОЗ в прошлом ходу получает 1 [AttackDmgUp] (макс. 5)"
     },
     {
       "id": 1081,
       "panicName": "Тело, сломанное безвозвратно",
-      "lowMoraleDescription": "Получает 1 [Vulnerable] и даёт 2 [Endurance] Эзре и Веспе",
+      "lowMoraleDescription": "В начале хода получает 1 [Vulnerable] и даёт 2 [Endurance] Эзре и Веспе",
       "panicDescription": "Получает 1 [Vulnerable] и использует «Успокоить дыхание»"
     },
     {
@@ -62,9 +62,9 @@
     },
     {
       "id": 1080,
-      "panicName": "Со времён Второй Дымовой Войны",
-      "lowMoraleDescription": "Получает 1 [Vulnerable] и +2 к Эффективности восстановления СД",
-      "panicDescription": "Получает 2 [Vulnerable] и 2 [ParryingResultUp]"
+      "panicName": "Второй Дымовой Войны",
+      "lowMoraleDescription": "В начале хода получает 1 [Vulnerable] и +2 к Эффективности восстановления СД",
+      "panicDescription": "В начале хода получает 2 [Vulnerable] и 2 [ParryingResultUp]"
     },
     {
       "id": 1084,

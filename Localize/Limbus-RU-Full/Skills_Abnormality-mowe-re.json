@@ -69,7 +69,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Заряд переменной энергии",
+          "name": "Заряд преобразования биоэнергии",
           "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "coinlist": [
             {
@@ -152,7 +152,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Перезарядка переменной энергии существа",
+          "name": "Перезарядка с преобразованием биоэнергии",
           "desc": "[WhenUse] Тратит 10% от максимальных ОЗ для повышения своего счётчика [Charge] на 15\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "coinlist": [
             {
@@ -164,7 +164,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 4 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Vulnerable]"
                 }
               ]
             },
@@ -207,7 +207,7 @@
         {
           "level": 1,
           "name": "Принц парада",
-          "desc": "[StartBattle] Количество целей повышается на число противников с [Laceration] (До 5 дополнительных целей)\n[WhenUse] Базовая сила +1 против целей с 4 и более [Laceration]\n[WhenUse] Сила монет +1 против целей с 3 и более единицами счётчика [Laceration]\n[DefeatDuel] Теряет 1 [KeptBlood]",
+          "desc": "[StartBattle] Вес атаки увеличивается на число целей с [Laceration] (макс. 5)\n[WhenUse] Если у основной цели 4 или более [Laceration], базовая сила +1\n[WhenUse] Если у основной цели 3 или более единиц счётчика [Laceration], сила монет +1\n[DefeatDuel] Теряет 1 [KeptBlood]",
           "coinlist": [
             {
               "coindescs": [

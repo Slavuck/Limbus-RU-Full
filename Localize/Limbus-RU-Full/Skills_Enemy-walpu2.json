@@ -24,7 +24,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Прикалывание к полу",
+          "name": "Придавить к полу",
           "desc": "",
           "coinlist": [
             {
@@ -84,7 +84,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "Если на испытании остался щит, наносит 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при ударе на следующем ходу",
+          "desc": "Если у этого бойца есть ОЗ щита, при получении удара он накладывает 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -121,7 +121,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Прикалывание к полу",
+          "name": "Придавить к полу",
           "desc": "",
           "coinlist": [
             {
@@ -148,7 +148,7 @@
         {
           "level": 1,
           "name": "Боль",
-          "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.",
+          "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли носитель убивает цель своей атакой, противник с наименьшей СД теряет 10 СД.",
           "coinlist": [
             {
               "coindescs": [
@@ -156,7 +156,7 @@
                   "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                  "desc": "[OnSucceedAttackHead] Цель теряет количество СД, равное значению <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на ней."
                 }
               ]
             },
@@ -166,7 +166,7 @@
                   "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +10% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                  "desc": "[OnSucceedAttackHead] Цель теряет количество СД, равное значению <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на ней."
                 }
               ]
             },
@@ -224,7 +224,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Прикалывание к полу",
+          "name": "Придавить к полу",
           "desc": "",
           "coinlist": [
             {
@@ -251,7 +251,7 @@
         {
           "level": 1,
           "name": "Боль",
-          "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 10 СД.\nПри убийстве этой атакой, использует её снова.",
+          "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли эта единица убивает цель своей атакой, противник с наименьшей СД теряет 10 СД.\nЕсли эта единица убивает цель своей атакой, навык повторно используется против другой цели.",
           "coinlist": [
             {
               "coindescs": [
@@ -259,7 +259,7 @@
                   "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                  "desc": "[OnSucceedAttack] Цель теряет количество СД, равное <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
                 }
               ]
             },
@@ -269,7 +269,7 @@
                   "desc": "[OnSucceedAttack] Если на цели Кровотечение, дополнительно +20% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цель теряет СД пропорционально <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
+                  "desc": "[OnSucceedAttack] Цель теряет количество СД, равное <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечению</link></u></color> на ней"
                 }
               ]
             },
@@ -343,7 +343,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Прикалывание к полу",
+          "name": "Придавить к полу",
           "desc": "",
           "coinlist": [
             {
@@ -377,7 +377,7 @@
         {
           "level": 1,
           "name": "Боль",
-          "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли испытание этим навыком убивает цель, противник с наименьшей СД теряет 15 СД.\nПри убийстве этой атакой, использует её снова.",
+          "desc": "Предпочитает выбирать цели с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>\nЕсли этот боец убивает цель своей атакой, противник с наименьшей СД теряет 15 СД.\nЕсли этот боец убивает цель своей атакой, повторно использует навык против другой цели.",
           "coinlist": [
             {
               "coindescs": [

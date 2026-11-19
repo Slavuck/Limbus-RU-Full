@@ -602,7 +602,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Paralysis] и 3 [Reduction] на следующий ход"
+                  "desc": "[OnSucceedAttack] На следующий ход накладывает [Reduction] и 3 [Paralysis]"
                 }
               ]
             }
@@ -628,7 +628,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Как тонко!",
+          "name": "Остро!",
           "desc": "",
           "coinlist": [
             {},
@@ -683,7 +683,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает собственную шкалу оглушения на 50% от нанесённого урона"
                 }
               ]
             },
@@ -693,7 +693,7 @@
                   "desc": "[OnSucceedAttack] Цель теряет 7 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает собственную шкалу оглушения на 50% от нанесённого урона"
                 }
               ]
             },
@@ -703,7 +703,7 @@
                   "desc": "[OnSucceedAttack] Наносит 10 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает собственную шкалу оглушения на 50% от нанесённого урона"
                 }
               ]
             },
@@ -713,7 +713,7 @@
                   "desc": "[OnSucceedAttack] Наносит 15 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Понижает свою границу выносливости на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает собственную шкалу оглушения на 50% от нанесённого урона"
                 }
               ]
             }
@@ -939,7 +939,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Понижение силы защиты и 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 1 Понижение силы защиты и [Paralysis] на следующий ход"
                 }
               ]
             }
@@ -1492,7 +1492,7 @@
         {
           "level": 1,
           "name": "Когти",
-          "desc": "[WhenUse] Сила монеты +2 за каждую [DogThunder] (до 6)\n[WhenUse] Наносит на 20% больше урона за каждые 5 суммарных [Laceration] и [Burst] на цели (до 80%)",
+          "desc": "[WhenUse] Сила монеты +2 за каждую единицу [DogThunder] у пользователя (до 6)\n[WhenUse] Наносит на 20% больше урона за каждые 5 суммарных [Laceration] и [Burst] на цели (до 80%)",
           "coinlist": [
             {
               "coindescs": [
@@ -1510,8 +1510,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Непрерывное напряжение",
-          "desc": "[WhenUse] Сила монеты +2 за каждую [DogThunder] (До 6)\n[WhenUse] Наносит на 20% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 80%)",
+          "name": "Равное давление",
+          "desc": "[WhenUse] Сила монеты +2 за каждую единицу [DogThunder] на себе (До 6)\n[WhenUse] Наносит на 20% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 80%)",
           "coinlist": [
             {
               "coindescs": [
@@ -1529,8 +1529,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Поток электродвижения",
-          "desc": "[WhenUse] Сила монет +1 за каждую [DogThunder] (До 3)\n[WhenUse] Наносит на 15% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (До 60%)",
+          "name": "Преследование при равном давлении",
+          "desc": "[WhenUse] Сила монет +1 за каждую [DogThunder] у себя (до 3)\n[WhenUse] Наносит на 15% больше урона за каждые 5 единиц в сумме силы [Laceration] и [Burst] на цели (до 60%)",
           "coinlist": [
             {
               "coindescs": [
@@ -1609,12 +1609,12 @@
         {
           "level": 1,
           "name": "Молниеотвод",
-          "desc": "[WhenUse] Сила монет +1 за каждую [DogThunder] (до 3)\n[WhenUse] Наносит на 20% больше урона за каждые 5 суммарных [Laceration] и [Burst] на цели (до 80%)",
+          "desc": "[WhenUse] Сила монет +1 за каждую [DogThunder] на себе (до 3)\n[WhenUse] Наносит на 20% больше урона за каждые 5 суммарных [Laceration] и [Burst] на цели (до 80%)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 [Burst] и повышает счётчик [Burst] на 2"
+                  "desc": "[OnSucceedAttack] Наносит 5 [Burst] и повышает счётчик [Burst] на 2 на следующий ход"
                 }
               ]
             },
@@ -1685,7 +1685,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Экскурсия по городу",
+          "name": "Подготовка кампании «Экскурсия по городу»",
           "desc": "[WhenUse] Повышает свой счётчик [Charge] на 4",
           "coinlist": [
             {}
@@ -1718,7 +1718,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пожалуйста, не расходитесь!",
+          "name": "Пожалуйста, сотрудничайте!",
           "desc": "",
           "coinlist": [
             {
@@ -1740,7 +1740,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Передача обработанных отчётов",
+          "name": "Обработка регистрации переезда",
           "desc": "[WhenUse] Теряет весь счётчик [Charge]\n[DefeatDuel] Открывает Часть 「Сердце горожан」 в следующем ходе",
           "coinlist": [
             {
@@ -1830,7 +1830,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Передача обработанных отчётов",
+          "name": "Обработка заявления о регистрации нового жильца",
           "desc": "[CantDuel]\n[CantChangeTarget]\nНацеливается на противника с наибольшими текущими ОЗ\n[WhenUse] Теряет весь [Charge]",
           "coinlist": [
             {
@@ -1921,7 +1921,7 @@
           "level": 1,
           "name": "Мешочный пресс",
           "keywords": [
-            "Связанные"
+            "Сковывание"
           ],
           "coinlist": [
             {
@@ -1943,7 +1943,7 @@
           "name": "Кровавый выстрел",
           "desc": "[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "keywords": [
-            "Bleeding"
+            "Кровотечение"
           ],
           "coinlist": [
             {
@@ -1970,7 +1970,7 @@
           "level": 1,
           "name": "Свёртывание крови",
           "keywords": [
-            "Bleeding"
+            "Кровотечение"
           ],
           "desc": "[DefeatDuel] Наносит на 50% меньше урона и не может оглушить цель",
           "coinlist": [
@@ -2023,7 +2023,7 @@
         {
           "level": 1,
           "name": "Несовершенная имитация",
-          "desc": "Имитирует силу и количество монет навыка, от которого получил урон\n[WhenUse] Цель теряет 10 СД\n[WhenUse] Получает 2 [AggressiveBokgak]",
+          "desc": "Копирует навык, которым его атаковали\n[WhenUse] Цель теряет 10 СД\n[WhenUse] Получает 2 [AggressiveBokgak]",
           "coinlist": [
             {
               "coindescs": [
@@ -2041,7 +2041,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Адаптированная оболочка",
+          "name": "Починка оболочки",
           "desc": "[WhenUse] Базовая сила +2 против целей с СД ниже 0\n[WhenUse] Получает 5 [AggressiveBokgak]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
@@ -2116,7 +2116,7 @@
         {
           "level": 1,
           "name": "Несовершенная имитация",
-          "desc": "Имитирует силу и количество монет навыка, от которого получил урон\n[WhenUse] Цель теряет 10 СД\n[WhenUse] Получает 2 [AggressiveBokgak]",
+          "desc": "Копирует навык, которым его атаковали\n[WhenUse] Цель теряет 10 СД\n[WhenUse] Получает 2 [AggressiveBokgak]",
           "coinlist": [
             {
               "coindescs": [
@@ -2134,7 +2134,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Адаптированная оболочка",
+          "name": "Починка оболочки",
           "desc": "[WhenUse] Базовая сила +2 против целей с СД ниже 0\n[WhenUse] Получает 5 [AggressiveBokgak]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель",
           "coinlist": [
             {
@@ -2301,7 +2301,7 @@
         {
           "level": 1,
           "name": "Укрытие",
-          "desc": "[WhenUse] Даёт 2 [Protection] случайному союзнику на следующий ход",
+          "desc": "[WhenUse] Даёт 2 [Protection] одному другому случайному союзнику на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -2688,7 +2688,7 @@
         {
           "level": 1,
           "name": "Покачивающиеся руки",
-          "desc": "Базовая сила -1 за каждую повреждённую Руку\n[WhenUse] Сила в столкновении +2 против целей с 2 и более типами негативных эффектов",
+          "desc": "Базовая сила -1 за каждую сломанную руку\n[WhenUse] Сила в столкновении +2 против целей с 2 и более типами негативных эффектов",
           "coinlist": [
             {
               "coindescs": [
@@ -2799,7 +2799,7 @@
         {
           "level": 1,
           "name": "Агония от боли",
-          "desc": "[WhenUse] Если у цели есть негативные эффекты, базовая сила +4\n[WhenUse] Теряет 12 ОЗ\nСчётчик [Laceration] увеличивается на 3 на следующий ход",
+          "desc": "[WhenUse] Если у цели есть негативные эффекты, базовая сила +4\n[WhenUse] Теряет 12 ОЗ. На следующий ход собственный счётчик [Laceration] увеличивается на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -2863,8 +2863,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Хихиканье",
-          "desc": "[WhenUse] Наносит 10 урона по СД",
+          "name": "Безумный смех",
+          "desc": "[WhenUse] Наносит цели 10 урона по СД",
           "coinlist": [
             {
               "coindescs": [
@@ -2970,7 +2970,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Должна забрать ваши жизни!",
+          "name": "Заберу ваши жизни!",
           "desc": "[DefeatDuel] Оглушается",
           "coinlist": [
             {
@@ -2990,7 +2990,7 @@
         {
           "level": 1,
           "name": "Вы – ничто",
-          "desc": "[OnSucceedEvade] Наносит 5 урона по СД",
+          "desc": "[OnSucceedEvade] Наносит цели 5 урона по СД",
           "coinlist": [
             {}
           ]
@@ -3106,7 +3106,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Binding] на следующий ход"
                 }
               ]
             }
@@ -3131,7 +3131,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Paralysis] на следующий ход"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Binding] на следующий ход"
                 }
               ]
             },
@@ -3195,7 +3195,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Vulnerable] на следующий ход"
                 }
               ]
             },
@@ -3208,7 +3208,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Vulnerable] на следующий ход"
                 }
               ]
             },
@@ -3221,7 +3221,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Laceration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 1 [Vulnerable] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [Vulnerable] на следующий ход"
                 }
               ]
             }
@@ -3298,7 +3298,7 @@
         {
           "level": 1,
           "name": "Излагаемые сутры",
-          "desc": "[WhenUse] Даёт 2 [Enhancement] другому случайному союзнику",
+          "desc": "[WhenUse] Даёт 2 [Enhancement] одному другому союзнику",
           "coinlist": [
             {},
             {

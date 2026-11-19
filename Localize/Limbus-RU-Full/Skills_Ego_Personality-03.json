@@ -72,7 +72,7 @@
           "level": 1,
           "name": "Камни желаний",
           "abName": "Обход пагоды",
-          "desc": "[CantIdentify]\nСлучайная цель\n",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -83,7 +83,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 4 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
@@ -96,7 +96,7 @@
           "level": 3,
           "name": "Камни желаний",
           "abName": "Обход пагоды",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -107,7 +107,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 6 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
@@ -120,7 +120,7 @@
           "level": 4,
           "name": "Камни желаний",
           "abName": "Обход пагоды",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -131,7 +131,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 8 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2"
@@ -148,7 +148,7 @@
         {
           "level": 1,
           "name": "Электрическое блеяние",
-          "abName": "Снящаяся электроовца",
+          "abName": "Электроовца, видящая сны",
           "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] При 20 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +30% к урону",
           "coinlist": [
             {
@@ -163,7 +163,7 @@
         {
           "level": 3,
           "name": "Электрическое блеяние",
-          "abName": "Снящаяся электроовца",
+          "abName": "Электроовца, видящая сны",
           "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 2)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × 5% (До 15%)\n[BeforeAttack] При 20 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +35% к урону",
           "coinlist": [
             {
@@ -178,7 +178,7 @@
         {
           "level": 4,
           "name": "Электрическое блеяние",
-          "abName": "Снящаяся электроовца",
+          "abName": "Электроовца, видящая сны",
           "desc": "[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 3)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × 10% (До 30%)\n[BeforeAttack] При 20 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы получить +40% к урону",
           "coinlist": [
             {
@@ -198,8 +198,8 @@
         {
           "level": 1,
           "name": "Электрическое блеяние",
-          "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × 5% (До 15%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату 1,5% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +2,5% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 50%)",
+          "abName": "Электроовца, видящая сны",
+          "desc": "[CantIdentify]\nАтакует случайную цель\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До 1)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × 5% (До 15%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату 1,5% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +2,5% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -213,8 +213,8 @@
         {
           "level": 3,
           "name": "Электрическое блеяние",
-          "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × <style=\"highlight\">8</style>% (До <style=\"highlight\">24</style>%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату 1,5% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +<style=\"highlight\">3,5</style>% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До  <style=\"highlight\">70</style>%)",
+          "abName": "Электроовца, видящая сны",
+          "desc": "[CantIdentify]\nАтакует случайную цель\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">2</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × <style=\"highlight\">8</style>% (До <style=\"highlight\">24</style>%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату 1,5% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +<style=\"highlight\">3,5</style>% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До  <style=\"highlight\">70</style>%)",
           "coinlist": [
             {
               "coindescs": [
@@ -228,8 +228,8 @@
         {
           "level": 4,
           "name": "Электрическое блеяние",
-          "abName": "Снящаяся электроовца",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × <style=\"highlight\">12</style>% (До <style=\"highlight\">36</style>%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату <style=\"highlight\">1</style>% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +<style=\"highlight\">5</style>% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До  <style=\"highlight\">100</style>%)",
+          "abName": "Электроовца, видящая сны",
+          "desc": "[CantIdentify]\nАтакует случайную цель\n[BeforeAttack] Тяжесть атаки +(резонанс Зависти - 2) (До <style=\"highlight\">3</style>)\n[BeforeAttack] Повышает урон на (резонанс Зависти - 3) × <style=\"highlight\">12</style>% (До <style=\"highlight\">36</style>%)\n[BeforeAttack] При менее 20 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, восполняет счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 20 через трату <style=\"highlight\">1</style>% от максимальных ОЗ за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n[BeforeAttack] Тратит до 20 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для повышения урона на +<style=\"highlight\">5</style>% за единицу <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До  <style=\"highlight\">100</style>%)",
           "coinlist": [
             {
               "coindescs": [
@@ -341,7 +341,7 @@
                   "desc": "При 300 и более долях, +0,1% к урону за каждую долю <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До <style=\"highlight\">40</style>%)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Дон Кихот наносит [ThirstyRose], равные наибольшему абсолюту в цепи (До 3)"
+                  "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До 3)"
                 }
               ]
             }
@@ -407,7 +407,7 @@
           "level": 1,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n[BeforeAttack] При 1менее 50 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает собственный счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2",
+          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n[BeforeAttack] При менее чем 150 единицах <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот накладывает 1 [Laceration] на цель при каждом попадании\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает собственный счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -415,7 +415,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10-и)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100 и более единиц <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100 или менее единицах <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color>"
                 }
               ]
             },
@@ -428,7 +428,7 @@
                   "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До 3)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
+                  "desc": "[WinDuelAttack] Восстанавливает ОЗ в размере 50% от нанесённого урона по ОЗ (до 10)"
                 }
               ]
             }
@@ -438,7 +438,7 @@
           "level": 3,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n<style=\"highlight\">Сила монет -1 при 200 и более единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color></style>\n[BeforeAttack] При 1менее 50 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает собственный счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2",
+          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\n<style=\"highlight\">Сила монет -1 при 200 и более единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color></style>\n[BeforeAttack] При менее чем 150 единицах <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот накладывает 1 [Laceration] на цель при каждом попадании\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает собственный счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -446,7 +446,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10-и)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100 и более единиц <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100 или менее единицах <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
@@ -459,7 +459,7 @@
                   "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До <style=\"highlight\">4</style>)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
+                  "desc": "[WinDuelAttack] Восстанавливает ОЗ в размере 50% от нанесённого урона по ОЗ (до 10)"
                 }
               ]
             }
@@ -469,7 +469,7 @@
           "level": 4,
           "name": "Влечение: Миркалла",
           "abName": "Роза четырёхсот бутонов",
-          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\nСила монет -1 при 200 и более единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color>\n[BeforeAttack] При 1менее 50 <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот получает 1 [Laceration]\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает собственный счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>",
+          "desc": "[CantIdentify]\nСлучайные цели\nВо время использования этого навыка ОЗ Дон Кихот не может упасть ниже 1\nСила монет -1 при 10 и более <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели\nСила монет -1 при 200 и более единиц <sprite name=\"BloodDinner_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Accumulation\">Испитого пиршества</link></u></color>\n[BeforeAttack] При менее чем 150 единицах <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color> Дон Кихот накладывает 1 [Laceration] на цель при каждом попадании\n[BeforeAttack] Дон Кихот получает 20 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> и сразу активирует его эффект; затем она понижает собственный счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -477,7 +477,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Laceration] за каждые 50 долей <sprite name=\"BloodDinner_Common_Accumulation\"><color=#9f6a3a><u><link=\"BloodDinner_Common_Accumulation\">Общеиспитого пиршества</link></u></color> (До 10-и)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100 и более единиц <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> при 100 или менее единицах <sprite name=\"BloodDinner\"><color=#9f6a3a><u><link=\"BloodDinner\">Кровавого пиршества</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             },
@@ -490,7 +490,7 @@
                   "desc": "[WinDuelAttack] Наносит [ThirstyRose] в количестве, равном наибольшему числу грехов Похоти в полном резонансе (До <style=\"highlight\">5</style>)"
                 },
                 {
-                  "desc": "[WinDuelAttack] Восстанавливает 50% нанесённого урона (До 10-и)"
+                  "desc": "[WinDuelAttack] Восстанавливает ОЗ в размере 50% от нанесённого урона по ОЗ (до 10)"
                 }
               ]
             }
@@ -591,12 +591,12 @@
           "level": 1,
           "name": "Алые записи",
           "abName": "Чтобы никто не плакал",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) <sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Полных проклятий амулетов</link></u></color> (До 10-и)"
+                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) <sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Опутанных проклятием талисманов</link></u></color> (До 10-и)"
                 }
               ]
             },
@@ -606,10 +606,10 @@
                   "desc": "+5% к наносимому урону за каждый [EntangledCurseTalisman] на цели (До 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит (<sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Полные проклятий амулеты</link></u></color> на цели ÷ 2) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> (До 3-х, десятичные опускаются)"
+                  "desc": "[OnSucceedAttack] Наносит (<sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Опутанных проклятием талисманов</link></u></color> на цели ÷ 2) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> (До 3-х, десятичные опускаются)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на (<sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Полные проклятий амулеты</link></u></color> на цели ÷ 3) (До 2-х, десятичные опускаются)"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на (<sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Опутанных проклятием талисманов</link></u></color> на цели ÷ 3) (До 2-х, десятичные опускаются)"
                 }
               ]
             }
@@ -619,12 +619,12 @@
           "level": 3,
           "name": "Алые записи",
           "abName": "Чтобы никто не плакал",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) <sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Полных проклятий амулетов</link></u></color> (До 10-и)"
+                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) <sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Опутанных проклятием талисманов</link></u></color> (До 10-и)"
                 }
               ]
             },
@@ -647,12 +647,12 @@
           "level": 4,
           "name": "Алые записи",
           "abName": "Чтобы никто не плакал",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) <sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Полных проклятий амулетов</link></u></color> (До 10-и)"
+                  "desc": "[OnSucceedAttack] Наносит (6 + резонанс Чревоугодия) <sprite name=\"EntangledCurseTalisman\"><color=#e30000><u><link=\"EntangledCurseTalisman\">Опутанных проклятием талисманов</link></u></color> (До 10-и)"
                 }
               ]
             },
@@ -680,7 +680,7 @@
           "level": 1,
           "name": "Во имя любви и ненависти: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
           "abName": "Королева Ненависти",
-          "desc": "[BeforeAttack] Дон Кихот единожды <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До 3-х)\n\n[EndSkill] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для восстановления (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До 5%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"ArcanaQueenOfHate\"><color=#f8c200><u><link=\"ArcanaQueenOfHate\">Магическую Аркану</link></u></color>",
+          "desc": "[BeforeAttack] Дон Кихот единожды <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ 3)) случайных союзников (кроме себя; максимум 3 человека)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До 3-х)\n\n[EndSkill] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для восстановления (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До 5%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"ArcanaQueenOfHate\"><color=#f8c200><u><link=\"ArcanaQueenOfHate\">Магическую Аркану</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -711,7 +711,7 @@
           "level": 3,
           "name": "Во имя любви и ненависти: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
           "abName": "Королева Ненависти",
-          "desc": "[BeforeAttack] Дон Кихот единожды <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)\n<style=\"highlight\">- Если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, то она <b>дважды</b> <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ 3)) союзников (До 3-х человек)</style>\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До <style=\"highlight\">5-и</style>)\n[EndSkill] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для восстановления (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До <style=\"highlight\">8</style>%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"ArcanaQueenOfHate\"><color=#f8c200><u><link=\"ArcanaQueenOfHate\">Магическую Аркану</link></u></color>",
+          "desc": "[BeforeAttack] Дон Кихот единожды <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ 3)) случайных союзников (кроме себя; максимум 3 человека)\n<style=\"highlight\">- Если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, то она <b>дважды</b> <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ 3)) случайных союзников (кроме себя; максимум 3 человека)</style>\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До <style=\"highlight\">5-и</style>)\n[EndSkill] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для восстановления (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам с наименьшим процентом текущих ОЗ (до <style=\"highlight\">8</style>%, до 5 человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"ArcanaQueenOfHate\"><color=#f8c200><u><link=\"ArcanaQueenOfHate\">Магическую Аркану</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -742,7 +742,7 @@
           "level": 4,
           "name": "Во имя любви и ненависти: <smallcaps>Старшая Аркана Слэйв!!!</smallcaps>",
           "abName": "Королева Ненависти",
-          "desc": "[BeforeAttack] Дон Кихот единожды <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) союзников (До <style=\"highlight\">4-х</style> человек)\n- Если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, то она <b>дважды</b> <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) союзников (До <style=\"highlight\">4</style>-х человек)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (До 5-и)\n<style=\"highlight\">- Также если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, тяжесть атаки +([Charge]) (До 5-и)</style>\n\n[EndSkill] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для восстановления (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам (До <style=\"highlight\">10</style>%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"ArcanaQueenOfHate\"><color=#f8c200><u><link=\"ArcanaQueenOfHate\">Магическую Аркану</link></u></color>",
+          "desc": "[BeforeAttack] Дон Кихот единожды <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> случайных союзников (кроме себя) в количестве (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) (до <style=\"highlight\">4-х</style> человек)\n- Если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, то вместо этого она <b>дважды</b> <sprite name=\"MagicalGirlResponse\"><color=#f8c200><u><link=\"MagicalGirlResponse\">заклинает</link></u></color> случайных союзников (кроме себя) в количестве (1 + (резонанс Зависти ÷ <style=\"highlight\">2</style>)) (до <style=\"highlight\">4</style>-х человек)\n\n[BeforeAttack] Тяжесть атаки +([Charge] - 1) (до 5)\n<style=\"highlight\">- Если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, вместо этого тяжесть атаки +([Charge]) (до 5)</style>\n\n[EndSkill] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для восстановления (потраченный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)% здоровья (2 + (резонанс Зависти ÷ 2)) союзникам с наименьшим процентом ОЗ (до <style=\"highlight\">10</style>%, до 5-и человек)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"ArcanaQueenOfHate\"><color=#f8c200><u><link=\"ArcanaQueenOfHate\">Магическую Аркану</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -766,7 +766,7 @@
                   "desc": "[OnSucceedAttack] Наносит ([Charge] - 1) <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> (До <style=\"highlight\">4-х</style>)"
                 },
                 {
-                  "desc": "<style=\"highlight\">- Если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, она повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели</style>"
+                  "desc": "<style=\"highlight\">- Если Дон Кихот <sprite name=\"MagicalGirlAppear\"><color=#f8c200><u><link=\"MagicalGirlAppear\">участвует в битве как девочка-волшебница</link></u></color>, она повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели на 1</style>"
                 }
               ]
             }
@@ -812,7 +812,7 @@
           "level": 3,
           "name": "Максимально-реверсивная Аркана Слэйв: Изничтожение ненависти",
           "abName": "Королева Ненависти",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n<style=\"highlight\">- В состоянии <sprite name=\"NoVillain\"><color=#e30000><u><link=\"NoVillain\">Реверсивной регрессии</link></u></color> тяжесть атаки +([Charge] + 1) (До 5-и)</style>\n\n[BeforeAttack] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, +<style=\"highlight\">2</style>% к урону за каждую затраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">40</style>%)\n\n[BeforeAttack] Если основная цель <sprite name=\"VillainMark\"><color=#e30000><u><link=\"VillainMark\">обозначена лиходеем</link></u></color>, +<style=\"highlight\">5</style>% к урону за каждый [Charge] (До <style=\"highlight\">25</style>%)\n<style=\"highlight\">-  В состоянии <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">Истерии</link></u></color> взамен получает +7% к урону за каждый [Charge] (До 35%)</style>\n\n[BeforeAttack] +<style=\"highlight\">7</style>% к урону за каждые <style=\"highlight\">2</style> греха в резонансе Зависти (До <style=\"highlight\">21</style>%; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">ступень Истерии</link></u></color>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n<style=\"highlight\">- В состоянии <sprite name=\"NoVillain\"><color=#e30000><u><link=\"NoVillain\">Реверсивной регрессии</link></u></color> вместо этого тяжесть атаки +([Charge] + 1) (До 5-и)</style>\n\n[BeforeAttack] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, +<style=\"highlight\">2</style>% к урону за каждую затраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">40</style>%)\n\n[BeforeAttack] Если основная цель <sprite name=\"VillainMark\"><color=#e30000><u><link=\"VillainMark\">обозначена лиходеем</link></u></color>, +<style=\"highlight\">5</style>% к урону за каждый [Charge] (До <style=\"highlight\">25</style>%)\n<style=\"highlight\">-  В состоянии <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">Истерии</link></u></color> взамен получает +7% к урону за каждый [Charge] (До 35%)</style>\n\n[BeforeAttack] +<style=\"highlight\">7</style>% к урону за каждые <style=\"highlight\">2</style> греха в резонансе Зависти (До <style=\"highlight\">21</style>%; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">ступень Истерии</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -843,7 +843,7 @@
           "level": 4,
           "name": "Максимально-реверсивная Аркана Слэйв: Изничтожение ненависти",
           "abName": "Королева Ненависти",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n- В состоянии <sprite name=\"NoVillain\"><color=#e30000><u><link=\"NoVillain\">Реверсивной регрессии</link></u></color> тяжесть атаки +([Charge] + 1) (До 5-и)\n\n[BeforeAttack] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, +<style=\"highlight\">2,5</style>% к урону за каждую затраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Если основная цель <sprite name=\"VillainMark\"><color=#e30000><u><link=\"VillainMark\">обозначена лиходеем</link></u></color>, +5% к урону за каждый [Charge] (До 25%)\n-  В состоянии <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">Истерии</link></u></color> взамен получает +<style=\"highlight\">10</style>% к урону за каждый [Charge] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] <style=\"highlight\">+10</style>% к урону за каждые 2 греха в резонансе Зависти (До <style=\"highlight\">30%</style>; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">ступень Истерии</link></u></color>",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +([Charge]) (До 5-и)\n- В состоянии <sprite name=\"NoVillain\"><color=#e30000><u><link=\"NoVillain\">Реверсивной регрессии</link></u></color> вместо этого тяжесть атаки +([Charge] + 1) (До 5-и)\n\n[BeforeAttack] Дон Кихот расходует весь счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, +<style=\"highlight\">2,5</style>% к урону за каждую затраченную единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] Если основная цель <sprite name=\"VillainMark\"><color=#e30000><u><link=\"VillainMark\">обозначена лиходеем</link></u></color>, +5% к урону за каждый [Charge] (До 25%)\n-  В состоянии <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">Истерии</link></u></color> взамен получает +<style=\"highlight\">10</style>% к урону за каждый [Charge] (До <style=\"highlight\">50</style>%)\n\n[BeforeAttack] <style=\"highlight\">+10</style>% к урону за каждые 2 греха в резонансе Зависти (До <style=\"highlight\">30%</style>; десятичные опускаются)\n\n[BeforeAttack] Базовая сила -12 за каждую треснувшую монету (До -24)\n\n[EndSkill] <b>Если Дон Кихот в 『ЭГО «Лоботомии»:: Во имя любви и ненависти』</b>, она получает 1 <sprite name=\"HystericGauge\"><color=#e30000><u><link=\"HystericGauge\">ступень Истерии</link></u></color>",
           "coinlist": [
             {
               "coindescs": [

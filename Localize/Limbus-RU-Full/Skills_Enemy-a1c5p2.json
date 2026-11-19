@@ -37,7 +37,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 1 [Binding] на следующий ход"
                 }
               ]
             }
@@ -271,7 +271,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Накладывает 1 [Sinking]"
                 }
               ]
             },
@@ -281,7 +281,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Sinking]"
+                  "desc": "[OnSucceedAttackHead] Накладывает 1 [Sinking]"
                 }
               ]
             }
@@ -295,7 +295,7 @@
         {
           "level": 1,
           "name": ".--- .",
-          "desc": "Дополнительно лечит одного Обелённого союзника с наименьшей силой духа при атаке цели с <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружением</link></u></color>",
+          "desc": "Дополнительно лечит одного Обелённого союзника с наименьшим запасом ОЗ при атаке цели с <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружением</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -317,7 +317,7 @@
         {
           "level": 1,
           "name": "-. .…",
-          "desc": "[WhenUse] Если на цели есть [AaCePbBa], все Обелённые союзники восстанавливают 30 ОЗ",
+          "desc": "[WhenUse] Если на цели есть [AaCePbBa], восстанавливает 30 ОЗ одному Обелённому союзнику с наименьшим запасом ОЗ, кроме себя",
           "coinlist": [
             {
               "coindescs": [
@@ -329,7 +329,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 20 ОЗ"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 20 ОЗ"
                 }
               ]
             }
@@ -348,14 +348,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">[Vibration]а</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора ([Vibration])</link></u></color>"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">[Vibration]а</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора ([Vibration])</link></u></color>"
                 }
               ]
             }
@@ -369,7 +369,7 @@
         {
           "level": 1,
           "name": "-... .-",
-          "desc": "[WhenUse] Даёт 1 [Protection] случайному союзнику на следующий ход. Если союзник является Обелённым, даёт ему 1 дополнительную [Protection].",
+          "desc": "[WhenUse] Даёт 1 [Protection] случайному другому союзнику на следующий ход. Если союзник является Обелённым, даёт ему 1 дополнительную [Protection].",
           "coinlist": [
             {
               "coindescs": [
@@ -393,13 +393,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует [Vibration]</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора ([Vibration])</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">[Vibration]а</link></u></color> цели на 2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AaCePbBa]"
+                  "desc": "[OnSucceedAttack] Накладывает 1 ед. Бледного шума [AaCePbBa]"
                 }
               ]
             },
@@ -420,7 +420,7 @@
         {
           "level": 1,
           "name": ".--. .",
-          "desc": "[StartBattle] Получает 1 [Protection] за каждых двух Обелённых союзников (не считая себя)\nПри получении урона по щиту наносит 1 [Vibration] атаковавшему",
+          "desc": "[StartBattle] На следующий ход получает 1 [Protection] за каждых двух Обелённых союзников (не считая себя)\nПри получении урона по щиту наносит 1 [Vibration] атаковавшему",
           "coinlist": [
             {
               "coindescs": [
@@ -458,7 +458,7 @@
         {
           "level": 1,
           "name": ".-.. .",
-          "desc": "[WhenUse] Даёт 1 [AttackDmgUp] случайному Обелённому союзнику на следующий ход",
+          "desc": "[WhenUse] Даёт 1 [AttackDmgUp] на следующий ход случайному другому Обелённому союзнику",
           "coinlist": [
             {
               "coindescs": [
@@ -466,7 +466,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [AaCePbBa]"
+                  "desc": "[OnSucceedAttackHead] Накладывает 1 ед. Бледного шума [AaCePbBa]"
                 }
               ]
             }
@@ -480,7 +480,7 @@
         {
           "level": 1,
           "name": ".-.. .-",
-          "desc": "[WhenUse] Даёт 1 [AttackDmgUp] случайному Обелённому союзнику на следующий ход",
+          "desc": "[WhenUse] Даёт 1 ед. Повышения силы атаки на следующий ход случайному Обелённому союзнику, включая себя",
           "coinlist": [
             {
               "coindescs": [
@@ -488,7 +488,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AaCePbBa]"
+                  "desc": "[OnSucceedAttack] Накладывает 1 ед. Бледного шума [AaCePbBa]"
                 }
               ]
             },
@@ -509,7 +509,7 @@
         {
           "level": 1,
           "name": "--. . ...-",
-          "desc": "Если на цели есть [AaCePbBa], она теряет 1 СД за каждого живого союзника",
+          "desc": "Если на цели есть [AaCePbBa], она теряет 1 СД за каждого живого союзника, кроме самого атакующего",
           "coinlist": [
             {
               "coindescs": [
@@ -536,7 +536,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AaCePbBa]"
+                  "desc": "[OnSucceedAttack] Накладывает 1 эффект «Бледный шум» ([AaCePbBa])"
                 }
               ]
             },
@@ -560,7 +560,7 @@
         {
           "level": 1,
           "name": ".--. .... -",
-          "desc": "[WinDuel] Наносит 1 [AaCePbBa]",
+          "desc": "[WinDuel] Накладывает 1 эффект «Бледный шум» ([AaCePbBa])",
           "coinlist": [
             {
               "coindescs": [
@@ -586,7 +586,7 @@
         {
           "level": 1,
           "name": "-.- -",
-          "desc": "При получении урона по щиту наносит 1 [AaCePbBa] на цель\n[EndBattle] При наличии щита получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на следующий ход",
+          "desc": "При попадании по этому юниту, пока у него есть щит, он накладывает на цель 1 эффект «Бледный шум» ([AaCePbBa])\n[EndBattle] При наличии щита получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -667,7 +667,7 @@
                   "desc": "[OnSucceedAttack] Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [AaCePbBa]"
+                  "desc": "[OnSucceedAttackHead] Накладывает 1 эффект «Бледный шум» ([AaCePbBa])"
                 }
               ]
             },
@@ -691,7 +691,7 @@
         {
           "level": 1,
           "name": "-.- ..",
-          "desc": "[WhenUse] Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\nПри получении урона по щиту наносит 1 [AaCePbBa] на цель\n[EndBattle] Восстанавливает (сохранённый щит × 2) ОЗ.",
+          "desc": "[WhenUse] Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color>\nПри попадании по этому юниту, пока у него есть щит, он накладывает на цель 1 эффект «Бледный шум» ([AaCePbBa])\n[EndBattle] Восстанавливает (сохранённый щит × 2) ОЗ.",
           "coinlist": [
             {
               "coindescs": [
@@ -760,7 +760,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Reduction] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Накладывает 1 [Reduction] на следующий ход"
                 }
               ]
             },
@@ -834,7 +834,7 @@
                   "desc": "[OnSucceedAttack] Наносит 20 фиксированного урона по ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] При успешном попадании монетой с результатом «орёл» наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -853,7 +853,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Накладывает 1 [Paralysis] на следующий ход"
                 }
               ]
             }
@@ -919,7 +919,7 @@
         {
           "level": 1,
           "name": "В готовности записывать",
-          "desc": "Получает 1 [Enhancement] на следующий ход при снятии щита",
+          "desc": "Если щит полностью истощён, на следующий ход получает 1 [Enhancement]",
           "coinlist": [
             {
               "coindescs": [

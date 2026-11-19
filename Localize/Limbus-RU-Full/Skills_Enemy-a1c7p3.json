@@ -90,7 +90,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сила +1 за каждую [HardenedBlood]",
+          "desc": "[WhenUse] Базовая сила +1 за каждую единицу [HardenedBlood] на себе",
           "coinlist": [
             {
               "coindescs": [
@@ -134,7 +134,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Примерим наряд",
+          "name": "Давай я тебя одену",
           "desc": "[WhenUse] Наносит на 20% больше урона целям с 6 и более [Laceration]",
           "coinlist": [
             {
@@ -156,7 +156,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "У нас для вас событие!",
+          "name": "Ещё осталось событие!",
           "desc": "[WhenUse] Поглощает до 50 [BloodDinner] и получает 1 [BloodScissor] за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Если этим навыком не удалось поглотить [BloodDinner], получает 5 [Laceration] и 1 [HardenedBlood]\n[WhenUse] Сила монет +1 против целей с 5 и более [Laceration]",
           "coinlist": [
             {
@@ -216,7 +216,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Базовая сила +1, если есть [BloodScissor]\n[WhenUse] Сила монет +1, если есть 3 и более [HardenedBlood]",
+          "desc": "[WhenUse] Базовая сила +1, если есть [BloodScissor]\n[WhenUse] Сила монет +1, если у самого пользователя есть 3 или более [HardenedBlood]",
           "coinlist": [
             {
               "coindescs": [
@@ -456,7 +456,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Laceration] и [Burst] в количестве своей [HardenedBlood]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever] на себе × 4)% ОЗ (До 40%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в размере ([FestivalFever] на себе × 4)% от максимального запаса ОЗ (до 40%)"
                 }
               ]
             },

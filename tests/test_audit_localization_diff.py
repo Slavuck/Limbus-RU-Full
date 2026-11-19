@@ -16,6 +16,24 @@ from scripts.sync_localization_structure import merge_structure
 
 
 class AuditLocalizationDiffTests(unittest.TestCase):
+    def test_reviewed_korean_only_object_requires_exact_source_and_translation(self) -> None:
+        english = {"dataList": [{"id": "a", "dlg": "A line."}]}
+        korean_only = {"id": "b", "dlg": "별도 대사"}
+        russian_only = {"id": "b", "dlg": "Отдельная реплика."}
+        decision = {"relative_path": "Voice.json", "json_path": "$.dataList",
+                    "korean": korean_only, "russian": russian_only}
+        russian = {"dataList": [{"id": "a", "dlg": "Реплика."}, russian_only]}
+        for source, translation, allowed in (
+            (korean_only, russian_only, True),
+            ({**korean_only, "dlg": "변경된 대사"}, russian_only, False),
+            (korean_only, {**russian_only, "dlg": "Другая реплика."}, False),
+        ):
+            with self.subTest(source=source, translation=translation):
+                auditor = Auditor({}, {}, reviewed_korean_only=[decision])
+                auditor.compare_file("Voice.json", english, {"dataList": [source]},
+                                     {"dataList": [russian["dataList"][0], translation]})
+                self.assertEqual(not auditor.state.missing_structure, allowed)
+
     def test_korean_model_change_does_not_request_translation_of_resource_id(self):
         baseline = {('a.json', '{}', 'model'): [{
             'previous_english': '뫼마지막임시', 'previous_korean': '뫼마지막임시',

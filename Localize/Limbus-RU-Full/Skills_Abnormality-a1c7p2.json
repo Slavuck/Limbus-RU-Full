@@ -30,7 +30,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3\nЕсли целью является союзник, даёт ему 3 [DefenseUp] вместо этого"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 3\nЕсли целью является союзник, вместо этого даёт ему 3 [DefenseUp] до следующего хода"
                 }
               ]
             }
@@ -44,7 +44,7 @@
         {
           "level": 1,
           "name": "Поманить публику сюда...",
-          "desc": "[WhenUse] итоговая сила +1 для каждого 5 [FestivalFever] на себе или на каждый 6 [Laceration] на цели (максимум 4)\n[WhenUse] При менее чем 15 [BloodDinner] набрать 15 [Laceration] и сразу активировать его один раз, затем уменьшить [Laceration] счётчик на 1 (при менее чем 10% ОЗ, активировать только ту часть эффекта, где единица получает [Laceration] сила и счётчик)\n[EndSkill] Потреблять 15 [BloodDinner]",
+          "desc": "[WhenUse] итоговая сила +1 за каждые 5 [FestivalFever] на себе или каждые 6 [Laceration] на цели (максимум 4)\n[WhenUse] При менее чем 15 [BloodDinner] набрать 15 [Laceration] и сразу активировать его один раз, затем уменьшить [Laceration] счётчик на 1 (при менее чем 10% ОЗ, активировать только ту часть эффекта, где единица получает [Laceration] сила и счётчик)\n[EndSkill] Потреблять 15 [BloodDinner]",
           "coinlist": [
             {
               "coindescs": [
@@ -76,12 +76,12 @@
         {
           "level": 1,
           "name": "Парад чудес",
-          "desc": "[CantIdentify]\nПриоритет — врагов для основной цели, а союзников — для подцелей. Если цель — союзник, +10 сила в столкновении и всегда исправляйте урон 0.\n[WhenUse] сила в столкновении +1 за каждую 20 [BloodDinner_Accumulation] этой единицы (максимум 10)\n[WhenUse] При менее чем 25 [BloodDinner] набрать 25 [Laceration], сразу активировать один раз, затем потерять 1 [Laceration] счётчик (менее 10% ОЗ, активируйте только ту часть эффекта, где единица получает [Laceration] сила и счётчик)\n[EndSkill] Потреблять 25 [BloodDinner]\n[EndBattle] Потреблять всё [FestivalFever]",
+          "desc": "[CantIdentify]\nПриоритет — враги для основной цели, а союзники — для подцелей. Если цель — союзник, +10 к силе в столкновении, урон всегда фиксируется на 0.\n[WhenUse] сила в столкновении +1 за каждую 20 [BloodDinner_Accumulation] этой единицы (максимум 10)\n[WhenUse] При менее чем 25 [BloodDinner] набрать 25 [Laceration], сразу активировать один раз, затем потерять 1 [Laceration] счётчик (менее 10% ОЗ, активируйте только ту часть эффекта, где единица получает [Laceration] сила и счётчик)\n[EndSkill] Потреблять 25 [BloodDinner]\n[EndBattle] Потреблять всё [FestivalFever]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наложите 1 [AttackUp] и [DefenseUp] до следующего хода в зависимости от [FestivalFever] (1 на 3 [FestivalFever], максимум 3 каждого)"
+                  "desc": "[OnSucceedAttack] Наложите 1 [AttackUp] и [DefenseUp] до следующего хода в зависимости от количества [FestivalFever] у цели (по 1 за каждые 3 [FestivalFever], максимум по 3 каждого эффекта)"
                 }
               ]
             },
@@ -105,7 +105,7 @@
         {
           "level": 1,
           "name": "Вечный парад",
-          "desc": "[WhenUse] сила в столкновении +1 за каждую 20 [BloodDinner_Accumulation] этой единицы (максимум 10)\n[WhenUse] При менее чем 50 [BloodDinner] усиление 25 [Laceration], +2 [Laceration] Счёт немедленно активируется дважды, затем уменьшаем [Laceration] Счёт на 2 (при менее чем 10% ОЗ, активируйте только ту часть эффекта, где единица приобретает [Laceration] Силу и Счёт)\n[WhenUse] Потреблять половину [BloodDinner]\n[EndBattle] Потреблять всё [IncompleteParade]\n[EndBattle] получает 10 [FestivalFever]",
+          "desc": "[WhenUse] сила в столкновении +1 за каждые 20 [BloodDinner_Accumulation] этой единицы (максимум 10)\n[WhenUse] Если [BloodDinner] меньше 50, получает 25 [Laceration] и +2 к счётчику [Laceration], затем немедленно активирует этот эффект дважды и уменьшает счётчик [Laceration] на 2 (если ОЗ меньше 10%, активируется только часть эффекта, при которой эта единица получает [Laceration] Силу и Счёт)\n[WhenUse] Потреблять половину [BloodDinner]\n[EndBattle] Потреблять всё [IncompleteParade]\n[EndBattle] получает 10 [FestivalFever]",
           "coinlist": [
             {
               "coindescs": [
@@ -146,7 +146,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "И это всё, что нужно...",
+          "name": "И это всё, что оно делает...",
           "desc": "[DuelCounter]\n[WhenUse] Сила в столкновении +3 при 5 и более [FestivalFever]\n[StartBattle] Получает 5 [BloomingThorns]\n[DefeatDuel] Теряет 5 [BloomingThorns]",
           "coinlist": [
             {
@@ -173,7 +173,7 @@
         {
           "level": 1,
           "name": "Финал",
-          "desc": "[WhenUse] Поглощает половину всего [BloodDinner]\n[WinDuel] Наносит на (Поглощённое атакой [BloodDinner])% больше урона (До 150%)\n[DefeatDuel] Наносит на 50% меньше урона и не может оглушить целей\n[EndSkill] СД падает до -45",
+          "desc": "[WhenUse] Поглощает половину всего [BloodDinner]\n[WinDuel] Наносит на (Поглощённое этим навыком [BloodDinner])% больше урона (до 150%)\n[DefeatDuel] Наносит на 50% меньше урона, и урон этого навыка не может оглушить цель\n[EndSkill] СД падает до -45",
           "coinlist": [
             {
               "coindescs": [
@@ -377,7 +377,7 @@
         {
           "level": 1,
           "name": "Водное зеркало",
-          "desc": "[CanDuelGuard]\n[WhenUse] Получает 3 [Protection]\n[WinDuel] Наносит урон по ОЗ, равный Итоговой силе этого навыка",
+          "desc": "[CanDuelGuard]\n[WhenUse] Получает 3 [Protection]\n[WinDuel] Наносит урон по ОЗ, равный итоговой силе поединка этого навыка",
           "coinlist": [
             {
               "coindescs": [

@@ -36,7 +36,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 }
               ]
             }
@@ -57,7 +57,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -72,15 +72,15 @@
           "level": 1,
           "name": "Бурлящая коррозия",
           "abName": "Ступающая жемчужина",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 30% от нанесённого урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -95,13 +95,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 30% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -116,13 +116,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 30% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 30% от нанесённого урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижений уровня защиты</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -184,7 +184,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 Уязвимость к Лености на следующий ход"
                 },
                 {
-                  "desc": "[EndSkill] Восстанавливает 30% ОЗ 2-м союзникам с самым низким здоровьем"
+                  "desc": "[EndSkill] Восстанавливает ОЗ 2 союзникам, кроме себя, с наименьшим процентом текущих ОЗ в размере 30% от максимума ОЗ этого персонажа"
                 },
                 {
                   "desc": "[EndSkillHead] Если цель оглушена или погибла, накладывает щит в размере 15% от своего максимума ОЗ на персонажей, которым восстановил здоровье"
@@ -202,15 +202,15 @@
           "level": 1,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайные цели",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Цели теряют 15 СД"
+                  "desc": "[OnSucceedAttack] Цель теряет 15 СД"
                 }
               ]
             }
@@ -225,13 +225,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Цели теряют 20 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Если цель оглушена или побеждена, восстанавливает 5 СД"
+                  "desc": "[OnSucceedAttackTail] Если цель оглушена или побеждена, восстанавливает себе 5 СД"
                 }
               ]
             }
@@ -246,13 +246,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Цели теряют 20 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель оглушена или побеждена, восстанавливает 7 СД"
+                  "desc": "[OnSucceedAttack] Если цель оглушена или побеждена, восстанавливает себе 7 СД"
                 }
               ]
             }
@@ -267,16 +267,16 @@
           "level": 1,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 6)\n[StartBattle] Основная цель этого навыка не тратит [Laceration] в этот ход.\n[EndSkill] Родя теряет 10 СД в конце хода в течение 3-х ходов.",
+          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До 6)\n[StartBattle] Счётчик [Laceration] основной цели этого навыка не уменьшается в этот ход.\n[EndSkill] Родя теряет 10 СД в конце хода в течение 3-х ходов.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Похотью на число потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели.\n- При резонансе Похоти, равном 4-м, повышает урон на x1,2.\n(При подсчёте потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> число не может превысить 99.)",
+                  "desc": "[OnSucceedAttack] Наносит урон Похотью на число потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели.\n- При резонансе Похоти 4 или выше повышает урон на x1,2.\n(При подсчёте потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> число не может превысить 99.)",
                   "summary": "[OnSucceedAttack] Наносит урон Похотью в зависимости от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели"
                 },
                 {
-                  "desc": "[EnemyKill] Если урон навыка или эффект монеты превосходит ОЗ цели, фиксированно переносит оставшийся урон на остальных противников.\n(В направляемых битвах отсчёт ведётся от ОЗ ядра.)",
+                  "desc": "[EnemyKill] Если урон навыка или эффект монеты превышает оставшиеся ОЗ цели, избыточный урон распределяется между всеми противниками как фиксированный урон.\n(В направляемых битвах расчёт ведётся исходя из оставшихся ОЗ ядра.)",
                   "summary": "[EnemyKill] При превышении уроном ОЗ переносит оставшийся урон на остальных противников."
                 }
               ]
@@ -287,16 +287,16 @@
           "level": 3,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">9</style>)\n[StartBattle] Основная цель этого навыка не тратит [Laceration] в этот ход.\n[EndSkill] Родя теряет 10 СД в конце хода в течение 3-х ходов.",
+          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">9</style>)\n[StartBattle] Счётчик [Laceration] основной цели этого навыка не уменьшается в этот ход.\n[EndSkill] Родя теряет 10 СД в конце хода в течение 3-х ходов.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Похотью на <style=\"highlight\">(Потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели × 1,2)</style>.\n- При резонансе Похоти, равном 4-м, повышает урон на x<style=\"highlight\">1,5</style>.\n<style=\"highlight\">- При абсолюте Похоти, равном 4-м, повышает урон на x1,8.</style>\n(При подсчёте потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> число не может превысить 99.)",
+                  "desc": "[OnSucceedAttack] Наносит урон Похотью на <style=\"highlight\">(Потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели × 1,2)</style>.\n- При резонансе Похоти, равном 4 или выше, повышает урон на x<style=\"highlight\">1,5</style>.\n<style=\"highlight\">- При абсолюте Похоти, равном 4 или выше, повышает урон на x1,8.</style>\n(При подсчёте потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> число не может превысить 99.)",
                   "summary": "[OnSucceedAttack] Наносит урон Похотью в зависимости от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели"
                 },
                 {
-                  "desc": "[EnemyKill] Если урон навыка или эффект монеты превосходит ОЗ цели, фиксированно переносит оставшийся урон на остальных противников.\n(В направляемых битвах отсчёт ведётся от ОЗ ядра.)",
+                  "desc": "[EnemyKill] Если урон навыка или эффект монеты превышает оставшиеся ОЗ цели, избыточный урон распределяется между всеми противниками как фиксированный урон.\n(В направляемых битвах расчёт ведётся исходя из оставшихся ОЗ ядра.)",
                   "summary": "[EnemyKill] При превышении уроном ОЗ переносит оставшийся урон на остальных противников."
                 }
               ]
@@ -307,16 +307,16 @@
           "level": 4,
           "name": "Кровавое желание",
           "abName": "Красные туфельки",
-          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">13</style>)\n[StartBattle] Основная цель этого навыка не тратит [Laceration] в этот ход.\n[EndSkill] Родя теряет 10 СД в конце хода в течение 3-х ходов.",
+          "desc": "Сила монет +1 за каждые 2 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели (До <style=\"highlight\">13</style>)\n[StartBattle] Счётчик [Laceration] основной цели этого навыка не уменьшается в этот ход.\n[EndSkill] Родя теряет 10 СД в конце хода в течение 3-х ходов.",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон Похотью на (Потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели × <style=\"highlight\">1,5</style>).\n- При резонансе Похоти, равном 4-м, повышает урон на x<style=\"highlight\">1,8</style>.\n- При абсолюте Похоти, равном 4-м, повышает урон на x<style=\"highlight\">2</style>.\n(При подсчёте потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> число не может превысить 99.)",
+                  "desc": "[OnSucceedAttack] Наносит урон Похотью на (Потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели × <style=\"highlight\">1,5</style>).\n- При резонансе Похоти, равном 4 или выше, повышает урон на x<style=\"highlight\">1,8</style>.\n- При абсолюте Похоти, равном 4 или выше, повышает урон на x<style=\"highlight\">2</style>.\n(При подсчёте потенциала <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> число не может превысить 99.)",
                   "summary": "[OnSucceedAttack] Наносит урон Похотью в зависимости от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на цели"
                 },
                 {
-                  "desc": "[EnemyKill] Если урон навыка или эффект монеты превосходит ОЗ цели, фиксированно переносит оставшийся урон на остальных противников.\n(В направляемых битвах отсчёт ведётся от ОЗ ядра.)",
+                  "desc": "[EnemyKill] Если урон навыка или эффект монеты превышает оставшиеся ОЗ цели, избыточный урон распределяется между всеми противниками как фиксированный урон.\n(В направляемых битвах расчёт ведётся исходя из оставшихся ОЗ ядра.)",
                   "summary": "[EnemyKill] При превышении уроном ОЗ переносит оставшийся урон на остальных противников."
                 }
               ]
@@ -471,7 +471,7 @@
           "level": 1,
           "name": "Проклятый гвоздь",
           "abName": "Страждущий мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Восстанавливает 15% ОЗ 3-ём союзникам (кроме Роди) с наименьшим процентом ОЗ",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Восстанавливает 15% от своего максимума ОЗ 3-ём союзникам (кроме Роди) с наименьшим процентом ОЗ",
           "coinlist": [
             {
               "coindescs": [
@@ -558,7 +558,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Назначение суда",
+          "name": "Назначенное судебное разбирательство",
           "abName": "Пылкая герцогиня",
           "desc": "[EndSkill] Восстанавливает здоровье союзникам с наименьшим процентом текущих ОЗ в размере 15% от их максимума ОЗ; число целей — 1 + наибольшее число резонансов (не более 3)\n[EndSkill] В течение 3 ходов теряет 10 СД в конце хода",
           "coinlist": [
@@ -568,7 +568,7 @@
                   "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При ударе основной цели Родя наносит на неё (1 + (резонанс Гнева ÷ 3)) <sprite name=\"BirdCage\"><color=#e30000><u><link=\"BirdCage\">Раскалённых клеток</link></u></color> (До 2-х, десятичные опускаются)"
+                  "desc": "[OnSucceedAttack] При попадании по основной цели Родя накладывает на неё в следующем ходу (1 + (резонанс Гнева ÷ 3)) <sprite name=\"BirdCage\"><color=#e30000><u><link=\"BirdCage\">Раскалённых клеток</link></u></color> (До 2-х, десятичные опускаются)"
                 }
               ]
             },
@@ -577,7 +577,7 @@
         },
         {
           "level": 3,
-          "name": "Назначение суда",
+          "name": "Назначенное судебное разбирательство",
           "abName": "Пылкая герцогиня",
           "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки увеличивается на (наибольшее число резонансов ÷ 2) (не более 3; дробная часть отбрасывается)</style>\n[EndSkill] Восстанавливает здоровье союзникам с наименьшим процентом текущих ОЗ в размере <style=\"highlight\">18%</style> от их максимума ОЗ; число целей — 1 + наибольшее число резонансов (не более 3)\n[EndSkill] В течение 3 ходов теряет 10 СД в конце хода",
           "coinlist": [
@@ -587,7 +587,7 @@
                   "desc": "[OnSucceedAttack] Наносит <style=\"highlight\">8</style> <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При ударе основной цели Родя наносит на неё (1 + (резонанс Гнева ÷ 3)) <sprite name=\"BirdCage\"><color=#e30000><u><link=\"BirdCage\">Раскалённых клеток</link></u></color> (До  <style=\"highlight\">3</style>-х, десятичные опускаются)"
+                  "desc": "[OnSucceedAttack] При попадании по основной цели Родя накладывает на неё в следующем ходу (1 + (резонанс Гнева ÷ 3)) <sprite name=\"BirdCage\"><color=#e30000><u><link=\"BirdCage\">Раскалённых клеток</link></u></color> (До  <style=\"highlight\">3</style>-х, десятичные опускаются)"
                 }
               ]
             },
@@ -596,7 +596,7 @@
         },
         {
           "level": 4,
-          "name": "Назначение суда",
+          "name": "Назначенное судебное разбирательство",
           "abName": "Пылкая герцогиня",
           "desc": "[BeforeAttack] Тяжесть атаки увеличивается на (наибольшее число резонансов ÷ 2) (не более 3; дробная часть отбрасывается)\n[EndSkill] Восстанавливает здоровье союзникам с наименьшим процентом текущих ОЗ в размере <style=\"highlight\">20%</style> от их максимума ОЗ; число целей — 1 + наибольшее число резонансов (не более 3)\n[EndSkill] В течение 3 ходов теряет 10 СД в конце хода",
           "coinlist": [
@@ -606,7 +606,7 @@
                   "desc": "[OnSucceedAttack] Наносит 8 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При ударе основной цели Родя наносит на неё (1 + (резонанс Гнева ÷ 3)) <sprite name=\"BirdCage\"><color=#e30000><u><link=\"BirdCage\">Раскалённых клеток</link></u></color> (До 3-х, десятичные опускаются)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] При ударе основной цели Родя на следующий ход накладывает на неё (1 + (резонанс Гнева ÷ 3)) <sprite name=\"BirdCage\"><color=#e30000><u><link=\"BirdCage\">Раскалённых клеток</link></u></color> (до 3, дробная часть отбрасывается)<style=\"highlight\"></style>"
                 }
               ]
             },
@@ -620,9 +620,9 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Назначение суда",
+          "name": "Назначенное судебное разбирательство",
           "abName": "Пылкая герцогиня",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
+          "desc": "[CantIdentify]\nАтакует случайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
           "coinlist": [
             {
               "coindescs": [
@@ -654,9 +654,9 @@
         },
         {
           "level": 3,
-          "name": "Назначение суда",
+          "name": "Назначенное судебное разбирательство",
           "abName": "Пылкая герцогиня",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
+          "desc": "[CantIdentify]\nАтакует случайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
           "coinlist": [
             {
               "coindescs": [
@@ -688,9 +688,9 @@
         },
         {
           "level": 4,
-          "name": "Назначение суда",
+          "name": "Назначенное судебное разбирательство",
           "abName": "Пылкая герцогиня",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
+          "desc": "[CantIdentify]\nАтакует случайные цели\n[BeforeAttack] Тяжесть атаки +(наибольший резонанс ÷ 2) (До 3-х, десятичные опускаются)",
           "coinlist": [
             {
               "coindescs": [
@@ -732,7 +732,7 @@
           "level": 1,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "[EndSkill] Восстанавливает 5% от максимальных ОЗ и даёт 2 [ScarletMothRodion] для 2 союзников, которые имеют наименьший процент текущих ОЗ\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе Похоти - 1) (До 2 дополнительных союзников)",
+          "desc": "[EndSkill] Восстанавливает 5% от максимальных ОЗ и даёт 2 [ScarletMothRodion] для 2 союзников, которые имеют наименьший процент текущих ОЗ (восстанавливает не менее 1 ОЗ)\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе Похоти - 1) (До 2 дополнительных союзников)",
           "coinlist": [
             {
               "coindescs": [
@@ -750,7 +750,7 @@
           "level": 3,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на всех целях этого навыка (До 2)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">8%</style> от максимальных ОЗ и даёт 2 [ScarletMothRodion] для 2 союзников, которые имеют наименьший процент текущих ОЗ\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе Похоти - 1) (До 2 дополнительных союзников)\n<style=\"highlight\">- Если затронутый союзник имеет экипированный навык с грехом Похоти, то восстанавливает ему дополнительные 3 СД</style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на всех целях этого навыка (До 2)</style>\n[EndSkill] Восстанавливает <style=\"highlight\">8%</style> от максимальных ОЗ и даёт 2 [ScarletMothRodion] для 2 союзников, которые имеют наименьший процент текущих ОЗ (восстанавливает не менее 1 ОЗ)\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе Похоти - 1) (До 2 дополнительных союзников)\n<style=\"highlight\">- Если затронутый союзник имеет экипированный навык с грехом Похоти, то восстанавливает ему дополнительные 3 СД</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -768,7 +768,7 @@
           "level": 4,
           "name": "Навстречу закату",
           "abName": "Путник заката",
-          "desc": "[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на всех целях этого навыка (До 2)\n[EndSkill] Восстанавливает <style=\"highlight\">10%</style> от максимальных ОЗ и даёт 2 [ScarletMothRodion] для 2 союзников, которые имеют наименьший процент текущих ОЗ\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе Похоти - 1) (До 2 дополнительных союзников)\n- Если затронутый союзник имеет экипированный навык с грехом Похоти, то восстанавливает ему дополнительные <style=\"highlight\">6</style> СД",
+          "desc": "[WhenUse] Сила в столкновении +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на всех целях этого навыка (До 2)\n[EndSkill] Восстанавливает <style=\"highlight\">10%</style> от максимальных ОЗ и даёт 2 [ScarletMothRodion] для 2 союзников, которые имеют наименьший процент текущих ОЗ (восстанавливает не менее 1 ОЗ)\n- Количество затрагиваемых союзников увеличивается на (Число грехов в резонансе Похоти - 1) (До 2 дополнительных союзников)\n- Если затронутый союзник имеет экипированный навык с грехом Похоти, то восстанавливает ему дополнительные <style=\"highlight\">6</style> СД",
           "coinlist": [
             {
               "coindescs": [
@@ -779,7 +779,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 3 [Laceration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "<style=\"highlight\">[EndCoin] Наносит 1 [CrimsonTakeDamageUp] и 1 [ScarletTakeDamageUp] на следующий ход</style>"
+                  "desc": "<style=\"highlight\">[EndCoin] На следующий ход накладывает 1 [CrimsonTakeDamageUp] и 1 [ScarletTakeDamageUp] на цель, по которой попал навык</style>"
                 }
               ]
             }
@@ -808,7 +808,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [CrimsonTakeDamageUp] на следующий ход (Единожды за ход)"
+                  "desc": "[EndCoin] Накладывает 1 [CrimsonTakeDamageUp] на цель, по которой попал, в следующем ходу (один раз за ход)"
                 }
               ]
             },
@@ -824,7 +824,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [ScarletTakeDamageUp] на следующий ход (Единожды за ход)"
+                  "desc": "[EndCoin] Накладывает 1 [ScarletTakeDamageUp] на цель, по которой попал, в следующем ходу (один раз за ход)"
                 }
               ]
             }
@@ -848,7 +848,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на 1"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [CrimsonTakeDamageUp] на следующий ход (Единожды за ход)"
+                  "desc": "[EndCoin] Накладывает 1 [CrimsonTakeDamageUp] на цель, по которой попал, в следующем ходу (один раз за ход)"
                 }
               ]
             },
@@ -864,7 +864,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на 1"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [ScarletTakeDamageUp] на следующий ход (Единожды за ход)"
+                  "desc": "[EndCoin] Накладывает 1 [ScarletTakeDamageUp] на цель, по которой попал, в следующем ходу (один раз за ход)"
                 }
               ]
             }
@@ -888,7 +888,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Combustion] на <style=\"highlight\">2</style>"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [CrimsonTakeDamageUp] на следующий ход (Единожды за ход)"
+                  "desc": "[EndCoin] Накладывает 1 [CrimsonTakeDamageUp] на цель, по которой попал, в следующем ходу (один раз за ход)"
                 }
               ]
             },
@@ -904,7 +904,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Laceration] на <style=\"highlight\">2</style>"
                 },
                 {
-                  "desc": "[EndCoin] Наносит 1 [ScarletTakeDamageUp] на следующий ход (Единожды за ход)"
+                  "desc": "[EndCoin] Накладывает 1 [ScarletTakeDamageUp] на цель, по которой попал, в следующем ходу (один раз за ход)"
                 }
               ]
             }

@@ -11,14 +11,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 ед. дополнительного дробящего урона"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 ед. дополнительного дробящего урона"
                 }
               ]
             },
@@ -28,7 +28,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 дополнительного урона"
+                  "desc": "[OnSucceedAttack] Наносит 3 ед. дополнительного дробящего урона"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если у персонажа есть [ReinforcedTattooSpiderDaughterTwo], накладывает 2 [Binding] на следующий ход"
@@ -80,7 +80,7 @@
         {
           "level": 1,
           "name": "Потрошение!",
-          "desc": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[EndSkill] При 3 и более [ResentmentSpiderDaughterTwo] получает 1 [VioletDamageUp] на следующий ход",
+          "desc": "Навык [HeatingWireOnSpiderTwo]\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[EndSkill] При 3 и более [ResentmentSpiderDaughterTwo] получает 1 [VioletDamageUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -106,7 +106,7 @@
         {
           "level": 1,
           "name": "Перекрёстный вихрь!",
-          "desc": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка",
+          "desc": "В состоянии [HeatingWireOnSpiderTwo] к этому навыку применяются эффекты теплового клинка.\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -147,7 +147,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 дополнительного урона"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если есть [ReinforcedTattooSpiderDaughterTwo], наносит 2 [Binding] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если у персонажа есть [ReinforcedTattooSpiderDaughterTwo], накладывает 2 [Binding] на следующий ход"
                 }
               ]
             }
@@ -161,7 +161,7 @@
         {
           "level": 1,
           "name": "Фиолетовый~ Сокрушительный удар!",
-          "desc": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo], наносит на 60% больше урона\n[WhenUse] При 2 и более [ResentmentSpiderDaughterTwo] злобы с шансом 50% наносит 1 [Paralysis] при попадании монетами этого навыка\n[EndSkill] Теряет всю [ResentmentSpiderDaughterTwo]",
+          "desc": "Навык теплового клинка.\nВ состоянии [HeatingWireOnSpiderTwo] к этому навыку применяются эффекты теплового клинка\nСила монет +1 против целей с 3 и более единицами в сумме силы [Combustion] и [Laceration]\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], повышает счётчик [Laceration] на 1 при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo], наносит на 60% больше урона\n[WhenUse] При 2 и более [ResentmentSpiderDaughterTwo] злобы с шансом 50% наносит 1 [Paralysis] при попадании монетами этого навыка\n[EndSkill] Теряет всю [ResentmentSpiderDaughterTwo]",
           "coinlist": [
             {
               "coindescs": [
@@ -226,7 +226,7 @@
         {
           "level": 1,
           "name": "Я тебе за это отплачу...!",
-          "desc": "Навык [HeatingWireOnSpiderTwo](#f8c200)\nЕсли при получении удара есть [ReinforcedTattooSpiderDaughterTwo], повторно использует этот навык во время хода за каждое их значение (До 2 дополнительных раз)\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], наносит 1 [Laceration] при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo], наносит на 40% больше урона",
+          "desc": "Навык теплового клинка.\nВ состоянии [HeatingWireOnSpiderTwo] к этому навыку применяются эффекты теплового клинка\nЕсли при получении удара есть [ReinforcedTattooSpiderDaughterTwo], повторно использует этот навык во время хода за каждое их значение (До 2 дополнительных раз)\n[WhenUse] Если есть [ReinforcedTattooSpiderDaughterTwo], наносит 1 [Laceration] при попадании монетами этого навыка\n[WhenUse] Если текущие ОЗ ниже 40% или есть 2 и более [ReinforcedTattooSpiderDaughterTwo], наносит на 40% больше урона",
           "coinlist": [
             {
               "coindescs": [

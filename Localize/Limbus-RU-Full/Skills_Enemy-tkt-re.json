@@ -70,10 +70,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если свой счётчик [Vibration] равен 10 и более, то [VibrationExplosion] и понижает счётчик [Vibration] на 1"
+                  "desc": "[OnSucceedAttack] Если собственный счётчик [Vibration] равен 10 или более, срабатывает [VibrationExplosion], а счётчик [Vibration] цели уменьшается на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если сила [Vibration] цели равна 15 и более, то [VibrationExplosion] ещё раз и понижает счётчик [Vibration] на 1"
+                  "desc": "[OnSucceedAttack] Если сила [Vibration] цели равна 15 или более, срабатывает [VibrationExplosion], а счётчик [Vibration] цели уменьшается на 1"
                 }
               ]
             }
@@ -86,7 +86,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Что, оружие бесполезно?",
+          "name": "Этим оружием теперь не воспользуешься?",
           "desc": "[WhenUse] Повышает свой счётчик [Vibration] на 3\n[WhenUse] Сила в столкновении +1, если свой счётчик [Vibration] равен 5 и более",
           "coinlist": [
             {
@@ -106,7 +106,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] [Switch_Vibration] в [VibrationCollapse]"
+                  "desc": "[OnSucceedAttack] Вызвать [Switch_Vibration] в [VibrationCollapse]"
                 }
               ]
             }
@@ -120,7 +120,7 @@
         {
           "level": 1,
           "name": "Готовы для взбучки?",
-          "desc": "Приоритизирует цели с [VibrationCollapse]\n[WhenUse] Применить [Vibration] Счёт, равное [Vibration] Рассчитывать на себя ко всем остальным союзникам\n[WhenUse] активирует [Switch_Vibration] на всех союзниках (включая этот юнит), чтобы их [Vibration] превратились в [VibrationDistribution]\n[DefeatDuel] Нанести -80% урон и урон этого навыка не может оглушить цель",
+          "desc": "Приоритизирует цели с [VibrationCollapse]\n[WhenUse] Наложить на всех остальных союзников [Vibration] в количестве, равном собственному количеству [Vibration]\n[WhenUse] активирует [Switch_Vibration] на всех союзниках (включая этот юнит), чтобы их [Vibration] превратились в [VibrationDistribution]\n[DefeatDuel] Нанести -80% урон и урон этого навыка не может оглушить цель",
           "coinlist": [
             {
               "coindescs": [
@@ -152,7 +152,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Производит [FusionVibration] с [VibrationEcho]"
+                  "desc": "[OnSucceedAttack] Преобразует [FusionVibration] в [VibrationEcho]"
                 }
               ]
             }
@@ -185,7 +185,7 @@
         {
           "level": 1,
           "name": "Сбор ради общего дела",
-          "desc": "[CantDuel]\n[StartBattle] Забирает себе весь [Vibration] других союзников, кроме себя; [Vibration] всех союзников удаляется\n[StartBattle] Получает 1 [AttackUp] за каждые 3 [Vibration] на себе\n[WhenUse] Получает 10 [Vibration]",
+          "desc": "[CantDuel]\n[StartBattle] Забирает себе счётчик [Vibration] всех остальных союзников; [Vibration] всех союзников удаляется\n[StartBattle] Получает 1 [AttackUp] за каждые 3 [Vibration] на себе\n[WhenUse] Получает 10 [Vibration]",
           "coinlist": [
             {
               "coindescs": [
@@ -210,13 +210,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Расходует 1 счётчика [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                  "desc": "[OnSucceedAttack] Расходует 1 счётчик [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Расходует 1 счётчика [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                  "desc": "[OnSucceedAttack] Расходует 1 счётчик [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Расходует 1 счётчика [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
+                  "desc": "[OnSucceedAttack] Расходует 1 счётчик [Vibration] на себе и активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 }
               ]
             }

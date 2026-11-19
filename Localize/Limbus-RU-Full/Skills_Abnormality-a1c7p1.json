@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Ну же, аллé!",
-          "desc": "[WhenUse] [DuelDeclaration_Camille]\n[WhenUse] Получает 5 [Breath]\n[WinDuel] Повышает свой счётчик [Breath] на 2",
+          "desc": "[WhenUse] Накладывает [DuelDeclaration_Camille]\n[WhenUse] Получает 5 [Breath]\n[WinDuel] Повышает свой счётчик [Breath] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -82,7 +82,7 @@
         {
           "level": 1,
           "name": "Салют",
-          "desc": "[WhenUse] Если быстрее цели, +1 к Силе монет за каждые 2 единицы разницы в скорости (До 3)",
+          "desc": "[WhenUse] Если скорость этого юнита выше скорости атакующего, Сила монет +1 за каждые 2 единицы разницы в скорости (максимум 3)",
           "coinlist": [
             {
               "coindescs": [
@@ -134,7 +134,7 @@
         {
           "level": 1,
           "name": "Парирование",
-          "desc": "[WinDuel] Наносит на 10% больше урона за каждое комбо в столкновении (До 50%)\n[WinDuel] Получает 2 [Agility] на следующий ход\n[DefeatDuel] Получает 2 [Binding] на следующий ход",
+          "desc": "[WinDuel] Наносит на 10% больше урона за каждое столкновение (до 50%)\n[WinDuel] Получает 2 [Agility] на следующий ход\n[DefeatDuel] Получает 2 [Binding] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -220,7 +220,7 @@
         {
           "level": 1,
           "name": "ЧИРК!!",
-          "desc": "[WhenUse] Поглощает до 30 [BloodDinner], чтобы получить 1 [BloodScissor] и восстановить 3 СД за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Сила в столкновении +5 с [LineCutting]\nВосстанавливает 5 СД при каждом попадании по [LineCutting]",
+          "desc": "[WhenUse] Поглощает до 30 [BloodDinner], чтобы получить 1 [BloodScissor] и восстановить 3 СД за каждые 10 поглощённого [BloodDinner]\n[WhenUse] Если у цели есть [LineCutting], сила столкновения +5\nВосстанавливает 5 СД при каждом попадании по [LineCutting]",
           "coinlist": [
             {
               "coindescs": [
@@ -290,7 +290,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [BloodScissorScars] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Делает [LineCutting] в следующем ходе"
+                  "desc": "[OnSucceedAttack] Накладывает [LineCutting] на цель в следующем ходу"
                 }
               ]
             }

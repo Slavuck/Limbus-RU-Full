@@ -43,7 +43,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Хихиканье",
+          "name": "Безумный смех",
           "desc": "[WhenUse] Наносит 10 урона по СД",
           "coinlist": [
             {
@@ -134,7 +134,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Должна забрать ваши жизни!",
+          "name": "Заберу ваши жизни!",
           "desc": "[DefeatDuel] Персонаж становится оглушён",
           "coinlist": [
             {
@@ -382,7 +382,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 Уязвимость на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 5 уровней Уязвимости на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на следующий ход"
@@ -486,7 +486,7 @@
           "level": 1,
           "name": "Мешочный пресс",
           "keywords": [
-            "Связанные"
+            "Сковывание"
           ],
           "coinlist": [
             {
@@ -507,7 +507,7 @@
           "level": 1,
           "name": "Кровавый выстрел",
           "keywords": [
-            "Bleeding"
+            "Кровотечение"
           ],
           "coinlist": [
             {
@@ -531,14 +531,14 @@
           "level": 1,
           "name": "Свёртывание крови",
           "keywords": [
-            "Bleeding"
+            "Кровотечение"
           ],
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 30 Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Наносит 30 Кровотечений"
                 }
               ]
             }
@@ -569,7 +569,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Непрерывное напряжение",
+          "name": "Равное давление",
           "coinlist": [
             {
               "coindescs": [
@@ -587,7 +587,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Поток электродвижения",
+          "name": "Преследование при равном давлении",
           "coinlist": [
             {
               "coindescs": [
@@ -617,10 +617,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 2 единицы Сковывания на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 4 Понижение силы защиты"
+                  "desc": "[OnSucceedAttackHead] Накладывает 4 единицы понижения силы защиты"
                 }
               ]
             }
@@ -709,10 +709,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывания на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 4 Понижение силы защиты"
+                  "desc": "[OnSucceedAttackHead] Накладывает 4 единицы понижения силы защиты"
                 }
               ]
             }
@@ -757,7 +757,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывания на следующий ход"
                 }
               ]
             }
@@ -779,7 +779,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 2 Сковывание на следующий ход"
+                  "desc": "[OnSucceedAttackHead] Наносит 2 Сковывания на следующий ход"
                 }
               ]
             }
@@ -792,14 +792,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Электрическая нагрузка",
+          "name": "Инъекция тока",
           "desc": "[WhenUse] Получает 1 Подзаряд\nНаносит +10% к урону целям с Паралич",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Паралич"
+                  "desc": "[OnSucceedAttack] Наносит 3 Паралича"
                 }
               ]
             }
@@ -820,7 +820,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Паралич"
+                  "desc": "[OnSucceedAttack] Наносит 3 Паралича"
                 }
               ]
             }
@@ -908,7 +908,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Паралич"
+                  "desc": "[OnSucceedAttack] Наносит 3 Паралича"
                 }
               ]
             }
@@ -929,7 +929,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Паралич"
+                  "desc": "[OnSucceedAttack] Наносит 3 Паралича"
                 }
               ]
             }
@@ -948,7 +948,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Погружение"
+                  "desc": "[OnSucceedAttack] Наносит 3 Погружения"
                 }
               ]
             }
@@ -961,20 +961,20 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Разбушевавшееся укрытие",
+          "name": "Нахлынувшее погружение",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 Погружение"
+                  "desc": "[OnSucceedAttack] Наносит 3 Погружения"
                 }
               ]
             }
@@ -993,7 +993,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика Разрыв"
+                  "desc": "[OnSucceedAttack] Наносит +3 счётчика Разрыва"
                 }
               ]
             },
@@ -1019,7 +1019,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +2 счётчика Разрыв"
+                  "desc": "[OnSucceedAttack] Повышает счётчик Разрыва на 2"
                 }
               ]
             },
@@ -1091,12 +1091,12 @@
         {
           "level": 1,
           "name": "Приклеенный амулет",
-          "desc": "[WhenUse] Наносит 2 Приклеенный амулет проклятия",
+          "desc": "[WhenUse] Наносит 2 Опутанный амулет проклятия",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color> и +2 счётчика Разрыв на следующий ход"
+                  "desc": "[OnSucceedAttack] На следующий ход накладывает 2 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>\nУвеличивает счётчик Разрыва на 2"
                 }
               ]
             }
@@ -1110,12 +1110,12 @@
         {
           "level": 1,
           "name": "Накапливающееся проклятие",
-          "desc": "[WhenUse] Наносит 1 Приклеенный амулет проклятия",
+          "desc": "[WhenUse] Наносит 1 Опутанный амулет проклятия",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит Приклеенный амулет проклятия в кол-ве, равном Приклеенный амулет проклятия на цели"
+                  "desc": "[OnSucceedAttack] Наносит Опутанный амулет проклятия в кол-ве, равном Опутанный амулет проклятия на цели"
                 }
               ]
             },
@@ -1169,7 +1169,7 @@
         {
           "level": 1,
           "name": "Передача амулета",
-          "desc": "[WhenUse] Убирает все Приклеенный амулет проклятия с цели; Получает то же самое кол-во Переклеенный амулет проклятия",
+          "desc": "[WhenUse] Убирает все Опутанный амулет проклятия с цели; Получает то же самое кол-во Переклеенный амулет проклятия",
           "coinlist": [
             {}
           ]
@@ -1182,7 +1182,7 @@
         {
           "level": 1,
           "name": "Растущее проклятие",
-          "desc": "[WhenUse] Наносит Приклеенный амулет проклятия в кол-ве, равном Приклеенный амулет проклятия на цели",
+          "desc": "[WhenUse] Наносит Опутанный амулет проклятия в кол-ве, равном Опутанный амулет проклятия на цели",
           "coinlist": [
             {}
           ]
@@ -1219,7 +1219,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Сковывание на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 Сковывания на следующий ход"
                 }
               ]
             }
@@ -1232,14 +1232,14 @@
       "levelList": [
         {
           "level": 1,
-          "name": "На этом у меня всё!",
+          "name": "Осталось только это!",
           "desc": "В столкновении даёт 2 Повышение морали\nСтавит в приоритет противников с <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремором</link></u></color>",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует тремор, равный счётчикам Тремор цели"
+                  "desc": "[OnSucceedAttack] Вызывает Провокацию Тремора в количестве, равном счётчику Тремора цели"
                 }
               ]
             }
@@ -1308,7 +1308,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если атакует Вино феи, восстанавливает 10% ОЗ на следующем ходе и получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color>, 2 Спешки и 2 Защищённости"
+                  "desc": "[OnSucceedAttack] Если атакует Вино феи, на следующем ходу восстанавливает 10% ОЗ и получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color>, 2 Спешки и 2 Защищённости"
                 }
               ]
             }
@@ -1335,7 +1335,7 @@
         {
           "level": 1,
           "name": "Вино феи",
-          "desc": "[WhenUse] Превращает Повышение морали цели в Опьянение",
+          "desc": "[WhenUse] Превращает Повышение морали цели в Опьянение в количестве, равном числу уровней Повышения морали",
           "coinlist": [
             {}
           ]
@@ -1347,7 +1347,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Беглые раны",
+          "name": "Скользнуть по ранам",
           "desc": "[WhenUse] Если на цели есть Кровотечение, наносит 1 Паралич",
           "coinlist": [
             {
@@ -1410,7 +1410,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 2 и более счётчика Кровотечение, Наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Если у цели 2 или более счётчиков Кровотечения, наносит 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
                 }
               ]
             }
@@ -1504,7 +1504,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Питательные вещества",
+          "name": "Поглощение питательных веществ",
           "coinlist": [
             {},
             {
@@ -1529,7 +1529,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит +3 счётчика Кровотечение на следующий ход"
+                  "desc": "[OnSucceedAttack] На следующий ход увеличивает счётчик Кровотечения на 3"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на следующий ход"
@@ -1618,7 +1618,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 2 Огня"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит повреждение порогу оглушения в размере 20% от нанесённого урона"
@@ -1628,7 +1628,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 2 Огня"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит повреждение порогу оглушения в размере 20% от нанесённого урона"
@@ -1638,7 +1638,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Огонь"
+                  "desc": "[OnSucceedAttack] Наносит 2 Огня"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит повреждение порогу оглушения в размере 20% от нанесённого урона"
@@ -1676,7 +1676,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Обожжённые крики",
+          "name": "Горячие крики",
           "desc": "[WinDuel] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и 1 Повышение силы атаки на следующий ход",
           "coinlist": [
             {
@@ -1698,7 +1698,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Обожжённые крики",
+          "name": "Жаркие крики",
           "desc": "[WinDuel] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> и 1 Повышение силы атаки на следующий ход",
           "coinlist": [
             {

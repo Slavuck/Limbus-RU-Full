@@ -91,7 +91,7 @@
         {
           "level": 1,
           "name": "Растоптать и обезглавить",
-          "desc": "[WhenUse] Базовая сила +2 за каждую 4 ([Burst] + [Vibration]) по цели (максимальный 4)\n- При 15+ ([Burst] + [Vibration]) по цели минус монетная мощность +1",
+          "desc": "[WhenUse] Базовая сила +2 за каждые 4 единицы суммы ([Burst] + [Vibration]) у цели (максимум 4)\n- При 15+ ([Burst] + [Vibration]) по цели минус монетная мощность +1",
           "coinlist": [
             {
               "coindescs": [
@@ -171,7 +171,7 @@
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит дополнительным целям [SweptAwayWei] на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит дополнительным целям 1 [SweptAwayWei] на следующий ход"
                 }
               ]
             }
@@ -209,7 +209,7 @@
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит дополнительным целям [SweptAwayWei] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает 1 [SweptAwayWei] на дополнительные цели на следующий ход"
                 }
               ]
             }
@@ -322,7 +322,7 @@
                   "desc": "[OnSucceedAttack] Активирует [VibrationExplosion], затем уменьшает счётчик [Vibration] цели на 1"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] активирует [VibrationExplosion]; затем сократите [Vibration] Счёт цели на 1."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] активирует [VibrationExplosion]; затем уменьшает счётчик [Vibration] цели на 1."
                 }
               ]
             }
@@ -361,7 +361,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Техника быстрого опохмеления",
+          "name": "Техника пития залпом",
           "desc": "[WhenUse] Сила монет +1 за каждые 5 [Laceration] на цели (До 2)\n[WhenUse] Получает 1 [SipOfAlcoholJin]",
           "coinlist": [
             {
@@ -455,7 +455,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "На (Сумма силы [Laceration] и счётчика [Laceration] цели)% больше урона (До 20%)"
+                  "desc": "На 1% больше урона за каждую единицу суммы силы [Laceration] и счётчика [Laceration] на цели (максимум 20%)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если у себя 3 или более [SipOfAlcoholJin], повторно использует эту монету (один раз за навык)"
@@ -499,8 +499,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Опьянённое размышление",
-          "desc": "[WhenUse] Получает 10 ОЗ Щита за каждый [SipOfAlcoholJin] (До 50)\n[WhenUse] Если на цели есть [DrunkBlood], наносит ей 5 [Laceration]",
+          "name": "Пьяное прислонение",
+          "desc": "[WhenUse] Получает 10 ОЗ Щита за каждый [SipOfAlcoholJin] на себе (До 50)\n[WhenUse] Если на цели есть [DrunkBlood], наносит ей 5 [Laceration]",
           "coinlist": [
             {}
           ]
@@ -513,7 +513,7 @@
         {
           "level": 1,
           "name": "Ответный пьяный удар",
-          "desc": "[DuelCounter]\n[WhenUse] Наносит на 20% больше урона за каждый [SipOfAlcoholJin] (До 100%)\n[WhenUse] Наносит на 50% больше урона целям с [DrunkBlood]",
+          "desc": "[DuelCounter]\n[WhenUse] Наносит на 20% больше урона за каждый [SipOfAlcoholJin] у себя (До 100%)\n[WhenUse] Наносит на 50% больше урона целям с [DrunkBlood]",
           "coinlist": [
             {
               "coindescs": [
@@ -570,7 +570,7 @@
         {
           "level": 1,
           "name": "Обезглавливающее падение клинка【落醉斬】",
-          "desc": "[WhenUse] Базовая сила +1 за каждые 5 [Breath] (До 2)\n[WhenUse] Сила монет +1 против более медленных целей",
+          "desc": "[WhenUse] Базовая сила +1 за каждые 5 [Breath] на себе (до 2)\n[WhenUse] Сила монет +1 против более медленных целей",
           "coinlist": [
             {
               "coindescs": [
@@ -592,7 +592,7 @@
         {
           "level": 1,
           "name": "Пьяный шаг в тени【醉影步】",
-          "desc": "[WhenUse] Базовая сила +6 на каждого 2 выжившего союзника (максимум 12)\n[OnSucceedEvade] получает 3 [Breath]\n[EndBattle] получает +2 [Breath] счётчик",
+          "desc": "[WhenUse] Базовая сила +6 за каждые 2 выживших союзника (максимум 12)\n[OnSucceedEvade] получает 3 [Breath]\n[EndBattle] получает +2 [Breath] счётчик",
           "coinlist": [
             {
               "coindescs": [
@@ -907,7 +907,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
                 },
                 {
-                  "desc": " Наносит 5 урона по СД"
+                  "desc": "Наносит 5 урона по СД"
                 }
               ]
             },
@@ -920,7 +920,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 [Burst]"
                 },
                 {
-                  "desc": " Наносит 5 урона по СД"
+                  "desc": "Наносит 5 урона по СД"
                 }
               ]
             }

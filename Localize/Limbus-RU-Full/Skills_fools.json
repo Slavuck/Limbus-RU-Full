@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Дай конфет.",
-          "desc": "Приоритизирует цели с [CandyForCharon]\n[EndSkill] Если у цели нет [CandyForCharon], наносите [CandyForCharon]",
+          "desc": "Приоритизирует цели с [CandyForCharon]\n[EndSkill] Если у цели нет [CandyForCharon], накладывает на неё [CandyForCharon]",
           "coinlist": [
             {
               "coindescs": [
@@ -14,7 +14,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если у цели были [CandyForCharon], оглушает её в следующем ходе"
+                  "desc": "[OnSucceedAttack] Если у цели есть [CandyForCharon], оглушает её в следующем ходе"
                 }
               ]
             }
@@ -46,7 +46,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ты...",
+          "name": "Вы...",
           "desc": "",
           "coinlist": [
             {
@@ -73,7 +73,7 @@
         {
           "level": 1,
           "name": "... Ккоми злой.",
-          "desc": "[BeforeAttack] Вес атаки увеличивается на число врагов с [CandyForCharon]\n[WhenUse] Сила столкновения увеличивается на число врагов с [CandyForCharon]",
+          "desc": "[BeforeAttack] Вес атаки увеличивается на число идентичностей с [CandyForCharon]\n[WhenUse] Сила столкновения увеличивается на число идентичностей с [CandyForCharon]",
           "coinlist": [
             {
               "coindescs": [
@@ -99,7 +99,7 @@
         {
           "level": 1,
           "name": "Врум-врум",
-          "desc": "[WhenUse] Сила столкновения увеличивается на число личностей с [CandyForCharon]\nУрон увеличивается на 10% за каждую личность с [CandyForCharon] (максимум 100%)",
+          "desc": "[WhenUse] Сила столкновения увеличивается на число идентичностей с [CandyForCharon]\nУрон увеличивается на 10% за каждую идентичность с [CandyForCharon] (максимум 100%)",
           "coinlist": [
             {},
             {}
@@ -112,7 +112,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Ты сделал больно Ккоми.",
+          "name": "Ты ударил Ккоми.",
           "desc": "[WhenUse] Получает 2 [ParryingResultUp] и 2 [Agility] на следующий ход",
           "coinlist": [
             {

@@ -43,7 +43,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[CriticalOnSucceedAttack] получает [Breath] равен [Breath] на себя"
+                  "desc": "[CriticalOnSucceedAttack] получает [Breath] в количестве, равном имеющемуся у него [Breath]"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Breath] на 3"
@@ -97,7 +97,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит дополнительный урон в количестве силы своего [Breath]"
+                  "desc": "[OnSucceedAttack] Наносит дополнительный урон, равный значению [Breath] у себя"
                 },
                 {
                   "desc": "[OnSucceedAttack] Получает 1 [Breath] и повышает счётчик [Breath] на 3"
@@ -130,7 +130,7 @@
         {
           "level": 1,
           "name": "Время упаковываться",
-          "desc": " Если щит истощён, оглушается в следующем ходе\n Если щит остался цел, получает 2 [Enhancement] на следующий ход",
+          "desc": "Если щит истощён, оглушается в следующем ходе\nЕсли щит не истощён полностью, получает 2 [Enhancement] на следующий ход",
           "coinlist": [
             {}
           ]

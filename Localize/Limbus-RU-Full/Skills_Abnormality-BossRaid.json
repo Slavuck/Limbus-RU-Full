@@ -130,7 +130,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пусть это останется шрамом на моём теле",
+          "name": "Попробуй высечь это на моём теле",
           "desc": "",
           "coinlist": [
             {}
@@ -168,7 +168,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Обещанные страдания",
+          "name": "Высечь боль",
           "desc": "Нацеливается на противников с наибольшим значением [RicardoBookRaid]\n[WhenUse] Если на цели <color=#ff6000><mark=#ff000040><b><u>3 и более [RicardoBookRaid]</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]",
           "coinlist": [
             {
@@ -217,7 +217,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "ПОЛНОЕ И ТОТАЛЬНОЕ УНИЧТОЖЕНИЕ!!!!",
+          "name": "Всех — казнить!!!",
           "desc": "[DefeatDuel] Наносит на 30% меньше урона и не может оглушить целей",
           "coinlist": [
             {
@@ -289,7 +289,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "НЕМЕДЛЕННОЕ, ПОЛНОЕ И ТОТАЛЬНОЕ УНИЧТОЖЕНИЕ!",
+          "name": "НЕМЕДЛЕННАЯ КАЗНЬ!",
           "coinlist": [
             {
               "coindescs": [
@@ -322,7 +322,7 @@
         {
           "level": 1,
           "name": "Никаких больше тестов",
-          "desc": "[WhenUse] Получает 3 [HitDamageUp] на следующий ход\n[WhenUse] Если на цели <color=#ff6000><mark=#ff000040><b><u>5 и более [RicardoBookRaid]</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]",
+          "desc": "[WhenUse] Получает 3 [HitDamageUp] на следующий ход\n[WhenUse] Если у главной цели есть <color=#ff6000><mark=#ff000040><b><u>5 и более [RicardoBookRaid]</u></b></mark></color>, все монеты этого навыка становятся [SuperCoin]",
           "coinlist": [
             {},
             {}
@@ -449,7 +449,7 @@
         {
           "level": 1,
           "name": "Форма меча родины [Sal] - Занять позицию",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect]</b>, то монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если сталкивается с Специальным навыком для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>Получает 2 [ChoiSwordsmanship]</color></mark></u>, если столкновение было с Специальным навыком для [SupportProtect] или этот навык был использован в качестве односторонней атаки",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли навык цели — <b>специальный навык для [SupportProtect]</b>, монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если навык цели — специальный навык для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>Получает 2 [ChoiSwordsmanship] при попадании во время односторонней атаки или при попадании по цели, использовавшей специальный навык для [SupportProtect]</color></mark></u>",
           "coinlist": [
             {}
           ]
@@ -462,7 +462,7 @@
         {
           "level": 1,
           "name": "Форма меча родины [Sal] - Оттачивание меча",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect]</b>, то монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если сталкивается с Специальным навыком для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>Теряет 2 [ChoiSwordsmanship]</color></mark></u> если столкновение было с Специальным навыком для [SupportProtect] или этот навык был использован в качестве односторонней атаки",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли навык цели — <b>Специальный навык для [SupportProtect]</b>, то монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если навык цели — Специальный навык для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>При попадании в ходе односторонней атаки или при попадании по цели, использовавшей Специальный навык для [SupportProtect], теряет 2 [ChoiSwordsmanship]</color></mark></u>",
           "coinlist": [
             {}
           ]
@@ -525,7 +525,7 @@
         {
           "level": 1,
           "name": "Разделка тигра",
-          "desc": "[WhenUse] На 40% больше урона при критическом попадании при 8 и более [Breath]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin] и их критический урон повышается на 20%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] равно 3 и менее</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n Не может попасть критически",
+          "desc": "[WhenUse] На 40% больше урона при критическом попадании при 8 и более [Breath]\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] Все монеты этого навыка становятся [SuperCoin] и их критический урон повышается на 100%, <color=#ff6000><mark color=#ff000040><b><u>если значение [ChoiSwordsmanship] равно 3 и менее</color></mark></b></u>\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n Не может попасть критически",
           "coinlist": [
             {
               "coindescs": [
@@ -629,7 +629,7 @@
         {
           "level": 1,
           "name": "Форма меча родины [Sal] - Занять позицию",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect]</b>, то монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если сталкивается с Специальным навыком для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>Получает 2 [ChoiSwordsmanship]</color></mark></u>, если столкновение было с Специальным навыком для [SupportProtect] или этот навык был использован в качестве односторонней атаки",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли навык цели — <b>специальный навык для [SupportProtect]</b>, монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Теряет 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если навык цели — специальный навык для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>Получает 2 [ChoiSwordsmanship] при попадании во время односторонней атаки или при попадании по цели, использовавшей специальный навык для [SupportProtect]</color></mark></u>",
           "coinlist": [
             {}
           ]
@@ -642,7 +642,7 @@
         {
           "level": 1,
           "name": "Форма меча родины [Sal] - Оттачивание меча",
-          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли сталкивается с <b>Специальным навыком для [SupportProtect]</b>, то монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если сталкивается с Специальным навыком для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>Теряет 2 [ChoiSwordsmanship]</color></mark></u> если столкновение было с Специальным навыком для [SupportProtect] или этот навык был использован в качестве односторонней атаки",
+          "desc": "Этот навык не подвержен эффекту [ChoiSwordsmanship]\n\nЕсли навык цели — <b>Специальный навык для [SupportProtect]</b>, то монета этого навыка становится [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Получает 3 [ChoiSwordsmanship]</color></mark></b></u> (Не активируется, если навык цели — Специальный навык для [SupportProtect])\n[EndSkill] <color=#ff6000><mark color=#ff000040><u>При попадании в ходе односторонней атаки или при попадании по цели, использовавшей Специальный навык для [SupportProtect], теряет 2 [ChoiSwordsmanship]</color></mark></u>",
           "coinlist": [
             {}
           ]
@@ -714,7 +714,7 @@
         {
           "level": 1,
           "name": "Двойной разрез: Треск [爆]",
-          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant]",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме [Combustion] и [Vibration] на цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [
@@ -746,7 +746,7 @@
         {
           "level": 1,
           "name": "Тройной раскол: Треск [爆]",
-          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме потенциалов [Combustion] и [Vibration] на цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant]",
+          "desc": "Итоговая сила +1 за каждые 4 единицы в сумме [Combustion] и [Vibration] на цели (До 4)\n[DefeatDuel] Теряет 1 [BulletPropellant]",
           "coinlist": [
             {
               "coindescs": [

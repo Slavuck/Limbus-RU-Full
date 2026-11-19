@@ -44,7 +44,7 @@
         {
           "level": 1,
           "name": "Зажигание",
-          "desc": "[WhenUse] Повышает счётчик [Combustion] на 2\n[WinDuel] Накладывает [Combustion] в количестве, равном [Combustion] у цели\n[DefeatDuel] Получает следующие эффекты:\n- Урон этого навыка не может оглушить цель\n- Если это навык Гнева, снимает с цели [Combustion]\n- Вдвое уменьшает накладываемые этим навыком [Combustion] и счётчик [Combustion]",
+          "desc": "[WhenUse] Повышает счётчик [Combustion] цели на 2\n[WinDuel] Накладывает [Combustion] в количестве, равном [Combustion] у цели\n[DefeatDuel] Получает следующие эффекты:\n- Урон этого навыка не может оглушить цель\n- Если это навык Гнева, снимает с цели [Combustion]\n- Вдвое уменьшает накладываемые этим навыком [Combustion] и счётчик [Combustion]",
           "coinlist": [
             {
               "coindescs": [
@@ -252,7 +252,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [Vulnerable]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Binding] на следующий ход"
                 }
               ]
             }
@@ -265,8 +265,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Электрическая нагрузка",
-          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +2 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 2 [SelfCharge]",
+          "name": "Инъекция тока",
+          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +1 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 2 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -292,7 +292,7 @@
         {
           "level": 1,
           "name": "Выпуск электричества",
-          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +2 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 3 [SelfCharge]",
+          "desc": "Наносит на 30% больше урона целям с [Paralysis]\n[StartBattle] Получает 1 [SelfCharge]\n[WhenUse] Сила монет +1 при 5 и более [SelfCharge]\n[DefeatDuel] Теряет 3 [SelfCharge]",
           "coinlist": [
             {
               "coindescs": [
@@ -759,7 +759,7 @@
         {
           "level": 1,
           "name": "М-мне нужно исполнить предписание в ближайшее время...!",
-          "desc": "<color=#ff6000><mark=#ff000040><b><u>При 2 [PressureOfPrescript] цель нельзя сменить</u></b></mark>></color>\n<color=#ff6000><mark=#ff000040><b><u>Нельзя активировать защитные навыки</u></b></mark>></color>\nЗа каждые 6 [Breath] у себя и [Sinking] у цели в сумме итоговая сила +1 (максимум 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у этого бойца есть [PressureOfPrescript] или цель имеет [IndexPrescriptTargetToPersonality]</u></b></mark></color>, все монеты становятся [SuperCoin]\n[DefeatDuel] Наносит на 80% меньше урона; при попадании не ошеломляет цель и не активирует на ней [Sinking]\n[WhenUse] Получает 2 [Breath] и повышает счётчик [Breath] на 2",
+          "desc": "<color=#ff6000><mark=#ff000040><b><u>При 2 [PressureOfPrescript] цель нельзя сменить</u></b></mark></color>\n<color=#ff6000><mark=#ff000040><b><u>Нельзя активировать защитные навыки</u></b></mark></color>\nЗа каждые 6 [Breath] у себя и [Sinking] у цели в сумме итоговая сила +1 (максимум 3)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у этого бойца есть [PressureOfPrescript] или цель имеет [IndexPrescriptTargetToPersonality]</u></b></mark></color>, все монеты становятся [SuperCoin]\n[DefeatDuel] Наносит на 80% меньше урона; при попадании не ошеломляет цель и не активирует на ней [Sinking]\n[WhenUse] Получает 2 [Breath] и повышает счётчик [Breath] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -868,7 +868,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Вспороть, выпотрошить...",
+          "name": "Раскопать, раскопаю...",
           "desc": "За каждые 6 [Breath] у себя и [Sinking] у цели в сумме итоговая сила +1 (максимум 2)\n[StartBattle] <color=#ff6000><mark=#ff000040><b><u>Если у этого бойца есть [PressureOfPrescript] или цель имеет [IndexPrescriptTargetToPersonality],</u></b></mark></color> последняя монета становится [SuperCoin]\n[DefeatDuel] Наносит на 50% меньше урона; при попадании не ошеломляет цель и не активирует на ней [Sinking]\n[WhenUse] Получает 2 [Breath]\n[EndSkill] Теряет 3 СД",
           "coinlist": [
             {
@@ -1085,7 +1085,7 @@
                   "desc": "[OnSucceedAttack] Накладывает [Combustion] в количестве, равном числу навыков Гнева, которые Мотылёк алых лепестков использует в этом ходу"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает самому медленному противнику [Combustion] и повышает его счётчик [Combustion] на число навыков Гнева, которые Мотылёк алых лепестков использует в этом ходу"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Накладывает на самого медленного противника [Combustion] в количестве, равном числу навыков Гнева, которые Мотылёк алых лепестков использует в этом ходу, и увеличивает счётчик [Combustion] на такое же число"
                 }
               ]
             },

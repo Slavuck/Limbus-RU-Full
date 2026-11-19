@@ -37,7 +37,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "...очистить",
+          "name": "…время",
           "desc": "[WhenUse] Наносит 2 [AttackDown], если СД цели 10 или менее\n[WinDuel] Наносит 1 [Vulnerable]",
           "coinlist": [
             {
@@ -147,7 +147,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Скольз...",
+          "name": "Крыса...",
           "desc": "Если остаётся щит к концу хода, снижает свою границу выносливости на 50",
           "coinlist": [
             {}
@@ -212,28 +212,28 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Снова все...",
+          "name": "Пуговица...",
           "desc": "[WinDuel] Базовая сила +1, если на цели 2 и более [AttackDown]\n[WhenUse] Если у цели есть [DefenseDown], наносит ещё 30% от нанесённого урона Дробящим уроном",
           "coinlist": [
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 }
               ]
             }
@@ -265,7 +265,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] На 30% больше урона за каждые 2 [AttackDown] цели (До 120%)"
+                  "desc": "[OnSucceedAttack] На 30% больше урона за каждые 2 [AttackDown] на цели (До 120%)"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Если на цели 3 и более негативных эффекта, вновь подкидывает монету 1 раз"
@@ -300,7 +300,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Сби...",
+          "name": "Мар...",
           "desc": "",
           "coinlist": [
             {
@@ -386,7 +386,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 5 и более негативных эффектов, вновь подкидывает монету (До 2 раз)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Убирает 1 случайный негативный эффект с цели"
+                  "desc": "[OnSucceedAttack] Убирает 1 случайный снимаемый негативный эффект с цели"
                 }
               ]
             }
@@ -400,7 +400,7 @@
         {
           "level": 1,
           "name": "...",
-          "desc": "[OnSucceedEvade] Восстанавливает 5 СД (До 2 раз за ход)",
+          "desc": "[OnSucceedEvade] Восстанавливает 5 СД (до 2 раз)",
           "coinlist": [
             {
               "coindescs": [

@@ -10,7 +10,7 @@
     },
     {
       "id": "800105_whitesnow_success_1_1",
-      "content": "<color=#ebcaa2>「{0}」</color> <color=#f8c200>повреждён!</color>"
+      "content": "<color=#ebcaa2>「{0}」</color> <color=#f8c200>сломано!</color>"
     },
     {
       "id": "800105_whitesnow_success_1_2",
@@ -22,7 +22,7 @@
     },
     {
       "id": "800801_muckwormedapple_success_1_1",
-      "content": "<color=#ebcaa2>Золотое яблочко формирует новое тело!</color>"
+      "content": "<color=#ebcaa2>Золотое яблочко сформировало новое туловище!</color>"
     },
     {
       "id": "800801_muckwormedapple_failure_1_1",
@@ -74,7 +74,7 @@
     },
     {
       "id": "800204_aztec_circle_success_1_2",
-      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000> {1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」теряет</color> <color=#e30000>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "800204_aztec_circle_success_1_3",
@@ -158,7 +158,7 @@
     },
     {
       "id": "801502_pinkshoe_failure_1_1",
-      "content": "<color=#ebcaa2>Все грешники теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "801502_pinkshoe_failure_1_2",
@@ -198,7 +198,7 @@
     },
     {
       "id": "1020203_success_1_1",
-      "content": "<color=#ebcaa2>Все грешники восстанавливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники восстанавливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "1020203_success_1_2",
@@ -242,27 +242,27 @@
     },
     {
       "id": "all_ally_hp_decrease",
-      "content": "<color=#ebcaa2>Все грешники теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники теряют</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "all_ally_hp_increase",
-      "content": "<color=#ebcaa2>Все грешники восстанавливают</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники восстанавливают</color> <color=#e30000>{0} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "all_ally_mp_decrease",
-      "content": "<color=#ebcaa2>Все грешники теряют</color> <color=#fe4b48>{0} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники теряют</color> <color=#fe4b48>{0} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "all_ally_hp_mp_decrease",
-      "content": "<color=#ebcaa2>Все грешники теряют</color> <color=#e30000>{0} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники теряют</color> <color=#e30000>{0} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "all_ally_add_buff",
-      "content": "<color=#ebcaa2>Все грешники получают</color> %{1} {0}/%<color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Все союзники получают</color> %{1} {0}/%<color=#ebcaa2>!</color>"
     },
     {
       "id": "all_ally_add_buff_during_next_n_battle",
-      "content": "<color=#ebcaa2>Все грешники получают</color> %{2} {1}/%<color=#ebcaa2>на следующие {0} битвы.</color>"
+      "content": "<color=#ebcaa2>Все союзники получают</color> %{2} {1}/%<color=#ebcaa2>на следующие {0} битвы.</color>"
     },
     {
       "id": "all_enemy_apply_buff",
@@ -298,15 +298,15 @@
     },
     {
       "id": "all_ally_mp_increase",
-      "content": "<color=#ebcaa2>Все грешники восстанавливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Все союзники восстанавливают</color> <color=#80c9ff>{0} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_own_skill_attribute_hp_increase",
-      "content": "<color=#ebcaa2>Идентичности с</color> %грехом {0}% <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с атакующим навыком, связанным с</color> %грехом {0}% <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_not_own_skill_attribute_hp_increase",
-      "content": "<color=#ebcaa2>Идентичности без</color> %греха {0}% <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности без</color> %греха {0}% <color=#ebcaa2>восстанавливают</color> <color=#00ff9c>{1} ОЗ</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_own_skill_attribute_hp_decrease",
@@ -318,15 +318,15 @@
     },
     {
       "id": "ally_own_skill_attribute_mp_increase",
-      "content": "<color=#ebcaa2>Идентичности с</color> %грехом {0}% <color=#ebcaa2>восстанавливают</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> %атакующим навыком аффинности {0}/% <color=#ebcaa2>восстанавливают</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_not_own_skill_attribute_mp_increase",
-      "content": "<color=#ebcaa2>Идентичности без</color> %греха {0}% <color=#ebcaa2>восстанавливают</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности без</color> %атакующего навыка аффинности {0}/% <color=#ebcaa2>восстанавливают</color> <color=#80c9ff>{1} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "ally_own_skill_attribute_mp_decrease",
-      "content": "<color=#ebcaa2>Идентичности с</color> %грехом {0}% <color=#ebcaa2>теряют</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> %атакующим навыком аффинности {0}/% <color=#ebcaa2>теряют</color> <color=#fe4b48>{1} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "ally_not_own_skill_attribute_mp_decrease",
@@ -350,7 +350,7 @@
     },
     {
       "id": "851901_kqe_success_1_1",
-      "content": "<color=#ebcaa2>「{0}」тратит все</color> %「{0}」/%<color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>「{0}」 тратит все</color> %[{1}]/%<color=#ebcaa2>.</color>"
     },
     {
       "id": "851901_kqe_success_1_2",
@@ -478,7 +478,7 @@
     },
     {
       "id": "805004_egoawakendongrang_success_2_3",
-      "content": "<color=#ebcaa2>「{0}」 получает</color>  {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」 получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "805004_egoawakendongrang_failure_2_1",
@@ -502,11 +502,11 @@
     },
     {
       "id": "805801_failure_1_1",
-      "content": "<color=#ebcaa2>「{0}」 получает</color>  {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」 получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "805801_failure_1_2",
-      "content": "<color=#ebcaa2>「{0}」 получает</color>  {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>「{0}」 получает</color> {2} <color=#e30000>[{1}]</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "805901_success_1_1",

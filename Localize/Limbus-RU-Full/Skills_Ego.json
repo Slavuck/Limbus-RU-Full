@@ -140,7 +140,7 @@
           "level": 1,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -155,7 +155,7 @@
           "level": 3,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -170,7 +170,7 @@
           "level": 4,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -188,7 +188,7 @@
           "level": 5,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">[BeforeAttack] Итоговая сила +1 за каждые 6 единиц в сумме силы [Combustion] на всех целях (До 6)\n Наносит на (Сумма силы [Combustion] на всех целях × 1.5)% больше урона (До 45%)\n[DefeatDuel] Базовая сила -12\n[EndSkill] Получает [MatchesPersonality] на следующий ход</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n<style=\"highlight\">[BeforeAttack] Итоговая сила +1 за каждые 6 единиц в сумме силы [Combustion] на всех целях (до 6)\n Наносит на (Сумма силы [Combustion] на всех целях × 1.5)% больше урона (до 45%)\n[DefeatDuel] Базовая сила -12\n[EndSkill] Получает [MatchesPersonality] на следующий ход (раз за ход)</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -213,7 +213,7 @@
         {
           "level": 1,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "Атакует самую дальнюю цель (только в обычных боях)",
           "coinlist": [
             {
@@ -231,7 +231,7 @@
         {
           "level": 3,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
+          "abName": "Обход пагоды",
           "desc": "Атакует самую дальнюю цель (только в обычных боях)",
           "coinlist": [
             {
@@ -254,8 +254,8 @@
         {
           "level": 1,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "abName": "Обход пагоды",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -272,8 +272,8 @@
         {
           "level": 3,
           "name": "Камни желаний",
-          "abName": "Воспевания падоге",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "abName": "Обход пагоды",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -411,7 +411,7 @@
           "level": 1,
           "name": "Жидкостный мешок",
           "abName": "Обезглавленный\nихтис",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -429,7 +429,7 @@
           "level": 3,
           "name": "Жидкостный мешок",
           "abName": "Обезглавленный\nихтис",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -437,7 +437,7 @@
                   "desc": "[OnSucceedAttack] Наносит 20 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение силы атаки</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -447,7 +447,7 @@
           "level": 4,
           "name": "Жидкостный мешок",
           "abName": "Обезглавленный\nихтис",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -458,7 +458,7 @@
                   "desc": "[OnSucceedAttackTail] Наносит 10 урона по СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение силы атаки</link></u></color> на следующий ход"
                 }
               ]
             }
@@ -544,7 +544,7 @@
           "level": 1,
           "name": "Проклятый гвоздь",
           "abName": "Страждущий мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -562,7 +562,7 @@
           "level": 3,
           "name": "Проклятый гвоздь",
           "abName": "Страждущий мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -583,7 +583,7 @@
           "level": 4,
           "name": "Проклятый гвоздь",
           "abName": "Страждущий мишка Тедди",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -676,7 +676,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Активирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 15 урона по СД"
@@ -694,7 +694,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 25 урона по СД"
@@ -715,7 +715,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 25 урона по СД"
@@ -739,7 +739,7 @@
           "level": 1,
           "name": "Жидкостный мешок",
           "abName": "Обезглавленный\nихтис",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -757,7 +757,7 @@
           "level": 3,
           "name": "Жидкостный мешок",
           "abName": "Обезглавленный\nихтис",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -778,7 +778,7 @@
           "level": 4,
           "name": "Жидкостный мешок",
           "abName": "Обезглавленный\nихтис",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -1158,12 +1158,12 @@
           "level": 1,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[EndSkill] Восстанавливает 2 союзникам с самым низким здоровьем на 15% от максимальных ОЗ",
+          "desc": "[EndSkill] Восстанавливает здоровье двух других союзников с наименьшим количеством ОЗ на 15% от их максимальных ОЗ",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Активирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -1173,12 +1173,12 @@
           "level": 3,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[EndSkill] Восстанавливает 2 союзникам с самым низким здоровьем на 30% от максимальных ОЗ; Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> на следующий ход",
+          "desc": "[EndSkill] Восстанавливает здоровье двух других союзников с наименьшим количеством ОЗ на 30% от их максимальных ОЗ; Получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -1193,7 +1193,7 @@
           "level": 1,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Наносит 1 Уязвимость на союзника с самым низким здоровьем на следующий ход; Получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Накладывает 1 Уязвимость и 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на 2 других союзников с наименьшим текущим количеством ОЗ на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1208,12 +1208,12 @@
           "level": 3,
           "name": "Исполнение",
           "abName": "Советник небесного пристава",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Наносит 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> на союзника с самым низким здоровьем на следующий ход; Получает 3 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на следующий ход",
+          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Накладывает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и 3 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> на 2 других союзников с наименьшим текущим количеством ОЗ на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -1266,7 +1266,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
-                  "desc": "[EndSkill] Все союзники получают -2 к <sprite name=\"MentalSystemResultDecrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultDecrease_Typo\">Эффективности потери СД</link></u></color>; -2 к потере СД во время использования ЭГО"
+                  "desc": "[EndSkill] На следующий ход все союзники получают -2 к <sprite name=\"MentalSystemResultDecrease_Typo\"><color=#9f6a3a><u><link=\"MentalSystemResultDecrease_Typo\">Эффективности потери СД</link></u></color>; -2 к потере СД во время использования ЭГО"
                 }
               ]
             }
@@ -1307,7 +1307,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Disarming\"><color=#e30000><u><link=\"Disarming\">Понижения силы защиты</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
                 }
               ]
             }
@@ -1369,7 +1369,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Disarming\"><color=#e30000><u><link=\"Disarming\">Понижения силы защиты</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижения уровня защиты</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
@@ -1500,7 +1500,7 @@
           "level": 4,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[WhenUse] Получает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> за резонанс Зависти.\nТратит 5 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядов</link></u></color> для получения +3 силы навыка (До 12)",
+          "desc": "[WhenUse] Получает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> за резонанс Зависти.\nКаждый раз, когда тратит 5 <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Зарядов</link></u></color>, получает +3 к силе навыка (до 12)",
           "coinlist": [
             {
               "coindescs": [
@@ -1617,7 +1617,7 @@
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -1637,7 +1637,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
@@ -1655,7 +1655,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 7 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижений уровня атаки</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
@@ -1699,7 +1699,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
@@ -1720,7 +1720,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижения уровня атаки</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 7 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижений уровня атаки</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Paralysis\"><color=#e30000><u><link=\"Paralysis\">Паралича</link></u></color>"
@@ -1832,7 +1832,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем противникам"
+                  "desc": "[OnSucceedAttack] Наносит резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем персонажам"
                 }
               ]
             }
@@ -1847,7 +1847,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит двойной резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем противникам"
+                  "desc": "[OnSucceedAttack] Наносит двойной резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем персонажам"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает порог оглушения на 60% от нанесённого урона"
@@ -1865,7 +1865,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[EndSkill] Наносит двойной резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем противникам"
+                  "desc": "[EndSkill] Наносит двойной резонанс Гнева <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огнём</link></u></color> всем персонажам"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает порог оглушения на 60% от нанесённого урона"
@@ -1998,7 +1998,7 @@
           "level": 1,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2013,7 +2013,7 @@
           "level": 3,
           "name": "Пламя четвёртой спички",
           "abName": "Сожжённая девочка",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2062,7 +2062,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Активирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 2"
@@ -2098,7 +2098,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 5"
@@ -2121,7 +2121,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttackHead] Активирует <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 4"
@@ -2139,7 +2139,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 6"
@@ -2157,7 +2157,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[OnSucceedAttack] Повышает счётчик <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на 8"
@@ -2392,7 +2392,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[EnemyKill] Даёт 1 Повышение силы атаки случайному союзнику на следующий ход"
+                  "desc": "[EnemyKill] Даёт 1 Повышение урона случайному союзнику"
                 }
               ]
             }
@@ -2469,7 +2469,7 @@
           "level": 3,
           "name": "Чёрный стебель",
           "abName": "Яблоко Чёрной Королевы",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2530,7 +2530,7 @@
           "level": 1,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2551,7 +2551,7 @@
           "level": 3,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель\n[EndSkill] Даёт 2 случайным союзникам, кроме себя, 1 Повышение силы атаки",
+          "desc": "[CantIdentify]\nАтакует случайную цель\n[EndSkill] Даёт 2 случайным союзникам, кроме себя, 1 Повышение силы атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -2575,7 +2575,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Внезапно, одним утром…",
+          "name": "Внезапно, в один день",
           "abName": "Грегор",
           "desc": "",
           "coinlist": [
@@ -2590,7 +2590,7 @@
         },
         {
           "level": 3,
-          "name": "Внезапно, одним утром…",
+          "name": "Внезапно, в один день",
           "abName": "Грегор",
           "desc": "",
           "coinlist": [
@@ -2605,7 +2605,7 @@
         },
         {
           "level": 4,
-          "name": "Внезапно, одним утром…",
+          "name": "Внезапно, в один день",
           "abName": "Грегор",
           "desc": "",
           "coinlist": [
@@ -2650,7 +2650,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
@@ -2671,7 +2671,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
@@ -2692,7 +2692,7 @@
           "level": 1,
           "name": "Обман",
           "abName": "Золотое яблочко",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2710,7 +2710,7 @@
           "level": 3,
           "name": "Обман",
           "abName": "Золотое яблочко",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -2731,7 +2731,7 @@
           "level": 4,
           "name": "Обман",
           "abName": "Золотое яблочко",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -3010,7 +3010,7 @@
           "level": 1,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -3028,7 +3028,7 @@
           "level": 3,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -3049,7 +3049,7 @@
           "level": 4,
           "name": "Телефонный столб",
           "abName": "Сторожевой пёс улиц",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -3158,7 +3158,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем\n\n[BeforeAttack] Усиливает урон в Зависимости от кол-ва Похоти на руках (До 50%)\nЗатем тратит ресурсы Похоти в количестве резонанса Похоти; усиливает урон на 10% за каждый потраченный ресурс",
+          "desc": "[CantIdentify]\nВыбирает цель с самым высоким здоровьем\n\n[BeforeAttack] Усиливает урон в зависимости от кол-ва Похоти на руках (До 50%)\nЗатем тратит ресурсы Похоти в количестве резонанса Похоти; усиливает урон на 10% за каждый потраченный ресурс",
           "coinlist": [
             {
               "coindescs": [
@@ -3214,7 +3214,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем\nЕсли целью стал союзник, наносит 0 урона",
+          "desc": "[CantIdentify]\nВыбирает целью бойца с наименьшими ОЗ\nЕсли целью стал союзник, наносит 0 урона",
           "coinlist": [
             {
               "coindescs": [
@@ -3232,15 +3232,15 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем\nЕсли целью стал союзник, наносит 0 урона",
+          "desc": "[CantIdentify]\nВыбирает целью бойца с наименьшими ОЗ\nЕсли целью стал союзник, наносит 0 урона",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает 10% максимальных ОЗ носителя"
+                  "desc": "[OnSucceedAttackHead] Если целью стал союзник, восстанавливает ему здоровье в размере 10% от максимальных ОЗ носителя"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Наносит 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>; если целью стал союзник, даёт 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и 1 <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">Множитель ЭГО-ресурсов</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttackTail] Наносит 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>; если целью стал союзник, на следующий ход даёт 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> и +1 к <sprite name=\"GainSinStockAdder\"><color=#f8c200><u><link=\"GainSinStockAdder\">количеству получаемых ЭГО-ресурсов</link></u></color>"
                 }
               ]
             }
@@ -3300,7 +3300,7 @@
           "level": 1,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 10%",
+          "desc": "[CantIdentify]\nВыбирает целью бойца с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 10%",
           "coinlist": [
             {
               "coindescs": [
@@ -3315,7 +3315,7 @@
           "level": 3,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 20%",
+          "desc": "[CantIdentify]\nВыбирает целью бойца с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 20%",
           "coinlist": [
             {
               "coindescs": [
@@ -3330,7 +3330,7 @@
           "level": 4,
           "name": "Рагу жизни",
           "abName": "Васупилиск",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 30%",
+          "desc": "[CantIdentify]\nВыбирает целью бойца с наименьшими ОЗ\n\n[BeforeAttack] Тратит 3 случайных ЭГО-ресурса для усиления урона на 30%",
           "coinlist": [
             {
               "coindescs": [
@@ -3374,7 +3374,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения большего урона (До 50%)",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; урон увеличивается пропорционально количеству потраченного Заряда (До 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3389,7 +3389,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения большего урона (До 75%)",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; урон увеличивается пропорционально количеству потраченного Заряда (До 75%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3407,7 +3407,7 @@
           "level": 4,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения большего урона (До 75%)",
+          "desc": "Выбирает самую дальнюю цель (В обычных битвах)\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; урон увеличивается пропорционально количеству потраченного Заряда (До 75%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3430,7 +3430,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nСлучайная цель\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения большего урона (До 50%)",
+          "desc": "[CantIdentify] \nСлучайная цель\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; урон увеличивается на величину потраченного Заряда (макс. 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3448,7 +3448,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nСлучайная цель\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения большего урона (До 75%)",
+          "desc": "[CantIdentify] \nСлучайная цель\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; урон увеличивается на величину потраченного Заряда (макс. 75%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3469,7 +3469,7 @@
           "level": 4,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения большего урона (До 75%)",
+          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>; урон увеличивается на величину потраченного Заряда (макс. 75%)",
           "coinlist": [
             {
               "coindescs": [
@@ -3530,7 +3530,7 @@
           "level": 1,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nВыбирает цель с самым высоким здоровьем\n\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход. \nТратит 10 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения +1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственного разлома</link></u></color> этим навыком",
+          "desc": "[CantIdentify] \nВыбирает цель с самым высоким здоровьем\n\n[BeforeAttack] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход. \nТратит 10 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы при попадании этим навыком нанести +1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разлома</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -3545,7 +3545,7 @@
           "level": 3,
           "name": "Разрыв измерений",
           "abName": "Заблудший пассажир",
-          "desc": "[CantIdentify] \nВыбирает цель с самым высоким здоровьем\n\n[BeforeAttack] Получает 3 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход. \nТратит 10 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для нанесения +2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разлома</link></u></color> этим навыком",
+          "desc": "[CantIdentify] \nВыбирает цель с самым высоким здоровьем\n\n[BeforeAttack] Получает 3 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход. \nТратит 10 на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, чтобы при попадании этим навыком нанести +2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и <sprite name=\"DimensionRift\"><color=#e30000><u><link=\"DimensionRift\">Пространственных разлома</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -3573,10 +3573,10 @@
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Тремор равно <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огню</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит Тремор в количестве, равном показателю <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1 5-и случайным противникам"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 1 у 5 случайных противников"
                 }
               ]
             }
@@ -3594,13 +3594,13 @@
                   "desc": "[OnSucceedAttack] Наносит 7 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Тремор равно <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огню</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит Тремор в количестве, равном показателю <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5-и случайным противникам"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5 случайным противникам"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 2 5-и случайным противникам"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 2 у 5 случайных противников"
                 }
               ]
             }
@@ -3618,13 +3618,13 @@
                   "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Тремор равно <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огню</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит Тремор в количестве, равном показателю <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5-и случайным противникам"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5 случайным противникам"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 3 5-и случайным противникам"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 3 у 5 случайных противников"
                 }
               ]
             }
@@ -3647,10 +3647,10 @@
                   "desc": "[OnSucceedAttack] Наносит 6 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Тремор равно <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огню</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит Тремор в количестве, равном показателю <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 2 5-и случайным целям"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; если это оглушило цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> у пяти случайных целей на 2"
                 }
               ]
             }
@@ -3668,13 +3668,13 @@
                   "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Тремор равно <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огню</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит Тремор в количестве, равном показателю <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5-и случайным целям"
+                  "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> пяти случайным целям"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провокация оглушила цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 3 5-и случайным целям"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провокация оглушила цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> у пяти случайных целей на 3"
                 }
               ]
             }
@@ -3692,13 +3692,13 @@
                   "desc": "[OnSucceedAttack] Наносит 12 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит Тремор равно <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огню</link></u></color> на цели"
+                  "desc": "[OnSucceedAttack] Наносит Тремор в количестве, равном показателю <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> 5-и случайным целям"
+                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> пяти случайным целям"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провокация оглушила цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на 4 5-и случайным целям"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 2; если провокация оглушила цель, повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> у пяти случайных целей на 4"
                 }
               ]
             }
@@ -3992,7 +3992,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"EmittedCurrent\"><color=#e30000><u><link=\"EmittedCurrent\">Искровых разряда</link></u></color> и повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5"
+                  "desc": "[OnSucceedAttack] Наносит 5 <sprite name=\"EmittedCurrent\"><color=#e30000><u><link=\"EmittedCurrent\">Искровых разрядов</link></u></color> и повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> цели на 5"
                 }
               ]
             }
@@ -4007,7 +4007,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"EmittedCurrent\"><color=#e30000><u><link=\"EmittedCurrent\">Искровых разрядов</link></u></color> и повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 5"
+                  "desc": "[OnSucceedAttack] Наносит 10 <sprite name=\"EmittedCurrent\"><color=#e30000><u><link=\"EmittedCurrent\">Искровых разрядов</link></u></color> и повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> цели на 5"
                 }
               ]
             }
@@ -4022,7 +4022,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 15 <sprite name=\"EmittedCurrent\"><color=#e30000><u><link=\"EmittedCurrent\">Искровых разрядов</link></u></color> и повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 7"
+                  "desc": "[OnSucceedAttack] Наносит 15 <sprite name=\"EmittedCurrent\"><color=#e30000><u><link=\"EmittedCurrent\">Искровых разрядов</link></u></color> и повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> цели на 7"
                 }
               ]
             }
@@ -4080,7 +4080,7 @@
                   "desc": "[OnSucceedAttack] Тратит весь Заряд на нанесение урона Унынием на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 1,5)% прошедшего урона (До 30%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] В конце атаки Хитклиф теряет 10% здоровья, взамен повышая собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 7"
+                  "desc": "[OnSucceedAttackTail] В конце атаки Хитклиф теряет 10% от максимального запаса ОЗ, взамен повышая собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 7"
                 }
               ]
             }
@@ -4098,7 +4098,7 @@
                   "desc": "[OnSucceedAttack] Тратит весь Заряд на нанесение урона Унынием на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 2,5)% прошедшего урона (До 50%)"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] В конце атаки Хитклиф теряет 10% здоровья, взамен повышая собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10"
+                  "desc": "[OnSucceedAttackTail] В конце атаки Хитклиф теряет 10% от максимального запаса ОЗ, взамен повышая собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10"
                 }
               ]
             }
@@ -4119,7 +4119,7 @@
                   "desc": "[EndSkill] Тратит весь Заряд"
                 },
                 {
-                  "desc": "[EndSkillTail] В конце атаки Хитклиф теряет 10% здоровья, взамен повышая собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10"
+                  "desc": "[EndSkillTail] В конце атаки Хитклиф теряет 10% от максимального запаса ОЗ, взамен повышая собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10"
                 }
               ]
             }
@@ -4148,7 +4148,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Восстанавливает 15 СД"
+                  "desc": "[OnSucceedAttackHead] Восстанавливает себе 15 СД"
                 }
               ]
             }
@@ -4197,7 +4197,7 @@
         {
           "level": 1,
           "name": "Красные глаза",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "",
           "coinlist": [
             {
@@ -4215,7 +4215,7 @@
         {
           "level": 3,
           "name": "Красные глаза",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "",
           "coinlist": [
             {
@@ -4236,7 +4236,7 @@
         {
           "level": 4,
           "name": "Красные глаза",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "",
           "coinlist": [
             {
@@ -4262,8 +4262,8 @@
         {
           "level": 1,
           "name": "Красные глаза",
-          "abName": "Паучий сосочек",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "abName": "Паучий бутон",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -4280,8 +4280,8 @@
         {
           "level": 3,
           "name": "Красные глаза",
-          "abName": "Паучий сосочек",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "abName": "Паучий бутон",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -4306,7 +4306,7 @@
         {
           "level": 1,
           "name": "Красные глаза (Раскрытые)",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "Если скорость основной цели ниже, чем скорость носителя на 3 и более, сила монет +4",
           "coinlist": [
             {
@@ -4321,7 +4321,7 @@
         {
           "level": 3,
           "name": "Красные глаза (Раскрытые)",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "Если скорость основной цели ниже, чем скорость носителя на 3 и более, сила монет +4",
           "coinlist": [
             {
@@ -4330,7 +4330,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, наносит +20% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"
+                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% от максимальных ОЗ у носителя и союзника с самым низким здоровьем"
                 }
               ]
             }
@@ -4339,7 +4339,7 @@
         {
           "level": 4,
           "name": "Красные глаза (Раскрытые)",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "Если скорость основной цели ниже, чем скорость носителя на 3 и более, сила монет +7",
           "coinlist": [
             {
@@ -4348,7 +4348,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, наносит +40% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"
+                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% от максимальных ОЗ у носителя и союзника с самым низким здоровьем"
                 }
               ]
             }
@@ -4362,7 +4362,7 @@
         {
           "level": 1,
           "name": "Красные глаза (Раскрытые)",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "[CantIdentify] \nСлучайная цель\n\nЕсли скорость основной цели ниже, чем скорость носителя на 3 и более, итоговая сила +7",
           "coinlist": [
             {
@@ -4377,7 +4377,7 @@
         {
           "level": 3,
           "name": "Красные глаза (Раскрытые)",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "[CantIdentify] \nСлучайная цель\nЕсли скорость основной цели ниже, чем скорость носителя на 3 и более, итоговая сила +7",
           "coinlist": [
             {
@@ -4386,7 +4386,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, наносит +30% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"
+                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% от максимальных ОЗ у носителя и союзника с самым низким здоровьем"
                 }
               ]
             }
@@ -4395,7 +4395,7 @@
         {
           "level": 4,
           "name": "Красные глаза (Раскрытые)",
-          "abName": "Паучий сосочек",
+          "abName": "Паучий бутон",
           "desc": "[CantIdentify]\nСлучайная цель\nЕсли скорость основной цели ниже, чем скорость носителя на 3 и более, итоговая сила +10",
           "coinlist": [
             {
@@ -4404,7 +4404,7 @@
                   "desc": "[OnSucceedAttack] Если на цели 3 и более <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, наносит +50% к урону"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% ОЗ у носителя и союзника с самым низким здоровьем"
+                  "desc": "[OnSucceedAttack] Если эта атака оглушает или побеждает цель, восстанавливает 10% от максимальных ОЗ у носителя и союзника с самым низким здоровьем"
                 }
               ]
             }
@@ -4455,7 +4455,7 @@
           "level": 4,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[BeforeAttack] Тяжесть атаки +2 при СД выше 15",
+          "desc": "[BeforeAttack] Тяжесть атаки +2 при СД не ниже 15",
           "coinlist": [
             {
               "coindescs": [
@@ -4478,7 +4478,7 @@
           "level": 1,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -4513,7 +4513,7 @@
                   "desc": "[OnSucceedAttack] Получает 1 Повышение урона на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает себе 4 СД"
                 }
               ]
             }
@@ -4523,7 +4523,7 @@
           "level": 4,
           "name": "Пустота есть форма",
           "abName": "Моя форма пустеет",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тяжесть атаки +2 при СД ниже -15",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Тяжесть атаки +2 при СД -15 или ниже",
           "coinlist": [
             {
               "coindescs": [
@@ -4537,7 +4537,7 @@
                   "desc": "[OnSucceedAttack] Получает 1 Повышение урона на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttackTail] Восстанавливает себе 4 СД"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 1 Уязвимость"

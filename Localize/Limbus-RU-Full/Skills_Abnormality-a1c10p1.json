@@ -304,7 +304,7 @@
                   "desc": "[OnSucceedAttack] Потратить 3 счётчика [ChargeRouge] на себе, чтобы повторно использовать эту монету (макс. 3 раза)"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack] Активировать [Laceration] на цели. Цель теряет 1 счётчика [Laceration]"
+                  "desc": "[ReUseOnSucceedAttack] Активировать [Laceration] на цели. У цели уменьшается счётчик [Laceration] на 1."
                 }
               ]
             }
@@ -539,7 +539,7 @@
         {
           "level": 1,
           "name": "А-а! У меня обеденный перерыв, слышишь?",
-          "desc": "[CantIdentify]\nЭтот навык не попадает по цели и наносит 0 урона\n[EndSkill] За каждую единицу [SapsareeCooking] на себе восстановить себе 1% ОЗ и получить 1 [SapsareeYammi]\n[EndSkill] За каждую единицу [SapsareeCooking] на себе все остальные союзники восстанавливают 20% ОЗ и получают 1 [SapsareeYammi]\n[EndSkill] Потратить все [SapsareeCooking]",
+          "desc": "[CantIdentify]\nЭтот навык не попадает по цели и наносит 0 урона\n[EndSkill] За каждую единицу [SapsareeCooking] на себе восстановить себе 1% от максимальных ОЗ и получить 1 [SapsareeYammi]\n[EndSkill] За каждую единицу [SapsareeCooking] на себе все остальные союзники восстанавливают 20% от максимальных ОЗ и получают 1 [SapsareeYammi]\n[EndSkill] Потратить все [SapsareeCooking]",
           "coinlist": [
             {
               "coindescs": [
@@ -703,7 +703,7 @@
         {
           "level": 1,
           "name": "Не хочу стать блюдом.",
-          "desc": "Особый навык [SupportProtect]\n[DefeatDuel] Получить 5 [Vulnerable]\n<color=#ff6000><mark=#ff000040><b><u>[EndSkillAll] Если этот юнит жив, су-шеф использует на нём «Я собираю ингредиенты, слышишь?»</u></b></mark></color>\n(Не срабатывает, если су-шеф ошеломлена)",
+          "desc": "Эксклюзивный навык [SupportProtect]\n[DefeatDuel] Получить 5 [Vulnerable]\n<color=#ff6000><mark=#ff000040><b><u>[EndSkillAll] Если этот юнит жив, су-шеф использует на нём «Я собираю ингредиенты, слышишь?»</u></b></mark></color>\n(Не срабатывает, если су-шеф ошеломлена)",
           "flavor": "Мясу пора выполнить свою роль.",
           "coinlist": [
             {
@@ -723,7 +723,7 @@
         {
           "level": 1,
           "name": "Буууурп на пустой желудок",
-          "desc": "[WhenUse] Итоговая сила +2 за каждые 4 [Laceration] на цели (макс. 4)\n[WhenUse] При 3+ собственных эффектах превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При 5+ собственных эффектах получить +2 к весу атаки",
+          "desc": "[WhenUse] Итоговая сила +2 за каждые 4 [Laceration] на цели (макс. 4)\n[WhenUse] При 3+ типах собственных эффектов превратить все монеты этого навыка в [SuperCoin]\n[WhenUse] При 5+ типах собственных эффектов получить +2 к весу атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -1175,7 +1175,7 @@
                   "desc": "[OnSucceedAttack] При 10+ <color=#ff6000><mark=#ff000040><b><u>[RougeThreeCocoonHit] на себе повторно использовать эту монету (один раз за навык)</u></b></mark></color>"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttack]<color=#ff6000><mark=#ff000040><b><u> При 20+ [RougeThreeCocoonHit] повторно использовать эту монету (один раз за навык)</u></b></mark></color>"
+                  "desc": "[ReUseOnSucceedAttack]<color=#ff6000><mark=#ff000040><b><u> При наличии у этого юнита 20 или более [RougeThreeCocoonHit] повторно использовать эту монету (один раз за навык)</u></b></mark></color>"
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Получить [ChargeRouge]: счётчик +1"
@@ -1242,7 +1242,7 @@
                   "desc": "[OnSucceedAttack] Получить [ChargeNoir]: счётчик +2"
                 },
                 {
-                  "desc": "[OnSucceedAttack] При 15+ счётчика [ChargeNoir] потратить 3 счётчика [ChargeNoir], чтобы вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
+                  "desc": "[OnSucceedAttack] Если у этого бойца счётчик [ChargeNoir] составляет не менее 15, потратить 3 счётчика [ChargeNoir], чтобы вызвать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1"
                 }
               ]
             }
@@ -1432,7 +1432,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Один удар",
+          "name": "Один удар ногой",
           "desc": "[WhenUse] Если на этом юните есть [NoirSuit]:\n- Наносить на 1% больше урона за каждые 3 значения (макс. 30%)\n- Получить 1 [DefenseUp] за каждые 15 значения (макс. 5)\n[WhenUse] При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +2 к силе монеты\n- При ОЗ 50% или ниже дополнительно потратить до 10 оставшегося счётчика [ChargeNoir] и наносить на (дополнительно потраченный счётчик [ChargeNoir] × 2.5)% больше урона (макс. 25%)\n[WhenUse] При 3+/5+ потенциала [ChargeNoir] сила монеты +1/+2\n[DefeatDuel]\n- Наносить на 75% меньше урона\n- Урон и эффекты этого навыка не могут ошеломить цель",
           "coinlist": [
             {
@@ -1480,7 +1480,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Один удар — Множественный шов",
+          "name": "Один пинок — Множественный шов",
           "desc": "[WhenUse] Если на этом юните есть [Realisation]:\n- Наносить на 1% больше урона за каждые 2 значения (макс. 50%)\n- Наносить на (потенциал [ChargeNoir] на себе × 6)% больше урона (макс. 30%)\n- Потратить 15 [Realisation]\n[WhenUse] При 10+ счётчика [ChargeNoir] потратить 10 счётчика [ChargeNoir], чтобы получить +2 к итоговой силе и +1 к силе монеты\n[WhenUse] При 3+/5+ потенциала [ChargeNoir] сила монеты +1/+2\n[DefeatDuel]\n- Наносить на 75% меньше урона\n- Урон и эффекты этого навыка не могут ошеломить цель",
           "coinlist": [
             {
@@ -1712,13 +1712,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Хочешь, чтобы я шил это вручную?! ВРУЧНУЮ???!!!",
+          "name": "Шей вручную!!!",
           "desc": "Приоритет — неошеломлённым союзникам; наносит 0 урона\nНе активирует защитный навык цели\n\n[EndSkill] Выбранный Игольник[TabExplain] активирует случайный атакующий навык (игнорирует ошеломление)",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Дать 1 повышения силы атаки на этот и следующий ход"
+                  "desc": "[OnSucceedAttack] Дать 1 повышение силы атаки на этот и следующий ход"
                 }
               ]
             }
@@ -1810,7 +1810,7 @@
                   "desc": "[OnSucceedAttack] <color=#ff6000><mark=#ff000040><b><u>Если на цели есть [NiddlePinned], нанести фиксированный урон в размере 99% максимальных ОЗ цели</u></b></mark></color>"
                 },
                 {
-                  "desc": "[EnemyKill] Восстановить себе 5% ОЗ"
+                  "desc": "[EnemyKill] Восстановить себе ОЗ в размере 5% от своих максимальных ОЗ"
                 }
               ]
             }
@@ -2028,7 +2028,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчика [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчик [Laceration]"
                 }
               ]
             },
@@ -2041,7 +2041,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчика [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчик [Laceration]"
                 }
               ]
             },
@@ -2054,7 +2054,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 1 [BloodyMucus]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчика [Laceration]"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активировать [Laceration] на цели один раз. Цель теряет 1 счётчик [Laceration]"
                 }
               ]
             }

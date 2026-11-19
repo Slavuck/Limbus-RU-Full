@@ -22,7 +22,7 @@ class CommunityFeedbackTests(unittest.TestCase):
         self.assertIn('Подзаряд', records('BattleKeywords.json')['SelfCharge']['desc'])
         filters = records('FormationNameEtcFilter.json')
         self.assertEqual(filters['formation_name_filter_Etc_RING_FINGER']['content'], 'Безымянный палец')
-        self.assertEqual(filters['formation_name_filter_Etc_SHI']['content'], 'Си')
+        self.assertEqual(filters['formation_name_filter_Etc_SHI']['content'], 'Ши')
 
     def test_lamp_and_dazzle_mechanics_in_both_effect_tables(self):
         for file in ('BattleKeywords.json', 'Bufs.json'):

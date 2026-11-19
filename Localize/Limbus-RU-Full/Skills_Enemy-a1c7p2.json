@@ -31,7 +31,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Безудержный гнев",
+          "name": "Бесцельный гнев",
           "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration]\n[WhenUse] Если имеется 3 и более [HardenedBlood], а эффекты монет могут нанести [Burst], также наносит ими 2 [Laceration]",
           "coinlist": [
             {
@@ -158,7 +158,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Безудержный гнев",
+          "name": "Бесцельный гнев",
           "desc": "[WhenUse] Сила монет +1 против целей с 5 и более [Laceration]\n[WhenUse] Если имеется 3 и более [HardenedBlood], а эффекты монеты могут нанести [Burst], также повышает ими счётчик [Laceration] на 1",
           "coinlist": [
             {
@@ -281,7 +281,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Усиленный хлыст застывшей кровью",
+          "name": "Хлыст застывшей крови",
           "desc": "[WhenUse] Наносит на 20% больше урона целям с 8 и более [Laceration]",
           "coinlist": [
             {
@@ -805,7 +805,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever] × 2.5)% ОЗ (До 20%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever] × 2,5)% от максимального ОЗ (макс. 20%)"
                 }
               ]
             },
@@ -860,7 +860,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Дикий рывок застывшей крови",
+          "name": "Бешеные уколы застывшей крови",
           "desc": "[WhenUse] Итоговая сила +1 за каждые 5 [FestivalFever] у себя или каждые 6 [Laceration] у цели (максимум 2)\n[WhenUse] Получает 15 [Laceration], сразу активирует эффект один раз и уменьшает счётчик [Laceration] на 1",
           "coinlist": [
             {
@@ -902,7 +902,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever] × 2.5)% ОЗ (До 20%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает ([FestivalFever] × 2,5)% от максимального ОЗ (макс. 20%)"
                 }
               ]
             },
@@ -1025,7 +1025,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Laceration] и [Burst] в количестве своей [HardenedBlood]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever] × 4)% ОЗ (До 40%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в размере (Количество своей [FestivalFever] × 4)% от максимального ОЗ (до 40%)"
                 }
               ]
             },
@@ -1151,7 +1151,7 @@
                   "desc": "[OnSucceedAttack] Наносит [Laceration] и [Burst] в количестве своей [HardenedBlood]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает (Количество своей [FestivalFever] × 4)% ОЗ (До 40%)"
+                  "desc": "[OnSucceedAttack] Восстанавливает ОЗ в размере (Количество своей [FestivalFever] × 4)% от максимального ОЗ (до 40%)"
                 }
               ]
             },

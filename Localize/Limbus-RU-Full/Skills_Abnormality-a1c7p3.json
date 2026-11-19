@@ -25,7 +25,7 @@
         {
           "level": 1,
           "name": "Заслуженное покаяние...",
-          "desc": "[WhenUse] Счёт 20 [Laceration] и +1 [Laceration]",
+          "desc": "[WhenUse] Получает 20 [Laceration] и увеличивает счётчик [Laceration] на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -218,7 +218,7 @@
         {
           "level": 1,
           "name": "Выражение любви",
-          "desc": "Выбирает целью противника с наименьшим количеством негативных эффектов\n[WhenUse] Если на цели нет негативных эффектов, использует 「Грубое выражение любви」 в следующем ходе\n[WhenUse] Использует 「Печальные объятия」 в следующем ходе, если на цели больше негативных эффектов, чем [FaintMemory] на себе",
+          "desc": "Выбирает целью противника с наименьшим количеством негативных эффектов\n[WhenUse] Если на цели нет негативных эффектов, использует 「Грубое выражение любви」 в следующем ходе\n[WhenUse] Если число видов негативных эффектов на цели больше, чем [FaintMemory] у себя, использует 「Печальные объятия」 в следующем ходе",
           "coinlist": [
             {
               "coindescs": [
@@ -299,7 +299,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет [AffectionTeddy], потребляет [AffectionTeddy] и наносит [Curse] и [NailPersonality] равен значению [AffectionTeddy] потребленного (потребляет до 4)"
+                  "desc": "[OnSucceedAttack] Если у цели есть [AffectionTeddy], расходует [AffectionTeddy] и накладывает [Curse] и [NailPersonality] в количестве, равном израсходованному количеству [AffectionTeddy] (расходует до 4)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 4 и более [Curse], тратит 4 [Curse] с цели и наносит 1 [CursePackage]"
@@ -573,7 +573,7 @@
         {
           "level": 1,
           "name": "Контратака",
-          "desc": "[WhenUse] Сила монет +2 при 6 и более [Breath]",
+          "desc": "[WhenUse] Если у владельца 6 или более [Breath], сила монет +2",
           "coinlist": [
             {
               "coindescs": [
@@ -666,7 +666,7 @@
         {
           "level": 1,
           "name": "Экстаз крови",
-          "desc": "Может сталкиваться с этим навыком независимо от скорости\n[StartBattle] Если есть враги с [Laceration], активируйте [Laceration] на всех врагах. Все враги проигрывают 2 [Laceration] счётчик\n[WhenUse] Если этот эффект не активировался в начале боя, получайте 30 [Laceration].\n[WinDuel] Потреблять до 40 [BloodDinner]: за каждый поглощённый 10 [BloodDinner] получайте 1 [BloodArmor] и наносите +25% урон (максимальный 100%)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 5 [Laceration] и активируйте [Laceration] немедленно. Потерять 2 [Laceration] счёт\n[EndSkill] Заканчивается этот ход",
+          "desc": "Может сталкиваться с этим навыком независимо от скорости\n[StartBattle] Если есть враги с [Laceration], активируйте [Laceration] на всех врагах. У всех врагов счётчик [Laceration] уменьшается на 2\n[WhenUse] Если этот эффект не активировался в начале боя, получайте 30 [Laceration].\n[WinDuel] Потреблять до 40 [BloodDinner]: за каждый поглощённый 10 [BloodDinner] получайте 1 [BloodArmor] и наносите +25% урон (максимальный 100%)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 5 [Laceration] и активируйте [Laceration] немедленно. Потерять 2 [Laceration] счёт\n[EndSkill] Заканчивается этот ход",
           "coinlist": [
             {
               "coindescs": [
@@ -763,7 +763,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Искусство застывшей крови Дон Кихота 2 - Кровавая броня",
+          "name": "Искусство застывшей крови Дон Кихота 2 - Застывшая кровь",
           "desc": "Может сталкиваться с этим навыком независимо от скорости\n[StartBattle] Потреблять 200 [BloodDinner], получать 500 Щита ОЗ, 5 [BloodArmor] и 1 [SwirlingBlood]\n- Если у этого подразделения недостаточно [BloodDinner], наберите 50 [Laceration] и активируйте [Laceration] немедленно. Потеряй 2 [Laceration] счёт. Получайте 500 ОЗ и 1 [SwirlingBlood] щита (этот урон не снижает ОЗ юнита до 1)\n[WinDuel] Получить 200 Щит ОЗ\n[DefeatDuel] Приобретение 3 [Vulnerable], пока активен щит, полученный этим навыком\n[DefeatDuel] наносить -50% урона, и урон от этого навыка не оглушает цель\n[EndSkill] Заканчивается этот ход",
           "coinlist": [
             {
@@ -807,7 +807,7 @@
         {
           "level": 1,
           "name": "Вариант стиля Дон Кихота: Искусство Санчо 4 - Следование",
-          "desc": "Приоритет ставит цели с наибольшим [Laceration]\n[BeforeAttack] Если цель — та, у которой больше всего [Laceration], увеличивайте +2 веса атаки и +3 Силы Столкновения\n[WhenUse] Потреблять до 30 [BloodDinner]: получать 1 [BloodArmor] и +1 силы монет за каждое 15 [BloodDinner] (максимум 2)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 10 [Laceration] и активируйте [Laceration] немедленно. Потерять 2 [Laceration] счёт\n[EndSkill] Увеличение [BloodDinner] равно нанесённому урону этого навыка",
+          "desc": "Приоритет ставит цели с наибольшим [Laceration]\n[BeforeAttack] Если цель — та, у которой больше всего [Laceration], увеличивайте +2 веса атаки и +3 Силы Столкновения\n[WhenUse] Потреблять до 30 [BloodDinner]: получать 1 [BloodArmor] и +1 силы монет за каждое 15 [BloodDinner] (максимум 2)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 10 [Laceration] и активируйте [Laceration] немедленно. Снизить счётчик [Laceration] на 1\n[EndSkill] Увеличение [BloodDinner] равно нанесённому урону этого навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -819,7 +819,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход\n- Наносит ещё 2 [Binding], если удалось поглотить 30 [BloodDinner]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход\n- Если этим навыком удалось поглотить 30 [BloodDinner], наносит ещё 2 [Binding]"
                 }
               ]
             }
@@ -833,7 +833,7 @@
         {
           "level": 1,
           "name": "Вариант стиля Дон Кихота: Искусство Санчо 3 - Засада",
-          "desc": "Приоритет ставит цели с наибольшим [Laceration]\n[BeforeAttack] Если цель — та, у которой больше всего [Laceration], увеличивайте +2 веса атаки и +3 Силы Столкновения\n[WhenUse] Потреблять до 50 [BloodDinner]: получать 1 [BloodArmor] и базовую +1 Энергии за каждый 10 [BloodDinner] потраченного (максимум 5)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 10 [Laceration] и активируйте [Laceration] немедленно. Потерять 1 [Laceration] счёт\n[EndSkill] Увеличение [BloodDinner] равно нанесённому урону этого навыка",
+          "desc": "Приоритет ставит цели с наибольшим [Laceration]\n[BeforeAttack] Если цель — та, у которой больше всего [Laceration], увеличивайте +2 веса атаки и +3 Силы Столкновения\n[WhenUse] Потреблять до 50 [BloodDinner]: получать 1 [BloodArmor] и +1 к базовой силе за каждые 10 потраченных [BloodDinner] (максимум 5)\n- Если этот юнит не смог поглотить [BloodDinner], наберите 10 [Laceration] и активируйте [Laceration] немедленно. Потерять 1 [Laceration] счёт\n[EndSkill] Увеличение [BloodDinner] равно нанесённому урону этого навыка",
           "coinlist": [
             {
               "coindescs": [
@@ -852,7 +852,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход\n- Наносит ещё 2 [Paralysis], если удалось поглотить 50 [BloodDinner]"
+                  "desc": "[OnSucceedAttack] Наносит 1 [Paralysis] на следующий ход\n- Если этим навыком удалось поглотить 50 [BloodDinner], наносит ещё 2 [Paralysis]"
                 }
               ]
             }
@@ -945,7 +945,7 @@
         {
           "level": 1,
           "name": "Кннхгх нххннх",
-          "desc": "[WinDuel] Наносит 1 [Binding] на следующий ход\n[WhenUse] Базовая сила +1 за каждые 4 [DefenseUp] (До 2)\n[WhenUse] Получает 3 [DefenseUp]",
+          "desc": "[WinDuel] Наносит 1 [Binding] на следующий ход\n[WhenUse] Базовая сила +1 за каждые 4 [DefenseUp] на себе (не более 2)\n[WhenUse] Получает 3 [DefenseUp]",
           "coinlist": [
             {
               "coindescs": [
@@ -978,7 +978,7 @@
         {
           "level": 1,
           "name": "Кннггхх",
-          "desc": "[StartBattle] Даёт 3 [DefenseUp] союзнику с наименьшим процентом ОЗ (Включая себя)\n[WhenUse] Базовая сила +1 за каждые 5 [DefenseUp] (До 4)",
+          "desc": "[StartBattle] Даёт 3 [DefenseUp] союзнику с наименьшим процентом ОЗ (Включая себя)\n[WhenUse] Базовая сила +1 за каждые 5 [DefenseUp] на себе (До 4)",
           "coinlist": [
             {},
             {},
@@ -1175,7 +1175,7 @@
         {
           "level": 1,
           "name": "Захватывающее лассо",
-          "desc": "[StartBattle] Если на поле боя 3 и менее противника с [ThornNoose], наносит цели 1 [ThornNoose]",
+          "desc": "[StartBattle] Если на поле боя 3 или менее противника с [ThornNoose], накладывает 1 [ThornNoose]",
           "coinlist": [
             {
               "coindescs": [
@@ -1398,7 +1398,7 @@
         {
           "level": 1,
           "name": "Искусство застывшей крови Дон Кихота 2 - Кол",
-          "desc": "Выбирает целью противника с наибольшей силой [Laceration]\n[WhenUse] Сила монет +1 за каждые 5 [Laceration] на цели (До 2)",
+          "desc": "Атакует противника с наибольшим количеством [Laceration]\n[WhenUse] Сила монет +1 за каждые 5 [Laceration] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -1488,7 +1488,7 @@
         {
           "level": 1,
           "name": "Жажда крови",
-          "desc": "[WhenUse] Поглощает до 40 [BloodDinner] и получает 1 [RegainedStrength] за каждые 10 поглощённого [BloodDinner]",
+          "desc": "[WhenUse] Поглощает до 40 [BloodDinner], получает 1 [RegainedStrength] за каждые 10 поглощённых [BloodDinner] и восстанавливает 5 ед. СД.",
           "coinlist": [
             {
               "coindescs": [
@@ -1682,7 +1682,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Оглушает цель и [Penetration] её в следующем ходе"
+                  "desc": "[OnSucceedAttack] Цель становится оглушённой, а на следующем ходу получает [Penetration]"
                 },
                 {
                   "desc": "[EndCoin] Уменьшает силу [Laceration] цели на 25. Получает [Laceration] и увеличивает [BloodDinner] на величину уменьшения"
@@ -1699,7 +1699,7 @@
         {
           "level": 1,
           "name": "Восходящее искусство застывшей крови Дон Кихота - Сфера",
-          "desc": "Не может быть оглушён до окончания использования этой атаки\nНаносит на 1% больше урона за каждую единицу [BloodDinner_Common_Accumulation] (До 300%)\n[WhenUse] Восстанавливает 30 СД\n[WhenUse] Сила в столкновении +1 за каждые 10 [RegainedStrength]\n[EndSkill] Теряет всю [RegainedStrength]\n Получает 5 [Vulnerable] на этот и следующий ход\n Получает 2 [Binding] на следующий ход",
+          "desc": "Не может быть Оглушён до использования этого навыка\nНаносит на 1% больше урона за каждую единицу [BloodDinner_Common_Accumulation] (До 300%)\n[WhenUse] Восстанавливает 30 СД\n[WhenUse] Сила в столкновении +1 за каждые 10 [RegainedStrength]\n[EndSkill] Теряет всю [RegainedStrength]\n Получает 5 [Vulnerable] на этот и следующий ход\n Получает 2 [Binding] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -1725,7 +1725,7 @@
         {
           "level": 1,
           "name": "Шшшх",
-          "desc": "[WhenUse] [DuelDeclaration_Camille]\n[WhenUse] Получает 5 [Breath]\n[WinDuel] Повышает свой счётчик [Breath] на 2",
+          "desc": "[WhenUse] Накладывает [DuelDeclaration_Camille]\n[WhenUse] Получает 5 [Breath]\n[WinDuel] Повышает свой счётчик [Breath] на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1801,7 +1801,7 @@
         {
           "level": 1,
           "name": "Кшшш",
-          "desc": "[WhenUse] Если быстрее цели, +1 к Силе монет за каждые 2 единицы разницы в скорости (До 3)",
+          "desc": "[WhenUse] Если скорость этого юнита выше скорости атакующего, Сила монет +1 за каждые 2 единицы разницы в скорости (максимум 3)",
           "coinlist": [
             {
               "coindescs": [

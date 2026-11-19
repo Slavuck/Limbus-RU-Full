@@ -106,7 +106,7 @@
         {
           "level": 1,
           "name": "Клеймение",
-          "desc": "Нацеливается на противников с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)",
+          "desc": "В первую очередь атакует цели с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -261,7 +261,7 @@
         {
           "level": 1,
           "name": "Клеймение",
-          "desc": "Нацеливается на противников с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)",
+          "desc": "В первую очередь атакует цели с [TiedRope]\nЕсли быстрее цели, то наносит ей на (Разница в скорости × 25)% больше урона (До 100%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы своего [Breath] и [Laceration] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -770,7 +770,7 @@
         {
           "level": 1,
           "name": "Форма меча родины [Sal] - Занять позицию",
-          "desc": "Не затронут [ChoiSwordsmanship]\n[CantDuel] с Ассист-Юнитам\nПриоритет грешников\nЕсли навык цели [SupportProtect] Эксклюзивный, конвертируйте в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Потерять 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если навык цели [SupportProtect] Эксклюзивный навык, этот эффект не активируется\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При попадании как несопротивляемая атака или по цели с использованием [SupportProtect] Эксклюзивного Навыка, получают 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "desc": "Не затронут [ChoiSwordsmanship]\n[CantDuel] с Ассист-Юнитами\nПриоритет грешников\nЕсли навык цели [SupportProtect] Эксклюзивный, конвертируйте в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Потерять 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если навык цели [SupportProtect] Эксклюзивный навык, этот эффект не активируется\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При попадании как несопротивляемая атака или по цели с использованием [SupportProtect] Эксклюзивного Навыка, получают 2 [ChoiSwordsmanship]</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -795,7 +795,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Форма меча родины [Sal] - Выпущенная стрела",
+          "name": "Форма лука родины [Sal] - Выпущенная стрела",
           "desc": "<color=#ff6000><mark color=#ff000040><b><u>Определяет врага, у которого больше всего [Laceration]</color></mark></b></u>\nНе затронут [ChoiSwordsmanship]\n[WhenUse] Потреблять 3 [Breath] Силу на себе, чтобы получить Финальную Силу +2",
           "coinlist": [
             {
@@ -810,7 +810,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Binding] на следующий ход"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vulnerable]"
@@ -888,7 +888,7 @@
         {
           "level": 1,
           "name": "Разделка медведя",
-          "desc": "[WhenUse] Повышает свой счётчик [Breath] на 3\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] Монета этого навыка становится [SuperCoin] при 6 и более [Breath]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\n Не может попасть критически",
+          "desc": "[WhenUse] Повышает свой счётчик [Breath] на 3\n[WhenUse] Итоговая сила +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] При 6 и более [Breath] все монеты этого навыка становятся [SuperCoin]\n[DefeatDuel] Наносит на 80% меньше урона и не может оглушить цель\nНе может попасть критически",
           "coinlist": [
             {
               "coindescs": [
@@ -1130,7 +1130,7 @@
         {
           "level": 1,
           "name": "Форма меча родины [Sal] - Занять позицию",
-          "desc": "Не затронут [ChoiSwordsmanship]\n[CantDuel] с Ассист-Юнитам\nПриоритет грешников\nЕсли навык цели [SupportProtect] Эксклюзивный, конвертируйте в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Потерять 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если навык цели [SupportProtect] Эксклюзивный навык, этот эффект не активируется\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При попадании как несопротивляемая атака или по цели с использованием [SupportProtect] Эксклюзивного Навыка, получают 2 [ChoiSwordsmanship]</color></mark></b></u>",
+          "desc": "Не затронут [ChoiSwordsmanship]\n[CantDuel] с Ассист-Юнитами\nПриоритет грешников\nЕсли навык цели [SupportProtect] Эксклюзивный, конвертируйте в [SuperCoin]\n[StartDuel] <color=#ff6000><mark color=#ff000040><b><u>Потерять 3 [ChoiSwordsmanship]</color></mark></b></u>\n- Если навык цели [SupportProtect] Эксклюзивный навык, этот эффект не активируется\n[EndSkill] <color=#ff6000><mark color=#ff000040><b><u>При попадании как несопротивляемая атака или по цели с использованием [SupportProtect] Эксклюзивного Навыка, получают 2 [ChoiSwordsmanship]</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -1155,7 +1155,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Форма меча родины [Sal] - Выпущенная стрела",
+          "name": "Форма лука родины [Sal] - Выпущенная стрела",
           "desc": "<color=#ff6000><mark color=#ff000040><b><u>Определяет врага, у которого больше всего [Laceration]</color></mark></b></u>\nНе затронут [ChoiSwordsmanship]\n[WhenUse] Потреблять 3 [Breath] Силу на себе, чтобы получить Финальную Силу +2",
           "coinlist": [
             {
@@ -1170,7 +1170,7 @@
                   "desc": "[UnBrokenCoinOnSucceedAttack] Поднимает границу выносливости цели на 10"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 2 [Binding] на следующий ход"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Binding] на следующий ход"
                 },
                 {
                   "desc": "[UnBrokenCoinOnSucceedAttack] Наносит 3 [Vulnerable]"
