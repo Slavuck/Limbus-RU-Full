@@ -11,7 +11,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Утопания"
+                  "desc": "[OnSucceedAttack] Наносит 2 Погружения"
                 }
               ]
             }
@@ -31,7 +31,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Утопания и повышает его счётчик на 1"
+                  "desc": "[OnSucceedAttack] Наносит 2 Погружения и повышает его счётчик на 1"
                 }
               ]
             }
@@ -50,14 +50,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Утопания"
+                  "desc": "[OnSucceedAttack] Наносит 2 Погружения"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 Утопание"
+                  "desc": "[OnSucceedAttack] Наносит 1 Погружение"
                 }
               ]
             },
@@ -369,7 +369,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует тремор"
+                  "desc": "[OnSucceedAttack] Вызывает Провокацию Тремора"
                 }
               ]
             }
@@ -441,7 +441,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Утопания"
+                  "desc": "[OnSucceedAttack] Наносит 2 Погружения"
                 }
               ]
             }
@@ -460,7 +460,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Утопания"
+                  "desc": "[OnSucceedAttack] Наносит 2 Погружения"
                 }
               ]
             },
@@ -496,7 +496,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 2 Понижения силы атаки"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит 2 Утопания"
+                  "desc": "[OnSucceedAttack] Наносит 2 Погружения"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 Разрыва"
@@ -545,7 +545,7 @@
         {
           "level": 1,
           "name": "Сламать тибе ногу нагастой дубинькай!",
-          "desc": "[WhenUse] Получает 1 Повышение силы атаки и 1 Повышение урона на следующий ход",
+          "desc": "[WhenUse] Получает Повышение силы атаки и Повышение урона на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -576,7 +576,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует тремор"
+                  "desc": "[OnSucceedAttack] Вызывает Провокацию Тремора"
                 }
               ]
             }
@@ -621,7 +621,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Я холосё умею?",
+          "name": "Я холосё справилась?",
           "desc": "[WinDuel] Наносит 3 Понижения силы защиты",
           "coinlist": [
             {
@@ -646,7 +646,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Провоцирует Тремор и наносит 1 Уязвимость к Дробящему урону"
+                  "desc": "[OnSucceedAttack] Вызывает Провокацию Тремора и накладывает 1 Уязвимость к Дробящему урону"
                 }
               ]
             }
@@ -707,7 +707,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 Кровотечения"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит +1 счётчик Кровотечение"
+                  "desc": "[OnSucceedAttackHead] Повышает счётчик Кровотечения на 1"
                 }
               ]
             }
@@ -840,7 +840,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Бво! Бво!",
+          "name": "Брат! Брат!",
           "desc": "",
           "coinlist": [
             {}
@@ -906,7 +906,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Гастваномичефкое пвиключение!",
+          "name": "Готовим блюда по курсам!",
           "desc": "Если ОЗ цели не ниже 50% от максимальных, наносит ей на 20% больше урона",
           "coinlist": [
             {

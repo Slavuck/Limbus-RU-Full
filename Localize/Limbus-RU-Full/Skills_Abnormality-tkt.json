@@ -64,7 +64,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Добыча",
+          "name": "Извлечение",
           "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] Если здоровье ниже 75%, тратит 50 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований",
           "coinlist": [
             {
@@ -105,7 +105,7 @@
         {
           "level": 1,
           "name": "Рассечение",
-          "desc": "[WhenUse] Если здоровье ниже 75%, тратит 75 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, тяжесть атаки +1",
+          "desc": "[WhenUse] Если здоровье ниже 75%, тратит 75 <sprite name=\"LimitedTime\"><color=#9f6a3a><u><link=\"LimitedTime\">Украденного времени</link></u></color> для +2 к силе парирований\n[BeforeAttack] Пока находится в состоянии <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">ускорения</link></u></color>, число целей атаки увеличивается на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -195,7 +195,7 @@
         {
           "level": 1,
           "name": "Наказание за убийство времени",
-          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +2\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей равна 500 или больше, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1\n[WhenUse] При 300 и более <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, тратит 25 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы повысить счётчик и потенциал <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, наносимые этим навыком, на 1",
+          "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила парирований +2\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей равна 500 или больше, повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> цели на 1\n[WhenUse] Если сумма <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> всех частей равна 300 или больше, тратит 25 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, чтобы повысить на 1 потенциал и счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, накладываемые этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -227,7 +227,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Добыча",
+          "name": "Извлечение",
           "desc": "Пока <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">в ускоренном состоянии</link></u></color>, сила монет +1\n[WhenUse] Если здоровье ниже 75%, тратит 50 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color> для +2 к силе парирований",
           "coinlist": [
             {
@@ -294,7 +294,7 @@
         {
           "level": 1,
           "name": "Время спасения",
-          "desc": "[CantDuel]\nВыбирает <sprite name=\"TimeKillerWatch\"><color=#9f6a3a><u><link=\"TimeKillerWatch\">целью спасения времени</link></u></color> противника, использовавшего на него атакующий навык, на следующий ход\n[StartBattle] Тратит 200 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>. Переходит в <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">ускоренное состояние</link></u></color> на следующий ход)",
+          "desc": "[CantDuel]\nНа следующий ход накладывает <sprite name=\"TimeKillerWatch\"><color=#9f6a3a><u><link=\"TimeKillerWatch\">цель спасения времени</link></u></color> на противника, использовавшего против него атакующий навык.\n[StartBattle] Тратит 200 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>. Переходит в <sprite name=\"TimeAcceleration\"><color=#9f6a3a><u><link=\"TimeAcceleration\">ускоренное состояние</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -332,7 +332,7 @@
         {
           "level": 1,
           "name": "Время, убивающее время",
-          "desc": "[CantDuel]\nСкорость Потрошителя времени фиксируется на 12.\nПотрошителя времени нельзя оглушить в этот ход.\n[WhenUse] Тратит 400 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>.",
+          "desc": "[CantDuel]\nСкорость Потрошителя времени фиксируется на 24.\nПотрошителя времени нельзя оглушить в этот ход.\n[WhenUse] Получает у всех в сумме 400 <sprite name=\"OwnTime\"><color=#9f6a3a><u><link=\"OwnTime\">Распределённого времени</link></u></color>, а затем расходует его.",
           "coinlist": [
             {
               "coindescs": [

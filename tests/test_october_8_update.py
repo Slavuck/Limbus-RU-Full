@@ -28,7 +28,7 @@ class October8UpdateTests(unittest.TestCase):
 
     def test_la_moisson_has_the_now_released_october_15_limit(self):
         text = records('Passives_Abnormality-a1c10p3.json')[151706]['desc']
-        self.assertIn('Ла Деманд', text)
+        self.assertIn('мощный навык', text)
         self.assertIn('раз за ход', text)
         self.assertNotIn('раза за ход', text)
 

@@ -155,7 +155,7 @@
         {
           "level": 4,
           "name": "Установка зарядного барьера",
-          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит весь Заряд, чтобы дать (потраченный Заряд ÷ 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</link></u></color> (десятичные опускаются) 2 союзникам с самым низким процентом ОЗ",
+          "desc": "[WhenUse] При 10 и более на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, тратит весь Заряд, чтобы дать (потраченный Заряд ÷ 2) <sprite name=\"ChargeForceField\"><color=#f8c200><u><link=\"ChargeForceField\">Зарядных барьеров</link></u></color> (десятичные опускаются) двум союзникам с самым низким процентом текущих ОЗ, включая применяющего навык, если он входит в их число.",
           "coinlist": [
             {},
             {},
@@ -508,7 +508,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 }
               ]
             }
@@ -698,7 +698,7 @@
         {
           "level": 2,
           "name": "Приём трансформирующейся тростью",
-          "desc": "<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 8 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3\n<style=\"highlight\">Сила монет +1 при 6-и и более единиц на собственном счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
+          "desc": "<style=\"highlight\">[WhenUse] Сила в столкновении +1 против целей с 8 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3\n<style=\"highlight\">Сила монет +1 при 6-и и более единиц на собственном счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -726,7 +726,7 @@
         {
           "level": 4,
           "name": "Приём трансформирующейся тростью",
-          "desc": "[WhenUse] Сила парирований +1 против целей с <style=\"highlight\">6</style> и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3\nСила монет +1 при <style=\"highlight\">5</style> и более единиц на собственном счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
+          "desc": "[WhenUse] Сила в столкновении +1 против целей с <style=\"highlight\">6</style> и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3\nСила монет +1 при <style=\"highlight\">5</style> и более единиц на собственном счётчике <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -944,7 +944,7 @@
         {
           "level": 2,
           "name": "Костолом",
-          "desc": "[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике не наносит <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>, но сила монет +1\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "desc": "[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике этот навык не накладывает <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> и не повышает их счётчик, но сила монет +1\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -968,7 +968,7 @@
         {
           "level": 4,
           "name": "Костолом",
-          "desc": "Сила монет +1 против целей с 6 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике не наносит <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>, но сила монет +1\n- Если целью оказался <b>кроваггел</b> или <b>кровесосуд</b>, сила монет +1 поверх предыдущего эффекта\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "desc": "Сила монет +1 против целей с 6 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике этот навык не накладывает <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> и не повышает их счётчик, но сила монет +1\n- Если целью оказался <b>кроваггел</b> или <b>кровесосуд</b>, сила монет +1 поверх предыдущего эффекта\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1000,7 +1000,7 @@
         {
           "level": 3,
           "name": "Бодренько кончаем с охотой",
-          "desc": "[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике не наносит <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>, но сила монет +1\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
+          "desc": "[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике этот навык не накладывает <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> и не повышает их счётчик, но сила монет +1\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -1022,7 +1022,7 @@
         {
           "level": 4,
           "name": "Бодренько кончаем с охотой",
-          "desc": "Сила монет +1 против целей с 6 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике не наносит <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color>, но сила монет +1\n- Если целью оказался <b>кроваггел</b> или <b>кровесосуд</b>, сила монет +1 поверх предыдущего эффекта\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2",
+          "desc": "Сила монет +1 против целей с 6 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывами</link></u></color>\n[WhenUse] При 15 и более <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывах</link></u></color> и 3 и более единицах на их счётчике этот навык не накладывает <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывы</link></u></color> и не добавляет их счётчик, а вместо этого получает +1 к силе монет\n- Если целью оказался <b>кроваггел</b> или <b>кровесосуд</b>, сила монет +1 поверх предыдущего эффекта\n[WinDuel] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -1069,7 +1069,7 @@
         {
           "level": 4,
           "name": "Срочная остановка кровотечения",
-          "desc": "[StartBattle] Понижает собственный счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2 (До трёх раз за ход; если счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> понизился до 0, оно прекращает действие)",
+          "desc": "[StartBattle] Понижает собственную силу <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 2 (До трёх раз за ход; если сила <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> снижается до 0 или ниже, эффект прекращает действие)",
           "coinlist": [
             {
               "coindescs": [
@@ -1402,7 +1402,7 @@
         {
           "level": 1,
           "name": "Боевой контроль дыхания",
-          "desc": "Активирует 「Под покровом тени」 при отсутствии <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патронов</link></u></color> в начале хода\n[OnSucceedEvade] Получает 1 [Breath] (До 3-х раз за ход)",
+          "desc": "При отсутствии <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патронов</link></u></color> в начале хода навык меняется на 「Под покровом тени」\n[OnSucceedEvade] Получает 1 [Breath] (До 3-х раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1416,7 +1416,7 @@
         {
           "level": 4,
           "name": "Боевой контроль дыхания",
-          "desc": "Активирует 「Под покровом тени」 при отсутствии <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патронов</link></u></color> в начале хода\n[OnSucceedEvade] Получает 1 [Breath] (До <style=\"highlight\">5-и</style> раз за ход)",
+          "desc": "При отсутствии <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патронов</link></u></color> в начале хода навык меняется на 「Под покровом тени」\n[OnSucceedEvade] Получает 1 [Breath] (До <style=\"highlight\">5-и</style> раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1434,7 +1434,7 @@
       "levelList": [
         {
           "level": 2,
-          "name": "Синергия: Цель определена",
+          "name": "Синергия: Цель отмечена",
           "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2\n[DefeatDuel] Итоговая сила навыка +5",
           "coinlist": [
             {
@@ -1478,7 +1478,7 @@
         },
         {
           "level": 4,
-          "name": "Синергия: Цель определена",
+          "name": "Синергия: Цель отмечена",
           "desc": "Базовая сила +1 за каждый [Bullet], который потратит этот навык\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на <style=\"highlight\">3</style>\n[DefeatDuel] Итоговая сила навыка +5",
           "coinlist": [
             {
@@ -1895,7 +1895,7 @@
         {
           "level": 4,
           "name": "Хлыст разума",
-          "desc": "<style=\"highlight\">+4%</style> урона за каждую единицу потенциала <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">20%</style>)\n[WhenUse] <b>Если счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Хун Лу выше 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает<style=\"highlight\">10</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1;\n<style=\"highlight\">- [BeforeUse] При 5-и и более <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> у Хун Лу этот навык перестаёт быть <color=#e30000>⁅Неуправляемым⁆</color></style>\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате Хун Лу 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n<style=\"highlight\">[BeforeAttack] Если после траты счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> осталось 8 и более единиц, Хун Лу дополнительно тратит ещё 8 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для +40% к урону</style>",
+          "desc": "<style=\"highlight\">+4%</style> урона за каждую единицу потенциала <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (До <style=\"highlight\">20%</style>)\n[WhenUse] <b>Если счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Хун Лу не ниже 5-и, но ниже 10-и единиц:</b>\n- Хун Лу получает <style=\"highlight\">10</style> <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> до 10;\n- Навык становится <color=#e30000>⁅Неуправляемым⁆</color> и Хун Лу начинает [WideAreaRampage], тяжесть атаки +1;\n<style=\"highlight\">- [BeforeUse] При 5-и и более <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> у Хун Лу этот навык не становится <color=#e30000>⁅Неуправляемым⁆</color></style>\n[WhenUse] Сила монет <style=\"highlight\">+2</style> при трате Хун Лу 10 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\n<style=\"highlight\">[BeforeAttack] Если после траты счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> осталось 8 и более единиц, Хун Лу дополнительно тратит ещё 8 единиц счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> для +40% к урону</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1994,7 +1994,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Энергетическая связь",
+          "name": "Конденсация энергии",
           "desc": "[WhenUse] Сила монет +2 при 10-и и более единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Хун Лу\n[WhenUse] Хун Лу повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 (Раз за ход)",
           "coinlist": [
             {}
@@ -2002,7 +2002,7 @@
         },
         {
           "level": 4,
-          "name": "Энергетическая связь",
+          "name": "Конденсация энергии",
           "desc": "[WhenUse] Сила монет <style=\"highlight\">+4</style> при 10-и и более единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> Хун Лу\n[WhenUse] Хун Лу повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 3 (<style=\"highlight\">Дважды</style> за ход)",
           "coinlist": [
             {}
@@ -2058,7 +2058,7 @@
         {
           "level": 4,
           "name": "Жажда найти свой путь",
-          "desc": "[StartBattle] Хун Лу даёт 1 [Endurance] (1 + (наибольший резонанс ÷ 3)) союзникам, не считая себя (Раз за ход, до 3-х грешников. В приоритете союзники с <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защитой</link></u></color>, включая её особые версии)\n[WhenUse] Сила монет +1 если сумма <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу равна 6-и и более\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 3-мя и более негативными эффектами</style>",
+          "desc": "[StartBattle] Хун Лу даёт 1 [Endurance] (1 + (наибольший резонанс ÷ 3)) союзникам, не считая себя (Раз за ход, до 3-х грешников. В приоритете союзники с <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">Вспомогательной защитой</link></u></color>, включая её особые версии)\n[WhenUse] Сила монет +1 если сумма <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу равна 6-и и более\n<style=\"highlight\">[WhenUse] Сила парирований +1 против целей с 3 и более типами негативных эффектов</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2166,7 +2166,7 @@
         {
           "level": 4,
           "name": "Полный разрыв амбиций порченой кровью",
-          "desc": "<style=\"highlight\">[StartBattle] Хун Лу даёт 1 [ShamrockDamageUp] союзникам с грехом Чревоугодия, кроме себя, на этот ход (Раз за ход)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу (До 2-х)</style>\n[WhenUse] Хун Лу получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
+          "desc": "<style=\"highlight\">[StartBattle] Хун Лу даёт 1 [ShamrockDamageUp] всем союзникам, кроме себя, у которых на этот ход экипированы навыки греха Чревоугодия (раз за ход)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу (До 2-х)</style>\n[WhenUse] Хун Лу получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2217,8 +2217,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Ответь мне, Хэйшоу",
-          "desc": "При использовании защитные навыки цели не активируются\n\n[WhenUse] Хун Лу получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 1\n\n[EndSkill] Хун Лу избирает «Хэйшоу» с наименьшим числом <sprite name=\"HeishouComboCount\"><color=#f8c200><u><link=\"HeishouComboCount\">Бушеваний</link></u></color> и отдаёт <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ совместной атаки</link></u></color> (Раз за ход)\n- По окончании <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">совместной атаки</link></u></color> Хун Лу использует навык 「Избравший путь властителя」\n- Если <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ о комбинированной атаке</link></u></color> не был исполнен, или избранный член «Хэйшоу» оказался оглушён или убит до исполнения, взамен Хун Лу использует навык 「Один как перст, жертвую ради взятия Сада」",
+          "name": "Ответьте мне, Хэйшоу",
+          "desc": "При использовании защитные навыки цели не активируются\n\n[WhenUse] Хун Лу получает 3 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на 1\n\n[EndSkill] Хун Лу выбирает одного из союзников «Хэйшоу», способных действовать, с наименьшим числом <sprite name=\"HeishouComboCount\"><color=#f8c200><u><link=\"HeishouComboCount\">Бушеваний</link></u></color>, повышает его счётчик на 1 и отдаёт <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ совместной атаки</link></u></color> (Раз за ход)\n- По окончании <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">совместной атаки</link></u></color> Хун Лу использует навык 「Избравший путь властителя」\n- Если <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ о комбинированной атаке</link></u></color> не был исполнен, или избранный член «Хэйшоу» оказался оглушён или убит до исполнения, взамен Хун Лу использует навык 「Один как перст, жертвую ради взятия Сада」",
           "coinlist": [
             {
               "coindescs": [
@@ -2238,7 +2238,7 @@
         {
           "level": 4,
           "name": "Ответьте мне, Хэйшоу",
-          "desc": "При использовании защитные навыки цели не активируются\n\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 4 единицы в сумме <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу (До 3-х)</style>\n[WhenUse] Хун Лу получает <style=\"highlight\">5</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на <style=\"highlight\">3</style>\n\n[EndSkill] Хун Лу избирает «Хэйшоу» с наименьшим числом <sprite name=\"HeishouComboCount\"><color=#f8c200><u><link=\"HeishouComboCount\">Бушеваний</link></u></color> и отдаёт <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ совместной атаки</link></u></color> (Раз за ход)\n- По окончании <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">совместной атаки</link></u></color> Хун Лу использует навык 「Избравший путь властителя」\n- Если <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ о комбинированной атаке</link></u></color> не был исполнен, или избранный член «Хэйшоу» оказался оглушён или убит до исполнения, взамен Хун Лу использует навык 「Один как перст, жертвую ради взятия Сада」",
+          "desc": "При использовании защитные навыки цели не активируются\n\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 4 единицы в сумме <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу (До 3-х)</style>\n[WhenUse] Хун Лу получает <style=\"highlight\">5</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышает его счётчик на <style=\"highlight\">3</style>\n\n[EndSkill] Хун Лу выбирает одного из союзников «Хэйшоу», способных действовать, с наименьшим числом <sprite name=\"HeishouComboCount\"><color=#f8c200><u><link=\"HeishouComboCount\">Бушеваний</link></u></color>, повышает его счётчик на 1 и отдаёт <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ совместной атаки</link></u></color> (Раз за ход)\n- По окончании <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">совместной атаки</link></u></color> Хун Лу использует навык 「Избравший путь властителя」\n- Если <sprite name=\"HeishouCombo\"><color=#9f6a3a><u><link=\"HeishouCombo\">приказ о комбинированной атаке</link></u></color> не был исполнен, или избранный член «Хэйшоу» оказался оглушён или убит до исполнения, взамен Хун Лу использует навык 「Один как перст, жертвую ради взятия Сада」",
           "coinlist": [
             {
               "coindescs": [
@@ -2263,7 +2263,7 @@
         {
           "level": 1,
           "name": "Острые когти «Хэйшоу»",
-          "desc": "[DuelCounter]\n[StartBattle] Хун Лу даёт 1 [SlashResultUp] (наибольший резонанс) союзникам из «Хэйшоу» (Раз за ход)\n\n[StartBattle] Если в запасе есть грешники, Хун Лу выбирает члена «Хэйшоу» с наименьшим процентом здоровья\n- Хун Лу <sprite name=\"HeishouAttack\"><color=#9f6a3a><u><link=\"HeishouAttack\">приказывает атаковать</link></u></color> цель выбранному грешнику, после приказывает <sprite name=\"RetreatForCommon\"><color=#9f6a3a><u><link=\"RetreatForCommon\">отступить</link></u></color> в конце хода; при этом во время отступления грешник восстанавливает 10% здоровья (Раз за ход)\n- Отступивший из-за этого эффекта член «Хэйшоу» становится в очередь возврата раньше, чем другие идентичности\n[StartBattle] Если в запасе нет грешников, Хун Лу даёт 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> союзнику с наименьшим процентом здоровья (Раз за ход)",
+          "desc": "[DuelCounter]\n[StartBattle] Хун Лу даёт 1 [SlashResultUp] союзникам из «Хэйшоу», число которых равно максимальному количеству резонанса (Раз за ход)\n\n[StartBattle] Если в запасе есть грешники, Хун Лу выбирает члена «Хэйшоу» с наименьшим процентом здоровья\n- Хун Лу <sprite name=\"HeishouAttack\"><color=#9f6a3a><u><link=\"HeishouAttack\">приказывает атаковать</link></u></color> цель выбранному грешнику, после приказывает <sprite name=\"RetreatForCommon\"><color=#9f6a3a><u><link=\"RetreatForCommon\">отступить</link></u></color> в конце хода; при этом во время отступления грешник восстанавливает 10% здоровья (Раз за ход)\n- Отступивший из-за этого эффекта член «Хэйшоу» становится в очередь возврата раньше, чем другие идентичности\n[StartBattle] Если в запасе нет грешников, Хун Лу даёт 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> союзнику с наименьшим процентом здоровья (Раз за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -2277,7 +2277,7 @@
         {
           "level": 4,
           "name": "Острые когти «Хэйшоу»",
-          "desc": "[DuelCounter]\n[StartBattle] Хун Лу даёт 1 [SlashResultUp] (наибольший резонанс) союзникам из «Хэйшоу» (Раз за ход)\n\n[StartBattle] Если в запасе есть грешники, Хун Лу выбирает члена «Хэйшоу» с наименьшим процентом здоровья\n- Хун Лу <sprite name=\"HeishouAttack\"><color=#9f6a3a><u><link=\"HeishouAttack\">приказывает атаковать</link></u></color> цель выбранному грешнику, после приказывает <sprite name=\"RetreatForCommon\"><color=#9f6a3a><u><link=\"RetreatForCommon\">отступить</link></u></color> в конце хода; при этом во время отступления грешник восстанавливает 10% здоровья (Раз за ход)\n- Отступивший из-за этого эффекта член «Хэйшоу» становится в очередь возврата раньше, чем другие идентичности\n[StartBattle] Если в запасе нет грешников, Хун Лу даёт 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> союзнику с наименьшим процентом здоровья (Раз за ход)<style=\"highlight\"></style>",
+          "desc": "[DuelCounter]\n[StartBattle] Хун Лу даёт 1 [SlashResultUp] союзникам из «Хэйшоу», число которых равно максимальному количеству резонанса (Раз за ход)\n\n[StartBattle] Если в запасе есть грешники, Хун Лу выбирает члена «Хэйшоу» с наименьшим процентом здоровья\n- Хун Лу <sprite name=\"HeishouAttack\"><color=#9f6a3a><u><link=\"HeishouAttack\">приказывает атаковать</link></u></color> цель выбранному грешнику, после приказывает <sprite name=\"RetreatForCommon\"><color=#9f6a3a><u><link=\"RetreatForCommon\">отступить</link></u></color> в конце хода; при этом во время отступления грешник восстанавливает 10% здоровья (Раз за ход)\n- Отступивший из-за этого эффекта член «Хэйшоу» становится в очередь возврата раньше, чем другие идентичности\n[StartBattle] Если в запасе нет грешников, Хун Лу даёт 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> союзнику с наименьшим процентом здоровья (Раз за ход)<style=\"highlight\"></style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2295,7 +2295,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Избравший путь властителя",
+          "name": "Я проложу путь властителя",
           "desc": "[WhenUse] Базовая сила +1 и сила монет +1, если данная атака выполняется с главнокомандующим ветви из стаи «Хэйшоу»\n\n[WhenUse] Сила монет +1, если сумма <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу равно 6-и и более\n[WhenUse] +5% к наносимому урону за каждый уровень <sprite name=\"HeishouComboCountHonglu\"><color=#f8c200><u><link=\"HeishouComboCountHonglu\">заражения болюсами «Хэйшоу»</link></u></color>\n[EndSkill] Хун Лу получает уровень <sprite name=\"HeishouComboCountHonglu\"><color=#f8c200><u><link=\"HeishouComboCountHonglu\">заражения болюсами «Хэйшоу»</link></u></color> в зависимости от идентичности «Хэйшоу», с которым Хун Лу вместе атаковал",
           "coinlist": [
             {
@@ -2319,7 +2319,7 @@
         },
         {
           "level": 4,
-          "name": "Избравший путь властителя",
+          "name": "Я проложу путь властителя",
           "desc": "[WhenUse] Базовая сила +1 и сила монет +1, если данная атака выполняется с главнокомандующим ветви из стаи «Хэйшоу»\n\n<style=\"highlight\">+1% к наносимому урону за каждый процент в сумме потерянного здоровья цели и Хун Лу (До 50%)</style>\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 единиц в сумме <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу (До 3-х)</style>\n<style=\"highlight\">[WhenUse] +10% к наносимому урону за каждые 2 типа негативных эффектов на цели (До 30%)</style>\n[WhenUse] <style=\"highlight\">+10%</style> к наносимому урону за каждый уровень <sprite name=\"HeishouComboCountHonglu\"><color=#f8c200><u><link=\"HeishouComboCountHonglu\">заражения болюсами «Хэйшоу»</link></u></color>\n[EndSkill] Хун Лу получает уровень <sprite name=\"HeishouComboCountHonglu\"><color=#f8c200><u><link=\"HeishouComboCountHonglu\">заражения болюсами «Хэйшоу»</link></u></color> в зависимости от идентичности «Хэйшоу», с которым Хун Лу вместе атаковал",
           "coinlist": [
             {
@@ -2355,7 +2355,7 @@
         {
           "level": 1,
           "name": "Один как перст, жертвую ради взятия Сада",
-          "desc": "+10% к наносимому урону за каждого <sprite name=\"HeishouDeathCount\"><color=#f8c200><u><link=\"HeishouDeathCount\">погибшего члена «Хэйшоу»</link></u></color>\n+1% к наносимому урону за каждый процент в сумме потерянного здоровья цели и Хун Лу (До 50%)\n[WhenUse] Тяжесть этой атаки +1 при 3-х и более <sprite name=\"HeishouDeathCount\"><color=#f8c200><u><link=\"HeishouDeathCount\">погибших членах «Хэйшоу»</link></u></color>\n[WhenUse] Сила монет +1, если сумма <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу равно 6-и и более\n[WhenUse] +5% к наносимому урону за каждый уровень <sprite name=\"HeishouComboCountHonglu\"><color=#f8c200><u><link=\"HeishouComboCountHonglu\">заражения болюсами «Хэйшоу»</link></u></color>",
+          "desc": "+10% к наносимому урону за каждого <sprite name=\"HeishouDeathCount\"><color=#f8c200><u><link=\"HeishouDeathCount\">погибшего члена «Хэйшоу»</link></u></color>\n+1% к наносимому урону за каждый процент в сумме потерянного здоровья цели и Хун Лу (До 50%)\n[WhenUse] Тяжесть этой атаки +1 при 3-х и более <sprite name=\"HeishouDeathCount\"><color=#f8c200><u><link=\"HeishouDeathCount\">погибших членах «Хэйшоу»</link></u></color>\n[WhenUse] Сила монет +1, если сумма <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> на цели и <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на Хун Лу равна 6 или более\n[WhenUse] +5% к наносимому урону за каждый уровень <sprite name=\"HeishouComboCountHonglu\"><color=#f8c200><u><link=\"HeishouComboCountHonglu\">заражения болюсами «Хэйшоу»</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -2434,7 +2434,7 @@
         {
           "level": 1,
           "name": "Личная охрана",
-          "desc": "[CanDuelGuard]\nДанный навык используется только как вспомогательная защита союзника по приказу Хун Лу, и не вызывается союзниками с собственной <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">вспомогательной защитой</link></u></color>\n[WhenUse] Сила парирований +1 против целей с 3-мя и более негативными эффектами",
+          "desc": "[CanDuelGuard]\nДанный навык считается вспомогательной защитой только для персонажа, который его использует, и не активирует эффекты других персонажей, условия которых проверяют срабатывание <sprite name=\"SupportProtect\"><color=#9f6a3a><u><link=\"SupportProtect\">вспомогательной защиты</link></u></color>\n[WhenUse] Сила парирований +1 против целей с 3-мя и более типами негативных эффектов",
           "coinlist": [
             {
               "coindescs": [
@@ -2554,7 +2554,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 5 и более типов негативных эффектов, использует на ней свой альтернативный второй навык 「Инсталляция №3: Импровизированная грудная клетка」 (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Если цель имеет 5 и более типов негативных эффектов, использует на ней навык 「Инсталляция №3: Импровизированная грудная клетка」 (Единожды за ход)"
                 }
               ]
             }
@@ -2588,7 +2588,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 5 и более типов негативных эффектов, использует на ней свой альтернативный второй навык 「Инсталляция №3: Импровизированная грудная клетка」 (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Если цель имеет 5 и более типов негативных эффектов, использует на ней навык 「Инсталляция №3: Импровизированная грудная клетка」 (Единожды за ход)"
                 }
               ]
             }
@@ -2622,7 +2622,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [ChargeBodyArt] на 4"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 5 и более типов негативных эффектов, использует на ней свой альтернативный второй навык 「Инсталляция №3: Импровизированная грудная клетка」 (Единожды за ход)"
+                  "desc": "[OnSucceedAttack] Если цель имеет 5 и более типов негативных эффектов, использует на ней навык 「Инсталляция №3: Импровизированная грудная клетка」 (Единожды за ход)"
                 }
               ]
             }
@@ -2636,7 +2636,7 @@
         {
           "level": 3,
           "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
-          "desc": "[WhenUse] Наносить +30% урона за каждый избыточный вес атаки, сверх # реальных целей (в Сфокусированных Столкновениях, Часть).\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по основной цели (максимум 2)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик, потребляйте до 20 [ChargeBodyArt] счётчик и получаете следующие эффекты:\n- Финальная степень +2\n- Наносить +1% урона за каждый потраченный [ChargeBodyArt] счётчик\n- При 3+/5+ [ChargeBodyArt] прирост +1/+2 веса атаки\n- Конвертировать все монеты на этом навыке в [SuperCoin]",
+          "desc": "[WhenUse] Наносить +30% урона за каждый избыточный вес атаки, сверх # реальных целей (в Сфокусированных Столкновениях, Часть).\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по основной цели (максимум 2)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик, потребляйте до 20 [ChargeBodyArt] счётчик и получаете следующие эффекты:\n- Итоговая сила +2\n- Наносить +1% урона за каждый потраченный [ChargeBodyArt] счётчик\n- При 3+/5+ [ChargeBodyArt] прирост +1/+2 веса атаки\n- Конвертировать все монеты на этом навыке в [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2680,7 +2680,7 @@
         {
           "level": 4,
           "name": "Мелодия Тибии - Анатомирование неанатомированного анатомированным",
-          "desc": "[WhenUse] Наносить +30% урона за каждый избыточный вес атаки, сверх # реальных целей (в Сфокусированных Столкновениях, Часть).\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по основной цели (максимум <style=\"highlight\">3</style>)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик, потребляйте до 20 [ChargeBodyArt] счётчик и получаете следующие эффекты:\n- Финальная степень +2\n- Наносить +1% урона за каждый потраченный [ChargeBodyArt] счётчик\n- При 3+/5+ [ChargeBodyArt] прирост +1/+2 веса атаки\n- Конвертировать все монеты на этом навыке в [SuperCoin]",
+          "desc": "[WhenUse] Наносить +30% урона за каждый избыточный вес атаки, сверх # реальных целей (в Сфокусированных Столкновениях, Часть).\n[WhenUse] итоговая сила +1 за каждую 4 [Laceration] по основной цели (максимум <style=\"highlight\">3</style>)\n[WhenUse] При 10+ [ChargeBodyArt] счётчик, потребляйте до 20 [ChargeBodyArt] счётчик и получаете следующие эффекты:\n- Итоговая сила +2\n- Наносить +1% урона за каждый потраченный [ChargeBodyArt] счётчик\n- При 3+/5+ [ChargeBodyArt] прирост +1/+2 веса атаки\n- Конвертировать все монеты на этом навыке в [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2729,7 +2729,7 @@
         {
           "level": 1,
           "name": "Курирование выставки",
-          "desc": "[StartBattle] Получить 1 [SupportProtect] (один раз за ход)\n[OnSucceedEvade] Наносить 1 [Binding] следующий ход атакующему (один раз за ход)",
+          "desc": "[StartBattle] Получить 1 [SupportProtect] (один раз за ход)\n[OnSucceedEvade] Накладывает 1 [Binding] на атакующего на следующий ход (один раз за ход)",
           "coinlist": [
             {}
           ]
@@ -2737,7 +2737,7 @@
         {
           "level": 4,
           "name": "Курирование выставки",
-          "desc": "[StartBattle] Получить 1 [SupportProtect] (один раз за ход)\n[OnSucceedEvade] Наносить 1 [Binding] следующий ход атакующему (один раз за ход)\n[OnSucceedEvade] Получить 1 [Agility] следующий ход (один раз за ход)",
+          "desc": "[StartBattle] Получить 1 [SupportProtect] (один раз за ход)\n[OnSucceedEvade] Накладывает 1 [Binding] на атакующего на следующий ход (один раз за ход)\n[OnSucceedEvade] Получить 1 [Agility] следующий ход (один раз за ход)",
           "coinlist": [
             {}
           ]
@@ -2914,7 +2914,7 @@
         {
           "level": 1,
           "name": "Пожалуйста. Вандализм запрещён.",
-          "desc": "[DuelCounter]\n[SupportProtect] эксклюзивный навык\nНаносите +5% урон при любом негативном эффекте цели (максимальный 20%)\n[WhenUse] Если цель имеет 6+ [Laceration], сила монеты +1\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "desc": "[DuelCounter]\n[SupportProtect] эксклюзивный навык\nНаносите +5% урона за каждый тип негативного эффекта цели (максимум 20%)\n[WhenUse] Если цель имеет 6+ [Laceration], сила монеты +1\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -2929,7 +2929,7 @@
         {
           "level": 4,
           "name": "Пожалуйста. Вандализм запрещён.",
-          "desc": "[DuelCounter]\n[SupportProtect] эксклюзивный навык\nНаносить +<style=\"highlight\">10</style>% урона за любой тип негативного эффекта цели (максимум <style=\"highlight\">30</style>%)\n[WhenUse] <style=\"highlight\">сила монеты сила +1 для каждого 6 [Laceration] по цели (максимальный 2)</style>\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
+          "desc": "[DuelCounter]\n[SupportProtect] эксклюзивный навык\nНаносить +<style=\"highlight\">10</style>% урона за каждый тип негативного эффекта цели (максимум <style=\"highlight\">30</style>%)\n[WhenUse] <style=\"highlight\">сила монеты +1 за каждые 6 [Laceration] у цели (максимум 2)</style>\n[WhenUse] При 10+ [ChargeBodyArt] счётчик потребляйте 5 [ChargeBodyArt] счётчик, чтобы получить следующие эффекты:\n- сила в столкновении +1\n- Конвертировать последнюю монету на этом навыке в [SuperCoin]",
           "coinlist": [
             {
               "coindescs": [
@@ -3163,7 +3163,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и вновь подкидывает эту монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и повторно подбрасывает эту монету (1 раз за навык)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3196,7 +3196,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и вновь подкидывает эту монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и повторно подбрасывает эту монету (1 раз за навык)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3229,7 +3229,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и вновь подкидывает эту монету 1 раз"
+                  "desc": "[OnSucceedAttack] Если цель имеет 2 и более [TiedRopeHonglu], то тратит 1 [TiedRopeHonglu] с неё и повторно подбрасывает эту монету (1 раз за навык)"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
@@ -3260,7 +3260,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей 1 [TiedRopeHonglu]"
+                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей [TiedRopeHonglu]"
                 }
               ]
             },
@@ -3287,7 +3287,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [ScratchesHurtID]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurtID]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
                 }
               ]
             }
@@ -3304,7 +3304,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [Binding] на следующий ход"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей 1 [TiedRopeHonglu]"
+                  "desc": "[OnSucceedAttack] Если цель не имеет [TiedRopeHonglu], то наносит ей [TiedRopeHonglu]"
                 }
               ]
             },
@@ -3334,7 +3334,7 @@
                   "desc": "[OnSucceedAttack] Наносит 1 [ScratchesHurtID]"
                 },
                 {
-                  "desc": "[CriticalOnSucceedAttack] Наносит ещё 1 [ScratchesHurtID]"
+                  "desc": "[CriticalOnSucceedAttack] Наносит 1 [ScratchesHurtID]"
                 },
                 {
                   "desc": "[CriticalOnSucceedAttack] Наносит 1 [IndigoTakeDamageUp] на следующий ход"
@@ -3824,7 +3824,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Ужасно бесконечное повторение",
+          "name": "Ужасное повторное воспроизведение",
           "desc": "Урон +10% за каждые 2 силы [ChargeNoirAlly] на себе (макс. 30%)\n[WhenUse] Получить [NoirBindArmorAlly] в размере (сила [ChargeNoirAlly] на себе x 2) (макс. 10 за навык)\n[WhenUse] Потратить 5 счётчиков [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 3 раза)\n[EndSkill] Если у этого бойца нет [TimeToListenHonglu], получить 1 [ReadyToListenHonglu] (1 раз за ход)",
           "coinlist": [
             {
@@ -3864,7 +3864,7 @@
         },
         {
           "level": 4,
-          "name": "Ужасно бесконечное повторение",
+          "name": "Ужасное повторное воспроизведение",
           "desc": "Урон +10% за каждые 2 силы [ChargeNoirAlly] на себе (макс. 30%)\n[WhenUse] Получить [NoirBindArmorAlly] в размере (сила [ChargeNoirAlly] на себе x <style=\"highlight\">3</style>) (макс. <style=\"highlight\">15</style> за навык)\n[WhenUse] Потратить 5 счётчиков [ChargeNoirAlly], чтобы получить +1 к силе монеты (макс. 3 раза)\n[EndSkill] Если у этого бойца нет [TimeToListenHonglu], получить 1 [ReadyToListenHonglu] (1 раз за ход)",
           "coinlist": [
             {
@@ -3890,7 +3890,7 @@
                   "desc": "Если у бойца есть [TimeToListenHonglu], повторно использовать эту монету 1 раз (1 раз за навык)"
                 },
                 {
-                  "desc": "<style=\"highlight\">[OnSucceedAttack] При силе [ChargeNoirAlly] 2 или выше активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1</style>"
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Если собственная сила [ChargeNoirAlly] не меньше 2, активировать [VibrationExplosion], затем уменьшить счётчик [Vibration] цели на 1</style>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наложить 1 [WarinessHonglu]<style=\"highlight\"></style>"

@@ -96,7 +96,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": " Если остался щит, получает 2 [AttackDmgUp] на следующий ход",
+          "desc": "Если в конце хода у этого персонажа остаются ОЗ щита, получает 2 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -140,7 +140,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Исполнение приговора",
+          "name": "Исполнение правил",
           "desc": "[WhenUse] Сила монет +1 против целей с 4 и более единицами счётчика [Laceration]",
           "coinlist": [
             {
@@ -205,7 +205,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": " Если остался щит, получает 2 [AttackDmgUp] на следующий ход",
+          "desc": "Если в конце хода у этого персонажа остаются ОЗ щита, получает 2 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -224,7 +224,7 @@
         {
           "level": 1,
           "name": "Исполнение наказания",
-          "desc": "[WinDuel] Если на цели 5 и более [Laceration], повторно использует атаку (Единожды)",
+          "desc": "[WinDuel] Если на цели 5 и более [Laceration], повторно использует этот навык (Единожды)",
           "coinlist": [
             {
               "coindescs": [
@@ -274,7 +274,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Нарушенный договор",
+          "name": "Нарушенный пункт",
           "desc": "Сила монет +1 за каждые 3 [Laceration] на цели (До 3)\n[WinDuel] Наносит на 40% больше урона целям с 6 и более [Laceration]",
           "coinlist": [
             {
@@ -296,7 +296,7 @@
                   "desc": "[OnSucceedAttack] Если на цели есть [Laceration], восстанавливает 10 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Если на цели 5 и более [Laceration], повтороно использует атаку (Единожды)"
+                  "desc": "[OnSucceedAttackHead] Если на цели 5 и более [Laceration], повторно использует этот навык (один раз)"
                 }
               ]
             }
@@ -426,7 +426,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration], повторно использует атаку (Единожды)"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration], эта монета используется повторно (не более 1 раза)"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown]"
@@ -443,7 +443,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": " Если остался щит, получает 3 [AttackDmgUp] на следующий ход",
+          "desc": "Если к концу хода у бойца остаётся прочность щита, он получает 3 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -559,7 +559,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если счётчик [Laceration] цели равен 4 и более, повторно использует атаку (Единожды)"
+                  "desc": "[OnSucceedAttack] Если счётчик [Laceration] цели равен 4 и более, повторно использует эту монету (Единожды)"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 2 [DefenseDown]"
@@ -576,7 +576,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": " Если остался щит, получает 3 [AttackDmgUp] на следующий ход",
+          "desc": "Если к концу хода у бойца остаётся прочность щита, он получает 3 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -595,7 +595,7 @@
         {
           "level": 1,
           "name": "Окрашивание",
-          "desc": "[WinDuel] Если на цели 5 и более [Laceration], повторно использует атаку (Единожды)",
+          "desc": "[WinDuel] Если на цели 5 и более [Laceration], повторно использует этот навык на случайном противнике после окончания атаки (макс. 1 раз)",
           "coinlist": [
             {
               "coindescs": [
@@ -719,7 +719,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration], повторно использует атаку (До 3 раз)"
+                  "desc": "[OnSucceedAttack] Если на цели 5 и более [Laceration], повторно использует эту монету (до 3 раз)"
                 },
                 {
                   "desc": "[OnSucceedAttack] Понижает счётчик [Laceration] на 1"
@@ -763,14 +763,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown] на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 1 [AttackDown] на следующий ход"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown] на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 1 [AttackDown] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Наносит 2 [Paralysis]"
@@ -831,7 +831,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown]"
@@ -841,7 +841,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown]"
@@ -851,7 +851,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 [DefenseDown]"
@@ -980,21 +980,21 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Восстанавливает 4 СД"
+                  "desc": "[OnSucceedAttack] Восстанавливает себе 4 СД"
                 }
               ]
             }
@@ -1043,7 +1043,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "[StartBattle] Получает ещё 20 ОЗ Щита за каждого живого союзника",
+          "desc": "[StartBattle] Получает ещё 20 ОЗ Щита за каждого другого живого союзника",
           "coinlist": [
             {
               "coindescs": [

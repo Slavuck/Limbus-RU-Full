@@ -8,21 +8,21 @@
     },
     {
       "id": 1046,
-      "panicName": "Вычерпывание\nплоти",
+      "panicName": "Лопатка из плоти",
       "lowMoraleDescription": "- Получает 5 [Laceration] и 1 [Enhancement] в начале хода",
       "panicDescription": "- Получает 10 [Laceration] и 2 [Enhancement] в начале хода"
     },
     {
       "id": 1050,
       "panicName": "Жёсткий\nустав",
-      "lowMoraleDescription": "- Если удалось нанести 2 и более [Vibration] в прошлом ходе, получает 1 [AmberDamageUp]\n- Если удалось нанести 2 и более [Combustion] в прошлом ходе, получает 1 [CrimsonDamageUp]\n- Если не удалось нанести ничего из этого, получает 2 [DefenseDown]",
-      "panicDescription": "- Если удалось нанести 2 и более [Vibration] в прошлом ходе, получает 2 [AmberDamageUp]\n- Если удалось нанести 2 и более [Combustion] в прошлом ходе, получает 2 [CrimsonDamageUp]\n- Если не удалось нанести ничего из этого, получает 3 [DefenseDown]"
+      "lowMoraleDescription": "- Если удалось нанести 2 и более [Vibration] в прошлом ходу, получает 1 [AmberDamageUp]\n- Если удалось нанести 2 и более [Combustion] в прошлом ходу, получает 1 [CrimsonDamageUp]\n- Если не удалось наложить никаких эффектов, получает 2 [DefenseDown]",
+      "panicDescription": "- Если удалось нанести 2 и более [Vibration] в прошлом ходу, получает 2 [AmberDamageUp]\n- Если удалось нанести 2 и более [Combustion] в прошлом ходу, получает 2 [CrimsonDamageUp]\n- Если не удалось наложить никаких эффектов, получает 3 [DefenseDown]"
     },
     {
       "id": 1051,
-      "panicName": "Мягкое сердце,\nотделанное золотом",
-      "lowMoraleDescription": "- Получает 1 [Enhancement] и 1 [Vulnerable]",
-      "panicDescription": "- Получает 2 [Enhancement] и 2 [Vulnerable]"
+      "panicName": "Сердце, отлитое из мягкого золота",
+      "lowMoraleDescription": "- В начале хода получает 1 [Enhancement] и 1 [Vulnerable]",
+      "panicDescription": "- В начале хода получает 2 [Enhancement] и 2 [Vulnerable]"
     },
     {
       "id": 1052,
@@ -32,13 +32,13 @@
     },
     {
       "id": 1053,
-      "panicName": "Унаследованное\nзавещание\nХунъюаня",
-      "lowMoraleDescription": "- Получает 2 [Enhancement] и 1 [Binding]\n- Когда Тело проигрывает в столкновении против Хон Лу, эта часть получает 1 [AttackDmgUp] и 1 [Vulnerable] на следующий ход (Единожды за ход)",
-      "panicDescription": "- Получает 2 [Enhancement] и 2 [Binding]\n- Когда Тело проигрывает в столкновении против Хон Лу, эта часть получает 2 [AttackDmgUp] и 2 [Vulnerable] на следующий ход (Единожды за ход)"
+      "panicName": "Унаследованная\nволя\nХунъюаня",
+      "lowMoraleDescription": "- Все части получают 2 [Enhancement] и 1 [Binding]\n- Когда Тело проигрывает в столкновении против Хун Лу, эта часть получает 1 [AttackDmgUp] и 1 [Vulnerable] на следующий ход (Единожды за ход)",
+      "panicDescription": "- Все части получают 2 [Enhancement] и 2 [Binding]\n- Когда Тело проигрывает в столкновении против Хун Лу, эта часть получает 2 [AttackDmgUp] и 2 [Vulnerable] на следующий ход (Единожды за ход)"
     },
     {
       "id": 1054,
-      "panicName": "Бесконечное\nзавещание\nХунъюаня",
+      "panicName": "Воля Хунъюаня, передаваемая из века в век",
       "lowMoraleDescription": "- Получает 2 [Enhancement] и 1 [Vulnerable]\n- Созданные этим юнитом юниты получают 3 [DefenseDown]\n- Наносит на 20% больше урона. Если ОЗ части паланкина равны 0, вместо этого наносит на 10% меньше урона",
       "panicDescription": "- Получает 2 [Enhancement] и 2 [Vulnerable]\n- Созданные этим юнитом юниты получают 6 [DefenseDown]\n- Наносит на 30% больше урона. Если ОЗ части паланкина равны 0, вместо этого наносит на 15% меньше урона"
     }

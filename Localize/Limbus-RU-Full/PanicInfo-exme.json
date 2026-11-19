@@ -3,14 +3,14 @@
     {
       "id": 1092,
       "panicName": "Спутанные воспоминания",
-      "lowMoraleDescription": "Получает 1~3 [AttackUp] и 1~3 [DefenseDown]",
-      "panicDescription": "Получает 1~5 [AttackUp] и 1~5 [DefenseDown]"
+      "lowMoraleDescription": "В начале хода получает 1~3 [AttackUp] и 1~3 [DefenseDown]",
+      "panicDescription": "В начале хода получает 1~5 [AttackUp] и 1~5 [DefenseDown]"
     },
     {
       "id": 1093,
       "panicName": "Горечь",
-      "lowMoraleDescription": "- Получает 1 [Enhancement] и 1 [Disarming]\n- Конец хода: получает 2 [Agility] на следующий ход",
-      "panicDescription": "- Получает 2 [Enhancement] и 2 [Disarming]\n- Конец хода: получает 2 [Agility] на следующий ход"
+      "lowMoraleDescription": "- Начало хода: получает 1 [Enhancement] и 1 [Disarming]\n- Конец хода: получает 2 [Agility] на следующий ход",
+      "panicDescription": "- Начало хода: получает 2 [Enhancement] и 2 [Disarming]\n- Конец хода: получает 2 [Agility] на следующий ход"
     },
     {
       "id": 1094,
@@ -27,7 +27,7 @@
     {
       "id": 1096,
       "panicName": "Проявленные воспоминания",
-      "lowMoraleDescription": "- Получает 1 [Vulnerable]\n- Наносит на 10% больше обычного урона и на 15% больше критического",
+      "lowMoraleDescription": "- Получает 1 [Vulnerable]\n- Наносит на 10% больше урона и на 15% больше урона при критическом попадании",
       "panicDescription": "Получает 2 [Vulnerable], наносит на 10% больше урона и на 30% больше урона критическими попаданиями, а также <color=#ff6000><mark color=#ff000040><b><u>удваивает эффекты, накладываемые монетами навыка «Лук родины [Sal] — Спущенная стрела»</color></mark></b></u>."
     }
   ]

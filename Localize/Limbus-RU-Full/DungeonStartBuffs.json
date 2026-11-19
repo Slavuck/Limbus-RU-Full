@@ -18,7 +18,7 @@
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_SELECT_NEW_FLOOR_THEME",
-      "description": "При выборе нового тематического набора <color=#ff6000>уровень идентичностей</color> повысится на {0}. (До 9)"
+      "description": "При первом выборе тематического набора, по которому ещё нет записи, <color=#ff6000>уровень идентичностей</color> повысится на {0}. (До 9)"
     },
     {
       "id": "ADDITIONAL_SHOP_EGO_GIFT_SLOT",
@@ -30,7 +30,7 @@
     },
     {
       "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_CLEAR_FLOOR",
-      "description": "После прохождения этажа <color=#ff6000>уровень идентичностей</color> повысится на {0}."
+      "description": "После прохождения этажа <color=#ff6000>уровень идентичностей</color> повысится на {0} (макс. 5)."
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP",
@@ -42,7 +42,7 @@
     },
     {
       "id": "ACQUIRE_LOWER_TIER_RANDOM_EGO_GIFT_ON_COMBINE",
-      "description": "При соединении Даров получите случайный <color=#ff6000>ЭГО-дар</color> на 2 уровня ниже чем результатный Дар. (Раз за посещение магазина; применимо только для уровней 3 или выше)"
+      "description": "При соединении Даров получите случайный <color=#ff6000>ЭГО-дар</color> на 2 ранга ниже результата. (Раз за посещение магазина; только если результат 3-го ранга или выше)"
     },
     {
       "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
@@ -50,7 +50,7 @@
     },
     {
       "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR",
-      "description": "После входа откроется выбор {0} <color=#ff6000>ЭГО-дара уровня 3</color> выбранного ранее аспекта."
+      "description": "После входа выберите {0} <color=#ff6000>ЭГО-дара 3-го ранга</color> из случайного набора для выбранного аспекта и получите их."
     },
     {
       "id": "REVIVE_ONCE_PER_FLOOR",

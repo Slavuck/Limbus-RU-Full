@@ -298,7 +298,7 @@
     },
     {
       "id": "mainui_gacha_rateinfo",
-      "content": "Шанс выпадения"
+      "content": "Подробности о вероятностях"
     },
     {
       "id": "mainui_gacha_history",
@@ -378,7 +378,7 @@
     },
     {
       "id": "mainui_guaranteed_reward",
-      "content": "Награда"
+      "content": "Гарантированная награда"
     },
     {
       "id": "mainui_select_reward",
@@ -394,7 +394,7 @@
     },
     {
       "id": "mainui_reward_random_box",
-      "content": "<size=40%>Ящики с эгосколками</size>"
+      "content": "<size=40%>Ящики со случайными эгосколками</size>"
     },
     {
       "id": "mainui_reward_select_box",
@@ -402,7 +402,7 @@
     },
     {
       "id": "mainui_manaUsage",
-      "content": "Цена ЭГО"
+      "content": "Расход рассудка"
     },
     {
       "id": "mainui_abnormality_analysis_level",
@@ -430,7 +430,7 @@
     },
     {
       "id": "mainui_support_passive",
-      "content": "Поддержка"
+      "content": "Пассивка поддержки"
     },
     {
       "id": "mainui_synchronization",
@@ -474,7 +474,7 @@
     },
     {
       "id": "mainui_mail_warning2",
-      "content": "※ Предметы, полученные в почте, могут попасть под ограничение."
+      "content": "※ Отказ от покупки предметов, полученных в почтовом ящике, может быть ограничен."
     },
     {
       "id": "main_information",
@@ -550,7 +550,7 @@
     },
     {
       "id": "mainui_awaken_requirement_amount",
-      "content": "Цена в звеньях"
+      "content": "Необходимое количество валюты"
     },
     {
       "id": "mainui_passive_skill_addition",
@@ -562,11 +562,11 @@
     },
     {
       "id": "mainui_ego_awaken_skill_reinforcement",
-      "content": "Проявление ЭГО обновлено"
+      "content": "Навык пробуждения ЭГО усилен"
     },
     {
       "id": "mainui_ego_erosion_skill_reinforcement",
-      "content": "Коррозия ЭГО обновлена"
+      "content": "Усилен навык Коррозии ЭГО"
     },
     {
       "id": "mainui_lack_of_material_amount",
@@ -578,11 +578,11 @@
     },
     {
       "id": "mainui_move_to_twine_store",
-      "content": "В Обменник"
+      "content": "Перейти в обменник осколков на нити"
     },
     {
       "id": "mainui_move_to_twine_store_question",
-      "content": "Недостаточно звеньев.\nПерейти в 『Обменник эгосколков』?"
+      "content": "Недостаточно звеньев.\nПерейти в 『Осколки::Обменник нитей』?"
     },
     {
       "id": "mainui_confirm_of_purchased_twine",
@@ -590,11 +590,11 @@
     },
     {
       "id": "mainui_result_of_purchased_twine",
-      "content": "Конвертация {0} звеньев завершена, менеджер."
+      "content": "Приобретено нитей: {0}."
     },
     {
       "id": "mainui_personality_awaken_completion",
-      "content": "Идентичность связана"
+      "content": "Синхронизация Идентичности завершена"
     },
     {
       "id": "mainui_ego_awaken_completion",
@@ -602,7 +602,7 @@
     },
     {
       "id": "mainui_new_skill_acquisition",
-      "content": "Новая атака: 「{0}」"
+      "content": "Новый навык: 「{0}」"
     },
     {
       "id": "mainui_new_passive_skill_acquisition",
@@ -622,7 +622,7 @@
     },
     {
       "id": "mainui_skill_reinforcement",
-      "content": "Улучшена атака 「{0}」"
+      "content": "Навык 「{0}」 усилен"
     },
     {
       "id": "mainui_unlock_personality_story",
@@ -630,11 +630,11 @@
     },
     {
       "id": "mainui_ego_awaken_skill_name_reinforcement",
-      "content": "Проявление ЭГО 『{0}』 усилено"
+      "content": "Навык пробуждения ЭГО 『{0}』 усилен"
     },
     {
       "id": "mainui_ego_erosion_skill_name_reinforcement",
-      "content": "Коррозия ЭГО 『{0}』 усилена"
+      "content": "Навык Коррозии ЭГО 『{0}』 усилен"
     },
     {
       "id": "mainui_specific_level_achievement",
@@ -662,7 +662,7 @@
     },
     {
       "id": "mainui_purchase_complete",
-      "content": "Продано"
+      "content": "Покупка завершена"
     },
     {
       "id": "mainui_activation",
@@ -718,7 +718,7 @@
     },
     {
       "id": "mainui_progress_of_spend",
-      "content": "Потратить {0} для получения {1}?"
+      "content": "Потратить {0}, чтобы продолжить {1}?"
     },
     {
       "id": "game_setting",
@@ -734,7 +734,7 @@
     },
     {
       "id": "order_of_acquisition",
-      "content": "Время найма"
+      "content": "Недавние"
     },
     {
       "id": "tolerance",
@@ -754,7 +754,7 @@
     },
     {
       "id": "taken_damage",
-      "content": "Получено"
+      "content": "Полученный урон"
     },
     {
       "id": "user_level_up_notice",
@@ -782,7 +782,7 @@
     },
     {
       "id": "notice_of_remain_extract_chance",
-      "content": "3★ идентичность или ЭГО гарантированы через {0} извлечений"
+      "content": "Идентичность 3★ или ЭГО гарантированно выпадет в пределах {0} извлечений"
     },
     {
       "id": "mainui_settings",
@@ -842,7 +842,7 @@
     },
     {
       "id": "skill_growth_value",
-      "content": "Рост"
+      "content": "Коэффициент роста"
     },
     {
       "id": "gacha_history_notice",
@@ -854,7 +854,7 @@
     },
     {
       "id": "own",
-      "content": "Получено"
+      "content": "В наличии"
     },
     {
       "id": "gacha_category",
@@ -866,7 +866,7 @@
     },
     {
       "id": "used_currencies",
-      "content": "Использовано"
+      "content": "Потраченная валюта"
     },
     {
       "id": "mainui_ask_purchase_enkephalin_module",
@@ -898,7 +898,7 @@
     },
     {
       "id": "gacha_rate_info_intro1",
-      "content": "В связи с 『Рекомендациями добровольного ограничения Корейской ассоциации игровой индустрии』, здесь расписаны точные данные шансов извлечения.\n\nИндивидуальные шансы округлены от пятой цифры после запятой. Актуальная сумма применяется к 100%."
+      "content": "В связи с 『Рекомендациями добровольного ограничения Корейской ассоциации игровой индустрии』, здесь расписаны точные данные шансов извлечения.\n\nИндивидуальные шансы округлены от пятой цифры после запятой. Фактическая сумма вероятностей приводится к 100%."
     },
     {
       "id": "gacha_rate_info_intro2",
@@ -926,7 +926,7 @@
     },
     {
       "id": "gacha_rate_info_piece1",
-      "content": "★ Эгосколки.\nКогда вы получаете идентичность, что была извлечена ранее, вы получаете эгосколки извлечённого грешника, число эгосколков зависит от типа и редкости."
+      "content": "★ Эгосколки.\nПри повторном получении уже имеющейся у вас идентичности или ЭГО вы получаете эгосколки соответствующего персонажа; их количество зависит от категории и ранга предмета."
     },
     {
       "id": "gacha_rate_info_piece2",
@@ -990,7 +990,7 @@
     },
     {
       "id": "skill_with_index",
-      "content": "Атака {0}"
+      "content": "Навык {0}"
     },
     {
       "id": "mail_date",
@@ -1006,7 +1006,7 @@
     },
     {
       "id": "cant_receive_mail_all_tilte",
-      "content": "Произошла ошибка при получении."
+      "content": "Невозможно получить"
     },
     {
       "id": "cant_receive_mail_all_main",
@@ -1170,7 +1170,7 @@
     },
     {
       "id": "notice_additional_rewards",
-      "content": "Будут получены дополнительные награды: {0}."
+      "content": "Дополнительные награды получены: {0}."
     },
     {
       "id": "gacha_notice_exclude_ego",
@@ -1206,7 +1206,7 @@
     },
     {
       "id": "gacha_rate_info_intro1_1b",
-      "content": "Таблица за использование {0}:"
+      "content": "Таблица вероятности появления при однократном использовании {0}:"
     },
     {
       "id": "gacha_rate_info_intro1_1c",
@@ -1214,7 +1214,7 @@
     },
     {
       "id": "package_info_detail1",
-      "content": "Таблица для получения иной валюты за использование {0}:"
+      "content": "После выбора валюты таблица показывает вероятности получения разных количеств этой валюты за 1 шт. {0}:"
     },
     {
       "id": "package_info_detail2",
@@ -1326,11 +1326,11 @@
     },
     {
       "id": "new_season_former_box_to_current_box_desc",
-      "content": "Часть имевшихся у вас ящиков с эгосколками и именных ящиков с эгосколками переносится в текущий сезон."
+      "content": "Часть ранее имевшихся у вас ящиков с эгосколками и ящиков выбора эгосколков переносится в текущий сезон."
     },
     {
       "id": "new_season_former_box_to_thread_box",
-      "content": "Неперенесённые ящики с эгосколками конвертируются в ящики со звеньями."
+      "content": "Неперенесённые ящики с эгосколками и ящики выбора эгосколков конвертируются в ящики со звеньями."
     },
     {
       "id": "new_pass_appeared",
@@ -1350,11 +1350,11 @@
     },
     {
       "id": "notice_of_pity_system",
-      "content": "Во время баннеров вы можете заработать 「Исаны (Совершенства)」 в зависимости от количества извлечений.\nПосле достижения определённого числа вы сможете обменять их на 3★ идентичность или ЭГО из этого баннера.\n\n※ Совершенство не передаётся через баннеры; Совершенства считаются отдельной валютой на каждый из баннеров.\n※ После окончания баннера, все Совершенства конвертируются в звенья."
+      "content": "Во время баннеров вы можете заработать валюту «Исан [Идеал]» в зависимости от количества извлечений.\nПосле достижения определённого количества вы сможете обменять её на 3★ идентичность или ЭГО из этого баннера.\n\n※ Валюта «Исан [Идеал]» не передаётся между баннерами; для каждого баннера она считается отдельной валютой.\n※ После окончания баннера вся оставшаяся валюта «Исан [Идеал]» конвертируется в звенья."
     },
     {
       "id": "twine_store",
-      "content": "Обменник эгосколков"
+      "content": "Обменник эгосколков и звеньев"
     },
     {
       "id": "pass",
@@ -1366,11 +1366,11 @@
     },
     {
       "id": "notice_of_pity_point_expiration",
-      "content": "{1} 「Исанов (Совершенства)」 из баннера извлечения 「{0}」 конвертированы в звенья."
+      "content": "В звенья конвертировано {1} единиц валюты «Исан [Идеал]» из баннера извлечения 「{0}」."
     },
     {
       "id": "notice_of_pity_point_progress_or_not",
-      "content": "Обменять 200 「Исанов (Совершенства)」 на эту идентичность?"
+      "content": "Обменять 200 единиц валюты «Исан [Идеал]» на эту идентичность?"
     },
     {
       "id": "notice_of_pity_point_progress_or_not_already_have",
@@ -1378,7 +1378,7 @@
     },
     {
       "id": "open_date_description_month_day_time_zone",
-      "content": "Доступ откроется после {1}/{0} (Обновление на {2})"
+      "content": "Доступ откроется после {0}/{1} (Обновление на {2})"
     },
     {
       "id": "open_date_description_month_day_time_zone_date",
@@ -1426,7 +1426,7 @@
     },
     {
       "id": "formation_force_participation_off",
-      "content": "<font=\"BebasKai SDF\"><voffset=-0,25em><size=56><cspace=-1px>Необходим</cspace></size></voffset></font>"
+      "content": "<font=\"BebasKai SDF\"><voffset=-0,25em><size=56><cspace=-1px>Нужен фиксированный состав</cspace></size></voffset></font>"
     },
     {
       "id": "formation_must_participate_specific_character",
@@ -1466,7 +1466,7 @@
     },
     {
       "id": "required_count",
-      "content": "Необходимо"
+      "content": "Необходимое количество"
     },
     {
       "id": "on_event_reward_grace_period",
@@ -1518,7 +1518,7 @@
     },
     {
       "id": "edit_for_formation",
-      "content": "Изменить\nгрешника"
+      "content": "Изменить\nкоманду"
     },
     {
       "id": "full_participated",
@@ -1550,7 +1550,7 @@
     },
     {
       "id": "new_dungeon_update_alarm",
-      "content": "ЗАМЕЧЕНА НЕУСТОЙЧИВОСТЬ ЗА ГРАНЬЮ ЗАДНЕЙ ДВЕРИ"
+      "content": "ОБНАРУЖЕНО ИЗМЕНЕНИЕ ЗАДНЕЙ ДВЕРИ"
     },
     {
       "id": "buy_announcer",
@@ -1610,7 +1610,7 @@
     },
     {
       "id": "gacha_rate_info_wa1",
-      "content": "★ Ящик звеньев"
+      "content": "★ Ящик с нитями"
     },
     {
       "id": "gacha_rate_info_wa2",
@@ -1622,7 +1622,7 @@
     },
     {
       "id": "notice_of_pity_point_already_have_announcer",
-      "content": "У вас уже есть этот комментатор. Желаете потратить 200 「Исанов (Совершенства)」 для получения  50-и ящиков звеньев?"
+      "content": "У вас уже есть этот комментатор. Желаете потратить 200 единиц валюты «Исан [Идеал]» для получения  50-и ящиков звеньев?"
     },
     {
       "id": "gacha_rate_info_announcer1",
@@ -1638,7 +1638,7 @@
     },
     {
       "id": "remain_exchange_count",
-      "content": "На прилавке"
+      "content": "Осталось обменов"
     },
     {
       "id": "remains",
@@ -1762,7 +1762,7 @@
     },
     {
       "id": "formation_ask_clear_selection",
-      "content": "Вы точно желаете сбросить команду?"
+      "content": "Вы точно желаете сбросить порядок расстановки?"
     },
     {
       "id": "item_owned_count",
@@ -1774,7 +1774,7 @@
     },
     {
       "id": "lunacy_owned_count_free",
-      "content": "(На руках: {1})"
+      "content": "(Платное: {0}, бесплатное: {1})"
     },
     {
       "id": "mainui_ask_use_personality_level_ticket_disadvantage",
@@ -1822,7 +1822,7 @@
     },
     {
       "id": "mass_announcer_spoiler_caution",
-      "content": "Среди наград вас ожидает комментатор,\nсодержащий спойлеры к Песни,\nкоторую вы ещё не прошли.\n\nЖелаете получить награды?"
+      "content": "Среди наград вас ожидает комментатор,\nкоторый может содержать спойлеры к Песни,\nкоторую вы ещё не прошли.\n\nЖелаете получить награды?"
     },
     {
       "id": "vending_machine_item_available_date_label",
@@ -1846,7 +1846,7 @@
     },
     {
       "id": "mainui_settings_push_notification",
-      "content": "Разрешить уведомления"
+      "content": "Настройки уведомлений"
     },
     {
       "id": "paid_lunacy_ui",
@@ -1894,7 +1894,7 @@
     },
     {
       "id": "ego_gift_combine_explain_label_keyword",
-      "content": "Аспект"
+      "content": "Ключевые слова"
     },
     {
       "id": "ego_gift_combine_explain_label_attack_type",
@@ -1910,7 +1910,7 @@
     },
     {
       "id": "ego_gift_combine_explain_no_item_list",
-      "content": "Данный ЭГО-дар нельзя использовать в комбинации."
+      "content": "Рецепт синтеза для связанного ЭГО-дара не найден."
     },
     {
       "id": "ego_gift_combine_explain_required_label",
@@ -1922,11 +1922,11 @@
     },
     {
       "id": "formation_none_selected_desc",
-      "content": "Вы не собрали команду.\n\nВыберите грешников и их порядок для битвы."
+      "content": "Нет грешников с заданным порядком построения.\n\nУкажите порядок построения грешников."
     },
     {
       "id": "ego_gift_category_current_theme",
-      "content": "Комбинации ЭГО-даров\nтематического набора"
+      "content": "Эксклюзивные комбинации ЭГО-даров\nтематического набора"
     },
     {
       "id": "mainui_exp_dungeon_10_title",
@@ -1958,7 +1958,7 @@
     },
     {
       "id": "mainui_settings_show_importance_level_UI",
-      "content": "Подсказки в навыках противников"
+      "content": "Показывать важность механик"
     },
     {
       "id": "mainui_settings_battle_result_announcer",
@@ -1978,7 +1978,7 @@
     },
     {
       "id": "servererror_invalid_battle_version",
-      "content": "Доступно обновление версии.\nЗагрузите новые ресурсы и попробуйте снова."
+      "content": "Версия обновлена.\nЗагрузите новые ресурсы и попробуйте снова."
     },
     {
       "id": "gacha_rate_info_intro1_1_announcer_rate",
@@ -2014,11 +2014,11 @@
     },
     {
       "id": "mainui_ego_gift_keyword",
-      "content": "Аспекты"
+      "content": "Ключевое слово"
     },
     {
       "id": "mainui_ego_gift_grade",
-      "content": "Уровень"
+      "content": "Ранг"
     },
     {
       "id": "mainui_use_random_piece_package",
@@ -2099,6 +2099,10 @@
     {
       "id": "unitinfo_synergy_unsatisfied",
       "content": "Не выполнено условий: {0}"
+    },
+    {
+      "id": "limtochess_entrance_coming_soon",
+      "content": "В разработке"
     }
   ]
 }

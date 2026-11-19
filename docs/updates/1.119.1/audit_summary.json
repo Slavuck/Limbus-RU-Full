@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-11-19T22:36:22.790885+00:00",
+  "target_version": "1.119.1",
+  "mode": "full-review",
+  "counts": {
+    "english_files": 2406,
+    "korean_files": 2449,
+    "russian_files": 2406,
+    "visible_strings": 86162,
+    "reviewed": 84836,
+    "intentional": 1326,
+    "pending": 0,
+    "missing_structure": 0,
+    "changed_source": 18,
+    "untranslated": 0,
+    "missing_russian_text": 0,
+    "exact_english_text": 0,
+    "latin_review": 14075,
+    "intentional_literals": 1326,
+    "format_errors": 0,
+    "technical_mismatches": 0,
+    "positional_arrays": 24319,
+    "source_strings_indexed": 275763,
+    "english_without_korean": 10,
+    "korean_without_english": 53,
+    "english_without_russian": 0,
+    "russian_without_english": 0,
+    "duplicate_english_paths": 0,
+    "duplicate_korean_paths": 0,
+    "duplicate_russian_paths": 0,
+    "deleted_source_strings": 0,
+    "obsolete_russian_strings": 0
+  },
+  "blocking_count": 0,
+  "report_files": [
+    "changed_source.jsonl",
+    "format_errors.jsonl",
+    "intentional_literals.jsonl",
+    "latin_review.jsonl",
+    "missing_structure.jsonl",
+    "positional_arrays.jsonl",
+    "source_index.jsonl",
+    "technical_mismatches.jsonl",
+    "untranslated.jsonl"
+  ],
+  "project_tests": {
+    "run": 69,
+    "skipped": 3
+  },
+  "terminology_tests": {
+    "run": 19,
+    "skipped": 0
+  },
+  "public_repository_tests": {
+    "run": 74,
+    "skipped": 0
+  },
+  "glossary_verified": true,
+  "gameplay_tested": false
+}

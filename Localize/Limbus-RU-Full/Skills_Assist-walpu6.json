@@ -95,7 +95,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Похоже, мне придётся использовать эту силу!",
+          "name": "Похоже, мне придётся использовать тот приём!",
           "desc": "[StartBattle] Получает 1 [ChasingArcana]\n[StartBattle] Получает 50 щита\n[StartBattle] Получает 20 [Aggro] на следующий ход",
           "coinlist": [
             {
@@ -130,12 +130,12 @@
         {
           "level": 1,
           "name": "РАБЫНЯ АРКАНЫ",
-          "desc": "[CantDuel]\nНе наносит урон Мечам забытого рыцаря[TabExplain]\nЗаканчивает ход после попадания по Рыцарю отчаяния в [WornOutKnight]\n[EndBattle] [UsedTooMuchPower]",
+          "desc": "[CantDuel]\nНе наносит урон Мечам забытого рыцаря[TabExplain]\nЗаканчивает ход при попадании по врагу с [WornOutKnight]\n[EndBattle] [UsedTooMuchPower]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Опускает ОЗ Рыцаря отчаяния до (100 - (Значение [CollapsedPride] Рыцаря отчаяния × 33))%"
+                  "desc": "[OnSucceedAttack] Опускает ОЗ цели до (100 - (значение [CollapsedPride] × 33))% от её текущих ОЗ"
                 }
               ]
             }
@@ -149,7 +149,7 @@
         {
           "level": 1,
           "name": "РАБЫНЯ АРКАНЫ",
-          "desc": "[CantDuel]\nНаносит урон только эффектами монет\nНе наносит урон мечам, разящему сердце, разрывающему сердце и пронзающему сердце\nЗаканчивает ход при попадании по врагу с [WornOutKnight] и ОЗ 600 или ниже\n[EndBattle] Получает [UsedTooMuchPower]",
+          "desc": "[CantDuel]\nНаносит урон только эффектами монет\nНе наносит урон мечам, разящим сердце, разрывающим сердце и пронзающим сердце\nЗаканчивает ход при попадании по врагу с [WornOutKnight] и ОЗ 600 или ниже\n[EndBattle] Получает [UsedTooMuchPower]",
           "coinlist": [
             {
               "coindescs": [
@@ -167,7 +167,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Похоже, мне придётся использовать эту силу!",
+          "name": "Похоже, мне придётся использовать тот приём!",
           "desc": "[StartBattle] Получает 1 [ChasingArcanahard]\n[StartBattle] Получает 50 щита\n[StartBattle] Получает 20 [Aggro] на следующий ход",
           "coinlist": [
             {

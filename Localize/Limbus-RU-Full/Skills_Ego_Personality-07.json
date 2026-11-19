@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
+                  "desc": "[OnSucceedAttackHead] Случайным образом выбирает один эффект из следующих: [Combustion], Кровотечение, Тремор, Разрыв или Погружение; на следующий ход накладывает 1 единицу потенциала выбранного эффекта. Повторяет этот процесс 2 + (максимальное число абсолюта Чревоугодия) раза (до 5)"
                 }
               ]
             }
@@ -27,10 +27,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 5)"
+                  "desc": "[OnSucceedAttackHead] Случайным образом выбирает один эффект из следующих: [Combustion], Кровотечение, Тремор, Разрыв или Погружение; на следующий ход накладывает 1 единицу потенциала выбранного эффекта. Повторяет этот процесс 2 + (максимальное число абсолюта Чревоугодия) раза (до 5)"
                 },
                 {
-                  "desc": "[EnemyKill] Даёт 2-м случайным союзникам 1 счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color>, Повышение уровня атаки или Повышение уровня защиты на следующий ход"
+                  "desc": "[EnemyKill] На следующий ход случайным образом выбирает один из эффектов: 1 счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, 1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, 1 повышение уровня атаки или 1 повышение уровня защиты; накладывает его на 2 случайных союзников"
                 }
               ]
             }
@@ -45,7 +45,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Случайным образом выбирает один эффект из следующих: [Combustion], Кровотечение, Тремор, Разрыв или Погружение; на следующий ход накладывает 1 единицу потенциала выбранного эффекта. Повторяет этот процесс 2 + (максимальное число абсолюта Чревоугодия) раза (до 7)"
                 },
                 {
                   "desc": "[EnemyKill] Даёт 2-м случайным союзникам 2 счётчика <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>, счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color>, <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> или <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход"
@@ -68,7 +68,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Случайным образом выбирает один эффект из следующих: [Combustion], Кровотечение, Тремор, Разрыв или Погружение; на следующий ход накладывает 1 единицу потенциала выбранного эффекта. Повторяет этот процесс 2 + (максимальное число абсолюта Чревоугодия) раза (до 7)"
                 }
               ]
             }
@@ -78,12 +78,12 @@
           "level": 3,
           "name": "Праздник",
           "abName": "Сан-дольф",
-          "desc": "[CantIdentify]\nАтакует цели с наибольшей СД\n[BeforeAttack] Цели теряют 10 СД",
+          "desc": "[CantIdentify]\nАтакует цель с наибольшей СД\n[BeforeAttack] Цель теряет 10 СД",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Случайным образом выбирает один эффект из следующих: [Combustion], Кровотечение, Тремор, Разрыв или Погружение; на следующий ход накладывает 1 единицу потенциала выбранного эффекта. Повторяет этот процесс 2 + (максимальное число абсолюта Чревоугодия) раза (до 7)"
                 }
               ]
             }
@@ -98,7 +98,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [Combustion], Кровотечение, Тремор, Разрыв или Погружение на следующий ход. Повторяет эффект 2 + (максимальное число абсолюта Чревоугодия) раза (До 7)"
+                  "desc": "[OnSucceedAttack] Случайным образом выбирает один эффект из следующих: [Combustion], Кровотечение, Тремор, Разрыв или Погружение; на следующий ход накладывает 1 единицу потенциала выбранного эффекта. Повторяет этот процесс 2 + (максимальное число абсолюта Чревоугодия) раза (до 7)"
                 }
               ]
             }
@@ -113,7 +113,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "desc": "[EndSkill] В течение следующих 3 ходов Хитклиф теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -134,7 +134,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
+          "desc": "[EndSkill] В течение следующих 3 ходов Хитклиф теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 1 [Enhancement] на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -158,7 +158,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[EndSkill] В течение последующих 3-х ходов Хитклиф теряет по 10 СД\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheBoundKing] и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход",
+          "desc": "[EndSkill] В течение следующих 3 ходов Хитклиф теряет по 10 СД в конце каждого хода\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheBoundKing] и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -187,7 +187,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color> и 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До 2-ух)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[EndSkill] Даёт в порядке расстановки 2-м союзникам (кроме себя) 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color> и 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До 2-ух)",
           "coinlist": [
             {
               "coindescs": [
@@ -211,7 +211,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 1 <style=\"highlight\">[AzureDamageUp]</style> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">3</style>-ёх)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[EndSkill] Даёт в порядке расстановки 2-м союзникам (кроме себя) 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и 1 <style=\"highlight\">[AzureDamageUp]</style> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">3</style>-ёх)",
           "coinlist": [
             {
               "coindescs": [
@@ -235,7 +235,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[EndSkill] Даёт 2-м союзникам (кроме себя) 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и <style=\"highlight\">2</style> <sprite name=\"AzureDamageUp\"><color=#f8c200><u><link=\"AzureDamageUp\">Повышения урона Унынием</link></u></color> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">4</style>-ёх)",
+          "desc": "[CantIdentify]\nСлучайные цели\n[EndSkill] Получает 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 1 [ForwardToTheKing] и 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[EndSkill] Даёт в порядке расстановки 2-м союзникам (кроме себя) 20 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковываний</link></u></color>, 3 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> и <style=\"highlight\">2</style> <sprite name=\"AzureDamageUp\"><color=#f8c200><u><link=\"AzureDamageUp\">Повышения урона Унынием</link></u></color> на следующий ход\n- Повышает число союзников для эффектов на (наибольшее число резонанса Уныния или Гордыни - 2) (До <style=\"highlight\">4</style>-ёх)",
           "coinlist": [
             {
               "coindescs": [
@@ -279,7 +279,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патроны</link></u></color>, получает 1 [Bullet] (До 2-ух раз)"
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть эффект <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патроны</link></u></color>, получает 1 [Bullet] (До 2-ух раз)"
                 }
               ]
             }
@@ -304,7 +304,7 @@
                   "desc": "[CriticalOnSucceedAttack] Наносит 3 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>"
                 },
                 {
-                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть возможность использовать <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патроны</link></u></color>, получает 1 [Bullet] (До 2-ух раз)"
+                  "desc": "[CriticalTargetKill] Если у этой идентичности Хитклифа есть эффект <sprite name=\"Bullet\"><color=#9f6a3a><u><link=\"Bullet\">Патроны</link></u></color>, получает 1 [Bullet] (До 2-ух раз)"
                 }
               ]
             }
@@ -344,7 +344,7 @@
           "level": 1,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n[BeforeAttack] +2% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)\n[BeforeAttack] Получает [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 3)\n[BeforeAttack] +3% к урону за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе (До 15%)\n[BeforeAttack] Тратит 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе\n[EndSkill] Тратит все [BoseProjektil]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (До 7-и)\n- Если это абсолют, получает (число грехов в наибольшем резонансе + 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n[BeforeAttack] +2% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)\n[BeforeAttack] Получает 1 [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 3)\n[BeforeAttack] +3% к урону за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе (До 15%)\n[BeforeAttack] Тратит 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -359,7 +359,7 @@
           "level": 3,
           "name": "Роковая пуля",
           "abName": "Проклятый стрелок",
-          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (До 7-и)\n- Если это абсолютный резонанс, получает (число грехов в наибольшем резонансе + 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n<style=\"highlight\">[BeforeAttack] При 3 и более <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаниях</link></u></color> вес атаки +1</style>\n[BeforeAttack] +2% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)\n[BeforeAttack] Получает [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">4</style>)\n[BeforeAttack] +<style=\"highlight\">4</style>% к урону за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе (До <style=\"highlight\">20</style>%)\n[BeforeAttack] Тратит 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе\n[EndSkill] Тратит все [BoseProjektil]",
+          "desc": "[CantIdentify]\nСлучайные цели\n[BeforeAttack] Получает (число грехов в наибольшем резонансе + 1) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color> (До 7-и)\n- Если это абсолютный резонанс, получает (число грехов в наибольшем резонансе + 2) <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаний</link></u></color>\n<style=\"highlight\">[BeforeAttack] При 3 и более <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванных воспоминаниях</link></u></color> вес атаки +1</style>\n[BeforeAttack] +2% к урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До 14%)\n[BeforeAttack] Получает 1 [Breath] за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (До <style=\"highlight\">4</style>)\n[BeforeAttack] +<style=\"highlight\">4</style>% к урону за каждые 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе (До <style=\"highlight\">20</style>%)\n[BeforeAttack] Тратит 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на себе\n[EndSkill] Тратит все [BoseProjektil]",
           "coinlist": [
             {
               "coindescs": [
@@ -501,7 +501,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> целей на 1."
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Затем счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели уменьшается на 1."
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> целей на 1.\n- При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color> Хитклиф наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color>\n- Если наибольший резонанс — абсолют из 4 и более Лености, Хитклиф наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color> и на следующий ход"
@@ -532,7 +532,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> целей на 1."
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Затем счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели уменьшается на 1."
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> целей на 1.\n- При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color> Хитклиф наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color>\n- Если наибольший резонанс —  <style=\"highlight\">абсолют Лености</style>, Хитклиф наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color> и на следующий ход"
@@ -563,7 +563,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> целей на 1."
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. Затем счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели уменьшается на 1."
                 },
                 {
                   "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>. После понижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> целей на 1.\n- При <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color> Хитклиф наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color>\n- Если в наибольшем резонансе <style=\"highlight\">3 и более Лености</style>, Хитклиф наносит 2 <sprite name=\"AmberTakeDamageUp\"><color=#e30000><u><link=\"AmberTakeDamageUp\">Уязвимости к Лености</link></u></color> и на следующий ход"
@@ -676,7 +676,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] на 1~<style=\"highlight\">3</style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] на <style=\"highlight\">1~3</style>"
                 }
               ]
             }
@@ -722,7 +722,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] на 1~2"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик [Charge] ещё на 2"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge] на 2"
                 }
               ]
             }
@@ -732,7 +732,7 @@
           "level": 3,
           "name": "Регистрация заселения",
           "abName": "Kqe-1j-23",
-          "desc": "[CantIdentify]\nВ первую очередь атакует цель с наибольшим запасом HP\n[BeforeAttack] Если счётчик [Charge] меньше 10, теряет 10% от максимального HP и получает 10 [Charge]\n(Этот эффект не может убить бойца или вызвать его пошатывание)\n[BeforeAttack] Повышает свой счётчик [Charge] на (наибольший резонанс + <style=\"highlight\">2</style>) (макс. 8)\n- При 5 и более грехах Зависти в резонансе вместо этого повышает свой счётчик [Charge] на 8\n[BeforeAttack] Тратит весь свой счётчик [Charge]. За каждую потраченную единицу [Charge] наносит на 3% больше урона (макс. <style=\"highlight\">55</style>%)",
+          "desc": "[CantIdentify]\nВ первую очередь атакует цель с наибольшим запасом HP\n[BeforeAttack] Если счётчик [Charge] меньше 10, теряет 10% от максимального HP и увеличивает свой счётчик [Charge] на 10\n(Этот эффект не может убить бойца или вызвать его пошатывание)\n[BeforeAttack] Повышает свой счётчик [Charge] на (наибольший резонанс + <style=\"highlight\">2</style>) (макс. 8)\n- При 5 и более грехах Зависти в резонансе вместо этого повышает свой счётчик [Charge] на 8\n[BeforeAttack] Тратит весь свой счётчик [Charge]. За каждую потраченную единицу [Charge] наносит на 3% больше урона (макс. <style=\"highlight\">55</style>%)",
           "coinlist": [
             {
               "coindescs": [
@@ -763,7 +763,7 @@
                   "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] на 1~2"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик [Charge] ещё на 2"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge] на 2"
                 }
               ]
             }
@@ -801,10 +801,10 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [IDMicroChip]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] на 1~<style=\"highlight\">3</style>"
+                  "desc": "[OnSucceedAttack] Повышает свой счётчик [Charge] на <style=\"highlight\">1~3</style>"
                 },
                 {
-                  "desc": "[EnemyKill] Повышает свой счётчик [Charge] ещё на 2"
+                  "desc": "[EnemyKill] Повышает свой счётчик [Charge] на 2"
                 }
               ]
             }

@@ -10,15 +10,15 @@
     },
     {
       "id": "LevelupPersonality",
-      "content": "<color=#ebcaa2>Вы можете усилить идентичности!</color>"
+      "content": "<color=#ebcaa2>Событие: усиление грешника!</color>"
     },
     {
       "id": "GetEgogift",
-      "content": "<color=#ebcaa2>Вы получаете случайный ЭГО-дар!</color>"
+      "content": "<color=#ebcaa2>Событие получения случайного ЭГО-дара!</color>"
     },
     {
       "id": "GetCharacter",
-      "content": "<color=#ebcaa2>Вы можете взять ещё одного грешника в команду!</color>"
+      "content": "<color=#ebcaa2>Событие: вербовка грешника!</color>"
     },
     {
       "id": "LevelupPersonalityOnWinBattle",
@@ -42,7 +42,7 @@
     },
     {
       "id": "StartBattle_Abnormality",
-      "content": "<color=#ff0000>Началась битва с аномалией!</color>"
+      "content": "<color=#ff0000>Начался фокусный бой!</color>"
     },
     {
       "id": "StartBattle_FloorBoss",
@@ -78,7 +78,7 @@
     },
     {
       "id": "RecoverHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>{amount} СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}восстанавливает</color> <color=#00ff9c>{hpAmount} ОЗ</color> <color=#ebcaa2>и</color> <color=#80c9ff>{mpAmount} СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "LoseHpMpSameAmount",
@@ -86,19 +86,19 @@
     },
     {
       "id": "LoseHpMpDifferentAmount",
-      "content": "<color=#ebcaa2>{targets} {conditions}теряет</color> <color=#e30000>{amount} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>{amount} СД</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>{targets} {conditions}теряет</color> <color=#e30000>{hpAmount} ОЗ</color> <color=#ebcaa2>и</color> <color=#fe4b48>{mpAmount} СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "GetConfirmedEgogift",
-      "content": "<color=#ebcaa2>Вы получили {reward}!</color>"
+      "content": "<color=#ebcaa2>Вы получили ЭГО-дар {reward}!</color>"
     },
     {
       "id": "GetConfirmedStackableEgogift",
-      "content": "<color=#ebcaa2>Получен ЭГО Дар 「{reward}」 × {stack}!</color>"
+      "content": "<color=#ebcaa2>Получен ЭГО-дар 「{reward}」 × {stack}!</color>"
     },
     {
       "id": "LoseConfirmedStackableEgogift",
-      "content": "<color=#ebcaa2>Потерян ЭГО Дар 「{reward}」 × {stack}!</color>"
+      "content": "<color=#ebcaa2>Потерян ЭГО-дар 「{reward}」 × {stack}!</color>"
     },
     {
       "id": "GetBuff_OnStageStart",
@@ -118,7 +118,7 @@
     },
     {
       "id": "Choice_90103301",
-      "content": "<color=#f8c200>Скорость +1</color><color=#ebcaa2>в следующей битве.</color>"
+      "content": "<color=#f8c200>Скорость +1</color><color=#ebcaa2>в этом бою.</color>"
     },
     {
       "id": "Choice_901001",
@@ -126,7 +126,7 @@
     },
     {
       "id": "Choice_901007",
-      "content": "<color=#ebcaa2>В начале хода,</color> </color=#ebcaa2>восстанавливает</color> <color=#00ff9c>10 ОЗ</color> и <color=#80c9ff>10 СД.</color>"
+      "content": "<color=#ebcaa2>В начале хода,</color> </color=#ebcaa2>восстанавливает</color> <color=#00ff9c>10 ОЗ</color> и <color=#80c9ff>10 СД.</color> (Не более 3 ходов)"
     },
     {
       "id": "Choice_901009",
@@ -134,7 +134,7 @@
     },
     {
       "id": "Choice_901010",
-      "content": "<color=#ebcaa2>В начале следующей битвы,</color> <color=#ebcaa2>союзники без</color> <color=#bb521f>греха Похоти</color> <color=#ebcaa2>оглушаются.</color> "
+      "content": "<color=#ebcaa2>В начале следующей битвы,</color> <color=#ebcaa2>союзники без</color> <color=#bb521f>навыка атаки с грехом Похоти</color> <color=#ebcaa2>оглушаются.</color>"
     },
     {
       "id": "Choice_901019",
@@ -142,7 +142,7 @@
     },
     {
       "id": "Choice_90103402",
-      "content": "<color=#ebcaa2>В начале этой битвы</color> <color=#f8c200>Скорость +2</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>В течение этой битвы</color> <color=#f8c200>Скорость +2</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_1030301",
@@ -150,7 +150,7 @@
     },
     {
       "id": "Choice_1030501",
-      "content": "<color=#ff0000>На вас напали!</color>\n<color=#ebcaa2>Все противники</color> <color=#ebcaa2>получают</color> <color=#e30000>5 Понижения силы атаки</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ff0000>Начался бой!</color>\n<color=#ebcaa2>Все противники</color> <color=#ebcaa2>получают</color> <color=#e30000>5 Понижения силы атаки</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_1031001",
@@ -206,7 +206,7 @@
     },
     {
       "id": "Choice_90100101",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#a0392b>греха Гнева</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>16 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Идентичности без</color> <color=#a0392b>атакующего навыка греха Гнева</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>16 ОЗ</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_901004",
@@ -214,7 +214,7 @@
     },
     {
       "id": "Choice_90100701",
-      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>грехом Похоти</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color><color=#ebcaa2>.</color>"
+      "content": "<color=#ebcaa2>Идентичности с</color> <color=#bb521f>атакующим навыком греха Похоти</color> </color=#ebcaa2>восстанавливают</color> <color=#80c9ff>СД</color><color=#ebcaa2>.</color>"
     },
     {
       "id": "Choice_901008",
@@ -230,7 +230,7 @@
     },
     {
       "id": "Choice_90101401",
-      "content": "<color=#ebcaa2>Идентичности без</color> <color=#e48801>греха Лености</color> <color=#ebcaa2>теряют</color> <color=#fe4b48>15 ОЗ</color><color=#ebcaa2>!</color>"
+      "content": "<color=#ebcaa2>Идентичности без</color> <color=#e48801>атакующего навыка Лености</color> <color=#ebcaa2>получают</color> <color=#fe4b48>по 12 ед. урона по ОЗ и СД</color><color=#ebcaa2>!</color>"
     },
     {
       "id": "Choice_90101601",
@@ -366,11 +366,11 @@
     },
     {
       "id": "Choice_EGO901009",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Пылающее перо」 & 「Растопленный парафин」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Пылающее перо」 & 「Растопленный парафин」"
     },
     {
       "id": "Choice_EGO901010",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Кровавый гаджет」 & 「Величие」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Кровавый гаджет」 & 「Величие」"
     },
     {
       "id": "Choice_EGO901011",
@@ -378,11 +378,11 @@
     },
     {
       "id": "Choice_EGO901013",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Набор оберегов」 & 「Старая деревянная кукла」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Набор оберегов」 & 「Старая деревянная кукла」"
     },
     {
       "id": "Choice_EGO901014",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Ржавая памятная монета」 & 「Боль подавленного гнева」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Ржавая памятная монета」 & 「Боль подавленного гнева」"
     },
     {
       "id": "Choice_EGO901016",
@@ -390,23 +390,23 @@
     },
     {
       "id": "Choice_EGO901018",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Венец из роз」 & 「Передышка」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Венец из роз」 & 「Передышка」"
     },
     {
       "id": "Choice_EGO901019",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Липкая жижа」 & 「Флакон с ядом」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Липкая жижа」 & 「Флакон с ядом」"
     },
     {
       "id": "Choice_EGO901020",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Белый госсипиум」 & 「Запутанный пучок」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Белый госсипиум」 & 「Запутанный пучок」"
     },
     {
       "id": "Choice_EGO901021",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Голубая зажигалка \"Zippo\"」 & 「Патрульный фонарик」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Голубая зажигалка \"Zippo\"」 & 「Патрульный фонарик」"
     },
     {
       "id": "Choice_EGO901024",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Тающий глаз」 & 「Ядовитая кожа」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Тающий глаз」 & 「Ядовитая кожа」"
     },
     {
       "id": "Choice_EGO901031",
@@ -414,19 +414,19 @@
     },
     {
       "id": "Choice_EGO901033",
-      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Обычная служебная батарея» и «Разблокированный дефибриллятор»"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары «Стандартная рабочая батарея» и «Разблокированный дефибриллятор»"
     },
     {
       "id": "Choice_EGO901034",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Точная логическая плата」 & 「Система ИБП」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Точная логическая плата」 & 「Система ИБП」"
     },
     {
       "id": "Choice_EGO901056",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Четырёхлистный клевер」 & 「Изумрудная элитра」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Четырёхлистный клевер」 & 「Изумрудная элитра」"
     },
     {
       "id": "Choice_EGO901059",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Кошмар посреди зимы」 & 「Ловушка из старого древа」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Кошмар посреди зимы」 & 「Ловушка из старого древа」"
     },
     {
       "id": "Choice_EGO901073",
@@ -434,19 +434,19 @@
     },
     {
       "id": "Choice_EGO971029",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дары 「Пространственный Кинжал типа E」 & 「Портативная защитная батарея」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дары 「Пространственный Кинжал типа E」 & 「Портативная батарея силового поля」"
     },
     {
       "id": "GetImmediateConfirmedEgogifts",
-      "content": "<color=#ebcaa2>Вы получили {reward}!</color>"
+      "content": "<color=#ebcaa2>Вы получили ЭГО-дар {reward}!</color>"
     },
     {
       "id": "Choice_EGO901101",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дар 「Миниатюрный телефонный столб」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дар 「Миниатюрный телефонный столб」"
     },
     {
       "id": "Choice_EGO901104",
-      "content": "Одержите победу в битве, чтобы получить ЭГО Дар 「Порванный кровяной мешок」"
+      "content": "Одержите победу в битве, чтобы получить ЭГО-дар 「Порванный кровяной мешок」"
     },
     {
       "id": "Choice_EGO971054",

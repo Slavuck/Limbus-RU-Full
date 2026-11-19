@@ -24,7 +24,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Измельчение сухожилия",
+          "name": "Разрез сухожилия",
           "desc": "[WhenUse] Сила монет +1 против более медленных целей\n[WhenUse] Базовая сила +1 против целей с 3 и более [Laceration]",
           "coinlist": [
             {
@@ -54,7 +54,7 @@
         {
           "level": 1,
           "name": "Беспорядочная атака",
-          "desc": "[WhenUse] Сила монет +1 при скорости 7 и выше\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]\n[WinDuel] Наносит на 5% больше урона за каждое комбо в столкновении (До 50%)\n[WinDuel] Повышает счётчик [Laceration] цели на 3",
+          "desc": "[WhenUse] Сила монет +1 при скорости 7 и выше\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]\n[WinDuel] Урон увеличивается пропорционально числу столкновений (+5% за каждое, макс. 50%)\n[WinDuel] Повышает счётчик [Laceration] цели на 3",
           "coinlist": [
             {
               "coindescs": [
@@ -290,7 +290,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает свою границу выносливости на 5"
+                  "desc": "[OnSucceedAttack] Понижает свой порог оглушения на 5"
                 }
               ]
             },
@@ -354,7 +354,7 @@
                   "desc": "[OnSucceedAttack] Восстанавливает себе 8 ОЗ"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешницы на 8"
+                  "desc": "[OnSucceedAttack] Понижает свой порог оглушения на 8"
                 },
                 {
                   "desc": "[OnSucceedAttack] Активирует [Laceration] на цели и понижает счётчик [Laceration] на 1"
@@ -389,7 +389,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Измельчение мышц",
+          "name": "Рассечение мышц",
           "desc": "[WhenUse] Сила монет +1 против более медленных целей\n[WhenUse] Базовая сила +1 против целей с 3 и более [Laceration]",
           "coinlist": [
             {
@@ -419,7 +419,7 @@
         {
           "level": 1,
           "name": "Неизбирательное нападение",
-          "desc": "[WhenUse] Сила монет +1 при скорости 7 и выше\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]\n[WinDuel] Наносит на 5% больше урона за каждое комбо в столкновении (До 50%)\n[WinDuel] Наносит 5 [Laceration]",
+          "desc": "[WhenUse] Сила монет +1 при скорости 7 и выше\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]\n[WinDuel] Наносит на 5% больше урона за каждое столкновение (до 50%)\n[WinDuel] Наносит 5 [Laceration]",
           "coinlist": [
             {
               "coindescs": [
@@ -556,13 +556,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Поражающий удар",
+          "name": "Первый удар",
           "desc": "[WhenUse] Сила в столкновении +1 против целей с 3 и более [Burst]",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышет счётчик [Burst] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
                 }
               ]
             }
@@ -607,13 +607,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Удар пера",
-          "desc": "Если быстрее цели, +1 к Силе монет за каждые 2 единицы разницы в скорости (До 3)\n[WhenUse] Сила монет +1 против целей с 4 и более [Burst]\n[WinDuel] Повышет счётчик [Burst] на 3",
+          "name": "Быстрый удар",
+          "desc": "Если быстрее цели, +1 к Силе монет за каждые 2 единицы разницы в скорости (До 3)\n[WhenUse] Сила монет +1 против целей с 4 и более [Burst]\n[WinDuel] Повышает счётчик [Burst] на 3",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышет счётчик [Burst] на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 1"
                 }
               ]
             },
@@ -681,13 +681,13 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Сотрясение",
+          "name": "Подавление",
           "desc": "",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышет счётчик [Burst] на 2"
+                  "desc": "[OnSucceedAttack] Повышает счётчик [Burst] на 2"
                 }
               ]
             },
@@ -880,7 +880,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20"
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения цели на 20"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по ОЗ"
@@ -890,7 +890,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Поднимает границу выносливости цели на 20"
+                  "desc": "[OnSucceedAttack] Повышает порог оглушения цели на 20"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 15 фиксированного урона по ОЗ"

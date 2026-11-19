@@ -12,7 +12,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[EndSkill] Даёт 1 \"Повышение урона\" греха с наибольшим резонансом 2-м союзникам с наименьшей СД"
@@ -33,7 +33,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[EndSkill] Даёт 1 \"Повышение урона\" греха с наибольшим резонансом 3-м союзникам с наименьшей СД"
@@ -54,7 +54,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[EndSkill] Даёт 1 \"Повышение урона\" греха с наибольшим резонансом 4-м союзникам с наименьшей СД"
@@ -83,7 +83,7 @@
                   "desc": "[OnSucceedAttack] Цели теряют 10 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 1 \"Уязвимость\" к греху с наибольшим резонансом"
@@ -104,7 +104,7 @@
                   "desc": "[OnSucceedAttack] Цели теряют 10 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttackTail] Наносит 2 \"Уязвимости\" к греху с наибольшим резонансом"
@@ -128,7 +128,7 @@
                   "desc": "[OnSucceedAttack] Цели теряют 10 СД"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 \"Уязвимости\" к греху с наибольшим резонансом"
@@ -149,7 +149,7 @@
           "level": 1,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\n[EndSkill] В течение последующих 3-х ходов Отис теряет по 10 СД",
+          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2) (макс. 2)\n[EndSkill] В течение последующих 3 ходов Отис теряет по 10 СД в конце каждого хода",
           "coinlist": [
             {
               "coindescs": [
@@ -160,7 +160,7 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Амплитуда Тремора преобразуется</link></u></color> в [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 }
               ]
             }
@@ -170,7 +170,7 @@
           "level": 3,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3-х ходов теряет по 9 СД за ход",
+          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2) (макс. 2)\nУрон выносливости +50% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3 ходов теряет 9 СД в конце каждого хода",
           "coinlist": [
             {
               "coindescs": [
@@ -191,7 +191,7 @@
           "level": 4,
           "name": "Узы",
           "abName": "Связанный король",
-          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2)\nУрон выносливости +100% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3-х ходов теряет по 8 СД за ход",
+          "desc": "[BeforeAttack] Тяжесть атаки +(Число грехов в наибольшем резонансе Гордыни или Лености - 2) (макс. 2)\nУрон выносливости +100% при <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провокации Тремора</link></u></color>\n[EndSkill] В течение следующих 3 ходов теряет 8 СД в конце каждого хода",
           "coinlist": [
             {
               "coindescs": [
@@ -202,7 +202,7 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Амплитуда Тремора преобразуется</link></u></color> в [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 }
               ]
             }
@@ -255,10 +255,10 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Амплитуда Тремора преобразуется</link></u></color> в [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -282,13 +282,13 @@
                   "desc": "[OnSucceedAttack] <sprite name=\"Switch_Vibration\"><color=#9f6a3a><u><link=\"Switch_Vibration\">Амплитуда Тремора преобразуется</link></u></color> в [VibrationCrack]"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color>"
+                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttackTail] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Взрыв Тремора</link></u></color><style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провокация Тремора</link></u></color><style=\"highlight\"></style>"
                 }
               ]
             }
@@ -444,10 +444,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает [Combustion] в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
                 }
               ]
             }
@@ -462,10 +462,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает [Combustion] в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
                 }
               ]
             }
@@ -480,10 +480,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает [Combustion] в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
                 }
               ]
             }
@@ -503,10 +503,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает [Combustion] в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
+                  "desc": "[OnSucceedAttack] Накладывает <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)"
                 }
               ]
             }
@@ -521,13 +521,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает [Combustion] в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на (число <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> ÷ <style=\"highlight\">3</style>) (десятичные опускаются)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -542,13 +542,13 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит [Combustion] пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
+                  "desc": "[OnSucceedAttack] Накладывает [Combustion] в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> на (число <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> ÷ <style=\"highlight\">2</style>) (десятичные опускаются)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> пропорционально числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"DarkFlame\"><color=#e30000><u><link=\"DarkFlame\">Тёмное пламя</link></u></color> в количестве, равном числу <sprite name=\"FreischutzShotCount\"><color=#9f6a3a><u><link=\"FreischutzShotCount\">Магических пуль</link></u></color> (Раз за ход для каждого противника)<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -562,7 +562,7 @@
         {
           "level": 1,
           "name": "Я выберу ножницы. А ты?",
-          "abName": "Ты будешь играть?",
+          "abName": "Поиграешь со мной?",
           "desc": "Активируемые [UnBrokenCoinOnSucceedAttack] эффекты не срабатывают при односторонней атаке \n[WinDuel] Поглощает (Число грехов в резонансе Зависти) ЭГО Ресурсов Зависти, и за каждый поглощённый ЭГО Ресурс добавляет по 1 ЭГО Ресурсу к наименее имеющимся грехам (Поглощает до 4 ЭГО Ресурсов Зависти)\n[DefeatDuel] Итоговая сила -4\n Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До 20)",
           "coinlist": [
             {
@@ -587,7 +587,7 @@
         {
           "level": 3,
           "name": "Я выберу ножницы. А ты?",
-          "abName": "Ты будешь играть?",
+          "abName": "Поиграешь со мной?",
           "desc": "Активируемые [UnBrokenCoinOnSucceedAttack] эффекты не срабатывают при односторонней атаке \n[WinDuel] Поглощает (Число грехов в резонансе Зависти) ЭГО Ресурсов Зависти, и за каждый поглощённый ЭГО Ресурс добавляет по 1 ЭГО Ресурсу к наименее имеющимся грехам (Поглощает до 5 ЭГО Ресурсов Зависти)\n[DefeatDuel] Итоговая сила -4\n Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До 25)",
           "coinlist": [
             {
@@ -615,7 +615,7 @@
         {
           "level": 4,
           "name": "Я выберу ножницы. А ты?",
-          "abName": "Ты будешь играть?",
+          "abName": "Поиграешь со мной?",
           "desc": "Активируемые [UnBrokenCoinOnSucceedAttack] эффекты не срабатывают при односторонней атаке \n[WinDuel] Поглощает (Число грехов в резонансе Зависти) ЭГО Ресурсов Зависти, и за каждый поглощённый ЭГО Ресурс добавляет по 1 ЭГО Ресурсу к наименее имеющимся грехам (Поглощает до 6 ЭГО Ресурсов Зависти)\n[DefeatDuel] Итоговая сила -4\n Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До 30)",
           "coinlist": [
             {
@@ -648,7 +648,7 @@
         {
           "level": 1,
           "name": "Я выберу ножницы. А ты?",
-          "abName": "Ты будешь играть?",
+          "abName": "Поиграешь со мной?",
           "desc": "[CantIdentify]\nСлучайная цель\nИтоговая сила +1 при 2 и более грехах в резонансе Зависти\n[WinDuel] Тяжесть атаки +1 за каждые 2 греха в резонансе Зависти (макс. 2)\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До 20)\n[DefeatDuel] Наносит на 1 [NiddleEGO] и [NailPersonality] больше при попаданиях",
           "coinlist": [
             {
@@ -683,7 +683,7 @@
         {
           "level": 3,
           "name": "Я выберу ножницы. А ты?",
-          "abName": "Ты будешь играть?",
+          "abName": "Поиграешь со мной?",
           "desc": "[CantIdentify]\nСлучайная цель\nИтоговая сила +1 <style=\"highlight\">за каждые 2</style> греха в резонансе Зависти <style=\"highlight\">(До 2)</style>\n[WinDuel] Количество целей +1 за каждые 2 греха в резонансе Зависти (До 2 дополнительных целей)\n[DefeatDuel] Получает (Число грехов в резонансе Зависти × 5) ОЗ Щита (До <style=\"highlight\">25</style>)\n[DefeatDuel] Наносит на 1 [NiddleEGO], [Curse] и [NailPersonality] больше при попаданиях",
           "coinlist": [
             {
@@ -721,7 +721,7 @@
         {
           "level": 4,
           "name": "Я выберу ножницы. А ты?",
-          "abName": "Ты будешь играть?",
+          "abName": "Поиграешь со мной?",
           "desc": "[CantIdentify]\nСлучайная цель\nИтоговая сила +1 за каждые 2 греха в резонансе Зависти (макс. <style=\"highlight\">3</style>)\n[WinDuel] Тяжесть атаки +1 за каждые 2 греха в резонансе Зависти (макс. 2)\n[DefeatDuel] Получает щит в размере (число грехов в резонансе Зависти × 5) (макс. <style=\"highlight\">30</style>)\n[DefeatDuel] Этот навык накладывает на 1 [NiddleEGO], [Curse] и [NailPersonality] больше<style=\"highlight\"></style>",
           "coinlist": [
             {

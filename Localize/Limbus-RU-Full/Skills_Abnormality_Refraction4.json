@@ -30,14 +30,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             }
@@ -51,7 +51,7 @@
         {
           "level": 1,
           "name": "Кто же вы такой?",
-          "desc": "Нацеливается в первую очередь на [UninvitedGuest]\nЕсли цель является [UninvitedGuest], увеличивает наносимые этой атакой силу и счётчик [Sinking] на 1",
+          "desc": "В первую очередь атакует цель с [UninvitedGuest]\nЕсли у цели есть [UninvitedGuest], увеличивает на 1 силу и счётчик [Sinking], накладываемые этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -70,17 +70,17 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest], наносит 2 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если у цели есть [UninvitedGuest], накладывает 2 [Paralysis] на следующий ход"
                 }
               ]
             }
@@ -94,7 +94,7 @@
         {
           "level": 1,
           "name": "Так вы незваный гость?",
-          "desc": "Нацеливается в первую очередь на [UninvitedGuest]\nЕсли цель является [UninvitedGuest], увеличивает наносимые этой атакой силу и счётчик [Sinking] на 1",
+          "desc": "В первую очередь атакует цель с [UninvitedGuest]\nЕсли у цели есть [UninvitedGuest], увеличивает на 1 силу и счётчик [Sinking], накладываемые этим навыком",
           "coinlist": [
             {
               "coindescs": [
@@ -112,7 +112,7 @@
                   "desc": "[OnSucceedAttack] Наносит 5 [Sinking]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Если цель является [UninvitedGuest], наносит 2 [Paralysis] на следующий ход"
+                  "desc": "[OnSucceedAttack] Если у цели есть [UninvitedGuest], накладывает 2 [Paralysis] на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] Повышает счётчик [Sinking] на 2"
@@ -182,7 +182,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             }
@@ -258,14 +258,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Нанести 1 [AttackDown] следующий ход"
+                  "desc": "[OnSucceedAttack] Наложить 1 [AttackDown] в следующем ходу"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Нанести 2 [AttackDown] следующий ход"
+                  "desc": "[OnSucceedAttack] Наложить 2 [AttackDown] в следующем ходу"
                 }
               ]
             }
@@ -376,7 +376,7 @@
         {
           "level": 1,
           "name": "Отказ от заземления",
-          "desc": "Выбирает цели с [AntiSheepGround]\nСила в столкновении +1 за каждое [ConnectedPlug]\n[StartBattle] Получает (2 × (3 - количество [ConnectedPlug]))[Protection]\n[WhenUse] Повышает свой счётчик [Charge] на 1\n[DefeatDuel] Если у цели есть [AntiSheepGround], получает 1 [ConnectedPlug]",
+          "desc": "В первую очередь атакует цели с [AntiSheepGround]\nСила в столкновении +1 за каждое [ConnectedPlug]\n[StartBattle] Получает (2 × (3 - количество [ConnectedPlug]))[Protection]\n[WhenUse] Повышает свой счётчик [Charge] на 1\n[DefeatDuel] Если у цели есть [AntiSheepGround], получает 1 [ConnectedPlug]",
           "coinlist": [
             {
               "coindescs": [
@@ -459,14 +459,14 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             },
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 3 [Sinking]"
+                  "desc": "[OnSucceedAttack] Накладывает 3 [Sinking]"
                 }
               ]
             }

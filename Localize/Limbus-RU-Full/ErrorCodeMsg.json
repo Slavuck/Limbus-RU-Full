@@ -2,7 +2,7 @@
   "dataList": [
     {
       "id": "servererror_content",
-      "content": "Произошла серверная ошибка.\nПопробуйте снова."
+      "content": "Произошла серверная ошибка.\nПопробуйте снова через некоторое время."
     },
     {
       "id": "serverstate_blocking_endpoint",
@@ -22,7 +22,7 @@
     },
     {
       "id": "serverstate_openpreparation",
-      "content": "Технические работы ещё идут.\nЗагляните позже!"
+      "content": "Подготовка к открытию."
     },
     {
       "id": "serverstate_verify_invaliduser",
@@ -42,7 +42,7 @@
     },
     {
       "id": "serverstate_verify_invaliduuid",
-      "content": "Запрос обработан.\nПожалуйста, перезапустите игру для синхронизации."
+      "content": "Запрос уже обработан.\nПожалуйста, перезапустите игру для синхронизации."
     },
     {
       "id": "serverstate_error_thirdparty_api",
@@ -54,7 +54,7 @@
     },
     {
       "id": "servererror_remain_restore_purchasing",
-      "content": "Вы не завершили предыдущую покупку.\nНажмите кнопку 「Восстановить покупки」 и попытайтесь снова."
+      "content": "Всё ещё выполняется транзакция.\nНажмите кнопку 「Восстановить покупки」 и попытайтесь снова."
     },
     {
       "id": "servererror_invalid_battle_version",
@@ -74,7 +74,7 @@
     },
     {
       "id": "servererror_egogift_not_exist",
-      "content": "Не удалось синхронизировать текущий список даров ЭГО.\nЗадача не может быть выполнена."
+      "content": "Не удалось синхронизировать текущий список ЭГО-даров.\nЗадача не может быть выполнена."
     },
     {
       "id": "servererror_already_entered_stage",

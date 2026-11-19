@@ -7,6 +7,9 @@
 Supply --baseline-dir to include changed and deleted source strings.
 Run the recursive audit and write patch_findings.json alongside the detailed
 reports. The command exits nonzero if the underlying audit finds blockers.
+An optional reviewed_korean_only.json in the report or baseline directory
+records additional RU array entries confirmed by KR. Decisions apply only
+when both complete objects match the recorded values.
 """
 
 import argparse

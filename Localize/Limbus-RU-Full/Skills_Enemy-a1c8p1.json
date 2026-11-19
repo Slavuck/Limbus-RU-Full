@@ -5,7 +5,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Удар в болевую точку",
+          "name": "Пронзающий удар в болевую точку",
           "desc": "",
           "coinlist": [
             {
@@ -205,7 +205,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 [AttackDown] на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 1 [AttackDown] на следующий ход"
                 }
               ]
             }
@@ -628,7 +628,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Дикое рыскание",
+          "name": "Дикое копание",
           "desc": "[WhenUse] Сила монет +1 против целей с 4 и более [Burst]",
           "coinlist": [
             {
@@ -1249,7 +1249,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Техника быстрого опохмеления",
+          "name": "Техника залпового пития",
           "desc": "[WhenUse] Базовая сила +1 за каждые 5 [Laceration] на цели (До 2)\n[WhenUse] Получает 1 [SipOfAlcohol]",
           "coinlist": [
             {
@@ -1398,8 +1398,8 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Опьянённое размышление",
-          "desc": "[WhenUse] Получает 5 ОЗ Щита за каждый [SipOfAlcohol] (До 25)\n[WhenUse] Получает [SipOfAlcohol] в количестве навыков противников, целью которых является (До 5)",
+          "name": "Пьяное прислонение",
+          "desc": "[WhenUse] Получает 5 ОЗ Щита за каждый [SipOfAlcohol] на себе (до 25)\n[WhenUse] Получает [SipOfAlcohol] в количестве навыков, нацеленных на него (до 5)",
           "coinlist": [
             {
               "coindescs": [

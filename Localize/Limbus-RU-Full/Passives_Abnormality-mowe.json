@@ -3,12 +3,12 @@
     {
       "id": 835001,
       "name": "Запас крови",
-      "desc": "В начале хода проверяет [KeptBlood].\n- При 5 и менее единиц <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color>, получает по 1 [Binding], 1 [Vulnerable] и 1 [AttackDown] за каждую единицу потерянной <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> на следующий ход.\n- Если же <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> больше 5 единиц, каждый ход получает по 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышениям уровня атаки</link></u></color> и 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениям уровня защиты</link></u></color> за каждую единицу <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> после 5-и."
+      "desc": "В конце хода, в зависимости от количества [KeptBlood]:\n- При 5 и менее единиц <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color>, получает по 1 [Binding], 1 [Vulnerable] и 1 [AttackDown] за каждую единицу потерянной <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> на следующий ход.\n- Если же <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> больше 5 единиц, на следующий ход получает по 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышениям уровня атаки</link></u></color> и 2 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышениям уровня защиты</link></u></color> за каждую единицу <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Крови</link></u></color> после 5-и."
     },
     {
       "id": 835002,
       "name": "Надобно сохранять кровь",
-      "desc": "При достижении <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Запаса крови</link></u></color> 0 меняет модель поведения.\nПри использовании навыка 「Я же... принц... сего шествия!..」скорость Кассетти фиксируется на 10."
+      "desc": "При первом достижении <sprite name=\"KeptBlood\"><color=#f8c200><u><link=\"KeptBlood\">Запаса крови</link></u></color> 0 меняет модель поведения.\nПри использовании навыка 「Я же... принц... сего шествия!..」скорость Кассетти фиксируется на 10."
     },
     {
       "id": 835003,
@@ -22,8 +22,8 @@
     },
     {
       "id": 835005,
-      "name": "Гематофаг — Свёртка",
-      "desc": "При получении <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>:\n- Получает 1 Повышение уровня атаки и 1 Повышение уровня защиты за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 10-и);\n- Получает 1 Повышение силы парирований за каждые 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 5);\n- Получает на 50% меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (Десятичные опускаются)."
+      "name": "Гематофаг — Затвердевание",
+      "desc": "При наличии у него <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>:\n- Получает 1 Повышение уровня атаки и 1 Повышение уровня защиты за каждые 5 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 10-и);\n- Получает 1 Повышение силы парирований за каждые 10 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (До 5);\n- Получает на 50% меньше урона от <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> (Десятичные опускаются)."
     },
     {
       "id": 9014501,
@@ -33,7 +33,7 @@
     {
       "id": 9014502,
       "name": "Жажда крови",
-      "desc": "Выбирает целью противников с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\nЕсли кровесосуд не получил урона в течение хода, получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход."
+      "desc": "Выбирает целью противников с <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечением</link></u></color>.\nЕсли кровесосуд не нанёс урона в течение хода, получает 2 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color> и 2 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> на следующий ход."
     },
     {
       "id": 9014503,
@@ -48,7 +48,7 @@
     {
       "id": 9014802,
       "name": "Утечка энергии",
-      "desc": "Если противник во время атаки повысил свой [Charge], переносит 1 единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> с себя атакующему. \n(Раз за навык, активируется только при наличии <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>)"
+      "desc": "При получении удара от навыка противника, который даёт [Charge], переносит 1 единицу счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> с себя атакующему. \n(Раз за навык, активируется только при наличии <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> у получившего удар)"
     },
     {
       "id": 9015101,

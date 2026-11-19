@@ -117,7 +117,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [Switch_Vibration] в [VibrationIgnition]."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Switch_Vibration] с преобразованием в [VibrationIgnition]."
                 }
               ]
             },
@@ -145,7 +145,7 @@
           "level": 1,
           "name": "На заре",
           "desc": "[WhenUse] Наносит +20% урона за каждую цель (макс. 60%).\n[DefeatDuel]\n- Наносит на 80% меньше урона.\n- Урон этого навыка не может ошеломить цель.\n[EndSkill] Восстанавливает (суммарная сила [Combustion] на всех целях × 2)% ОЗ (макс. 30%).\n[EndSkill] Расходует все [DawnOfficeStigmaSOne] и [Combustion] на себе.",
-          "flavor": "На одном из бесчисленных полей Дымной войны этот приём расплавил и рассёк последнюю пару крыльев некоего решающего оружия вместе с самим пространством вокруг него, возвестив конец зари.\n\n«Ха… Чуть не убило…!»\n«Госпожа, как думаете… сможете добить эту тварь?»",
+          "flavor": "На одном из бесчисленных полей Дымной войны этот приём расплавил и рассёк последнюю пару крыльев некоего решающего оружия вместе с самим пространством вокруг него, возвестив конец зари.\n\n«Ха… Чуть не убило…!»\n«Эй. Сможешь… прикончить ту тварь?»",
           "coinlist": [
             {
               "coindescs": [
@@ -159,7 +159,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 5 [Vibration]."
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [Switch_Vibration] в [VibrationIgnition]."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Switch_Vibration] с преобразованием в [VibrationIgnition]."
                 }
               ]
             },
@@ -316,7 +316,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Вызывает [Switch_Vibration] в [VibrationIgnition]."
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Switch_Vibration] с преобразованием в [VibrationIgnition]."
                 }
               ]
             },
@@ -416,7 +416,7 @@
         {
           "level": 1,
           "name": "Заклеймить",
-          "desc": "<color=#ff6000><mark color=#ff000040><b><u>При получении удара повторяет навык за каждые 10 [DawnOfficeStigmaYOne], имевшиеся в начале хода (макс. 2 раза).</color></mark></b></u>\n[StartBattle] Итоговая сила +1 за каждые 2 [DawnOfficeStigmaYOne] (макс. 5).\n[StartBattle] Получает [DefenseUp] по числу противников с [Combustion].\n[WhenUse] Накладывает на 1 больше отрицательного эффекта за каждые 10 [DawnOfficeStigmaYOne] на себе.",
+          "desc": "<color=#ff6000><mark color=#ff000040><b><u>При получении удара повторяет навык за каждые 10 [DawnOfficeStigmaYOne], имевшиеся на себе в начале хода (макс. 2 раза).</color></mark></b></u>\n[StartBattle] Итоговая сила +1 за каждые 2 [DawnOfficeStigmaYOne] (макс. 5).\n[StartBattle] Получает [DefenseUp] по числу противников с [Combustion].\n[WhenUse] Накладывает на 1 больше отрицательного эффекта за каждые 10 [DawnOfficeStigmaYOne] на себе.",
           "coinlist": [
             {
               "coindescs": [
@@ -571,7 +571,7 @@
         {
           "level": 1,
           "name": "Уклонение",
-          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Combustion] на цели (макс. 3).\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] Восстанавливает 15% ОЗ.</color></mark></b></u>",
+          "desc": "[WhenUse] Итоговая сила +1 за каждые 4 [Combustion] на цели (макс. 3).\n<color=#ff6000><mark color=#ff000040><b><u>[OnSucceedEvade] Восстанавливает 15% от своего максимального ОЗ.</color></mark></b></u>",
           "coinlist": [
             {}
           ]
@@ -901,7 +901,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Я пронзу тебя одним махом",
+          "name": "Я пронзу тебя быстро и точно",
           "desc": "Сила столкновения +1 за каждый [WalpuTenWedgeMarkSilver] на цели (макс. 5).\n[WhenUse] При сумме (сила [Breath] на себе + сила [Vibration] на цели) 6 или больше сила монет +1.\n[WhenUse] Получает 2 [Breath].\n[WhenUse] Превращает все монеты в [SuperCoin].\n[WhenUse] <color=#ff6000><mark color=#ff000040><b><u>[ComboSkill]: корректировщик Офиса Клина[TabExplain] Памела</color></mark></b></u> (1 раз за ход).\n- Получает 1 [WalpuTenBattleFieldKnow].\n- Наносит +30% урона.\n[EndSkill] Расходует все [WalpuTenWedgeMarkSilver] на цели.",
           "coinlist": [
             {
@@ -1251,7 +1251,7 @@
                   "desc": "[OnSucceedAttack] Накладывает 4 [Combustion]."
                 },
                 {
-                  "desc": "[OnSucceedAttackHead] Повторяет эту монету (2 раза за навык)."
+                  "desc": "[OnSucceedAttackHead] Повторяет эту монету (не более 2 раз за навык)."
                 },
                 {
                   "desc": "[ReUseOnSucceedAttack] Накладывает +2 к счётчику [Combustion]."

@@ -116,7 +116,7 @@
         {
           "level": 4,
           "name": "Цепи верности",
-          "desc": "[StartBattle] Даёт 1 Повышение силы Зависти грешникам, чьи навыки находятся на панели управления по бокам.\nЕсли навык сбоку имеет грех Зависти, также даёт 1 Повышение урона Завистью.",
+          "desc": "[StartBattle] Даёт 1 Повышение силы Зависти двум союзникам по бокам от владельца на панели управления.\nПри выборе навыка Зависти из затронутого слота дополнительно даёт 1 Повышение урона Завистью.",
           "coinlist": [
             {
               "coindescs": [
@@ -141,7 +141,7 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Запись",
+          "name": "Гравировка",
           "desc": "Сила монет +1 при резонансе Зависти, равном 4 и больше",
           "coinlist": [
             {
@@ -167,7 +167,7 @@
         },
         {
           "level": 4,
-          "name": "Запись",
+          "name": "Гравировка",
           "desc": "Сила монет +1 при резонансе Зависти, равном 4 и больше\nСила монет +1 при резонансе Зависти, равном 6 и больше",
           "coinlist": [
             {
@@ -267,7 +267,7 @@
         {
           "level": 2,
           "name": "Обнажение меча",
-          "desc": "<style=\"highlight\">[StartBattle] Даёт 1 Меч родины: Учение силы нескольким (наибольшего числа Абсолюта) союзникам из «Верных клинком» в зависимости от их скорости (по возрастающей) (До 2-х раз)</style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "<style=\"highlight\">[StartBattle] Даёт 1 Меч родины: Учение силы союзникам из «Верных клинком» (число союзников определяется максимальным числом Абсолютного резонанса) в порядке возрастания скорости (до 2 раз)</style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -288,7 +288,7 @@
         {
           "level": 3,
           "name": "Обнажение меча",
-          "desc": "[StartBattle_Force] <color=#EBCAA2>Даёт 1 Меч родины: Учение силы нескольким (наибольшего числа Абсолюта) союзникам из «Верных клинком» в зависимости от их скорости (по возрастающей) (До 2-х раз)</color>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "[StartBattle_Force] <color=#EBCAA2>Даёт 1 Меч родины: Учение силы союзникам из «Верных клинком» (число союзников определяется максимальным числом Абсолютного резонанса) в порядке возрастания скорости (до 2 раз)</color>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -309,7 +309,7 @@
         {
           "level": 4,
           "name": "Обнажение меча",
-          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color></style>\n[StartBattle] Даёт 1 Меч родины: Учение силы нескольким (наибольшего числа Абсолюта) союзникам из «Верных клинком» в зависимости от их скорости (по возрастающей) (До 2-х раз)\n<style=\"highlight\">- Если в команде 6 и более членов «Верных клинком», вместо 1 даёт 2 <sprite name=\"BladeResultUpTier1\"><color=#f8c200><u><link=\"BladeResultUpTier1\">Меча родины: Учения силы</link></u></color></style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
+          "desc": "<style=\"highlight\">Сила монет +1 при 5 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color></style>\n[StartBattle] Даёт 1 Меч родины: Учение силы союзникам из «Верных клинком» (число союзников определяется максимальным числом Абсолютного резонанса) в порядке возрастания скорости (до 2 раз)\n<style=\"highlight\">- Если в команде 6 и более членов «Верных клинком», вместо 1 даёт 2 <sprite name=\"BladeResultUpTier1\"><color=#f8c200><u><link=\"BladeResultUpTier1\">Меча родины: Учения силы</link></u></color></style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -357,7 +357,7 @@
         {
           "level": 2,
           "name": "Иглоукалывание",
-          "desc": "<style=\"highlight\">[StartBattle] Даёт 1 Меч родины: Учение пронзания нескольким (наибольшего числа Абсолюта) союзникам из «Верных клинком» в зависимости от их скорости (по возрастающей) (До 2-х раз)</style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2\n[WinDuel] Получает 1 Повышение силы рубящей атаки на следующий ход",
+          "desc": "<style=\"highlight\">[StartBattle] Даёт 1 Меч родины: Учение пронзания союзникам из «Верных клинком» (кроме себя) в количестве, равном максимальному числу Абсолютного резонанса, в порядке возрастания скорости (от самой низкой к самой высокой) (До 2-х раз)</style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2\n[WinDuel] Получает 1 Повышение силы рубящей атаки на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -379,7 +379,7 @@
         {
           "level": 3,
           "name": "Иглоукалывание",
-          "desc": "[StartBattle_Force] <color=#EBCAA2>Даёт 1 Меч родины: Учение пронзания нескольким (наибольшего числа Абсолюта) союзникам из «Верных клинком» в зависимости от их скорости (по возрастающей) (До 2-х раз)</color>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2\n[WinDuel] Получает 1 Повышение силы рубящей атаки на следующий ход",
+          "desc": "[StartBattle_Force] <color=#EBCAA2>Даёт 1 Меч родины: Учение пронзания союзникам из «Верных клинком» (кроме себя) в количестве, равном максимальному числу Абсолютного резонанса, в порядке возрастания скорости (от самой низкой к самой высокой) (До 2-х раз)</color>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 2\n[WinDuel] Получает 1 Повышение силы рубящей атаки на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -401,7 +401,7 @@
         {
           "level": 4,
           "name": "Иглоукалывание",
-          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color></style>\n[StartBattle] Даёт 1 Меч родины: Учение пронзания нескольким (наибольшего числа Абсолюта) союзникам из «Верных клинком» в зависимости от их скорости (по возрастающей) (До 2-х раз)\n<style=\"highlight\">- Если в команде 6 и более членов «Верных клинком», вместо 1 даёт 2 <sprite name=\"BladeResultUpTier2\"><color=#f8c200><u><link=\"BladeResultUpTier2\">Меча родины: Учения пронзания</link></u></color></style></style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3\n[WinDuel] Получает 1 Повышение силы рубящей атаки на следующий ход",
+          "desc": "<style=\"highlight\">Сила монет +1 при 7 и более <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color></style>\n[StartBattle] Даёт 1 Меч родины: Учение пронзания союзникам из «Верных клинком» (кроме себя) в количестве, равном максимальному числу Абсолютного резонанса, в порядке возрастания скорости (от самой низкой к самой высокой) (До 2-х раз)\n<style=\"highlight\">- Если в команде 6 и более членов «Верных клинком», вместо 1 даёт 2 <sprite name=\"BladeResultUpTier2\"><color=#f8c200><u><link=\"BladeResultUpTier2\">Меча родины: Учения пронзания</link></u></color></style>\n[WhenUse] Повышает собственный счётчик <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> на 3\n[WinDuel] Получает 1 Повышение силы рубящей атаки на следующий ход",
           "coinlist": [
             {
               "coindescs": [
@@ -502,7 +502,7 @@
         {
           "level": 4,
           "name": "Дабы разрубить кости",
-          "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки +1 за каждые 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 2)</style>\n[WhenUse] Грешник не может быть оглушён при получении урона до окончания навыка\n[WhenUse] Повышает критический урон на 2% за каждую единицу потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 50%)\nКритический урон +<style=\"highlight\">30</style>%\nЗа каждый 1% потерянных ОЗ повышает урон на 0,5% (До 25%)\n<style=\"highlight\">При ударе 1-й цели, урон +100% (В направляемых битвах — 1-й части)</style>",
+          "desc": "<style=\"highlight\">[BeforeAttack] Тяжесть атаки +1 за каждые 7 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 2)</style>\n[WhenUse] Грешник не может быть оглушён при получении урона до окончания навыка\n[WhenUse] Повышает критический урон на 2% за каждую единицу потенциала <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> (До 50%)\nКритический урон +<style=\"highlight\">30</style>%\nЗа каждый 1% потерянных ОЗ повышает урон на 0,5% (До 25%)\n<style=\"highlight\">Если навык нацелен только на одну цель, урон +100% (В направляемых битвах — если целью является только одна часть)</style>",
           "coinlist": [
             {},
             {},
@@ -811,14 +811,14 @@
         {
           "level": 3,
           "name": "Сожжение познаний",
-          "desc": "+3% к урону за каждое [KnowledgeExplored] на себе (До 18%)\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[BeforeAttack] Тратит свою <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color> и получает дополнительное [KnowledgeExplored], равное половине потраченного числа (Округление в меньшую сторону)\n[EndSkill] В конце хода [KnowledgeExplored] сбрасывается до 1 (до 3 при убийстве противника с помощью этого навыка)",
+          "desc": "+3% к урону за каждое [KnowledgeExplored] на себе (До 18%)\n[WhenUse] Сила монет +1 против целей с 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>\n[BeforeAttack] Тратит свою <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color> и получает дополнительное [KnowledgeExplored], равное половине потраченного числа (Округление в меньшую сторону)\n[EndSkill] Если значение [KnowledgeExplored] составляет 4 или более, сбрасывает его до 1 (до 3, если этот навык побеждает противника)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик и потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> случайным образом так, что суммарно они становятся равны <sprite name=\"KnowledgeExplored\"><color=#9f6a3a><u><link=\"KnowledgeExplored\">Откровению</link></u></color> на Мерсо"
+                  "desc": "[OnSucceedAttack] Случайным образом распределяет значение <sprite name=\"KnowledgeExplored\"><color=#9f6a3a><u><link=\"KnowledgeExplored\">Откровения</link></u></color> между потенциалом и счётчиком <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и накладывает их на цель"
                 }
               ]
             }
@@ -827,14 +827,14 @@
         {
           "level": 4,
           "name": "Сожжение познаний",
-          "desc": "<style=\"highlight\">+5%</style> урона за каждое [KnowledgeExplored] на себе (До <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2)</style>\n[BeforeAttack] Тратит свою <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color> и получает дополнительное [KnowledgeExplored], равное <style=\"highlight\">потраченному числу</style>\n[EndSkill] В конце хода [KnowledgeExplored] сбрасывается до 1 (до 3 при убийстве противника с помощью этого навыка)",
+          "desc": "<style=\"highlight\">+5%</style> урона за каждое [KnowledgeExplored] на себе (До <style=\"highlight\">45%</style>)\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 6 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на цели (До 2)</style>\n[BeforeAttack] Тратит свою <sprite name=\"KnowledgeTraining\"><color=#f8c200><u><link=\"KnowledgeTraining\">Закалку эрудиции</link></u></color> и получает дополнительное [KnowledgeExplored], равное <style=\"highlight\">потраченному числу</style>\n[EndSkill] Если значение [KnowledgeExplored] составляет 4 или более, сбрасывает его до 1 (до 3, если этот навык побеждает противника)",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик и потенциал <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> случайным образом так, что суммарно они становятся равны <sprite name=\"KnowledgeExplored\"><color=#9f6a3a><u><link=\"KnowledgeExplored\">Откровению</link></u></color> на Мерсо<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Накладывает на цель <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружение</link></u></color> общей величиной, равной <sprite name=\"KnowledgeExplored\"><color=#9f6a3a><u><link=\"KnowledgeExplored\">Откровению</link></u></color> Мерсо, случайным образом распределяя её между Потенциалом и Счётчиком<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -996,7 +996,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2 , если скорость Мерсо 7 и выше"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2, если скорость Мерсо 7 и выше"
                 }
               ]
             }
@@ -1030,7 +1030,7 @@
                   "desc": "[OnSucceedAttack] Наносит 4 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color><style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2 , если скорость Мерсо 7 и выше<style=\"highlight\"></style>"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color> цели на 2, если скорость Мерсо 7 и выше<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1149,7 +1149,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Двойной разрез: Треск",
+          "name": "Двойной разрез: Треск [爆]",
           "desc": "",
           "coinlist": [
             {},
@@ -1170,7 +1170,7 @@
         },
         {
           "level": 2,
-          "name": "Двойной разрез: Треск",
+          "name": "Двойной разрез: Треск [爆]",
           "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 4 единицы в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели (До 2-х)</style>",
           "coinlist": [
             {
@@ -1197,7 +1197,7 @@
         },
         {
           "level": 4,
-          "name": "Двойной разрез: Треск",
+          "name": "Двойной разрез: Треск [爆]",
           "desc": "Итоговая сила +1 за каждые 4 единицы в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели (До <style=\"highlight\">3-х</style>)",
           "coinlist": [
             {
@@ -1229,7 +1229,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Тройной раскол: Треск",
+          "name": "Тройной раскол: Треск [爆]",
           "desc": "",
           "coinlist": [
             {},
@@ -1255,7 +1255,7 @@
                   "desc": "[OnSucceedAttack] Мерсо повышает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> цели на 1"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Мерсо повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели на 1"
+                  "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> цели на 1"
                 }
               ]
             }
@@ -1263,7 +1263,7 @@
         },
         {
           "level": 2,
-          "name": "Тройной раскол: Треск",
+          "name": "Тройной раскол: Треск [爆]",
           "desc": "<style=\"highlight\">Итоговая сила +1 за каждые 4 единицы в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели (До 2-х)</style>",
           "coinlist": [
             {
@@ -1306,7 +1306,7 @@
         },
         {
           "level": 4,
-          "name": "Тройной раскол: Треск",
+          "name": "Тройной раскол: Треск [爆]",
           "desc": "Итоговая сила +1 за каждые 4 единицы в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели (До <style=\"highlight\">4-х</style>)",
           "coinlist": [
             {
@@ -1355,7 +1355,7 @@
         {
           "level": 3,
           "name": "Рубим Гордиев узел",
-          "desc": "Если у Мерсо есть [BulletPropellantSpecialAlly], взамен используется навык 「Хаотично-убойные разрезы убийцы ужасных тигров」\n- [BeforeUse] Без <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a><u><link=\"BulletPropellantSpecialAlly\">Убойных патронов «Тигр-марка»</link></u></color> замена не происходит\nСила монет +1 при 8-и и более единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели",
+          "desc": "Если у Мерсо есть [BulletPropellantSpecialAlly], взамен используется навык 「Хаотично-убойные разрезы убийцы ужасных тигров」\n- [BeforeUse] Без <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a><u><link=\"BulletPropellantSpecialAlly\">Убойных патронов «Тигр-марка»</link></u></color> активация отменяется\nСила монет +1 при 8-и и более единиц в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели",
           "coinlist": [
             {
               "coindescs": [
@@ -1458,7 +1458,7 @@
         {
           "level": 1,
           "name": "Ярость бурлит во мне.",
-          "desc": "[DuelCounter]\nИтоговая сила +1 при 4-х и более единицах в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели\nСила парирований +1, если у Мерсо не осталось ни <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a><u><link=\"BulletPropellantAlly\">Патронов «Тигр-марка»</link></u></color>, ни <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a><u><link=\"BulletPropellantSpecialAlly\">Убойных патронов «Тигр-марка»</link></u></color>",
+          "desc": "[DuelCounter]\nИтоговая сила +1 при 4-х и более единицах в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели\nСила парирований +1, если у Мерсо закончились <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a><u><link=\"BulletPropellantAlly\">Патроны «Тигр-марка»</link></u></color> или <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a><u><link=\"BulletPropellantSpecialAlly\">Убойные патроны «Тигр-марка»</link></u></color>",
           "coinlist": [
             {},
             {
@@ -1473,7 +1473,7 @@
         {
           "level": 4,
           "name": "Ярость бурлит во мне.",
-          "desc": "[DuelCounter]\nИтоговая сила +1 <style=\"highlight\">за каждые 4 единицы</style> в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели <style=\"highlight\">(До 2-х)</style>\nСила парирований <style=\"highlight\">+2</style>, если у Мерсо не осталось ни <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a><u><link=\"BulletPropellantAlly\">Патронов «Тигр-марка»</link></u></color>, ни <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a><u><link=\"BulletPropellantSpecialAlly\">Убойных патронов «Тигр-марка»</link></u></color>",
+          "desc": "[DuelCounter]\nИтоговая сила +1 <style=\"highlight\">за каждые 4 единицы</style> в сумме <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на основной цели <style=\"highlight\">(До 2-х)</style>\nСила парирований <style=\"highlight\">+2</style>, если у Мерсо закончились <sprite name=\"BulletPropellantAlly\"><color=#9f6a3a><u><link=\"BulletPropellantAlly\">Патроны «Тигр-марка»</link></u></color> или <sprite name=\"BulletPropellantSpecialAlly\"><color=#9f6a3a><u><link=\"BulletPropellantSpecialAlly\">Убойные патроны «Тигр-марка»</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -1612,7 +1612,7 @@
         {
           "level": 1,
           "name": "Дирижёр марша",
-          "desc": "[WhenUse] Для себя и одного союзника с наименьшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n- Если затронутый союзник является Кровожадом, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглоить [BloodDinner]",
+          "desc": "[WhenUse] Для себя и одного союзника с наименьшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете союзники из Ла Манчаланда, а также Кровожады более старшего поколения\n- Если затронутый союзник принадлежит к Ла Манчаланду, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглотить [BloodDinner]",
           "coinlist": [
             {
               "coindescs": [
@@ -1634,7 +1634,7 @@
         {
           "level": 2,
           "name": "Дирижёр марша",
-          "desc": "[WhenUse] Для себя и одного союзника с наименьшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n- Если затронутый союзник является Кровожадом, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглоить [BloodDinner]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]</style>",
+          "desc": "[WhenUse] Для себя и одного союзника с наименьшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете союзники из Ла Манчаланда, а также Кровожады более старшего поколения\n- Если затронутый союзник принадлежит к Ла Манчаланду, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглотить [BloodDinner]\n<style=\"highlight\">[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1662,7 +1662,7 @@
         {
           "level": 4,
           "name": "Дирижёр марша",
-          "desc": "[WhenUse] Для себя и одного союзника с наименьшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n- Если затронутый союзник является Кровожадом, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглоить [BloodDinner]\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]\n<style=\"highlight\">[WhenUse] Итоговая сила +1 против целей с 3 и более единицами счётчика [Laceration]</style>",
+          "desc": "[WhenUse] Для себя и одного союзника с наименьшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете союзники из Ла Манчаланда, а также Кровожады более старшего поколения\n- Если затронутый союзник принадлежит к Ла Манчаланду, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглотить [BloodDinner]\n[WhenUse] Сила монет +1 против целей с 4 и более [Laceration]\n<style=\"highlight\">[WhenUse] Итоговая сила +1 против целей с 3 и более единицами счётчика [Laceration]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1695,7 +1695,7 @@
         {
           "level": 1,
           "name": "Ответственность восстановить",
-          "desc": "[WhenUse] Для себя и одного союзника с наибольшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n- Если затронутый союзник является Кровожадом, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглоить [BloodDinner]",
+          "desc": "[WhenUse] Для себя и одного союзника с наибольшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В первую очередь выбирает союзников из <La Manchaland>, а также Кровожадов более старшего поколения\n- Если выбранный союзник состоит в <La Manchaland>, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглотить [BloodDinner]",
           "coinlist": [
             {
               "coindescs": [
@@ -1719,7 +1719,7 @@
         {
           "level": 2,
           "name": "Ответственность восстановить",
-          "desc": "[WhenUse] Для себя и одного союзника с наибольшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n- Если затронутый союзник является Кровожадом, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглоить [BloodDinner]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 против целей с 3 и более единицами счётчика [Laceration]</style>",
+          "desc": "[WhenUse] Для себя и одного союзника с наибольшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В первую очередь выбирает союзников из <La Manchaland>, а также Кровожадов более старшего поколения\n- Если выбранный союзник состоит в <La Manchaland>, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглотить [BloodDinner]\n<style=\"highlight\">[WhenUse] Сила монет +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 против целей с 3 и более единицами счётчика [Laceration]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -1743,7 +1743,7 @@
         {
           "level": 4,
           "name": "Ответственность восстановить",
-          "desc": "[WhenUse] Для себя и одного союзника с наибольшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n- Если затронутый союзник является Кровожадом, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглоить [BloodDinner]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 <style=\"highlight\">за каждые 3</style> единицы счётчика [Laceration] цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Наносит на 10% больше урона за каждую единицу своей [BloodArmorMeursault] (До 30%)",
+          "desc": "[WhenUse] Для себя и одного союзника с наибольшими максимальными ОЗ: поглощает до 10 [BloodDinner] и накладывает 1 [BloodArmorMeursault] за каждые 5 поглощённого [BloodDinner] (Единожды за ход; исключая союзников с уже максимальным значением этого эффекта)\n- В первую очередь выбирает союзников из <La Manchaland>, а также Кровожадов более старшего поколения\n- Если выбранный союзник состоит в <La Manchaland>, накладывает на него 1 дополнительную [BloodArmorMeursault]\n- Получает 10 [Laceration], если не удалось поглотить [BloodDinner]\n[WhenUse] Сила монет +1 за каждые 4 [Laceration] на цели (До 2)\n[WhenUse] Итоговая сила +1 <style=\"highlight\">за каждые 3</style> единицы счётчика [Laceration] цели <style=\"highlight\">(До 2)</style>\n[WhenUse] Наносит на 10% больше урона за каждую единицу своей [BloodArmorMeursault] (До 30%)",
           "coinlist": [
             {
               "coindescs": [
@@ -1778,7 +1778,7 @@
         {
           "level": 3,
           "name": "Позвольте нам облачиться в мантию из застывшей крови.",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 40% от нанесённого урона (До 50)\n[BeforeUse] При максимальном значении [BloodArmorMeursault] использует альтернативный третий навык 「Увертюра」 вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Laceration] на цели (До 2)\n\n[WhenUse] Накладывает 1 [BloodArmorMeursault] на себя и (Число грехов в наибольшем резонансе) союзников (До 2 раз за ход; до 4 союзников; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n\n[EndSkill] Если цель убита, увеличивает [BloodDinner] на 20 (Единожды за ход)",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 40% от нанесённого урона (До 50)\n[BeforeUse] При максимальном значении [BloodArmorMeursault] использует альтернативный третий навык 「Увертюра」 вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Laceration] на цели (До 2)\n\n[WhenUse] Накладывает 1 [BloodArmorMeursault] на себя и (Число грехов в наибольшем резонансе) союзников (До 2 раз за ход; до 4 союзников; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете сначала союзники из «Ла-Манчалэнда», затем Кровожады более старшего поколения\n\n[EndSkill] Если цель убита, увеличивает [BloodDinner] на 20 (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1825,7 +1825,7 @@
         {
           "level": 4,
           "name": "Позвольте нам облачиться в мантию из застывшей крови.",
-          "desc": "При попадании этим навыком восстанавливает ОЗ на 40% от нанесённого урона (До <style=\"highlight\">80</style>)\n[BeforeUse] При максимальном значении [BloodArmorMeursault] использует альтернативный третий навык 「Увертюра」 вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Laceration] на цели (До 2)\n<style=\"highlight\">[WhenUse] Наносит на 10% больше урона за каждые 2 единицы счётчика [Laceration] на цели (До 40%)</style>\n\n[WhenUse] Накладывает 1 [BloodArmorMeursault] на себя и (Число грехов в наибольшем резонансе) союзников (До 2 раз за ход; до 4 союзников; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете Кровожады более старшего поколения\n<style=\"highlight\">- Если грехом наибольшего резонанса является Похоть, то также накладывает 2 [BloodArmorMeursault] на двух союзников с наименьшими максимальными ОЗ</style>\n\n[EndSkill] Если цель убита, увеличивает [BloodDinner] на 20 (Единожды за ход)",
+          "desc": "При попадании этим навыком восстанавливает ОЗ на 40% от нанесённого урона (До <style=\"highlight\">80</style>)\n[BeforeUse] При максимальном значении [BloodArmorMeursault] использует альтернативный третий навык 「Увертюра」 вместо этого\n[WhenUse] Сила монет +1 за каждые 6 [Laceration] на цели (До 2)\n<style=\"highlight\">[WhenUse] Наносит на 10% больше урона за каждые 2 единицы счётчика [Laceration] на цели (До 40%)</style>\n\n[WhenUse] Накладывает 1 [BloodArmorMeursault] на себя и (Число грехов в наибольшем резонансе) союзников (До 2 раз за ход; до 4 союзников; исключая союзников с уже максимальным значением этого эффекта)\n- В приоритете сначала союзники из «Ла-Манчалэнда», затем Кровожады более старшего поколения\n<style=\"highlight\">- Если грехом наибольшего резонанса является Похоть, то также накладывает 2 [BloodArmorMeursault] на двух союзников с наименьшими максимальными ОЗ</style>\n\n[EndSkill] Если цель убита, увеличивает [BloodDinner] на 20 (Единожды за ход)",
           "coinlist": [
             {
               "coindescs": [
@@ -1866,7 +1866,7 @@
                   "desc": "[OnSucceedAttack] Нанести 1 [ParadeConcentration]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] накладывает 1 [ParadeConcentration] следующем ходу<style=\"highlight\"></style>"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] накладывает 1 [ParadeConcentration] в следующем ходу<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -1968,7 +1968,7 @@
                   "desc": "[OnSucceedAttack] Наносит 2 [ParadeConcentration]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Получает 1 [BloodArmorMeursault] на следующий ход за каждую цель, которую удалось убить или оглушить этим навыком (До 3; повреждение Части тоже учитывается)"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] За каждую цель, которую урон этого навыка привёл в состояние пошатывания, у которой разрушил часть или которую убил, получает 1 [BloodArmorMeursault] на следующий ход (максимум 3)"
                 }
               ]
             }
@@ -2062,7 +2062,7 @@
         {
           "level": 2,
           "name": "Предупредительный выстрел",
-          "desc": "<style=\"highlight\">[BeforeUse] Если количество [MeursaultSporeBulletLong] максимально, наносит цели 1 [PenetrateTakeDamageUp] при первом попадании этим навыком (Единожды за ход)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion] и [Laceration]</style>",
+          "desc": "<style=\"highlight\">[BeforeUse] Если количество [MeursaultSporeBulletLong] максимально, накладывает на цель 1 [PenetrateTakeDamageUp] при попадании (Единожды за ход)\n[WhenUse] Сила монет +1 против целей с 6 и более единицами в сумме силы [Combustion] и [Laceration]</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -2089,7 +2089,7 @@
         {
           "level": 4,
           "name": "Предупредительный выстрел",
-          "desc": "<style=\"highlight\">Наносит на 10% больше урона за каждые 5 [MeursaultBeeSpore] на цели (До 30%)</style>\n[BeforeUse] Если количество [MeursaultSporeBulletLong] максимально, наносит цели 1 [PenetrateTakeDamageUp] при первом попадании этим навыком (Единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Combustion] и [Laceration] на цели (До 2)",
+          "desc": "<style=\"highlight\">Наносит на 10% больше урона за каждые 5 [MeursaultBeeSpore] на цели (До 30%)</style>\n[BeforeUse] Если количество [MeursaultSporeBulletLong] максимально, накладывает на цель 1 [PenetrateTakeDamageUp] при попадании (Единожды за ход)\n[WhenUse] Сила монет +1 <style=\"highlight\">за каждые 6</style> единиц в сумме силы [Combustion] и [Laceration] на цели (До 2)",
           "coinlist": [
             {
               "coindescs": [
@@ -2230,8 +2230,8 @@
       "levelList": [
         {
           "level": 3,
-          "name": "Полевые испытания - Искрение пыли",
-          "desc": "Все монеты этого навыка кроме последней попадают только по одной из всех целей (В приоритете главная)\n\nНаносит на 5% больше урона за каждые 5 [MeursaultBeeSpore] на цели (До 15%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на главной цели (До 2)\n[EndSkill] Производит [MeursaultSporeBulletReloading]",
+          "name": "Клиническое испытание — Искрение пыли",
+          "desc": "Наносит на 5% больше урона за каждые 5 [MeursaultBeeSpore] на цели (до 15%)\n[WhenUse] Сила монет +1 за каждые 6 единиц в сумме силы [Combustion] и [Laceration] на главной цели (до 2)\n[EndSkill] Производит [MeursaultSporeBulletReloading]",
           "coinlist": [
             {
               "coindescs": [
@@ -2296,8 +2296,8 @@
         },
         {
           "level": 4,
-          "name": "Полевые испытания - Искрение пыли",
-          "desc": "<style=\"highlight\">Урон +50% за каждую цель, превышающую число фактических целей над весом атаки навыка (в направляемых боях считаются части)</style>\nУрон +<style=\"highlight\">10</style>% за каждые 5 [MeursaultBeeSpore] на цели (до <style=\"highlight\">30</style>%)\n<style=\"highlight\">[BeforeUse] При 2 или менее [MeursaultSporeBulletLong] тратит 6 ОР и получает 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] Сила монет +1 за каждые 6 ([Combustion] + [Laceration]) на главной цели (до <style=\"highlight\">3</style>)\n[WhenUse] Сила столкновения +1, если у юнита есть [MeursaultWorkerBee]\n[WhenUse] Превращает монеты в количестве [MeursaultWorkerBee] в [SuperCoin], начиная с третьей монеты\n[WhenUse] При 3 [MeursaultWorkerBee] вес атаки +1\n[EndSkill] [MeursaultSporeBulletReloading]",
+          "name": "Клиническое испытание — Искрение пыли",
+          "desc": "<style=\"highlight\">Урон +50% за каждую единицу превышения веса атаки навыка над числом фактических целей (в направляемых боях считаются части)</style>\nУрон +<style=\"highlight\">10</style>% за каждые 5 [MeursaultBeeSpore] на цели (до <style=\"highlight\">30</style>%)\n<style=\"highlight\">[BeforeUse] При 2 или менее [MeursaultSporeBulletLong] тратит 6 СД и получает 3 [MeursaultSporeBulletLong]</style>\n[WhenUse] Сила монет +1 за каждые 6 ([Combustion] + [Laceration]) на главной цели (до <style=\"highlight\">3</style>)\n[WhenUse] Сила столкновения +1, если у юнита есть [MeursaultWorkerBee]\n[WhenUse] Превращает монеты в количестве [MeursaultWorkerBee] в [SuperCoin], начиная с третьей монеты\n[WhenUse] При 3 [MeursaultWorkerBee] вес атаки +1\n[EndSkill] [MeursaultSporeBulletReloading]",
           "coinlist": [
             {
               "coindescs": [
@@ -2378,7 +2378,7 @@
         {
           "level": 4,
           "name": "Прорастание спор",
-          "desc": "[StartBattle] [MeursaultSporeBulletReloading] (один раз за ход)\n<style=\"highlight\">[WhenUseEvade] Сила монет +1 за каждую 6 ([Combustion] + [Laceration]) на атакующем (максимальный 3)</style>\n[OnSucceedEvade] Лечение 10 ОЗ (один раз за ход)\n<style=\"highlight\">- Если у этого юнита есть [MeursaultWorkerBee], лечите дополнительный 5 ОЗ за каждый стек</style>",
+          "desc": "[StartBattle] [MeursaultSporeBulletReloading] (один раз за ход)\n<style=\"highlight\">[WhenUseEvade] Сила монет +1 за каждые 6 ([Combustion] + [Laceration]) на атакующем (максимум 3)</style>\n[OnSucceedEvade] Восстанавливает 10 ОЗ (один раз за ход)\n<style=\"highlight\">- Если у этого юнита есть [MeursaultWorkerBee], восстановление ОЗ увеличивается ещё на 5 за каждый стак</style>",
           "coinlist": [
             {}
           ]
@@ -2591,7 +2591,7 @@
         {
           "level": 4,
           "name": "Фовизм - Представление материалов",
-          "desc": "Наносит на 10% больше урона за каждый тип негативных эффектов на цели (До 60%)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 4)</style>\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (Истерзанный цвет 【Румянец】 / Истерзанный цвет 【Синева】):\n- Все монеты этого навыка становятся [SuperCoin]\n- Вновь подкидывает последнюю монету <style=\"highlight\">и наносит ей (Сумма значения Истерзанных цветов на цели / 3) [Laceration] или [Sinking] случайным образом (До 3 каждого; округляется вниз)</style>",
+          "desc": "Наносит на 10% больше урона за каждый тип негативных эффектов на цели (До 60%)\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 единицы в сумме силы [Laceration] и [Sinking] на цели (До 4)</style>\n[WhenUse] Если свои текущие ОЗ ниже 50% или сумма значения Истерзанных цветов на цели равна 5 и более (Истерзанный цвет 【Румянец】 / Истерзанный цвет 【Синева】):\n- Все монеты этого навыка становятся [SuperCoin]\n- Вновь подкидывает последнюю монету. <style=\"highlight\">При попадании этой монетой накладывает силу [Laceration] или [Sinking] (эффект выбирается случайно) в размере (сумма значений Истерзанных цветов на цели / 3) (До 3 каждого; округляется вниз)</style>",
           "coinlist": [
             {
               "coindescs": [

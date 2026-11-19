@@ -61,7 +61,7 @@
           "level": 5,
           "name": "Газировка",
           "abName": "Веллчирс",
-          "desc": "<style=\"highlight\">Если ОЗ цели ниже 25%, наносить на 40% больше урона\n[BeforeAttack] При 4+ наивысшего резонанса получить +1 к весу атаки\n\n[EndSkill] Дать 1 [GainSinStockAdder] на следующий ход (2 + наивысший резонанс) случайным союзникам, включая этого юнита (макс. 7)\n[EndSkill] Если среди целей есть ошеломлённые юниты или юниты в Срыве, получить 1 ресурс Э.Г.О наименее имеющейся склонности; восстановить 3 СД</style>",
+          "desc": "<style=\"highlight\">Если ОЗ цели ниже 25%, наносить на 40% больше урона\n[BeforeAttack] При 4+ наивысшего резонанса получить +1 к весу атаки\n\n[EndSkill] Дать 1 [GainSinStockAdder] на следующий ход (2 + наивысший резонанс) случайным союзникам, включая этого юнита (макс. 7)\n[EndSkill] Если среди целей есть ошеломлённые юниты или юниты в Срыве, получить 1 ресурс ЭГО наименее имеющейся склонности; восстановить 3 СД</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -72,7 +72,7 @@
                   "desc": "[OnSucceedAttack] Наложить 6 [Sinking]<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[EnemyKill] Получить 3 ресурса Э.Г.О случайной имеющейся склонности; все союзники восстанавливают 3 СД<style=\"highlight\"></style>"
+                  "desc": "[EnemyKill] Получить 3 ресурса ЭГО случайной имеющейся склонности; все союзники восстанавливают 3 СД<style=\"highlight\"></style>"
                 }
               ]
             }
@@ -87,7 +87,7 @@
           "level": 1,
           "name": "Газировка",
           "abName": "Веллчирс",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -105,7 +105,7 @@
           "level": 3,
           "name": "Газировка",
           "abName": "Веллчирс",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -123,7 +123,7 @@
           "level": 4,
           "name": "Газировка",
           "abName": "Веллчирс",
-          "desc": "[CantIdentify]\nСлучайная цель",
+          "desc": "[CantIdentify]\nАтакует случайную цель",
           "coinlist": [
             {
               "coindescs": [
@@ -141,7 +141,7 @@
           "level": 5,
           "name": "Газировка",
           "abName": "Веллчирс",
-          "desc": "[CantIdentify]\nВыбирает цели случайно\n\n<style=\"highlight\">Если ОЗ цели ниже 25%, наносить на 40% больше урона\n[DefeatDuel] Базовая сила -12\n[BeforeAttack] При 4+ наивысшего резонанса получить +1 к весу атаки\n[EndSkill] Если среди целей есть ошеломлённые юниты или юниты в Срыве, получить 1 ресурс Э.Г.О наименее имеющейся склонности; восстановить 3 СД</style>",
+          "desc": "[CantIdentify]\nВыбирает цели случайно\n\n<style=\"highlight\">Если ОЗ цели ниже 25%, наносить на 40% больше урона\n[DefeatDuel] Базовая сила -12\n[BeforeAttack] При 4+ наивысшего резонанса получить +1 к весу атаки\n[EndSkill] Если среди целей есть ошеломлённые юниты или юниты в Срыве, получить 1 ресурс ЭГО наименее имеющейся склонности; восстановить 3 СД</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -285,7 +285,7 @@
           "level": 1,
           "name": "Презрение, трепет",
           "abName": "Спираль презрения",
-          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До 2)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В течение последующих 2-х ходов Рёшу теряет по 10 СД",
+          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До 2)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В течение следующих 2 ходов в конце каждого хода Рёшу теряет 10 СД",
           "coinlist": [
             {},
             {
@@ -301,7 +301,7 @@
           "level": 3,
           "name": "Презрение, трепет",
           "abName": "Спираль презрения",
-          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До <style=\"highlight\">4</style>)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В течение последующих 2-х ходов Рёшу теряет по 10 СД",
+          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До <style=\"highlight\">4</style>)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> (До 7)\n[EndSkill] В течение следующих 2 ходов в конце каждого хода Рёшу теряет 10 СД",
           "coinlist": [
             {},
             {
@@ -317,7 +317,7 @@
           "level": 4,
           "name": "Презрение, трепет",
           "abName": "Спираль презрения",
-          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До <style=\"highlight\">6</style>)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> <style=\"highlight\">на этот и следующий ход</style> (До 7)\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>\n[EndSkill] В течение последующих 2-х ходов Рёшу теряет по 10 СД",
+          "desc": "[BeforeAttack] Тяжесть атаки +(число грехов в наибольшем резонансе) (До <style=\"highlight\">6</style>)\n[BeforeAttack] Рёшу получает (число грехов в наибольшем резонансе + 1) <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color> <style=\"highlight\">на этот и следующий ход</style> (До 7)\n<style=\"highlight\">[EndSkill] Если этот навык участвовал в резонансе Похоти, Рёшу получает по 1 ЭГО-ресурсу синергии, соответствующей каждому из её базовых атакующих навыков</style>\n[EndSkill] В течение следующих 2 ходов в конце каждого хода Рёшу теряет 10 СД",
           "coinlist": [
             {},
             {
@@ -380,7 +380,7 @@
           "level": 4,
           "name": "Презрение, трепет",
           "abName": "Спираль презрения",
-          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Рёшу получает 7 <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color>\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, +1 к ресурсам атак идентичности Рёшу</style>",
+          "desc": "[CantIdentify]\nСлучайная цель\n[BeforeAttack] Рёшу получает 7 <sprite name=\"GazePersonality\"><color=#f8c200><u><link=\"GazePersonality\">Взоров презрения</link></u></color>\n<style=\"highlight\">[EndSkill] Если с этим навыком образуется резонанс Похоти, Рёшу получает по 1 ресурсу ЭГО каждого греха, соответствующего её базовым атакующим навыкам</style>",
           "coinlist": [
             {
               "coindescs": [
@@ -465,7 +465,7 @@
           "level": 1,
           "name": "Торакалгия",
           "abName": "Спальный мешок ушедших дней",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу тратит 10% для получения 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышения его счётчика на 5\n- Этот эффект не может оглушить или убить её\n\n[EndSkill] При убийстве цели Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на 2",
+          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу теряет 10% от своего максимального здоровья, чтобы получить 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повысить его счётчик на 5\n- Этот эффект не может оглушить или убить её\n\n[EndSkill] При убийстве цели Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают 2 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на 2",
           "coinlist": [
             {},
             {
@@ -481,7 +481,7 @@
           "level": 3,
           "name": "Торакалгия",
           "abName": "Спальный мешок ушедших дней",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу тратит 10% для получения 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышения его счётчика на 5\n- Этот эффект не может оглушить или убить её\n<style=\"highlight\">- Рёшу получает 1 [Breath] за каждого союзника в целях (До 2-х)</style>\n\n[EndSkill] При убийстве цели Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают <style=\"highlight\">4</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на 2\n<style=\"highlight\">- Это ЭГО восстанавливает половину затраченной силы духа Рёшу</style>",
+          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу теряет 10% от своего максимального здоровья, чтобы получить 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повысить его счётчик на 5\n- Этот эффект не может оглушить или убить её\n<style=\"highlight\">- Рёшу получает 1 [Breath] за каждого союзника в целях (До 2-х)</style>\n\n[EndSkill] При убийстве цели Рёшу получает 2 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают <style=\"highlight\">4</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на 2\n<style=\"highlight\">- Это ЭГО восстанавливает половину затраченной силы духа Рёшу</style>",
           "coinlist": [
             {},
             {
@@ -500,7 +500,7 @@
           "level": 4,
           "name": "Торакалгия",
           "abName": "Спальный мешок ушедших дней",
-          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] При менее 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> Рёшу тратит 10% для получения 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышения его счётчика на 5\n- Этот эффект не может оглушить или убить её\n- Рёшу получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> за каждого союзника в целях (До <style=\"highlight\">4-х</style>)\n\n[EndSkill] При убийстве цели Рёшу получает 3 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- При смерти союзника заменяющие его из запаса грешники получают 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color> и повышают его счётчик на <style=\"highlight\">4</style>\n<style=\"highlight\">- Это ЭГО восстанавливает затраченную силу духа Рёшу и даёт 1 ЭГО-ресурс для всех грехов</style>",
+          "desc": "[CantIdentify]\nВыбирает цели с самым низким здоровьем (В приоритете союзники)\n+30% к урону при атаке союзников\n\n[BeforeAttack] Если у Рёшу меньше 15 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Вдохов</link></u></color>, она тратит 10% от своего максимального здоровья, чтобы получить 5 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Вдохов</link></u></color> и повысить счётчик на 5\n- Этот эффект не может оглушить или убить её\n- Рёшу получает <style=\"highlight\">2</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Вдоха</link></u></color> за каждого союзника в целях (До <style=\"highlight\">4-х</style>)\n\n[EndSkill] При убийстве цели Рёшу получает 3 <sprite name=\"HoldingBreath\"><color=#f8c200><u><link=\"HoldingBreath\">Глубоких вдоха</link></u></color> на следующий ход (Раз за ход). <b>Если целью был союзник:</b>\n- Союзники, которых из-за гибели союзника выводят из ожидания или вводят в бой, получают 4 <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Вдоха</link></u></color> и повышают его счётчик на <style=\"highlight\">4</style>\n<style=\"highlight\">- Это ЭГО восстанавливает Рёшу силу духа, потраченную на этот навык, и даёт по 1 единице каждого потраченного ресурса ЭГО</style>",
           "coinlist": [
             {},
             {
@@ -603,13 +603,13 @@
                   "desc": "+30% к критическому урону<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "\n<style=\"highlight\">[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До 30%)</style>"
+                  "desc": "\n<style=\"highlight\">[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях (До 30%)</style>"
                 },
                 {
                   "desc": "<style=\"highlight\">[OnStartCoin] Сила монеты +1 за каждые 10 единиц суммарного счётчика [Combustion] и [Laceration] у всех целей (макс. 3)</style>"
                 },
                 {
-                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До 100%)\n- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в 1.5 раза (В фокусированных битвах лишь Ядро и его Части считается за одну цель)",
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До 100%)\n- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в 1.5 раза (В фокусированных битвах лишь Ядро и его Части считаются за одну цель)",
                   "summary": "<style=\"highlight\">[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]</style>"
                 }
               ]
@@ -657,13 +657,13 @@
                   "desc": "+30% к критическому урону<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "\n[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях этого навыка (До <style=\"highlight\">50%</style>)"
+                  "desc": "\n[OnStartCoin] Наносит на 1% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Laceration] на всех целях (До <style=\"highlight\">50%</style>)"
                 },
                 {
                   "desc": "[OnStartCoin] Сила монеты +1 за каждые 10 единиц суммарного счётчика [Combustion] и [Laceration] у всех целей (макс. <style=\"highlight\">5</style>)"
                 },
                 {
-                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До <style=\"highlight\">198%</style>)\n- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в <style=\"highlight\">2</style> раза (В фокусированных битвах лишь Ядро и его Части считается за одну цель)",
+                  "desc": "[OnStartCoin] Тратит всю [RyoshuEGOPF] и наносит на 1% больше урона за каждые 5 потраченной [RyoshuEGOPF] (До <style=\"highlight\">198%</style>)\n- Если у этого ЭГО навыка всего одна цель, это увеличение урона усиливается в <style=\"highlight\">2</style> раза (В фокусированных битвах лишь Ядро и его Части считаются за одну цель)",
                   "summary": "[OnStartCoin] Наносит больше урона в зависимости от [RyoshuEGOPF]"
                 }
               ]
@@ -679,7 +679,7 @@
           "level": 1,
           "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
           "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
-          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на 3\n[BeforeAttack] Базовая сила +1 при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую в столкновении Вечную монету\n\n[EndSkill] Получает 10 [RyoshuEGOPF]",
+          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на 3\n[BeforeAttack] Базовая сила +1 при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую монету (макс. -9)\n\n[EndSkill] Получает 10 [RyoshuEGOPF]",
           "coinlist": [
             {
               "coindescs": [
@@ -721,7 +721,7 @@
           "level": 3,
           "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
           "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
-          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на 3\n[BeforeAttack] Базовая сила <style=\"highlight\">+2</style> при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую в столкновении Вечную монету\n\n[EndSkill] Получает <style=\"highlight\">20</style> [RyoshuEGOPF]",
+          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на 3\n[BeforeAttack] Базовая сила <style=\"highlight\">+2</style> при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую монету (макс. -9)\n\n[EndSkill] Получает <style=\"highlight\">20</style> [RyoshuEGOPF]",
           "coinlist": [
             {
               "coindescs": [
@@ -775,7 +775,7 @@
           "level": 4,
           "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
           "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
-          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на <style=\"highlight\">5</style>\n[BeforeAttack] Базовая сила <style=\"highlight\">+3</style> при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую в столкновении Вечную монету\n\n[EndSkill] Получает <style=\"highlight\">33</style> [RyoshuEGOPF]",
+          "desc": "[CantIdentify]\nСлучайная цель\n\n[BeforeAttack] Тратит до 20 своего лишнего [Breath] свыше 20, чтобы восстановить себе (Потраченное [Breath])% от максимальных ОЗ, а также нанести на (Потраченное [Breath])% больше урона этим ЭГО навыком\n[BeforeAttack] Повышает свой счётчик [Breath] на <style=\"highlight\">5</style>\n[BeforeAttack] Базовая сила <style=\"highlight\">+3</style> при 999 [RyoshuEGOPF]\n[BeforeAttack] Базовая сила -3 за каждую расколотую монету (макс. -9)\n\n[EndSkill] Получает <style=\"highlight\">33</style> [RyoshuEGOPF]",
           "coinlist": [
             {
               "coindescs": [

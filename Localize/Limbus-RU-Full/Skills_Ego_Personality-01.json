@@ -62,7 +62,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>. Накладывает 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, наносит 1 Сковывание на следующий ход"
@@ -80,7 +80,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>. Накладывает 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, наносит 1 Сковывание на следующий ход"
@@ -98,7 +98,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> и 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
+                  "desc": "[OnSucceedAttack] Накладывает 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>. Накладывает 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 6 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>, наносит 2 <sprite name=\"Binding\"><color=#e30000><u><link=\"Binding\">Сковывания</link></u></color> на следующий ход"
@@ -177,7 +177,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если первой монетой не удалось убить союзника, урон получает одна случайная вторичная цель<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">+5%</style> критического урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(до 35%)</style>"
@@ -217,7 +217,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если первой монетой не удалось убить союзника, урон получает одна случайная вторичная цель<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">+9%</style> критического урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 63%)</style>"
@@ -268,7 +268,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели"
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если первая монета не убила союзника, урон получает одна случайная вторичная цель"
                 },
                 {
                   "desc": "+2% к критическому урону за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> (до 14%)"
@@ -298,7 +298,7 @@
                   "desc": "Если основной целью стал союзник, +2% к урону за каждое [Breath] у И Сана (До 50%)<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "[AllyKill] И Сан и 3 союзника получают <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
+                  "desc": "[AllyKill] И Сан и 3 случайных союзника получают <style=\"highlight\">3</style> <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>"
                 },
                 {
                   "desc": "[AllyKill] <style=\"highlight\">+5%</style> урона на следующую монету за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 35%)</style>"
@@ -314,7 +314,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если первая монета не убила союзника, урон получает одна случайная вторичная цель<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">+3%</style> критического урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 21%)</style>"
@@ -338,7 +338,7 @@
                   "desc": "Эта монета наносит урон только основной цели.<style=\"highlight\"></style>"
                 },
                 {
-                  "desc": "Если основной целью стал союзник, +15%</style> урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 105%)<style=\"highlight\"></style>"
+                  "desc": "Если основной целью стал союзник, <style=\"highlight\">+15%</style> урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 105%)</style><style=\"highlight\"></style>"
                 },
                 {
                   "desc": "Если основной целью стал союзник, +2% к урону за каждое [Breath] у И Сана (До 50%)<style=\"highlight\"></style>"
@@ -363,7 +363,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если И Сан не смог убить союзника предыдущей монетой, он наносит урон только одной вторичной цели<style=\"highlight\"></style>"
+                  "desc": "Эта монета наносит урон только по вторичным целям\n- Если первая монета не убила союзника, урон получает одна случайная вторичная цель<style=\"highlight\"></style>"
                 },
                 {
                   "desc": "<style=\"highlight\">+4%</style> критического урона за каждое <sprite name=\"BoseProjektil\"><color=#9f6a3a><u><link=\"BoseProjektil\">Разорванное воспоминание</link></u></color> <style=\"highlight\">(До 28%)</style>"
@@ -428,7 +428,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели и понижает счётчик [Combustion] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели один раз и понижает счётчик [Combustion] на 1"
                 }
               ]
             }
@@ -482,7 +482,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели и понижает счётчик [Combustion] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели один раз и понижает счётчик [Combustion] на 1"
                 }
               ]
             }
@@ -536,7 +536,7 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели и понижает счётчик [Combustion] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели один раз и понижает счётчик [Combustion] на 1"
                 }
               ]
             }
@@ -596,10 +596,10 @@
                 },
                 {
                   "desc": "[OnStartCoin] +10% к урону за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях (максимум 40%)",
-                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion] и [Sinking] на всех целях"
+                  "summary": "[OnStartCoin] Наносит больше урона за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели и понижает счётчик [Combustion] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели один раз и понижает счётчик [Combustion] на 1"
                 }
               ]
             }
@@ -609,7 +609,7 @@
           "level": 3,
           "name": "Великий трихилиокосм<nobr>【三千大世界】</nobr>",
           "abName": "Бабочка переплетённых жизней<nobr>【羅生蝶】</nobr>",
-          "desc": "[CantIdentify]\nСлучайная цель\n\nПри попадании каждой монетой: И Сан получает <style=\"highlight\">4</style> [Combustion], а последняя монета этого ЭГО навыка получает +1 к своей Итоговой силе (До +3 к Итоговой силе последней монеты; единожды за попадание монетой)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую в столкновении Вечную монету",
+          "desc": "[CantIdentify]\nСлучайная цель\n\nПри попадании каждой монетой: И Сан получает <style=\"highlight\">4</style> [Combustion], а последняя монета этого ЭГО навыка получает +1 к своей Итоговой силе (До +3 к Итоговой силе последней монеты; единожды за попадание монетой)\n\n[BeforeAttack] Получает (Число грехов в наибольшем резонансе) [Breath] (До 7)\n- Если этот резонанс является абсолютным, то также повышает свой счётчик [Breath] на (Число грехов в наибольшем резонансе / 3) (До 2; округляется вниз)\n[BeforeAttack] Базовая сила -1 за каждую расколотую монету (максимум -4)",
           "coinlist": [
             {
               "coindescs": [
@@ -654,10 +654,10 @@
                 },
                 {
                   "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях (максимум <style=\"highlight\">50%</style>)",
-                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion] и [Sinking] на всех целях"
+                  "summary": "[OnStartCoin] Наносит больше урона за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели и понижает счётчик [Combustion] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели один раз и понижает счётчик [Combustion] на 1"
                 }
               ]
             }
@@ -711,11 +711,11 @@
                   "desc": "[SuperCoin]"
                 },
                 {
-                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц в суммарной силе [Combustion] и [Sinking] на всех целях этого навыка (До <style=\"highlight\">60%</style>)",
-                  "summary": "[OnStartCoin] Наносит больше урона в зависимости от суммы силы [Combustion] и [Sinking] на всех целях"
+                  "desc": "[OnStartCoin] Наносит на 10% больше урона за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях (До <style=\"highlight\">60%</style>)",
+                  "summary": "[OnStartCoin] Наносит больше урона за каждые 10 единиц суммарной силы [Combustion] и [Sinking] на всех целях"
                 },
                 {
-                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели и понижает счётчик [Combustion] на 1"
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Активирует [Combustion] на цели один раз и понижает счётчик [Combustion] на 1"
                 }
               ]
             }

@@ -6,7 +6,7 @@
         {
           "level": 1,
           "name": "Блок",
-          "desc": "При победе в поединке, повышает черту выносливости."
+          "desc": "При победе в поединке повышает порог ошеломления противника."
         }
       ]
     },
@@ -1010,7 +1010,7 @@
         },
         {
           "level": 2,
-          "name": "Рыцарский турнир",
+          "name": "Укол",
           "desc": "[WinDuel] Получает 2 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешки</link></u></color> на следующий ход",
           "coinlist": [
             {}
@@ -1031,7 +1031,7 @@
         },
         {
           "level": 2,
-          "name": "Галоппирующий уклон",
+          "name": "Собранный выпад",
           "desc": "[WinDuel] Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход",
           "coinlist": [
             {}
@@ -1039,7 +1039,7 @@
         },
         {
           "level": 4,
-          "name": "Галоппирующий уклон",
+          "name": "Собранный выпад",
           "desc": "[WinDuel] Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход",
           "coinlist": [
             {
@@ -1923,7 +1923,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -1932,12 +1932,12 @@
         {
           "level": 2,
           "name": "Забивающий кулак",
-          "desc": "[WhenUse] Получает 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color> на следующий ход",
+          "desc": "[WhenUse] Получает 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения силы защиты</link></u></color> на следующий ход",
           "coinlist": [
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -2194,7 +2194,7 @@
         {
           "level": 4,
           "name": "Отточенный кулак смерти",
-          "desc": "Сила монет +1 против целей с 5-ю и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>",
+          "desc": "Сила монет +1 против целей, у которых сила <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> составляет не менее 5.",
           "coinlist": [
             {
               "coindescs": [
@@ -2699,7 +2699,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 }
               ]
             }
@@ -2721,7 +2721,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>"
+                  "desc": "[OnSucceedAttack] Наносит 1 <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечение</link></u></color>"
                 }
               ]
             }
@@ -2730,7 +2730,7 @@
         {
           "level": 4,
           "name": "Облачный разрез",
-          "desc": "[BeforeAttack] Вновь подкидывает 1-ю и 2-ю монеты против целей с 4-мя и менее единицами на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>",
+          "desc": "[BeforeAttack] Если у цели меньше 4 единиц на счётчике <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color>, повторно использует 1-ю и 2-ю монеты навыка",
           "keywords": [],
           "coinlist": [
             {
@@ -2908,10 +2908,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] Снова подкидывает монету, если цель атаки пережила атаки предыдущих монет с менее 25% ОЗ\n+50% к урону для этой монеты при выпадении орлом"
+                  "desc": "[OnSucceedAttackHead] Если у цели меньше 25% ОЗ и она выжила, повторно использовать эту монету 1 раз\n+50% к урону для этой монеты при выпадении орлом"
                 },
                 {
-                  "desc": "[ReUseOnSucceedAttackHead] +50% к урону для этой монет"
+                  "desc": "[ReUseOnSucceedAttackHead] +50% к урону для этой монеты"
                 }
               ]
             }
@@ -3080,7 +3080,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -3135,7 +3135,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Взмах меча",
+          "name": "Летающий меч",
           "desc": "Если у грешника менее 25% ОЗ, +1 сила навыка",
           "coinlist": [
             {}
@@ -3143,7 +3143,7 @@
         },
         {
           "level": 2,
-          "name": "Взмах меча",
+          "name": "Летающий меч",
           "desc": "Если у грешника менее 25% ОЗ, +2 силы навыка",
           "coinlist": [
             {}
@@ -3151,7 +3151,7 @@
         },
         {
           "level": 4,
-          "name": "Взмах меча",
+          "name": "Летающий меч",
           "desc": "Если у грешника менее 50% ОЗ, +2 к силе навыка\n[WhenUse] Получает 3 к счётчику <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "coinlist": [
             {}
@@ -3655,7 +3655,7 @@
         {
           "level": 3,
           "name": "Хлыст разума",
-          "desc": "[StartBattle] Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли у грешницы менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
+          "desc": "[StartBattle] Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли в начале боя у грешницы менее 10 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -3702,7 +3702,7 @@
         {
           "level": 4,
           "name": "Хлыст разума",
-          "desc": "[StartBattle] Тратит 8 единиц своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли у грешницы менее 8 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
+          "desc": "[StartBattle] Тратит 8 единиц своего счётчика <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>\nЕсли в начале боя у грешницы менее 8 единиц на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, выбирает цель случайно для односторонней атаки",
           "coinlist": [
             {
               "coindescs": [
@@ -3796,7 +3796,7 @@
         },
         {
           "level": 2,
-          "name": "Взмах меча",
+          "name": "Летающий меч",
           "desc": "Если у грешницы менее 50% ОЗ, к этому навыку добавляется 1 дополнительное Дыхание",
           "keywords": [],
           "coinlist": [
@@ -3818,7 +3818,7 @@
         },
         {
           "level": 4,
-          "name": "Взмах меча",
+          "name": "Летающий меч",
           "desc": "Если у грешницы менее 50% ОЗ, к этому навыку добавляется 3 дополнительных <sprite name=\"Breath\"><color=#f8c200><u><link=\"Breath\">Дыхания</link></u></color>",
           "keywords": [],
           "coinlist": [
@@ -3995,7 +3995,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Пинок",
+          "name": "Толчок",
           "desc": "",
           "coinlist": [
             {
@@ -4009,7 +4009,7 @@
         },
         {
           "level": 2,
-          "name": "Пинок",
+          "name": "Толчок",
           "desc": "",
           "coinlist": [
             {
@@ -4023,7 +4023,7 @@
         },
         {
           "level": 4,
-          "name": "Пинок",
+          "name": "Толчок",
           "desc": "[WhenUse] Эта ячейка получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nЕсли на цели 8 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, сила навыка +2",
           "coinlist": [
             {
@@ -4109,7 +4109,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             },
@@ -4144,7 +4144,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             },
@@ -4232,7 +4232,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Серия рубящих ударов",
+          "name": "Комбо топором",
           "desc": "",
           "coinlist": [
             {
@@ -4715,7 +4715,7 @@
         {
           "level": 4,
           "name": "Усмирение",
-          "desc": "Если цель не получала урон в этот ход, сила монет +3",
+          "desc": "Если цель не получала урон от атак в этот ход, сила монет +3",
           "coinlist": [
             {
               "coindescs": [
@@ -4977,7 +4977,7 @@
         {
           "level": 4,
           "name": "Серия разрезов",
-          "desc": "[DefeatDuel] Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[WinDuel] Критические атаки этого навыка не тратят Дыхание",
+          "desc": "[DefeatDuel] Получает 2 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышения силы атаки</link></u></color> на следующий ход\n[WinDuel] Критические атаки этого навыка не расходуют счётчик Дыхания",
           "coinlist": [
             {
               "coindescs": [
@@ -5181,7 +5181,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"HitTakeDamageUp\"><color=#e30000><u><link=\"HitTakeDamageUp\">Уязвимости к дробящему урону</link></u></color>"
@@ -5198,7 +5198,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "[OnSucceedAttack] Если на цели 5 и более <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> при провокации, получает 2 <sprite name=\"Protection\"><color=#f8c200><u><link=\"Protection\">Защищённости</link></u></color> на следующий ход"
@@ -5238,7 +5238,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Основа танца",
+          "name": "Танцевальный приём",
           "desc": "",
           "coinlist": [
             {
@@ -5253,7 +5253,7 @@
         },
         {
           "level": 2,
-          "name": "Основа танца",
+          "name": "Танцевальный приём",
           "desc": "",
           "coinlist": [
             {
@@ -5268,7 +5268,7 @@
         },
         {
           "level": 4,
-          "name": "Основа танца",
+          "name": "Танцевальный приём",
           "desc": "Сила монет +1 против целей с 4 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
           "coinlist": [
             {
@@ -5409,7 +5409,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Понижает черты оглушения грешника на 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Понижает порог оглушения грешника на 50% от нанесённого урона"
                 }
               ]
             }
@@ -5771,7 +5771,7 @@
         {
           "level": 4,
           "name": "Руководство",
-          "desc": "Сила монет +2 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
+          "desc": "Сила навыка +2 против целей с 5 и более <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -5891,7 +5891,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Смести",
+          "name": "Рубящий удар",
           "desc": "",
           "coinlist": [
             {
@@ -5905,7 +5905,7 @@
         },
         {
           "level": 2,
-          "name": "Смести",
+          "name": "Рубящий удар",
           "desc": "",
           "coinlist": [
             {
@@ -6531,7 +6531,7 @@
         {
           "level": 4,
           "name": "Пронзание",
-          "desc": "[WhenUse] Эта ячейка получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nСила монет +2 при менее 50% ОЗ",
+          "desc": "[WhenUse] Эта ячейка получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\nСила монет +2 при ОЗ владельца ниже 50%",
           "coinlist": [
             {
               "coindescs": [
@@ -6556,7 +6556,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Я смою грехи",
+          "name": "Я смою грех",
           "desc": "",
           "coinlist": [
             {
@@ -6578,7 +6578,7 @@
         },
         {
           "level": 2,
-          "name": "Сними грех с тела его",
+          "name": "Я смою грех",
           "desc": "",
           "coinlist": [
             {
@@ -6603,7 +6603,7 @@
         },
         {
           "level": 4,
-          "name": "Сними грех с тела его",
+          "name": "Я смою грех",
           "desc": "[WhenUse] Эта ячейка получает 6 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокаций</link></u></color> на следующий ход",
           "coinlist": [
             {
@@ -7024,7 +7024,7 @@
         {
           "level": 3,
           "name": "Казнь",
-          "desc": "При убийстве восстанавливает 10 СД всем союзникам и даёт 1 Повышение колющего урона и Повышение дробящего урона",
+          "desc": "При убийстве восстанавливает 10 СД всем союзникам и даёт 1 Повышение колющего урона и 1 Повышение дробящего урона",
           "coinlist": [
             {
               "coindescs": [
@@ -7052,7 +7052,7 @@
         {
           "level": 4,
           "name": "Казнь",
-          "desc": "При убийстве восстанавливает 10 СД всем союзникам и даёт 1 Повышение колющего урона и Повышение дробящего урона",
+          "desc": "При убийстве восстанавливает 10 СД всем союзникам и даёт 1 Повышение колющего урона и 1 Повышение дробящего урона",
           "coinlist": [
             {
               "coindescs": [
@@ -8178,7 +8178,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит урон первому порогу оглушения в размере 50% от нанесённого урона"
+                  "desc": "[OnSucceedAttack] Наносит урон по шкале оглушения в размере 50% от нанесённого урона"
                 }
               ]
             },
@@ -8197,7 +8197,7 @@
         {
           "level": 4,
           "name": "Саморазрушающее очищение",
-          "desc": "[WhenUse] Теряет 15 СД\n- Если грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит +15% урона\n- Если цель — <b>Механизированное существо</b>, наносит +10% урона",
+          "desc": "[WhenUse] Теряет 15 СД\n- Если грешник <sprite name=\"AssemblePersonality\"><color=#f8c200><u><link=\"AssemblePersonality\">Фанатичен</link></u></color>, наносит +15% урона\n- Если цель — <b>Механическая амальгама</b>, наносит +10% урона",
           "coinlist": [
             {},
             {
@@ -8322,7 +8322,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 }
               ]
             }
@@ -8336,7 +8336,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "+20% к урону целям, имеющим 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>"
@@ -8353,7 +8353,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Активирует Провокацию Тремора</link></u></color>"
                 },
                 {
                   "desc": "+30% к урону целям, имеющим 5 и более <sprite name=\"NailPersonality\"><color=#e30000><u><link=\"NailPersonality\">Гвоздей</link></u></color>"
@@ -8470,7 +8470,7 @@
                   "desc": "[OnSucceedAttackHead] Наносит 1 Тремор"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>"
+                  "desc": "[OnSucceedAttack] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 4"
                 }
               ]
             },
@@ -8510,7 +8510,7 @@
         {
           "level": 4,
           "name": "Набираем обороты",
-          "desc": "[WhenUse] Повышает счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2",
+          "desc": "[WhenUse] Повышает свой счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 2",
           "coinlist": [
             {
               "coindescs": [
@@ -8596,7 +8596,7 @@
               "coindescs": [
                 {
                   "desc": "[OnSucceedAttack] Наносит 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>\nПри 3 и более единицах на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> повторно подкидывает монету, если та выпала орлом (До 2-х раз)\nНаносит ещё 2 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> каждый раз, когда монета была подкинута снова\nЕсли монета была подкинута ещё 2 раза, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color> после его нанесения\nПосле провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 1",
-                  "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; в определённых условиях подкидывает монету ещё раз; Наносит 2 дополнительных <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> если монета подкинута снова; Если монета была подкинута ещё 2 раза, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color> then снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
+                  "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>; в определённых условиях подкидывает монету ещё раз; Наносит 2 дополнительных <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> если монета подкинута снова; Если монета была подкинута ещё 2 раза, <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">провоцирует Тремор</link></u></color> и снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>"
                 }
               ]
             }
@@ -8824,7 +8824,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на повышение черты оглушения на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 5)% (До 50%)",
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, увеличивая урон по шкале оглушения от Провокации Тремора на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 5)% (до 50%)",
                   "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; расходует Заряд, повышая урон от ошеломления"
                 }
               ]
@@ -8869,7 +8869,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем Тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на повышение черты оглушения на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 5)% (До 50%)",
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПри провокации <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color>, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3, затем тратит все единицы на счётчике <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color>, увеличивая урон по шкале оглушения от Провокации Тремора на (счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> × 5)% (до 50%)",
                   "summary": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>, затем снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 3; расходует Заряд, повышая урон от ошеломления"
                 }
               ]
@@ -9654,7 +9654,7 @@
         },
         {
           "level": 2,
-          "name": "Брызжется!..",
+          "name": "Меня мутит...!",
           "desc": "",
           "coinlist": [
             {
@@ -9675,7 +9675,7 @@
         },
         {
           "level": 4,
-          "name": "Брызжется!..",
+          "name": "Меня мутит...!",
           "desc": "[WhenUse] Эта ячейка получает 4 <sprite name=\"Aggro\"><color=#9f6a3a><u><link=\"Aggro\">Провокации</link></u></color> на следующий ход\n[DefeatDuel] Наносит 3 <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> и 3 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрыва</link></u></color>",
           "coinlist": [
             {
@@ -9707,7 +9707,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПосле провокации, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4. Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Вызывает Провокацию Тремора</link></u></color>\nПосле этого снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4. Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 }
               ]
             }
@@ -9721,7 +9721,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПосле провокации, снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4. Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
+                  "desc": "[OnSucceedAttack] <sprite name=\"VibrationExplosion\"><color=#e30000><u><link=\"VibrationExplosion\">Провоцирует Тремор</link></u></color>\nПосле этого снижает счётчик <sprite name=\"Vibration\"><color=#e30000><u><link=\"Vibration\">Тремора</link></u></color> на 4. Наносит 5 <sprite name=\"Burst\"><color=#e30000><u><link=\"Burst\">Разрывов</link></u></color>"
                 }
               ]
             }
@@ -10292,7 +10292,7 @@
         {
           "level": 1,
           "name": "Удар с локтя",
-          "desc": "Наносит +30% к урону против целей с 6-юи более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 6-ю и более на его счётчике",
+          "desc": "Наносит +30% к урону против целей с 6-ю и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color> и 6-ю и более на его счётчике",
           "coinlist": [
             {
               "coindescs": [
@@ -10461,7 +10461,7 @@
         {
           "level": 2,
           "name": "Разрушение",
-          "desc": "Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1, если скорость не ниже 7",
+          "desc": "При скорости 7 или выше этот навык повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1",
           "coinlist": [
             {
               "coindescs": [
@@ -10489,7 +10489,7 @@
         {
           "level": 4,
           "name": "Разрушение",
-          "desc": "Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1 при 7 и более скорости\n[WhenUse] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 4",
+          "desc": "При скорости 7 или выше этот навык повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 1\n[WhenUse] Повышает собственный счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> на 4",
           "coinlist": [
             {
               "coindescs": [
@@ -10595,7 +10595,7 @@
         {
           "level": 1,
           "name": "Биоэлектрическая индукция",
-          "desc": "[WhenUse] При получении удара, пока действует щит, получает +1 счётчик <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (до 10 за ход)",
+          "desc": "[WhenUse] При получении удара, пока действует щит, получает +1 к счётчику <sprite name=\"Charge\"><color=#f8c200><u><link=\"Charge\">Заряда</link></u></color> (до 10 за ход)",
           "coinlist": [
             {}
           ]
@@ -10727,7 +10727,7 @@
         {
           "level": 1,
           "name": "Устранить угрозу",
-          "desc": "Сила монет +1 при 15 и более щитах",
+          "desc": "Сила монет +1, если у обладателя не менее 15 единиц щита",
           "coinlist": [
             {},
             {},
@@ -10743,7 +10743,7 @@
         {
           "level": 4,
           "name": "Устранить угрозу",
-          "desc": "Сила монет +2 при 15 и более щитах",
+          "desc": "Сила монет +2, если у обладателя не менее 15 единиц щита",
           "coinlist": [
             {},
             {},
@@ -10797,7 +10797,7 @@
         {
           "level": 1,
           "name": "Ремиз",
-          "desc": "Сила монет +1 при 7 и более скорости",
+          "desc": "Сила монет +1 при собственной скорости 7 и более",
           "coinlist": [
             {},
             {
@@ -10812,7 +10812,7 @@
         {
           "level": 2,
           "name": "Ремиз",
-          "desc": "Сила монет +1 при 7 и более скорости\n[WinDuel] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход",
+          "desc": "Сила монет +1 при собственной скорости 7 и более\n[WinDuel] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход",
           "coinlist": [
             {},
             {
@@ -10827,7 +10827,7 @@
         {
           "level": 4,
           "name": "Ремиз",
-          "desc": "Сила монет +2 при 7 и более скорости\n[WinDuel] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход",
+          "desc": "Сила монет +2 при собственной скорости 7 и более\n[WinDuel] Получает 1 <sprite name=\"Agility\"><color=#f8c200><u><link=\"Agility\">Спешку</link></u></color> на следующий ход",
           "coinlist": [
             {},
             {
@@ -10897,7 +10897,7 @@
         {
           "level": 3,
           "name": "Салют!",
-          "desc": "Сила монет +2 при 10 и более скорости\n[WinDuel] Наносит больше урона в зависимости от числа столкновений (+5% за каждое столкновение, максимум 50%)",
+          "desc": "Сила монет +2 при собственной скорости 10 или выше\n[WinDuel] Наносит больше урона в зависимости от числа столкновений (+5% за каждое столкновение, максимум 50%)",
           "coinlist": [
             {
               "coindescs": [
@@ -10912,7 +10912,7 @@
         {
           "level": 4,
           "name": "Салют!",
-          "desc": "Сила монет +3 при 10 и более скорости\n[WinDuel] Наносит больше урона в зависимости от числа столкновений (+10% за каждое столкновение, максимум 100%)",
+          "desc": "Сила монет +3 при собственной скорости 10 или выше\n[WinDuel] Наносит больше урона в зависимости от числа столкновений (+10% за каждое столкновение, максимум 100%)",
           "coinlist": [
             {
               "coindescs": [
@@ -11419,7 +11419,7 @@
         {
           "level": 1,
           "name": "Раскалённый прокол",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11429,7 +11429,7 @@
         {
           "level": 1,
           "name": "Обжигающий надрез",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11439,7 +11439,7 @@
         {
           "level": 1,
           "name": "Следуя потоку",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11449,7 +11449,7 @@
         {
           "level": 1,
           "name": "Я проложу путь",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11459,7 +11459,7 @@
         {
           "level": 1,
           "name": "Тишина",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11469,7 +11469,7 @@
         {
           "level": 1,
           "name": "?",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11479,7 +11479,7 @@
         {
           "level": 1,
           "name": "?",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11489,7 +11489,7 @@
         {
           "level": 1,
           "name": "?",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     },
@@ -11499,7 +11499,7 @@
         {
           "level": 1,
           "name": "?",
-          "desc": "Невозможно изучить"
+          "desc": "Невозможно наблюдать"
         }
       ]
     }

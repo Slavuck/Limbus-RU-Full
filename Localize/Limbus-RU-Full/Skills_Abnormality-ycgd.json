@@ -43,7 +43,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Вдох",
+          "name": "Вдувание дыхания",
           "desc": "[WhenUse] Сила монет +1 против целей с 5 и более <sprite name=\"Combustion\"><color=#e30000><u><link=\"Combustion\">Огня</link></u></color>",
           "coinlist": [
             {
@@ -81,7 +81,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 Повышение урона по уязвимости"
+                  "desc": "[OnSucceedAttack] В следующем ходу получает 1 Повышение урона по уязвимости"
                 }
               ]
             }
@@ -162,7 +162,7 @@
         {
           "level": 1,
           "name": "Уворот",
-          "desc": "[OnSucceedEvade] Наносит 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color> на атакующего",
+          "desc": "[OnSucceedEvade] Накладывает на цель 2 <sprite name=\"Sinking\"><color=#e30000><u><link=\"Sinking\">Погружения</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -215,7 +215,7 @@
                   "desc": "[OnSucceedAttack] Повышает счётчик <sprite name=\"Laceration\"><color=#e30000><u><link=\"Laceration\">Кровотечения</link></u></color> на 3"
                 },
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 Повышение урона на следующей ход"
+                  "desc": "[OnSucceedAttack] Получает 1 Повышение урона на следующий ход"
                 }
               ]
             },
@@ -381,7 +381,7 @@
         {
           "level": 1,
           "name": "Уступлю плоть",
-          "desc": "Получает <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущую горечь</link></u></color> в количестве урона, полученного во время навыка, вызвавшего контратаку",
+          "desc": "В следующем ходу получает <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущую горечь</link></u></color> в количестве урона, полученного во время навыка, вызвавшего контратаку",
           "coinlist": [
             {
               "coindescs": [
@@ -439,7 +439,7 @@
         {
           "level": 1,
           "name": "Танец с мечом",
-          "desc": "[EnemyKill] Получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> и 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>",
+          "desc": "[EnemyKill] В начале следующего хода получает 3 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышения уровня атаки</link></u></color> и 3 <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышения уровня защиты</link></u></color>",
           "coinlist": [
             {
               "coindescs": [
@@ -458,14 +458,14 @@
         {
           "level": 1,
           "name": "Дабы разрубить кости",
-          "desc": "[CantChangeTarget]\nАтакует цель с самым низким здоровьем\n[EnemyKill] Удваивает <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущую горечь</link></u></color>\n[EnemyKill] Восстанавливает число <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущей горечи</link></u></color>",
+          "desc": "[CantChangeTarget]\nАтакует цель с самым низким здоровьем\n[EnemyKill] Удваивает <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущую горечь</link></u></color>\n[EnemyKill] Восстанавливает ОЗ в количестве, равном значению <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущей горечи</link></u></color>",
           "coinlist": [
             {},
             {},
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Наносит <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущую горечь</link></u></color> фиксированным уроном"
+                  "desc": "[OnSucceedAttack] Наносит фиксированный урон, равный значению <sprite name=\"Grudge\"><color=#f8c200><u><link=\"Grudge\">Растущей горечи</link></u></color>"
                 }
               ]
             }

@@ -135,7 +135,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Беглые раны",
+          "name": "Скользнуть по ранам",
           "desc": "[WhenUse] Сила монет +1 против целей с 2 и более [Laceration]",
           "coinlist": [
             {
@@ -181,7 +181,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] Получает 1 [Agility]"
+                  "desc": "[OnSucceedAttack] Получает 1 [Agility] на следующий ход."
                 }
               ]
             }
@@ -239,7 +239,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Обжигающий удар",
+          "name": "Обжигающий укол",
           "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion] и [Vibration] цели (До 2)",
           "coinlist": [
             {
@@ -309,7 +309,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Перезарядка зажигательных патронов",
+          "name": "Перезарядка патронов с метательным зарядом",
           "desc": "[StartBattle] [FullReload] (1 раз за ход)\n[WhenUse] Сила монет +3 против целей с суммой [Combustion] и [Vibration] не менее 6\n[WhenUse] Получает 1 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {
@@ -380,7 +380,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Продолжительное рассечение",
+          "name": "Рассечение с разгона",
           "desc": "[WhenUse] Сила монет +1 за каждые 7 единиц в сумме силы [Combustion] и [Vibration] цели (До 2)\n[DefeatDuel] Наносит на 75% меньше урона и не может оглушить цель",
           "coinlist": [
             {
@@ -424,7 +424,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "Перезарядка зажигательных патронов",
+          "name": "Перезарядка патронов с метательным зарядом",
           "desc": "[StartBattle] [FullReload] (1 раз за ход)\n[WhenUse] Сила монет +3 против целей с суммой [Combustion] и [Vibration] не менее 6\n[WhenUse] Получает 1 [AttackDmgUp] на следующий ход",
           "coinlist": [
             {

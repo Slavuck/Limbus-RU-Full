@@ -10,31 +10,31 @@
       "id": "NetherseaBrandUnit",
       "name": "Отпечаток глубин",
       "desc": "- Грешник, стоящий на территории, опутанной отпечатком глубин, к концу хода теряет 5% здоровья и получает 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>.\n- Значительно повышает [NervousImpairment], получаемый опутанными отпечатком глубин грешниками при принятии атак ужасов моря.\n- С каждым ходом отпечаток глубин разрастается, направляясь в сторону грешников.\n· Первая стадия: Территория ужасов моря;\n· Вторая стадия: Дорастает до территории двух близких к ужасам моря грешников;\n· Третья стадия: Дорастает до территории пяти близких к ужасам моря грешников;\n· Четвёртая стадия: Разрастается на территории всех грешников.",
-      "summary": "Союзники, стоящие на отпечатках глубин, теряют определённый процент здоровья и получают [NervousImpairment].\nЗначительно повышает [NervousImpairment], получаемый союзниками на отпечатках глубин от атак противников. "
+      "summary": "Союзники, стоящие на отпечатках глубин, получают фиксированный урон и [NervousImpairment].\nЗначительно увеличивает количество [NervousImpairment], которое враги, стоящие на отпечатках глубин, накладывают на союзников."
     },
     {
       "id": "SeaTerrorCell",
       "name": "Ассимиляция с ужасом моря",
-      "desc": "- Верхняя граница: 5.\n- В начале хода число эффекта повышается на 1.\n- За каждую единицу эффекта носитель эффекта получает 1 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> и 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>.\n- При достижении 5-и единиц к концу хода грешник с данным эффектом <sprite name=\"CommonExit\"><color=#9f6a3a><u><link=\"CommonExit\">покидает поле боя</link></u></color>.\n- Если грешник с данным эффектом пытается воспользоваться защитным навыком в начале боевой фазы, в конце хода он также <sprite name=\"CommonExit\"><color=#9f6a3a><u><link=\"CommonExit\">покидает поле боя</link></u></color>.",
+      "desc": "- Верхняя граница: 5.\n- В начале хода число эффекта повышается на 1.\n- За каждую единицу эффекта носитель эффекта получает 1 <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> и 1 <sprite name=\"DefenseDown\"><color=#e30000><u><link=\"DefenseDown\">Понижение уровня защиты</link></u></color>.\n- При достижении 5-и единиц к концу хода грешник с данным эффектом <sprite name=\"CommonExit\"><color=#9f6a3a><u><link=\"CommonExit\">покидает поле боя</link></u></color>.\n- Если союзный грешник с данным эффектом начинает бой с экипированным защитным навыком, в конце хода он также <sprite name=\"CommonExit\"><color=#9f6a3a><u><link=\"CommonExit\">покидает поле боя</link></u></color>.",
       "summary": "Грешник с данным эффектом получает <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня атаки</link></u></color> и <sprite name=\"AttackDown\"><color=#e30000><u><link=\"AttackDown\">Понижение уровня защиты</link></u></color>."
     },
     {
       "id": "NervousImpairment",
       "name": "Неврологический урон",
-      "desc": "- Верхняя граница: 30.\n- При достижении 30-и единиц носитель эффекта оглушается и теряет 25% здоровья; после этого данный эффект прекращает действие.",
+      "desc": "- Верхняя граница: 30.\n- При достижении 30 единиц носитель эффекта оглушается и получает фиксированный урон в размере 25% от максимального здоровья; после этого данный эффект прекращает действие.",
       "summary": "Носитель эффекта оглушается и получает значительный урон по здоровью."
     },
     {
       "id": "WaitingforCommandMod",
       "name": "Выжидание",
-      "desc": "- В состоянии <sprite name=\"WaitingforCommandMod\"><color=#9f6a3a><u><link=\"WaitingforCommandMod\">выжидания</link></u></color> Жнец не использует атакующие навыки.",
-      "summary": "В состоянии <sprite name=\"WaitingforCommandMod\"><color=#9f6a3a><u><link=\"WaitingforCommandMod\">выжидания</link></u></color> Жнец не использует атакующие навыки."
+      "desc": "- В состоянии <sprite name=\"WaitingforCommandMod\"><color=#9f6a3a><u><link=\"WaitingforCommandMod\">выжидания</link></u></color> Жнец не использует атакующие навыки, пока не получит урон.",
+      "summary": "В состоянии <sprite name=\"WaitingforCommandMod\"><color=#9f6a3a><u><link=\"WaitingforCommandMod\">выжидания</link></u></color> Жнец не использует атакующие навыки, пока не получит урон."
     },
     {
       "id": "ParticipationMod",
-      "name": "Пробуждение",
-      "desc": "- По <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">пробуждении</link></u></color> Жнец начинает использовать атакующие навыки.\n- <b>В <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">пробуждённом</link></u></color> состоянии Жнец:</b>\n· Наносит всем противникам 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>; \n· Получает +3 к обеим границам скорости;\n· Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> за каждые 10% потерянного здоровья (До 8-и).\n- В конце хода, если Жнец находится в <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">пробуждённом</link></u></color> состоянии, он теряет 10% здоровья.",
-      "summary": "По <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">пробуждении</link></u></color> Жнец начинает использовать атакующие навыки."
+      "name": "Боевая готовность",
+      "desc": "- После получения урона Жнец переходит в состояние <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">«Боевая готовность»</link></u></color> и начинает использовать атакующие навыки.\n- <b>В состоянии <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">«Боевая готовность»</link></u></color> в начале хода Жнец:</b>\n· Накладывает на всех противников 3 единицы <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color>; \n· Получает +3 к обеим границам скорости;\n· Получает 1 <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> за каждые 10% потерянного здоровья (максимум 8).\n- В конце хода, если Жнец находится в состоянии <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">«Боевая готовность»</link></u></color>, он получает фиксированный урон, равный 10% от максимальных ОЗ.",
+      "summary": "После получения урона Жнец переходит в состояние <sprite name=\"ParticipationMod\"><color=#9f6a3a><u><link=\"ParticipationMod\">«Боевая готовность»</link></u></color> и начинает использовать атакующие навыки."
     },
     {
       "id": "AbyssalVitality",
@@ -45,7 +45,7 @@
     {
       "id": "IndelibleGoodwill",
       "name": "Несмываемая добрая воля",
-      "desc": "- Щит не иссякает к концу хода (Эффект не действует на уничтожение при получении урона и снятие через эффекты).\n- Если щит оказывается уничтожен уроном, Мейерс оглушается и получает 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> на следующий ход.\n- При оглушении из-за повышенного порога она также получает 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> на следующий ход.\n- Число <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>, полученное благодаря этому эффекту, не складывается.\n- Хотя значение щита может складываться при наличии этого эффекта он не может превысить 50% здоровья Мейерс.\n- Этот эффект считается “управлением щитом” (При нанесении другого управления щитом он будет заменён).",
+      "desc": "- Щит не иссякает к концу хода (Эффект не действует на уничтожение при получении урона и снятие через эффекты).\n- Если щит разрушается от входящего попадания, его носитель оглушается и получает 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> до следующего хода.\n- При оглушении из-за повышенного порога носитель также получает 5 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимостей</link></u></color> до следующего хода.\n- Число <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>, полученное благодаря этому эффекту, не складывается.\n- Хотя значение щита может складываться при наличии этого эффекта он не может превысить 50% максимальных ОЗ носителя щита.\n- Этот эффект считается “управлением щитом” (При нанесении другого управления щитом он будет заменён).",
       "summary": "Щит не исчезает в конце хода.\nНоситель эффекта значительно ослабляется при разрушении щита."
     },
     {
@@ -87,31 +87,31 @@
     {
       "id": "CallOfSea_LowMorale",
       "name": "Кровный зов",
-      "desc": "В конце хода теряет 3% здоровья и дарует всем союзникам (включая себя) 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход.",
+      "desc": "В конце хода теряет 3% от максимального здоровья и дарует всем союзникам (включая себя) 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход.",
       "summary": "Теряет здоровье и взамен даёт <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>."
     },
     {
       "id": "CallOfSea_Panic",
       "name": "Кровный зов",
-      "desc": "В конце хода теряет 5% здоровья и дарует всем союзникам (включая себя) 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход.",
+      "desc": "В конце хода теряет 5% от максимального здоровья и получает 1 Уязвимость; затем дарует всем союзникам (включая себя) 1 <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и 1 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color> на следующий ход.",
       "summary": "Теряет здоровье и взамен даёт <sprite name=\"Enhancement\"><color=#f8c200><u><link=\"Enhancement\">Повышение силы атаки</link></u></color> и <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимость</link></u></color>."
     },
     {
       "id": "BitOfEmotion",
       "name": "Эмоциональная связь",
       "desc": "- Во время принятия атаки противника с шансом в (50 ÷ число монет в навыке)% даёт 1 ЭГО-ресурс греха использованного навыка.\n- При убийстве противника в конце атакующего навыка союзника даёт 2 наименьших ЭГО-ресурса.\n- <b>В этой битве даёт по 1 ЭГО-ресурсу всех грехов (2 во время разгона ЭГО) при использовании следующих ЭГО-навыков:</b>\n· 『Дабы остаться собой』 Хун Лу;\n· 『Приказ: Расплавление』 Фауст;\n· 『Неослепляющая слава』 Грегора;\n· 『Элегия волн』 Измаил.",
-      "summary": "Во время принятия атаки или убийства противника даёт ЭГО-ресурсы.\nДаёт ЭГО-ресурсы при использовании определённых ЭГО-навыков."
+      "summary": "При попадании по противнику или при его убийстве даёт ЭГО-ресурсы.\nДаёт ЭГО-ресурсы при использовании определённых ЭГО-навыков."
     },
     {
       "id": "WildernessSurvivalModule",
       "name": "Маленький помощник: Модуль для выживания под открытым небом",
-      "desc": "- Данный модуль даёт +20% к здоровью грешников и +40% к лечению навыками, пассивками и эффектами.",
-      "summary": "Увеличивает здоровье грешников и эффективность лечения."
+      "desc": "- Данный модуль даёт +20% к максимальному здоровью грешников и +40% к лечению навыками, пассивками и эффектами.",
+      "summary": "Увеличивает максимальное здоровье грешников и эффективность лечения."
     },
     {
       "id": "HousekeepingAssistantModule",
       "name": "Маленький помощник: Модуль помощника по хозяйству",
-      "desc": "- При использовании Руки святого активирует её ещё раз на следующий ход.\n-В начале хода грешники получают <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> и <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color>, равные числу уничтожений Рукой святого <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатков глубин</link></u></color> (До 4-х каждый).",
+      "desc": "- При использовании Руки святого активирует её ещё раз на следующий ход.\n-В начале хода грешники получают <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> и <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color>, равные числу уничтожений Рукой святого <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатков глубин</link></u></color> за этот бой (До 4-х каждый).",
       "summary": "При использовании Руки святого активирует её ещё раз на следующий ход.\nДаёт <sprite name=\"AttackUp\"><color=#f8c200><u><link=\"AttackUp\">Повышение уровня атаки</link></u></color> и <sprite name=\"DefenseUp\"><color=#f8c200><u><link=\"DefenseUp\">Повышение уровня защиты</link></u></color> по числу уничтожений <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечатков глубин</link></u></color>."
     },
     {
@@ -123,8 +123,8 @@
     {
       "id": "MiniDecontaminationKit",
       "name": "Маленький помощник: Очистительный мини-комплект",
-      "desc": "- <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечаток глубин</link></u></color> больше не наносит урон по грешникам и не наносит <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color>.",
-      "summary": "<sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечаток глубин</link></u></color> больше не наносит урон по грешникам и не наносит <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color>."
+      "desc": "- <sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечаток глубин</link></u></color> больше не наносит урон союзникам и не накладывает <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color>.",
+      "summary": "<sprite name=\"NetherseaBrandUnit\"><color=#e30000><u><link=\"NetherseaBrandUnit\">Отпечаток глубин</link></u></color> больше не наносит урон по грешникам и не накладывает <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color>."
     },
     {
       "id": "ExternalUpgradeModule",
@@ -141,7 +141,7 @@
     {
       "id": "DesireToSave_Panic",
       "name": "Добрая душа",
-      "desc": "- +(<sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color> на цели)% к наносимому урону (До 30%).\n- В начале хода получает ц <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>.",
+      "desc": "- +(<sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологический урон</link></u></color> на цели)% к наносимому урону (До 30%).\n- В начале хода получает 2 <sprite name=\"AttackDmgUp\"><color=#f8c200><u><link=\"AttackDmgUp\">Повышения урона</link></u></color> и 3 <sprite name=\"Vulnerable\"><color=#e30000><u><link=\"Vulnerable\">Уязвимости</link></u></color>.",
       "summary": "Повышает урон в зависимости от <sprite name=\"NervousImpairment\"><color=#e30000><u><link=\"NervousImpairment\">Неврологического урона</link></u></color> на цели."
     }
   ]
