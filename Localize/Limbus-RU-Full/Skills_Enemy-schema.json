@@ -1,0 +1,483 @@
+{
+  "dataList": [
+    {
+      "id": 600201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Шаг по облакам",
+          "desc": "[WhenUse] Если у цели 6 или больше [Laceration], сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration] (1 раз за навык)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Использовать эту монету повторно (1 раз за навык)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Мрачное облако",
+          "desc": "[WhenUse] Если у цели 6 или больше [Laceration], сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить свой счётчик [Laceration] на 2 (1 раз за навык)"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Использовать эту монету повторно (1 раз за навык)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Батто-сисэй",
+          "desc": "[WhenUse] Восстановить 5 СД\n- При 50% ОЗ или меньше восстановить 10 СД",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [SlashTakeDamageUp]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [DefenseDown]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Кумо-гири",
+          "desc": "Приоритет — цель с наибольшей силой [Laceration]\n[WhenUse]\n- Вес атаки +1 и сила монеты +1 за каждые 50 [SharpSensibility]\n- Урон +(заряды [SharpSensibility])%\n[WhenUse] Урон +(сила [Laceration] на основной цели)% (макс. 50%)\n[DefeatDuel] Получить 3 [Paralysis]. Урон −75%. Урон этого навыка не может ошеломить цель\n[EndSkillAll] Потратить все [SharpSensibility]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 3"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если счётчик [Laceration] цели не ниже 5, дважды активировать на ней [Laceration]. Цель теряет 2 счётчика [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Амэ-гири",
+          "desc": "[WhenUse] Если у цели 6 или больше [Laceration], сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 3 [AttackDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если счётчик [Laceration] цели не ниже 10, один раз активировать на ней [Laceration]. Цель теряет 1 счётчик [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600206,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Курокумо-гири",
+          "desc": "[WhenUse] Если у цели 6 или больше [Laceration], сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 3 [Laceration]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Paralysis]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если счётчик [Laceration] цели не ниже 10, один раз активировать на ней [Laceration]. Цель теряет 1 счётчик [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600207,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Разрез пространства [Курокумо]",
+          "desc": "Приоритет — цель с наибольшей силой [Laceration]\n[WhenUse]\n- Вес атаки +1 за каждые 25 [SharpSensibility]\n- Сила монеты +1 за каждые 50 [SharpSensibility]\n- Урон +(заряды [SharpSensibility])%\n[WhenUse] Урон +(сила [Laceration] + счётчик [Laceration] на основной цели)% (макс. 100%)\n[DefeatDuel] Получить 4 [Paralysis]. Урон −75%. Урон этого навыка не может ошеломить цель\n[EndSkillAll] Потратить все [SharpSensibility]",
+          "flavor": "Техника меча, которую придумал глава второй семьи Курокумо. Удар ещё далёк от совершенства, но на миг рассекает само пространство.",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Наложить 2 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Laceration] и увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[UnBrokenCoinOnSucceedAttack] Если счётчик [Laceration] цели не ниже 5, дважды активировать на ней [Laceration]. Цель теряет 2 счётчика [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Электрическая погоня",
+          "desc": "[WhenUse] Сила монеты +1 за каждый [DogThunder] у себя (макс. 3)\n[WhenUse] Урон +15% за каждые 5 ([Laceration] + [Burst]) на цели (макс. 60%)\n[WhenUse] Если на цели 3 или больше [ElectricShock], превратить все монеты этого навыка в [SuperCoin]\n[DefeatDuel] Урон −50%. Урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Burst] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Burst] на 4 на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Громоотвод",
+          "desc": "[WhenUse] Сила монеты +1 за каждый [DogThunder] у себя (макс. 3)\n[WhenUse] Урон +20% за каждые 5 ([Laceration] + [Burst]) на цели (макс. 80%)\n[WhenUse] Если на цели 3 или больше [ElectricShock], превратить все монеты этого навыка в [SuperCoin]\n[DefeatDuel] Урон −50%. Урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 5 [Burst] и увеличить счётчик [Burst] на 2 на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 601103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Красные молнии",
+          "desc": "[WhenUse] Вес атаки +1 за каждые 2 [ElectricPolePower] у себя (макс. 5)\n[WhenUse] Итоговая сила +1 и урон +10% за каждый [ElectricPolePower] у себя (макс. 10 и 100% соответственно)\n[WhenUse] Урон +15% за каждые 5 ([Laceration] + [Burst]) на основной цели (макс. 60%)\n[DefeatDuel] Урон −50%. Урон этого навыка не может ошеломить цель\n[EndSkill] [ElectricPolePower] исчезает",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 10 [Burst] на следующий ход"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Burst] на 2 на следующий ход"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вынос мусора",
+          "desc": "Если у цели 4 или больше [Laceration], сила монеты +1\n[DefeatDuel] Урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Laceration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 1"
+                },
+                {
+                  "desc": "При попадании этой монетой восстановить себе ОЗ в размере 30% нанесённого урона по ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] Использовать эту монету повторно (до 3 раз за навык)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "333..1973",
+          "desc": "[StartBattle] Получить 4 [Persistent]\n[DefeatDuel] Урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снизить собственный порог ошеломления на 5"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Повысить счётчик Кровотечения на 3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 600706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Ночь в Подворотнях",
+          "desc": "Если у цели 2 или больше [Laceration], сила монеты +1\n[DefeatDuel] Урон этого навыка не может ошеломить цель",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Восстановить 8 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Восстановить 8 ОЗ"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Снизить собственный порог ошеломления на 8"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Один раз активировать [Laceration] на цели (снизить счётчик [Laceration] на 1)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

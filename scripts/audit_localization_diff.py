@@ -265,7 +265,7 @@ def required_source_tags(english: str, korean: str | None) -> list[str]:
     korean_tags = Counter(audit_tags(korean))
     localized_bracket_slots = sum(
         1
-        for match in re.finditer(r"\[[^\]\r\n]+\]", korean)
+        for match in re.finditer(r"\[[^\]\r\n]+\]|【[^】\r\n]+】", korean)
         if PRECISE_BRACKET_TAG_RE.fullmatch(match.group(0)) is None
     )
     required: list[str] = []

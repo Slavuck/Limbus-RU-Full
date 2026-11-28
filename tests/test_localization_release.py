@@ -39,7 +39,7 @@ class LocalizationReleaseTests(unittest.TestCase):
 
     def test_all_localization_json_files_parse(self) -> None:
         paths = sorted(LOCALIZE.rglob("*.json"))
-        self.assertEqual(len(paths), 2406)  # Number of EN-backed JSON files in 1.119.0.
+        self.assertEqual(len(paths), 2421)  # Number of EN-backed JSON files in 1.120.0.
         for path in paths:
             with path.open("r", encoding="utf-8-sig") as handle:
                 json.load(handle)

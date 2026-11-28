@@ -3300,6 +3300,317 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1121701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Пульсирующая нить",
+          "desc": "[StartBattle] Восстановить 10% ОЗ союзнику со статусом [RougeGregLink] (1 раз за ход)\n[WhenUse] Если счётчик [ChargeRougeAlly] ниже 5, потратить (2 × (5 − текущий счётчик [ChargeRougeAlly]))% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 5",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Пульсирующая нить",
+          "desc": "[StartBattle] Восстановить 10% ОЗ союзнику со статусом [RougeGregLink] (1 раз за ход)\n[WhenUse] Если счётчик [ChargeRougeAlly] ниже 5, потратить (2 × (5 − текущий счётчик [ChargeRougeAlly]))% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 5\n<style=\"highlight\">[WhenUse] Если сила [Laceration] цели не ниже 6, сила монеты +1</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Пульсирующая нить",
+          "desc": "[StartBattle] Восстановить 10% ОЗ союзнику со статусом [RougeGregLink] (1 раз за ход)\n[WhenUse] Если счётчик [ChargeRougeAlly] ниже 5, потратить (2 × (5 − текущий счётчик [ChargeRougeAlly]))% ОЗ, чтобы поднять счётчик [ChargeRougeAlly] до 5\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] у себя (макс. 2)</style>\n[WhenUse] Если сила [Laceration] цели не ниже 6, сила монеты +1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Жажда и желание в одной пряди",
+          "desc": "[StartBattle] Увеличить счётчик [Charge] на 4 у союзников со статусом [RougeGregLink] (1 раз за ход)\n[StartBattle] Наложить 1 [AttackUp] на все союзные Идентичности из «Ле Руж» или с экипированными навыками Похоти, включая себя (1 раз за ход)\n\n[WhenUse] Потратить 4 счётчика [ChargeRougeAlly] для получения +1 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Жажда и желание в одной пряди",
+          "desc": "[StartBattle] Увеличить счётчик [Charge] на 4 у союзников со статусом [RougeGregLink] (1 раз за ход)\n[StartBattle] Наложить 1 [AttackUp] на все союзные Идентичности из «Ле Руж» или с экипированными навыками Похоти, включая себя (1 раз за ход)\n\n<style=\"highlight\">[WhenUse] Сила монеты +1 за каждые 6 силы [Laceration] на цели (макс. 2)</style>\n[WhenUse] Потратить 4 счётчика [ChargeRougeAlly] для получения +1 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Жажда и желание в одной пряди",
+          "desc": "[StartBattle] Увеличить счётчик [Charge] на 4 у союзников со статусом [RougeGregLink] (1 раз за ход)\n[StartBattle] Наложить 1 [AttackUp] на все союзные Идентичности из «Ле Руж» или с экипированными навыками Похоти, включая себя (1 раз за ход)\n\n<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] у себя (макс. 2)</style>\n[WhenUse] Сила монеты +1 за каждые 6 силы [Laceration] на цели (макс. 2)\n[WhenUse] Потратить 4 счётчика [ChargeRougeAlly] для получения +1 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 3"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Сияющий клубок нитей",
+          "desc": "[StartBattle] Наложить 2 [AttackUp] на себя и на союзника со статусом [RougeGregLink]\n[StartBattle] Наложить 2 [Enhancement] и 3 [RougeGregAutoHeal] на союзника со статусом [RougeGregLink] (2 раза за ход)\n- Если этот союзник из «Ле Руж», дополнительно наложить 2 [AttackDmgUp]\n\n[WhenUse] При силе [ChargeRougeAlly] 2 или выше итоговая сила +1\n[WhenUse] Если сила [Laceration] цели не ниже 6, сила монеты +1\n[WhenUse] Урон +30% за каждый [RougeGregWarmUp] у себя\n\n[EndSkill] Потратить до 15 счётчика [ChargeRougeAlly], чтобы увеличить счётчик [Charge] на столько же единиц счётчика [ChargeRougeAlly] у союзника со статусом [RougeGregLink]\n- Если от этого счётчик [Charge] цели превышает максимум, восстановить ей процент ОЗ, равный избытку",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 8"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Сияющий клубок нитей",
+          "desc": "[StartBattle] Наложить 2 [AttackUp] на себя и на союзника со статусом [RougeGregLink]\n[StartBattle] Наложить 2 [Enhancement] и 3 [RougeGregAutoHeal] на союзника со статусом [RougeGregLink] (2 раза за ход)\n- Если этот союзник из «Ле Руж», дополнительно наложить 2 [AttackDmgUp]\n\n[WhenUse] Итоговая сила +1 за каждые 2 силы [ChargeRougeAlly] у себя (макс. 3)\n[WhenUse] Сила монеты +1 за каждые 6 силы [Laceration] на цели (макс. 2)\n[WhenUse] Урон +30% за каждый [RougeGregWarmUp] у себя\n\n[EndSkill] Потратить до 15 счётчика [ChargeRougeAlly], чтобы увеличить счётчик [Charge] на столько же единиц счётчика [ChargeRougeAlly] у союзника со статусом [RougeGregLink]\n- Если от этого счётчик [Charge] цели превышает максимум, восстановить ей процент ОЗ, равный избытку",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeRougeAlly] на 8"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [DefenseDown]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 3 [Laceration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Переплетение нитей",
+          "desc": "[CanDuelGuard]\n[SupportAlly]\nЕсли цель навыка — союзник, навык получает [CantDuel]\n\n[StartBattle] Получить 2 [RougeGregAutoHeal] (1 раз за ход)\n[StartBattle] Увеличить счётчик [ChargeRougeAlly] на 4 (2 раза за ход)\n[StartBattle] Если цель навыка — союзник, применить к нему «Завязать узел» (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Переплетение нитей",
+          "desc": "[CanDuelGuard]\n[SupportAlly]\nЕсли цель навыка — союзник, навык получает [CantDuel]\n\n[StartBattle] Получить 2 [RougeGregAutoHeal] (1 раз за ход)\n<style=\"highlight\">[StartBattle] Увеличить счётчик [Charge] на 2 у всех союзных Идентичностей с экипированными навыками Похоти, включая себя (1 раз за ход)</style>\n[StartBattle] Увеличить счётчик [ChargeRougeAlly] на 4 (2 раза за ход)\n[StartBattle] Если цель навыка — союзник, применить к нему «Завязать узел» (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Завязать узел",
+          "desc": "[CantIdentify]\n[CantDuel]\nСвойства навыка:\n- Не вызывает срабатывания защитных навыков\n- Не применяется повторно от внешних эффектов\n- Его атака не попадает по цели\n\n[BeforeUse] Если цель — союзник, сменить тип нити у себя\n- [RougeGregRed] → [RougeGregYellow]\n- [RougeGregYellow] → [RougeGregBlue]\n- [RougeGregBlue] → [RougeGregRed]\n\n[WhenUse] Если у бойца нет нити, получить [RougeGregRed]\n\n[EndSkill] Если цель — союзник, наложить на него [RougeGregLink] и активировать эффект в зависимости от нити у себя:\n- [RougeGregRed]: увеличить счётчик [Charge] цели на 6\n- [RougeGregYellow]: наложить на цель 1 [Enhancement] и 1 [AttackDmgUp]\n- [RougeGregBlue]: восстановить по 15% ОЗ себе и цели",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Вытянуть нить",
+          "desc": "[CantDuel]\n\nПри попадании этим навыком восстановить себе 8% ОЗ (1 раз за монету)\n\n[WhenUse] Увеличить счётчик [ChargeRougeAlly] на 3",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Laceration] на 2"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Laceration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Потратить 5 счётчика [ChargeRougeAlly], чтобы использовать эту монету повторно (1 раз за навык)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
