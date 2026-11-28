@@ -3282,6 +3282,370 @@
           ]
         }
       ]
+    },
+    {
+      "id": 1011701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Свежевание",
+          "desc": "[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +1 к итоговой силе\n[DefeatDuel] Получить щит в размере 5% максимальных ОЗ бойца и +4 к счётчику [ChargeNoirAlly] (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 1 [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Свежевание",
+          "desc": "[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +1 к итоговой силе\n<style=\"highlight\">[WhenUse] При силе [ChargeNoirAlly] 3 или выше сила монеты +1 и урон +10%</style>\n[DefeatDuel] Получить щит в размере 5% максимальных ОЗ бойца и +4 к счётчику [ChargeNoirAlly] (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">2</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Свежевание",
+          "desc": "<style=\"highlight\">[WhenUse] Итоговая сила +1 за каждые 4 (сила [Vibration] + [MoodooJoesu]) на цели (макс. 3)</style>\n[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +1 к итоговой силе\n[WhenUse] При силе [ChargeNoirAlly] 3 или выше сила монеты +1 и урон +<style=\"highlight\">20</style>%\n[DefeatDuel] Получить щит в размере 5% максимальных ОЗ бойца и +4 к счётчику [ChargeNoirAlly] (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 6"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">3</style> [Vibration]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "Двоение",
+          "desc": "[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +1 к итоговой силе",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 8"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При запасе [BulletJoesu] 3 или больше наложить 1 [HitTakeDamageUp] (1 раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Потратить 3 [BulletJoesu]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем снизить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "Двоение",
+          "desc": "[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +1 к итоговой силе\n<style=\"highlight\">[WhenUse] При силе [ChargeNoirAlly] 3 или выше сила монеты +1 и урон +10%</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 8"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При запасе [BulletJoesu] 3 или больше наложить 1 [HitTakeDamageUp] (1 раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Потратить 3 [BulletJoesu]"
+                },
+                {
+                  "desc": "<style=\"highlight\">[OnSucceedAttack] Увеличить счётчик [Vibration] на 1</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем снизить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Двоение",
+          "desc": "<style=\"highlight\">[WhenUse] Если сумма силы [Vibration] и [MoodooJoesu] на цели не меньше 6, сила монеты +1</style>\n[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +1 к итоговой силе\n[WhenUse] При силе [ChargeNoirAlly] 3 или выше сила монеты +1 и урон +<style=\"highlight\">20</style>%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 8"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] При запасе [BulletJoesu] 3 или больше наложить 1 [HitTakeDamageUp] (1 раз за ход)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Потратить 3 [BulletJoesu]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем снизить счётчик [Vibration] цели на 1<style=\"highlight\"></style>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Барабанная обработка кожи мозговым жиром: Первородный грех",
+          "desc": "[BeforeUse] При запасе 6 [BulletJoesu] активировать как [WideAreaRampage], вес атаки +2 (1 раз за ход)\n\n[WhenUse] Если сумма силы [Vibration] и [MoodooJoesu] на основной цели не меньше 6, сила монеты +1\n[WhenUse] Потратить 5 счётчика [ChargeNoirAlly] для получения +2 к итоговой силе\n[WhenUse] При силе [ChargeNoirAlly] 3 или выше сила монеты +1 и урон +10%\n[WhenUse] Урон +20% за каждую единицу веса атаки сверх числа фактических целей (в сосредоточенном бою считаются части)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Потратить 6 [BulletJoesu]"
+                },
+                {
+                  "desc": "Эта монета поражает все цели атаки"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем снизить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Барабанная обработка кожи мозговым жиром: Первородный грех",
+          "desc": "[BeforeUse] При запасе 6 [BulletJoesu] активировать как [WideAreaRampage], вес атаки +2 (1 раз за ход)\n\n<style=\"highlight\">[WhenUse] Сила монеты +1 за каждые 6 (сила [Vibration] + [MoodooJoesu]) на основной цели (макс. 2)</style>\n[WhenUse] Потратить 5 счётчика [ChargeNoirAlly] для получения +2 к итоговой силе\n[WhenUse] При силе [ChargeNoirAlly] 3 или выше сила монеты +1 и урон +<style=\"highlight\">20</style>%\n[WhenUse] Урон +<style=\"highlight\">30</style>% за каждую единицу веса атаки сверх числа фактических целей (в сосредоточенном бою считаются части)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 4"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] Наложить 4 [Vibration]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "Потратить 6 [BulletJoesu]"
+                },
+                {
+                  "desc": "Эта монета поражает все цели атаки"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [Vibration] на <style=\"highlight\">2</style>"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем снизить счётчик [Vibration] цели на 1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "<size=120%>Н</size>АДЗОР<size=120%>Р</size>АДИ<size=120%>К</size>ОНТРОЛЯ<size=120%>Н</size>АДЗОРА",
+          "desc": "[CanDuelGuard]\n\n[StartBattle] Увеличить счётчик [ChargeNoirAlly] на 4 (1 раз за ход)\n\n[WhenUse] Сила монеты +1 за каждые 2 [MoodooJoesu] на цели (макс. 3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "<size=120%>Н</size>АДЗОР<size=120%>Р</size>АДИ<size=120%>К</size>ОНТРОЛЯ<size=120%>Н</size>АДЗОРА",
+          "desc": "[CanDuelGuard]\n\n[StartBattle] Увеличить счётчик [ChargeNoirAlly] на 4 (1 раз за ход)\n\n[WhenUse] Сила монеты +1 за каждые 2 [MoodooJoesu] на цели (макс. 3)\n\n<style=\"highlight\">[StartDuel] Получить 1 [RuleSanction] (1 раз за ход)</style>\n<style=\"highlight\">[WinDuel] Наложить 1 [RuleViolation] (1 раз за ход)</style>",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "<size=120%>Н</size>АДЗОР<size=120%>Р</size>АДИ<size=120%>К</size>ОНТРОЛЯ<size=120%>Н</size>АДЗОРА",
+          "desc": "[CanDuelGuard]\n\n[StartBattle] Увеличить счётчик [ChargeNoirAlly] на 4 (1 раз за ход)\n\n<style=\"highlight\">[WhenUse] При силе [ChargeNoirAlly] 3 или выше итоговая сила +1</style>\n[WhenUse] Сила монеты +1 за каждые 2 [MoodooJoesu] на цели (макс. 3)\n\n[StartDuel] Получить 1 [RuleSanction] (1 раз за ход)\n[WinDuel] Наложить 1 [RuleViolation] (1 раз за ход)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1011705,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "Карающая финишная полировка",
+          "desc": "[CantDuel]\n[WhenUse] Итоговая сила +1 за каждые 4 (сила [Vibration] + [MoodooJoesu]) на цели (макс. 2)\n[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +2 к итоговой силе и +20% к урону\n[WhenUse] При силе [ChargeNoirAlly] 3 или выше итоговая сила +1 и урон +30%\n\n[EndSkill] Потерять 3 [RuleSanction]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Урон +100%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить 2 [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем снизить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести Дробящий урон в размере ([MoodooJoesu] × 4)% итогового урона этой монеты (макс. 16%, с округлением вниз)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "Карающая финишная полировка",
+          "desc": "[CantDuel]\n[WhenUse] Итоговая сила +1 за каждые 4 (сила [Vibration] + [MoodooJoesu]) на цели (макс. <style=\"highlight\">3</style>)\n[WhenUse] Потратить 3 счётчика [ChargeNoirAlly] для получения +2 к итоговой силе и +<style=\"highlight\">40</style>% к урону\n[WhenUse] При силе [ChargeNoirAlly] 3 или выше итоговая сила +<style=\"highlight\">2</style> и урон +<style=\"highlight\">60</style>%\n\n[EndSkill] Потерять 3 [RuleSanction]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "Урон +<style=\"highlight\">120</style>%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Увеличить счётчик [ChargeNoirAlly] на 4"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Наложить <style=\"highlight\">4</style> [Vibration]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Вызвать [VibrationExplosion], затем снизить счётчик [Vibration] цели на 1"
+                },
+                {
+                  "desc": "[OnSucceedAttack] Нанести Дробящий урон в размере ([MoodooJoesu] × <style=\"highlight\">5</style>)% итогового урона этой монеты (макс. <style=\"highlight\">20%</style>, с округлением вниз)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

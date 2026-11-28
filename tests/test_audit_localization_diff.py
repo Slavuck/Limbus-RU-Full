@@ -281,6 +281,16 @@ class AuditLocalizationDiffTests(unittest.TestCase):
         )
         self.assertEqual(len(auditor.state.format_errors), 1)
 
+    def test_korean_corner_brackets_mark_a_display_label(self) -> None:
+        auditor = Auditor({}, {}, full_review=True)
+        auditor.compare_file(
+            "A.json",
+            {"desc": "Use [Charge] when Strider [Wu] is active"},
+            {"desc": "각력【오】가 있으면 [Charge] 사용"},
+            {"desc": "Расходовать [Charge], если действует Усиление ног 【У】"},
+        )
+        self.assertEqual(auditor.state.format_errors, [])
+
     def test_missing_russian_text_is_reported_as_untranslated(self) -> None:
         auditor = self.auditor()
         auditor.compare_file("A.json", {"desc": "A visible sentence."}, {}, {})

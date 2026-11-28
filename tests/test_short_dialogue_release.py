@@ -15,7 +15,7 @@ class ShortDialogueReleaseTests(unittest.TestCase):
         line = next(r for r in doc['dataList'] if r['id'] == 104)['content']
         self.assertIn('Нет', line)
         self.assertNotIn('No', line)
-        self.assertTrue(line.startswith('‹') and line.endswith('›'))
+        self.assertTrue(line.startswith('<') and line.endswith('>'))
 
 
 if __name__ == '__main__':
